@@ -21,6 +21,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run script
         run: python get_alerts.py
+      - name: Run csv
+        run: python make_csv.py
       - name: "Commit and push if it changed"
         run: |-
             git config user.name "Automated"
