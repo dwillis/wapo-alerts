@@ -1027,5 +1027,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0cd1ad10-d990-11ee-9e49-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iowa star Caitlin Clark passes Pete Maravich to become the all-time NCAA Division I basketball scoring leader",
+            "ios": {
+                "alert": {
+                    "body": "Iowa star Caitlin Clark passes Pete Maravich to become the all-time NCAA Division I basketball scoring leader",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/03/caitlin-clark-iowa-senior-day/",
+                        "datetime": "2024-03-03T18:58:40.597000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e4c86007c4753500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "Clark, whose No. 6 Iowa Hawkeyes faced No. 2 Ohio State on Sunday, needed 18 points to surpass Maravich for the record. Last week, the senior guard broke a pre-NCAA scoring record set by Lynette Woodard for women\u2019s major college basketball and announced her intention to enter the 2024 WNBA draft, where she's widely expected to be the No. 1 overall pick."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
