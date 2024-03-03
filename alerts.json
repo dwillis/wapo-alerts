@@ -1125,5 +1125,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9e140e10-d9b0-11ee-b700-000a1ace0045",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel\u2019s restrictions on Gaza aid put the enclave on the brink of famine",
+            "ios": {
+                "alert": {
+                    "body": "Israel\u2019s restrictions on Gaza aid put the enclave on the brink of famine",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/03/gaza-aid-convoy-israel-war/",
+                        "datetime": "2024-03-03T22:51:48.250000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e4ff0447b8293500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Thursday\u2019s aid convoy tragedy highlighted the ongoing obstacles to delivering aid to war-battered Gaza. Humanitarian officials say Israel\u2019s limiting of entry points for aid, its onerous inspection process, and its military\u2019s attacks on aid convoys and the police who guarded them have produced a \u201cmanmade\u201d hunger crisis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
