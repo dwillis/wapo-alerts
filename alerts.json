@@ -929,5 +929,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "436c2960-d97f-11ee-84d2-00000a1aced4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Relisha Rudd was 8 when a janitor at a homeless shelter befriended her, then took her. A decade later, she haunts a changed city.",
+            "ios": {
+                "alert": {
+                    "body": "Relisha Rudd was 8 when a janitor at a homeless shelter befriended her, then took her. A decade later, she haunts a changed city.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/03/relisha-rudd-missing-decade-dc-homeless/",
+                        "datetime": "2024-03-03T16:58:30.724000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e4ac3607c4753500000005",
+                        "targetTopic": "local",
+                        "text": "Nearly three weeks passed before D.C. authorities realized she was missing. She still has not been found. Her disappearance forced a reckoning in how the city treats its poorest and most vulnerable residents."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
