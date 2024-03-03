@@ -782,5 +782,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "29407740-d8f2-11ee-9d52-00000a1ace8f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump sweeps GOP primary contests in Michigan, Idaho and Missouri, AP projects, bringing him closer to clinching nomination",
+            "ios": {
+                "alert": {
+                    "body": "Trump sweeps GOP primary contests in Michigan, Idaho and Missouri, AP projects, bringing him closer to clinching nomination",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/03/02/gop-primary-idaho-missouri-michigan-presidential-2024/",
+                        "datetime": "2024-03-03T00:08:27.816000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e3bf7b07c4753500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Donald Trump won all three nominating contests Saturday, the Associated Press projected, putting him in a stronger position for March 5, the day 15 states and a third of delegates are awarded as part of Super Tuesday. Nikki Haley, Trump\u2019s main rival for the GOP nod, has vowed to press on until then, despite losing every primary and caucus so far."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
