@@ -880,5 +880,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4cc947b0-d973-11ee-b848-00000a1ace58",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Offensive comments by N.C. Republican gubernatorial hopeful Mark Robinson stand out, even in Trump\u2019s party",
+            "ios": {
+                "alert": {
+                    "body": "Offensive comments by N.C. Republican gubernatorial hopeful Mark Robinson stand out, even in Trump\u2019s party",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/03/02/mark-robinson-governor-candidate-north-carolina-offensive-comments/",
+                        "datetime": "2024-03-03T15:32:52.565000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e4982407c4753500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "Robinson is favored to advance to a November showdown against Democratic Attorney General Josh Stein, who has a much more measured tone \u2014 setting up a clash that echoes the choice between former president Donald Trump and President Biden. To many Republicans, Robinson is a conservative Christian firebrand with Trump-like appeal. To others, he is a glaring liability in a battleground race."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
