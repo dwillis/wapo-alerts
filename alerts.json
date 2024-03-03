@@ -1076,5 +1076,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a9627610-d999-11ee-b4e4-0000a1ace5d6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: I don\u2019t want kids. Should I have them to make my parents happy?",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: I don\u2019t want kids. Should I have them to make my parents happy?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/02/29/ask-sahaj-having-kids-for-parents-approval/",
+                        "datetime": "2024-03-03T20:07:28.708000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e4d88047b8293500000001",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: I don\u2019t want kids. Should I have them to make my parents happy?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
