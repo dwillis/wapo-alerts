@@ -1665,5 +1665,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fc9bce20-da67-11ee-bd7a-00000a1ace86",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New U.N. report finds \u2018reasonable grounds\u2019 to believe people were sexually assaulted during Hamas\u2019s Oct. 7 attack on Israel",
+            "ios": {
+                "alert": {
+                    "body": "New U.N. report finds \u2018reasonable grounds\u2019 to believe people were sexually assaulted during Hamas\u2019s Oct. 7 attack on Israel",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/04/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-03-04T20:44:24.730000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e632a807c475350000000c",
+                        "targetTopic": "world",
+                        "text": "As part of its inquiry, a team of experts interviewed survivors and witnesses of the Oct. 7 attacks \u2014 though they did not speak with any survivors of the alleged sexual violence and did not attribute the violence to specific armed groups."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
