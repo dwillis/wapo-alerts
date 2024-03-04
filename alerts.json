@@ -1616,5 +1616,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a04e4230-da56-11ee-bf66-00000a1acedc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jason Kelce, the Philadelphia Eagles\u2019 longtime center, will retire after a stellar 13-year NFL career",
+            "ios": {
+                "alert": {
+                    "body": "Jason Kelce, the Philadelphia Eagles\u2019 longtime center, will retire after a stellar 13-year NFL career",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/04/jason-kelce/",
+                        "datetime": "2024-03-04T18:40:08.346000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e6158807c475350000000b",
+                        "targetTopic": "sports",
+                        "text": "Kelce\u2019s six all-pro nods and victory in Super Bowl LII almost certainly will earn him a place in the Pro Football Hall of Fame. Off the field, Kelce gained even more fame thanks to the podcast he hosts with his brother, Kansas City Chiefs tight end Travis Kelce, and his boisterous, shirtless celebrations as the Chiefs advanced to this year\u2019s Super Bowl."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
