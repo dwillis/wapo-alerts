@@ -1420,5 +1420,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cd10fa50-da43-11ee-a39b-00000a1ace11",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former Trump Organization financial officer Allen Weisselberg pleads guilty to perjury charges",
+            "ios": {
+                "alert": {
+                    "body": "Former Trump Organization financial officer Allen Weisselberg pleads guilty to perjury charges",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/04/trump-weisselberg-guilty-plea/",
+                        "datetime": "2024-03-04T16:25:23.077000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e5f5f3529b803500000008",
+                        "targetTopic": "us",
+                        "text": "The perjury charges mark the latest legal peril for Allen Weisselberg, who in recent years pleaded guilty to multiple felonies, including grand larceny and criminal tax fraud; served months behind bars; and was penalized $1 million in a civil fraud trial."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
