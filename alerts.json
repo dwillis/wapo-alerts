@@ -1174,5 +1174,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eb97d6a0-d9c7-11ee-b63c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Haley pulls off her first 2024 GOP win in D.C., AP projects. Trump is still heavily favored to clinch the nomination.",
+            "ios": {
+                "alert": {
+                    "body": "Haley pulls off her first 2024 GOP win in D.C., AP projects. Trump is still heavily favored to clinch the nomination.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/03/gop-primary-dc/",
+                        "datetime": "2024-03-04T01:38:34.957000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e5261a3fbc7f3500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Nikki Haley beat Donald Trump in the nation\u2019s capital, the Associated Press reported. But only 19 delegates were at stake, so her campaign still significantly lags as the race heads to what could be a decisive Super Tuesday on March 5, when 15 states and a third of delegates are awarded."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
