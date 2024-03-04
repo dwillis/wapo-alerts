@@ -1469,5 +1469,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d30fe590-da4f-11ee-bf66-00000a1acedc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "France becomes first country to explicitly enshrine abortion rights in its constitution \u2014 a response to U.S. restrictions",
+            "ios": {
+                "alert": {
+                    "body": "France becomes first country to explicitly enshrine abortion rights in its constitution \u2014 a response to U.S. restrictions",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/04/france-abortion-constitution/",
+                        "datetime": "2024-03-04T17:51:27.041000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e60a1f07c475350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "French lawmakers meeting in a special session at Versailles voted to add abortion to the constitution as a \u201cguaranteed freedom.\u201d Activists and politicians have been transparent that this is a response to the U.S. Supreme Court ruling that abortion protections are not inferred from the Constitution."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7146e580-da4e-11ee-9088-000a1ace148d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A lifelong gun owner wondered how he'd react if an intruder ever broke in. Then he found out.",
+            "ios": {
+                "alert": {
+                    "body": "A lifelong gun owner wondered how he'd react if an intruder ever broke in. Then he found out.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/04/intruder-gun-self-defense/",
+                        "datetime": "2024-03-04T17:41:33.533000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e607cd3fbc7f3500000004",
+                        "targetTopic": "opinions",
+                        "text": "I never sleep with a gun under my pillow. But one night not long ago, I wished I had."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "db04f620-da48-11ee-b700-000a1ace0045",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Under pressure to forgive ailing mom for abandoning them as kids",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Under pressure to forgive ailing mom for abandoning them as kids",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/04/carolyn-hax-mom-forgive-abandonment/",
+                        "datetime": "2024-03-04T17:01:33.902000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e5fe6d07c4753500000009",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Under pressure to forgive ailing mom for abandoning them as kids"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
