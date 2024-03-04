@@ -1763,5 +1763,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0f371470-da79-11ee-9d76-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Winter is warming almost everywhere in the U.S. This is how the season has changed in your city since 1980.",
+            "ios": {
+                "alert": {
+                    "body": "Winter is warming almost everywhere in the U.S. This is how the season has changed in your city since 1980.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/winter-temperature-warming-city-data-climate-change/",
+                        "datetime": "2024-03-04T22:46:37.363000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e64f4d3fbc7f3500000005",
+                        "targetTopic": "editors_picks",
+                        "text": "Look up your city to see how winter temperatures have changed over the past decades. Most regions across the United States have seen warmer winters, with New England warming the fastest."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
