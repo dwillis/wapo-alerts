@@ -1272,5 +1272,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a0595e30-da34-11ee-ba1e-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JetBlue and Spirit call off $3.8 billion merger after antitrust challenge",
+            "ios": {
+                "alert": {
+                    "body": "JetBlue and Spirit call off $3.8 billion merger after antitrust challenge",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/04/jetblue-spirit-merger-terminated/",
+                        "datetime": "2024-03-04T14:36:45.337000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e5dc7d529b803500000007",
+                        "targetTopic": "business",
+                        "text": "JetBlue had sought to acquire Spirit Airlines, but a judge had blocked the deal after the Justice Department sued to stop it on grounds that it would stifle competition and reduce options for fliers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c9d23d50-da33-11ee-8dc4-0000a1ace082",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A viral tribute to beloved dog Dipper in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A viral tribute to beloved dog Dipper in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-03-04T14:30:45.665000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e5db15529b803500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
