@@ -1371,5 +1371,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2f07fb20-da38-11ee-91ad-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court rules Trump can remain on primary ballots, ending a bid to disqualify him over his role in the Jan. 6 riot",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court rules Trump can remain on primary ballots, ending a bid to disqualify him over his role in the Jan. 6 riot",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/04/supreme-court-trump-ballot-decision/",
+                        "datetime": "2024-03-04T15:02:13.505000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e5e27507c4753500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision resolves a lawsuit filed by Colorado voters who argued that the Constitution bars Donald Trump from holding office because his actions surrounding the Jan. 6, 2021, attack on the Capitol amounted to insurrection."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
