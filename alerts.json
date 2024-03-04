@@ -1714,5 +1714,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e5eeb1a0-da6d-11ee-adeb-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: 4 takeaways from the Supreme Court\u2019s ruling on Trump and the 14th Amendment",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: 4 takeaways from the Supreme Court\u2019s ruling on Trump and the 14th Amendment",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/04/takeaways-supreme-court-trump-ruling/",
+                        "datetime": "2024-03-04T21:26:43.644000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e63c9307c475350000000d",
+                        "targetTopic": "politics",
+                        "text": "The ruling in Trump v. Anderson reverses the Colorado Supreme Court\u2019s disqualification of Donald Trump from the state 2024 primary ballot. But the court did not discuss whether he actually engaged in insurrection on Jan. 6, 2021."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
