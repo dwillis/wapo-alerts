@@ -2059,5 +2059,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd298591-db1f-11ee-bed8-00000a1ace6b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dartmouth men\u2019s basketball team votes to unionize in a case that could alter college sports. But there\u2019s still a long road ahead.",
+            "ios": {
+                "alert": {
+                    "body": "Dartmouth men\u2019s basketball team votes to unionize in a case that could alter college sports. But there\u2019s still a long road ahead.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/05/dartmouth-mens-basketball-union/",
+                        "datetime": "2024-03-05T18:41:33.015000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e7675d3fbc7f3500000009",
+                        "targetTopic": "us",
+                        "text": "Dartmouth players voted 13-2 in favor of unionization Tuesday, allowing them to collectively bargain with the university over pay, practice hours and other working conditions. A lengthy appeals process is certain to play out, but if the athletes\u2019 status as employees is upheld, the amateur model in college sports will be upended."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9e5928e1-db1a-11ee-b26c-00000a1ace49",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Liberty University fined a record $14 million as Education Department says it repeatedly violated law aimed to keep campuses safe",
+            "ios": {
+                "alert": {
+                    "body": "Liberty University fined a record $14 million as Education Department says it repeatedly violated law aimed to keep campuses safe",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/03/05/liberty-university-clery-act-education-department-report/",
+                        "datetime": "2024-03-05T18:03:06.509000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e75e5a3fbc7f3500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "The long-anticipated finding comes months after The Washington Post reported that a preliminary review by the department found that the private university in Lynchburg, Va., had discouraged people from reporting crimes, underreported alleged incidents and failed to warn the campus of safety concerns."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
