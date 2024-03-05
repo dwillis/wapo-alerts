@@ -2206,5 +2206,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a691c7c1-db37-11ee-8a89-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dana Milbank voted as a Republican in the D.C. primary. Surprised? He explains why.",
+            "ios": {
+                "alert": {
+                    "body": "Dana Milbank voted as a Republican in the D.C. primary. Surprised? He explains why.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/05/became-republican-vote-haley-dc-primary-month-lifestyle/",
+                        "datetime": "2024-03-05T21:30:55.532000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e78f0f2177c83500000001",
+                        "targetTopic": "opinions",
+                        "text": "My month of living Republicanly"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
