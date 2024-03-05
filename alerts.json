@@ -2255,5 +2255,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8b300ec0-db3b-11ee-b0ba-00000a1ace39",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Bob Menendez and wife Nadine Menendez are charged with more bribery counts in Egyptian and Qatari influence-peddling case",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Bob Menendez and wife Nadine Menendez are charged with more bribery counts in Egyptian and Qatari influence-peddling case",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/05/bob-menendez-egypt-qatar-bribery-counts/",
+                        "datetime": "2024-03-05T21:58:47.734000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e7959707c475350000000f",
+                        "targetTopic": "politics",
+                        "text": "Federal prosecutors added about a dozen counts to their case that says the couple and associates conspired to have Sen. Menendez (D-N.J.) act as an illegal foreign agent on behalf of the Egyptian and Qatari governments. The Menendezes have pleaded not guilty to previous charges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
