@@ -1861,5 +1861,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "01b03410-dafd-11ee-9d2f-000a1ace0186",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "History is made in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "History is made in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-03-05T14:31:08.274000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e72cac47b8293500000004",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "67bf3f10-dafa-11ee-8ac3-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden administration announces rule to limit most credit card late fees to $8, setting up potential clash with banks",
+            "ios": {
+                "alert": {
+                    "body": "Biden administration announces rule to limit most credit card late fees to $8, setting up potential clash with banks",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/05/credit-card-fees-cap-8-month/",
+                        "datetime": "2024-03-05T14:12:30.978000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e7284e47b8293500000003",
+                        "targetTopic": "business",
+                        "text": "The new Consumer Financial Protection Bureau rule would take effect this spring. It\u2019s part of a suite of new rules the administration is rolling out Tuesday to promote competition and crack down on unfair, illegal or predatory pricing. But banks are expected to sue to block the rule."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
