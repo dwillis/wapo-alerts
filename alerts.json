@@ -1960,5 +1960,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e7643960-db17-11ee-8ee0-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Facebook and Instagram are back up, Meta says, after a widespread outage affected thousands of users",
+            "ios": {
+                "alert": {
+                    "body": "Facebook and Instagram are back up, Meta says, after a widespread outage affected thousands of users",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/05/facebook-instagram-down-meta-outage/",
+                        "datetime": "2024-03-05T17:43:40.460000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e759cc3fbc7f3500000007",
+                        "targetTopic": "technology",
+                        "text": "The problems with Meta\u2019s platforms blocked thousands of users from logging onto their social media accounts. The interruption had affected more that 570,000 Facebook users and more than 90,000 Instagram users by 10:30 a.m. Eastern time, according to Downdetector, a service that tracks online glitches."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7f1d3960-db12-11ee-93c9-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: When stepsiblings fight, parent feels guilty for blending family",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: When stepsiblings fight, parent feels guilty for blending family",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/05/carolyn-hax-parent-blended-family-fight/",
+                        "datetime": "2024-03-05T17:04:58.106000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e750ba3fbc7f3500000006",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: When stepsiblings fight, parent feels guilty for blending family"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
