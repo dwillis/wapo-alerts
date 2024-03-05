@@ -2157,5 +2157,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff51ea30-db27-11ee-af50-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Kyrsten Sinema (I-Ariz.) will not seek reelection. She left the Democratic Party in 2022 and faced stiff competition.",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Kyrsten Sinema (I-Ariz.) will not seek reelection. She left the Democratic Party in 2022 and faced stiff competition.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/05/kyrsten-sinema-reelection-arizona/",
+                        "datetime": "2024-03-05T19:38:52.560000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e774cc3fbc7f350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "(D-Ariz.) and Kari Lake (R) that could help determine which party controls the Senate next year. Sinema announced her decision in a video posted on social media, saying, \u201cI believe in my approach, but it\u2019s not what America wants right now.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
