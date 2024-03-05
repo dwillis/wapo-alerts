@@ -1812,5 +1812,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e73c3fd0-dae7-11ee-9f16-00000a1ace48",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Super Tuesday. Hamas report. France abortion. Birth control. Credit card fees. Tax filing. Tumbleweeds. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Super Tuesday. Hamas report. France abortion. Birth control. Credit card fees. Tax filing. Tumbleweeds. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/05/what-to-know-for-march-5/?noredirect=1",
+                        "datetime": "2024-03-05T12:00:04.334000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "65e7094407c475350000000e",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
