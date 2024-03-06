@@ -3236,5 +3236,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "355ea161-dc07-11ee-adf1-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Founder of Casa Ruby, a D.C.-based nonprofit that supported homeless LGBTQ youth, charged with fraud and money laundering",
+            "ios": {
+                "alert": {
+                    "body": "Founder of Casa Ruby, a D.C.-based nonprofit that supported homeless LGBTQ youth, charged with fraud and money laundering",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/06/casa-ruby-founder-charged-corado-money-laundering-fraud/",
+                        "datetime": "2024-03-06T22:16:41.069000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e8eb493fbc7f3500000019",
+                        "targetTopic": "local",
+                        "text": "Ruby Corado is accused of diverting at least $150,000 of $1.3 million in money from Paycheck Protection and the Economic Injury Disaster Loan programs intended for Casa Ruby to bank accounts in El Salvador and hiding it from the IRS. Casa Ruby shuttered in July 2022 after it stopped paying employees and rent on properties."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e5341640-dc04-11ee-8a28-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Who will Nikki Haley\u2019s supporters vote for now that she has dropped out? We asked them.",
+            "ios": {
+                "alert": {
+                    "body": "Who will Nikki Haley\u2019s supporters vote for now that she has dropped out? We asked them.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2024/who-will-nikki-haleys-supporters-vote-now-that-she-dropped-out/",
+                        "datetime": "2024-03-06T22:00:07.609000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e8e7673fbc7f3500000018",
+                        "targetTopic": "editors_picks",
+                        "text": "Haley, a former U.N. ambassador and governor of South Carolina, suspended her presidential campaign Wednesday.\nThe Washington Post spoke to nearly 40 Haley voters in four Super Tuesday states about how they would vote in a Donald Trump-Joe Biden rematch, a prospect that often elicited groans or hands thrown up in disappointment. Here\u2019s what they said about their plans."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
