@@ -2549,5 +2549,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2214efe1-db78-11ee-a4b9-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Adam Schiff (D) and Steve Garvey (R) will move on to the general election for Senate seats in California, AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Adam Schiff (D) and Steve Garvey (R) will move on to the general election for Senate seats in California, AP projects",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/03/05/super-tuesday-live-updates-election-2024/",
+                        "datetime": "2024-03-06T05:12:30.686000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e7fb3e3fbc7f350000000c",
+                        "targetTopic": "politics",
+                        "text": "Schiff and Garvey were the top two vote-getters in California\u2019s all-party primary and will now be on the ballot in November to replace the late Sen. Dianne Feinstein (D), the Associated Press projected. Schiff was also projected one of the top vote-getters in the special primary to fill out the remainder of Feinstein\u2019s term.\nSchiff faced two other Democratic House members after he scored some heavyweight endorsements and spent heavily on TV ads. Garvey, a former professional baseball player, didn\u2019t run a single ad but may have benefitted from Schiff\u2019s ads calling him \u201ctoo conservative.\u201d Schiff will be favored to win in the deep-blue state this fall."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
