@@ -2304,5 +2304,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "62ede7a0-db4c-11ee-a7c9-00000a1aceff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It\u2019s Super Tuesday, and a third of delegates are up for grabs as Trump aims to decisively defeat Haley. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "It\u2019s Super Tuesday, and a third of delegates are up for grabs as Trump aims to decisively defeat Haley. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/03/05/super-tuesday-live-updates-election-2024/",
+                        "datetime": "2024-03-05T23:59:21.608000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e7b1d907c4753500000011",
+                        "targetTopic": "breaking-news",
+                        "text": "Fifteen states vote and a third of delegates are awarded today in the race for the GOP presidential nomination. Donald Trump has won every nominating contest except one, though he cannot officially clinch the nomination until at least March 12, the AP projects. President Biden is also on the ballot but faces minor competition, while high-profile down-ballot races for governor, Senate and House are being held North Carolina, Texas and California. The Associated Press reports the earliest Biden can secure the Democratic nod is March 19."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "12a557c1-db4b-11ee-8c51-00000a1ace44",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. Council passes massive public safety package with harsher punishments for more offenses, following spike in violent crime",
+            "ios": {
+                "alert": {
+                    "body": "D.C. Council passes massive public safety package with harsher punishments for more offenses, following spike in violent crime",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/05/dc-council-public-safety-secure-overhaul-pinto/",
+                        "datetime": "2024-03-05T23:49:57.362000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e7afa507c4753500000010",
+                        "targetTopic": "local",
+                        "text": "The Secure D.C. Omnibus Amendment Act makes it easier for judges to order adults charged with violent offenses detained while they await trial, expands the definition of carjacking to make the cases easier to prosecute, and revives a 1990s-era tool that would allow officers to create temporary drug-free zones."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
