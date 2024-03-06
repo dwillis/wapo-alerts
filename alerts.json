@@ -2402,5 +2402,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dffe4470-db55-11ee-89d2-00000a1aced5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mark Robinson, the controversial lieutenant governor endorsed by Trump, wins N.C. GOP gubernatorial nod, AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Mark Robinson, the controversial lieutenant governor endorsed by Trump, wins N.C. GOP gubernatorial nod, AP projects",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/03/05/super-tuesday-live-updates-election-2024/",
+                        "datetime": "2024-03-06T01:07:16.900000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e7c1c407c4753500000012",
+                        "targetTopic": "politics",
+                        "text": "Robinson beat several other contenders for the open seat of outgoing Gov. Roy Cooper (D), the Associated Press reported. The race will be one of the most competitive gubernatorial contests in the country, as many say Robinson, the first Black person to hold the lieutenant governor post, is too extreme to win the state\u2019s general election.\n\nRobinson has mocked school shooting survivors, called Michelle Obama a man, insulted transgender people and used antisemitic tropes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
