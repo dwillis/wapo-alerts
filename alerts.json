@@ -3187,5 +3187,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "86f412b0-dbff-11ee-b98b-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A bill to avert a partial government shutdown heads to the Senate after the House approves funding through September",
+            "ios": {
+                "alert": {
+                    "body": "A bill to avert a partial government shutdown heads to the Senate after the House approves funding through September",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/06/house-vote-government-shutdown-bill/",
+                        "datetime": "2024-03-06T21:21:41.990000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e8de653fbc7f3500000017",
+                        "targetTopic": "politics",
+                        "text": "The legislation wraps six appropriations bills into one measure totaling $459 billion. Congress must act before midnight Saturday to keep agencies open."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
