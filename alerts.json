@@ -2500,5 +2500,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "466ebc70-db6b-11ee-a9b0-00000a1ace55",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nikki Haley scores a surprise upset against Trump in Vermont, AP projects, racking up her second win of GOP nomination contest",
+            "ios": {
+                "alert": {
+                    "body": "Nikki Haley scores a surprise upset against Trump in Vermont, AP projects, racking up her second win of GOP nomination contest",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/03/05/super-tuesday-live-updates-election-2024/",
+                        "datetime": "2024-03-06T03:40:28.074000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e7e5ac07c4753500000015",
+                        "targetTopic": "breaking-news",
+                        "text": "The former U.N. ambassador beat Donald Trump in Vermont, the Associated Press reported, despite lagging far behind him in the GOP delegate count. Haley also triumphed in the D.C. primary Sunday.\n\nA third of delegates are awarded tonight \u2014 still not enough for Trump to clinch the nod. Haley had committed to staying in the race at least until Super Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
