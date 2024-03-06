@@ -3138,5 +3138,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e4b0f4a1-dbe5-11ee-baf8-0000a1aceb2b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dean Phillips ends long-shot bid for president, leaving Biden free of challengers",
+            "ios": {
+                "alert": {
+                    "body": "Dean Phillips ends long-shot bid for president, leaving Biden free of challengers",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/06/dean-phillips-drops-out/",
+                        "datetime": "2024-03-06T18:18:12.216000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e8b3643fbc7f3500000016",
+                        "targetTopic": "politics",
+                        "text": "The Minnesota congressman was Biden's last remaining notable Democratic primary challenger. He gained little traction in key early contests after entering the race with a pitch meant to convince Democrats that he would perform better than Biden in a race against former Republican president Donald Trump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
