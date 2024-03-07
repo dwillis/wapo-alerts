@@ -3579,5 +3579,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "31590620-dca0-11ee-8a49-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sweden joins NATO, completing a historic expansion of the alliance spurred by Russia\u2019s war in Ukraine",
+            "ios": {
+                "alert": {
+                    "body": "Sweden joins NATO, completing a historic expansion of the alliance spurred by Russia\u2019s war in Ukraine",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/07/sweden-joins-nato/",
+                        "datetime": "2024-03-07T16:31:47.265000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e9ebf307c4753500000019",
+                        "targetTopic": "breaking-news",
+                        "text": "At a meeting in Washington, Swedish Prime Minister Ulf Kristersson deposited the final paperwork with U.S. Secretary of State Antony Blinken, the last step needed for the former militarily nonaligned nation to become NATO\u2019s 32nd member. Sweden\u2019s neighbor Finland joined last year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "94a8df30-dc9f-11ee-a2ff-00000a1ace7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Xcel Energy says its power equipment may have sparked the largest fire in Texas history",
+            "ios": {
+                "alert": {
+                    "body": "Xcel Energy says its power equipment may have sparked the largest fire in Texas history",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/03/07/smokehouse-creek-texas-fire-cause-xcel/",
+                        "datetime": "2024-03-07T16:27:24.390000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e9eaec07c4753500000018",
+                        "targetTopic": "us",
+                        "text": "Xcel Energy is a major electric company with operations in Texas and other states. The company, however, has rejected allegations it was negligent in maintaining its equipment, as a lawsuit claims."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
