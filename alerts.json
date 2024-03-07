@@ -3432,5 +3432,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d8b29130-dc36-11ee-8943-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alabama\u2019s governor signs bill to protect IVF after state Supreme Court ruling on frozen embryos",
+            "ios": {
+                "alert": {
+                    "body": "Alabama\u2019s governor signs bill to protect IVF after state Supreme Court ruling on frozen embryos",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/03/06/alabama-governor-signs-ivf-bill/",
+                        "datetime": "2024-03-07T03:57:41.439000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e93b3507c4753500000016",
+                        "targetTopic": "us",
+                        "text": "State lawmakers passed the bill Wednesday to protect providers and patients doing in vitro fertilization from legal liability if embryos they create are damaged or destroyed. Gov. Kay Ivey (R) signed the bill into law less than three weeks after an Alabama Supreme Court ruling stated that frozen embryos are people and anyone who destroys them could be held liable."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
