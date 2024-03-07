@@ -3677,5 +3677,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1b405a10-dca9-11ee-b382-00000a1ace66",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. will build a temporary port on Gaza coastline for delivery of aid, Biden to announce in State of the Union",
+            "ios": {
+                "alert": {
+                    "body": "U.S. will build a temporary port on Gaza coastline for delivery of aid, Biden to announce in State of the Union",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/07/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-03-07T17:35:35.688000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e9fae707c475350000001b",
+                        "targetTopic": "breaking-news",
+                        "text": "With the Gaza Strip on the brink of famine, the United States will supply aid by ship to supplement deliveries by land and air, senior U.S. officials say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7ca96e91-dca4-11ee-96ce-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How to navigate and arrange end-of-life care for mom?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How to navigate and arrange end-of-life care for mom?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/07/carolyn-hax-mom-end-of-life-care/",
+                        "datetime": "2024-03-07T17:02:31.692000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e9f32707c475350000001a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How to navigate and arrange end-of-life care for mom?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
