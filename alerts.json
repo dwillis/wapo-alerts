@@ -3775,5 +3775,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1003b840-dcb3-11ee-bbff-0000a1aced28",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden is failing at the most important task of his presidency, Perry Bacon Jr. writes",
+            "ios": {
+                "alert": {
+                    "body": "Biden is failing at the most important task of his presidency, Perry Bacon Jr. writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/07/biden-failing-stop-trump/",
+                        "datetime": "2024-03-07T18:46:51.802000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ea0b9b3fbc7f350000001c",
+                        "targetTopic": "opinions",
+                        "text": "Even Democrats who are skeptical of President Biden\u2019s chances of winning this November usually say he is doing a fantastic job, pointing to the strong economy and the long list of legislation that has passed in his tenure. The implication is that voters aren\u2019t appreciating Biden as they should, perhaps because of his age."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cf0605d0-dcaf-11ee-afe9-0000a1ace335",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ronny Jackson, the former White House physician and Trump ally, was demoted by the Navy after a damaging misconduct investigation",
+            "ios": {
+                "alert": {
+                    "body": "Ronny Jackson, the former White House physician and Trump ally, was demoted by the Navy after a damaging misconduct investigation",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/03/07/ronny-jackson-demotion-white-house-medical-unit-navy/",
+                        "datetime": "2024-03-07T18:23:34.322000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ea062607c475350000001c",
+                        "targetTopic": "special_report",
+                        "text": "Jackson, who was the personal physician to Barack Obama and Donald Trump before becoming a GOP congressman, regularly refers to himself as a retired rear admiral. But in July 2022, the Navy reduced his retired rank to captain after a probe found he had berated subordinates, made inappropriate and sexual comments, and broke other rules on the job."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
