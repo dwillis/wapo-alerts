@@ -3334,5 +3334,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8783ea10-dc14-11ee-8b71-00000a1ace05",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Rust\u2019 armorer found guilty of involuntary manslaughter in fatal shooting of cinematographer on film set",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Rust\u2019 armorer found guilty of involuntary manslaughter in fatal shooting of cinematographer on film set",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/2024/03/06/rust-armorer-trial-verdict-hannah-gutierrez-reed/",
+                        "datetime": "2024-03-06T23:52:02.241000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e901a23fbc7f350000001a",
+                        "targetTopic": "us",
+                        "text": "Hannah Gutierrez-Reed was accused of failing to ensure gun safety on the set of the low-budget Western movie in 2021. She was found guilty of involuntary manslaughter and not guilty of evidence-tampering charges, according to the Associated Press.\nAlec Baldwin was rehearsing with a revolver on the set when the gun went off with live ammunition, killing cinematographer Halyna Hutchins and wounding director Joel Souza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
