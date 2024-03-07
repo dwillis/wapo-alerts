@@ -3383,5 +3383,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9ba1e680-dc2a-11ee-98e3-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Virginia lawmakers to remove proposed sports arena from state budget, blocking best chance to bring Caps and Wizards to Alexandria",
+            "ios": {
+                "alert": {
+                    "body": "Virginia lawmakers to remove proposed sports arena from state budget, blocking best chance to bring Caps and Wizards to Alexandria",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/06/virginia-arena-budget-removed-youngkin/",
+                        "datetime": "2024-03-07T02:30:04.956000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e926ac3fbc7f350000001b",
+                        "targetTopic": "local",
+                        "text": "For the plan to advance, Gov. Glenn Youngkin (R) would have to send down a budget amendment or standalone bill resurrecting the project, call a special session or offer the measure up again during lawmakers\u2019 one-day session in April. But leaving the arena out of the state budget makes it harder for Youngkin to win passage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
