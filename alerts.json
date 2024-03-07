@@ -3530,5 +3530,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6232e241-dc8f-11ee-ad45-00000a1ace7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A swoon-worthy shirt goes on sale in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A swoon-worthy shirt goes on sale in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-03-07T14:31:27.870000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65e9cfbf07c4753500000017",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Thursday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
