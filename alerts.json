@@ -4265,5 +4265,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ee8c1b70-dd6c-11ee-a1d0-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump posts $91M bond while appealing E. Jean Carroll defamation judgment. A judge had denied his request to delay payment.",
+            "ios": {
+                "alert": {
+                    "body": "Trump posts $91M bond while appealing E. Jean Carroll defamation judgment. A judge had denied his request to delay payment.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/08/trump-91-million-e-jean-carroll-defamation-bond/",
+                        "datetime": "2024-03-08T16:57:22.083000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb437207c4753500000020",
+                        "targetTopic": "politics",
+                        "text": "The former president and likely 2024 Republican nominee had until Monday to guarantee payment of an $83.3 million judgment to Carroll, a writer and columnist whom he defamed after she accused him of long-ago sexual assault. Trump also filed a notice saying he will appeal the judgment against him."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "65066b30-dd6c-11ee-9773-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republican National Committee installs Trump's chosen leaders, including his daughter-in-law, in merger with campaign",
+            "ios": {
+                "alert": {
+                    "body": "Republican National Committee installs Trump's chosen leaders, including his daughter-in-law, in merger with campaign",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/03/08/rnc-vote-lara-trump-whatley/",
+                        "datetime": "2024-03-08T16:53:31.347000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb428b07c475350000001f",
+                        "targetTopic": "politics",
+                        "text": "Donald Trump, now the expected Republican nominee, picked Michael Whatley and Lara Trump to lead the party's central committee, which is facing a dramatic fundraising shortfall.\n\nWhatley replaces outgoing RNC Chair Ronna McDaniel, who also was chosen by Trump but whose relationship with the former president and his allies had become strained in recent months."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
