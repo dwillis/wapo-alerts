@@ -4020,5 +4020,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "28bdd040-dd04-11ee-aef0-0000a1aced8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden draws sharp contrasts with Trump in fiery State of the Union address",
+            "ios": {
+                "alert": {
+                    "body": "Biden draws sharp contrasts with Trump in fiery State of the Union address",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/07/state-of-the-union-highlights-2024/",
+                        "datetime": "2024-03-08T04:27:22.573000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ea93aa2177c83500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "In a speech befitting the political moment of an election year, President Biden loaded up on criticism of former president Donald Trump \u2014 without saying his name once. He dinged the Republican presidential front-runner for his coziness with Russia, the Jan. 6, 2021, attack on the U.S. Capitol and Trump\u2019s failure in his \u201cduty to care\u201d during the pandemic.\nHe also enthusiastically mixed it up several times with Republicans in the chamber, and at times he seemed to encourage the call-and-response with them."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
