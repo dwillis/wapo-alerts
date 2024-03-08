@@ -4118,5 +4118,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6ecaca10-dd50-11ee-8f03-00000a1ace7b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The economy added 275,000 jobs in February, signaling continued strength in the labor market",
+            "ios": {
+                "alert": {
+                    "body": "The economy added 275,000 jobs in February, signaling continued strength in the labor market",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/08/jobs-february-unemployment-election-labor-market/",
+                        "datetime": "2024-03-08T13:33:21.882000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb13a12177c83500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "The labor market continues to add jobs at a healthy pace, even as interest rates remain high, according to the latest data from the Bureau of Labor Statistics."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
