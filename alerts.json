@@ -4560,5 +4560,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "426e9e51-dd97-11ee-a2a6-00000a1ace8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "America is running out of electricity as tech companies sap the country\u2019s aging power grid",
+            "ios": {
+                "alert": {
+                    "body": "America is running out of electricity as tech companies sap the country\u2019s aging power grid",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/07/ai-data-centers-power/",
+                        "datetime": "2024-03-08T22:00:21.700000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb8a7547b8293500000008",
+                        "targetTopic": "editors_picks",
+                        "text": "Vast swaths of the United States are at risk of running short of power as data centers and factories proliferate around the country. The growth is driven in part by the innovations in artificial intelligence and threatens to stifle the transition to cleaner energy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
