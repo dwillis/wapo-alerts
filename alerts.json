@@ -4363,5 +4363,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2d2c7590-dd73-11ee-b81e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: How do I fall out of love with a married man?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: How do I fall out of love with a married man?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/15/live-chat-carolyn-hax/",
+                        "datetime": "2024-03-08T17:42:04.069000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb4dec07c4753500000021",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax chat: How do I fall out of love with a married man?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
