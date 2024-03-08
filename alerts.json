@@ -4461,5 +4461,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "24327e81-dd82-11ee-b6c9-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Novo Nordisk's blockbuster weight loss drug, Wegovy, may be prescribed to reduce heart attack risk in overweight people, FDA says",
+            "ios": {
+                "alert": {
+                    "body": "Novo Nordisk's blockbuster weight loss drug, Wegovy, may be prescribed to reduce heart attack risk in overweight people, FDA says",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/08/wegovy-heart-disease-fda/",
+                        "datetime": "2024-03-08T19:29:11.550000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb670707c4753500000024",
+                        "targetTopic": "health",
+                        "text": "The drug has the same active ingredient as the company\u2019s diabetes drug, Ozempic. The approval is based on research showing that Wegovy reduced the risk of major cardiovascular events such as heart attacks and strokes by 20 percent, compared with a placebo."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e9ccd5f0-dd7d-11ee-b39a-0000a1aced0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former Honduran president Juan Orlando Hern\u00e1ndez is convicted of helping send tons of cocaine to the U.S.",
+            "ios": {
+                "alert": {
+                    "body": "Former Honduran president Juan Orlando Hern\u00e1ndez is convicted of helping send tons of cocaine to the U.S.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/08/juan-orlando-hernndez-honduras-convicted/",
+                        "datetime": "2024-03-08T18:58:55.579000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb5fef07c4753500000023",
+                        "targetTopic": "world",
+                        "text": "Hern\u00e1ndez was treated as a U.S. government ally but secretly \u201cpaved a cocaine superhighway to the United States,\u201d prosecutors said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
