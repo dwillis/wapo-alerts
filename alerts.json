@@ -4412,5 +4412,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4e5a31b0-dd75-11ee-bc91-00000a1ace36",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Katie Britt rebutted Biden\u2019s speech from her kitchen. A lot of moms can\u2019t see themselves in her place, our columnist writes.",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Katie Britt rebutted Biden\u2019s speech from her kitchen. A lot of moms can\u2019t see themselves in her place, our columnist writes.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/power/2024/03/08/katie-britt-gop-response-to-biden-speech-suburban-women/",
+                        "datetime": "2024-03-08T17:57:18.781000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb517e07c4753500000022",
+                        "targetTopic": "editors_picks",
+                        "text": "The Alabama Republican\u2019s State of the Union rebuttal seemed aimed at suburban women whom Republicans have done little to win back, Monica Hesse argues."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
