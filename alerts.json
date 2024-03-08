@@ -3922,5 +3922,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f13d2460-dced-11ee-aef0-0000a1aced8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "All eyes are on Biden\u2019s last State of the Union before the election as he speaks on Gaza, the economy and reproductive rights",
+            "ios": {
+                "alert": {
+                    "body": "All eyes are on Biden\u2019s last State of the Union before the election as he speaks on Gaza, the economy and reproductive rights",
+                    "title": "Live Analysis"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/07/biden-state-of-the-union-live-updates/",
+                        "datetime": "2024-03-08T01:48:20.522000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ea6e643fbc7f350000001e",
+                        "targetTopic": "breaking-news",
+                        "text": "The annual address to a joint session of Congress \u2014 which comes as Joe Biden\u2019s 2024 rematch with Donald Trump kicks into high gear \u2014 also serves as a chance for the Democratic incumbent to reshape negative public perceptions of him and his presidency. Watch the speech live and follow along as Washington Post reporters offer commentary."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
