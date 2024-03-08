@@ -4216,5 +4216,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3c537fb1-dd63-11ee-997b-00000a1acec7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Pentagon\u2019s long-awaited report on UFOs finds \u2018no evidence\u2019 of alien visits or hidden spacecraft. But will people believe it?",
+            "ios": {
+                "alert": {
+                    "body": "The Pentagon\u2019s long-awaited report on UFOs finds \u2018no evidence\u2019 of alien visits or hidden spacecraft. But will people believe it?",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/08/no-ufo-aliens-pentagon-report/",
+                        "datetime": "2024-03-08T15:47:57.652000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eb332d07c475350000001e",
+                        "targetTopic": "editors_picks",
+                        "text": "Investigators from the Defense Department\u2019s All-domain Anomaly Resolution Office debunked claims of secret military programs on extraterrestrial technology as \u201cinaccurate,\u201d and blamed a \u201cconsistent theme in popular culture\u201d for the persistent suspicion of a government coverup."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
