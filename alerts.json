@@ -4069,5 +4069,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "67857190-dd43-11ee-87b3-00000a1ace57",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "State of the Union. Gaza port. Trump finances. NATO. MH370 mystery. Mike Tyson. The Oscars. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "State of the Union. Gaza port. Trump finances. NATO. MH370 mystery. Mike Tyson. The Oscars. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/08/what-to-know-for-march-8/?noredirect=1",
+                        "datetime": "2024-03-08T12:00:06.146000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "65eafdc647b8293500000007",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
