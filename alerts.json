@@ -3971,5 +3971,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "97779980-dcf5-11ee-8c45-00000a1ace5d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Will this be more than a Biden campaign speech? Follow along with Post columnists as they watch the State of the Union.",
+            "ios": {
+                "alert": {
+                    "body": "Will this be more than a Biden campaign speech? Follow along with Post columnists as they watch the State of the Union.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/07/live-commentary-biden-state-union-opinions/",
+                        "datetime": "2024-03-08T02:43:05.885000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ea7b3947b8293500000006",
+                        "targetTopic": "opinions",
+                        "text": "Follow our columnists as they discuss the State of the Union"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
