@@ -4609,5 +4609,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "11aeb600-ddac-11ee-ad82-0000a1ace6cb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The federal government won\u2019t shut down this weekend. The Senate has passed spending legislation and will send it to Biden to sign.",
+            "ios": {
+                "alert": {
+                    "body": "The federal government won\u2019t shut down this weekend. The Senate has passed spending legislation and will send it to Biden to sign.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/08/government-shutdown-senate-funding-bill/",
+                        "datetime": "2024-03-09T00:29:19.272000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ebad5f47b8293500000009",
+                        "targetTopic": "politics",
+                        "text": "The measure had already passed the House. Another deadline awaits in two weeks for about 70 percent of federal agencies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
