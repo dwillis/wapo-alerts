@@ -4756,5 +4756,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b8fa8490-de36-11ee-b00b-00000a1ace90",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: Conservative parents don\u2019t approve of Indian boyfriend I met online",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: Conservative parents don\u2019t approve of Indian boyfriend I met online",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/07/ask-sahaj-conservative-parents-indian-boyfriend/",
+                        "datetime": "2024-03-09T17:01:50.526000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ec95fe8cfb483500000003",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: Conservative parents don\u2019t approve of Indian boyfriend I met online"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
