@@ -4707,5 +4707,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "615e83b0-de2e-11ee-97d7-00000a1ace08",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How worried should we be about the Drunk Elephant tweens?",
+            "ios": {
+                "alert": {
+                    "body": "How worried should we be about the Drunk Elephant tweens?",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/03/04/tween-skin-care-obsession-drunk-elephant-sephora-ulta/",
+                        "datetime": "2024-03-09T16:02:07.607000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ec87ff8cfb483500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Their much-publicized, pricey new skin-care hobby could be a symptom of our age-obsessed culture \u2014 or could be harnessed for good."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
