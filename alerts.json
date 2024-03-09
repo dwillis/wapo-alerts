@@ -4805,5 +4805,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "995276e0-de5c-11ee-9f32-00000a1ace97",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Florida has been ground zero for culture wars. But the pushback is growing as voters tire of DeSantis\u2019s \u2018war on woke.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Florida has been ground zero for culture wars. But the pushback is growing as voters tire of DeSantis\u2019s \u2018war on woke.\u2019",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/03/09/desantis-florida-woke-culture-wars-legislature/",
+                        "datetime": "2024-03-09T21:32:58.250000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ecd58a5b5b8e3500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Conservative lawmakers in the Sunshine State rejected a host of new culture war proposals, a change from past years when bills backed by Gov. Ron DeSantis (R) sailed through."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
