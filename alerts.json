@@ -5099,5 +5099,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8df50260-df31-11ee-b49f-00000a1ace69",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Get the latest updates on tonight\u2019s winners, surprises and snubs as \u2018Oppenheimer\u2019 vies for a record number of awards",
+            "ios": {
+                "alert": {
+                    "body": "Get the latest updates on tonight\u2019s winners, surprises and snubs as \u2018Oppenheimer\u2019 vies for a record number of awards",
+                    "title": "Oscars: Live Analysis"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2024/03/10/oscars-2024-live-academy-awards/",
+                        "datetime": "2024-03-10T22:57:22.076000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ee3ad2623cda3500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Christopher Nolan\u2019s atomic-age biopic is poised to have a big night, while Lily Gladstone looks to make history as the first Native American to win an Oscar in an acting category. Join us for live coverage and analysis of the night\u2019s biggest moments."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
