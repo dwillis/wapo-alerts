@@ -5001,5 +5001,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9ca04540-deff-11ee-93b4-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Oscars could make history this year. Here\u2019s everything you need to know about the frontrunners, how to watch and more.",
+            "ios": {
+                "alert": {
+                    "body": "The Oscars could make history this year. Here\u2019s everything you need to know about the frontrunners, how to watch and more.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/2024/03/10/oscars-2024-host-time-nominees/",
+                        "datetime": "2024-03-10T16:59:51.828000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ede7078da8f83500000005",
+                        "targetTopic": "entertainment",
+                        "text": "Will \u201cOppenheimer\u201d dominate? What are the potential upsets and historic firsts? Is Ryan Gosling really performing as Ken? (Yes!) Here\u2019s your complete rundown before the Academy Awards begin at 7 p.m. Eastern time."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
