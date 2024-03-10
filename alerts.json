@@ -4903,5 +4903,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "104c9b30-deef-11ee-98f4-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can you tell which of these actors in Oscar-nominated films are wearing wigs? (It\u2019s harder than it seems.)",
+            "ios": {
+                "alert": {
+                    "body": "Can you tell which of these actors in Oscar-nominated films are wearing wigs? (It\u2019s harder than it seems.)",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/interactive/2024/wigs-quiz-oscars-movies/",
+                        "datetime": "2024-03-10T15:01:24.468000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65edcb448da8f83500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "A good wig takes tons of time, money and a veritable encyclopedia of styling knowledge. These efforts will be recognized at tonight\u2019s Academy Awards. Here\u2019s the step-by-step process, plus a quiz."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
