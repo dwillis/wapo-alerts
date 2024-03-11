@@ -5589,5 +5589,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "15204b00-dffa-11ee-8b84-00000a1ace2c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "RNC fires dozens of employees after Trump-backed leadership takes over",
+            "ios": {
+                "alert": {
+                    "body": "RNC fires dozens of employees after Trump-backed leadership takes over",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/11/rnc-trump-firings/",
+                        "datetime": "2024-03-11T22:52:48.147000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ef8b40d32d912a00000001",
+                        "targetTopic": "politics",
+                        "text": "Communications and political staff members were fired from the party\u2019s central committee, according to three people familiar with the firings but who weren\u2019t authorized to speak publicly. The staffing changes came just days after Michael Whatley and Lara Trump, former president Donald Trump\u2019s chosen candidates, were elected to head the RNC."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
