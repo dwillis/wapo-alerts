@@ -5197,5 +5197,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7d6232a1-df96-11ee-91ac-00000a1ace2d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Oscar winners. Trump and Biden. Shutdown deal. Ramadan in Gaza. Kate Middleton. Small houses. Aliens. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Oscar winners. Trump and Biden. Shutdown deal. Ramadan in Gaza. Kate Middleton. Small houses. Aliens. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/11/what-to-know-for-march-11/?noredirect=1",
+                        "datetime": "2024-03-11T10:59:53.452000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "65eee4295b5b8e3500000002",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8fc6b6b0-df95-11ee-ac2d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Catherine, Princess of Wales, says she altered official photo and apologizes after some photo agencies removed it from circulation",
+            "ios": {
+                "alert": {
+                    "body": "Catherine, Princess of Wales, says she altered official photo and apologizes after some photo agencies removed it from circulation",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/03/10/princess-kate-middleton-photo-manipulated/",
+                        "datetime": "2024-03-11T10:53:14.573000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65eee29a623cda3500000004",
+                        "targetTopic": "world",
+                        "text": "Princess Catherine posted on social media that she was experimenting with photo editing and apologized for the confusion caused by the family photograph. Several news agencies suspended use of the photo after determining that parts of it had been digitally edited."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
