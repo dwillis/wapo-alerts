@@ -5491,5 +5491,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "85fa6360-dfc3-11ee-b517-0000a1ace62c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Correction: Biden\u2019s $7.3 trillion budget proposal would raise taxes on the wealthy to cover health and child care. A previous alert said $7.2 trillion.",
+            "ios": {
+                "alert": {
+                    "body": "Correction: Biden\u2019s $7.3 trillion budget proposal would raise taxes on the wealthy to cover health and child care. A previous alert said $7.2 trillion.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/11/biden-budget-campaign-taxes/",
+                        "datetime": "2024-03-11T16:22:15.186000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ef2fb7623cda350000000e",
+                        "targetTopic": "politics",
+                        "text": "The White House proposal is unlikely to become law due to Republican control of the House. Aides say it would lower the soaring national debt by $3 trillion over 10 years.\n\nAn earlier version of this alert misstated the cost of the proposed budget. This alert has been corrected."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "226af0a1-dfc1-11ee-b13f-00000a1aceb5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden\u2019s $7.2 trillion budget proposal would raise taxes on the wealthy to cover health and child care. It\u2019s unlikely to be approved.",
+            "ios": {
+                "alert": {
+                    "body": "Biden\u2019s $7.2 trillion budget proposal would raise taxes on the wealthy to cover health and child care. It\u2019s unlikely to be approved.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/11/biden-budget-campaign-taxes/",
+                        "datetime": "2024-03-11T16:05:09.158000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ef2bb5623cda350000000d",
+                        "targetTopic": "politics",
+                        "text": "The White House proposal is unlikely to become law due to Republican control of the House. Aides say it would lower the soaring national debt by $3 trillion over 10 years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
