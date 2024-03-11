@@ -5295,5 +5295,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c983b6a0-dfae-11ee-8260-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sink your teeth into today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Sink your teeth into today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-03-11T13:53:49.043000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ef0ced623cda350000000a",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a62040b0-dfaa-11ee-9ed0-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The biggest moments of the Academy Awards, including \u2018Oppenheimer,\u2019 Emma Stone, Ken and a naked John Cena",
+            "ios": {
+                "alert": {
+                    "body": "The biggest moments of the Academy Awards, including \u2018Oppenheimer,\u2019 Emma Stone, Ken and a naked John Cena",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2024/03/11/oscars-2024-best-moments-oppenheimer-emma-stone-cena-ken/",
+                        "datetime": "2024-03-11T13:24:11.698000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ef05fb623cda3500000005",
+                        "targetTopic": "entertainment",
+                        "text": "Christopher Nolan\u2019s atomic biopic dominated the Oscars, and the best actress category held the biggest surprise."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
