@@ -5393,5 +5393,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ed70d220-dfb6-11ee-9d5c-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "NATO members must raise their defense spending to 3 percent of GDP, Polish President Andrzej Duda writes",
+            "ios": {
+                "alert": {
+                    "body": "NATO members must raise their defense spending to 3 percent of GDP, Polish President Andrzej Duda writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/11/polish-president-duda-strengthen-nato/",
+                        "datetime": "2024-03-11T14:52:05.320000Z",
+                        "imageURL": "https://www.washingtonpost.com/opinions/2024/03/11/polish-president-duda-strengthen-nato/",
+                        "pushID": "65ef1a95623cda350000000c",
+                        "targetTopic": "opinions",
+                        "text": "On March 12, 1999, Poland realized its dream of joining NATO. Twenty-five years later, we know that strengthening the alliance is vital amid rising threats."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7471b070-dfb0-11ee-81e0-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The biggest moments at the Oscars, including \u2018Oppenheimer,\u2019 Emma Stone, Ken and a naked John Cena",
+            "ios": {
+                "alert": {
+                    "body": "The biggest moments at the Oscars, including \u2018Oppenheimer,\u2019 Emma Stone, Ken and a naked John Cena",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2024/03/11/oscars-2024-best-moments-oppenheimer-emma-stone-cena-ken/",
+                        "datetime": "2024-03-11T14:05:45.355000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ef0fb9623cda350000000b",
+                        "targetTopic": "editors_picks",
+                        "text": "Christopher Nolan\u2019s atomic biopic dominated the Oscars, and the best actress category held the biggest surprise."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
