@@ -6080,5 +6080,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c3647ad1-e0a2-11ee-8bc3-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. will send Ukraine $300 million in weapons as Biden\u2019s request for more aid remains stalled in the House",
+            "ios": {
+                "alert": {
+                    "body": "U.S. will send Ukraine $300 million in weapons as Biden\u2019s request for more aid remains stalled in the House",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/12/ukraine-weapons-package/",
+                        "datetime": "2024-03-12T19:00:15.997000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f0a63f2fec842a00000008",
+                        "targetTopic": "world",
+                        "text": "The emergency package, announced by the White House on Tuesday, will be funded by \u201cunanticipated cost savings\u201d from contracts the Pentagon had brokered to replace weapons previously provided to Ukraine, national security adviser Jake Sullivan said. President Biden\u2019s request for billions of dollars in additional funding has been stalled for months amid a broader political dispute that includes aid for Israel and U.S. border security."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
