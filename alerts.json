@@ -5687,5 +5687,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b1725880-e05f-11ee-9384-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "2024 election. Special counsel. Haiti violence. LGBTQ+ law. Boeing whistleblower. Airbnb cameras. Sycamore Gap tree. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "2024 election. Special counsel. Haiti violence. LGBTQ+ law. Boeing whistleblower. Airbnb cameras. Sycamore Gap tree. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/12/what-to-know-for-march-12/?noredirect=1",
+                        "datetime": "2024-03-12T11:00:09.589000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "65f035b92fec842a00000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
