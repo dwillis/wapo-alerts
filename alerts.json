@@ -5638,5 +5638,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fc04d121-e000-11ee-a8ae-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How a doctored photo of the Princess of Wales triggered a media crisis",
+            "ios": {
+                "alert": {
+                    "body": "How a doctored photo of the Princess of Wales triggered a media crisis",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/03/11/kate-middleton-photo-standards/",
+                        "datetime": "2024-03-11T23:42:12.549000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ef96d4d32d912a00000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Celebrities aspire to look perfect. Journalism aspires to tell the truth. But those two standards clashed when Kensington Palace released its first photo of Catherine since her abdominal surgery, with obvious manipulations that may have exacerbated a royal PR crisis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
