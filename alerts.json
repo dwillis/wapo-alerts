@@ -5933,5 +5933,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b7f00850-e079-11ee-9643-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Special counsel Robert Hur will testify to Congress that he did not \u2018disparage the president unfairly.\u2019 Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Special counsel Robert Hur will testify to Congress that he did not \u2018disparage the president unfairly.\u2019 Follow our live coverage.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/12/robert-hur-testimony-biden-classified-documents/",
+                        "datetime": "2024-03-12T14:06:27.360000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f061632fec842a00000006",
+                        "targetTopic": "politics",
+                        "text": "Hur is testifying before Congress this morning about why he did not recommend seeking charges against President Biden for his possession of classified documents after Biden\u2019s vice presidency ended. The former prosecutor\u2019s description of Biden\u2019s memory lapses during an interview has become fodder for Republicans in the 2024 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
