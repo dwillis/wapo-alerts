@@ -5835,5 +5835,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd4c5720-e074-11ee-b00b-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My eyes see ... today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "My eyes see ... today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-03-12T13:31:42.643000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f0593e2fec842a00000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "26b7fe30-e072-11ee-80d3-0000a1acef5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump last year asked Elon Musk if he wanted to buy Truth Social, a sign they continue to communicate more than previously known",
+            "ios": {
+                "alert": {
+                    "body": "Trump last year asked Elon Musk if he wanted to buy Truth Social, a sign they continue to communicate more than previously known",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/12/trump-musk-truth-social-sale/",
+                        "datetime": "2024-03-12T13:12:17.281000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f054b12fec842a00000004",
+                        "targetTopic": "politics",
+                        "text": "Former president Donald Trump\u2019s overture to the billionaire did not lead to a deal. But the two have had other conversations, too, Trump advisers say, about politics and business."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
