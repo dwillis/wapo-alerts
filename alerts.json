@@ -5736,5 +5736,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d736d9d0-e06c-11ee-88a4-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The annual inflation rate rose in February, underscoring concerns prices could be heating up again despite the Fed\u2019s efforts",
+            "ios": {
+                "alert": {
+                    "body": "The annual inflation rate rose in February, underscoring concerns prices could be heating up again despite the Fed\u2019s efforts",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/12/fed-inflation-cpi-february/",
+                        "datetime": "2024-03-12T12:34:16.463000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f04bc82fec842a00000003",
+                        "targetTopic": "business",
+                        "text": "The central bank is eyeing multiple interest rate cuts this year \u2014 but only if progress on inflation keeps up."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9e39fe20-e06a-11ee-88a4-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Transcript of Biden\u2019s interview paints nuanced portrait of his cognitive abilities ahead of Robert Hur\u2019s congressional testimony",
+            "ios": {
+                "alert": {
+                    "body": "Transcript of Biden\u2019s interview paints nuanced portrait of his cognitive abilities ahead of Robert Hur\u2019s congressional testimony",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/12/biden-hur-transcript-classified-documents/",
+                        "datetime": "2024-03-12T12:18:21.851000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f0480d2fec842a00000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The president doesn\u2019t come across as absent-minded as Hur has made him out to be \u2014 and Hur doesn\u2019t appear as crass as Biden has made him out to be. Hur is slated to testify about his probe into Biden\u2019s handling of classified documents today."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
