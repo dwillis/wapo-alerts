@@ -5982,5 +5982,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "68a82820-e08f-11ee-b1aa-00000a1ace76",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Podcast. Subtweet. If you\u2019re still using these dated words, you\u2019re not alone, Benjamin Dreyer writes.",
+            "ios": {
+                "alert": {
+                    "body": "Podcast. Subtweet. If you\u2019re still using these dated words, you\u2019re not alone, Benjamin Dreyer writes.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/12/evolving-word-meanings-usage-anachronyms-subway-token-subtweet/",
+                        "datetime": "2024-03-12T16:41:43.337000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f085c77137842a00000001",
+                        "targetTopic": "opinions",
+                        "text": "If you\u2019re still using these dated words, you\u2019re not alone"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a0e52fe0-e089-11ee-85e4-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Husband mulls unemployment as preferable to a \u2018step down\u2019 job",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Husband mulls unemployment as preferable to a \u2018step down\u2019 job",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/12/carolyn-hax-husband-step-down-job/",
+                        "datetime": "2024-03-12T16:00:20.728000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f07c142fec842a00000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Husband mulls unemployment as preferable to a \u2018step down\u2019 job"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
