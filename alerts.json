@@ -6717,5 +6717,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "60376f20-e16b-11ee-977c-00000a1ace10",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Could TikTok really face a nationwide ban? We break down what the House bill demands \u2014 and how likely it is to pass the Senate.",
+            "ios": {
+                "alert": {
+                    "body": "Could TikTok really face a nationwide ban? We break down what the House bill demands \u2014 and how likely it is to pass the Senate.",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/12/tiktok-ban-bill-us-congress/",
+                        "datetime": "2024-03-13T18:56:18.414000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1f6d27137842a00000009",
+                        "targetTopic": "technology",
+                        "text": "House lawmakers today approved a bill that could eventually lead to a ban of the social media platform if it doesn\u2019t cut ties with its Beijing-based parent company. It now heads to the Senate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
