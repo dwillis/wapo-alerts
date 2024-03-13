@@ -6767,5 +6767,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5b61fe00-e186-11ee-87c2-000a1ace5899",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dorie Ladner dies at 81. The civil rights activist braved gunfire, tear gas, police dogs and the KKK for racial equality.",
+            "ios": {
+                "alert": {
+                    "body": "Dorie Ladner dies at 81. The civil rights activist braved gunfire, tear gas, police dogs and the KKK for racial equality.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/03/13/dorie-ladner-civil-rights-dead/",
+                        "datetime": "2024-03-13T22:09:26.756000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f224161fc58c3500000001",
+                        "targetTopic": "us",
+                        "text": "At a time when Mississippi was one of the most dangerous places in the South for African Americans and civil rights workers, Ladner led marches and sit-ins, mounted voter registration drives, and helped organize events including the 1963 March on Washington. She traveled around the country encouraging Black people to embrace their civic responsibility to vote."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
