@@ -6178,5 +6178,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42cb9710-e0e7-11ee-86fd-0000a1acec72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump officially wins the GOP nomination for president, AP projects, setting up a rematch with Biden",
+            "ios": {
+                "alert": {
+                    "body": "Trump officially wins the GOP nomination for president, AP projects, setting up a rematch with Biden",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/12/election-2024-trump-biden-georgia-mississippi-washington-hawaii-primary/",
+                        "datetime": "2024-03-13T03:10:35.525000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1192bffd26d2b00000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Donald Trump secured the 1,215 delegates needed to make him the party\u2019s official nominee, the Associated Press reported. He is set to be formally nominated at the Republican National Convention from July 15-18 in Milwaukee."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
