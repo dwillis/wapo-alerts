@@ -6129,5 +6129,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "003856b0-e0c7-11ee-a3ca-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden formally gains enough delegates to secure the 2024 Democratic presidential nomination, AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Biden formally gains enough delegates to secure the 2024 Democratic presidential nomination, AP projects",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/12/election-2024-trump-biden-georgia-mississippi-washington-hawaii-primary/",
+                        "datetime": "2024-03-12T23:19:39.899000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f0e30bffd26d2b00000001",
+                        "targetTopic": "breaking-news",
+                        "text": "President Biden clinched the 1,968 delegates needed to earn the 2024 presidential nomination, the Associated Press reported, setting up a likely rematch with former president Donald Trump.\nHe is set to be formally nominated at the Democratic National Convention from Aug. 19-22 in Chicago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
