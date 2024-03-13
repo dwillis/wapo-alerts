@@ -6472,5 +6472,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9e36eaa0-e14b-11ee-aed9-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Georgia judge drops a small number of the charges against Trump in sweeping election interference case",
+            "ios": {
+                "alert": {
+                    "body": "Georgia judge drops a small number of the charges against Trump in sweeping election interference case",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/13/trump-georgia-election-case-charges-dropped/",
+                        "datetime": "2024-03-13T15:08:58.612000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1c18a7137842a00000006",
+                        "targetTopic": "politics",
+                        "text": "The judge overseeing the election interference case against former president Donald Trump and several allies dismissed six counts of the 41-count criminal racketeering indictment, ruling that the charges lacked specific detail, but he declined to dismiss the case.\n\nIn a nine-page order issued Wednesday morning, Fulton County Superior Court Judge Scott McAfee dismissed six charges alleging Trump and five co-defendants had illegally urged elected officials in Georgia to violate their oaths of office in their attempts to overturn Trump\u2019s 2020 election loss in the state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2214cf51-e14b-11ee-94ff-00000a1ace4d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What\u2019s the best way to split the bill at a restaurant? Our food critic is taking your questions now.",
+            "ios": {
+                "alert": {
+                    "body": "What\u2019s the best way to split the bill at a restaurant? Our food critic is taking your questions now.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/03/06/tom-sietsema-live-chat-2/",
+                        "datetime": "2024-03-13T15:05:30.283000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1c0ba7137842a00000005",
+                        "targetTopic": "food",
+                        "text": "Post food critic Tom Sietsema answers your restaurant-related questions, solves your dining dilemmas and gives suggestions on the best places to eat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
