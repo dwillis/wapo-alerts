@@ -6423,5 +6423,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "87b97530-e147-11ee-ba83-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The House overwhelmingly passed a bill that could ban TikTok in the U.S. Its fate in the Senate is uncertain.",
+            "ios": {
+                "alert": {
+                    "body": "The House overwhelmingly passed a bill that could ban TikTok in the U.S. Its fate in the Senate is uncertain.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/13/tiktok-ban-passes-house-vote/",
+                        "datetime": "2024-03-13T14:39:42.885000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1baae7137842a00000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The legislation, approved less than a week after advancing out of committee, would force TikTok to split from its parent company or face a national ban \u2014 a sweeping bipartisan rebuke of the popular video-sharing app. It now goes to the Senate, where some lawmakers have expressed concern it may run afoul of the Constitution."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
