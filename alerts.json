@@ -6570,5 +6570,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "61f3d810-e15e-11ee-9657-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Correction: National Park Service to remove 140 cherry trees for D.C. sea wall project. A previous alert said 300.",
+            "ios": {
+                "alert": {
+                    "body": "Correction: National Park Service to remove 140 cherry trees for D.C. sea wall project. A previous alert said 300.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/13/cherry-trees-cut-down-washington/",
+                        "datetime": "2024-03-13T17:23:17.928000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1e1057137842a00000008",
+                        "targetTopic": "local",
+                        "text": "The removal of the iconic Japanese flowering trees between the Thomas Jefferson Memorial and the Franklin Delano Roosevelt Memorial will begin in May, the Park Service said.\n\nIn all, about 300 trees of different varieties, including cherry trees, will be removed from the Tidal Basin and West Potomac Park during a three-year project to rehabilitate crumbling sea walls in the area. When work is completed, the Park Service said, it will plant hundreds more trees.\n\nAn earlier version of this alert misstated the number of cherry trees that would be removed. This alert has been corrected."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2b326711-e154-11ee-87f7-0000a1ace202",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "National Park Service to cut down 300 cherry trees over a 3-year span for D.C. sea wall project. Most will be replaced.",
+            "ios": {
+                "alert": {
+                    "body": "National Park Service to cut down 300 cherry trees over a 3-year span for D.C. sea wall project. Most will be replaced.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/13/cherry-trees-cut-down-washington/",
+                        "datetime": "2024-03-13T16:10:11.092000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1cfe3d32d912a00000004",
+                        "targetTopic": "local",
+                        "text": "The removal of the first 140 of the iconic Japanese flowering trees between the Thomas Jefferson Memorial and the Franklin Delano Roosevelt Memorial will begin in May, the Park Service said.\n\nUltimately, 300 cherry trees around the Tidal Basin and West Potomac Park will be removed during a three-year project to rehabilitate crumbling sea walls in the area, but 274 of the trees will be replaced, according to the Park Service."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d8d994d0-e152-11ee-a874-00000a1ace99",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Brother is a risk to \u2018cut and run\u2019 on his premature newborn twins",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Brother is a risk to \u2018cut and run\u2019 on his premature newborn twins",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/13/carolyn-hax-brother-premature-twins-stress/",
+                        "datetime": "2024-03-13T16:00:43.355000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1cdab7137842a00000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Brother is a risk to \u2018cut and run\u2019 on his premature newborn twins"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
