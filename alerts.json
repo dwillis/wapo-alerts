@@ -6276,5 +6276,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f49a82a0-e13f-11ee-8a5a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Predatory groups are coercing children into violent and degrading acts on popular online platforms, then boasting about it",
+            "ios": {
+                "alert": {
+                    "body": "Predatory groups are coercing children into violent and degrading acts on popular online platforms, then boasting about it",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2024/764-predator-discord-telegram/",
+                        "datetime": "2024-03-13T13:45:29.557000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1adf97137842a00000003",
+                        "targetTopic": "special_report",
+                        "text": "An emerging network of groups motivated by cruelty seeks out children with mental health issues and blackmails them into self-harm, in some cases pressuring them to take their own lives, a global examination by The Washington Post and several media partners found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ef302ab0-e13d-11ee-9ac0-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018A pivot out of nowhere\u2019 in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "\u2018A pivot out of nowhere\u2019 in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-03-13T13:31:01.350000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1aa957137842a00000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9bf3d640-e13c-11ee-93fa-00000a1ace85",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alexei Navalny\u2019s widow, Yulia Navalnaya, writes: Putin isn\u2019t a politician, he\u2019s a gangster",
+            "ios": {
+                "alert": {
+                    "body": "Alexei Navalny\u2019s widow, Yulia Navalnaya, writes: Putin isn\u2019t a politician, he\u2019s a gangster",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/13/alexei-navalny-yulia-navalnaya-putin-russia-election/",
+                        "datetime": "2024-03-13T13:21:32.206000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f1a85cd32d912a00000003",
+                        "targetTopic": "opinions",
+                        "text": "Putin isn\u2019t a politician, he\u2019s a gangster"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
