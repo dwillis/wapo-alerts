@@ -7210,5 +7210,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2550d9e0-e22f-11ee-8fc6-00000a1ace9b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former Trump adviser Peter Navarro must go to prison for ignoring Jan. 6 subpoena, appeals court says",
+            "ios": {
+                "alert": {
+                    "body": "Former Trump adviser Peter Navarro must go to prison for ignoring Jan. 6 subpoena, appeals court says",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/14/peter-navarro-prison-appeals-court-subpoena/",
+                        "datetime": "2024-03-14T18:17:40.986000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f33f44d32d912a00000005",
+                        "targetTopic": "politics",
+                        "text": "Navarro was convicted for refusing to testify before Congress about his involvement in efforts to undo the results of the 2020 election. He has been ordered to report to a prison in Miami by Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a95093e0-e22d-11ee-a832-00000a1ace68",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "$730 hotel rooms and $75 parking for fans? Youngkin\u2019s own report calls forecasts for proposed Capitals-Wizards arena rosy.",
+            "ios": {
+                "alert": {
+                    "body": "$730 hotel rooms and $75 parking for fans? Youngkin\u2019s own report calls forecasts for proposed Capitals-Wizards arena rosy.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/14/virginia-arena-financial-economic-impact-youngkin/",
+                        "datetime": "2024-03-14T18:07:03.365000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f33cc77137842a0000000c",
+                        "targetTopic": "local",
+                        "text": "The analysis, commissioned by the administration of Gov. Glenn Youngkin (R), found the financing plan assumes thousands of fans will pay $75 for parking, the teams\u2019 owner will host 53 more events annually in Alexandria than it did last year at its current D.C. arena, and a new luxury hotel will book rooms at a \u201chistorically unprecedented\u201d rate of $731 a night."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
