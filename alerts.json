@@ -7112,5 +7112,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "89073360-e222-11ee-9973-00000a1ace23",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "All that is true about aging is illuminated on a walk, Anne Lamott writes",
+            "ios": {
+                "alert": {
+                    "body": "All that is true about aging is illuminated on a walk, Anne Lamott writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/14/anne-lamott-aging-life-friends-vision/",
+                        "datetime": "2024-03-14T16:47:24.856000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f32a1cffd26d2b00000004",
+                        "targetTopic": "opinions",
+                        "text": "We work, love and help others as best we can, gawk at nature, rest. Is that it? Pretty much."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1259a2d0-e21c-11ee-b91b-00000a1ace59",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: His version of respect for women results in few second dates",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: His version of respect for women results in few second dates",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/14/carolyn-hax-respect-women-dates/",
+                        "datetime": "2024-03-14T16:01:08.737000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f31f441fc58c3500000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: His version of respect for women results in few second dates"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
