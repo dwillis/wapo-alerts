@@ -7357,5 +7357,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ee6bea2-e24e-11ee-ab1a-00000a1ace06",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s Georgia case hangs on the decision of a relatively new judge, who plans to rule on Willis misconduct allegations by Friday",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s Georgia case hangs on the decision of a relatively new judge, who plans to rule on Willis misconduct allegations by Friday",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/12/judge-scott-mcafee-trump-georgia-case-fani-willis/",
+                        "datetime": "2024-03-14T22:00:18.314000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f373721fc58c3500000008",
+                        "targetTopic": "politics",
+                        "text": "Fulton County Superior Court Judge Scott McAfee\u2019s ruling is likely to be a career-defining moment for the 34-year-old judge. His decision, whatever it is, will almost certainly be questioned because of its implications for the 2024 presidential election and is sure to draw political attacks in an already contentious election year in which he, Fulton County District Attorney Fani Willis and former president Donald Trump will each be on the ballot."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
