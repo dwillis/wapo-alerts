@@ -6865,5 +6865,154 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "21b6b871-e209-11ee-92cc-0000a1acef07",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "SpaceX\u2019s Starship makes it to space on its third test flight after two previous setbacks",
+            "ios": {
+                "alert": {
+                    "body": "SpaceX\u2019s Starship makes it to space on its third test flight after two previous setbacks",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/14/spacex-starship-launch-live/",
+                        "datetime": "2024-03-14T13:45:34.100000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f2ff7e1fc58c3500000004",
+                        "targetTopic": "technology",
+                        "text": "The spacecraft lifted off at 9:25 a.m. Eastern and has now traveled farther than on either of its previous test flights. If the spacecraft continues to perform, it\u2019s expected to splash down in the Indian Ocean about an hour after liftoff."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1dc91571-e207-11ee-bd93-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A room of one\u2019s own \u2014 at an ex\u2019s museum! \u2014 in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A room of one\u2019s own \u2014 at an ex\u2019s museum! \u2014 in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-03-14T13:31:08.420000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f2fc1c1fc58c3500000003",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Thursday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "27472fa0-e203-11ee-8893-00000a1acef4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "EPA curbs cancer-causing chemical used by facilities that sterilize medical supplies",
+            "ios": {
+                "alert": {
+                    "body": "EPA curbs cancer-causing chemical used by facilities that sterilize medical supplies",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/03/14/ethylene-oxide-epa-rule/",
+                        "datetime": "2024-03-14T13:02:46.378000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f2f5761fc58c3500000002",
+                        "targetTopic": "climate",
+                        "text": "The new Environmental Protection Agency rule is aimed at helping disadvantaged communities across the country reduce their exposure to ethylene oxide, a highly toxic gas. But critics say it could create a shortfall of sterilized medical devices for hospitals and clinics."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
