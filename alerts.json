@@ -7308,5 +7308,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4162dcd2-e23b-11ee-9ac8-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Manhattan DA suggests one-month delay to Donald Trump\u2019s hush money trial",
+            "ios": {
+                "alert": {
+                    "body": "Manhattan DA suggests one-month delay to Donald Trump\u2019s hush money trial",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/14/trump-trial-hush-money-delay/",
+                        "datetime": "2024-03-14T19:44:22.047000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f35396d32d912a00000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Manhattan District Attorney Alvin Bragg suggested that the pending trial of former president Donald Trump be delayed a month from its planned March 25 start because of new documents turned over by federal prosecutors \u2014 a surprising twist in what has been expected to be the first criminal trial of a former president."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
