@@ -7014,5 +7014,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ccdabd0-e210-11ee-8ee3-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A New Orleans police officer took a 14-year-old girl for a rape kit. Then he sexually assaulted her, too.",
+            "ios": {
+                "alert": {
+                    "body": "A New Orleans police officer took a 14-year-old girl for a rape kit. Then he sexually assaulted her, too.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/interactive/2024/new-orleans-police-child-sexual-abuse-rodney-vicknair/",
+                        "datetime": "2024-03-14T14:36:25.986000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f30b691fc58c3500000006",
+                        "targetTopic": "special_report",
+                        "text": "Hundreds of police officers have been charged with sexually abusing children over the past two decades, a Washington Post investigation found. This is how one patrol officer preyed on a girl he met on the job."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b1516da0-e20d-11ee-b104-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Schumer to call for \u2018new election\u2019 in Israel as U.S. frustrations grow over Netanyahu\u2019s handling of Gaza",
+            "ios": {
+                "alert": {
+                    "body": "Schumer to call for \u2018new election\u2019 in Israel as U.S. frustrations grow over Netanyahu\u2019s handling of Gaza",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/14/israel-elections-netanyahu-charles-schumer/",
+                        "datetime": "2024-03-14T14:18:13.029000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f307251fc58c3500000005",
+                        "targetTopic": "world",
+                        "text": "Senate Majority Leader Charles E. Schumer\u2019s remarks are the clearest signal to Israel yet that frustrations over Prime Minister Benjamin Netanyahu have reached the highest echelons of the U.S. government."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
