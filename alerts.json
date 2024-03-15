@@ -7406,5 +7406,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "85523cb0-e259-11ee-9973-00000a1ace23",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Father of Michigan school shooter found guilty of involuntary manslaughter, a month after teen\u2019s mother was convicted",
+            "ios": {
+                "alert": {
+                    "body": "Father of Michigan school shooter found guilty of involuntary manslaughter, a month after teen\u2019s mother was convicted",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/03/14/james-crumbley-verdict-oxford-school-shooting-trial/",
+                        "datetime": "2024-03-14T23:21:00.913000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f3865c1fc58c3500000009",
+                        "targetTopic": "breaking-news",
+                        "text": "James Crumbley's teenage son Ethan Crumbley killed four students at Oxford High School in 2021. Both James and his wife, Jennifer Crumbley, were accused of failing to secure a weapon in their home and ignoring their son's pleas for help."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
