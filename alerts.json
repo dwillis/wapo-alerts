@@ -7749,5 +7749,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aa8866d0-e30d-11ee-86c9-000a1aceb80c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump's New York hush money trial delayed 30 days to consider new evidence",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump's New York hush money trial delayed 30 days to consider new evidence",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/15/trump-hush-money-trial-bragg-delay/",
+                        "datetime": "2024-03-15T20:50:32.752000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f4b498ffd26d2b00000008",
+                        "targetTopic": "us",
+                        "text": "The judge overseeing Trump\u2019s pending trial in New York on charges related to 2016 hush money payments granted a 30-day delay on Friday while he considers arguments about evidence in the case. The criminal trial, the first for a former U.S. president, had been scheduled to start March 25."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "18dbebd0-e30d-11ee-8fd4-00000a1aceb1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former vice president Mike Pence says he will not endorse Donald Trump in 2024, in a remarkable break from tradition",
+            "ios": {
+                "alert": {
+                    "body": "Former vice president Mike Pence says he will not endorse Donald Trump in 2024, in a remarkable break from tradition",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/15/pence-trump-no-endorsement-2024/",
+                        "datetime": "2024-03-15T20:46:28.303000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f4b3a4ffd26d2b00000007",
+                        "targetTopic": "politics",
+                        "text": "Pence served under Trump but has been critical of the former president following the Jan. 6, 2021, attack on the U.S. Capitol in which Pence was targeted by a mob of pro-Trump supporters. Pence rebuked his former boss in strong terms Friday, saying Trump\u2019s agenda doesn't align with conservatives.\n\u201cDonald Trump is pursuing and articulating an agenda that is at odds with the conservative agenda that we governed on during our four years, and that is why I cannot in good conscience endorse Donald Trump in this campaign,\u201d Pence told Fox News."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
