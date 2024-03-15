@@ -7602,5 +7602,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "12a9b0d0-e2db-11ee-bcc1-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Realtor giant agrees to overhaul commission structure, fundamentally altering how much home sellers pay agents",
+            "ios": {
+                "alert": {
+                    "body": "Realtor giant agrees to overhaul commission structure, fundamentally altering how much home sellers pay agents",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/15/nar-real-estate-commissions-settlement/",
+                        "datetime": "2024-03-15T14:48:10.996000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f45faad32d912a0000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Under the deal, the National Association of Realtors would pay $418 million to resolve lawsuits over excessive fees. As part of the deal, the group will change the current rules that support 5 to 6 percent commissions for real estate agents."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cc2624a0-e2d4-11ee-9997-000a1ace422c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Maryland House Democrats push $1.2 billion in tax, fee and toll increases to avoid cutting prized programs",
+            "ios": {
+                "alert": {
+                    "body": "Maryland House Democrats push $1.2 billion in tax, fee and toll increases to avoid cutting prized programs",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/15/maryland-tax-increases-igaming/",
+                        "datetime": "2024-03-15T14:03:27.828000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f4552fd32d912a00000009",
+                        "targetTopic": "local",
+                        "text": "Online poker, electric vehicles and corporations are among revenue-raising targets in the package, which is designed to force Senate Democrats to the negotiation table over a looming deficit projected to reach $4 billion in four years. The money would pay for imperiled transportation projects and help implement a landmark education plan."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
