@@ -7847,5 +7847,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "41e4a730-e310-11ee-ba5f-00000a1acef0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "University of Maryland ends Greek life restrictions, says some chapters still under investigation",
+            "ios": {
+                "alert": {
+                    "body": "University of Maryland ends Greek life restrictions, says some chapters still under investigation",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/15/umd-fraternity-sorority-ban-lifted/",
+                        "datetime": "2024-03-15T21:09:05.697000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f4b8f1ffd26d2b00000009",
+                        "targetTopic": "local",
+                        "text": "The University of Maryland has lifted a two-week ban on alcoholic events and any socializing with new recruits at several dozen fraternities and sororities, saying its investigation into reports of dangerous activity was complete. But five groups and some individual members are now facing further scrutiny."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
