@@ -7700,5 +7700,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "af119971-e302-11ee-9f5b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nathan Wade resigns as lead prosecutor in Trump Georgia case after judge calls for him to do so",
+            "ios": {
+                "alert": {
+                    "body": "Nathan Wade resigns as lead prosecutor in Trump Georgia case after judge calls for him to do so",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/15/fani-willis-trump-georgia-case/",
+                        "datetime": "2024-03-15T19:31:55.942000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f4a22bffd26d2b00000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Wade, the special prosecutor who led the Georgia election interference case against former president Donald Trump and several of his allies, faced allegations that he had an improper personal relationship with Fulton County District Attorney Fani T. Willis (D) and paid for her travel expenses. The judge ruled Friday that Willis could continue with the prosecution only if Wade exited the case."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
