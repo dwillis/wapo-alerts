@@ -7945,5 +7945,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6e5be0b0-e3a8-11ee-a248-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A veteran was hailed as a hero for helping stop a mass shooter. But that was just part of the story.",
+            "ios": {
+                "alert": {
+                    "body": "A veteran was hailed as a hero for helping stop a mass shooter. But that was just part of the story.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/of-interest/interactive/2024/richard-fierro-club-q-shooting/",
+                        "datetime": "2024-03-16T15:18:23.835000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f5b83fd32d912a0000000c",
+                        "targetTopic": "editors_picks",
+                        "text": "Rich Fierro\u2019s family made it through his service in America\u2019s wars abroad. Then a different kind of war disrupted their peace at home."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
