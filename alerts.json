@@ -7896,5 +7896,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ee8c72a0-e398-11ee-ba08-000a1ace6731",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How many guesses will Keyword take you today? Try to beat the average now.",
+            "ios": {
+                "alert": {
+                    "body": "How many guesses will Keyword take you today? Try to beat the average now.",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/keyword/",
+                        "datetime": "2024-03-16T13:27:26.961000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f59e3ed32d912a0000000b",
+                        "targetTopic": "news_quiz",
+                        "text": "How many guesses will Keyword take you today? Try to beat the average now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
