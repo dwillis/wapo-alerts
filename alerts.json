@@ -8043,5 +8043,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "25b25ce0-e3c6-11ee-b9d5-00000a1aced1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Think spring is starting earlier? Check out how it\u2019s changed in your town.",
+            "ios": {
+                "alert": {
+                    "body": "Think spring is starting earlier? Check out how it\u2019s changed in your town.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/spring-earlier-arrival-plants-map/",
+                        "datetime": "2024-03-16T18:51:06.836000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f5ea1ad32d912a0000000e",
+                        "targetTopic": "editors_picks",
+                        "text": "Washington Post readers told us how the season has changed where they live. Our interactive tool shows where leaves are sprouting sooner."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
