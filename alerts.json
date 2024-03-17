@@ -8141,5 +8141,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "09a4e860-e46b-11ee-ab37-00000a1acecc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How a sleuth defense attorney in the Trump Georgia case and a disgruntled former law partner seized on the Willis-Wade rumor",
+            "ios": {
+                "alert": {
+                    "body": "How a sleuth defense attorney in the Trump Georgia case and a disgruntled former law partner seized on the Willis-Wade rumor",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/16/fani-willis-misconduct-accusations-ashleigh-merchant/",
+                        "datetime": "2024-03-17T14:31:26.736000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f6febee55fdd3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "When defense attorneys in the election interference case first heard the rumor that Fulton County District Attorney Fani T. Willis (D) had hired a lover to lead the case, the reaction was muted. It was early September, just three weeks after their clients had been indicted, and they were busy preparing their cases. But one lawyer was interested \u2014 and quickly started tracking down records."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "89ec0e91-e466-11ee-a578-00000a1ace80",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Crossword and a coffee: Solve the Sunday puzzle now",
+            "ios": {
+                "alert": {
+                    "body": "Crossword and a coffee: Solve the Sunday puzzle now",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/crossword-puzzles/sunday-evan-birnholz/",
+                        "datetime": "2024-03-17T13:59:14.251000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f6f732e55fdd3500000001",
+                        "targetTopic": "news_quiz",
+                        "text": "Crossword and a coffee: Solve the Sunday puzzle now"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
