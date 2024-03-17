@@ -8092,5 +8092,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbc51361-e449-11ee-adba-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russians protest Putin\u2019s rule in long lines outside polling stations, answering a call from late opposition leader Navalny",
+            "ios": {
+                "alert": {
+                    "body": "Russians protest Putin\u2019s rule in long lines outside polling stations, answering a call from late opposition leader Navalny",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/17/russia-presidential-election-putin-protest/",
+                        "datetime": "2024-03-17T10:33:29.431000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f6c6f95e9e703500000001",
+                        "targetTopic": "world",
+                        "text": "Showing their anger over a presidential election with only one possible outcome \u2014 another victory for Vladimir Putin \u2014 thousands of Russians formed long queues outside of polling stations at noon on Sunday. Alexei Navalny had urged the midday protest action before he died suddenly in prison last month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
