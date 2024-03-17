@@ -8337,5 +8337,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2db24b60-e49a-11ee-bc2b-00000a1ace10",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C.\u2019s cherry blossoms hit peak bloom at the second-earliest date on record, reflecting the impact of climate change",
+            "ios": {
+                "alert": {
+                    "body": "D.C.\u2019s cherry blossoms hit peak bloom at the second-earliest date on record, reflecting the impact of climate change",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/03/17/cherry-blossoms-dc-peak-bloom-climate/",
+                        "datetime": "2024-03-17T20:08:53.520000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f74dd5d32d912a0000000f",
+                        "targetTopic": "local",
+                        "text": "Sunday\u2019s peak at the Tidal Basin tied with 2000 as the second-earliest on record; only the March 15, 1990, bloom came sooner in observations since 1921. This year\u2019s was so early that it preceded the March 20 start of the National Cherry Blossom Festival, which runs through April 14."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
