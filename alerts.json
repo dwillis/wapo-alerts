@@ -8533,5 +8533,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47d85140-e4b0-11ee-be07-00000a1ace9d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Connecticut, Houston, Purdue and North Carolina earn No. 1 seeds in NCAA men\u2019s basketball tournament. See the full bracket here.",
+            "ios": {
+                "alert": {
+                    "body": "Connecticut, Houston, Purdue and North Carolina earn No. 1 seeds in NCAA men\u2019s basketball tournament. See the full bracket here.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/17/march-madness-bracket/",
+                        "datetime": "2024-03-17T22:47:06.286000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f772ea361f713600000004",
+                        "targetTopic": "breaking-news",
+                        "text": "March Madness has arrived, and the men\u2019s field of 68 was revealed Sunday evening before play begins with opening-round games Tuesday.\nUse our comprehensive live bracket to stay up to date all the way through the national championship game on April 8 in Glendale, Ariz."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
