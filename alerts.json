@@ -8386,5 +8386,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "088b0ac0-e4a9-11ee-9ce3-0000a1acef7c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It's Selection Sunday, and the NCAA men's and women's tournament brackets are about to be revealed. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "It's Selection Sunday, and the NCAA men's and women's tournament brackets are about to be revealed. Follow our live coverage.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/17/selection-sunday-march-madness-bracket-reveal/",
+                        "datetime": "2024-03-17T21:55:13.650000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f766c1361f713600000003",
+                        "targetTopic": "sports",
+                        "text": "The men\u2019s field will be revealed first, at 6 p.m. Eastern on CBS, followed by the bracket for the women's tournament, which will be announced at 8 p.m. on ESPN. Follow along for insight and analysis as March Madness gets underway."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7634cd20-e4a6-11ee-a618-00000a1ace77",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russia claims big victory for Putin to extend his rule in election condemned as rigged",
+            "ios": {
+                "alert": {
+                    "body": "Russia claims big victory for Putin to extend his rule in election condemned as rigged",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/17/russia-presidential-election-putin-protest/",
+                        "datetime": "2024-03-17T21:36:49.156000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f76271361f713600000002",
+                        "targetTopic": "world",
+                        "text": "The Russian president, who has defied term limits repeatedly since taking power on Dec. 31, 1999, will extend his rule to 2030. The vote drew protests in Russia and allegations of war crimes in occupied Ukraine, where ballots were cast at gunpoint."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5680c010-e4a1-11ee-ba08-000a1ace6731",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "She wanted to take America back to \u2018biblical truth.\u2019 Then she won a school board seat.",
+            "ios": {
+                "alert": {
+                    "body": "She wanted to take America back to \u2018biblical truth.\u2019 Then she won a school board seat.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/17/patriot-academy-biblical-citizenship-school-board/",
+                        "datetime": "2024-03-17T21:00:08.221000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f759d8361f713600000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Linda Wenhold teaches Patriot Academy classes, which tap into a growing fear among some evangelical Christians that their faith is under siege. Her election to the school board forced her to make a choice about how to use her newfound power."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
