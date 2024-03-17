@@ -8288,5 +8288,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "20ba52e0-e481-11ee-ba08-000a1ace6731",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "America\u2019s stunning recovery from the covid crisis, in 11 charts",
+            "ios": {
+                "alert": {
+                    "body": "America\u2019s stunning recovery from the covid crisis, in 11 charts",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/16/economy-recovery-covid-unemployment-wages-debt-groceries/",
+                        "datetime": "2024-03-17T17:09:34.328000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f723cee55fdd3500000004",
+                        "targetTopic": "us",
+                        "text": "Four years ago this week, the first wave of what would grow to be 20 million job losses set in, although most Americans were more terrified of catching a new, very transmissible and sometimes fatal virus. After a pandemic-fueled roller coaster, a new normal has settled into the U.S. economy \u2014 one that nobody could have predicted four years ago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
