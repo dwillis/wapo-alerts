@@ -8729,5 +8729,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5a267ad0-e536-11ee-9d35-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Joann, the decades-old crafts and fabrics retailer, files for bankruptcy as shoppers go online and demand wanes",
+            "ios": {
+                "alert": {
+                    "body": "Joann, the decades-old crafts and fabrics retailer, files for bankruptcy as shoppers go online and demand wanes",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/18/joann-fabric-bankruptcy/",
+                        "datetime": "2024-03-18T14:46:49.565000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f853d9361f713600000006",
+                        "targetTopic": "business",
+                        "text": "The 81-year old company is forced to seek Chapter 11 protection as consumers continue to pull back on discretionary spending. The company does not plan to shutter any of its 829 stores and expects it could complete the bankruptcy process by next month, after which it will become a private company."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "24411fb0-e531-11ee-9b4d-0000a1ace43c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Patients with mysterious \u2018Havana Syndrome\u2019 show no sign of brain injuries, NIH studies reveal, but \u2018these symptoms are real\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Patients with mysterious \u2018Havana Syndrome\u2019 show no sign of brain injuries, NIH studies reveal, but \u2018these symptoms are real\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/03/18/nih-havana-syndrome-mri-scans/",
+                        "datetime": "2024-03-18T14:09:31.732000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f84b1b5e9e703500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "Two studies published Monday in JAMA found few significant differences in a range of cognitive and physical tests among more than 80 patients compared to a control group. The results are the latest attempt by medical and national security experts to explain the sometimes debilitating ailments among government workers, which previously sparked a rash of inconclusive investigations, roiled the State Department and Central Intelligence Agency and heightened tensions between the United States and Cuba."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1be66920-e530-11ee-905d-000a1acec4f1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sports Illustrated\u2019s owner announces new publisher after planned layoffs put magazine's future in doubt",
+            "ios": {
+                "alert": {
+                    "body": "Sports Illustrated\u2019s owner announces new publisher after planned layoffs put magazine's future in doubt",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/18/sports-illustrated-minute-media/",
+                        "datetime": "2024-03-18T14:02:08.175000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f849605e9e703500000003",
+                        "targetTopic": "sports",
+                        "text": "Authentic Brands Group, which owns the magazine, announced the deal Monday. Minute Media, a London-based digital media company that publishes websites including the Players\u2019 Tribune, will now chart the magazine's future, including the fate of employees who were told recently they'd be laid off."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
