@@ -9073,5 +9073,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5215f760-e55b-11ee-b1cc-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A high-ranking Hamas commander was killed in an Israeli strike in Gaza earlier this month, White House confirms",
+            "ios": {
+                "alert": {
+                    "body": "A high-ranking Hamas commander was killed in an Israeli strike in Gaza earlier this month, White House confirms",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/18/israel-hamas-war-news-gaza-palestine/#link-LJCT364E2ZAZBFAEFG4PZSZNJM",
+                        "datetime": "2024-03-18T19:11:27.387000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f891df361f71360000000c",
+                        "targetTopic": "world",
+                        "text": "Marwan Issa, the highest-ranking militant commander to be killed in five months of fighting, was believed by Israel to have played a central role in Hamas\u2019s day-to-day military operations and to have helped plan its Oct. 7 attack on Israel."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
