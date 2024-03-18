@@ -9122,5 +9122,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e7462041-e56e-11ee-8339-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Spring: Abstraction as ruin. Artist Amy Sillman\u2019s animated video conjures our unfurling world.",
+            "ios": {
+                "alert": {
+                    "body": "Spring: Abstraction as ruin. Artist Amy Sillman\u2019s animated video conjures our unfurling world.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/artist-amy-sillman-spring-animated-video-humor-absurdity/?itid=hp_opinions_p002_f001",
+                        "datetime": "2024-03-18T21:31:38.148000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f8b2bae55fdd3500000006",
+                        "targetTopic": "opinions",
+                        "text": "Spring: Abstraction as ruin"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
