@@ -8877,5 +8877,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d1e4f440-e53e-11ee-94fc-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump can\u2019t secure a bond to cover his $450-million-plus business-fraud judgment, his lawyers say",
+            "ios": {
+                "alert": {
+                    "body": "Trump can\u2019t secure a bond to cover his $450-million-plus business-fraud judgment, his lawyers say",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/18/trump-civil-fraud-judgment-bond-450-million/",
+                        "datetime": "2024-03-18T15:47:26.492000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f8620e361f713600000008",
+                        "targetTopic": "politics",
+                        "text": "Former president Donald Trump has been unable to finance an appeal bond for at least $450 million to cover a judgment in the New York attorney general\u2019s business fraud case, his attorneys said in a court filing, and is seeking a reprieve from an appellate court to keep the state from seizing assets."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e70c1030-e53c-11ee-bb86-000a1ace83b3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. bans most common form of cancer-causing asbestos, ending new uses of a deadly mineral after more than 30 years of attempts",
+            "ios": {
+                "alert": {
+                    "body": "U.S. bans most common form of cancer-causing asbestos, ending new uses of a deadly mineral after more than 30 years of attempts",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/03/18/chrysotile-asbestos-ban-epa/",
+                        "datetime": "2024-03-18T15:33:42.982000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f85ed6361f713600000007",
+                        "targetTopic": "breaking-news",
+                        "text": "The Environmental Protection Agency finalized the ban on chrysotile asbestos on Monday. It comes more than three decades after the EPA first tried to ban all types of the toxic mineral \u2014 which kills roughly 40,000 Americans yearly \u2014 but was blocked by a federal judge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
