@@ -8975,5 +8975,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "77593001-e542-11ee-9865-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court appears likely to reject an effort by GOP-led states to limit White House contacts with social media platforms",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court appears likely to reject an effort by GOP-led states to limit White House contacts with social media platforms",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/18/supreme-court-social-media-biden-missouri/",
+                        "datetime": "2024-03-18T16:13:32.507000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f8682c361f71360000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "A majority of justices from across the ideological spectrum expressed concern about hamstringing the federal government\u2019s communications with social media platforms on issues such as public health, national security and elections."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1fd5bc01-e541-11ee-8212-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Parent embarrassed that college-grad son is a bartender",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Parent embarrassed that college-grad son is a bartender",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/18/carolyn-hax-parent-embarrassed-son-bartender/",
+                        "datetime": "2024-03-18T16:03:56.202000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f865ec361f71360000000a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Parent embarrassed that college-grad son is a bartender"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
