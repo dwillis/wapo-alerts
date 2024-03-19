@@ -9367,5 +9367,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "134e7911-e60c-11ee-b0c2-00000a1ace03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Teen sees new stepsiblings as \u2018too Brady Bunch for me\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Teen sees new stepsiblings as \u2018too Brady Bunch for me\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/19/carolyn-hax-teen-stepsiblings-brady-brunch/",
+                        "datetime": "2024-03-19T16:16:43.090000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f9ba6b5e9e703500000006",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Teen sees new stepsiblings as \u2018too Brady Bunch for me\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
