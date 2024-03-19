@@ -9269,5 +9269,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f7d0b920-e5fa-11ee-bb25-0000a1aceff2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: The perfect bracket to win your March Madness men\u2019s pool",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: The perfect bracket to win your March Madness men\u2019s pool",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/19/perfect-bracket-win-march-madness-pool/",
+                        "datetime": "2024-03-19T14:14:15.336000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f99db79580c63500000003",
+                        "targetTopic": "sports",
+                        "text": "Before the start of the NCAA men\u2019s basketball tournament, The Post\u2019s bracket expert Neil Greenberg presents his annual \u201cperfect bracket\u201d to help you win your office pool."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
