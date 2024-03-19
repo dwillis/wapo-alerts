@@ -9416,5 +9416,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "67a930aa-e61f-11ee-b8f4-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Texas gets the Supreme Court\u2019s green light to enforce a harsh immigration law, for now",
+            "ios": {
+                "alert": {
+                    "body": "Texas gets the Supreme Court\u2019s green light to enforce a harsh immigration law, for now",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/19/supreme-court-texas-immigration-law/",
+                        "datetime": "2024-03-19T18:35:04.993000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f9dad85e9e703500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "The Supreme Court on Tuesday cleared the way for Texas to begin enforcing a law that makes it a state crime for migrants to illegally cross the border and allows state officials to deport undocumented individuals.  Liberal justices dissented, saying the change would invite \"chaos and crisis\" at the border."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
