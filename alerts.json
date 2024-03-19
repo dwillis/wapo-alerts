@@ -9318,5 +9318,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4bd13c60-e606-11ee-b296-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Drone footage raises questions about the Israeli justification for the deadly IDF strike on Gaza journalists",
+            "ios": {
+                "alert": {
+                    "body": "Drone footage raises questions about the Israeli justification for the deadly IDF strike on Gaza journalists",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/19/gaza-journalists-killed-israel-al-jazeera-footage/",
+                        "datetime": "2024-03-19T15:35:20.888000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65f9b0b85e9e703500000005",
+                        "targetTopic": "special_report",
+                        "text": "Footage recovered from the drone of an Al Jazeera team killed by the Israel Defense Forces in a targeted Jan. 7 missile strike raises critical questions about the Israeli justification for the attack. Hamza Dahdouh and Mustafa Thuraya are among 90 journalists and other media workers who have been killed in less than six months of fighting in Gaza, according to the Committee to Protect Journalists \u2014 the deadliest period for the profession since the group began collecting data in 1992."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
