@@ -9465,5 +9465,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "56f61a60-e652-11ee-9d19-0000a1ace93c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump-backed candidate wins Ohio's GOP Senate primary, AP projects, setting up a competitive race against Sen. Sherrod Brown (D)",
+            "ios": {
+                "alert": {
+                    "body": "Trump-backed candidate wins Ohio's GOP Senate primary, AP projects, setting up a competitive race against Sen. Sherrod Brown (D)",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/03/19/election-2024-campaign-updates/",
+                        "datetime": "2024-03-20T00:39:41.283000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fa304d361f71360000000d",
+                        "targetTopic": "politics",
+                        "text": "Bernie Moreno, a wealthy former car dealer backed by Donald Trump, defeated state Sen. Matt Dolan (R) and Secretary of State Frank LaRose (R), the Associated Press reported. Moreno will now face Brown in what is expected to be one of the most competitive Senate contests of the 2024 election cycle."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
