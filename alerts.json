@@ -9563,5 +9563,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd0a50f0-e6a8-11ee-ba08-000a1ace6731",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Immigration law. Primary results. Shutdown talks. Gaza strike. Abortion record. Jonathan Glazer. Olympic condoms. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Immigration law. Primary results. Shutdown talks. Gaza strike. Abortion record. Jonathan Glazer. Olympic condoms. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/20/what-to-know-for-march-20/?noredirect=1",
+                        "datetime": "2024-03-20T10:59:56.591000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "65fac1ac361f71360000000f",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
