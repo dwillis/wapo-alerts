@@ -9661,5 +9661,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7ab29840-e6c3-11ee-a24b-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As Trump attacks Biden\u2019s mental fitness, he\u2019s shadowed by his own father\u2019s dementia",
+            "ios": {
+                "alert": {
+                    "body": "As Trump attacks Biden\u2019s mental fitness, he\u2019s shadowed by his own father\u2019s dementia",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/20/donald-trump-dementia-father-fred-alzheimers-biden/",
+                        "datetime": "2024-03-20T14:09:34.368000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65faee1e361f713600000011",
+                        "targetTopic": "editors_picks",
+                        "text": "Donald Trump\u2019s long fixation on mental fitness followed years of watching his father\u2019s worsening dementia \u2014 a formative period that some associates said has been a defining and little-mentioned factor in his life, and which left him with an abiding concern that he might someday inherit the condition."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
