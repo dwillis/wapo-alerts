@@ -9857,5 +9857,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e4c36ee0-e6e0-11ee-914c-0000a1aceb62",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "There\u2019s still time to get in on that women\u2019s March Madness pool \u2014 and our sports analytics expert has the perfect bracket",
+            "ios": {
+                "alert": {
+                    "body": "There\u2019s still time to get in on that women\u2019s March Madness pool \u2014 and our sports analytics expert has the perfect bracket",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/19/womens-perfect-bracket-march-madness/",
+                        "datetime": "2024-03-20T17:40:07.795000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb1f77361f713600000015",
+                        "targetTopic": "sports",
+                        "text": "Before the start of the NCAA women\u2019s basketball tournament, The Post\u2019s Neil Greenberg presents his annual \u201cperfect bracket.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
