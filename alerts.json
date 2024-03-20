@@ -9759,5 +9759,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "646e3ff0-e6da-11ee-b758-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate hopeful Larry Hogan (R) has double-digit lead on Democrats in deep-blue Maryland, poll finds, with control of chamber in play",
+            "ios": {
+                "alert": {
+                    "body": "Senate hopeful Larry Hogan (R) has double-digit lead on Democrats in deep-blue Maryland, poll finds, with control of chamber in play",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/20/senate-poll-hogan-trone-alsobrooks/",
+                        "datetime": "2024-03-20T16:53:35.519000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb148f361f713600000014",
+                        "targetTopic": "politics",
+                        "text": "A Washington Post-University of Maryland poll finds the former governor ahead of potential Democratic rivals, who face each other for the open seat on May 14. In that wide-open primary contest, the poll found Rep. David Trone with a slight lead over Prince George's County Executive Angela Alsobrook, with 39 percent of primary voters undecided. While Hogan leads now, Maryland voters said by a 20-point margin they prefer Democratic control of the Senate, a position Democrats plan to exploit to weaken Hogan's popularity."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0e62fbc0-e6d3-11ee-ab85-0000a1ace98f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Impaired mother-in-law won\u2019t stop driving, and husband won\u2019t step in",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Impaired mother-in-law won\u2019t stop driving, and husband won\u2019t step in",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/20/carolyn-hax-mother-in-law-driving-impaired/",
+                        "datetime": "2024-03-20T16:01:04.665000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb0840361f713600000013",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Impaired mother-in-law won\u2019t stop driving, and husband won\u2019t step in"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
