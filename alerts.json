@@ -9956,5 +9956,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e3edb410-e6fb-11ee-98bc-000a1ace4070",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Supreme Court gets another say on abortion. What\u2019s at stake with the mifepristone case? Listen to our columnists discuss.",
+            "ios": {
+                "alert": {
+                    "body": "The Supreme Court gets another say on abortion. What\u2019s at stake with the mifepristone case? Listen to our columnists discuss.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/podcasts/impromptu/what-to-expect-when-youre-expecting-an-abortion-pill-argument/",
+                        "datetime": "2024-03-20T20:53:22.779000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb4cc29580c63500000004",
+                        "targetTopic": "opinions",
+                        "text": "When SCOTUS overturned Roe, it indicated that abortion was an issue to be relegated to the states. Instead, it has blown up American politics."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
