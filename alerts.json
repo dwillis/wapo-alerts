@@ -10005,5 +10005,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b0e3ffa0-e70c-11ee-9671-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Very, very troubling\u2019: Legal experts flummoxed by latest order from judge overseeing Trump classified documents case",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Very, very troubling\u2019: Legal experts flummoxed by latest order from judge overseeing Trump classified documents case",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/20/trump-cannon-judge-pra-jury-instructions/",
+                        "datetime": "2024-03-20T22:53:38.571000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb68f2e55fdd3500000008",
+                        "targetTopic": "editors_picks",
+                        "text": "U.S. District Judge Aileen M. Cannon, who is overseeing Donald Trump\u2019s pending trial on charges that he mishandled classified documents, has ordered defense lawyers and prosecutors to outline  proposed jury instructions based on two scenarios \u2014 each of which badly misstates the law and facts of the case, according to legal experts.\n\u201cIn my 30 years as a trial judge, I have never seen an order like this,\u201d said Jeremy Fogel, who served on the federal bench in California and now runs the Berkeley Judicial Institute."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c3685d30-e70a-11ee-b18f-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "National Weather Service warns of dangerous conditions as brush fires bring smoke into D.C. region",
+            "ios": {
+                "alert": {
+                    "body": "National Weather Service warns of dangerous conditions as brush fires bring smoke into D.C. region",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/20/smoke-fire-virginia-maryland-montgomery-prince-william-howard/",
+                        "datetime": "2024-03-20T22:39:50.414000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb65b6e55fdd3500000007",
+                        "targetTopic": "local",
+                        "text": "A series of fires in Virginia and Maryland brought a smoky haze into the D.C. region Wednesday evening, as a combination of strong winds and low humidity created conditions that the National Weather Service says could fuel more blazes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
