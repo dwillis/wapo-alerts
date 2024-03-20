@@ -9710,5 +9710,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f85956c0-e6ce-11ee-a24b-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden requires automakers to ramp up sales of EVs and hybrids \u2014 his biggest climate move yet. It\u2019s likely to face legal challenges.",
+            "ios": {
+                "alert": {
+                    "body": "Biden requires automakers to ramp up sales of EVs and hybrids \u2014 his biggest climate move yet. It\u2019s likely to face legal challenges.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/03/20/biden-car-emissions-rules/",
+                        "datetime": "2024-03-20T15:31:49.706000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb0165361f713600000012",
+                        "targetTopic": "breaking-news",
+                        "text": "The Biden administration finalized the toughest-ever limits on planet-warming emissions from passenger cars and light trucks Wednesday, a bid to speed up the nation\u2019s halting transition to electric vehicles."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
