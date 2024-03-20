@@ -9514,5 +9514,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9052ccb0-e67d-11ee-a084-0000a1ace29d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Texas immigration law blocked from taking effect, hours after Supreme Court gave state the go-ahead to arrest, deport migrants",
+            "ios": {
+                "alert": {
+                    "body": "Texas immigration law blocked from taking effect, hours after Supreme Court gave state the go-ahead to arrest, deport migrants",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/19/supreme-court-texas-immigration-law/",
+                        "datetime": "2024-03-20T05:49:05.927000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fa78d1361f71360000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "The surprise ruling by the U.S. Court of Appeals for the 5th Circuit came hours after the Supreme Court cleared the way for S.B. 4 to take effect during legal challenges. The law makes it a state crime for migrants to enter Texas illegally."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
