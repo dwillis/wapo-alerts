@@ -9906,5 +9906,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "de6dda51-e6e3-11ee-9391-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fed keeps interest rates steady and signals it will cut rates three times this year, as inflation simmers",
+            "ios": {
+                "alert": {
+                    "body": "Fed keeps interest rates steady and signals it will cut rates three times this year, as inflation simmers",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/20/fed-interest-rates-decision-inflation-fomc/",
+                        "datetime": "2024-03-20T18:01:25.608000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb2475361f713600000016",
+                        "targetTopic": "business",
+                        "text": "Central bank officials have said they want to build confidence that inflation is reliably falling to normal levels before they take pressure off the economy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
