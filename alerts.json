@@ -10300,5 +10300,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c02cb8c0-e78f-11ee-9391-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Department and states sue Apple, accusing the tech giant of holding a smartphone monopoly",
+            "ios": {
+                "alert": {
+                    "body": "Justice Department and states sue Apple, accusing the tech giant of holding a smartphone monopoly",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/21/apple-doj-antitrust-lawsuit-smartphone/",
+                        "datetime": "2024-03-21T14:31:48.252000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fc44d4361f713600000019",
+                        "targetTopic": "breaking-news",
+                        "text": "Instead of competing with rivals by offering more affordable services, federal and state enforcers claim the company has illegally wielded a monopoly over the smartphone market by cutting off developers and stifling competitors with punitive restrictions. Apple is facing mounting legal and regulatory scrutiny."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
