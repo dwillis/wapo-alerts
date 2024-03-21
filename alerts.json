@@ -10497,5 +10497,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7ba123d0-e7bc-11ee-9391-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "All six White former officers in Mississippi \u2018Goon Squad\u2019 case receive long prison terms for torturing two Black men",
+            "ios": {
+                "alert": {
+                    "body": "All six White former officers in Mississippi \u2018Goon Squad\u2019 case receive long prison terms for torturing two Black men",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/19/mississippi-goon-squad-police-sentencing/",
+                        "datetime": "2024-03-21T19:52:00.651000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fc8fe0361f71360000001d",
+                        "targetTopic": "breaking-news",
+                        "text": "The former law enforcement officers received sentences ranging from 10 years to 40 years for the assault last year in which two Black men were Tased repeatedly, sexually assaulted and subjected to a mock execution. Each had pleaded guilty. The case drew national outrage amid the ongoing push from civil rights groups for greater police accountability."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
