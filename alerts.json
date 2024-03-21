@@ -10103,5 +10103,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42fe8ea0-e721-11ee-8d60-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "L.A. Dodgers fire MLB star Shohei Ohtani\u2019s interpreter as theft and gambling allegations send a shockwave through the sport",
+            "ios": {
+                "alert": {
+                    "body": "L.A. Dodgers fire MLB star Shohei Ohtani\u2019s interpreter as theft and gambling allegations send a shockwave through the sport",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/20/shohei-ohtani-interpreter-fired/",
+                        "datetime": "2024-03-21T01:20:52.606000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fb8b745e9e703500000008",
+                        "targetTopic": "sports",
+                        "text": "The Dodgers, who are opening their season in South Korea, confirmed in a statement that they had terminated Ippei Mizuhara, Ohtani\u2019s close friend and interpreter, but offered no further comment.\n\nMedia reports surfaced alleging Mizuhara stole millions from the MLB superstar, but the degree to which Mizuhara was involved and other details remained unclear."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
