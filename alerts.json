@@ -10349,5 +10349,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "41504c80-e79c-11ee-a64c-00000a1ace2d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is it wrong to \u2018confront\u2019 a brother who resists staying in touch?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is it wrong to \u2018confront\u2019 a brother who resists staying in touch?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/21/carolyn-hax-confront-brother-distant/",
+                        "datetime": "2024-03-21T16:01:18.940000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fc59ce361f71360000001b",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is it wrong to \u2018confront\u2019 a brother who resists staying in touch?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2119ac80-e798-11ee-b20d-00000a1ace19",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Shohei Ohtani has had a relentlessly pristine MLB career. Now a stunning scandal is swirling around baseball\u2019s biggest star.",
+            "ios": {
+                "alert": {
+                    "body": "Shohei Ohtani has had a relentlessly pristine MLB career. Now a stunning scandal is swirling around baseball\u2019s biggest star.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/21/shohei-ohtani-interpreter-scandal/",
+                        "datetime": "2024-03-21T15:31:46.899000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fc52e2361f71360000001a",
+                        "targetTopic": "editors_picks",
+                        "text": "Hours after news broke that the Los Angeles Dodgers had fired Ohtani\u2019s longtime friend and interpreter Ippei Mizuhara amid allegations that Mizuhara stole millions from Ohtani to cover gambling debts, Ohtani jogged onto a baseball field enveloped by scandal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
