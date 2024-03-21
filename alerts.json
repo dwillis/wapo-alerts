@@ -10447,5 +10447,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c19ef980-e7a7-11ee-b151-00000a1ace1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why is the government suing Apple? Look at your iPhone\u2019s restrictions.",
+            "ios": {
+                "alert": {
+                    "body": "Why is the government suing Apple? Look at your iPhone\u2019s restrictions.",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/21/apple-doj-antitrust-lawsuit-explained/",
+                        "datetime": "2024-03-21T17:23:38.638000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fc6d1a361f71360000001c",
+                        "targetTopic": "technology",
+                        "text": "If you have an iPhone, you can see for yourself the heart of the federal antitrust case. The lawsuit points to several restrictions that Apple imposes on users, including the inability to send secure messages to non-iPhone users, app limitations and forced use of Apple Pay for tap-to-pay purchases."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
