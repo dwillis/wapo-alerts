@@ -10152,5 +10152,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2adc1b20-e772-11ee-83ce-00000a1ace2d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s cash crunch. Car emissions. \u2018Goon Squad.\u2019 Birth control. Shohei Ohtani. March Madness. Happy countries. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s cash crunch. Car emissions. \u2018Goon Squad.\u2019 Birth control. Shohei Ohtani. March Madness. Happy countries. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/21/what-to-know-for-march-21/?noredirect=1",
+                        "datetime": "2024-03-21T11:00:02.221000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "65fc13325e9e703500000009",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
