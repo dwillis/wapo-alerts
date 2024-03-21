@@ -10546,5 +10546,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "94e1f9d0-e7d2-11ee-97b8-00000a1ace17",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Women are dropping birth control amid a misinformation explosion driven by social media influencers and conservative commentators",
+            "ios": {
+                "alert": {
+                    "body": "Women are dropping birth control amid a misinformation explosion driven by social media influencers and conservative commentators",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/03/21/stopping-birth-control-misinformation/",
+                        "datetime": "2024-03-21T22:30:08.831000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fcb4f09580c63500000006",
+                        "targetTopic": "editors_picks",
+                        "text": "Social media algorithms feed young women a stream of videos reinforcing messages divorced from scientific evidence. Instead, many social media influencers recommend \u201cnatural\u201d alternatives, such as timing sex to menstrual cycles \u2014 a less effective birth-control method that doctors warn could result in unwanted pregnancies in a country where abortion is now banned or restricted in nearly half the states."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7f0f1c40-e7ce-11ee-8ba8-0000a1ace01c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Embattled Sen. Bob Menendez (D-N.J.) says he won\u2019t run in Democratic primary as he fights federal corruption charges",
+            "ios": {
+                "alert": {
+                    "body": "Embattled Sen. Bob Menendez (D-N.J.) says he won\u2019t run in Democratic primary as he fights federal corruption charges",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/21/bob-menendez-reelection-decision/",
+                        "datetime": "2024-03-21T22:00:57.267000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fcae199580c63500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "Menendez and his wife were charged last year with taking bribes from three business executives, including gold bars, in exchange for legislative favors. He has pleaded not guilty to the initial indictment, as well as to additional charges since then, including obstruction of justice.\nThe senator said in a video posted to social media on Thursday that he hopes to run for reelection as an independent if exonerated in his legal case."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
