@@ -11085,5 +11085,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3574abb0-e88f-11ee-8cac-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Mike Gallagher\u2019s departure will leave GOP with just one-vote margin in House",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Mike Gallagher\u2019s departure will leave GOP with just one-vote margin in House",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/22/mike-gallagher-republican-leaving-house/",
+                        "datetime": "2024-03-22T21:00:26.751000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fdf16a5e9e703500000012",
+                        "targetTopic": "politics",
+                        "text": "Under Wisconsin law, Gallagher\u2019s seat is expected to remain vacant until January, with the November general election to determine who wins. After Gallagher leaves on April 19, House Speaker Mike Johnson (La.) will only be able to spare one vote to pass any conservative legislation through the chamber on party lines."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
