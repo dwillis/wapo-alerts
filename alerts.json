@@ -10889,5 +10889,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "611b7c40-e86b-11ee-994d-00000a1ace01",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is taking your questions now: A parent thinks their daughter\u2019s boyfriend is charging her too much rent",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is taking your questions now: A parent thinks their daughter\u2019s boyfriend is charging her too much rent",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/22/live-chat-carolyn-hax/",
+                        "datetime": "2024-03-22T16:43:58.113000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fdb54e5e9e70350000000f",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is taking your questions now: A parent thinks their daughter\u2019s boyfriend is charging her too much rent"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e4bd70c0-e867-11ee-9823-00000a1ace7c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The liberal revolution is in danger, Fareed Zakaria writes. Here\u2019s how to save it.",
+            "ios": {
+                "alert": {
+                    "body": "The liberal revolution is in danger, Fareed Zakaria writes. Here\u2019s how to save it.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/22/zakaria-age-of-revolutions-liberalism/",
+                        "datetime": "2024-03-22T16:19:00.968000Z",
+                        "imageURL": "https://www.washingtonpost.com/opinions/2024/03/22/zakaria-age-of-revolutions-liberalism/",
+                        "pushID": "65fdaf745e9e70350000000e",
+                        "targetTopic": "opinions",
+                        "text": "We are living in an age of backlash to three decades of revolutions in different realms. Since the fall of the Berlin Wall in 1989, the world saw the liberalization of markets, the democratization of politics and the explosion of information technology."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
