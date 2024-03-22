@@ -10791,5 +10791,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "187b9631-e859-11ee-b533-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump Media merger gets shareholder approval, providing a potential windfall to the former president",
+            "ios": {
+                "alert": {
+                    "body": "Trump Media merger gets shareholder approval, providing a potential windfall to the former president",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/22/trump-mediamerger-vote/",
+                        "datetime": "2024-03-22T14:33:05.287000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fd96a15e9e70350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "Donald Trump will own about 60 percent of the company that results from the merger of Trump Media & Technology Group and Digital World Acquisition, the company created to take Trump Media public. Trump\u2019s share of the new company, whose primary business is the Truth Social platform, could potentially be worth billions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
