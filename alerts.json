@@ -10987,5 +10987,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0ba343c0-e879-11ee-9212-00000a1ace0c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gunmen in camouflage attacked a popular Moscow concert venue. Dozens were wounded or killed, state media reported.",
+            "ios": {
+                "alert": {
+                    "body": "Gunmen in camouflage attacked a popular Moscow concert venue. Dozens were wounded or killed, state media reported.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/22/explosion-gunfire-hit-popular-moscow-concert-venue/",
+                        "datetime": "2024-03-22T18:21:47.653000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fdcc3b5e9e703500000011",
+                        "targetTopic": "world",
+                        "text": "Several gunmen opened fire Friday night at Crocus City Hall, a popular concert venue on the outskirts of the Russian capital, and there were reports of an explosion. The region\u2019s governor said he was going to the scene."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "24dc3e70-e877-11ee-a78a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Catherine, Princess of Wales, has cancer, she says in a recorded address",
+            "ios": {
+                "alert": {
+                    "body": "Catherine, Princess of Wales, has cancer, she says in a recorded address",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/22/catherine-princess-wales-has-cancer-she-says-video/",
+                        "datetime": "2024-03-22T18:08:10.872000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fdc90a5e9e703500000010",
+                        "targetTopic": "breaking-news",
+                        "text": "The announcement follows months of speculation about the health of the 42-year-old princess, who has not made an official appearance since Christmas and underwent abdominal surgery in January."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
