@@ -10840,5 +10840,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5f5e3581-e863-11ee-b9be-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House passes $1.2 trillion spending bill that would avert government shutdown, sending it to Senate hours before tonight\u2019s deadline",
+            "ios": {
+                "alert": {
+                    "body": "House passes $1.2 trillion spending bill that would avert government shutdown, sending it to Senate hours before tonight\u2019s deadline",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/22/government-shutdown-house-vote-live/",
+                        "datetime": "2024-03-22T15:46:39.175000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fda7df5e9e70350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "A bipartisan majority backed the bill, as lawmakers race to fund about three-quarters of the federal government\u2019s operations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
