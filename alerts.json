@@ -11134,5 +11134,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1648f160-e89e-11ee-befc-0000a1aced61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ISIS claims responsibility for Moscow concert attack that has killed at least 40",
+            "ios": {
+                "alert": {
+                    "body": "ISIS claims responsibility for Moscow concert attack that has killed at least 40",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/22/explosion-gunfire-hit-popular-moscow-concert-venue/",
+                        "datetime": "2024-03-22T22:46:56.872000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fe0a605e9e703500000013",
+                        "targetTopic": "breaking-news",
+                        "text": "A news agency for the terrorist group, which opposes Russia as an enemy of Muslims, said it was behind the deadliest attack in the country in over a decade. A U.S. official, speaking on the condition of anonymity, said the United States had \u201cno reason to doubt\u201d the claim."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2fee34b0-e897-11ee-b323-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Women allege sexual misconduct, harassment by polo champion",
+            "ios": {
+                "alert": {
+                    "body": "Women allege sexual misconduct, harassment by polo champion",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/22/polo-john-gobin-harassment-sex/",
+                        "datetime": "2024-03-22T21:57:33.390000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fdfecde55fdd3500000009",
+                        "targetTopic": "local",
+                        "text": "A half-dozen young women interviewed by The Washington Post alleged that John Gobin, a polo champion who runs a school for the sport in Virginia, engaged in a pattern of sexual harassment.\n\nThe allegations \u2014 some made in a newly filed lawsuit \u2014 include inappropriate touching and demeaning comments. At the time, some of the women were teenage workers at the school. Through an attorney, Gobin said all the claims by the women are false. He has not been charged with a crime."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
