@@ -11330,5 +11330,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d31a08a0-e8fe-11ee-83ce-00000a1ace2d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Death toll from Moscow concert attack rises to at least 115 as more bodies are found, Russian authorities say",
+            "ios": {
+                "alert": {
+                    "body": "Death toll from Moscow concert attack rises to at least 115 as more bodies are found, Russian authorities say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/23/russia-concert-shooting-attack-isis/",
+                        "datetime": "2024-03-23T10:19:25.322000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65feacada66c5f3500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "Russian officials say they expect the death toll to rise further, given the number of seriously injured. The militant group ISIS has claimed responsibility for the raid, which followed U.S. government warnings this month about a \u201cplanned terrorist attack\u201d in the Russian capital."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
