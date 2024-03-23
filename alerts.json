@@ -11526,5 +11526,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "62274f70-e946-11ee-93c3-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Peter Angelos dies at 94. The Baltimore lawyer was best known as the combative owner of MLB's Orioles.",
+            "ios": {
+                "alert": {
+                    "body": "Peter Angelos dies at 94. The Baltimore lawyer was best known as the combative owner of MLB's Orioles.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/03/23/peter-angelos-orioles-baltimore-dies/",
+                        "datetime": "2024-03-23T18:51:39.640000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65ff24bba66c5f3500000005",
+                        "targetTopic": "local",
+                        "text": "Peter G. Angelos won hundreds of millions of dollars for workers injured by exposure to asbestos, then became wider known to the public as the chief owner of the Baltimore Orioles for three decades. The Orioles said Angelos had been \u201cill for several years\u201d in a statement announcing his death."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
