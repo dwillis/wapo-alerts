@@ -11232,5 +11232,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d97988e0-e8a6-11ee-b8d4-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "MLB launches formal investigation into betting scandal involving Los Angeles Dodgers superstar Shohei Ohtani",
+            "ios": {
+                "alert": {
+                    "body": "MLB launches formal investigation into betting scandal involving Los Angeles Dodgers superstar Shohei Ohtani",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/22/mlb-investigation-ohtani-betting/",
+                        "datetime": "2024-03-22T23:49:40.381000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65fe19145e9e703500000014",
+                        "targetTopic": "breaking-news",
+                        "text": "Major League Baseball said in a statement that its Department of Investigations \u201cbegan their formal process investigating the matter\u201d Friday, adding that it \"has been gathering information\" since learning about the allegations of theft made against Ippei Mizuhara, who had served as Ohtani's interpreter. The Dodgers fired Mizuhara earlier this week amid allegations he stole millions from Ohtani to cover gambling debts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
