@@ -11428,5 +11428,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8ecb9600-e926-11ee-87cd-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They obsessed over Catherine, Princess of Wales. Now they\u2019re hit with a sobering truth.",
+            "ios": {
+                "alert": {
+                    "body": "They obsessed over Catherine, Princess of Wales. Now they\u2019re hit with a sobering truth.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/of-interest/2024/03/22/kate-middleton-ashamed-regret/",
+                        "datetime": "2024-03-23T15:03:50.565000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "65feef56a66c5f3500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "People who mocked and speculated about Catherine during her public absence have deep regrets after learning she has cancer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
