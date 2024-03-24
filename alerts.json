@@ -11722,5 +11722,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b7985590-e9f4-11ee-a8a9-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "One cherry tree\u2019s rush to bloom, day by day, as climate change propels earlier peaks",
+            "ios": {
+                "alert": {
+                    "body": "One cherry tree\u2019s rush to bloom, day by day, as climate change propels earlier peaks",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/dc-cherry-blossom-peak-bloom-climate-change/",
+                        "datetime": "2024-03-24T15:39:35.355000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660049371777983500000003",
+                        "targetTopic": "climate",
+                        "text": "Watch a cherry tree\u2019s buds unfold over 10 days, and find out how climate change is pushing D.C.\u2019s famous trees to hit peak earlier."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
