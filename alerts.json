@@ -11673,5 +11673,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e015b750-e9eb-11ee-9feb-0000a1acefdb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Figure skating wants ice princesses. Amber Glenn said, \u2018Screw it.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Figure skating wants ice princesses. Amber Glenn said, \u2018Screw it.\u2019",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/03/19/amber-glenn-figure-skater/",
+                        "datetime": "2024-03-24T14:36:17.873000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66003a611777983500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Glenn, the current U.S. female figure skating champion, felt trapped in a life of unspoken expectations, seeking the approval of coaches and judges. So she stopped attempting to make herself the idealized version of a figure skater and started telling people about her depression, eating disorder and ADHD. She also came out as bisexual and pansexual."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
