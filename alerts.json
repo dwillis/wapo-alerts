@@ -11870,5 +11870,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5bd9390-ea1f-11ee-9739-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tammy Murphy, wife of New Jersey governor, drops out of state\u2019s Democratic race for U.S. Senate",
+            "ios": {
+                "alert": {
+                    "body": "Tammy Murphy, wife of New Jersey governor, drops out of state\u2019s Democratic race for U.S. Senate",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/24/murphy-senate-new-jersey-dropout/",
+                        "datetime": "2024-03-24T20:47:20.655000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66009158a66c5f3500000007",
+                        "targetTopic": "politics",
+                        "text": "Murphy\u2019s move leaves surging Rep. Andy Kim (D-N.J.) as the overwhelming favorite in the Democratic primary to replace Sen. Bob Menendez (D-N.J.), upending the state\u2019s party machine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
