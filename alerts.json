@@ -11821,5 +11821,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c6d68070-ea00-11ee-ae0e-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A \u2018Hail Mary\u2019 plan sought to pair the Wizards and Caps arena with a Fairfax casino. Youngkin and Leonsis rejected it.",
+            "ios": {
+                "alert": {
+                    "body": "A \u2018Hail Mary\u2019 plan sought to pair the Wizards and Caps arena with a Fairfax casino. Youngkin and Leonsis rejected it.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/24/virginia-arena-fairfax-casino-wizards-capitals/",
+                        "datetime": "2024-03-24T17:05:54.895000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66005d721777983500000005",
+                        "targetTopic": "local",
+                        "text": "Three Virginia political and business figures have pitched the plan as backers of the original deal mount an 11th-hour effort to rescue the project, which has faced serious setbacks in the General Assembly. But Gov. Glenn Youngkin (R) and the teams\u2019 owner, Ted Leonsis, have flatly rejected the idea."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
