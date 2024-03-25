@@ -12557,5 +12557,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "039505e0-eaf1-11ee-adbb-0000a1ace452",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dodgers star Shohei Ohtani makes his first comments on a sports betting scandal involving his former interpreter. Watch live.",
+            "ios": {
+                "alert": {
+                    "body": "Dodgers star Shohei Ohtani makes his first comments on a sports betting scandal involving his former interpreter. Watch live.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/25/ohtani-press-conference-interpreter-scandal/",
+                        "datetime": "2024-03-25T21:45:36.050000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6601f0801777983500000007",
+                        "targetTopic": "sports",
+                        "text": "Ohtani, the Los Angeles Dodgers superstar whose interpreter was fired last week amid allegations of gambling and theft, is expected to address the matter in a prepared statement. Ohtani didn\u2019t personally comment on the scandal as it unfolded last week, though his representatives claimed he had been the victim of a \u201cmassive theft.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
