@@ -12508,5 +12508,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2967d350-eae3-11ee-b534-0000a1ace18f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In post-Roe America, the number of \u2018self-managed\u2019 abortions rose sharply, report finds",
+            "ios": {
+                "alert": {
+                    "body": "In post-Roe America, the number of \u2018self-managed\u2019 abortions rose sharply, report finds",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/25/abortions-outside-medical-system-increased-sharply-after-roe-fell/",
+                        "datetime": "2024-03-25T20:06:26.518000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6601d9426ad0563600000006",
+                        "targetTopic": "us",
+                        "text": "Researchers attribute the spike, in part, to volunteer-led networks distributing abortion pills in states with bans."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
