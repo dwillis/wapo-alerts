@@ -12116,5 +12116,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "55ec25e0-eaaf-11ee-9793-0000a1ace31c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Jamie Raskin (D-Md.) endorses Prince George\u2019s County Executive Angela Alsobrooks in state\u2019s Democratic primary for U.S. Senate",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Jamie Raskin (D-Md.) endorses Prince George\u2019s County Executive Angela Alsobrooks in state\u2019s Democratic primary for U.S. Senate",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/25/raskin-endorse-alsobrooks-maryland-senate/",
+                        "datetime": "2024-03-25T13:55:27.416000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6601824f6ad0563600000001",
+                        "targetTopic": "local",
+                        "text": "Raskin, the ranking Democrat on the House Oversight Committee, said he would help any Democrat who wins the primary and faces the likely GOP nominee \u2014 former governor Larry Hogan \u2014 in a closely watched Senate race that could determine which party controls the chamber."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "efb72b10-eaab-11ee-8eef-000a1acec616",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A milestone transplant in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A milestone transplant in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-03-25T13:31:07.497000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66017c9ba66c5f350000000b",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
