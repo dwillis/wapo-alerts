@@ -12263,5 +12263,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7ba7ed40-eabf-11ee-9aa3-00000a1ace76",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli government cancels planned diplomatic visit to U.S. as tensions flare over U.N. vote demanding Gaza cease-fire",
+            "ios": {
+                "alert": {
+                    "body": "Israeli government cancels planned diplomatic visit to U.S. as tensions flare over U.N. vote demanding Gaza cease-fire",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/25/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-03-25T15:51:02.653000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66019d666ad0563600000004",
+                        "targetTopic": "world",
+                        "text": "The Israeli delegation had been set to include Minister of Strategic Affairs Ron Dermer and National Security Adviser Tzachi Hanegbi. The cancellation comes after the United States abstained from voting on a U.N. Security Council resolution calling for a Gaza cease-fire."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6b917f40-eabd-11ee-a9a1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump wins request to reduce $464 million bond for massive civil fraud judgment. He now has 10 days to post $175 million.",
+            "ios": {
+                "alert": {
+                    "body": "Trump wins request to reduce $464 million bond for massive civil fraud judgment. He now has 10 days to post $175 million.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/25/trump-bond-reduced-new-york-fraud-case/",
+                        "datetime": "2024-03-25T15:36:16.661000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660199f06ad0563600000003",
+                        "targetTopic": "breaking-news",
+                        "text": "A panel of New York appellate judges came to Donald Trump\u2019s aid Monday, ruling that he must post a $175 million bond within 10 days to stop Attorney General Letitia James from beginning to take his assets while he appeals."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
