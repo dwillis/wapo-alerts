@@ -12214,5 +12214,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4b0dff20-eab6-11ee-9b8f-000a1aced9dd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.N. Security Council passes its first resolution calling for a Gaza cease-fire after four failed attempts. The U.S. abstained.",
+            "ios": {
+                "alert": {
+                    "body": "U.N. Security Council passes its first resolution calling for a Gaza cease-fire after four failed attempts. The U.S. abstained.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/25/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-03-25T14:45:15.637000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66018dfb6ad0563600000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The resolution, backed by 14 nations including Russia and China, demands an immediate cease-fire during the month of Ramadan and the release of all hostages. Four previous cease-fire resolutions had failed, including one proposed by the United States on Friday. The American abstention is likely to further strain U.S. relations with Israel amid sharp disagreements over Israel\u2019s planned military offensive in Rafah."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
