@@ -12606,5 +12606,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eb24dca0-eaf6-11ee-85eb-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sean \u2018Diddy\u2019 Combs\u2019s homes raided by Homeland Security as he faces several lawsuits over allegations of abuse, sex trafficking",
+            "ios": {
+                "alert": {
+                    "body": "Sean \u2018Diddy\u2019 Combs\u2019s homes raided by Homeland Security as he faces several lawsuits over allegations of abuse, sex trafficking",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/03/25/sean-diddy-houses-raid/",
+                        "datetime": "2024-03-25T22:27:43.677000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6601fa5f6ad0563600000007",
+                        "targetTopic": "entertainment",
+                        "text": "R&B singer Cassie, Combs\u2019s former girlfriend, filed a blockbuster lawsuit against Combs in November. The lawsuit alleged that Cassie suffered a \u201ccycle of abuse, violence, and sex trafficking\u201d at the hands of the famed producer. The lawsuit was soon followed by others."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6efdca30-eaf4-11ee-85c1-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Shohei Ohtani addresses sports betting scandal involving former interpreter, saying he\u2019s \u2018saddened and shocked\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Shohei Ohtani addresses sports betting scandal involving former interpreter, saying he\u2019s \u2018saddened and shocked\u2019",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/25/ohtani-press-conference-interpreter-scandal/",
+                        "datetime": "2024-03-25T22:10:04.779000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6601f63c1777983500000008",
+                        "targetTopic": "sports",
+                        "text": "The Los Angeles Dodgers star spoke publicly about the sports betting scandal involving his former interpreter for the first time. The Dodgers fired Ippei Mizuhara, Ohtani\u2019s longtime friend and interpreter, last week amid allegations that Mizuhara stole millions from Ohtani to cover gambling debts.\n\nA previous alert pointed to live coverage of his press conference. The stream experienced technical difficulties."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
