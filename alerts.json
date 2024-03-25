@@ -12361,5 +12361,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d5d14201-eac2-11ee-bf62-00000a1aced0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s N.Y. hush money trial to start April 15, judge says, rejecting defense motion to sanction prosecutors",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s N.Y. hush money trial to start April 15, judge says, rejecting defense motion to sanction prosecutors",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/25/trump-new-york-hush-money-trial-hearing/",
+                        "datetime": "2024-03-25T16:15:02.424000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6601a306a66c5f350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "Lawyers for former president Donald Trump had asked to delay his New York criminal trial at least until June and to sanction prosecutors over the last-minute revelation of potential evidence about Michael Cohen, Trump's former lawyer and fixer and a key witness. Trump is accused of falsifying business records to cover up his reimbursement to Cohen of a hush money payment during the 2016 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e5590160-eac0-11ee-bad0-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Dad encourages their young son\u2019s sore-winner behavior",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Dad encourages their young son\u2019s sore-winner behavior",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/25/carolyn-hax-dad-parenting-sore-winner/",
+                        "datetime": "2024-03-25T16:01:09.423000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66019fc56ad0563600000005",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Dad encourages their young son\u2019s sore-winner behavior"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
