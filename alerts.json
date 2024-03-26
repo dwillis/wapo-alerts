@@ -12704,5 +12704,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "baf08620-eb45-11ee-95d2-00000a1ace1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Baltimore\u2019s Francis Scott Key Bridge collapses into the river after being struck by cargo ship",
+            "ios": {
+                "alert": {
+                    "body": "Baltimore\u2019s Francis Scott Key Bridge collapses into the river after being struck by cargo ship",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/26/baltimore-key-bridge-collapse-maryland/",
+                        "datetime": "2024-03-26T07:52:01.369000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66027ea1a66c5f350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "It was not clear how many people were on the bridge when it fell into the water. A Singapore-flagged vessel, the 948-foot Dali, crashed into the bridge, said Petty Officer 1st Class Matthew West, a Coast Guard spokesman, in Baltimore."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
