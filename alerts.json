@@ -13292,5 +13292,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d81c7100-ebb3-11ee-b379-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Qatari royal invested about $50 million in conservative network Newsmax amid Middle East tensions during the Trump administration",
+            "ios": {
+                "alert": {
+                    "body": "Qatari royal invested about $50 million in conservative network Newsmax amid Middle East tensions during the Trump administration",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/03/26/qatar-newsmax-investment/",
+                        "datetime": "2024-03-26T21:00:15.000000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6603375f8f88123500000004",
+                        "targetTopic": "world",
+                        "text": "A member of the Qatari royal family made a substantial investment in the pro-Trump media outlet in 2019 and 2020, according to documents and representatives for Newsmax and the royal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
