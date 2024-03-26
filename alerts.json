@@ -12949,5 +12949,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c30f7c53-eb7f-11ee-94ad-0000a1ace913",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Freighter lost power just before it struck Baltimore\u2019s Key Bridge, and 6 workers fixing pot holes are still missing, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Freighter lost power just before it struck Baltimore\u2019s Key Bridge, and 6 workers fixing pot holes are still missing, officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/26/baltimore-key-bridge-collapse-maryland/",
+                        "datetime": "2024-03-26T14:47:25.744000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6602dffd177798350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "The bridge collapse sent at least eight people into the water, all of whom were part of the construction crew."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4e2d4070-eb7a-11ee-a61c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Supreme Court is hearing arguments in an abortion pill case that could limit access for millions. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "The Supreme Court is hearing arguments in an abortion pill case that could limit access for millions. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/26/abortion-pill-supreme-court-arguments-mifepristone/",
+                        "datetime": "2024-03-26T14:08:22.277000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6602d6d6177798350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Less than two years after the Supreme Court overturned Roe v. Wade, the issue of reproductive rights is returning to the high court today. The Biden administration and the manufacturer of mifepristone are seeking to reverse a lower-court ruling that would make it more difficult to obtain the medication. Join Washington Post reporters for live coverage and analysis of the oral arguments."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
