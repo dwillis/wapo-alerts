@@ -13096,5 +13096,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9c9ef2d0-eb8e-11ee-bf00-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Wife wants to cut off contact with \u2018negative\u2019 sister-in-law",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Wife wants to cut off contact with \u2018negative\u2019 sister-in-law",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/26/carolyn-hax-wife-sister-cut-contact/",
+                        "datetime": "2024-03-26T16:33:43.824000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6602f8e7177798350000000e",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Wife wants to cut off contact with \u2018negative\u2019 sister-in-law"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a9df88b0-eb89-11ee-b7f5-0000a1ace0d5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court seems unlikely to restrict access to the widely used abortion pill mifepristone",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court seems unlikely to restrict access to the widely used abortion pill mifepristone",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/26/abortion-pill-supreme-court-arguments-mifepristone/",
+                        "datetime": "2024-03-26T15:58:18.574000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6602f09a177798350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "Less than two years after the Supreme Court overturned the right to an abortion guaranteed by Roe v. Wade, a majority of justices seemed skeptical that the antiabortion doctors challenging access to the medication used in more than 60 percent of U.S. abortions had standing to sue. The court will rule by late June or early July on whether to continue to allow mifepristone to be sent by mail, prescribed without an in-person medical visit and used up to 10 weeks into pregnancy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
