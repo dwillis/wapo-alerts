@@ -13341,5 +13341,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "301171e0-ebbd-11ee-9083-0000a1aceb81",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "NBC reverses its decision to hire former RNC chair Ronna McDaniel as a contributor, after on-air backlash from network stars",
+            "ios": {
+                "alert": {
+                    "body": "NBC reverses its decision to hire former RNC chair Ronna McDaniel as a contributor, after on-air backlash from network stars",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/03/26/nbc-drops-ronna-mcdaniel-backlash/",
+                        "datetime": "2024-03-26T22:07:08.051000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6603470c8f88123500000005",
+                        "targetTopic": "politics",
+                        "text": "Political analyst Chuck Todd and MSNBC hosts Rachel Maddow and Joe Scarborough were among those who lambasted the hiring of the former Republican National Committee chair, citing her promotion of Donald Trump\u2019s false election-fraud claims and media-bashing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
