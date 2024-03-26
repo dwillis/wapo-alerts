@@ -12851,5 +12851,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "035c4330-eb60-11ee-9d02-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Baltimore bridge collapse. Trump rulings. Abortion rights. U.S.-Israel rift. Sean Combs. Shohei Ohtani. Air taxis. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Baltimore bridge collapse. Trump rulings. Abortion rights. U.S.-Israel rift. Sean Combs. Shohei Ohtani. Air taxis. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/26/what-to-know-for-march-26/?noredirect=1",
+                        "datetime": "2024-03-26T11:00:09.849000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6602aab91777983500000009",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
