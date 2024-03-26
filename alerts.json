@@ -13047,5 +13047,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "05f32cd1-eb83-11ee-9a67-000a1ace912b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Texas Attorney General Ken Paxton reaches deal to avoid trial on state felony securities fraud charges",
+            "ios": {
+                "alert": {
+                    "body": "Texas Attorney General Ken Paxton reaches deal to avoid trial on state felony securities fraud charges",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/03/26/ken-paxton-deal-texas-securities-charges/",
+                        "datetime": "2024-03-26T15:10:39.339000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6602e56f177798350000000c",
+                        "targetTopic": "politics",
+                        "text": "Paxton was charged nearly a decade ago for allegedly defrauding investors at a Dallas-area tech company by not disclosing that he was paid by the company to recruit them. Under the agreement reached in Harris County district court, Paxton will avoid jail time but is required to make restitution and complete community service."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
