@@ -12802,5 +12802,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c8c1990-eb5f-11ee-92aa-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "London court asks for new U.S. assurances that Julian Assange\u2019s rights will be protected before deciding on his final appeal bid",
+            "ios": {
+                "alert": {
+                    "body": "London court asks for new U.S. assurances that Julian Assange\u2019s rights will be protected before deciding on his final appeal bid",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/03/26/julian-assange-uk-court-extradition/",
+                        "datetime": "2024-03-26T10:55:29.970000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6602a9a18f88123500000002",
+                        "targetTopic": "world",
+                        "text": "The High Court of Justice stated that if the satisfactory assurances aren\u2019t received in three weeks, Assange can move forward with an appeal in U.K. courts. Among the assurances the court asked for is that he receive the same First Amendment protections as a U.S. citizen and there will be no death penalty."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
