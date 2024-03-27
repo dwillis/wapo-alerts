@@ -13586,5 +13586,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b85ae540-ec44-11ee-b99d-0000a1ace974",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018The whole bridge just fell down\u2019: Video, police radio traffic reveal tense moments after cargo ship struck Baltimore's Key Bridge",
+            "ios": {
+                "alert": {
+                    "body": "\u2018The whole bridge just fell down\u2019: Video, police radio traffic reveal tense moments after cargo ship struck Baltimore's Key Bridge",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/26/video-audio-baltimore-bridge-collapse/",
+                        "datetime": "2024-03-27T14:17:18.747000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66042a6e1777983500000012",
+                        "targetTopic": "editors_picks",
+                        "text": "After the freighter veered into one of the bridge\u2019s concrete piers, it took less than 40 seconds for a large portion of the 1.6-mile span to bow and then fall into the Patapsco River."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
