@@ -13783,5 +13783,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d857cf40-ec56-11ee-b994-00000a1ace09",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "MLB team owners approve Baltimore Orioles sale. The deal shifts control of the team to David Rubenstein just before Opening Day.",
+            "ios": {
+                "alert": {
+                    "body": "MLB team owners approve Baltimore Orioles sale. The deal shifts control of the team to David Rubenstein just before Opening Day.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/27/orioles-david-rubenstein-owner/",
+                        "datetime": "2024-03-27T16:27:03.335000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660448d71777983500000017",
+                        "targetTopic": "sports",
+                        "text": "Rubenstein, one of the founders of the Carlyle Group private equity firm, and a cohort of investors reached an agreement with the Angelos family in January; their pact makes the Baltimore native the team\u2019s \u201ccontrol person,\u201d the term Major League Baseball uses to designate the lead decision-maker for a franchise. The Orioles are set to face the Los Angeles Angels on Thursday in Baltimore."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "957493f0-ec53-11ee-a2a0-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Over-attentive couple give new meaning to \u2018neighborhood haunt\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Over-attentive couple give new meaning to \u2018neighborhood haunt\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/27/carolyn-hax-couple-tracking-neighborhood/",
+                        "datetime": "2024-03-27T16:03:42.600000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6604435e1777983500000016",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Over-attentive couple give new meaning to \u2018neighborhood haunt\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
