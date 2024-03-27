@@ -13881,5 +13881,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3137d2c0-ec68-11ee-baff-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Climate change is altering Earth\u2019s rotation enough to mess up clocks and impact the need for a \u2018negative leap second,\u2019 study finds",
+            "ios": {
+                "alert": {
+                    "body": "Climate change is altering Earth\u2019s rotation enough to mess up clocks and impact the need for a \u2018negative leap second,\u2019 study finds",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/science/2024/03/27/leap-second-melting-poles-climate-time/",
+                        "datetime": "2024-03-27T18:31:13.907000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660465f11777983500000018",
+                        "targetTopic": "climate",
+                        "text": "The melting of polar ice is affecting Earth\u2019s rotation and could have an impact on precision timekeeping, according to a paper published Wednesday in the journal Nature. The new calculations suggest that in 2029 it may be necessary to insert a \u201cnegative leap second\u201d into the calendar to get the planet\u2019s rotation in sync with Coordinated Universal Time."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
