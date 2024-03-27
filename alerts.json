@@ -14029,5 +14029,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "800cd6a0-ec83-11ee-8819-00000a1ace49",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Remains of two people recovered in Patapsco River near Baltimore Key Bridge wreckage, according to people with knowledge of search",
+            "ios": {
+                "alert": {
+                    "body": "Remains of two people recovered in Patapsco River near Baltimore Key Bridge wreckage, according to people with knowledge of search",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/27/baltimore-key-bridge-collapse-news-updates/",
+                        "datetime": "2024-03-27T21:46:42.287000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660493c26ad0563600000009",
+                        "targetTopic": "breaking-news",
+                        "text": "Divers have been searching for at least six people missing since the bridge collapsed early Tuesday when it was struck by a container ship leaving the port in Baltimore. The two people whose remains were recovered from the water have not been publicly identified."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "94df4d70-ec82-11ee-9fa2-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Joe Lieberman has died at 82. The doggedly independent four-term U.S. senator was also a vice-presidential candidate.",
+            "ios": {
+                "alert": {
+                    "body": "Joe Lieberman has died at 82. The doggedly independent four-term U.S. senator was also a vice-presidential candidate.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/03/27/joe-lieberman-senator-vice-president-dead/",
+                        "datetime": "2024-03-27T21:40:08.028000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660492386ad0563600000008",
+                        "targetTopic": "breaking-news",
+                        "text": "As Al Gore's running mate in 2000, he was the first Jewish candidate on the national ticket of a major party. Eight years later, he supported Republican presidential candidate John McCain over Barack Obama.\n\nLieberman viewed himself as a centrist Democrat, solidly in his party\u2019s mainstream with his support of abortion rights, environmental protection, gay rights and gun control. But he was also unafraid to stray from Democratic orthodoxy, most notably in his consistently hawkish stands on foreign policy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c284e321-ec7d-11ee-abe2-0000a1ace82b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "You can\u2019t get thrown out for thinking, so take a swing at George Will\u2019s baseball quiz",
+            "ios": {
+                "alert": {
+                    "body": "You can\u2019t get thrown out for thinking, so take a swing at George Will\u2019s baseball quiz",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/george-will-2024-baseball-quiz/",
+                        "datetime": "2024-03-27T21:05:37.122000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66048a218f88123500000008",
+                        "targetTopic": "opinions",
+                        "text": "Worse than a Mets doubleheader would be striking out on these questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
