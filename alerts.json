@@ -13931,5 +13931,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e8d962b0-ec7a-11ee-9673-0000a1aced89",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Capitals and Wizards are set to stay at Capital One Arena until 2050 after teams\u2019 owner Ted Leonsis and D.C. reach a deal",
+            "ios": {
+                "alert": {
+                    "body": "Capitals and Wizards are set to stay at Capital One Arena until 2050 after teams\u2019 owner Ted Leonsis and D.C. reach a deal",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/27/dc-capitals-wizards-capital-one-arena-alexandria-bowser-leonsis/",
+                        "datetime": "2024-03-27T20:45:12.956000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66048558177798350000001b",
+                        "targetTopic": "breaking-news",
+                        "text": "Mayor Muriel E. Bowser (D) reached an agreement with Leonsis, the CEO of Monumental Sports & Entertainment, to keep the teams playing at the downtown D.C. arena. The news comes after the city of Alexandria announced it was ending negotiations to bring the teams to a new arena in Potomac Yard."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "76849300-ec76-11ee-ba58-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alexandria says it has stopped negotiating to bring Wizards and Capitals to the city, so arena project won\u2019t go ahead",
+            "ios": {
+                "alert": {
+                    "body": "Alexandria says it has stopped negotiating to bring Wizards and Capitals to the city, so arena project won\u2019t go ahead",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/27/dc-capitals-wizards-capital-one-arena-alexandria-bowser-leonsis/",
+                        "datetime": "2024-03-27T20:13:23.094000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66047de3177798350000001a",
+                        "targetTopic": "local",
+                        "text": "The teams currently play at Capital One Arena in downtown D.C., where they have a lease that runs until 2047."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
