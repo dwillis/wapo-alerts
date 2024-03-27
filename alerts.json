@@ -13635,5 +13635,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9e8c55c1-ec50-11ee-9025-0000a1ace352",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "DeSantis allies agree to settlement with Disney, ending legal feud that erupted after company\u2019s opposition to \u2018don\u2019t say gay\u2019 law",
+            "ios": {
+                "alert": {
+                    "body": "DeSantis allies agree to settlement with Disney, ending legal feud that erupted after company\u2019s opposition to \u2018don\u2019t say gay\u2019 law",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/03/27/desantis-disney-lawsuit-settlement-tourism/",
+                        "datetime": "2024-03-27T15:42:29.428000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66043e651777983500000015",
+                        "targetTopic": "us",
+                        "text": "The board appointed by Florida Gov. Ron DeSantis (R) to oversee Disney\u2019s former special taxing district voted Wednesday in favor of settling a lawsuit with the entertainment giant. The governor and Disney have been in a protracted legal battle for the last two years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5c006230-ec4d-11ee-b1b2-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live chat: A reader found glass in food and was still charged for dinner. Our food critic responds and answers your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Live chat: A reader found glass in food and was still charged for dinner. Our food critic responds and answers your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/03/21/tom-sietsema-live-chat/",
+                        "datetime": "2024-03-27T15:19:09.210000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660438ed1777983500000014",
+                        "targetTopic": "food",
+                        "text": "Washington Post food critic Tom Sietsema answers your restaurant-related questions, solves your dining dilemmas and gives suggestions on the best places to eat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "66bda131-ec4b-11ee-ac06-00000a1acef0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Daniel Kahneman dies at 90. The Nobel-winning economist and author of \u2018Thinking, Fast and Slow\u2019 studied how people abandon logic.",
+            "ios": {
+                "alert": {
+                    "body": "Daniel Kahneman dies at 90. The Nobel-winning economist and author of \u2018Thinking, Fast and Slow\u2019 studied how people abandon logic.",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/03/27/daniel-kahneman-dead/",
+                        "datetime": "2024-03-27T15:05:08.214000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660435a41777983500000013",
+                        "targetTopic": "business",
+                        "text": "Kahneman shared the 2002 Nobel Prize in economics with Vernon L. Smith. His research debunked the notion of \u201chomo economicus,\u201d the \u201ceconomic man\u201d who since the epoch of Adam Smith was considered a rational being who acts out of self-interest. Instead, Kahneman found, people rely on intellectual shortcuts that often lead to wrongheaded decisions that go against their own best interest."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
