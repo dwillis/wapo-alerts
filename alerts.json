@@ -13390,5 +13390,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7cbe1550-ebc9-11ee-ba58-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Six presumed dead after Baltimore bridge collapse, Coast Guard officials say",
+            "ios": {
+                "alert": {
+                    "body": "Six presumed dead after Baltimore bridge collapse, Coast Guard officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/26/baltimore-key-bridge-collapse-maryland/",
+                        "datetime": "2024-03-26T23:35:10.635000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66035bae8f88123500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Officials are shifting from a rescue operation to a recovery effort, the Coast Guard said in a news conference. At least eight people from a construction crew had fallen into the water while working on the bridge, officials said earlier Tuesday, after a ship struck the bridge. Two of those people had been rescued."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
