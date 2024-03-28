@@ -14176,5 +14176,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5f20a600-ecf2-11ee-8b42-00000a1ace8f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Baltimore Bridge collapse. Joe Lieberman. Disney vs. DeSantis. Methane rule. Opening Day. Leap second. \u2018Titanic.\u2019 Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Baltimore Bridge collapse. Joe Lieberman. Disney vs. DeSantis. Methane rule. Opening Day. Leap second. \u2018Titanic.\u2019 Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/28/what-to-know-for-march-28/?noredirect=1",
+                        "datetime": "2024-03-28T11:00:21.425000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "66054dc58f88123500000009",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
