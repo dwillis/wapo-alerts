@@ -14274,5 +14274,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a6ccbec1-ed1b-11ee-b6f2-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sam Bankman-Fried sentenced to 25 years in prison for convictions related to his cryptocurrency trading platform, FTX",
+            "ios": {
+                "alert": {
+                    "body": "Sam Bankman-Fried sentenced to 25 years in prison for convictions related to his cryptocurrency trading platform, FTX",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/28/sam-bankman-fried-sentence-fraud-ftx-crypto/",
+                        "datetime": "2024-03-28T15:55:51.108000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66059307177798350000001d",
+                        "targetTopic": "breaking-news",
+                        "text": "The FTX co-founder was also ordered to repay over $11 billion. Bankman-Fried was convicted in November of fraud, conspiracy and money laundering after FTX\u2019s victims suffered billions in losses."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
