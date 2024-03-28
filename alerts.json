@@ -14421,5 +14421,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2a53be20-ed4d-11ee-bdeb-00000a1ace57",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden promised to install thousands of EV charging stations. Only 7 have been built.",
+            "ios": {
+                "alert": {
+                    "body": "Biden promised to install thousands of EV charging stations. Only 7 have been built.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-solutions/2024/03/28/ev-charging-stations-slow-rollout/",
+                        "datetime": "2024-03-28T21:50:16.638000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6605e6182a66813600000002",
+                        "targetTopic": "climate",
+                        "text": "President Biden has long vowed to build 500,000 stations. But more than two years after Congress allocated $7.5 billion toward the effort, only seven stations have been built in four states: Hawaii, Ohio, New York and Pennsylvania."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "16be5800-ed4a-11ee-b5d9-0000a1ace8f0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gov. Glenn Youngkin (R) vetoes bills that would have created a legal market for recreational cannabis in Virginia",
+            "ios": {
+                "alert": {
+                    "body": "Gov. Glenn Youngkin (R) vetoes bills that would have created a legal market for recreational cannabis in Virginia",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/28/virginia-cannabis-pot-legal-sales-youngkin-veto/",
+                        "datetime": "2024-03-28T21:28:15.222000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6605e0ef2a66813600000001",
+                        "targetTopic": "local",
+                        "text": "Passed on largely party-line votes by the Democratic-controlled General Assembly, the identical House of Delegates and Senate bills would have set commercial standards and licensing requirements for large and small retailers to sell cannabis products. Virginia legalized the possession of small amounts of recreational marijuana three years ago but never settled on a mechanism to allow legal sales."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
