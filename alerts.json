@@ -14520,5 +14520,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "181cb5e0-ed52-11ee-ac34-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s \u2018America First\u2019 views date back to the 1930s, Robert Kagan writes. Americans rejected it then. Will we now?",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s \u2018America First\u2019 views date back to the 1930s, Robert Kagan writes. Americans rejected it then. Will we now?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/28/robert-kagan-trump-ukraine-america-first-isolationism/",
+                        "datetime": "2024-03-28T22:25:34.005000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6605ee5e96425c3500000001",
+                        "targetTopic": "opinions",
+                        "text": "Trump\u2019s anti-Ukraine view dates to the 1930s. America rejected it then. Will we now?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
