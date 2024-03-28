@@ -14372,5 +14372,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd733d40-ed3d-11ee-8cdf-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Dodgers took a risk when they committed so much to Shohei Ohtani. They decided it was worth it.",
+            "ios": {
+                "alert": {
+                    "body": "The Dodgers took a risk when they committed so much to Shohei Ohtani. They decided it was worth it.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/28/shohei-ohtani-japan-dodgers-gambling-scandal/",
+                        "datetime": "2024-03-28T20:01:39.339000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6605cca38f8812350000000a",
+                        "targetTopic": "editors_picks",
+                        "text": "The Los Angeles Dodgers did not commit to the two-time MVP from Japan solely because of the value he can provide on the field. Adding Ohtani to the most star-studded roster in the sport felt to them as though it would create off-field value of an entirely different scale. But for the first time in his career, the eyes that follow Ohtani, his team and the league that made him its poster child are staring for less flattering reasons."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
