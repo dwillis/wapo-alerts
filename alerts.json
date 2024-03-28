@@ -14323,5 +14323,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "802603b0-ed22-11ee-8ea2-00000a1ace78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "South Carolina will proceed with voting map judges previously said \u2018exiled\u2019 Black voters rather than wait for Supreme Court decision",
+            "ios": {
+                "alert": {
+                    "body": "South Carolina will proceed with voting map judges previously said \u2018exiled\u2019 Black voters rather than wait for Supreme Court decision",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/28/south-carolina-redistricting-2024-election/",
+                        "datetime": "2024-03-28T16:44:45.701000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66059e7d177798350000001e",
+                        "targetTopic": "politics",
+                        "text": "A federal court ruled Thursday that time had run out to draw a new congressional district in South Carolina and said the state could use its existing map this year even though it had earlier determined that map was unconstitutional. The panel of three judges last year concluded that South Carolina\u2019s Republican-led legislature \u201cexiled\u201d 30,000 Black voters from the district to make it safer for a White GOP incumbent, Rep. Nancy Mace. The Supreme Court heard arguments on the case in October but has yet to rule on it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
