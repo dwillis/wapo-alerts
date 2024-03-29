@@ -14864,5 +14864,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "968462e0-edeb-11ee-ab2e-00000a1ace90",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: My fianc\u00e9 and I are minimalists. My dad keeps sending us junk.",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: My fianc\u00e9 and I are minimalists. My dad keeps sending us junk.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/29/live-chat-carolyn-hax/",
+                        "datetime": "2024-03-29T16:44:18.896000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6606efe2acb2503500000003",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax chat: My fianc\u00e9 and I are minimalists. My dad keeps sending us junk."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
