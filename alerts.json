@@ -14815,5 +14815,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2e788964-ede1-11ee-bc10-000a1ace0f0f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Officials guarded Baltimore\u2019s Key Bridge from terrorism and decay for decades. They didn\u2019t foresee a ship collision.",
+            "ios": {
+                "alert": {
+                    "body": "Officials guarded Baltimore\u2019s Key Bridge from terrorism and decay for decades. They didn\u2019t foresee a ship collision.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/03/29/baltimore-bridge-collapse-inspections-minneapolis-tampa/",
+                        "datetime": "2024-03-29T15:29:49.292000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6606de6dacb2503500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "After the Sept. 11 attacks and the 2007 Minneapolis bridge collapse, Maryland officials scrambled to ensure the bridge was safe from similar events. Then, this week, a 95,000-gross-ton container ship hit it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
