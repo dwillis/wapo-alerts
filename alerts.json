@@ -14962,5 +14962,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d1267300-ee01-11ee-a285-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018We are trying to find some way not to retreat,\u2019 Ukrainian President Zelensky tells David Ignatius",
+            "ios": {
+                "alert": {
+                    "body": "\u2018We are trying to find some way not to retreat,\u2019 Ukrainian President Zelensky tells David Ignatius",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/03/29/ignatius-zelensky-interview-ukraine-aid-russia/",
+                        "datetime": "2024-03-29T19:23:26.241000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6607152e732fdf3600000001",
+                        "targetTopic": "opinions",
+                        "text": "President Volodymyr Zelensky delivered a stark message to Congress in an interview on Thursday as Russian missiles were pounding southern Ukraine: Give us the weapons to stop the Russian attacks, or Ukraine will escalate its counterattacks on Russia\u2019s airfields, energy facilities and other strategic targets."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
