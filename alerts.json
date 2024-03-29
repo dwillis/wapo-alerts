@@ -14618,5 +14618,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d2149ad0-edc5-11ee-b70b-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Beyonc\u00e9\u2019s new record, \u2018Cowboy Carter,\u2019 dropped at midnight \u2014 and it's a lot of album. Here are our takeaways.",
+            "ios": {
+                "alert": {
+                    "body": "Beyonc\u00e9\u2019s new record, \u2018Cowboy Carter,\u2019 dropped at midnight \u2014 and it's a lot of album. Here are our takeaways.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/music/2024/03/29/beyonce-cowboy-carter-album-release/",
+                        "datetime": "2024-03-29T12:13:57.880000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6606b0854ce9d03500000001",
+                        "targetTopic": "entertainment",
+                        "text": "The record was hyped as the R&B and pop star\u2019s first \u201ccountry\u201d full-length. It ain\u2019t, she would later clarify. So what kind of album is it? It\u2019s a journey."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
