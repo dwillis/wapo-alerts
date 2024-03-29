@@ -14569,5 +14569,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7e92a0f0-edbb-11ee-8976-00000a1ace03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Baltimore bridge cleanup. Biden fundraiser. Sam Bankman-Fried. Deadly bus crash. Census update. AI clones. Beyonc\u00e9. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Baltimore bridge cleanup. Biden fundraiser. Sam Bankman-Fried. Deadly bus crash. Census update. AI clones. Beyonc\u00e9. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/03/29/what-to-know-for-march-29/?noredirect=1",
+                        "datetime": "2024-03-29T11:00:02.573000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "66069f32bd19a93500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
