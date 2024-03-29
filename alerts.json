@@ -14667,5 +14667,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db365470-edd2-11ee-959b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Louis Gossett Jr. dies at 87. He was the first Black man to win the best supporting actor Oscar.",
+            "ios": {
+                "alert": {
+                    "body": "Louis Gossett Jr. dies at 87. He was the first Black man to win the best supporting actor Oscar.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/03/29/louis-gossett-actor-roots-officer-and-gentleman-dead-obituary/",
+                        "datetime": "2024-03-29T13:47:16.885000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6606c6644ce9d03500000005",
+                        "targetTopic": "entertainment",
+                        "text": "In a career spanning nearly seven decades, Gossett became one of the most recognizable actors of his generation. He worked on Broadway and other stages starting in the 1950s, appearing in dramas such as Lorraine Hansberry\u2019s landmark \u201cA Raisin in the Sun.\u201d The boundary-breaking actor later won an Emmy for \u201cRoots\u201d (1977) and an Academy Award for \u201cAn Officer and a Gentleman\u201d (1982)."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "80afcbe0-edcc-11ee-8976-00000a1ace03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden seeks to accelerate the nation\u2019s transition to electric trucks and buses, a follow-up to tougher rules on cars",
+            "ios": {
+                "alert": {
+                    "body": "Biden seeks to accelerate the nation\u2019s transition to electric trucks and buses, a follow-up to tougher rules on cars",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/03/29/truck-pollution-regulations-climate/",
+                        "datetime": "2024-03-29T13:01:47.953000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6606bbbb4ce9d03500000002",
+                        "targetTopic": "climate",
+                        "text": "The Environmental Protection Agency finalized a rule requiring manufacturers to reduce emissions from new trucks, delivery vans and buses.\n\nThe rule \u2014 aimed at reducing climate impacts \u2014 could also cut harmful air pollution in disadvantaged communities. Some truck makers had lobbied to weaken it and might challenge it in court."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
