@@ -15060,5 +15060,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3e5f0a80-eea3-11ee-9fce-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "LSU\u2019s Kim Mulkey holds grudges, battles everyone and keeps winning",
+            "ios": {
+                "alert": {
+                    "body": "LSU\u2019s Kim Mulkey holds grudges, battles everyone and keeps winning",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/30/kim-mulkey-lsu-griner-reese/",
+                        "datetime": "2024-03-30T14:38:58.611000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66082402857e643500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "As the women\u2019s game finally takes center stage, Mulkey is viewed by some as college basketball\u2019s cartoonishly ornery supervillain and an essential part of the show. But some former players say that while her coaching approach gets results, including four national titles, it also takes a toll."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
