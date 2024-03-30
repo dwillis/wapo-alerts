@@ -15109,5 +15109,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd7f93d0-eeb2-11ee-b99b-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: He told me he saw a future with me. Now he has a new girlfriend.",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: He told me he saw a future with me. Now he has a new girlfriend.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/03/28/ask-sahaj-ex-new-girlfriend/",
+                        "datetime": "2024-03-30T16:31:41.632000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66083e6d857e643500000004",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: He told me he saw a future with me. Now he has a new girlfriend."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "703c8a40-eeae-11ee-bee0-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden is pushing EVs. Who actually wants them? Listen to the latest episode of \u2018Impromptu,\u2019 our new podcast.",
+            "ios": {
+                "alert": {
+                    "body": "Biden is pushing EVs. Who actually wants them? Listen to the latest episode of \u2018Impromptu,\u2019 our new podcast.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/podcasts/impromptu/biden-is-pushing-evs-who-actually-wants-them/",
+                        "datetime": "2024-03-30T15:59:06.742000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660836ca2d4d203500000001",
+                        "targetTopic": "opinions",
+                        "text": "The Biden administration wants America to transition to electric cars. But who\u2019s actually opting in? Post Opinions columnists talk about how to navigate the speed bumps and what needs to happen to rev up this revolution."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
