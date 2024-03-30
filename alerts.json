@@ -15257,5 +15257,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "40e0ee10-eedd-11ee-8eaa-000a1acedd61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. Marines are testing out new, more nimble and lethal regiments designed to gain the advantage if there\u2019s a war with China",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. Marines are testing out new, more nimble and lethal regiments designed to gain the advantage if there\u2019s a war with China",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/03/29/us-china-taiwan-marines/",
+                        "datetime": "2024-03-30T21:34:13.601000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66088555857e643500000005",
+                        "targetTopic": "editors_picks",
+                        "text": "Across an island-hopping battlefield in Asia, the Marines are embedding new forces that would partner with allies to sink ships and down fighter planes if Beijing moves to take Taiwan or challenge for supremacy in the South China Sea."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
