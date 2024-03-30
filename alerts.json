@@ -15207,5 +15207,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "98434ee0-eec5-11ee-9ea1-0000a1ace22d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why Steven Mnuchin\u2019s plan to buy TikTok, but not its algorithm, has some insiders bewildered",
+            "ios": {
+                "alert": {
+                    "body": "Why Steven Mnuchin\u2019s plan to buy TikTok, but not its algorithm, has some insiders bewildered",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/03/30/tiktok-mnuchin-sale-algorithm/",
+                        "datetime": "2024-03-30T18:44:52.096000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66085da4742e3d3500000002",
+                        "targetTopic": "technology",
+                        "text": "The former treasury secretary is telling investors he aims to buy TikTok without its export-blocked code, according to two people familiar with the pitch who spoke on the condition of anonymity. The plan would require Mnuchin to rebuild a service built on billions of lines of code \u2014 including the popular video app\u2019s coveted recommendation algorithm \u2014 an idea observers said suggests a lack of familiarity with how tech companies actually work."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
