@@ -15453,5 +15453,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b0509bf0-efa1-11ee-8ff3-00000a1aced0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump calls his globe-trotting ex-diplomat \u2018my envoy.\u2019 Neither is in office.",
+            "ios": {
+                "alert": {
+                    "body": "Trump calls his globe-trotting ex-diplomat \u2018my envoy.\u2019 Neither is in office.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/03/28/richard-grenell-trump-envoy-serbia-guatemala/",
+                        "datetime": "2024-03-31T21:00:21.926000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6609cee5742e3d3500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Richard Grenell is meeting with far-right foreign leaders, attacking President Biden and offering a glimpse at what U.S. foreign policy could be like in a second Trump term."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
