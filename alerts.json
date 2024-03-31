@@ -15355,5 +15355,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2f339480-ef6c-11ee-9ae3-00000a1aceb9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Solar eclipse towns have two big concerns as they welcome a tourism boom: Traffic and port-a-potties",
+            "ios": {
+                "alert": {
+                    "body": "Solar eclipse towns have two big concerns as they welcome a tourism boom: Traffic and port-a-potties",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/2024/03/28/solar-eclipse-tourism-small-towns/",
+                        "datetime": "2024-03-31T14:37:22.026000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660975222d4d203500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Small towns in the path of totality are pulling off logistical feats to welcome visitors."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
