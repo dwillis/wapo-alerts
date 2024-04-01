@@ -15894,5 +15894,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "64e33690-f056-11ee-bc7a-0000a1acec87",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Republicans texted and emailed their way into a money problem",
+            "ios": {
+                "alert": {
+                    "body": "How Republicans texted and emailed their way into a money problem",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/01/trump-republican-small-donations-problems/",
+                        "datetime": "2024-04-01T18:33:54.240000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660afe12019e463600000005",
+                        "targetTopic": "politics",
+                        "text": "Small-dollar donations to Donald Trump and the GOP are way down since 2019 and 2020. But the former president\u2019s team says they see a turnaround coming."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
