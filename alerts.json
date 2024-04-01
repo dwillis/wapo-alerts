@@ -15649,5 +15649,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42a0eb10-f031-11ee-a08b-00000a1ace7c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "America suddenly has a record number of bees. What happened to colony collapse?",
+            "ios": {
+                "alert": {
+                    "body": "America suddenly has a record number of bees. What happened to colony collapse?",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/03/29/bees-boom-colony-collapse/",
+                        "datetime": "2024-04-01T14:08:05.337000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660abfc5742e3d3500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "The new Census of Agriculture shows that America\u2019s honeybee population has rocketed to an all-time high. But the census has limitations, so The Post\u2019s Department of Data dug deep into the numbers and found two big forces behind the boom, one surprising and one quite familiar. What we didn\u2019t find was good news for native pollinators."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
