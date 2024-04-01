@@ -15502,5 +15502,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8d46dff0-efb7-11ee-a5d8-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The men\u2019s Final Four is set: North Carolina State, Purdue, Connecticut and Alabama will compete for a national championship",
+            "ios": {
+                "alert": {
+                    "body": "The men\u2019s Final Four is set: North Carolina State, Purdue, Connecticut and Alabama will compete for a national championship",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/03/31/march-madness-games-scores-live-updates/",
+                        "datetime": "2024-03-31T23:36:52.053000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6609f394742e3d3500000004",
+                        "targetTopic": "sports",
+                        "text": "Top overall seed Connecticut will continue its championship defense against sharpshooting Alabama on Saturday in Glendale, Ariz., and fellow No. 1 seed Purdue will take on No. 11 seed N.C. State.\nThe semifinal winners will play for the national title April 8."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
