@@ -15698,5 +15698,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "43289b30-f03d-11ee-b651-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Disgraced ex-lawyer Alex Murdaugh sentenced to 40 years for laundering millions, AP reports. He is already serving 2 life sentences.",
+            "ios": {
+                "alert": {
+                    "body": "Disgraced ex-lawyer Alex Murdaugh sentenced to 40 years for laundering millions, AP reports. He is already serving 2 life sentences.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/01/murdaugh-financial-fraud-south-carolina/",
+                        "datetime": "2024-04-01T15:34:00.247000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660ad3e8019e463600000001",
+                        "targetTopic": "us",
+                        "text": "Murdaugh, who is also serving life sentences for the murder of his wife and son, admitted to 22 financial crimes, including stealing settlements meant for a quadriplegic man\u2019s family."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
