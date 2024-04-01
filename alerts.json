@@ -15992,5 +15992,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "06ce8d21-f06f-11ee-90a5-00000a1acec8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Our reporters went into Gaza\u2019s largest hospital for the first time in months. Mass destruction and the smell of death awaited them.",
+            "ios": {
+                "alert": {
+                    "body": "Our reporters went into Gaza\u2019s largest hospital for the first time in months. Mass destruction and the smell of death awaited them.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/01/gaza-al-shifa-hospital-israel/",
+                        "datetime": "2024-04-01T21:30:13.551000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660b2765cea0ec3500000001",
+                        "targetTopic": "special_report",
+                        "text": "Washington Post reporters were among a handful of foreign journalists taken inside al-Shifa hospital in Gaza City by the Israeli military on Sunday after two weeks of heavy fighting with militants. The hospital, once Gaza\u2019s premier medical facility, has been destroyed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
