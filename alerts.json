@@ -15747,5 +15747,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "04a22620-f041-11ee-82a2-0000a1acef87",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: It\u2019s tough to split kid duty with someone who runs 15 hours a week",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: It\u2019s tough to split kid duty with someone who runs 15 hours a week",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/01/carolyn-hax-dad-runs-too-much/",
+                        "datetime": "2024-04-01T16:00:53.352000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660ada35019e463600000002",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: It\u2019s tough to split kid duty with someone who runs 15 hours a week"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
