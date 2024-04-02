@@ -16335,5 +16335,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "643f72b0-f0e9-11ee-937f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Netanyahu says Israeli forces \u2018unintentionally hit innocent people\u2019 after World Central Kitchen says strike killed 7 workers",
+            "ios": {
+                "alert": {
+                    "body": "Netanyahu says Israeli forces \u2018unintentionally hit innocent people\u2019 after World Central Kitchen says strike killed 7 workers",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/02/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-02T12:06:08.280000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660bf4b0cea0ec3500000005",
+                        "targetTopic": "world",
+                        "text": "Israeli Prime Minister Benjamin Netanyahu\u2019s comments were the first in which Israel directly took responsibility for the attack. \u201cUnfortunately, there was a tragic incident in which our forces unintentionally hit innocent people in the Gaza Strip,\u201d Netanyahu said. \u201cAs it happens in war, we are investigating the matter fully, we are in contact with the governments, and we will do everything possible to prevent this from happening again.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
