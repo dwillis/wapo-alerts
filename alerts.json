@@ -16237,5 +16237,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "93760fd0-f0bc-11ee-9c43-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "World Central Kitchen suspends aid operations in Gaza, says 7 workers killed in Israeli strike",
+            "ios": {
+                "alert": {
+                    "body": "World Central Kitchen suspends aid operations in Gaza, says 7 workers killed in Israeli strike",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/02/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-02T06:45:20.966000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660ba980ad58d63500000002",
+                        "targetTopic": "world",
+                        "text": "The food aid nonprofit said in a statement that the dead included a U.S.-Canada dual national. The Israel Defense Forces said earlier it was aware of reports of the incident and was conducting a \u201cthorough review.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
