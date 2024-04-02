@@ -16188,5 +16188,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42e23300-f0a3-11ee-b919-0000a1ace729",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The women\u2019s Final Four is set: Connecticut, Iowa, South Carolina and North Carolina State will play for a national championship",
+            "ios": {
+                "alert": {
+                    "body": "The women\u2019s Final Four is set: Connecticut, Iowa, South Carolina and North Carolina State will play for a national championship",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/01/march-madness-games-scores-iowa-lsu-live-updates/",
+                        "datetime": "2024-04-02T03:44:08.398000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660b7f08ad58d63500000001",
+                        "targetTopic": "sports",
+                        "text": "Undefeated top overall seed South Carolina will face No. 3 seed N.C. State in one national semifinal Friday in Cleveland, and No. 1 seed Iowa will meet No. 3 seed Connecticut in the other.\nThe semifinal winners will play Sunday afternoon for the national title."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
