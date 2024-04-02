@@ -16090,5 +16090,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7ae5d5e0-f08a-11ee-a653-00000a1ace65",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli military launches investigation after reports of World Central Kitchen aid workers killed in Gaza strike",
+            "ios": {
+                "alert": {
+                    "body": "Israeli military launches investigation after reports of World Central Kitchen aid workers killed in Gaza strike",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/01/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-02T00:46:44.882000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660b5574cea0ec3500000004",
+                        "targetTopic": "world",
+                        "text": "The food aid nonprofit\u2019s founder, celebrity chef Jos\u00e9 Andr\u00e9s, said that several employees had been killed in an Israeli strike. The Israel Defense Forces said it was aware of the allegations and would conduct \u201ca thorough review\u201d after photos appearing to show the killed aid workers circulated on social media."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e6fcc340-f087-11ee-8dc5-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump posts $175 million bond to keep N.Y. authorities from seizing his property after civil fraud judgment",
+            "ios": {
+                "alert": {
+                    "body": "Trump posts $175 million bond to keep N.Y. authorities from seizing his property after civil fraud judgment",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/01/trump-new-york-bond-175-million/",
+                        "datetime": "2024-04-02T00:28:17.705000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660b5121cea0ec3500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The former president\u2019s posting of the bond was necessary to keep New York Attorney General Letitia James from initiating legal steps to take over his properties, including Trump Tower. An appeals court panel recently ruled to reduce the bond from $464 million in the massive civil fraud judgment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
