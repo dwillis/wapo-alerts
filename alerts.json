@@ -16286,5 +16286,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "26633340-f0e0-11ee-8d08-0000a1acedc5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli strike. Trump bond. Abortion ban. Alex Murdaugh. Bird flu. Google data. Caitlin Clark. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Israeli strike. Trump bond. Abortion ban. Alex Murdaugh. Bird flu. Google data. Caitlin Clark. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/02/what-to-know-for-april-2/?noredirect=1",
+                        "datetime": "2024-04-02T10:59:59.901000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "660be52fad58d63500000003",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
