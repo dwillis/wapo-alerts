@@ -16482,5 +16482,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "85c110d0-f10f-11ee-84a4-00000a1ace83",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: The relative he\u2019s avoiding happens to be Black. Coincidence?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: The relative he\u2019s avoiding happens to be Black. Coincidence?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/02/carolyn-hax-black-dad-in-law/",
+                        "datetime": "2024-04-02T16:39:06.319000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660c34aacea0ec3500000008",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: The relative he\u2019s avoiding happens to be Black. Coincidence?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
