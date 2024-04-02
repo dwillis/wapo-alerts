@@ -16433,5 +16433,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "53170000-f109-11ee-8585-0000a1aceb9d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wes Moore, a rising Democratic star, showcases his \u2018won\u2019t flinch\u2019 attitude amid the Key Bridge crisis",
+            "ios": {
+                "alert": {
+                    "body": "Wes Moore, a rising Democratic star, showcases his \u2018won\u2019t flinch\u2019 attitude amid the Key Bridge crisis",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/04/01/wes-moore-baltimore-bridge-collapse/",
+                        "datetime": "2024-04-02T15:54:44.339000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660c2a44cea0ec3500000007",
+                        "targetTopic": "politics",
+                        "text": "The freshman Maryland governor was an ascendant figure for Democrats who had already faced high expectations. Now he tackles his first major test in a moment of crisis. A behind-the-scenes look at how a rising political star confronted a catastrophe \u2014 and the bigger challenge that lies ahead."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
