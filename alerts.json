@@ -16041,5 +16041,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9b5cd4e1-f07b-11ee-a5d0-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In rematch of 2023 title game, Caitlin Clark and Iowa face Angel Reese and LSU for spot in Final Four. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "In rematch of 2023 title game, Caitlin Clark and Iowa face Angel Reese and LSU for spot in Final Four. Follow our coverage.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/01/march-madness-games-scores-iowa-lsu-live-updates/",
+                        "datetime": "2024-04-01T23:00:16.676000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660b3c80cea0ec3500000002",
+                        "targetTopic": "sports",
+                        "text": "After their epic, taunt-filled matchup in last year\u2019s national championship game, Clark\u2019s Hawkeyes are about to take on Reese\u2019s Tigers in the NCAA women\u2019s basketball tournament\u2019s Albany Region 2 final.\nFollow our coverage for live updates, highlights and analysis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
