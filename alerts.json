@@ -16826,5 +16826,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "20d3de91-f1d8-11ee-ad26-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cooking chat: How do you keep salad from wilting so quickly in the refrigerator? Our food writers answer your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Cooking chat: How do you keep salad from wilting so quickly in the refrigerator? Our food writers answer your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/04/03/questions-recipe-cooking-advice/",
+                        "datetime": "2024-04-03T16:35:05.844000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660d8539c1abe73500000001",
+                        "targetTopic": "food",
+                        "text": "Food writers Aaron Hutcherson and Becky Krystal answer your cooking conundrums in their weekly chat. Today\u2019s topics include cooking wines and garlic clove sizing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ed104aa8-f1d5-11ee-bc44-000a1ace7d81",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Special counsel Jack Smith fires back at Judge Cannon\u2019s order that could disrupt Trump classified documents case",
+            "ios": {
+                "alert": {
+                    "body": "Special counsel Jack Smith fires back at Judge Cannon\u2019s order that could disrupt Trump classified documents case",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/03/trump-documents-case-cannon-jack-smith/",
+                        "datetime": "2024-04-03T16:19:19.937000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660d8187d9d6573500000001",
+                        "targetTopic": "politics",
+                        "text": "The prosecutor asked U.S. Judge Aileen M. Cannon to rule quickly on Donald Trump's claim that he is protected by the Presidential Records Act, so the government can appeal before trial. The filing represents the most stark and high-stakes confrontation yet between Cannon and the special counsel, illustrating the extent to which a ruling that legitimizes Trump's position could eviscerate the historic case."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1bc76570-f1d3-11ee-8fa1-000a1ace4fbf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How do you get over someone you don\u2019t want to get over?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How do you get over someone you don\u2019t want to get over?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/03/carolyn-hax-break-up-regrets/",
+                        "datetime": "2024-04-03T15:59:09.875000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660d7ccdce02b33500000003",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How do you get over someone you don\u2019t want to get over?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
