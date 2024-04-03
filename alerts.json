@@ -16728,5 +16728,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "52010670-f1a9-11ee-bc4e-0000a1ace3d9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Taiwan earthquake. Israeli strike. Trump rebuke. Russia warning. Bird flu. Keto diet. Eclipse lawsuit. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Taiwan earthquake. Israeli strike. Trump rebuke. Russia warning. Bird flu. Keto diet. Eclipse lawsuit. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/03/what-to-know-for-april-3/?noredirect=1",
+                        "datetime": "2024-04-03T11:00:01.970000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "660d36b1ce02b33500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
