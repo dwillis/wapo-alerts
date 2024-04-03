@@ -16679,5 +16679,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9efe4710-f156-11ee-bd39-0000a1ace581",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Magnitude 7.4 earthquake prompts tsunami alerts in Taiwan, Japan",
+            "ios": {
+                "alert": {
+                    "body": "Magnitude 7.4 earthquake prompts tsunami alerts in Taiwan, Japan",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/02/taiwan-earthquake-tsunami-japan/",
+                        "datetime": "2024-04-03T01:08:02.864000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660cabf247a0403500000004",
+                        "targetTopic": "world",
+                        "text": "The earthquake off the east coast of Taiwan was the largest recorded in 25 years and was followed by several aftershocks, leading authorities to tell people on Taiwan's east coast and one of Japan's southern islands to take shelter and seek higher ground."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
