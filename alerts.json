@@ -16973,5 +16973,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8699b520-f1e1-11ee-8aa7-0000a1acecb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Big Food and dietitian influencers are pushing \u2018anti-diet\u2019 advice even as obesity rises",
+            "ios": {
+                "alert": {
+                    "body": "Big Food and dietitian influencers are pushing \u2018anti-diet\u2019 advice even as obesity rises",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/04/03/diet-culture-nutrition-influencers-general-mills-processed-food/",
+                        "datetime": "2024-04-03T17:42:22.057000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660d94fe47a0403500000005",
+                        "targetTopic": "special_report",
+                        "text": "The anti-diet movement, which began as an effort to combat weight stigma and an unhealthy obsession with thinness, is now drawing global food marketers. One company in particular, General Mills, maker of Cocoa Puffs and Lucky Charms cereals, has launched a multi-pronged campaign that capitalizes on anti-diet teachings, an investigation by The Washington Post and The Examination, a nonprofit newsroom that covers global public health, has found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c7725790-f1dd-11ee-8b90-000a1ace17c0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "David Ignatius and Jim Geraghty just visited Ukraine. Listen to them describe what they saw in the latest episode of \u2018Impromptu.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "David Ignatius and Jim Geraghty just visited Ukraine. Listen to them describe what they saw in the latest episode of \u2018Impromptu.\u2019",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/podcasts/impromptu/what-we-saw-on-the-ground-in-ukraine/",
+                        "datetime": "2024-04-03T17:15:32.843000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660d8eb4d9d6573500000002",
+                        "targetTopic": "opinions",
+                        "text": "What we saw on the ground in Ukraine"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
