@@ -17268,5 +17268,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7e478170-f28d-11ee-8c6c-0000a1ace1bd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In a rare move, the maker of a failed ALS drug removes it from the market weeks after disappointing trial results",
+            "ios": {
+                "alert": {
+                    "body": "In a rare move, the maker of a failed ALS drug removes it from the market weeks after disappointing trial results",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/04/amylyx-als-drug/",
+                        "datetime": "2024-04-04T14:13:21.513000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660eb581ce02b33500000008",
+                        "targetTopic": "health",
+                        "text": "Amylyx Pharmaceuticals said it had started the process to remove its drug, called Relyvrio in the United States and Albrioza in Canada, adding that it will not be available for new amyotrophic lateral sclerosis patients effective immediately while existing patients can be transitioned to a \u201cfree drug program.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
