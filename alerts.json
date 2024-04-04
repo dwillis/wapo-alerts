@@ -17417,5 +17417,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "baccef30-f2b1-11ee-898b-00000a1ace47",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. policy toward Israel will change unless it heeds Biden on Gaza aid and civilian protections, Blinken suggests",
+            "ios": {
+                "alert": {
+                    "body": "U.S. policy toward Israel will change unless it heeds Biden on Gaza aid and civilian protections, Blinken suggests",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/04/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-04T18:32:44.327000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660ef24cce02b3350000000b",
+                        "targetTopic": "world",
+                        "text": "Secretary of State Antony Blinken spoke to reporters following President Biden\u2019s call with Israeli Prime Minister Benjamin Netanyahu. The warning lacked specifics and came as the Biden administration continued to approve the transfer of thousands of bombs to Israel despite calls to condition aid in the aftermath of the Israeli airstrike that killed seven aid workers with the World Central Kitchen charity."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
