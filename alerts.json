@@ -17613,5 +17613,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd302970-f2d2-11ee-b755-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What starvation is doing to Gaza\u2019s children",
+            "ios": {
+                "alert": {
+                    "body": "What starvation is doing to Gaza\u2019s children",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/gaza-food-famine-malnutrition-children-aid/",
+                        "datetime": "2024-04-04T22:30:47.165000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660f2a17ce02b3350000000f",
+                        "targetTopic": "world",
+                        "text": "Hundreds of thousands of children in Gaza are going hungry. Even if more aid arrives, experts say the damage will be lasting."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
