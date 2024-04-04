@@ -17564,5 +17564,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a24069b0-f2ca-11ee-85d9-00000a1ace66",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Where, when and how to watch the solar eclipse \u2014 and what it will look like: Your ultimate guide",
+            "ios": {
+                "alert": {
+                    "body": "Where, when and how to watch the solar eclipse \u2014 and what it will look like: Your ultimate guide",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/04/04/solar-eclipse-totality-maps-path-explained/",
+                        "datetime": "2024-04-04T21:31:01.169000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660f1c15ce02b3350000000e",
+                        "targetTopic": "editors_picks",
+                        "text": "On Monday, a total solar eclipse will sweep across North America, blocking out the sun momentarily for millions of viewers along a path stretching from northern Mexico to Maine. We won\u2019t see another until 2044. Here\u2019s everything you need to know to prepare for this rare celestial phenomenon."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
