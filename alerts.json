@@ -17120,5 +17120,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0beb8e31-f27b-11ee-9432-00000a1ace1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. awards $20 billion to help finance clean-energy projects, with a focus on disadvantaged communities",
+            "ios": {
+                "alert": {
+                    "body": "U.S. awards $20 billion to help finance clean-energy projects, with a focus on disadvantaged communities",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-solutions/2024/04/04/epa-greenhouse-gas-reduction-fund/",
+                        "datetime": "2024-04-04T12:01:18.749000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660e968ece02b33500000005",
+                        "targetTopic": "climate",
+                        "text": "The action by the Environmental Protection Agency is one of the Biden administration\u2019s largest investments in combating climate change and promoting environmental justice. Because of the money involved, it is sure to be closely watched by opponents and supporters of the nation\u2019s energy transition."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
