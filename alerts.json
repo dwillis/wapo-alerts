@@ -17318,5 +17318,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5b3ae040-f298-11ee-92b7-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Forecasters warn of an \u2018extremely active\u2019 Atlantic hurricane season this year, with 23 named storms",
+            "ios": {
+                "alert": {
+                    "body": "Forecasters warn of an \u2018extremely active\u2019 Atlantic hurricane season this year, with 23 named storms",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/04/04/atlantic-hurricane-season-forecast/",
+                        "datetime": "2024-04-04T15:31:07.149000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660ec7bbce02b33500000009",
+                        "targetTopic": "climate",
+                        "text": "The hurricane season could be one of the busiest in years because of record warm oceans and the expected demise of the El Ni\u00f1o climate pattern. The forecasters at Colorado State University also said the conditions raise the odds for storms to hit the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
