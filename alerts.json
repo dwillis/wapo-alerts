@@ -17466,5 +17466,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fcb36911-f2b6-11ee-b984-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge Cannon rejects Trump\u2019s bid to dismiss classified documents case based on Presidential Records Act",
+            "ios": {
+                "alert": {
+                    "body": "Judge Cannon rejects Trump\u2019s bid to dismiss classified documents case based on Presidential Records Act",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/04/cannon-trump-jack-smith-presidential-records-act/",
+                        "datetime": "2024-04-04T19:10:23.011000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660efb1fce02b3350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "The ruling could avert a looming standoff between special counsel Jack Smith and Judge Aileen M. Cannon. It comes two days after Smith said the judge was pursuing a legal premise that was \u201cwrong,\u201d and urged her to rule quickly so that he would have the option of appealing before trial."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4d3511b1-f2b5-11ee-aec1-0000a1ace470",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Centrist group No Labels says it will not field a ticket in the 2024 presidential election",
+            "ios": {
+                "alert": {
+                    "body": "Centrist group No Labels says it will not field a ticket in the 2024 presidential election",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/04/no-labels-no-presidential-ticket/",
+                        "datetime": "2024-04-04T18:58:18.979000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660ef84ace02b3350000000c",
+                        "targetTopic": "politics",
+                        "text": "The group said in a statement that it had not identified candidates \u201cwith a credible path to winning the White House\u201d and that the \u201cresponsible course of action is for us to stand down.\u201d Allies of President Biden sought to discourage the group from moving forward with a ticket they feared could help Donald Trump at the polls."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
