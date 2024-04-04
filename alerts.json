@@ -17170,5 +17170,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b9cce0f0-f288-11ee-8fee-00000a1ace1b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. proceeded with approval of thousands of more bombs to Israel on same day of strike that killed 7 World Central Kitchen workers",
+            "ios": {
+                "alert": {
+                    "body": "U.S. proceeded with approval of thousands of more bombs to Israel on same day of strike that killed 7 World Central Kitchen workers",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/04/world-central-kitchen-us-weapons-israel/",
+                        "datetime": "2024-04-04T13:39:13.842000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660ead81ce02b33500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision to green light the arms demonstrates President Biden\u2019s determination to continue the flow of lethal weaponry to Israel despite the widely-condemned incident he said he was \u201coutraged and heartbroken\u201d about."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "956e88e0-f287-11ee-9c1a-0000a1ace98f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A book bound in what?!? Play today\u2019s On the Record to find out",
+            "ios": {
+                "alert": {
+                    "body": "A book bound in what?!? Play today\u2019s On the Record to find out",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-04T13:31:03.403000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660eab97ce02b33500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Earn your Thursday points now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
