@@ -17711,5 +17711,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "91216911-f33b-11ee-8418-000a1ace137f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli investigation finds the strike that killed seven World Central Kitchen aid workers was in \u2018serious violation\u2019 of procedures",
+            "ios": {
+                "alert": {
+                    "body": "Israeli investigation finds the strike that killed seven World Central Kitchen aid workers was in \u2018serious violation\u2019 of procedures",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/05/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-05T10:59:25.583000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660fd98dd9d6573500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The Israeli Defense Forces said the decision to strike the vehicles was made in error and came after the IDF misidentified vehicles in the aid convoy as carrying Hamas operatives. It also found the IDF drone operators were not made aware of the aid convoy\u2019s coordination plan, and the aid group\u2019s logo was not visible to the cameras tracking the vehicles at night."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
