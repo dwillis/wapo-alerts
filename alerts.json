@@ -17662,5 +17662,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d1429aa0-f2f0-11ee-96c3-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel announces new Gaza aid routes after Biden demands more humanitarian relief in call with Netanyahu",
+            "ios": {
+                "alert": {
+                    "body": "Israel announces new Gaza aid routes after Biden demands more humanitarian relief in call with Netanyahu",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/04/israel-hamas-war-news-gaza-palestine",
+                        "datetime": "2024-04-05T02:04:20.767000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660f5c24c1abe73500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Israel\u2019s war cabinet announced new measures to allow more aid into Gaza, including the opening of the Erez border crossing, after a call between President Biden and Israeli Prime Minister Benjamin Netanyahu on Thursday morning. Biden warned that U.S. policy toward Israel could change if Israel did not take steps to protect noncombatants and boost aid to Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
