@@ -17809,5 +17809,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cfaf2160-f348-11ee-b807-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The economy added 303,000 jobs in March, reflecting a surprisingly booming labor market that continues to beat predictions",
+            "ios": {
+                "alert": {
+                    "body": "The economy added 303,000 jobs in March, reflecting a surprisingly booming labor market that continues to beat predictions",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/05/jobs-march-unemployment-rate/",
+                        "datetime": "2024-04-05T12:34:13.969000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "660fefc547a0403500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "The labor market continues to churn out jobs at a healthy pace, thanks in part to the leisure and hospitality sector, even as interest rates remain high, according to the latest data from the Bureau of Labor Statistics."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
