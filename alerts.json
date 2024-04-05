@@ -18055,5 +18055,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d7365880-f38f-11ee-ba2d-00000a1ace5f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "See what the solar eclipse will look like in your city",
+            "ios": {
+                "alert": {
+                    "body": "See what the solar eclipse will look like in your city",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/science/interactive/2024/solar-eclipse-view-cities/",
+                        "datetime": "2024-04-05T21:02:40.862000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661066f0ce02b33500000010",
+                        "targetTopic": "us",
+                        "text": "Whether you see a total or partial eclipse all depends on where you are. The difference is enormous."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
