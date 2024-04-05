@@ -18005,5 +18005,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "baa2f290-f36d-11ee-a1d1-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The nation\u2019s largest assisted-living chain uses a staffing algorithm; some managers say it left facilities dangerously short-handed",
+            "ios": {
+                "alert": {
+                    "body": "The nation\u2019s largest assisted-living chain uses a staffing algorithm; some managers say it left facilities dangerously short-handed",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/01/assisted-living-algorithm-staffing-lawsuits-brookdale/",
+                        "datetime": "2024-04-05T16:58:30.024000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66102db647a040350000000a",
+                        "targetTopic": "health",
+                        "text": "Brookdale Senior Living, the leading operator of senior homes with 652 facilities, acquired the algorithm-based system and used it to set staffing at its properties across the nation. But as Brookdale\u2019s empire grew, employees complained the system, known as \u201cService Alignment,\u201d failed to capture the nuances of caring for vulnerable seniors, documents and interviews show."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
