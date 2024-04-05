@@ -17907,5 +17907,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b4586710-f35b-11ee-aefd-0000a1ace909",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "4.7-magnitude earthquake hits New York City area, according to USGS",
+            "ios": {
+                "alert": {
+                    "body": "4.7-magnitude earthquake hits New York City area, according to USGS",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/05/earthquake-new-york-new-jersey/",
+                        "datetime": "2024-04-05T14:49:28.557000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66100f7847a0403500000008",
+                        "targetTopic": "us",
+                        "text": "The small quake was centered in suburban Lebanon, N.J., according to the United States Geological Survey. Social media users reported feeling it from New England to Maryland."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
