@@ -17956,5 +17956,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9c239f80-f369-11ee-9242-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is taking your questions now: How do I ask my wife for an open marriage?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is taking your questions now: How do I ask my wife for an open marriage?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/05/live-chat-carolyn-hax/",
+                        "datetime": "2024-04-05T16:29:00.795000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661026cc47a0403500000009",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is taking your questions now: How do I ask my wife for an open marriage?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
