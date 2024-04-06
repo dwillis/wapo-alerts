@@ -18104,5 +18104,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "26fd28b0-f3a6-11ee-81bf-00000a1ace5d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House and Senate leaders are nearing agreement on a landmark bill aimed at protecting Americans\u2019 privacy online",
+            "ios": {
+                "alert": {
+                    "body": "House and Senate leaders are nearing agreement on a landmark bill aimed at protecting Americans\u2019 privacy online",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/05/federal-privacy-internet-congress/",
+                        "datetime": "2024-04-05T23:42:23.627000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66108c5fce02b33500000011",
+                        "targetTopic": "politics",
+                        "text": "The expected deal would vault Congress closer to a historic agreement lawmakers have sought for decades. It would create a mechanism to allow individuals to sue companies that violate their privacy, among other provisions, according to a person familiar with the negotiations who spoke on the condition of anonymity. Further details are expected to be announced next week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
