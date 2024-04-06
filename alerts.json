@@ -18153,5 +18153,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d537c460-f3c6-11ee-9ee8-0000a1ace78d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iowa beats Connecticut in women\u2019s Final Four, will face South Carolina for national championship",
+            "ios": {
+                "alert": {
+                    "body": "Iowa beats Connecticut in women\u2019s Final Four, will face South Carolina for national championship",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/05/march-madness-final-four-scores-live-updates/",
+                        "datetime": "2024-04-06T03:36:19.868000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6610c333c1abe73500000003",
+                        "targetTopic": "sports",
+                        "text": "The Hawkeyes, led by record-setting guard Caitlin Clark, reached the national final for the second consecutive year after beating the Huskies on Friday night in Cleveland.\nEarlier in the evening, South Carolina remained undefeated and secured its spot in Sunday\u2019s final with a victory over North Carolina State."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
