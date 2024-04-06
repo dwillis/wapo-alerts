@@ -18349,5 +18349,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "000bc410-f431-11ee-8900-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: My son\u2019s 5-month relationship ended 3 years ago. He\u2019s still reeling.",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: My son\u2019s 5-month relationship ended 3 years ago. He\u2019s still reeling.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/04/ask-sahaj-son-breakup-reeling/",
+                        "datetime": "2024-04-06T16:16:18.292000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6611755243a42b3500000004",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: My son\u2019s 5-month relationship ended 3 years ago. He\u2019s still reeling."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
