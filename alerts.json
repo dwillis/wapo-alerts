@@ -18300,5 +18300,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "078725e0-f42c-11ee-b8e0-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As the war in Ukraine worsens and Russia advances on battlefield, Zelensky faces terrible options",
+            "ios": {
+                "alert": {
+                    "body": "As the war in Ukraine worsens and Russia advances on battlefield, Zelensky faces terrible options",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/06/ukraine-war-zelensky-options/",
+                        "datetime": "2024-04-06T15:40:43.467000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66116cfb43a42b3500000003",
+                        "targetTopic": "world",
+                        "text": "Short of soldiers, weapons and ammunition, Ukrainian President Volodymyr Zelensky has no way out of a worsening war \u2014 unable to advance militarily and unwilling to surrender occupied territory to Russia."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
