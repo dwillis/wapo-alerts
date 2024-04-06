@@ -18251,5 +18251,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aecbe770-f425-11ee-ac84-000a1acef853",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "She failed to terminate her unwanted pregnancy. It changed another woman\u2019s life.",
+            "ios": {
+                "alert": {
+                    "body": "She failed to terminate her unwanted pregnancy. It changed another woman\u2019s life.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/abortion-texas-restrictions-adoption-reunion/",
+                        "datetime": "2024-04-06T14:55:17.529000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6611625543a42b3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Evelyn desperately tried to terminate her pregnancy in three states before ultimately choosing adoption. Would a long-planned reunion with her 1-year-old offer the healing she needed?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
