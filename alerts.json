@@ -18447,5 +18447,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3dd2b380-f44a-11ee-8338-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "No eclipse glasses? Here are old school ways to watch Monday\u2019s eclipse.",
+            "ios": {
+                "alert": {
+                    "body": "No eclipse glasses? Here are old school ways to watch Monday\u2019s eclipse.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/04/06/solar-eclipse-viewing-without-glasses/",
+                        "datetime": "2024-04-06T19:16:59.344000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66119fab43a42b3500000006",
+                        "targetTopic": "climate",
+                        "text": "Special eclipse glasses are the best way to safely watch Monday\u2019s solar eclipse across the contiguous United States. But if you don\u2019t have glasses, here are several low-tech ways to see and enjoy the eclipse."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
