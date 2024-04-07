@@ -18742,5 +18742,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b35b0da0-f503-11ee-aa41-00000a1ace5c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Couldn\u2019t make it to the path of totality? Here\u2019s how to watch tomorrow\u2019s partial eclipse locally.",
+            "ios": {
+                "alert": {
+                    "body": "Couldn\u2019t make it to the path of totality? Here\u2019s how to watch tomorrow\u2019s partial eclipse locally.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/04/07/dc-partial-solar-eclipse-md-va/",
+                        "datetime": "2024-04-07T17:24:33.392000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6612d6d12e96ae3500000005",
+                        "targetTopic": "local",
+                        "text": "The D.C. area will experience a partial solar eclipse Monday from 2:04 to 4:32 p.m., peaking at 3:20 p.m. Here\u2019s information on what will happen, the weather forecast and recommended viewing places."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
