@@ -18497,5 +18497,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ba6dd2c0-f473-11ee-af4f-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Washington Nationals pitcher Stephen Strasburg, MVP of the 2019 World Series, has retired, according to MLB",
+            "ios": {
+                "alert": {
+                    "body": "Washington Nationals pitcher Stephen Strasburg, MVP of the 2019 World Series, has retired, according to MLB",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/06/stephen-strasburg-retirement/",
+                        "datetime": "2024-04-07T00:13:57.784000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6611e54543a42b3500000007",
+                        "targetTopic": "sports",
+                        "text": "Strasburg, whose retirement was long expected, did not announce his decision to step away from the game, nor did the Nationals. Instead, it was posted on MLB\u2019s transactions log Saturday. The No. 1 overall pick in the 2009 draft, Strasburg began his career with tremendous hype but was ultimately derailed by injury."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
