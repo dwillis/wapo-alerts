@@ -18546,5 +18546,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "65bd5612-f48c-11ee-bcff-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Connecticut will face Purdue for NCAA men\u2019s basketball championship after top seeds hold serve in Final Four",
+            "ios": {
+                "alert": {
+                    "body": "Connecticut will face Purdue for NCAA men\u2019s basketball championship after top seeds hold serve in Final Four",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/06/march-madness-final-four-scores-live-updates/",
+                        "datetime": "2024-04-07T03:10:33.029000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66120ea92e96ae3500000001",
+                        "targetTopic": "sports",
+                        "text": "Defending national champion U-Conn. beat Alabama on Saturday night in Glendale, Ariz., after Purdue defeated North Carolina State.\nOn Monday, the Huskies will seek to become the first back-to-back men\u2019s champion since Florida in 2006 and 2007, while Purdue will play for its first national title after losing in the round of 64 to No. 16 seed Fairleigh Dickinson last year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
