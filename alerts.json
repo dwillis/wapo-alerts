@@ -18889,5 +18889,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9a6b0d90-f52b-11ee-9c9f-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What not to do to when watching the solar eclipse tomorrow",
+            "ios": {
+                "alert": {
+                    "body": "What not to do to when watching the solar eclipse tomorrow",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/science/2024/04/05/solar-eclipse-safety-tips/",
+                        "datetime": "2024-04-07T22:10:11.490000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661319c33b98893500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Can I make eclipse glasses at home? Can I view the eclipse through a camera? The best practices for observing a solar eclipse are really not that complicated, but these events are so rare for most people that it is easy to forget the basics. Our solar safety tips can help."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
