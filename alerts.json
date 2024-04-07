@@ -18791,5 +18791,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dad2ce20-f519-11ee-a2e3-0000a1ace875",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lawmakers unveil sprawling proposal to expand U.S. privacy protections. Here\u2019s what\u2019s in it.",
+            "ios": {
+                "alert": {
+                    "body": "Lawmakers unveil sprawling proposal to expand U.S. privacy protections. Here\u2019s what\u2019s in it.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/07/congress-privacy-deal-cantwell-rodgers/",
+                        "datetime": "2024-04-07T20:03:08.665000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6612fbfc2e96ae3500000006",
+                        "targetTopic": "politics",
+                        "text": "Unveiled by two top lawmakers, the bipartisan bill would force companies to limit how much personal information they collect from consumers, a major breakthrough in the decades-long fight to pass online privacy protections. The measure, reviewed by The Washington Post, would set a national baseline for how a broad swath of companies can collect, use and transfer data on the internet. It also would give users the right to opt out of certain data practices, including targeted advertising. Despite Sunday\u2019s announcement, the proposal faces uncertain prospects as no comprehensive privacy bill has ever cleared a chamber of Congress."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
