@@ -19330,5 +19330,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4789c071-f5e5-11ee-b1d3-00000a1ace98",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The leaders of Egypt, France and Jordan call for a cease-fire in Gaza. A two-state solution would bring peace, they write.",
+            "ios": {
+                "alert": {
+                    "body": "The leaders of Egypt, France and Jordan call for a cease-fire in Gaza. A two-state solution would bring peace, they write.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/04/08/macron-abdullah-sisi-cease-fire-gaza/",
+                        "datetime": "2024-04-08T20:19:18.844000Z",
+                        "imageURL": "https://www.washingtonpost.com/opinions/2024/04/08/macron-abdullah-sisi-cease-fire-gaza/",
+                        "pushID": "661451463b98893500000003",
+                        "targetTopic": "opinions",
+                        "text": "The war in Gaza and the catastrophic humanitarian suffering it is causing must end now. Violence, terror and war cannot bring peace to the Middle East. The two-state solution will."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
