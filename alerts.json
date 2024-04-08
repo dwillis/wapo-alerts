@@ -19379,5 +19379,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "99201a20-f5f3-11ee-aa03-0000a1ace134",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tesla settles case over fatal 2018 crash of an Apple engineer",
+            "ios": {
+                "alert": {
+                    "body": "Tesla settles case over fatal 2018 crash of an Apple engineer",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/08/tesla-autopilot-trial-settlement/",
+                        "datetime": "2024-04-08T22:01:48.704000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6614694c43a42b350000000f",
+                        "targetTopic": "business",
+                        "text": "The case involves a fatal crash in March 2018, when a Tesla in Autopilot careened into a highway barrier near Mountain View, Calif., after getting confused by what the company\u2019s lawyers described in court documents as a \u201cfaded and nearly obliterated\u201d lane line. Details of the settlement were not disclosed, according to court documents released Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
