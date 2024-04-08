@@ -19183,5 +19183,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "efc07431-f5bf-11ee-be91-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trolls directed by Russia stoke anti-Ukraine sentiment in the U.S., leaked Kremlin documents show",
+            "ios": {
+                "alert": {
+                    "body": "Trolls directed by Russia stoke anti-Ukraine sentiment in the U.S., leaked Kremlin documents show",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/08/russia-propaganda-us-ukraine/",
+                        "datetime": "2024-04-08T15:52:00.081000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661412a043a42b350000000c",
+                        "targetTopic": "special_report",
+                        "text": "In an ongoing campaign, Russian political strategists and trolls have written thousands of fabricated articles and social media posts that promote American isolationism, according to a trove of Kremlin documents obtained by a European intelligence agency and reviewed by The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
