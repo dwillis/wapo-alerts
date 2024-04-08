@@ -19232,5 +19232,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8e1ce430-f5c3-11ee-9fe7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Cancer patient hopes to limit texts and calls after surgery",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Cancer patient hopes to limit texts and calls after surgery",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/08/carolyn-hax-cancer-patient-no-contact/",
+                        "datetime": "2024-04-08T16:17:54.378000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661418b243a42b350000000d",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Cancer patient hopes to limit texts and calls after surgery"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
