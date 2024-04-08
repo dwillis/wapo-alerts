@@ -19085,5 +19085,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c9d2dfb0-f5b5-11ee-b1fd-00000a1ace3d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Actor Jonathan Majors avoids jail time in his sentencing for assault and harassment of ex-girlfriend Grace Jabbari",
+            "ios": {
+                "alert": {
+                    "body": "Actor Jonathan Majors avoids jail time in his sentencing for assault and harassment of ex-girlfriend Grace Jabbari",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/04/08/jonathan-majors-avoids-jail-time-assaulting-ex-girlfriend/",
+                        "datetime": "2024-04-08T14:39:21.659000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6614019943a42b350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "Majors\u2019s conviction last year cost him high-profile roles with Marvel and Disney. He was sentenced to counseling programs and time served on Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5962a3f0-f5b0-11ee-97d3-00000a1acef1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Check out the cloud forecast for your area as the solar eclipse sweeps across the U.S.",
+            "ios": {
+                "alert": {
+                    "body": "Check out the cloud forecast for your area as the solar eclipse sweeps across the U.S.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/03/29/cloud-cover-eclipse-forecast-maps-cities/",
+                        "datetime": "2024-04-08T14:00:24.617000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6613f87843a42b350000000a",
+                        "targetTopic": "editors_picks",
+                        "text": "New England remains the sunniest spot for today\u2019s eclipse, while the cloud forecast has somewhat improved for the Dallas area. Find out where it will be sunniest, cloudiest or somewhere in between."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
