@@ -19281,5 +19281,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5cdcd060-f5cd-11ee-b48c-0000a1aced16",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Follow along as the moon plunges a swath of North America into darkness in a rare celestial phenomenon",
+            "ios": {
+                "alert": {
+                    "body": "Follow along as the moon plunges a swath of North America into darkness in a rare celestial phenomenon",
+                    "title": "Solar Eclipse: Live Coverage"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/04/08/solar-eclipse-live-updates-photos-stream/",
+                        "datetime": "2024-04-08T17:28:06.599000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6614292643a42b350000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "Not since 2017 has the United States experienced a total solar eclipse, and we won\u2019t see another sweep across the nation until 2045. Washington Post staff members are scattered across the map today, some in the path of totality, to capture what the expected millions of astral enthusiasts will experience as the moon passes between the sun and Earth."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
