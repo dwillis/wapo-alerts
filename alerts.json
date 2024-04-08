@@ -18987,5 +18987,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c2e05ff0-f599-11ee-829b-00000a1ace2c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says abortion should be left to states after months of mixed signals",
+            "ios": {
+                "alert": {
+                    "body": "Trump says abortion should be left to states after months of mixed signals",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/04/08/trump-abortion-statement/",
+                        "datetime": "2024-04-08T11:18:44.018000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6613d29443a42b3500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "In a video posted on social media, Trump took credit for the overturn of Roe v. Wade and said that it's \"now up to the states to do the right thing.\" For months, the former president has wavered between highlighting and downplaying his role in curtailing abortion rights."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
