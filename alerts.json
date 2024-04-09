@@ -19625,5 +19625,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "334abb50-f67b-11ee-b14e-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Which of Trump\u2019s lies stick? Republicans believe some falsehoods more than they did six years ago, our poll finds.",
+            "ios": {
+                "alert": {
+                    "body": "Which of Trump\u2019s lies stick? Republicans believe some falsehoods more than they did six years ago, our poll finds.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/09/some-trump-falsehoods-stick-more-than-others-fact-checker-poll-finds/",
+                        "datetime": "2024-04-09T14:12:28.954000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66154ccc43a42b3500000013",
+                        "targetTopic": "politics",
+                        "text": "A Washington Post-Schar School Fact Checker poll finds that most Americans, including Republicans, do not believe many of Donald Trump\u2019s most repeated claims. But he has made significant inroads in convincing Republicans that his lies are the truth. That applies to election integrity especially \u2014 the basis of Trump\u2019s \u201cbig lie.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
