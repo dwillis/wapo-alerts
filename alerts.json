@@ -19527,5 +19527,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5b244120-f660-11ee-ba56-0000a1ace17f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Solar eclipse. Student debt. Abortion politics. Tesla settlement. Jonathan Majors. Pregnancy effects. March Madness. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Solar eclipse. Student debt. Abortion politics. Tesla settlement. Jonathan Majors. Pregnancy effects. March Madness. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/09/what-to-know-for-april-9/?noredirect=1",
+                        "datetime": "2024-04-09T11:00:19.769000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "66151fc343a42b3500000012",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
