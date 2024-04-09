@@ -19429,5 +19429,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8f999650-f609-11ee-a5e8-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Have eclipse FOMO? Want to relive it? Here are the most stunning highlights.",
+            "ios": {
+                "alert": {
+                    "body": "Have eclipse FOMO? Want to relive it? Here are the most stunning highlights.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/weather/interactive/2024/solar-eclipse-photos-videos-totality-us/",
+                        "datetime": "2024-04-09T00:39:01.442000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66148e2543a42b3500000010",
+                        "targetTopic": "editors_picks",
+                        "text": "There were scientific experiments, tourist events and religious ceremonies as Americans took in the awe-inspiring view of the last coast-to-coast total solar eclipse until 2045."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
