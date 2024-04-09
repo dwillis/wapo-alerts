@@ -19772,5 +19772,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5a3763c0-f69a-11ee-82cd-0000a1ace1c9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ex-assistant principal indicted in high-profile shooting of teacher by 6-year-old student at Virginia\u2019s Richneck Elementary School",
+            "ios": {
+                "alert": {
+                    "body": "Ex-assistant principal indicted in high-profile shooting of teacher by 6-year-old student at Virginia\u2019s Richneck Elementary School",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/04/09/richneck-assistant-principal-charged-shooting/",
+                        "datetime": "2024-04-09T17:55:29.041000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6615811143a42b3500000017",
+                        "targetTopic": "us",
+                        "text": "The former assistant principal, Ebony Parker, had been accused in the past of failing to do anything after being warned the boy had a gun. A special grand jury empaneled to investigate the matter is expected to release a report Wednesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5c72c710-f695-11ee-ab09-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Arizona Supreme Court clears way for near-total abortion ban, invoking 1864 law that forbids procedure except to save mother\u2019s life",
+            "ios": {
+                "alert": {
+                    "body": "Arizona Supreme Court clears way for near-total abortion ban, invoking 1864 law that forbids procedure except to save mother\u2019s life",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/09/arizona-abortion-supreme-court-ruling/",
+                        "datetime": "2024-04-09T17:19:45.374000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661578b143a42b3500000016",
+                        "targetTopic": "breaking-news",
+                        "text": "The ruling said the law will not be enforced for 14 days. It superceded the previous law, which mandated the right to end a pregnancy by the 15-week mark, resetting policy to the pre-Roe v. Wade era."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
