@@ -19968,5 +19968,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6f619510-f729-11ee-9f43-00000a1ace6f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Abortion ruling. Crumbley sentencing. Jan. 6 rioters. Drinking water. Boeing concerns. Record heat. Eclipse glasses. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Abortion ruling. Crumbley sentencing. Jan. 6 rioters. Drinking water. Boeing concerns. Record heat. Eclipse glasses. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/10/what-to-know-for-april-10/?noredirect=1",
+                        "datetime": "2024-04-10T10:59:42.699000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6616711e6e3b822b00000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
