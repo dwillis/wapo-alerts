@@ -20410,5 +20410,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b14193c0-f785-11ee-9223-00000a1ace8c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gen Z workers can take criticism. You\u2019re just phrasing it wrong.",
+            "ios": {
+                "alert": {
+                    "body": "Gen Z workers can take criticism. You\u2019re just phrasing it wrong.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/10/gen-z-feedback-work/",
+                        "datetime": "2024-04-10T22:00:06.618000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66170be64e69452b00000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Young workers want feedback and lots of it. But if you deliver it in the wrong way, it could backfire. Here's how to reach them with criticism that is timely, collaborative and balanced."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
