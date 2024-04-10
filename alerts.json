@@ -20263,5 +20263,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8e5ba120-f753-11ee-9449-00000a1aced4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: When hanging out with a friend means just listening to her complain",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: When hanging out with a friend means just listening to her complain",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/10/carolyn-hax-friend-complains-constantly/",
+                        "datetime": "2024-04-10T16:01:13.489000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6616b7c96e3b822b00000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: When hanging out with a friend means just listening to her complain"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
