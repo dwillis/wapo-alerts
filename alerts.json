@@ -20361,5 +20361,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0d7a5370-f77c-11ee-be14-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Special grand jury finds severe failures at Virginia\u2019s Richneck Elementary School before 6-year-old shot teacher",
+            "ios": {
+                "alert": {
+                    "body": "Special grand jury finds severe failures at Virginia\u2019s Richneck Elementary School before 6-year-old shot teacher",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/04/10/richneck-elementary-shooting-grand-jury-report/",
+                        "datetime": "2024-04-10T20:51:06.535000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6616fbba4e69452b00000001",
+                        "targetTopic": "us",
+                        "text": "A special grand jury report alleged that the boy was not supposed to be attending the school after an incident in which he choked a teacher, but lapses by administrators allowed him back on campus. The grand jury also recommended criminally investigating a school district official for possibly obstructing the investigation into the shooting."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
