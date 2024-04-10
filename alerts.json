@@ -20066,5 +20066,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f68d3bd0-f741-11ee-b9c9-00000a1ace36",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ex-Trump Organization executive Allen Weisselberg sentenced to 5 months after pleading guilty to lying under oath",
+            "ios": {
+                "alert": {
+                    "body": "Ex-Trump Organization executive Allen Weisselberg sentenced to 5 months after pleading guilty to lying under oath",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/10/trump-weisselberg-sentencing-new-york/",
+                        "datetime": "2024-04-10T13:55:17.394000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66169a456e3b822b00000005",
+                        "targetTopic": "us",
+                        "text": "The sentence was part of the New York attorney general\u2019s civil investigation into business practices at the Trump Organization. Weisselberg, who worked for the Trump family for a half-century before retiring recently, was taken into custody after a brief proceeding and is expected to serve the sentence at Rikers Island, the city\u2019s sprawling jail complex."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6a416e10-f73e-11ee-9c34-0000a1ace6b7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Finales past and present in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Finales past and present in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-10T13:29:53.413000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661694516e3b822b00000004",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ba3359d1-f73c-11ee-88cf-000a1ace8cb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "For the first time, EPA sets drinking water limits for PFAS, the \u2018forever chemicals\u2019 linked to certain types of cancer",
+            "ios": {
+                "alert": {
+                    "body": "For the first time, EPA sets drinking water limits for PFAS, the \u2018forever chemicals\u2019 linked to certain types of cancer",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/04/10/pfas-drinking-water-epa-safety/",
+                        "datetime": "2024-04-10T13:17:48.642000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6616917c6e3b822b00000003",
+                        "targetTopic": "health",
+                        "text": "The agency\u2019s rule is aimed at a mix of industrial chemicals \u2014 widely used in consumer products \u2014 that can pose a health risk to people at even the smallest detectable levels of exposure. The EPA says the rule will reduce PFAS exposure in drinking water for around 100 million people."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
