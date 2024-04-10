@@ -20214,5 +20214,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a19e7411-f74e-11ee-a212-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live chat with our food critic: A reader complained to a FaceTiming diner and got a furious response",
+            "ios": {
+                "alert": {
+                    "body": "Live chat with our food critic: A reader complained to a FaceTiming diner and got a furious response",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/04/03/tom-sietsema-live-chat/",
+                        "datetime": "2024-04-10T15:25:58.335000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6616af866e3b822b00000006",
+                        "targetTopic": "food",
+                        "text": "Washington Post food critic Tom Sietsema answers your restaurant-related questions, solves your dining dilemmas and gives suggestions on the best places to eat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
