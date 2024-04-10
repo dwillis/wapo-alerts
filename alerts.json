@@ -20312,5 +20312,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb5d6b40-f772-11ee-aa94-00000a1aced5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What we know about China\u2019s alleged election interference in Canada as Trudeau testifies in public inquiry",
+            "ios": {
+                "alert": {
+                    "body": "What we know about China\u2019s alleged election interference in Canada as Trudeau testifies in public inquiry",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/10/canada-china-foreign-interference-trudeau/",
+                        "datetime": "2024-04-10T19:46:10.772000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6616ec82a8c6992b00000001",
+                        "targetTopic": "world",
+                        "text": "China sought to \u201cclandestinely and deceptively\u201d influence Canada\u2019s federal elections in 2019 and 2021 with the aim of electing candidates that could further \u2014 or at least not oppose \u2014 Beijing\u2019s strategic interests, according to Canadian intelligence reports introduced as evidence in a public inquiry.\n\nPrime Minister Justin Trudeau had long resisted calls to launch a public inquiry into claims that China interfered in Canada\u2019s elections and has defended his government\u2019s response to the threat of foreign interference. The Canadian leader, who is testifying before the commission today, has said there\u2019s no evidence the results of the elections were compromised."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
