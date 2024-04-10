@@ -20017,5 +20017,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9eef6d91-f736-11ee-bc79-0000a1ace222",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inflation ticked up again in March compared with a year earlier, a worrying sign for the Fed that could delay interest rate cuts",
+            "ios": {
+                "alert": {
+                    "body": "Inflation ticked up again in March compared with a year earlier, a worrying sign for the Fed that could delay interest rate cuts",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/10/fed-inflation-cpi/",
+                        "datetime": "2024-04-10T12:34:05.802000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6616873d6e3b822b00000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Inflation came in hotter than expected at the start of the year, and central bankers are on the lookout for whether the trend will continue."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
