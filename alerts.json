@@ -19919,5 +19919,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b389f900-f6c8-11ee-8fbb-0000a1acedd8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Convicted killer Brian Dorsey executed after Supreme Court declines to step in. Dozens of prison guards supported clemency for him.",
+            "ios": {
+                "alert": {
+                    "body": "Convicted killer Brian Dorsey executed after Supreme Court declines to step in. Dozens of prison guards supported clemency for him.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/08/brian-dorsey-execution-missouri/",
+                        "datetime": "2024-04-09T23:27:15.743000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6615ced3a0b3912a00000002",
+                        "targetTopic": "us",
+                        "text": "Dorsey was convicted of murdering his cousin and her husband in 2006. Dorsey\u2019s legal team and his supporters had argued in the clemency petition that it would be wrong to execute Dorsey because he has been rehabilitated."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
