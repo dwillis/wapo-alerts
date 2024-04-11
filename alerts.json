@@ -20705,5 +20705,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9dc92b40-f821-11ee-8930-00000a1aced0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden plans to expand two national monuments in California, a victory for tribes and environmentalists",
+            "ios": {
+                "alert": {
+                    "body": "Biden plans to expand two national monuments in California, a victory for tribes and environmentalists",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-solutions/2024/04/11/biden-monuments-berryessa-san-gabriel/",
+                        "datetime": "2024-04-11T16:36:15.706000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6618117f6e3b822b0000000d",
+                        "targetTopic": "climate",
+                        "text": "President Biden plans to enlarge the boundaries of two national monuments near Los Angeles and the Bay Area in the coming weeks, aiming to bolster his conservation record and increase access to nature for disadvantaged communities, according to two people briefed on the matter. Biden is expected to sign proclamations expanding the San Gabriel Mountains National Monument and the Berryessa Snow Mountain National Monument. The exact timing has not been finalized."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f1234fa0-f81c-11ee-bc9d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: She makes liberal use of silent treatment in her friend group",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: She makes liberal use of silent treatment in her friend group",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/11/carolyn-hax-silent-treatment-friend-group/",
+                        "datetime": "2024-04-11T16:02:47.126000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661809a76e3b822b0000000c",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: She makes liberal use of silent treatment in her friend group"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
