@@ -20607,5 +20607,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "404998e0-f819-11ee-a7ec-00000a1ace12",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Longest-serving liberal on Wisconsin Supreme Court won\u2019t run again, potentially upending swing-state court after $50 million race",
+            "ios": {
+                "alert": {
+                    "body": "Longest-serving liberal on Wisconsin Supreme Court won\u2019t run again, potentially upending swing-state court after $50 million race",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/11/wisconsin-supreme-court-justice-reelection/",
+                        "datetime": "2024-04-11T15:36:22.815000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661803766e3b822b0000000b",
+                        "targetTopic": "politics",
+                        "text": "Justice Ann Walsh Bradley\u2019s retirement gives conservatives their last chance in the coming years to win a majority after losing last year\u2019s race, the most expensive judicial contest in U.S. history. The court with 4-3 votes upheld Joe Biden\u2019s win and ended a GOP gerrymander. It could soon decide whether abortion remains legal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "15c795e0-f814-11ee-a29f-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "O.J. Simpson dies at 76. His murder trial led the former NFL star to become a symbol of domestic violence and racial division.",
+            "ios": {
+                "alert": {
+                    "body": "O.J. Simpson dies at 76. His murder trial led the former NFL star to become a symbol of domestic violence and racial division.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/04/11/oj-simpson-football-murder-trial-dead/",
+                        "datetime": "2024-04-11T14:59:24.007000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6617facc6e3b822b0000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Simpson died of cancer on Wednesday, his family announced on X. In a trial that riveted the nation, Simpson was found not guilty in 1995 of murdering his ex-wife and her friend, though he was later found liable in a civil judgment. He spent years in jail on unrelated charges \u2014 a stunning downfall for a man who had risen from a San Francisco slum to become one of the greatest running backs in football history, an actor in more than 20 movies, a corporate pitchman and a TV sports commentator."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
