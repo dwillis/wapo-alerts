@@ -20853,5 +20853,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0afbf4a0-f83a-11ee-a458-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Women in states with bans often take abortion pills alone and afraid. They share their experiences.",
+            "ios": {
+                "alert": {
+                    "body": "Women in states with bans often take abortion pills alone and afraid. They share their experiences.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2024/abortion-pill-experience-stories/",
+                        "datetime": "2024-04-11T19:31:06.849000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66183a7a6e3b822b0000000e",
+                        "targetTopic": "editors_picks",
+                        "text": "Overwhelming evidence shows that taking abortion pills is safe and effective. But as more women in states where abortion is illegal choose to end their pregnancies on their own, without directly interacting with a medical professional, they are thrust into a largely ad hoc, unregulated system of online and grass-roots abortion pill distributors. The experience can be confusing, scary and, at times, deeply traumatic."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
