@@ -20459,5 +20459,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a52166c1-f7f2-11ee-929f-0000a1ace0f8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Abortion politics. Hot inflation. Gun rules. Police killing. Lunchables. Nature access. The Masters. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Abortion politics. Hot inflation. Gun rules. Police killing. Lunchables. Nature access. The Masters. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/11/what-to-know-for-april-11/?noredirect=1",
+                        "datetime": "2024-04-11T11:00:01.678000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6617c2b1a8c6992b00000002",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
