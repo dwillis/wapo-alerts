@@ -20902,5 +20902,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d118b2c0-f846-11ee-b6b4-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How the massive Baltimore bridge cleanup works, step by step",
+            "ios": {
+                "alert": {
+                    "body": "How the massive Baltimore bridge cleanup works, step by step",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/interactive/2024/baltimore-bridge-cleanup-steps/",
+                        "datetime": "2024-04-11T21:02:33.159000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66184fe96e3b822b0000000f",
+                        "targetTopic": "local",
+                        "text": "Using massive barges and floating cranes, crews are clearing the hulking pieces of steel and hunks of concrete that have crippled the Port of Baltimore and spread economic pain locally and nationally. Here is exactly what they\u2019re doing in the water."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
