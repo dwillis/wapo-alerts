@@ -21000,5 +21000,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ce436480-f8bb-11ee-a20c-00000a1ace67",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "O.J. Simpson. Student debt. Israel-Gaza war. Harvard tests. Shohei Ohtani. iPhone repairs. Castaways. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "O.J. Simpson. Student debt. Israel-Gaza war. Harvard tests. Shohei Ohtani. iPhone repairs. Castaways. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/12/what-to-know-for-april-12/?noredirect=1",
+                        "datetime": "2024-04-12T10:59:59.552000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6619142fa8c6992b00000003",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
