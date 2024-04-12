@@ -21196,5 +21196,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a599a650-f8ea-11ee-b53e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Robert MacNeil dies at 93. The broadcast journalist helped start what is now \u2018PBS NewsHour.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Robert MacNeil dies at 93. The broadcast journalist helped start what is now \u2018PBS NewsHour.\u2019",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/04/12/robert-macneil-dead-newshour/",
+                        "datetime": "2024-04-12T16:35:17.553000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661962c56e3b822b00000015",
+                        "targetTopic": "us",
+                        "text": "MacNeil and co-anchor Jim Lehrer formed one of television journalism\u2019s most successful and enduring partnerships in 1975, when they launched what became \u201cThe PBS NewsHour.\u201d For two decades, MacNeil served as an urbane, evenhanded co-anchor, maintaining a reputation for sober, straightforward reporting and analysis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "169b0a10-f8e6-11ee-90ce-00000a1ace20",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. hikes cost of oil drilling on federal lands for first time in decades, a bid to generate more money for taxpayers",
+            "ios": {
+                "alert": {
+                    "body": "U.S. hikes cost of oil drilling on federal lands for first time in decades, a bid to generate more money for taxpayers",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/04/12/oil-drilling-federal-lands-biden/",
+                        "datetime": "2024-04-12T16:02:39.758000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66195b1f6e3b822b00000014",
+                        "targetTopic": "climate",
+                        "text": "The Interior Department rule represents the first comprehensive update to the federal oil and gas leasing program in more than 30 years. It will force oil companies to pay at least 10 times more to drill on U.S. lands \u2014 $150,000 up from $10,000 \u2014 plus higher royalties. The rule also aims to prevent taxpayers from footing the bill for cleanup of abandoned oil and gas wells."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
