@@ -21344,5 +21344,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8d394140-f900-11ee-a372-0000a1aceb39",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A mysterious condition is striking young, highly trained athletes",
+            "ios": {
+                "alert": {
+                    "body": "A mysterious condition is striking young, highly trained athletes",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/04/10/pots-medical-condition-athletes-covid-pandemic/",
+                        "datetime": "2024-04-12T19:12:05.695000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661987856e3b822b00000017",
+                        "targetTopic": "editors_picks",
+                        "text": "First described more than 150 years ago, POTS has proliferated since the coronavirus pandemic. The syndrome tends to strike suddenly, leaving previously healthy people unable to function, with no clear cause. In recent years, doctors have noticed a curious and disproportionate subset of patients: female athletes at peak fitness."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
