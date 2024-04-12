@@ -21147,5 +21147,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "465a54d0-f8dd-11ee-8f7e-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stormy Daniels\u2019s other court battle: A multimillion-dollar horse feud",
+            "ios": {
+                "alert": {
+                    "body": "Stormy Daniels\u2019s other court battle: A multimillion-dollar horse feud",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/12/stormy-daniels-horse-lawsuits-texas-trump-trial/",
+                        "datetime": "2024-04-12T14:59:34.393000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66194c566e3b822b00000013",
+                        "targetTopic": "us",
+                        "text": "As Stormy Daniels prepares to take center stage in Donald Trump\u2019s New York hush money trial, she\u2019s also embroiled in a far less high-profile legal battle in Texas: a clash in the horse world that has ensnared some of the top officials in the rarefied world of competitive English riding. That bitter dispute shows the same dynamics that have defined Daniels\u2019s existence on the national stage \u2014 questions about her credibility, the adulation of supporters who say she\u2019s standing up for the truth and a large amount of money at stake."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
