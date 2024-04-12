@@ -21295,5 +21295,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a30988c0-f8ee-11ee-b242-00000a1ace9c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: Shellfish could kill me. My dad\u2019s family doesn\u2019t care.",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: Shellfish could kill me. My dad\u2019s family doesn\u2019t care.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/12/live-chat-carolyn-hax/",
+                        "datetime": "2024-04-12T17:03:51.357000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661969776e3b822b00000016",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax chat: Shellfish could kill me. My dad\u2019s family doesn\u2019t care."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
