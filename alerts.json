@@ -21638,5 +21638,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9d429b60-f9bc-11ee-adf2-000a1ace1bd4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A cheating scandal rocked the D.C. bar trivia scene. Here\u2019s how it unfolded \u2014 and why so many people care.",
+            "ios": {
+                "alert": {
+                    "body": "A cheating scandal rocked the D.C. bar trivia scene. Here\u2019s how it unfolded \u2014 and why so many people care.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/style/of-interest/2024/04/12/pub-trivia-cheating-scandal-dc/",
+                        "datetime": "2024-04-13T17:38:17.991000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661ac30935f80a3500000005",
+                        "targetTopic": "local",
+                        "text": "A team that won Red Bear Brewing Co.\u2019s Wednesday trivia night several weeks running was found to be cheating using an Apple Watch. We had to investigate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
