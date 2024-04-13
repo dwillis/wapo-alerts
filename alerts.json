@@ -21540,5 +21540,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "37c29de1-f9a7-11ee-ab49-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We mapped nature across the U.S., neighborhood by neighborhood. Look up where you live.",
+            "ios": {
+                "alert": {
+                    "body": "We mapped nature across the U.S., neighborhood by neighborhood. Look up where you live.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/nature-health-maps-neighborhood-city/",
+                        "datetime": "2024-04-13T15:05:08.225000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661a9f2435f80a3500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Spending time in nature is linked to a longer, healthier life. But nature is not distributed fairly across the country."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
