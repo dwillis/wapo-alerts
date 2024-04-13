@@ -21687,5 +21687,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "791febc1-f9c6-11ee-87af-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Our reviewer tried living with a $699 AI device on his chest. You probably shouldn\u2019t bother with the Star Trek-style pin.",
+            "ios": {
+                "alert": {
+                    "body": "Our reviewer tried living with a $699 AI device on his chest. You probably shouldn\u2019t bother with the Star Trek-style pin.",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/11/humane-ai-pin-review/",
+                        "datetime": "2024-04-13T18:48:52.336000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661ad3946e3b822b00000019",
+                        "targetTopic": "technology",
+                        "text": "If you\u2019ve ever watched Star Trek characters tap their badges to communicate, you basically know how to use the AI Pin, meant to be worn on a shirt as it answers questions and sends messages. There\u2019s a glimmer of a good product here, but using it can quickly get frustrating, Chris Velazco writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
