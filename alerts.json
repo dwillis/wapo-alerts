@@ -21393,5 +21393,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "112f96e0-f977-11ee-8ba6-00000a1aced0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A man killed five in a stabbing attack at an upscale mall in Sydney\u2019s Bondi Junction before being shot dead, Australian police said",
+            "ios": {
+                "alert": {
+                    "body": "A man killed five in a stabbing attack at an upscale mall in Sydney\u2019s Bondi Junction before being shot dead, Australian police said",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/13/bondi-junction-westfield-sydney-stabbing-shooting/",
+                        "datetime": "2024-04-13T09:20:27.707000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661a4e5b6e3b822b00000018",
+                        "targetTopic": "world",
+                        "text": "Several are injured, including a small child, police said, adding that the attacker is not known to the police, and the motive is not clear. Police are carrying out a critical incident investigation and say they have not ruled out terrorism as a motive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
