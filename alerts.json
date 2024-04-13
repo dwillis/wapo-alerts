@@ -21442,5 +21442,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a3cf7f50-f987-11ee-b69b-00000a1ace56",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran says it has seized a Portugal-flagged ship near the Strait of Hormuz, saying the vessel is \u2018connected to\u2019 Israel",
+            "ios": {
+                "alert": {
+                    "body": "Iran says it has seized a Portugal-flagged ship near the Strait of Hormuz, saying the vessel is \u2018connected to\u2019 Israel",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/13/iran-israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-13T11:19:05.672000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661a6a2935f80a3500000001",
+                        "targetTopic": "world",
+                        "text": "Iranian state media shared a video that appeared to show a person rappelling from a helicopter to board a ship, which the report identified as the MSC Aries. The region has been on alert for Tehran\u2019s promised retaliation to an Israeli strike near Iran\u2019s embassy in Syria that killed two senior members of Iran\u2019s Revolutionary Guard this month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
