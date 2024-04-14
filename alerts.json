@@ -22179,5 +22179,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "66f62a10-fab4-11ee-a369-00000a1ace2f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Scottie Scheffler wins the Masters, securing his second green jacket in the past three years",
+            "ios": {
+                "alert": {
+                    "body": "Scottie Scheffler wins the Masters, securing his second green jacket in the past three years",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/14/masters-leaderboard-scores-sunday-tiger-woods/",
+                        "datetime": "2024-04-14T23:12:02.027000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661c62c235f80a3500000008",
+                        "targetTopic": "sports",
+                        "text": "The world's No. 1 player finished the job Sunday after beginning the final round with a one-shot lead and holding off challenges by Ludvig Aberg and Max Homa. It was the second career major title for Scheffler, 27, who captured his first green jacket in 2022."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
