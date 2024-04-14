@@ -22130,5 +22130,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2770da10-faa1-11ee-8ba6-00000a1aced0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Could you judge Trump impartially if you were on his hush money trial jury? Here\u2019s what 12 New Yorkers said.",
+            "ios": {
+                "alert": {
+                    "body": "Could you judge Trump impartially if you were on his hush money trial jury? Here\u2019s what 12 New Yorkers said.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2024/jury-trump-new-york-hush-money-trial/",
+                        "datetime": "2024-04-14T20:54:15.000000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661c427735f80a3500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "When Donald Trump walks into a Manhattan courtroom on Monday, it will kick off a process unprecedented in American history: jury selection for a former president\u2019s criminal trial. He is facing 34 felony charges for allegedly falsifying business records related to a hush money payment to adult-film actress Stormy Daniels during the 2016 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
