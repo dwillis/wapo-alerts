@@ -22031,5 +22031,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2641ea40-fa91-11ee-b2c7-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This senator wants an online privacy law. She has slowed efforts for years.",
+            "ios": {
+                "alert": {
+                    "body": "This senator wants an online privacy law. She has slowed efforts for years.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/13/congress-maria-cantwell-online-privacy/",
+                        "datetime": "2024-04-14T18:59:41.117000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661c279d35f80a3500000006",
+                        "targetTopic": "politics",
+                        "text": "Sen. Maria Cantwell (D-Wash.) has been a primary reason for an impasse on legislation, according to more than a dozen current and former congressional aides in both parties, and others familiar with the dynamics of the committee she chairs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "18c5b021-fa84-11ee-9510-00000a1aceb5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Small-time investors in Trump\u2019s Truth Social see their share values plunge \u2014 and see it as a test of faith",
+            "ios": {
+                "alert": {
+                    "body": "Small-time investors in Trump\u2019s Truth Social see their share values plunge \u2014 and see it as a test of faith",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/14/truth-social-investors-faith-trump/",
+                        "datetime": "2024-04-14T17:26:15.033000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661c11b76e3b822b0000001f",
+                        "targetTopic": "business",
+                        "text": "The company has lost $3.5 billion in value since its public debut last month. But for some investors, the stock is a badge of honor \u2014 a way to show their devotion beyond buying Donald Trump\u2019s merchandise, visiting Trump golf courses or donating to Trump\u2019s presidential campaign."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
