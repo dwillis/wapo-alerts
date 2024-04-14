@@ -21786,5 +21786,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6ab2af31-f9eb-11ee-b3d6-000a1ace491b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. forces have shot down Iranian attack drones targeting Israel, officials said",
+            "ios": {
+                "alert": {
+                    "body": "U.S. forces have shot down Iranian attack drones targeting Israel, officials said",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/13/iran-israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-13T23:13:19.512000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661b118f6e3b822b0000001b",
+                        "targetTopic": "breaking-news",
+                        "text": "The United States, attempting to walk a line of helping its ally without getting pulled deeper into a regional war, has targeted and downed some of the Iranian drones fired at Israel on Saturday, two U.S. officials confirmed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
