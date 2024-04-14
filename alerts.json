@@ -21884,5 +21884,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a3b32000-fa7f-11ee-8ac5-0000a1acecc5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+            "ios": {
+                "alert": {
+                    "body": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-14T16:54:20.629000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661c0a3c6e3b822b0000001e",
+                        "targetTopic": "news_quiz",
+                        "text": "Play now to finish out your score for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9b082360-fa7a-11ee-8719-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Now it\u2019s up to Israel: De-escalate or retaliate against Iran? Max Boot writes about what could come next.",
+            "ios": {
+                "alert": {
+                    "body": "Now it\u2019s up to Israel: De-escalate or retaliate against Iran? Max Boot writes about what could come next.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/04/14/iran-attack-israel-failed-deescalate-retaliate/",
+                        "datetime": "2024-04-14T16:18:18.633000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661c01ca5419883600000001",
+                        "targetTopic": "opinions",
+                        "text": "Tehran\u2019s barrage of drones and missiles was a face-saving maneuver, successfully repulsed. But the possibility of matters spinning out of control still looms."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f59cd000-fa70-11ee-b239-0000a1acecb2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Texas county at center of the border fight is overwhelmed by migrant deaths",
+            "ios": {
+                "alert": {
+                    "body": "A Texas county at center of the border fight is overwhelmed by migrant deaths",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/texas-border-eagle-pass-migrant-deaths/",
+                        "datetime": "2024-04-14T15:09:08.567000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661bf1946e3b822b0000001d",
+                        "targetTopic": "editors_picks",
+                        "text": "Record-level migration has brought record-breaking death to Maverick County, a border community that is ground zero in the feud between Texas and the Biden administration over migration.\n\nFirst responders have run out of body bags and burial plots. Their rescue boats and recovery trucks are covered in dents and scratches. County officials say they don\u2019t have the training or supplies to collect DNA samples of each unidentified migrant as required by state law."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
