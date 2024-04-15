@@ -22672,5 +22672,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "86d6fe20-fb56-11ee-ad8b-00000a1ace84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Severe thunderstorm watch issued for region until 10 p.m.",
+            "ios": {
+                "alert": {
+                    "body": "Severe thunderstorm watch issued for region until 10 p.m.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/04/15/dc-area-forecast-severe-thunderstorm-watch/",
+                        "datetime": "2024-04-15T18:32:33.940000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d72c1541988360000000b",
+                        "targetTopic": "local",
+                        "text": "Hit-or-miss storms could produce large hail and damaging wind gusts, in addition to dangerous lightning. The threat for storms gradually shifts southward through the region during the afternoon and into the evening."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "192ae410-fb54-11ee-bb3f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Rust\u2019 armorer sentenced to 18 months for involuntary manslaughter in fatal on-set shooting of cinematographer",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Rust\u2019 armorer sentenced to 18 months for involuntary manslaughter in fatal on-set shooting of cinematographer",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/04/15/rust-armorer-sentence-hannah-gutierrez-reed/",
+                        "datetime": "2024-04-15T18:15:10.811000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d6eae541988360000000a",
+                        "targetTopic": "entertainment",
+                        "text": "Hannah Gutierrez-Reed was found guilty of involuntary manslaughter in June. She was accused of failing to ensure gun safety on the set of the low-budget Western movie in 2021. Alec Baldwin was rehearsing with a revolver on set when the gun went off, killing cinematographer Halyna Hutchins and wounding director Joel Souza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
