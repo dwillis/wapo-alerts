@@ -22326,5 +22326,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a69a7a80-fb19-11ee-ac8d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal criminal investigation opened into crash that brought down Baltimore\u2019s Key Bridge",
+            "ios": {
+                "alert": {
+                    "body": "Federal criminal investigation opened into crash that brought down Baltimore\u2019s Key Bridge",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/04/15/balitmore-key-bridge-criminal-investigation/",
+                        "datetime": "2024-04-15T11:16:47.963000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d0c9f5419883600000003",
+                        "targetTopic": "breaking-news",
+                        "text": "Six construction workers died after the container ship Dali lost power and slammed into a pillar of the Francis Scott Key Bridge on March 26 in the Port of Baltimore."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
