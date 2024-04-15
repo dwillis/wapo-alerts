@@ -22622,5 +22622,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bb3f17d0-fb4a-11ee-840c-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can you afford to buy a house? Take our quiz to find out.",
+            "ios": {
+                "alert": {
+                    "body": "Can you afford to buy a house? Take our quiz to find out.",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/quiz-should-i-buy-house-afford-mortgage/",
+                        "datetime": "2024-04-15T17:08:07.872000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d5ef75419883600000009",
+                        "targetTopic": "business",
+                        "text": "Homeownership is how many Americans accumulate wealth, but affording a home is a growing challenge for many. Mortgage rates have more than doubled and are now at nearly 7 percent on a typical 30-year loan. So, should you buy a home right now? To help you decide, take this quiz."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
