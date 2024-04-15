@@ -22523,5 +22523,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a3bb41d0-fb39-11ee-a5c4-00000a1ace81",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018This should be a global wake-up call\u2019: Corals are bleaching in every corner of the ocean, threatening its web of life, scientists say",
+            "ios": {
+                "alert": {
+                    "body": "\u2018This should be a global wake-up call\u2019: Corals are bleaching in every corner of the ocean, threatening its web of life, scientists say",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/04/15/global-coral-bleaching-ocean-temperatures/",
+                        "datetime": "2024-04-15T15:05:46.885000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d424a5419883600000007",
+                        "targetTopic": "climate",
+                        "text": "The fourth-ever bleaching event in history, declared by the National Oceanic and Atmospheric Administration and International Coral Reef Initiative, is the second in a decade. More than 54 percent of all the reef areas on the planet have experienced bleaching-level heat stress in the past year, and the overall amount could soon pass a record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
