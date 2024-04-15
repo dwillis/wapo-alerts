@@ -22573,5 +22573,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "27864bb0-fb42-11ee-9eed-00000a1ace4b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How to know when kids are ready to handle their parents\u2019 divorce?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How to know when kids are ready to handle their parents\u2019 divorce?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/15/carolyn-hax-young-kids-divorce-decision/",
+                        "datetime": "2024-04-15T16:06:44.073000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d50945419883600000008",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How to know when kids are ready to handle their parents\u2019 divorce?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
