@@ -22375,5 +22375,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bff74450-fb2c-11ee-9274-000a1aced311",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A historical location hosts a film festival in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A historical location hosts a film festival in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-15T13:33:30.672000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d2caa5419883600000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e2d784b1-fb29-11ee-bc53-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump arrives for the start of his hush money trial, the first criminal prosecution of a former U.S. president. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Trump arrives for the start of his hush money trial, the first criminal prosecution of a former U.S. president. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/15/trump-hush-money-trial-jury-selection-live-updates/",
+                        "datetime": "2024-04-15T13:13:01.026000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d27dd5419883600000004",
+                        "targetTopic": "breaking-news",
+                        "text": "Jury selection is set to begin this morning in Manhattan, where Donald Trump is charged with falsifying business records ahead of the 2016 election to hide payments made to keep an adult-film actress quiet about an alleged sexual tryst."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
