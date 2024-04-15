@@ -22473,5 +22473,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5664cd01-fb31-11ee-ac6b-0000a1ace217",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tesla to shed more than 10 percent of its workforce as EV demand cools",
+            "ios": {
+                "alert": {
+                    "body": "Tesla to shed more than 10 percent of its workforce as EV demand cools",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/15/tesla-layoffs-elon-musk-ev/",
+                        "datetime": "2024-04-15T14:06:21.349000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d345d5419883600000006",
+                        "targetTopic": "business",
+                        "text": "The move by CEO Elon Musk comes after the company, which employed more than 140,000 as of December, reported a sharp decline in vehicle deliveries in the first quarter."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
