@@ -22228,5 +22228,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5d89de00-fb17-11ee-aa43-000a1ace4f60",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump\u2019s lawyers have done all they could to delay his criminal trials. The first one is set to start today.",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump\u2019s lawyers have done all they could to delay his criminal trials. The first one is set to start today.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/13/trump-hush-money-trial-defense-strategy/",
+                        "datetime": "2024-04-15T11:00:26.027000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661d08ca5419883600000002",
+                        "targetTopic": "editors_picks",
+                        "text": "The former president's lawyers have pledged to argue every motion and request every possible document, hoping to delay his trials beyond November's election, people familiar with the strategy say. They have succeeded so far with pushing back Trump's trials in D.C., Florida and Georgia. But jury selection in the New York hush money case is slated to begin this morning."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4da4f561-fb17-11ee-84cf-0000a1ace681",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump trial. Iran attack. Sydney stabbing. Trans bill. Tax Day. Scottie Scheffler. Pompeii paintings. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump trial. Iran attack. Sydney stabbing. Trans bill. Tax Day. Scottie Scheffler. Pompeii paintings. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/15/what-to-know-for-april-15/?noredirect=1",
+                        "datetime": "2024-04-15T10:59:59.750000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "661d08af6e3b822b00000020",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
