@@ -22819,5 +22819,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d631b981-fb81-11ee-99d0-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Indiana Fever selects Caitlin Clark with first pick in WNBA draft, officially launching her professional basketball career",
+            "ios": {
+                "alert": {
+                    "body": "Indiana Fever selects Caitlin Clark with first pick in WNBA draft, officially launching her professional basketball career",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/15/wnba-draft-caitlin-clark-picks-updates/",
+                        "datetime": "2024-04-15T23:42:35.505000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661dbb6b5c95d43500000002",
+                        "targetTopic": "sports",
+                        "text": "Clark, a record-setting guard at the University of Iowa, was virtually certain to be taken with the No. 1 pick once she announced in February that she would enter this year\u2019s draft. She joins the WNBA shouldering unprecedented expectations to increase its visibility after her college games drew sellout crowds and record television ratings."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
