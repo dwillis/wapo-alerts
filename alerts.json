@@ -23113,5 +23113,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f61e0140-fc0d-11ee-bf6c-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court appears deeply divided over Jan. 6 obstruction charges in case that may impact Trump\u2019s election interference trial",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court appears deeply divided over Jan. 6 obstruction charges in case that may impact Trump\u2019s election interference trial",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/16/supreme-court-jan-6-obstruction-case-trump-rioters/",
+                        "datetime": "2024-04-16T16:25:38.581000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661ea6825c95d43500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "After nearly two hours of argument, it was unclear whether the court would allow the Justice Department to apply to Jan. 6 rioters a statute that makes it a crime to obstruct or impede an official proceeding \u2014 in this case the joint session of Congress that convened to formally certify Joe Biden\u2019s 2020 victory. Some conservative justices seemed wary of giving prosecutors too much discretion. The obstruction charge is also among the counts Donald Trump is facing in his federal trial for trying to block the 2020 election results."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
