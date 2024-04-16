@@ -23064,5 +23064,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7827c660-fc06-11ee-aef9-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Palestinian paramedics said Israel gave them safe passage to save a 6-year-old girl in Gaza. They were all killed.",
+            "ios": {
+                "alert": {
+                    "body": "Palestinian paramedics said Israel gave them safe passage to save a 6-year-old girl in Gaza. They were all killed.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/hind-rajab-israel-gaza-killing-timeline/",
+                        "datetime": "2024-04-16T15:32:00.717000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661e99f05c95d43500000006",
+                        "targetTopic": "special_report",
+                        "text": "A Washington Post examination of audio recordings and the damage to the car and ambulance, as well as the presence of Israeli forces in the immediate area that day, raise questions about Israel\u2019s assertion that its forces were \u201cnot present near the vehicle or within the firing range.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
