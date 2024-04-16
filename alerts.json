@@ -23162,5 +23162,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "05c20c20-fc15-11ee-aa54-0000a1aceb83",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Momentum builds to oust House Speaker Mike Johnson as two fellow Republicans say they would vote to remove him",
+            "ios": {
+                "alert": {
+                    "body": "Momentum builds to oust House Speaker Mike Johnson as two fellow Republicans say they would vote to remove him",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/16/mike-johnson-house-speaker-ukraine-israel-greene-massie/",
+                        "datetime": "2024-04-16T17:16:11.344000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661eb25b5c95d43500000008",
+                        "targetTopic": "politics",
+                        "text": "Rep. Thomas Massie (R-Ky.) announced Tuesday morning he would join Rep. Marjorie Taylor Greene\u2019s (R-Ga.) bid to depose Johnson (R-La.) after the speaker introduced a complex foreign aid package decoupling Israel from Ukraine aid.\n\nNeither Massie nor Green has officially brought up the so-called motion to vacate, which would trigger a vote on Johnson\u2019s leadership. But Republicans are now one vote short of being able to oust him if Democrats don\u2019t step in to support him."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
