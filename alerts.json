@@ -23260,5 +23260,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "74f2b8a1-fc3e-11ee-9182-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Seven jurors picked to serve on Trump hush money jury, and other key takeaways",
+            "ios": {
+                "alert": {
+                    "body": "Seven jurors picked to serve on Trump hush money jury, and other key takeaways",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/16/trump-trials-tracker-latest-news/",
+                        "datetime": "2024-04-16T22:12:47.050000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661ef7df541988360000000c",
+                        "targetTopic": "politics",
+                        "text": "Manhattanites spilled into a courtroom on Tuesday and were quizzed about their media diet, hobbies and families \u2014 all to see if they could be fair jurors in the criminal trial of former president Donald Trump,, who also happens to be the likely 2024 Republican presidential nominee. Seven were chosen, and some were passed over for problematic social media posts or other reasons. Opening statements could be as soon as Monday, the judge said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
