@@ -22917,5 +22917,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7af6ba20-fbe0-11ee-969e-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump trial. Jan. 6 case. Ukraine aid. \u2018Rust\u2019 sentencing. Coral bleaching. Caitlin Clark. Abba and Biggie. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump trial. Jan. 6 case. Ukraine aid. \u2018Rust\u2019 sentencing. Coral bleaching. Caitlin Clark. Abba and Biggie. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/16/what-to-know-for-april-16/?noredirect=1",
+                        "datetime": "2024-04-16T11:00:04.660000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "661e5a3435f80a3500000009",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
