@@ -23015,5 +23015,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2aa94211-fbfc-11ee-b8b8-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Supreme Court is hearing arguments in a case that could undo convictions of Jan. 6 rioters. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "The Supreme Court is hearing arguments in a case that could undo convictions of Jan. 6 rioters. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/16/supreme-court-jan-6-obstruction-case-trump-rioters/",
+                        "datetime": "2024-04-16T14:18:15.833000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661e88a75c95d43500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "Defense lawyers say prosecutors improperly stretched the law by charging more than 350 people with obstruction of an official proceeding, a case with implications for former president Donald Trump\u2019s election interference trial in D.C. The high court\u2019s ruling has the potential to undo the convictions and sentences of those who have already gone to trial or pleaded guilty and upend the charges still pending for many more."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
