@@ -23456,5 +23456,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b1c1d4c0-fcbe-11ee-b71b-0000a1acec99",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A \u2018remarkable slowdown in demand\u2019 for this company\u2019s product in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A \u2018remarkable slowdown in demand\u2019 for this company\u2019s product in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-17T13:30:44.800000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661fcf0479110f3500000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c8b4fe20-fcbc-11ee-aae5-00000a1ace09",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A secret Russian document offers a rare, official glimpse into Moscow\u2019s campaign against the West",
+            "ios": {
+                "alert": {
+                    "body": "A secret Russian document offers a rare, official glimpse into Moscow\u2019s campaign against the West",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/17/russia-foreign-policy-us-weaken/",
+                        "datetime": "2024-04-17T13:17:04.338000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661fcbd01a80bd3500000001",
+                        "targetTopic": "world",
+                        "text": "The classified Russian Foreign Ministry document calls for an \u201coffensive information campaign\u201d and other measures spanning \u201cthe military-political, economic and trade and informational psychological spheres\u201d against a \u201ccoalition of unfriendly countries\u201d led by the United States. The document was provided to The Washington Post by a European intelligence service."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
