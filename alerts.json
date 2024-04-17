@@ -23554,5 +23554,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e5cfb720-fccb-11ee-904a-0000a1ace9b5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They criticized Israel. This X account upended their lives.",
+            "ios": {
+                "alert": {
+                    "body": "They criticized Israel. This X account upended their lives.",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/16/stop-antisemitism-twitter-zionism-israel/",
+                        "datetime": "2024-04-17T15:05:15.572000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661fe52b1a80bd3500000002",
+                        "targetTopic": "technology",
+                        "text": "Nearly three dozen people have been fired or suspended from their jobs after being featured by StopAntisemitism, according to the group\u2019s X feed, part of a wave of digital activism related to the Israel-Gaza war."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
