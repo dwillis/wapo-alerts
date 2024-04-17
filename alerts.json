@@ -23309,5 +23309,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3d0bcab0-fc45-11ee-9fa6-0000a1ace4b0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Dead ships\u2019: Before a cargo ship hit Baltimore\u2019s Key Bridge, hundreds of others lost propulsion in U.S. waters in recent years",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Dead ships\u2019: Before a cargo ship hit Baltimore\u2019s Key Bridge, hundreds of others lost propulsion in U.S. waters in recent years",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/04/16/dead-ships-propulsion-loss/",
+                        "datetime": "2024-04-16T23:01:19.939000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661f033f541988360000000d",
+                        "targetTopic": "special_report",
+                        "text": "A Washington Post analysis of Coast Guard records found that 424 cargo ships longer than 600 feet reported losing propulsion \u2014 meaning the engines were shut down \u2014 in U.S. waters during the three years before the Key Bridge disaster in Baltimore. About a quarter of the incidents occurred near a port, bridge or other infrastructure. Experts say a lack of consistent rules on when cargo ships should be escorted by supportive tug boats adds to the danger."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
