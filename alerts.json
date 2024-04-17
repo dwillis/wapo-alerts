@@ -23604,5 +23604,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "99703560-fcd7-11ee-a2c5-00000a1ace98",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Happening now: Is it really better to crack an egg on a flat surface than on the edge of a bowl? Chat with our food writers.",
+            "ios": {
+                "alert": {
+                    "body": "Happening now: Is it really better to crack an egg on a flat surface than on the edge of a bowl? Chat with our food writers.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/04/17/questions-recipe-cooking-advice/",
+                        "datetime": "2024-04-17T16:29:01.356000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661ff8cd1a80bd3500000003",
+                        "targetTopic": "food",
+                        "text": "Happening now: Is it really better to crack an egg on a flat surface than on the edge of a bowl? Chat with our food writers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a4b18360-fcd3-11ee-9df3-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Virginia Gov. Youngkin (R) and lawmakers agree to seek new state budget, aiming to avert a government shutdown",
+            "ios": {
+                "alert": {
+                    "body": "Virginia Gov. Youngkin (R) and lawmakers agree to seek new state budget, aiming to avert a government shutdown",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/04/17/virginia-budget-youngkin-assembly-deal/",
+                        "datetime": "2024-04-17T16:00:42.169000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661ff22a510d0c3600000001",
+                        "targetTopic": "local",
+                        "text": "Gov. Glenn Youngkin met with General Assembly leaders to find a way around a budget impasse over taxes and spending priorities, according to two people close to the arrangements who spoke on the condition of anonymity to share private negotiations. Lawmakers and the governor agreed to create a new budget and hold a special legislative session, probably in mid-May, to wrap up the budget process well before the June 30 deadline."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
