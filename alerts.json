@@ -23407,5 +23407,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a8521bd0-fca9-11ee-9df3-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump jurors. Supreme Court. House speaker. Pro-Palestinian protests. Camel milk. Cancer tests. Space junk. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump jurors. Supreme Court. House speaker. Pro-Palestinian protests. Camel milk. Cancer tests. Space junk. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/17/what-to-know-for-april-17/?noredirect=1",
+                        "datetime": "2024-04-17T11:00:09.529000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "661fabb979110f3500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
