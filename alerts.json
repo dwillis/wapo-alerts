@@ -23751,5 +23751,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "adfa3910-fcf8-11ee-8612-0000a1ace371",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate votes to dismiss impeachment charges against Homeland Security Secretary Alejandro Mayorkas",
+            "ios": {
+                "alert": {
+                    "body": "Senate votes to dismiss impeachment charges against Homeland Security Secretary Alejandro Mayorkas",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/17/mayorkas-impeachment-senate-immigration-border/",
+                        "datetime": "2024-04-17T20:25:48.356000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6620304c35f80a350000000b",
+                        "targetTopic": "politics",
+                        "text": "Senate Democrats voted quickly to dismiss two articles of impeachment against Mayorkas that alleged he mismanaged an influx of migrants at the U.S.-Mexico border."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
