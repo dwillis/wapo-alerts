@@ -23800,5 +23800,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9e41e840-fd04-11ee-80fa-00000a1ace2b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump-backed \u2018Alpha Male\u2019 Nick Adams is teaching young men the art of being hard to deal with",
+            "ios": {
+                "alert": {
+                    "body": "Trump-backed \u2018Alpha Male\u2019 Nick Adams is teaching young men the art of being hard to deal with",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/power/2024/04/09/nick-adams-alpha-male-trump-campaign-surrogate/",
+                        "datetime": "2024-04-17T21:51:16.751000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6620445479110f3500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "In some ways, Adams\u2019s shtick is conventionally conservative: He\u2019s Christian, he\u2019s very concerned about there being only two genders, he rails against \u201cwoke.\u201d In other ways, his version of MAGA manhood is so over-the-top, so uncanny that it almost seems like performance art. Is he serious?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
