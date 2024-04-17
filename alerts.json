@@ -23702,5 +23702,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f9267ab0-fcdb-11ee-b33d-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "NBA bans Raptors forward Jontay Porter for violating gambling policy, including limiting his playing time for betting purposes",
+            "ios": {
+                "alert": {
+                    "body": "NBA bans Raptors forward Jontay Porter for violating gambling policy, including limiting his playing time for betting purposes",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/17/nba-bans-jontay-porter/",
+                        "datetime": "2024-04-17T17:00:19.999000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662000231a80bd3500000004",
+                        "targetTopic": "sports",
+                        "text": "The league announced Wednesday that an investigation found Porter had disclosed confidential information to bettors, limited his participation in games for betting purposes and wagered on NBA games \u2014 an array of brazenly inappropriate actions that jeopardize the integrity of competition. The investigation was launched last month in response to suspicious betting activity."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
