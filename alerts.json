@@ -23849,5 +23849,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a3c67ac0-fd0d-11ee-9280-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. troops in Niger are vulnerable as Biden administration resists order to withdraw, whistleblower says",
+            "ios": {
+                "alert": {
+                    "body": "U.S. troops in Niger are vulnerable as Biden administration resists order to withdraw, whistleblower says",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/17/niger-air-force-whistleblower/",
+                        "datetime": "2024-04-17T22:55:51.532000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6620537779110f3500000004",
+                        "targetTopic": "world",
+                        "text": "Niger\u2019s military junta last month declared the U.S. military presence there \u201cillegal\u201d and said that it was ending all accords, effective immediately.\nIn a complaint to Congress, a senior Air Force leader deployed in Niger accused top officials at the U.S. Embassy there of having \u201cintentionally suppressed intelligence\u201d as they seek to maintain the \u201cfacade of a great country-to-country relationship.\u201d Administration officials rejected the whistleblower\u2019s claims."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
