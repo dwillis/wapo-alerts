@@ -23358,5 +23358,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbf39d10-fc69-11ee-8e83-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bob Graham dies at 87. The former U.S. senator and Florida governor was a consensus-builder and an ardent opponent of the Iraq War.",
+            "ios": {
+                "alert": {
+                    "body": "Bob Graham dies at 87. The former U.S. senator and Florida governor was a consensus-builder and an ardent opponent of the Iraq War.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/04/16/bob-graham-florida-governor-senator-dead-obituary/",
+                        "datetime": "2024-04-17T03:23:01.446000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "661f409535f80a350000000a",
+                        "targetTopic": "politics",
+                        "text": "Mr. Graham, a moderate Democrat, served two terms as Florida\u2019s governor and three terms as a senator. He made a short-lived bid for the 2004 Democratic presidential nomination, campaigning largely on his opposition to President George W. Bush\u2019s invasion of Iraq."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
