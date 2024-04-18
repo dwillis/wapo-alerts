@@ -24439,5 +24439,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "88e465e0-fdbd-11ee-bcee-00000a1ace1b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can blood tests detect cancer? Some patients are using them already.",
+            "ios": {
+                "alert": {
+                    "body": "Can blood tests detect cancer? Some patients are using them already.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/interactive/2024/cancer-blood-test-screening/",
+                        "datetime": "2024-04-18T19:54:57.928000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66217a9179110f3500000007",
+                        "targetTopic": "health",
+                        "text": "New tests can detect cancer by measuring \u201csignals\u201d in your blood. Many experts say these tests represent a remarkable new chapter in cancer detection."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
