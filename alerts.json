@@ -24489,5 +24489,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "284270f1-fdcd-11ee-b057-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. vetoes U.N. resolution that would grant full member status to Palestinian state",
+            "ios": {
+                "alert": {
+                    "body": "U.S. vetoes U.N. resolution that would grant full member status to Palestinian state",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/18/israel-iran-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-18T21:46:47.792000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662194c779110f3500000009",
+                        "targetTopic": "world",
+                        "text": "The United States voted against a U.N. Security Council resolution that aimed to extend full member status to a Palestinian state. Robert Wood, the alternate American representative to the United Nations, said afterward that Washington \u201ccontinues to strongly support a two-state solution.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d2b18ce0-fdc5-11ee-873f-00000a1ace12",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Twelve jurors have been selected in Trump\u2019s N.Y. hush money trial after two were dismissed earlier in the day",
+            "ios": {
+                "alert": {
+                    "body": "Twelve jurors have been selected in Trump\u2019s N.Y. hush money trial after two were dismissed earlier in the day",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/18/trump-hush-money-trial-live-updates/",
+                        "datetime": "2024-04-18T20:54:17.728000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6621887979110f3500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "A dozen jurors have been selected to hear former president Donald Trump\u2019s hush money trial in Manhattan, rapidly pushing the proceedings closer toward opening statements. Jury selection is expected to continue Friday as alternates are sought."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
