@@ -24242,5 +24242,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "de2b1a00-fda2-11ee-881e-00000a1ace53",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dickey Betts dies at 80. The singer and guitarist co-founded the Allman Brothers Band and wrote hits including \u2018Ramblin\u2019 Man.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Dickey Betts dies at 80. The singer and guitarist co-founded the Allman Brothers Band and wrote hits including \u2018Ramblin\u2019 Man.\u2019",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/04/18/dickey-betts-allman-brothers-dead/",
+                        "datetime": "2024-04-18T16:44:04.605000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66214dd41a80bd350000000b",
+                        "targetTopic": "entertainment",
+                        "text": "Betts wrote several of the band\u2019s most enduring compositions, including the instrumentals \u201cIn Memory of Elizabeth Reed\u201d and \u201cJessica,\u201d and the pastoral love song \u201cBlue Sky.\u201d He remained best known for the 1973 song \u201cRamblin\u2019 Man,\u201d which became the band\u2019s only top-10 hit on the Billboard Hot 100. The lyrics, set against a bouncy, upbeat melody, expressed the resigned and unrepentant wanderlust of a man \u201cborn in the back seat of a Greyhound bus / Rollin\u2019 down Highway 41.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b7d05280-fd9d-11ee-902c-0000a1ace171",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: What will this parent do after the kids graduate and move out?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: What will this parent do after the kids graduate and move out?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/18/carolyn-hax-empty-nest-fears/",
+                        "datetime": "2024-04-18T16:07:12.773000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662145301a80bd350000000a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: What will this parent do after the kids graduate and move out?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
