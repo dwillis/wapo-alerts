@@ -23948,5 +23948,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cfbfb2d0-fd72-11ee-9a60-00000a1ace92",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ukraine strike. Trump trial. Impeachment vote. Arizona abortion. Toxic water. Volcanic eruption. Escaped elephant. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Ukraine strike. Trump trial. Impeachment vote. Arizona abortion. Toxic water. Volcanic eruption. Escaped elephant. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/18/what-to-know-for-april-18/?noredirect=1",
+                        "datetime": "2024-04-18T11:00:04.494000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6620fd3479110f3500000006",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
