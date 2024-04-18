@@ -23898,5 +23898,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5cf5df00-fd12-11ee-b002-00000a1ace19",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Climate change is turning camels into the new cows",
+            "ios": {
+                "alert": {
+                    "body": "Climate change is turning camels into the new cows",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-solutions/interactive/2024/camel-milk-drought-climate-change-kenya/",
+                        "datetime": "2024-04-17T23:29:39.880000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66205b6379110f3500000005",
+                        "targetTopic": "climate",
+                        "text": "See these humped creatures as they parade into a village in East Africa, cheered on by families who have lost so much.\nIt\u2019s a grand experiment in climate adaptation for traditional herders whose wealth and sustenance depends on raising animals that produce milk. Will camels be the cure?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
