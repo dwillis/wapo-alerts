@@ -23997,5 +23997,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5566aad0-fd8a-11ee-b711-00000a1ace37",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. imposes new sanctions after Iran\u2019s attack on Israel. The economic penalties target Iranian drone production.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. imposes new sanctions after Iran\u2019s attack on Israel. The economic penalties target Iranian drone production.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/18/iran-treasury-drone-sanctions/",
+                        "datetime": "2024-04-18T13:48:25.470000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662124a91a80bd3500000007",
+                        "targetTopic": "world",
+                        "text": "U.S. Treasury Secretary Janet L. Yellen said the Biden administration\u2019s actions would \u201cdegrade and disrupt\u201d Iran\u2019s drone program."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ee2e0630-fd87-11ee-8be6-0000a1ace9b1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why did this animal cross the road? Play today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Why did this animal cross the road? Play today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-18T13:31:14.765000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662120a21a80bd3500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Thursday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9c1f2020-fd84-11ee-bd1e-00000a1aceb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s hush money trial further splinters his relationship with his beloved New York",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s hush money trial further splinters his relationship with his beloved New York",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/17/trump-hush-money-new-york-manhattan-queens/",
+                        "datetime": "2024-04-18T13:07:28.914000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66211b101a80bd3500000005",
+                        "targetTopic": "politics",
+                        "text": "He was a publicity hound and a tabloid star \u2014 a Queens boy made good who burst onto the Manhattan scene through sheer force of personality. But now, in a trial that began Monday, the former president\u2019s long-running and turbulent love affair with the city seems to have finally run into irreconcilable differences."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
