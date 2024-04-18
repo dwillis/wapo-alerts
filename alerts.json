@@ -24340,5 +24340,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "963d3c80-fda9-11ee-87cb-000a1acedd72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. just changed how it manages a tenth of its land, putting conservation on equal footing with mining, grazing and drilling",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. just changed how it manages a tenth of its land, putting conservation on equal footing with mining, grazing and drilling",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/04/18/biden-public-lands-conservation-rule/",
+                        "datetime": "2024-04-18T17:32:10.397000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6621591a1a80bd350000000c",
+                        "targetTopic": "climate",
+                        "text": "The Interior Department\u2019s rule represents a seismic shift in the management of roughly 245 million acres of public property."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a74174a0-fda5-11ee-9bc6-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Which U.S. congressional districts benefit from Ukraine aid? Marc Thiessen has the details.",
+            "ios": {
+                "alert": {
+                    "body": "Which U.S. congressional districts benefit from Ukraine aid? Marc Thiessen has the details.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/04/18/ukraine-map-districts-weapons/",
+                        "datetime": "2024-04-18T17:04:00.963000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66215280510d0c3600000002",
+                        "targetTopic": "opinions",
+                        "text": "We mapped the U.S. congressional districts producing weapons for Ukraine. Many are represented by members who have been vocal opponents of Ukraine aid."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
