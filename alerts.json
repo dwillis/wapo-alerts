@@ -25127,5 +25127,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e9e46e90-fe98-11ee-9a8c-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Northern Virginia serves as the world\u2019s internet hub. Its neighbors are paying a price.",
+            "ios": {
+                "alert": {
+                    "body": "Northern Virginia serves as the world\u2019s internet hub. Its neighbors are paying a price.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/data-centers-internet-power-source-coal/",
+                        "datetime": "2024-04-19T22:05:20.415000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6622eaa035f80a350000000e",
+                        "targetTopic": "editors_picks",
+                        "text": "Football-field-size buildings that hold computers processing nearly 70 percent of the world\u2019s internet traffic are gobbling up electricity at a rate that\u2019s unsustainable. Coal will be the key."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
