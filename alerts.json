@@ -25078,5 +25078,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3b1b7490-fe83-11ee-841c-000a1ace4d53",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden administration issues new Title IX rules protecting transgender students, sexual assault victims",
+            "ios": {
+                "alert": {
+                    "body": "Biden administration issues new Title IX rules protecting transgender students, sexual assault victims",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/04/19/titleix-biden-transgender-sexual-assault/",
+                        "datetime": "2024-04-19T19:30:07.728000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6622c63f1a80bd3500000014",
+                        "targetTopic": "us",
+                        "text": "The Title IX regulations bar schools from discriminating against transgender students, feeding a culture clash with conservative states and school boards that have limited transgender rights in schools. The new rules also mandate changes for how schools handle claims of sexual assault and harassment on campus."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
