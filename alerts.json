@@ -24931,5 +24931,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "da8bc460-fe6c-11ee-b71f-0000a1ace9fc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is taking your questions now: My cousin is telling people I\u2019m excluding her \u2018out of revenge\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is taking your questions now: My cousin is telling people I\u2019m excluding her \u2018out of revenge\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/19/live-chat-carolyn-hax/",
+                        "datetime": "2024-04-19T16:49:56.899000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6622a0b41a80bd3500000012",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is taking your questions now: My cousin is telling people I\u2019m excluding her \u2018out of revenge\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ad94fb61-fe68-11ee-a56f-00000a1ace45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What to know about Taylor Swift\u2019s surprise double album drop overnight",
+            "ios": {
+                "alert": {
+                    "body": "What to know about Taylor Swift\u2019s surprise double album drop overnight",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/music/2024/04/19/taylor-swift-tortured-poets-double-album/",
+                        "datetime": "2024-04-19T16:20:03.454000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662299b31a80bd3500000011",
+                        "targetTopic": "editors_picks",
+                        "text": "Swift released \u201cThe Tortured Poets Department\u201d at midnight on Friday. She had something else in store a couple of hours later. Here are the main things to know about the album."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
