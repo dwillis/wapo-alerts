@@ -24685,5 +24685,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f86f66c0-fe3b-11ee-b42d-00000a1ace68",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli strike. Trump jury. Title IX. Land rules. Rising temperatures. Women\u2019s sleep. Taylor Swift\u2019s surprise. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Israeli strike. Trump jury. Title IX. Land rules. Rising temperatures. Women\u2019s sleep. Taylor Swift\u2019s surprise. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/19/what-to-know-for-april-19/?noredirect=1",
+                        "datetime": "2024-04-19T11:00:01.597000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "66224eb135f80a350000000d",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
