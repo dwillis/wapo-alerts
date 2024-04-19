@@ -24833,5 +24833,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4453b680-fe5b-11ee-9b6e-00000a1ace72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel\u2019s retaliatory strike on Iran appears to have been designed to avoid escalating tensions, officials and analysts say",
+            "ios": {
+                "alert": {
+                    "body": "Israel\u2019s retaliatory strike on Iran appears to have been designed to avoid escalating tensions, officials and analysts say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/19/israel-iran-strike-isfahan/",
+                        "datetime": "2024-04-19T14:44:03.379000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662283331a80bd350000000f",
+                        "targetTopic": "world",
+                        "text": "Israeli officials said the strike was meant to send Iran a message after Tehran launched hundreds of drones and missiles at Israel last weekend \u2014 the vast majority of which were shot down."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
