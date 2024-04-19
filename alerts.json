@@ -24587,5 +24587,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f8fba2d0-fddb-11ee-90d2-0000a1ace1cb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Death Valley is alive this year. A super bloom is the latest sign.",
+            "ios": {
+                "alert": {
+                    "body": "Death Valley is alive this year. A super bloom is the latest sign.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/13/death-valley-super-bloom/",
+                        "datetime": "2024-04-18T23:32:50.890000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6621ada279110f350000000a",
+                        "targetTopic": "editors_picks",
+                        "text": "Just weeks after the resurrection of a long-dead lake, the area\u2019s native wildflowers are bursting into bloom. These fleeting phenomena can be traced to the unusual and record-setting precipitation that has inundated California in recent months. Scientists estimate that tens of thousands of acres have bloomed simultaneously, sparking delight from new arrivals and those who have carefully tended Death Valley \u2014 more often one of the world\u2019s most extreme places."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
