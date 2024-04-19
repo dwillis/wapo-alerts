@@ -25029,5 +25029,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "93b6db80-fe74-11ee-b6a7-00000a1ace2b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Full jury seated for Trump\u2019s N.Y. trial; opening statements expected next week",
+            "ios": {
+                "alert": {
+                    "body": "Full jury seated for Trump\u2019s N.Y. trial; opening statements expected next week",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/19/trump-hush-money-trial-live-updates/",
+                        "datetime": "2024-04-19T17:45:14.028000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6622adaa1a80bd3500000013",
+                        "targetTopic": "breaking-news",
+                        "text": "A full 12-member jury and six alternates have been chosen for Donald Trump\u2019s trial in New York on criminal charges, which began Monday, setting the stage for opening statements next week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
