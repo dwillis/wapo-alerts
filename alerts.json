@@ -24734,5 +24734,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4ef904e0-fe52-11ee-95bf-0000a1ace0d2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-19T13:39:55.608000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6622742b1a80bd350000000e",
+                        "targetTopic": "news_quiz",
+                        "text": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f00d9ec0-fe4f-11ee-801e-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "For the first time, polluters may have to pay to clean up PFAS, commonly known as \u2018forever chemicals,\u2019 under new EPA rule",
+            "ios": {
+                "alert": {
+                    "body": "For the first time, polluters may have to pay to clean up PFAS, commonly known as \u2018forever chemicals,\u2019 under new EPA rule",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/04/19/epa-rule-pfas-hazardous-water-contamination/",
+                        "datetime": "2024-04-19T13:22:57.453000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662270311a80bd350000000d",
+                        "targetTopic": "climate",
+                        "text": "The Environmental Protection Agency designated two of the most pervasive forms of PFAS as hazardous substances under the nation\u2019s Superfund law. The rule could help hundreds of communities affected by contamination and could mean billions of dollars of liabilities for major chemical manufacturers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
