@@ -24882,5 +24882,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3a66e2b0-fe64-11ee-bd03-00000a1ace0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rare bipartisan House coalition advances $95 billion foreign aid bill to likely passage, which could cost Johnson his speakership",
+            "ios": {
+                "alert": {
+                    "body": "Rare bipartisan House coalition advances $95 billion foreign aid bill to likely passage, which could cost Johnson his speakership",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/19/israel-ukraine-aid-house-speaker-mike-johnson/",
+                        "datetime": "2024-04-19T15:48:12.237000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6622923c1a80bd3500000010",
+                        "targetTopic": "politics",
+                        "text": "The legislation, crafted by House Speaker Mike Johnson (R-La.), contains funding for Ukraine and Israel in their wartime conflicts, as well as money for Indo-Pacific allies. More Democrats than Republicans supported the procedural motion known as a rule. The House is slated to vote on passage midday Saturday. But that vote could trigger a move to oust Johnson from his right flank, many of whom oppose Ukraine aid."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
