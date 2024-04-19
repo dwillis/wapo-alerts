@@ -24636,5 +24636,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cd27a6c0-fe0a-11ee-a296-00000a1aceff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel carries out airstrike on Iran in retaliation for Tehran\u2019s drone and missile attack, Israeli official says",
+            "ios": {
+                "alert": {
+                    "body": "Israel carries out airstrike on Iran in retaliation for Tehran\u2019s drone and missile attack, Israeli official says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/19/israel-iran-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-04-19T05:08:03.666000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6621fc33510d0c3600000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The official, speaking on the condition of anonymity to discus sensitive military matters, said it was intended as a message to Iran that Israel had the ability to strike inside the country."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
