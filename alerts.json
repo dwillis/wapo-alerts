@@ -25275,5 +25275,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c047500-fed1-11ee-b144-0000a1acec5c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Congress extends controversial warrantless surveillance law for two years",
+            "ios": {
+                "alert": {
+                    "body": "Congress extends controversial warrantless surveillance law for two years",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/20/congress-extends-controversial-warrantless-surveillance-law-two-years/",
+                        "datetime": "2024-04-20T04:49:23.705000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66234953c5bf303500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "Laboring into the early hours of Saturday morning, Congress squeaked through the renewal of a surveillance program that U.S. spy agencies regard as one of their most valuable tools, and that critics on the left and the right say intrudes on Americans\u2019 privacy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
