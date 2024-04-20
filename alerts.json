@@ -25422,5 +25422,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c71d7c0-ff30-11ee-9fca-000a1ace1f21",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These are the 10 financial documents you need to keep forever, our personal finance columnist says. Scan and shred the rest.",
+            "ios": {
+                "alert": {
+                    "body": "These are the 10 financial documents you need to keep forever, our personal finance columnist says. Scan and shred the rest.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/financial-documents-shred-keep-scan/",
+                        "datetime": "2024-04-20T16:07:39.313000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6623e84b510d0c3600000006",
+                        "targetTopic": "advice",
+                        "text": "These are the 10 financial documents you need to keep forever, our personal finance columnist says. Scan and shred the rest."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
