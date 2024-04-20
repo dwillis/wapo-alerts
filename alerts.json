@@ -25176,5 +25176,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3a7e3ed0-feb2-11ee-b4e6-0000a1aceb66",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. to withdraw troops from Niger after Washington and junta fail to agree on continued military presence, U.S. officials say",
+            "ios": {
+                "alert": {
+                    "body": "U.S. to withdraw troops from Niger after Washington and junta fail to agree on continued military presence, U.S. officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/19/us-troops-niger/",
+                        "datetime": "2024-04-20T01:06:33.087000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6623151935f80a350000000f",
+                        "targetTopic": "world",
+                        "text": "Kurt Campbell, the State Department\u2019s No. 2 official, met with Niger\u2019s prime minister Friday and accepted his demand that American forces leave the West African country, a move the Biden administration had resisted and one that is certain to transform the United States\u2019 counterterrorism posture in that part of the world."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
