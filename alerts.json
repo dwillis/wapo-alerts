@@ -25569,5 +25569,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0d758420-ff61-11ee-b96f-00000a1ace80",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A real Prince of Denmark tries to live a normal life in Washington",
+            "ios": {
+                "alert": {
+                    "body": "A real Prince of Denmark tries to live a normal life in Washington",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/power/2024/04/16/prince-joachim-denmark/",
+                        "datetime": "2024-04-20T21:57:59.483000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66243a6749ffbe3600000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Prince Joachim and his family arrived last summer for his diplomatic post, leaving behind royal drama to raise a family in D.C. with hardly anyone noticing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
