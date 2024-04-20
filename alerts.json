@@ -25225,5 +25225,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e1c210d0-febd-11ee-8441-0000a1ace4b0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Volkswagen workers in Tennessee pass historic vote to unionize in a victory for the UAW",
+            "ios": {
+                "alert": {
+                    "body": "Volkswagen workers in Tennessee pass historic vote to unionize in a victory for the UAW",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/19/vw-uaw-tennessee-vote/",
+                        "datetime": "2024-04-20T02:29:58.205000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662328a635f80a3500000010",
+                        "targetTopic": "business",
+                        "text": "In Chattanooga, Tenn., autoworkers became the first at a Southern auto factory to approve a union with an election since the 1940s. They join a handful of unionized auto factories in the South, where local laws make it harder for unions to organize. The UAW has endorsed President Biden."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
