@@ -25373,5 +25373,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "742644a0-ff22-11ee-9729-00000a1ace64",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Riding the baddest bulls made him a legend \u2014 and plenty of money. Until one broke his neck.",
+            "ios": {
+                "alert": {
+                    "body": "Riding the baddest bulls made him a legend \u2014 and plenty of money. Until one broke his neck.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/interactive/2024/jb-mauney-rodeo-bull-rider/",
+                        "datetime": "2024-04-20T14:29:53.423000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6623d161510d0c3600000005",
+                        "targetTopic": "editors_picks",
+                        "text": "J.B. Mauney is arguably the greatest rodeo bull rider ever. But since suffering a career-ending injury last September, he has been forced to grapple with the aftermath of a career built on the edge of primal danger."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
