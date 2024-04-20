@@ -25520,5 +25520,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e878e151-ff40-11ee-9bde-00000a1aceb9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House passes $95 billion foreign aid package, with funds for Ukraine and Israel, with bipartisan support",
+            "ios": {
+                "alert": {
+                    "body": "House passes $95 billion foreign aid package, with funds for Ukraine and Israel, with bipartisan support",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/20/house-vote-ukraine-israel-aid-johnson/",
+                        "datetime": "2024-04-20T18:07:53.286000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66240479510d0c3600000008",
+                        "targetTopic": "breaking-news",
+                        "text": "Republicans joined with Democrats to push the measures, which also include money for Taiwan and to regulate TikTok, in a package assembled by House Speaker Mike Johnson (R-La.). Johnson defied far-right members to put Ukraine aid on the floor and may face a motion to oust him from the speakerhip because of it. The Senate is expected to take up the foreign aid package early next week and President Biden has signaled he will sign it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
