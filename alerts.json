@@ -25716,5 +25716,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "200f34a1-fff2-11ee-b8a7-00000a1ace5d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Her love of backcountry skiing drew her to boarding school in the Swiss Alps. Then the mountain crumbled underneath her.",
+            "ios": {
+                "alert": {
+                    "body": "Her love of backcountry skiing drew her to boarding school in the Swiss Alps. Then the mountain crumbled underneath her.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/04/21/switzerland-avalanche-emily-franciose-wellhorn/",
+                        "datetime": "2024-04-21T15:16:26.871000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66252dca49ffbe3600000004",
+                        "targetTopic": "editors_picks",
+                        "text": "Emily Franciose adored backcountry treks so much that she left her Colorado home to attend Ecole d\u2019Humanit\u00e9, a small boarding school in Hasliberg, Switzerland. But an accident caused the Wellhorn mountain to fall apart beneath her skis \u2014 and left her parents wanting answers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
