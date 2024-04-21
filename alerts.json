@@ -25912,5 +25912,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a89306a0-0031-11ef-9379-000a1ace39dc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nelly Korda wins the Chevron Championship for her fifth consecutive LPGA Tour victory and second career major title",
+            "ios": {
+                "alert": {
+                    "body": "Nelly Korda wins the Chevron Championship for her fifth consecutive LPGA Tour victory and second career major title",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/21/nelly-korda-winning-streak-chevron-championship/",
+                        "datetime": "2024-04-21T22:51:14.901000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66259862c5bf303500000004",
+                        "targetTopic": "sports",
+                        "text": "Korda, 25, matched the LPGA Tour record for consecutive victories held by Nancy Lopez and Annika Sorenstam. The world\u2019s No. 1 player claimed her other major title at the 2021 Women\u2019s PGA Championship."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
