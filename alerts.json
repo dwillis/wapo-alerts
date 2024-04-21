@@ -25863,5 +25863,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8a8b2e80-0022-11ef-bf6a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At Trump\u2019s N.Y. trial, the jury pool spoke, and he had to listen",
+            "ios": {
+                "alert": {
+                    "body": "At Trump\u2019s N.Y. trial, the jury pool spoke, and he had to listen",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/21/trump-trial-jury-political-opinions/",
+                        "datetime": "2024-04-21T21:03:02.231000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66257f06c5bf303500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "The jury selection process for Donald Trump\u2019s hush money trial created something akin to a national focus group \u2014 albeit with a New York accent \u2014 giving ordinary Americans a chance to offer their opinions and reflections on the former president\u2019s nearly five decades in the public spotlight."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
