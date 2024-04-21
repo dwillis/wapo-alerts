@@ -25814,5 +25814,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6b82e840-0011-11ef-b71f-00000a1ace40",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: My boyfriend\u2019s parents treat me like an outsider",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: My boyfriend\u2019s parents treat me like an outsider",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/18/ask-sahaj-boyfriend-parents-outsider/",
+                        "datetime": "2024-04-21T19:00:28.288000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6625624ca6a9173500000001",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: My boyfriend\u2019s parents treat me like an outsider"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
