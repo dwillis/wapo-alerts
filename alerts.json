@@ -26059,5 +26059,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b6b67dd0-00ad-11ef-b321-00000a1acef4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Opening statements are set to begin in Trump\u2019s hush money trial in New York. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Opening statements are set to begin in Trump\u2019s hush money trial in New York. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/22/trump-hush-money-trial-live-updates/",
+                        "datetime": "2024-04-22T13:39:16.400000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66266884c5bf303500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Prosecutors and defense lawyers are expected to start laying out their cases in Donald Trump\u2019s trial for allegedly falsifying business records to hide a hush money payment during the 2016 presidential election campaign."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e0901a91-00ac-11ef-8b22-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A double album in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A double album in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-22T13:33:16.926000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6626671cc5bf303500000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
