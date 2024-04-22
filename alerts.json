@@ -26157,5 +26157,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d437aab0-00c5-11ef-b6b1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel has not provided evidence that large numbers of U.N. Palestinian refugee agency workers have militant ties, report finds",
+            "ios": {
+                "alert": {
+                    "body": "Israel has not provided evidence that large numbers of U.N. Palestinian refugee agency workers have militant ties, report finds",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/22/unrwa-israel-hamas-report-palestinians/",
+                        "datetime": "2024-04-22T16:31:53.790000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662690f9c5bf303500000008",
+                        "targetTopic": "world",
+                        "text": "The Colonna report found that the U.N. Relief and Works Agency is in need of reforms to ensure it remains neutral, but said Israel has yet to offer evidence supporting its claims that significant numbers of UNRWA employees are members of Hamas or Palestinian Islamic Jihad. The Israeli allegations in January spurred the United States and other donor countries to suspend funding for UNRWA amid a humanitarian crisis in Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b3863ff0-00c2-11ef-a021-0000a1acef1f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How to revive a friendship killed by a hostile text?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How to revive a friendship killed by a hostile text?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/22/carolyn-hax-friendship-end-text/",
+                        "datetime": "2024-04-22T16:09:30.350000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66268bbac5bf303500000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How to revive a friendship killed by a hostile text?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
