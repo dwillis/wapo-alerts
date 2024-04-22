@@ -26354,5 +26354,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "86740971-00ef-11ef-8aaa-00000a1ace11",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rooftop solar panels are flooding California\u2019s grid. That\u2019s a problem.",
+            "ios": {
+                "alert": {
+                    "body": "Rooftop solar panels are flooding California\u2019s grid. That\u2019s a problem.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/04/22/california-solar-duck-curve-rooftop/",
+                        "datetime": "2024-04-22T21:30:22.145000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6626d6ee49ffbe3600000006",
+                        "targetTopic": "editors_picks",
+                        "text": "California, which leads the nation in solar power, and its grid operator are grappling with a strange reality: so much solar that some of it has to be thrown away. The glut is raising electricity prices and could undercut future renewable energy investment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
