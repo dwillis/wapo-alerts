@@ -25961,5 +25961,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "067d2590-0085-11ef-9364-00000a1aceb3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli military intelligence chief resigns over Oct. 7 Hamas attack",
+            "ios": {
+                "alert": {
+                    "body": "Israeli military intelligence chief resigns over Oct. 7 Hamas attack",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/22/israel-intelligence-haliva-hamas-failure/",
+                        "datetime": "2024-04-22T08:48:00.804000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66262440510d0c3600000009",
+                        "targetTopic": "world",
+                        "text": "Maj. Gen. Aharon Haliva is the first general of the Israel Defense Forces staff to offer to leave his position due to the failures that led to the attack and the war in Gaza. He serves as commander of the IDF\u2019s Operations Directorate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
