@@ -26255,5 +26255,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1d23b5f2-00cd-11ef-a43a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court justices hearing case on homeless ban appear divided between protecting rights and controlling a worsening problem",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court justices hearing case on homeless ban appear divided between protecting rights and controlling a worsening problem",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/22/supreme-court-homelessness-camping-ban-oregon/",
+                        "datetime": "2024-04-22T17:24:02.616000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66269d32c5bf303500000009",
+                        "targetTopic": "us",
+                        "text": "In arguments on a Grants Pass, Ore., statute outlawing sleeping in public places, attorneys for unhoused people argued that criminalizing homelessness when there were no other living options was cruel and unusual punishment \u2014 and thus unconstitutional. The city insisted it needed flexibility to protect public health and public spaces. The court\u2019s decision, likely to be announced in late June, could be the most significant ruling on the rights of the unhoused in decades."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
