@@ -26698,5 +26698,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ce8d4730-01ad-11ef-9ff1-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tesla earnings sharply declined in first quarter, casting doubt on its recovery after weak sales, layoffs and recalls",
+            "ios": {
+                "alert": {
+                    "body": "Tesla earnings sharply declined in first quarter, casting doubt on its recovery after weak sales, layoffs and recalls",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/23/elon-musk-tesla-earnings-outlook/",
+                        "datetime": "2024-04-23T20:12:27.457000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6628162b49ffbe360000000b",
+                        "targetTopic": "business",
+                        "text": "Tesla has fallen far from its days as a darling of Wall Street and is now battling a complex array of challenges that threaten its business outlook."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "95977af1-01ac-11ef-9d9f-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tennessee passes bill to let teachers carry guns on campuses, a year after Nashville school shooting left six people dead",
+            "ios": {
+                "alert": {
+                    "body": "Tennessee passes bill to let teachers carry guns on campuses, a year after Nashville school shooting left six people dead",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/23/tennessee-bill-arming-teachers-guns-passes/",
+                        "datetime": "2024-04-23T20:03:42.447000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6628141ec5bf30350000000b",
+                        "targetTopic": "us",
+                        "text": "The bill, approved by the state's GOP supermajority over protests by students and parents, is one of the most expansive pro-gun steps taken by the state since the Covenant School shooting in March 2023."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
