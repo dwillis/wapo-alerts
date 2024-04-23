@@ -26846,5 +26846,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "577f4521-01bd-11ef-aaf2-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FDA finds evidence of bird flu virus in grocery store milk but expresses confidence in safety of dairy supply",
+            "ios": {
+                "alert": {
+                    "body": "FDA finds evidence of bird flu virus in grocery store milk but expresses confidence in safety of dairy supply",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/04/23/bird-flu-virus-milk/",
+                        "datetime": "2024-04-23T22:03:39.748000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6628303b7a46cf3500000003",
+                        "targetTopic": "health",
+                        "text": "The findings by the Food and Drug Administration do not necessarily suggest a threat to human health but indicate the avian flu virus is more widespread among dairy herds than previously thought. The agency is conducting further testing to definitively confirm that milk remains safe."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
