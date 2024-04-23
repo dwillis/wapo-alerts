@@ -26501,5 +26501,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1b7f2410-0185-11ef-a677-00000a1ace02",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "More than 130 Israel-Gaza war protesters were arrested at NYU, police say. Columbia is offering hybrid classes amid demonstrations.",
+            "ios": {
+                "alert": {
+                    "body": "More than 130 Israel-Gaza war protesters were arrested at NYU, police say. Columbia is offering hybrid classes amid demonstrations.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/04/23/protests-arrests-yale-columbia-nyu-california-university/",
+                        "datetime": "2024-04-23T15:21:07.242000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6627d1e349ffbe3600000008",
+                        "targetTopic": "us",
+                        "text": "Anti-war protests on college campuses are growing and continue to be met by police across the nation. More than 100 demonstrators were arrested at Columbia last week, and about 50 were arrested at Yale on Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
