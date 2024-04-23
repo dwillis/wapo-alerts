@@ -26648,5 +26648,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c6bab090-01a5-11ef-8df6-00000a1acec5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FTC bans noncompete agreements that restrict workers from switching employers within their industry",
+            "ios": {
+                "alert": {
+                    "body": "FTC bans noncompete agreements that restrict workers from switching employers within their industry",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/23/ftc-noncompete-agreements/",
+                        "datetime": "2024-04-23T19:14:58.421000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662808b27a46cf3500000001",
+                        "targetTopic": "business",
+                        "text": "The Federal Trade Commission approved a rule that will bar employers from enforcing the clauses, which have been signed by millions of Americans. The rule is supposed to take effect after 180 days, though business groups have promised to challenge it in court."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
