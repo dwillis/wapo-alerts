@@ -26550,5 +26550,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9fb07790-0192-11ef-9cd1-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Dept. reaches $138.7M settlement with victims of former USA Gymnastics doctor Larry Nassar over FBI misconduct claims",
+            "ios": {
+                "alert": {
+                    "body": "Justice Dept. reaches $138.7M settlement with victims of former USA Gymnastics doctor Larry Nassar over FBI misconduct claims",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/04/23/justice-department-larry-nassar-victims-settlement/",
+                        "datetime": "2024-04-23T16:57:52.516000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6627e89049ffbe360000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "The agreement settles 139 claims brought over the department\u2019s failure to investigate allegations that could have brought Nassar to justice sooner and prevented dozens of assaults. The settlement brings to a close the last major legal case over Nassar\u2019s prolific abuses. Nassar, 60, is serving an effective life sentence for federal convictions relating to possession of child pornography, as well as state convictions for sexual assaults of patients."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "976c3360-018a-11ef-b385-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Parent worries \u2018beautiful\u2019 4-year-old hears too much about looks",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Parent worries \u2018beautiful\u2019 4-year-old hears too much about looks",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/23/carolyn-hax-daughter-praise-looks/",
+                        "datetime": "2024-04-23T16:00:22.609000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6627db1649ffbe3600000009",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Parent worries \u2018beautiful\u2019 4-year-old hears too much about looks"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
