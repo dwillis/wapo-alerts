@@ -26896,5 +26896,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff8d2340-01db-11ef-9ff1-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Congress passes bill that forces a sale or a ban of TikTok, the most significant threat yet to the app\u2019s U.S. operations",
+            "ios": {
+                "alert": {
+                    "body": "Congress passes bill that forces a sale or a ban of TikTok, the most significant threat yet to the app\u2019s U.S. operations",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/23/tiktok-ban-senate-vote-sale-biden/",
+                        "datetime": "2024-04-24T01:43:06.486000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662863aa7a46cf3500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The legislation delivers a historic rebuke of the video-sharing platform\u2019s Chinese ownership, culminating years of failed attempts to tackle the app\u2019s alleged national security risks.\n\nThe Senate approved the measure as part of a sprawling funding package sending $95 billion in aid to Ukraine, some of which is structured as a loan, as well as help for Israel, Taiwan and humanitarian assistance.\n\nPresident Biden is expected to sign the bill."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
