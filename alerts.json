@@ -27092,5 +27092,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "90ccc480-0251-11ef-8e5f-00000a1ace57",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We have a radical democracy. Robert Kagan asks: Will Trump voters destroy it?",
+            "ios": {
+                "alert": {
+                    "body": "We have a radical democracy. Robert Kagan asks: Will Trump voters destroy it?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/04/24/trump-tyranny-christian-nationalist-democracy/",
+                        "datetime": "2024-04-24T15:44:41.388000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662928e9c5bf30350000000e",
+                        "targetTopic": "opinions",
+                        "text": "We have a radical democracy. Will Trump voters destroy it?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f9e35510-024c-11ef-b3dc-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. announces $1 billion Ukraine weapons package after Senate approves massive foreign aid bill",
+            "ios": {
+                "alert": {
+                    "body": "U.S. announces $1 billion Ukraine weapons package after Senate approves massive foreign aid bill",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/24/biden-us-weapons-ukraine/",
+                        "datetime": "2024-04-24T15:11:50.229000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66292136c5bf30350000000d",
+                        "targetTopic": "world",
+                        "text": "The weapons package of artillery, ammunition and air-defense missiles restarts an expansive U.S. effort to sustain Ukraine\u2019s embattled military as the war with Russia bleeds into its third year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "688c4280-024b-11ef-98d8-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Reggie Bush gets his Heisman Trophy back, more than a decade after the former USC running back was stripped of it",
+            "ios": {
+                "alert": {
+                    "body": "Reggie Bush gets his Heisman Trophy back, more than a decade after the former USC running back was stripped of it",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/24/reggie-bush-heisman-trophy/",
+                        "datetime": "2024-04-24T15:00:36.753000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66291e94c5bf30350000000c",
+                        "targetTopic": "sports",
+                        "text": "Bush won the trophy in 2005 but forfeited it in 2010 after an NCAA investigation found he and his family had received gifts from a sports agent, and most of his college statistics were vacated. \u201cWe considered the enormous changes in college athletics over the last several years in deciding that now is the right time to reinstate the trophy for Reggie,\u201d the Heisman Trust announced Wednesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
