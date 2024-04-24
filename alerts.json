@@ -26945,5 +26945,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ce069fb0-0229-11ef-8521-00000a1ace4f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ukraine aid. Trump witness. Abortion case. Campus protests. Larry Nassar. Air pollution. Bionic eyes. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Ukraine aid. Trump witness. Abortion case. Campus protests. Larry Nassar. Air pollution. Bionic eyes. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/24/what-to-know-for-april-24/?noredirect=1",
+                        "datetime": "2024-04-24T11:00:04.235000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6628e63449ffbe360000000c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
