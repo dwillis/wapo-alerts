@@ -26994,5 +26994,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d5f7cef1-023e-11ef-9f64-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A \u2018next-level\u2019 find in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A \u2018next-level\u2019 find in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-24T13:30:36.398000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6629097c7a46cf3500000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to even your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
