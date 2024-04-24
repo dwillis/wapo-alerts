@@ -27043,5 +27043,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6030fe70-0244-11ef-a00b-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court is hearing arguments on whether hospitals must provide emergency abortions in states with bans. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court is hearing arguments on whether hospitals must provide emergency abortions in states with bans. Follow our coverage.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/24/supreme-court-arguments-abortions-emergency-emtala/",
+                        "datetime": "2024-04-24T14:10:16.266000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662912c87a46cf3500000006",
+                        "targetTopic": "us",
+                        "text": "At issue is a nearly 40-year-old federal law that requires hospitals that receive federal funds to stabilize or transfer all emergency patients, regardless of their ability to pay. The Biden administration invoked the Emergency Medical Treatment and Labor Act to argue that the federal government has the power to penalize hospitals that fail to provide emergency abortions even in states with strict bans."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
