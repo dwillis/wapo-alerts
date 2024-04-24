@@ -27239,5 +27239,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd683fa1-0258-11ef-a199-0000a1acefff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court conservatives seem skeptical that federal law can require hospitals to perform emergency abortions in states with bans",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court conservatives seem skeptical that federal law can require hospitals to perform emergency abortions in states with bans",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/24/supreme-court-arguments-abortions-emergency-emtala/",
+                        "datetime": "2024-04-24T16:37:50.042000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6629355ec5bf303500000011",
+                        "targetTopic": "breaking-news",
+                        "text": "The Biden administration has invoked the Emergency Medical Treatment and Labor Act to argue that the federal government can penalize hospitals that fail to provide emergency abortions in states with strict abortion bans. But conservative justices appeared skeptical the 40-year-old federal law \u2014 which requires hospitals that receive federal funds to stabilize or transfer all emergency patients regardless of their ability to pay \u2014 could be used to require abortions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bd2a21c0-0257-11ef-8b22-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Happening now: Why do cooked chicken thighs sometimes look bloody, and are they safe to eat? Chat with our food writers.",
+            "ios": {
+                "alert": {
+                    "body": "Happening now: Why do cooked chicken thighs sometimes look bloody, and are they safe to eat? Chat with our food writers.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/04/24/questions-recipe-cooking-advice/",
+                        "datetime": "2024-04-24T16:28:52.788000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66293344c5bf303500000010",
+                        "targetTopic": "food",
+                        "text": "Happening now: Why do cooked chicken thighs sometimes look bloody, and are they safe to eat? Chat with our food writers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "dcc16e20-0253-11ef-8cd8-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: \u2018Close\u2019 friend kept daughter\u2019s wedding a secret for almost a year",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: \u2018Close\u2019 friend kept daughter\u2019s wedding a secret for almost a year",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/24/carolyn-hax-friend-daughter-wedding-secret/",
+                        "datetime": "2024-04-24T16:01:07.792000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66292cc3c5bf30350000000f",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: \u2018Close\u2019 friend kept daughter\u2019s wedding a secret for almost a year"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
