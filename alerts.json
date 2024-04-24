@@ -27435,5 +27435,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db0f1450-0281-11ef-a142-0000a1ace818",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michael Cohen, preparing to take the stand against his ex-boss, says he\u2019s reformed. Will America buy it?",
+            "ios": {
+                "alert": {
+                    "body": "Michael Cohen, preparing to take the stand against his ex-boss, says he\u2019s reformed. Will America buy it?",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/23/michael-cohen-trump-trial-redemption-tale-liberals/",
+                        "datetime": "2024-04-24T21:30:21.741000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662979ed49ffbe360000000d",
+                        "targetTopic": "editors_picks",
+                        "text": "After years as Donald Trump\u2019s bruising personal attorney, Cohen is a man on a quest for redemption. But as he prepares to serve as a linchpin in the Manhattan district attorney\u2019s criminal case against the former president, America\u2019s most famous ex-fixer remains a divisive figure \u2014 even among partisans on the Trump-loathing left."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
