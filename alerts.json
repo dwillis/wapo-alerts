@@ -27682,5 +27682,201 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd4a7c90-0309-11ef-a8ac-00000a1ace6b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "N.Y. court overturns Harvey Weinstein\u2019s 2020 rape conviction and orders new trial \u2014 a shocking twist in a pivotal #MeToo case",
+            "ios": {
+                "alert": {
+                    "body": "N.Y. court overturns Harvey Weinstein\u2019s 2020 rape conviction and orders new trial \u2014 a shocking twist in a pivotal #MeToo case",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/power/2024/04/25/harvey-weinstein-conviction-overturned/",
+                        "datetime": "2024-04-25T13:43:57.071000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a5e1d49ffbe3600000012",
+                        "targetTopic": "breaking-news",
+                        "text": "The New York Court of Appeals ruled the judge in Weinstein\u2019s trial improperly allowed testimony about allegations that weren\u2019t part of the case, according to the Associated Press. The former movie mogul will remain in prison on his 2022 California rape conviction."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "14eaab40-0308-11ef-98c4-0000a1ace4c3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court weighs if Trump is immune from prosecution on charges of trying to subvert the 2020 election. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court weighs if Trump is immune from prosecution on charges of trying to subvert the 2020 election. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/25/supreme-court-trump-immunity-case/",
+                        "datetime": "2024-04-25T13:31:11.323000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a5b1f49ffbe3600000011",
+                        "targetTopic": "breaking-news",
+                        "text": "The oral argument in Washington comes as Donald Trump is on trial in New York in the hush money case. The justices\u2019 ruling on immunity will have a major impact in shaping presidential power and accountability for future occupants of the White House \u2014 and whether Trump will be tried on federal charges in D.C. before this year's election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "950589f0-0306-11ef-a0af-00000a1aceb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Sucks to be you\u2019 if you\u2019re not on the train they're building in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Sucks to be you\u2019 if you\u2019re not on the train they're building in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-25T13:20:27.389000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a589b49ffbe3600000010",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Thursday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4e10d321-0305-11ef-9a82-00000a1ace14",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "More than 100 pro-Palestinian protesters arrested near Emerson College in Boston; campus protests in Texas, California also broken up",
+            "ios": {
+                "alert": {
+                    "body": "More than 100 pro-Palestinian protesters arrested near Emerson College in Boston; campus protests in Texas, California also broken up",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/25/university-protests-gaza-arrests-emerson-usc/",
+                        "datetime": "2024-04-25T13:11:18.662000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a5676bb01453500000001",
+                        "targetTopic": "us",
+                        "text": "Protests spread at colleges across the country, with dozens of arrests at the University of Southern California and the University of Texas at Austin."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
