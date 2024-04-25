@@ -27878,5 +27878,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "037301c0-0315-11ef-a94b-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Haitian Prime Minister Ariel Henry resigns, a crucial step for new elections and U.N.-approved police deployment amid gang violence",
+            "ios": {
+                "alert": {
+                    "body": "Haitian Prime Minister Ariel Henry resigns, a crucial step for new elections and U.N.-approved police deployment amid gang violence",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/25/haiti-ariel-henry-resigns/",
+                        "datetime": "2024-04-25T15:03:45.578000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a70d1bb01453500000002",
+                        "targetTopic": "world",
+                        "text": "A transitional presidential council was sworn in on Thursday, and a government decree said Michel Patrick Boisvert would serve as interim prime minister. Boisvert has been leading the government since Henry left the country on a diplomatic trip in February."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
