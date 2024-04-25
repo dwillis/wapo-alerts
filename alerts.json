@@ -27484,5 +27484,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6ebc4380-0291-11ef-b16f-0000a1ace203",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mark Meadows, Rudy Giuliani, pro-Trump electors and other allies charged in Arizona 2020 election interference probe",
+            "ios": {
+                "alert": {
+                    "body": "Mark Meadows, Rudy Giuliani, pro-Trump electors and other allies charged in Arizona 2020 election interference probe",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/24/arizona-2020-election-charges-meadows-giuliani-ellis/",
+                        "datetime": "2024-04-24T23:21:51.772000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6629940fc5bf303500000014",
+                        "targetTopic": "breaking-news",
+                        "text": "The indictments cap a year-long investigation by Arizona Attorney General Kris Mayes (D) into the unsuccessful attempt to keep Donald Trump in the White House after he lost the 2020 presidential election by trying to award Arizona\u2019s electoral votes to Trump instead of Joe Biden, who won the state. Arizona is the fourth state, following Michigan, Georgia and Nevada, to seek charges against those who formed an alternate slate of presidential electors."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
