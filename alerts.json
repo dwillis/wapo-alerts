@@ -27927,5 +27927,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c154440-031f-11ef-bb2e-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why not get rid of email at work? Daniel Pink is answering your questions live.",
+            "ios": {
+                "alert": {
+                    "body": "Why not get rid of email at work? Daniel Pink is answering your questions live.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/04/25/daniel-pink-live-chat/",
+                        "datetime": "2024-04-25T16:16:01.165000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a81c149ffbe3600000013",
+                        "targetTopic": "opinions",
+                        "text": "Daniel Pink is fielding your \u2018Why Not?\u2019 ideas and answering your questions"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1d4794a0-031d-11ef-8fb8-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Can one spouse tell another to stop traveling so much for work?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Can one spouse tell another to stop traveling so much for work?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/25/carolyn-hax-spouse-stop-work-travel/",
+                        "datetime": "2024-04-25T16:01:44.883000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a7e68bb01453500000003",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Can one spouse tell another to stop traveling so much for work?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
