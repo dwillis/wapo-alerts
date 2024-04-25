@@ -28025,5 +28025,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f9292df0-032a-11ef-80b9-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FCC restores net neutrality regulations that were repealed during the Trump administration",
+            "ios": {
+                "alert": {
+                    "body": "FCC restores net neutrality regulations that were repealed during the Trump administration",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/24/net-neutrality-fcc-5g/",
+                        "datetime": "2024-04-25T17:40:57.235000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a95a9bb01453500000005",
+                        "targetTopic": "technology",
+                        "text": "The Federal Communications Commission voted 3-2 to reimpose rules first adopted in 2015 during the Obama administration. But the internet is different now, and some telecom executives are arguing that the advent of 5G requires additional exemptions, while others call such exemptions a loophole."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "80889511-0326-11ef-87c3-00000a1acebb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court seems poised to reject Trump\u2019s immunity claim in 2020 election case, in a way that further delays his D.C. trial",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court seems poised to reject Trump\u2019s immunity claim in 2020 election case, in a way that further delays his D.C. trial",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/25/supreme-court-trump-immunity-case/",
+                        "datetime": "2024-04-25T17:08:56.907000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a8e28bb01453500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "During nearly three hours of oral argument, a majority of Supreme Court justices seemed to be looking for a way to provide narrow protections for a president\u2019s core constitutional duties. But all seemed to agree a president is not shielded from prosecution for private conduct."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
