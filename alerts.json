@@ -27582,5 +27582,105 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1da1ac41-0301-11ef-8a05-00000a1acec7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The economy grew at a 1.6% annualized rate in the first quarter, as consumer spending slowed",
+            "ios": {
+                "alert": {
+                    "body": "The economy grew at a 1.6% annualized rate in the first quarter, as consumer spending slowed",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/25/gdp-2024-economy-growth/",
+                        "datetime": "2024-04-25T12:41:19.512000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a4f6f49ffbe360000000f",
+                        "targetTopic": "business",
+                        "text": "New data from the U.S. Bureau of Economic Analysis shows gross domestic product remained solid, although consumer spending slowed as higher prices weighed on the economy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2bdb6f30-02fc-11ef-8f1d-00000a1ace39",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New federal rules will slash air, water and climate pollution from U.S. power plants. Red states are certain to sue.",
+            "ios": {
+                "alert": {
+                    "body": "New federal rules will slash air, water and climate pollution from U.S. power plants. Red states are certain to sue.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/04/25/power-plant-pollution-coal-gas-epa/",
+                        "datetime": "2024-04-25T12:05:54.317000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662a472249ffbe360000000e",
+                        "targetTopic": "climate",
+                        "text": "The Environmental Protection Agency finalized an ambitious set of rules that will cut air pollution, water pollution and planet-warming emissions spewing from power plants across the country. The rules will crack down on releases of mercury, greenhouse emissions and other pollutants from power plants' smokestacks, waste dumps and wastewater discharges. Republican attorneys general are likely to challenge some or all of the regulations in court."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
