@@ -28124,5 +28124,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "40d58810-0344-11ef-9b78-00000a1ace45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "University of Southern California cancels main commencement ceremony, citing new safety measure amid protests over Israel-Gaza war",
+            "ios": {
+                "alert": {
+                    "body": "University of Southern California cancels main commencement ceremony, citing new safety measure amid protests over Israel-Gaza war",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/25/usc-cancels-main-commencement/",
+                        "datetime": "2024-04-25T20:41:54.930000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662ac0127a46cf3500000007",
+                        "targetTopic": "us",
+                        "text": "The university has also faced criticism after announcing earlier this month that it would not include a speech by its valedictorian, who is Muslim and pro-Palestinian, at the ceremony because of safety concerns. This week, more than 90 protesters were arrested after officers struggled to break up a demonstration on campus."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
