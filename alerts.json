@@ -28370,5 +28370,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cd3880b1-03de-11ef-b2da-00000a1ace0c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The most lopsided first round in NFL draft history made it clear: Offense rules, our analyst says",
+            "ios": {
+                "alert": {
+                    "body": "The most lopsided first round in NFL draft history made it clear: Offense rules, our analyst says",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/26/nfl-draft-first-round-takeaways/",
+                        "datetime": "2024-04-26T15:08:12.949000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662bc35cbb01453500000008",
+                        "targetTopic": "sports",
+                        "text": "When the NFL draft began Thursday night, the first 14 picks were offensive players. The 23 offensive players chosen in the first round shattered the previous mark of 19. The draft\u2019s biggest takeaway: Even after a season in which scoring dropped, the NFL is doubling down on this era\u2019s skew toward offense."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
