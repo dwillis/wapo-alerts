@@ -28320,5 +28320,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d4612ea0-03d9-11ef-8ce6-0000a1ace289",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Safety regulators launch new review of whether Tesla did enough to fix Autopilot",
+            "ios": {
+                "alert": {
+                    "body": "Safety regulators launch new review of whether Tesla did enough to fix Autopilot",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/04/26/tesla-nhtsa-autopilot-recall-investigation/",
+                        "datetime": "2024-04-26T14:32:37.493000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662bbb05bb01453500000007",
+                        "targetTopic": "business",
+                        "text": "Tesla recalled 2 million cars with Autopilot in December to add warnings. Federal regulators are now questioning whether the remedy goes far enough. Autopilot can still be activated on roads with cross traffic or no center median, where The Post found at least eight serious or fatal crashes have occurred."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
