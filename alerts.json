@@ -28517,5 +28517,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "53bbfa60-0414-11ef-bfdb-00000a1ace24",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Restoring sight is now possible with gene therapy",
+            "ios": {
+                "alert": {
+                    "body": "Restoring sight is now possible with gene therapy",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/bionic-eyes-blind-restore-vision/",
+                        "datetime": "2024-04-26T21:31:21.955000Z",
+                        "imageURL": "https://www.washingtonpost.com/business/interactive/2024/bionic-eyes-blind-restore-vision/",
+                        "pushID": "662c1d2949ffbe3600000015",
+                        "targetTopic": "health",
+                        "text": "Several companies are experimenting with optogenetics to create a \u201cbionic eye\u201d that can restore sight in visually impaired people."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
