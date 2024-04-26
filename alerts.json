@@ -28419,5 +28419,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "501f8140-03e9-11ef-a36b-0000a1ace835",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Secret meetings, social chatter: How the Columbia protest started a nationwide student revolt",
+            "ios": {
+                "alert": {
+                    "body": "Secret meetings, social chatter: How the Columbia protest started a nationwide student revolt",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/26/columbia-protest-students-israel-gaza/",
+                        "datetime": "2024-04-26T16:23:27.519000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662bd4ffbb01453500000009",
+                        "targetTopic": "editors_picks",
+                        "text": "The day after dozens of pro-Palestinian protesters were arrested at Columbia, hundreds of students nationwide joined a Zoom to learn how they could start their own encampments. The coordination has led to what historians now call one of the most consequential student uprisings in recent times. Here\u2019s how it unfolded."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
