@@ -28173,5 +28173,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "011f34d0-0364-11ef-9135-00000a1ace67",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "NFL draft: Chicago Bears select QB Caleb Williams first overall; Washington Commanders take QB Jayden Daniels. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "NFL draft: Chicago Bears select QB Caleb Williams first overall; Washington Commanders take QB Jayden Daniels. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/04/25/nfl-draft-live-updates-picks-analysis/",
+                        "datetime": "2024-04-26T00:29:11.958000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662af5577a46cf3500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "The first two players chosen were both former Heisman Trophy-winning quarterbacks \u2014 Williams at USC and Daniels at LSU \u2014 and more quarterbacks are expected to follow. Follow our live coverage of the first round."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
