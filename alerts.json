@@ -28468,5 +28468,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7888a7a1-03f4-11ef-a7ba-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Asia\u2019s next war could be triggered by a rusting warship on a disputed reef",
+            "ios": {
+                "alert": {
+                    "body": "Asia\u2019s next war could be triggered by a rusting warship on a disputed reef",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/26/asias-next-war-could-be-triggered-by-rusting-warship-disputed-reef/",
+                        "datetime": "2024-04-26T17:43:19.800000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662be7b7bb0145350000000a",
+                        "targetTopic": "world",
+                        "text": "In the South China Sea, tensions over competing claims by China and countries in Southeast Asia have grown more intense than at any time in recent years. The risk of armed confrontation increasingly hinges on China\u2019s efforts to block the Philippines from resupplying the crew aboard a dilapidated navy ship intentionally grounded on a contested reef to establish it as a military outpost."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
