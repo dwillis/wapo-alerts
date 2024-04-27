@@ -28763,5 +28763,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "036318c0-04c1-11ef-b672-0000a1ace1b9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A vegan cheese beat dairy in a big competition. Then the plot curdled.",
+            "ios": {
+                "alert": {
+                    "body": "A vegan cheese beat dairy in a big competition. Then the plot curdled.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/04/27/vegan-cheese-good-food-awards-climax/",
+                        "datetime": "2024-04-27T18:07:30.119000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662d3ee27cfc2e3500000001",
+                        "targetTopic": "food",
+                        "text": "When Climax Foods\u2019 plant-based blue cheese was named as a finalist in the Good Food awards, traditionalists were shaken. Its status was revoked as controversy fomented."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
