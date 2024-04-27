@@ -28812,5 +28812,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eb4b0850-04cb-11ef-8e47-0000a1acec20",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Among the 18 Trump allies indicted in Arizona this week: A senior counsel to the RNC\u2019s election integrity team",
+            "ios": {
+                "alert": {
+                    "body": "Among the 18 Trump allies indicted in Arizona this week: A senior counsel to the RNC\u2019s election integrity team",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/04/26/christina-bobb-arizona-charges-rnc-election-integrity/",
+                        "datetime": "2024-04-27T19:25:34.094000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662d512e7cfc2e3500000002",
+                        "targetTopic": "politics",
+                        "text": "When conservative lawyer and media personality Christina Bobb became the latest member of Donald Trump\u2019s inner circle to be charged for her alleged role in the effort to reverse the 2020 presidential election results, it became immediately clear she would not have to give up her day job with the Republican National Committee. Bobb\u2019s indictment solidifies her identity as a dedicated Trump loyalist and potentially elevates her role within the RNC."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
