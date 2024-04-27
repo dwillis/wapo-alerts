@@ -28714,5 +28714,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b2fc4c20-04b7-11ef-af7a-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Looking for something to watch? These are the best new TV shows and series in 2024 so far.",
+            "ios": {
+                "alert": {
+                    "body": "Looking for something to watch? These are the best new TV shows and series in 2024 so far.",
+                    "title": "Entertainment"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/tv/2024/best-tv-shows-series-watch-stream/",
+                        "datetime": "2024-04-27T17:00:49.750000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662d2f41f7e38c3500000004",
+                        "targetTopic": "entertainment",
+                        "text": "\u201cRipley,\u201d \u201cThe Sympathizer,\u201d \u201cShogun,\u201d \u201cFallout,\u201d \u201cElsbeth,\u201d \u201cConstellation\u201d and \u201cThe Girls on the Bus\u201d all make our critics\u2019 evolving list of the year\u2019s best TV shows."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
