@@ -28616,5 +28616,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1245b2c0-04a4-11ef-be41-00000a1ace67",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What happened to a man who threatened Marjorie Taylor Greene (R-Ga.): \u2018You spread hatred, and you\u2019re gonna pay for it\u2019",
+            "ios": {
+                "alert": {
+                    "body": "What happened to a man who threatened Marjorie Taylor Greene (R-Ga.): \u2018You spread hatred, and you\u2019re gonna pay for it\u2019",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/marjorie-taylor-greene-threats/",
+                        "datetime": "2024-04-27T14:40:19.694000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662d0e53f7e38c3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "In a time of rising political anger, one man going through a mental health crisis threatened the congresswoman after seeing one of her political ads. Then came the consequences."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
