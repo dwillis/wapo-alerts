@@ -28665,5 +28665,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e395adc0-04af-11ef-8376-0000a1acec1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Elaine: After a traumatic birth, new mom can\u2019t let go of debilitating fears",
+            "ios": {
+                "alert": {
+                    "body": "Ask Elaine: After a traumatic birth, new mom can\u2019t let go of debilitating fears",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/23/ask-elaine-new-mom-anxiety/",
+                        "datetime": "2024-04-27T16:04:55.106000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662d2227f7e38c3500000003",
+                        "targetTopic": "advice",
+                        "text": "Ask Elaine: After a traumatic birth, new mom can\u2019t let go of debilitating fears"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
