@@ -29106,5 +29106,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c26982f0-0597-11ef-94ba-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New details from lawsuits test Tesla\u2019s claim that drivers are solely responsible for Autopilot crashes",
+            "ios": {
+                "alert": {
+                    "body": "New details from lawsuits test Tesla\u2019s claim that drivers are solely responsible for Autopilot crashes",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/04/28/tesla-trial-autopilot-lawsuit/",
+                        "datetime": "2024-04-28T19:44:42.907000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662ea72aa439383500000001",
+                        "targetTopic": "technology",
+                        "text": "The Washington Post obtained dash-cam footage of Tesla crashes that offers sometimes-shocking details of vehicles allegedly on Autopilot. At least eight new lawsuits and a federal investigation contend that Tesla\u2019s technology invites drivers to overly trust the automation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
