@@ -29057,5 +29057,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ee564610-0587-11ef-98c6-00000a1ace68",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump met privately with his former rival DeSantis, who agreed to help with campaign fundraising, people familiar say",
+            "ios": {
+                "alert": {
+                    "body": "Trump met privately with his former rival DeSantis, who agreed to help with campaign fundraising, people familiar say",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/28/trump-desantis-meeting/",
+                        "datetime": "2024-04-28T17:51:24.615000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662e8c9c7cfc2e3500000007",
+                        "targetTopic": "politics",
+                        "text": "Former president Donald Trump and Florida Gov. Ron DeSantis met privately Sunday morning in Miami, breaking a years-long chill between the presumptive Republican nominee and his onetime chief primary rival. The meeting was friendly, according to a person with direct knowledge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
