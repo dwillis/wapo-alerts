@@ -28959,5 +28959,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "be407380-0567-11ef-8b22-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden roasted Trump at the White House correspondents\u2019 dinner \u2014 but made it clear it was no joke",
+            "ios": {
+                "alert": {
+                    "body": "Biden roasted Trump at the White House correspondents\u2019 dinner \u2014 but made it clear it was no joke",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/04/28/biden-trump-white-house-correspondents-dinner-2024/",
+                        "datetime": "2024-04-28T14:01:00.043000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662e569c7cfc2e3500000005",
+                        "targetTopic": "editors_picks",
+                        "text": "Washington\u2019s annual mashup of political humor and earnest paeans to the free press is typically a good-natured collection of one-liners and affectionate jabs at friends and enemies alike. But it was the leading 2024 presidential contenders who loomed largest."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
