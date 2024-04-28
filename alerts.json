@@ -29156,5 +29156,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "da02f610-05a3-11ef-b1a8-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A homeless woman got an apartment in an upscale D.C. building. Conflicts with neighbors and eviction notices ensued.",
+            "ios": {
+                "alert": {
+                    "body": "A homeless woman got an apartment in an upscale D.C. building. Conflicts with neighbors and eviction notices ensued.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/04/24/housing-voucher-eviction/",
+                        "datetime": "2024-04-28T21:11:16.217000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662ebb74a439383500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "In 2021, Staci Jameson had been living in a tent when she received a housing voucher for a one-bedroom apartment downtown. Soon after, she began clashing with neighbors and building management. Her case illustrates the myriad challenges that come after unhoused people are given a place to live, as well as the mental health and other support that is often needed to help them succeed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
