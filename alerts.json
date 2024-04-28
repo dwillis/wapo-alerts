@@ -28861,5 +28861,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9881be00-04eb-11ef-8b22-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They bought homes for under $1 million. Here\u2019s what they learned.",
+            "ios": {
+                "alert": {
+                    "body": "They bought homes for under $1 million. Here\u2019s what they learned.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/advice-home-buyer-tips-loans-mortgage-2024/",
+                        "datetime": "2024-04-27T23:12:19.035000Z",
+                        "imageURL": "https://www.washingtonpost.com/business/interactive/2024/advice-home-buyer-tips-loans-mortgage-2024/",
+                        "pushID": "662d86537cfc2e3500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Last year, just over 4 million existing homes sold in the United States \u2014 the lowest number in nearly three decades, according to the National Association of Realtors. Nine households that bought real estate in the past year share how they navigated the buying process during these tumultuous times."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
