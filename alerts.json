@@ -29303,5 +29303,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "331d8030-0626-11ef-95f1-00000a1ace76",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Indian intelligence officer directed plot to kill Modi critic on U.S. soil, stunning Western officials, Post investigation finds",
+            "ios": {
+                "alert": {
+                    "body": "Indian intelligence officer directed plot to kill Modi critic on U.S. soil, stunning Western officials, Post investigation finds",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/04/29/india-assassination-raw-sikhs-modi/",
+                        "datetime": "2024-04-29T12:44:20.438000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662f9624f7e38c3500000006",
+                        "targetTopic": "editors_picks",
+                        "text": "The Post has identified an officer in India\u2019s intelligence service who directed a murder-for-hire scheme to kill a Sikh activist in New York. Higher-ranking officials in the Indian service have also been implicated, according to current and former Western security officials, as part of a sprawling investigation by the CIA, FBI and other agencies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
