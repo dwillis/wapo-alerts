@@ -29401,5 +29401,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5aacf0f0-0648-11ef-9054-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal appellate court rules state health-care plans must pay for gender-affirming surgeries, a major win for transgender rights",
+            "ios": {
+                "alert": {
+                    "body": "Federal appellate court rules state health-care plans must pay for gender-affirming surgeries, a major win for transgender rights",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/04/29/gender-affirming-surgery-state-health-care-plans/",
+                        "datetime": "2024-04-29T16:48:49.782000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662fcf717cfc2e3500000009",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision came from a set of cases out of North Carolina and West Virginia, where state officials argued that their policies were based on cost concerns rather than bias. The U.S. Court of Appeals for the 4th Circuit rejected that argument, saying the plans were discriminating against trans people in need of treatment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2f4e2280-0643-11ef-b401-0000a1acecd0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is checking his phone the best way to prove he isn\u2019t lying anymore?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is checking his phone the best way to prove he isn\u2019t lying anymore?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/29/carolyn-hax-checking-phone-lying/",
+                        "datetime": "2024-04-29T16:11:49.448000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662fc6c57cfc2e3500000008",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is checking his phone the best way to prove he isn\u2019t lying anymore?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
