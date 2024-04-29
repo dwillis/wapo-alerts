@@ -29548,5 +29548,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a73f5e30-066b-11ef-b350-00000a1ace3f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The real Rick Steves is so much more complex than the travel host you see on TV",
+            "ios": {
+                "alert": {
+                    "body": "The real Rick Steves is so much more complex than the travel host you see on TV",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/2024/04/29/rick-steves-home-partner-philanthropy-washington/",
+                        "datetime": "2024-04-29T21:01:30.591000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66300aaaa439383500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "At 68, America's favorite travel expert is still working hard and speaking out on ways to make the country a little more like his beloved Europe."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
