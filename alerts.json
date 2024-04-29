@@ -29205,5 +29205,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0feeae40-05b3-11ef-ac34-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: My mom won\u2019t vent her frustrations to my dad. So she dumps them on me.",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: My mom won\u2019t vent her frustrations to my dad. So she dumps them on me.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/25/ask-sahaj-mom-vent-frustration/",
+                        "datetime": "2024-04-28T23:00:09.268000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662ed4f9f7e38c3500000005",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: My mom won\u2019t vent her frustrations to my dad. So she dumps them on me."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
