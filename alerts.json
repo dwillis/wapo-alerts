@@ -29254,5 +29254,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a7e45bf1-0617-11ef-af74-0000a1acef61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "College protests. World Central Kitchen. Tornadoes. Tesla lawsuits. Sea level rise. Low birthrates. Vegan cheese. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "College protests. World Central Kitchen. Tornadoes. Tesla lawsuits. Sea level rise. Low birthrates. Vegan cheese. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/29/what-to-know-for-april-29/?noredirect=1",
+                        "datetime": "2024-04-29T11:00:13.875000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/04-29-2024/t_ff9bdaf2ae85457b86e0d51ed964008a_name_protest_Virginia_tech.jpg&w=1440",
+                        "pushID": "662f7dbda439383500000003",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
