@@ -29499,5 +29499,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "05815f90-065b-11ef-b45d-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump on trial: Personal anguish, political defiance and a loss of control",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump on trial: Personal anguish, political defiance and a loss of control",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/04/27/trump-trial-election-2024-campaign/",
+                        "datetime": "2024-04-29T19:02:26.963000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "662feec27cfc2e350000000a",
+                        "targetTopic": "politics",
+                        "text": "Two weeks in, the first criminal trial of a former president has been personally taxing for Donald Trump and disruptive to his campaign for a return to the White House. The indictments that once helped Trump lock down the GOP nomination by firing up his base have become a serious constraint in the general election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
