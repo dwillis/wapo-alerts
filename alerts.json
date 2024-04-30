@@ -29794,5 +29794,202 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b7e9db20-06f7-11ef-bc5f-0000a1ace8f8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge in Trump\u2019s N.Y. hush money trial finds the former president in contempt for his critical public statements",
+            "ios": {
+                "alert": {
+                    "body": "Judge in Trump\u2019s N.Y. hush money trial finds the former president in contempt for his critical public statements",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/30/trump-hush-money-trial-live-updates/",
+                        "datetime": "2024-04-30T13:44:08.058000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6630f5a87cfc2e350000000f",
+                        "targetTopic": "breaking-news",
+                        "text": "Prosecutors had asked New York Supreme Court Justice Juan Merchan to find former president Donald Trump in contempt for his public statements. Trump was under a gag order after being openly critical of various people \u2014 including Merchan\u2019s adult daughter \u2014 on the campaign trail and on social media."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e9604790-06f5-11ef-8034-0000a1ace721",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rachel McAdams, Jeremy Strong and Jessica Lange are among the 2024 Tony nominees. Here is the full list.",
+            "ios": {
+                "alert": {
+                    "body": "Rachel McAdams, Jeremy Strong and Jessica Lange are among the 2024 Tony nominees. Here is the full list.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/theater/2024/04/30/tony-award-nominations-2024-list/",
+                        "datetime": "2024-04-30T13:31:12.009000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6630f2a07cfc2e350000000e",
+                        "targetTopic": "entertainment",
+                        "text": "\u201cHell\u2019s Kitchen,\u201d \u201cIllinoise,\u201d \u201cThe Outsiders,\u201d \u201cSuffs\u201d and \u201cWater for Elephants\u201d will contend for best musical at the June 16 ceremony in New York."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "19231b21-06f5-11ef-852e-000a1acecd15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A letter, and no resignation, in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A letter, and no resignation, in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-04-30T13:25:22.680000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6630f1427cfc2e350000000d",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d96ba450-06f1-11ef-a462-00000a1ace64",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "EPA bans most uses of a toxic paint stripper tied to dozens of deaths",
+            "ios": {
+                "alert": {
+                    "body": "EPA bans most uses of a toxic paint stripper tied to dozens of deaths",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/04/30/methylene-chloride-epa-ban/",
+                        "datetime": "2024-04-30T13:02:07.171000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6630ebcf7cfc2e350000000c",
+                        "targetTopic": "climate",
+                        "text": "The move bolsters the Biden administration\u2019s broader crackdown on an array of chemicals known to cause serious health effects, despite their helpful applications in everyday life. Methylene chloride is suspected of causing cancer and has been linked to at least 88 accidental deaths since 1980."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
