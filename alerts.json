@@ -29696,5 +29696,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d6911cd1-06e0-11ef-bc5f-0000a1ace8f8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Columbia protest. Charlotte shooting. Trump trial. Gender care. Emergency brakes. Postpartum depression. Sleep. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Columbia protest. Charlotte shooting. Trump trial. Gender care. Emergency brakes. Postpartum depression. Sleep. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/04/30/what-to-know-for-april-30/?noredirect=1",
+                        "datetime": "2024-04-30T11:00:21.063000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6630cf457c85633500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "092bc880-06e0-11ef-8294-00000a1aceb3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Columbia students occupy a university building as tensions continue to rise on campuses across the country",
+            "ios": {
+                "alert": {
+                    "body": "Columbia students occupy a university building as tensions continue to rise on campuses across the country",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/04/30/columbia-university-protests-palestine-news/",
+                        "datetime": "2024-04-30T10:54:36.532000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6630cdec7cfc2e350000000b",
+                        "targetTopic": "us",
+                        "text": "Student protesters at Columbia University declared overnight that they had taken over a building near the campus\u2019s South Lawn, hours after the Ivy League institution started suspending students who refused to leave a pro-Palestinian encampment on campus. At the University of Texas at Austin, police in riot gear arrested and pepper-sprayed protesters Monday afternoon."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
