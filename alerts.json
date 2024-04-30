@@ -30040,5 +30040,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e0a65800-070a-11ef-a4e0-00000a1ace2f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Her family left all the kitchen work to her, so she went on strike",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Her family left all the kitchen work to her, so she went on strike",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/04/30/carolyn-hax-family-kitchen-work/",
+                        "datetime": "2024-04-30T16:01:16.814000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663115cc7cfc2e3500000011",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Her family left all the kitchen work to her, so she went on strike"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
