@@ -30188,5 +30188,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "94f0e730-073d-11ef-b661-00000a1ace26",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A hidden force supercharged this Alabama flood \u2014 and threatens the American South",
+            "ios": {
+                "alert": {
+                    "body": "A hidden force supercharged this Alabama flood \u2014 and threatens the American South",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/flooding-sea-level-rise-gulf-coast/",
+                        "datetime": "2024-04-30T22:04:14.114000Z",
+                        "imageURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/flooding-sea-level-rise-gulf-coast/",
+                        "pushID": "66316adef7e38c3500000009",
+                        "targetTopic": "editors_picks",
+                        "text": "The U.S. Southeast and Gulf coasts are experiencing one of the world\u2019s worst bursts of sea level rise, turning some storms into flooding disasters, a Washington Post analysis found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
