@@ -30089,5 +30089,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0f313810-071b-11ef-a502-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "DEA plans to reclassify marijuana as a lower-risk drug, officials say \u2014 a major move that would ease access nationwide",
+            "ios": {
+                "alert": {
+                    "body": "DEA plans to reclassify marijuana as a lower-risk drug, officials say \u2014 a major move that would ease access nationwide",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/04/30/marijuana-restrictions-loosen/",
+                        "datetime": "2024-04-30T17:57:06.588000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663130f27cfc2e3500000012",
+                        "targetTopic": "breaking-news",
+                        "text": "The move by the Drug Enforcement Administration, first reported by the Associated Press, must receive approval from the White House Office of Management and Budget. Such a decision would not legalize marijuana at the federal level but could broaden access for medicinal use and boost the cannabis industry in states where the drug is legal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
