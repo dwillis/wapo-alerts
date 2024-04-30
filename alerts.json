@@ -30138,5 +30138,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d4dc24c0-072b-11ef-b6d7-00000a1aced3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Are most Americans getting more sleep than you? See how you compare.",
+            "ios": {
+                "alert": {
+                    "body": "Are most Americans getting more sleep than you? See how you compare.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/interactive/2024/sleep-data-survey-americans/",
+                        "datetime": "2024-04-30T19:57:10.431000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66314d16f7e38c3500000008",
+                        "targetTopic": "health",
+                        "text": "Americans gained 10 minutes of sleep per day, on average, between 2019 and 2022, but that extra time was not evenly shared. The biggest sleep gains were seen in younger adults between the ages of 25 and 34, men of all ages and people without children, according to a Post analysis of data from the American Time Use Survey."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
