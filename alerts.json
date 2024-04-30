@@ -29597,5 +29597,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "33968de0-0680-11ef-8793-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "All new cars must have automatic emergency braking systems by 2029 under new federal safety rule",
+            "ios": {
+                "alert": {
+                    "body": "All new cars must have automatic emergency braking systems by 2029 under new federal safety rule",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2024/04/29/automatic-brakes-nhtsa-rule/",
+                        "datetime": "2024-04-29T23:28:36.027000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66302d24a439383500000006",
+                        "targetTopic": "business",
+                        "text": "The standards require cars to apply brakes automatically to avoid hitting pedestrians and other vehicles, even at higher speeds. Industry groups say the rule is impractical and that no currently produced vehicles can achieve the new standard."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7de832b0-067e-11ef-8774-0000a1ace886",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "3 officers fatally shot, 5 injured while serving warrant in Charlotte, N.C.",
+            "ios": {
+                "alert": {
+                    "body": "3 officers fatally shot, 5 injured while serving warrant in Charlotte, N.C.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/04/29/charlotte-shooting-police-officers-nc/",
+                        "datetime": "2024-04-29T23:16:21.692000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66302a45a439383500000005",
+                        "targetTopic": "us",
+                        "text": "Members of a U.S. Marshals fugitive task force were met with gunfire while trying to serve a warrant. The shooter was also killed, police said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
