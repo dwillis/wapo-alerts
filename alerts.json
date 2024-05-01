@@ -30384,5 +30384,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "81b73ec1-07c0-11ef-919a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A baffling artifact in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A baffling artifact in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-01T13:41:25.609000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663246857cfc2e3500000015",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ba225e90-07be-11ef-9a5c-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Marjorie Taylor Greene says she will move to oust Speaker Mike Johnson. The House is likely to consider the motion next week.",
+            "ios": {
+                "alert": {
+                    "body": "Marjorie Taylor Greene says she will move to oust Speaker Mike Johnson. The House is likely to consider the motion next week.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/01/marjorie-taylor-greene-motion-to-vacate-house-speaker-mike-johnson/",
+                        "datetime": "2024-05-01T13:28:41.697000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663243897cfc2e3500000014",
+                        "targetTopic": "politics",
+                        "text": "The move came after weeks of threats from Greene (R-Ga.), angry that Johnson (R-La.) has worked with Democrats to pass key legislation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
