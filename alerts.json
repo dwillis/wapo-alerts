@@ -30335,5 +30335,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd1e3ee0-07a9-11ef-955a-00000a1ace22",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Columbia arrests. Trump penalty. Florida abortion ban. Marijuana. Debt relief. Student phones. Roman mystery. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Columbia arrests. Trump penalty. Florida abortion ban. Marijuana. Debt relief. Student phones. Roman mystery. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/01/what-to-know-for-may-1/?noredirect=1",
+                        "datetime": "2024-05-01T11:00:14.401000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "663220be7cfc2e3500000013",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
