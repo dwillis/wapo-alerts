@@ -30237,5 +30237,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd1e55a0-074b-11ef-9b50-0000a1acebf6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal judges strike down Louisiana's new congressional map, saying second majority Black district is unconstitutional",
+            "ios": {
+                "alert": {
+                    "body": "Federal judges strike down Louisiana's new congressional map, saying second majority Black district is unconstitutional",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/04/30/louisiana-congressional-map-ruling/",
+                        "datetime": "2024-04-30T23:47:21.890000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/04/30/louisiana-congressional-map-ruling/",
+                        "pushID": "66318309f7e38c350000000a",
+                        "targetTopic": "politics",
+                        "text": "The panel ruled Tuesday that a newly redrawn congressional map, which added a second majority Black district, violated the Equal Protection Clause and blocked the state from using the map in upcoming elections. The Louisiana legislature approved the new map in January after a federal court found that the existing map probably illegally diminished Black voting power."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
