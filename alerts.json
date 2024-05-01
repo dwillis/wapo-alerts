@@ -30286,5 +30286,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e355a7a0-0759-11ef-97e3-00000a1acec1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New York police enter Columbia University after pro-Palestinian demonstrators occupied a campus building. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "New York police enter Columbia University after pro-Palestinian demonstrators occupied a campus building. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/04/30/columbia-university-protests-palestine-news/",
+                        "datetime": "2024-05-01T01:26:51.652000Z",
+                        "imageURL": "https://www.washingtonpost.com/education/2024/04/30/columbia-university-protests-palestine-news/",
+                        "pushID": "66319a5bf7e38c350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "Officers wearing riot gear were holding zip ties on their way to the encampment where students were demanding that the Ivy League university divest from Israeli-linked companies more than six months into that country's war with Hamas."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
