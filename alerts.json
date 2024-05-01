@@ -30482,5 +30482,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "63b7c910-07c7-11ef-88f2-0000a1ace4c7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Despair at Florida clinic as 6-week abortion ban \u2014 expected to be the biggest jolt to access since Dobbs \u2014 takes effect",
+            "ios": {
+                "alert": {
+                    "body": "Despair at Florida clinic as 6-week abortion ban \u2014 expected to be the biggest jolt to access since Dobbs \u2014 takes effect",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/01/florida-abortion-clinic-6-week-ban/",
+                        "datetime": "2024-05-01T14:30:42.184000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663252127cfc2e3500000017",
+                        "targetTopic": "us",
+                        "text": "At one Fort Lauderdale-area abortion clinic, women crowded the waiting room in the final hours Tuesday before the ban took effect. More than 80,000 women get an abortion in Florida in a typical year, accounting for about 1 in 12 abortions nationwide."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "66d52090-07c5-11ef-a76a-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "About 300 protesters were arrested at Columbia University and City College overnight, NYC Mayor Eric Adams says",
+            "ios": {
+                "alert": {
+                    "body": "About 300 protesters were arrested at Columbia University and City College overnight, NYC Mayor Eric Adams says",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/05/01/columbia-university-protests-palestine-live/",
+                        "datetime": "2024-05-01T14:16:28.365000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66324ebc7cfc2e3500000016",
+                        "targetTopic": "us",
+                        "text": "Officers in riot gear on Tuesday night cleared Hamilton Hall on Columbia\u2019s campus, which was occupied by pro-Palestinian protesters, as demonstrators and authorities continue to face off on campuses across the nation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
