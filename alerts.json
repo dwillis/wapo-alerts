@@ -30580,5 +30580,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3b1bc650-07d1-11ef-b93d-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live chat: Can a restaurant charge us $900 two months before dinner? Our food critic responds and answers your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Live chat: Can a restaurant charge us $900 two months before dinner? Our food critic responds and answers your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/04/18/tom-sietsema-live-chat/",
+                        "datetime": "2024-05-01T15:41:08.621000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663262947cfc2e3500000019",
+                        "targetTopic": "food",
+                        "text": "Live chat: Can a restaurant charge us $900 two months before dinner? Our food critic responds and answers your questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4a592121-07cd-11ef-b905-00000a1ace73",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A landmark study scared women away from menopause hormone treatments. A 20-year follow-up has found fears were largely overblown.",
+            "ios": {
+                "alert": {
+                    "body": "A landmark study scared women away from menopause hormone treatments. A 20-year follow-up has found fears were largely overblown.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/05/01/menopause-hormones-hrt-safety-whi/",
+                        "datetime": "2024-05-01T15:12:56.471000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66325bf87cfc2e3500000018",
+                        "targetTopic": "health",
+                        "text": "A new analysis published in JAMA found that for many younger menopausal women \u2014 typically those under 60 \u2014 the benefits of the drugs probably outweigh the risks for the short-term treatment of menopause symptoms. The analysis shows that younger women starting menopause and experiencing symptoms can take hormone treatments for several years with a lower likelihood of adverse effects."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
