@@ -30827,5 +30827,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "076ccb00-07ff-11ef-b3a8-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House passes divisive antisemitism bill as Republicans seek to crack down on campus protests over Gaza war",
+            "ios": {
+                "alert": {
+                    "body": "House passes divisive antisemitism bill as Republicans seek to crack down on campus protests over Gaza war",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/01/antisemitism-awarness-act-campus-protests/",
+                        "datetime": "2024-05-01T21:08:58.986000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6632af6a2583973500000003",
+                        "targetTopic": "politics",
+                        "text": "Critics of the Antisemitism Awareness Act, which has some Democratic support, call the legislation an effort to silence opinions of Israel and an affront to the First Amendment. It\u2019s unclear what the bill\u2019s prospects are in the Democratic-controlled Senate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
