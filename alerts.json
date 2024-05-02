@@ -31219,5 +31219,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "76c9ec00-08a7-11ef-9b9b-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Will request for a postnup offend much younger wife?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Will request for a postnup offend much younger wife?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/02/carolyn-hax-postnup-younger-wife/",
+                        "datetime": "2024-05-02T17:14:41.463000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6633ca01f7e38c3500000011",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Will request for a postnup offend much younger wife?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
