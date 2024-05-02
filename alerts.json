@@ -31072,5 +31072,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bad43571-089a-11ef-83f6-0000a1ace705",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden urges campus protesters to refrain from violence and says demonstrations have not changed his policies",
+            "ios": {
+                "alert": {
+                    "body": "Biden urges campus protesters to refrain from violence and says demonstrations have not changed his policies",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/02/university-protests-columbia-ucla-live-news/#link-NWKNKRRXJVADHL6L66ZYDMJZOQ",
+                        "datetime": "2024-05-02T15:43:31.927000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6633b4a3f7e38c350000000e",
+                        "targetTopic": "politics",
+                        "text": "The president called on pro-Palestinian demonstrators at campuses around the country to avoid chaos and intimidation, saying that Americans have a right to peaceful protest but strongly condemning some of the tactics that have been used. \u201cWe\u2019ve all seen the images, and they put to the test two fundamental American principles,\u201d Biden said in quickly scheduled remarks at the White House. \u201cThe first is the right to free speech and for people to peacefully assemble and make their voices heard. The second is the rule of law. Both must be upheld.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
