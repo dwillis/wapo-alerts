@@ -31121,5 +31121,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6e0c6e40-08a1-11ef-9548-00000a1ace05",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden expands boundaries of two national monuments in California, protecting land that Native American tribes consider sacred",
+            "ios": {
+                "alert": {
+                    "body": "Biden expands boundaries of two national monuments in California, protecting land that Native American tribes consider sacred",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/05/02/monuments-california-san-gabriel-berryessa/",
+                        "datetime": "2024-05-02T16:31:29.575000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6633bfe1f7e38c3500000010",
+                        "targetTopic": "us",
+                        "text": "President Biden signed two proclamations enlarging the San Gabriel Mountains National Monument and the Berryessa Snow Mountain National Monument, using his executive authority to protect vast swaths of land of cultural significance to tribes and nearby communities."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6983aea0-089d-11ef-a530-00000a1ace78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A botched drone strike in Syria killed a civilian, not a terrorist as the U.S. first claimed, Defense Department acknowledges",
+            "ios": {
+                "alert": {
+                    "body": "A botched drone strike in Syria killed a civilian, not a terrorist as the U.S. first claimed, Defense Department acknowledges",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/02/syria-drone-strike-military-investigation/",
+                        "datetime": "2024-05-02T16:02:44.195000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6633b924f7e38c350000000f",
+                        "targetTopic": "breaking-news",
+                        "text": "The U.S. military\u2019s findings, to be released later Thursday, follow a Washington Post investigation that cast doubt on its initial assertion the operation last year targeted a senior al-Qaeda figure. A Defense Department official said the real suspect got away."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
