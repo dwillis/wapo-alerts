@@ -30925,5 +30925,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "26c42af0-0879-11ef-b5ab-00000a1ace90",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Body of fifth victim in Baltimore bridge collapse has been recovered, authorities say",
+            "ios": {
+                "alert": {
+                    "body": "Body of fifth victim in Baltimore bridge collapse has been recovered, authorities say",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/02/baltimore-bridge-victim-body-found/",
+                        "datetime": "2024-05-02T11:43:10.268000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66337c4ef7e38c350000000c",
+                        "targetTopic": "local",
+                        "text": "The victim, one of six construction workers who died when the Key Bridge collapsed, was identified as Miguel Angel Luna Gonzalez, 49, of Glen Burnie, Md."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1f3f7b50-0873-11ef-bdda-00000a1ace71",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "UCLA protests. Arizona abortion. Mike Johnson. Harvey Weinstein. Bird flu. Menopause drugs. Missing cat. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "UCLA protests. Arizona abortion. Mike Johnson. Harvey Weinstein. Bird flu. Menopause drugs. Missing cat. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/02/what-to-know-for-may-2/?noredirect=1",
+                        "datetime": "2024-05-02T11:00:00.528000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "663372307cfc2e350000001c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
