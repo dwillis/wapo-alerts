@@ -31759,5 +31759,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "34e80850-099a-11ef-a40f-00000a1ace34",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Claims of sexual assault, violence: How the myth of Sean Combs came undone",
+            "ios": {
+                "alert": {
+                    "body": "Claims of sexual assault, violence: How the myth of Sean Combs came undone",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/music/2024/05/03/diddy-lawsuits-allegations-sean-combs/",
+                        "datetime": "2024-05-03T22:12:18.564000Z",
+                        "imageURL": "https://www.washingtonpost.com/entertainment/music/2024/05/03/diddy-lawsuits-allegations-sean-combs/",
+                        "pushID": "663561422583973500000009",
+                        "targetTopic": "editors_picks",
+                        "text": "Diddy\u2019s downfall built up slowly and then arrived dizzyingly fast, as rumors and accusations turned into lawsuits, raids and a decaying of Combs\u2019s empire."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
