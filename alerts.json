@@ -31710,5 +31710,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "46789430-0991-11ef-b372-00000a1ace38",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. tells Qatar to evict Hamas political leaders if militant group obstructs Israeli deal for Gaza cease-fire, hostage release",
+            "ios": {
+                "alert": {
+                    "body": "U.S. tells Qatar to evict Hamas political leaders if militant group obstructs Israeli deal for Gaza cease-fire, hostage release",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/03/us-qatar-hamas-hostages-ceasefire/",
+                        "datetime": "2024-05-03T21:08:22.398000Z",
+                        "imageURL": "https://www.washingtonpost.com/national-security/2024/05/03/us-qatar-hamas-hostages-ceasefire/",
+                        "pushID": "663552462583973500000008",
+                        "targetTopic": "world",
+                        "text": "Secretary of State Antony Blinken delivered the message to Qatar\u2019s prime minister, Mohammed bin Abdulrahman Al Thani, last month, said a U.S. official. Diplomats familiar with the situation said the Gulf emirate, which has hosted Hamas\u2019s political leaders for years at the United States\u2019 request, has anticipated the request for months and advised them to devise a backup plan."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
