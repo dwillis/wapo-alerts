@@ -31366,5 +31366,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6e030910-0949-11ef-a9c8-0000a1ace665",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The economy added 175,000 jobs in April, as labor market growth slowed, compared to earlier in the year",
+            "ios": {
+                "alert": {
+                    "body": "The economy added 175,000 jobs in April, as labor market growth slowed, compared to earlier in the year",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/03/april-jobs-report/",
+                        "datetime": "2024-05-03T12:34:05.207000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6634d9bdf7e38c3500000012",
+                        "targetTopic": "business",
+                        "text": "Despite high interest rates, the labor market continues to show resilience in 2024, according to the latest data from the Bureau of Labor Statistics."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
