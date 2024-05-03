@@ -31465,5 +31465,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e7153530-095d-11ef-b0c7-00000a1aced2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Texas man\u2019s ex-partner left the state to get an abortion. Now he\u2019s asking a court for permission to investigate.",
+            "ios": {
+                "alert": {
+                    "body": "A Texas man\u2019s ex-partner left the state to get an abortion. Now he\u2019s asking a court for permission to investigate.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/05/03/texas-abortion-investigations/",
+                        "datetime": "2024-05-03T15:00:38.227000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6634fc16f7e38c3500000014",
+                        "targetTopic": "us",
+                        "text": "The previously unreported legal action reflects a potential new antiabortion strategy to block women from traveling to end their pregnancies in states where abortion is legal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
