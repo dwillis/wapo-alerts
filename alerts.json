@@ -31612,5 +31612,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "236171e0-097f-11ef-abb4-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Canada arrests three men in killing of Sikh separatist, an official says; Trudeau linked killing to Indian government",
+            "ios": {
+                "alert": {
+                    "body": "Canada arrests three men in killing of Sikh separatist, an official says; Trudeau linked killing to Indian government",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/03/hardeep-singh-nijjar-killing-arrests/",
+                        "datetime": "2024-05-03T18:58:32.783000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663533d8f7e38c3500000016",
+                        "targetTopic": "world",
+                        "text": "The three men are Indian Canadians believed to be part of an organized crime network acting on the behalf of the Indian government and its intelligence apparatus, according to the official, who spoke on the condition of anonymity to discuss a sensitive law enforcement matter.\nPrime Minister Justin Trudeau told lawmakers in September that authorities were pursuing \u201ccredible allegations\u201d that agents of the Indian government were behind the killing of Hardeep Singh Nijjar last June in Surrey, British Columbia. Nijjar, a Canadian citizen, advocated for an autonomous Sikh state in India."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4edf0201-097b-11ef-b372-00000a1ace38",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Henry Cuellar (D-Tex.) and his wife charged with accepting $600,000 in bribes from foreign companies",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Henry Cuellar (D-Tex.) and his wife charged with accepting $600,000 in bribes from foreign companies",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/03/henry-cuellar-indicted-bribery-azerbaijan-mexico/",
+                        "datetime": "2024-05-03T18:31:07.812000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66352d6ba439383500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "The congressman and his wife, Imelda Cuellar, are accused of setting up front companies that entered into sham contracts with an oil company controlled by the Azerbaijan government and a bank headquartered in Mexico. In a statement, Cuellar said he is innocent and will continue his campaign for another term."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
