@@ -31906,5 +31906,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "de7ab570-0a2b-11ef-a814-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "More senior homes refuse to pick up fallen residents, dialing 911 instead: \u2018Why are they calling us?\u2019",
+            "ios": {
+                "alert": {
+                    "body": "More senior homes refuse to pick up fallen residents, dialing 911 instead: \u2018Why are they calling us?\u2019",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/03/assisted-living-homes-senior-falls-911/",
+                        "datetime": "2024-05-04T15:34:59.725000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663655a3258397350000000c",
+                        "targetTopic": "us",
+                        "text": "Frustrated cities and states have begun fining facilities for nonemergency calls, but some just keep calling."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
