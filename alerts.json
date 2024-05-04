@@ -31857,5 +31857,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f287ec00-0a20-11ef-9df1-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The children who seem to remember past lives",
+            "ios": {
+                "alert": {
+                    "body": "The children who seem to remember past lives",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2024/05/02/children-past-lives/",
+                        "datetime": "2024-05-04T14:16:49.352000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66364351258397350000000b",
+                        "targetTopic": "editors_picks",
+                        "text": "What happens when a toddler is haunted by memories that aren\u2019t theirs? The phenomenon, with its aura of the paranormal, has long been fodder for books, academic studies and dramatized documentaries. But there is no scientific means to conclusively prove \u2014 or disprove \u2014 a mechanism that might explain how a person could recall living a past life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
