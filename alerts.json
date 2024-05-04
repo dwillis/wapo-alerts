@@ -32102,5 +32102,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c51f5a50-0a5c-11ef-a82f-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Frank Stella, celebrated artist of minimalist power, dies at 87",
+            "ios": {
+                "alert": {
+                    "body": "Frank Stella, celebrated artist of minimalist power, dies at 87",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/05/04/frank-stella-minimalist-painter-dead/",
+                        "datetime": "2024-05-04T21:25:02.943000Z",
+                        "imageURL": "https://www.washingtonpost.com/obituaries/2024/05/04/frank-stella-minimalist-painter-dead/",
+                        "pushID": "6636a7aef1a7663500000002",
+                        "targetTopic": "entertainment",
+                        "text": "Stella achieved early fame with a series of monochromatic paintings that helped establish minimalism as an alternative to abstract expressionism in the late 1950s. He then spent the next several decades creating colorful works that seemed to repudiate his youthful principles."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
