@@ -32053,5 +32053,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d6cc81d0-0a46-11ef-a6b4-00000a1ace49",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Abnormal and unprecedented\u2019: Surge in sea level rise is imperiling the American South",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Abnormal and unprecedented\u2019: Surge in sea level rise is imperiling the American South",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/southern-us-sea-level-rise-risk-cities/",
+                        "datetime": "2024-05-04T18:48:03.659000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663682e3f1a7663500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Americans from Texas to North Carolina are grappling with one of the most rapid sea level surges on Earth, one that is choking septic systems, swallowing roads and drowning wetlands. Search The Post\u2019s data to see how sea levels have changed across the region."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
