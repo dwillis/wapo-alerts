@@ -31955,5 +31955,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e67b39e0-0a33-11ef-8bfd-00000a1aced4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It\u2019s not the Kentucky Derby without a mint julep. Here are six ways to make one.",
+            "ios": {
+                "alert": {
+                    "body": "It\u2019s not the Kentucky Derby without a mint julep. Here are six ways to make one.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/05/01/mint-julep-kentucky-derby-drink-recipes/",
+                        "datetime": "2024-05-04T16:32:29.419000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6636631d258397350000000e",
+                        "targetTopic": "food",
+                        "text": "It\u2019s not the Kentucky Derby without a mint julep. Here are six ways to make one."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7eb645b0-0a2f-11ef-81a9-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: Responding to microaggressions is taking a toll on me. Can I stop?",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: Responding to microaggressions is taking a toll on me. Can I stop?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/02/ask-sahaj-microaggressions-friends-jokes/",
+                        "datetime": "2024-05-04T16:00:57.465000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66365bb9258397350000000d",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: Responding to microaggressions is taking a toll on me. Can I stop?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
