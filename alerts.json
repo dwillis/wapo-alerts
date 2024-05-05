@@ -32151,5 +32151,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "85dddf60-0a70-11ef-a376-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "25 protesters at University of Virginia arrested after violent clash with police",
+            "ios": {
+                "alert": {
+                    "body": "25 protesters at University of Virginia arrested after violent clash with police",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/04/university-protests-college-news-columbia/",
+                        "datetime": "2024-05-04T23:46:26.651000Z",
+                        "imageURL": "https://www.washingtonpost.com/nation/2024/05/04/university-protests-college-news-columbia/",
+                        "pushID": "6636c8d2f1a7663500000004",
+                        "targetTopic": "local",
+                        "text": "The university said 25 pro-Palestinian demonstrators at the University of Virginia were arrested, after law enforcement officers in riot gear surrounded a student encampment that the administration said was prohibited"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "dfabc750-0a6b-11ef-bc46-00000a1ace24",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mystik Dan finishes first in a photo finish in the 150th running of the Kentucky Derby",
+            "ios": {
+                "alert": {
+                    "body": "Mystik Dan finishes first in a photo finish in the 150th running of the Kentucky Derby",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/04/kentucky-derby-mystik-dan-winner-results-photo-finish/",
+                        "datetime": "2024-05-04T23:13:09.951000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/2024/05/04/kentucky-derby-mystik-dan-winner-results-photo-finish/",
+                        "pushID": "6636c105f1a7663500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The Derby field at Churchill Downs on Saturday also included Dornoch, who is co-owned by former MLB star Jayson Werth, and Fierceness, a colt trained by Todd Pletcher. The Triple Crown continues with the Preakness Stakes on May 18 and the Belmont Stakes on June 8."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
