@@ -32298,5 +32298,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a6a10021-0af1-11ef-a431-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Chris Pratt\u2019s demolition of a historic home to build a modern farmhouse is part of a disturbing trend",
+            "ios": {
+                "alert": {
+                    "body": "Chris Pratt\u2019s demolition of a historic home to build a modern farmhouse is part of a disturbing trend",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/home/2024/05/01/chris-pratt-tear-down/",
+                        "datetime": "2024-05-05T15:10:46.787000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6637a1762583973500000010",
+                        "targetTopic": "editors_picks",
+                        "text": "Few people realized the Zimmerman House in Los Angeles was in any danger before it was unceremoniously razed by the actor and his wife, author Katherine Schwarzenegger, who bought the mid-century home and its nearly one-acre plot last year for $12.5 million. Increasingly, preservationists say, these demos are not driven by changing tastes but rather by Americans\u2019 ravenous appetites for larger and larger homes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
