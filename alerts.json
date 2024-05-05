@@ -32396,5 +32396,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a1ded171-0b23-11ef-92e9-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Laura Loomer\u2019s far-right rhetoric has repelled many would-be MAGA allies, with one notable exception: Trump himself",
+            "ios": {
+                "alert": {
+                    "body": "Laura Loomer\u2019s far-right rhetoric has repelled many would-be MAGA allies, with one notable exception: Trump himself",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/power/2024/05/02/laura-loomer-donald-trump/",
+                        "datetime": "2024-05-05T21:08:33.580000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6637f551d6cec83500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "People around the former president apparently see Loomer \u2014 an anti-Islam, anti-immigration activist \u2014 as a liability at a time when Donald Trump\u2019s campaign (if not the candidate himself) is making a conscious effort to make their man appear less extreme, according to several sources close to the campaign\u2019s inner circle. Still, Loomer is dead set on landing a role in a second Trump administration."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
