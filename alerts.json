@@ -32837,5 +32837,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d974a300-0be9-11ef-be92-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. soldier has been detained in Russia on criminal charges, Army says",
+            "ios": {
+                "alert": {
+                    "body": "U.S. soldier has been detained in Russia on criminal charges, Army says",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/06/us-soldier-detained-russia/",
+                        "datetime": "2024-05-06T20:47:27.241000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663941dff1a7663500000009",
+                        "targetTopic": "world",
+                        "text": "An Army spokeswoman said Russia\u2019s government notified the State Department earlier this month of the soldier\u2019s detention in Vladivostok. The soldier\u2019s identity was not disclosed, and neither were the circumstances surrounding the criminal charges or why the solider was in Russia."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0fd9b670-0be4-11ef-81f6-00000a1aceb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Social Security and Medicare will run out of money in just over a decade if Congress doesn\u2019t act, report warns",
+            "ios": {
+                "alert": {
+                    "body": "Social Security and Medicare will run out of money in just over a decade if Congress doesn\u2019t act, report warns",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/06/social-security-medicare-taxes-2025/",
+                        "datetime": "2024-05-06T20:06:01.551000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66393829f1a7663500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "A hot job market has delayed the expected fiscal crash, but an aging population and rising federal debt still will put pressure on lawmakers to address the budget, the trustees for Social Security and Medicare said Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
