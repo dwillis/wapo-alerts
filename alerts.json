@@ -32788,5 +32788,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d62997b0-0bde-11ef-8357-0000a1aceb43",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Washington Post wins Pulitzer Prizes for national reporting, editorial writing and commentary",
+            "ios": {
+                "alert": {
+                    "body": "Washington Post wins Pulitzer Prizes for national reporting, editorial writing and commentary",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/05/06/washington-post-pulitzers-2024/",
+                        "datetime": "2024-05-06T19:28:37.263000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66392f65f1a7663500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "The awards recognize The Post\u2019s series on the political power and cultural impact of the AR-15 rifle, as well as editorials by veteran staffer David E. Hoffman on the troubling rise of autocracy around the world and commentary by Vladimir Kara-Murza, a contributing columnist who has been imprisoned in Russia since April 2022."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
