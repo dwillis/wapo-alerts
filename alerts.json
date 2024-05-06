@@ -32543,5 +32543,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f6b6c450-0baf-11ef-b33c-0000a1acedb5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Columbia University cancels school-wide commencement, moves ceremonies off main campus amid protests",
+            "ios": {
+                "alert": {
+                    "body": "Columbia University cancels school-wide commencement, moves ceremonies off main campus amid protests",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/06/columbia-university-cancels-commencement/",
+                        "datetime": "2024-05-06T13:53:05.243000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6638e0c1288eae3600000003",
+                        "targetTopic": "us",
+                        "text": "Columbia will instead hold \u201csmaller-scale, school-based celebrations.\u201d The university has drawn national attention for an encampment of pro-Palestinian protesters, who occupied a campus building last week before being removed by police."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d34fcf20-0baf-11ef-8a7e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Changes to the brain during what? Find out in today\u2019s On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "Changes to the brain during what? Find out in today\u2019s On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-06T13:52:06.075000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6638e086288eae3600000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b7a4bfd0-0bad-11ef-80c6-00000a1aced2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge in Trump\u2019s N.Y. hush money trial finds him in contempt on more gag order violations, warns former president of jail time",
+            "ios": {
+                "alert": {
+                    "body": "Judge in Trump\u2019s N.Y. hush money trial finds him in contempt on more gag order violations, warns former president of jail time",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/06/trump-hush-money-trial-live-updates/#link-ZS3G55FE3RGLJAY4Q7T72F2UI4",
+                        "datetime": "2024-05-06T13:37:00.265000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6638dcfcf1a7663500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "\u201cI find you in criminal contempt for the tenth time,\u201d said New York Supreme Court Justice Juan Merchan, who said he is concerned Donald Trump has not apparently taken heed from his prior findings. \u201cGoing forward, this court will have to consider a jail sentence. The last thing I want to do is put you in jail.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
