@@ -32935,5 +32935,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c469e7b0-0bf6-11ef-8357-0000a1aceb43",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel to press attack on Rafah as it negotiates possible Gaza cease-fire agreement",
+            "ios": {
+                "alert": {
+                    "body": "Israel to press attack on Rafah as it negotiates possible Gaza cease-fire agreement",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/06/israel-rafah-gaza-ceasefire-hamas/",
+                        "datetime": "2024-05-06T22:19:55.281000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6639578bf1a766350000000c",
+                        "targetTopic": "world",
+                        "text": "Israel\u2019s war cabinet said late Monday its mediators would return to the negotiating table after Hamas announced it had agreed to a Qatari-Egyptian proposal to pause fighting and release hostages. But the Israeli government also vowed to maintain military pressure on Rafah, where airstrikes and a mass evacuation order stirred panic among the more than a million displaced Palestinians sheltering there."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "197e85f0-0bf5-11ef-8235-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stars arrive for the 2024 Met Gala, themed \u2018Sleeping Beauties: Reawakening Fashion.\u2019 Follow our live red-carpet coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Stars arrive for the 2024 Met Gala, themed \u2018Sleeping Beauties: Reawakening Fashion.\u2019 Follow our live red-carpet coverage.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/05/06/met-gala-2024-live/",
+                        "datetime": "2024-05-06T22:07:59.168000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663954bff1a766350000000b",
+                        "targetTopic": "entertainment",
+                        "text": "We\u2019ll have updates from the scene and analysis of the looks, so follow along for all things Met."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
