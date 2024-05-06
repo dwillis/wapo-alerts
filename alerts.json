@@ -32494,5 +32494,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "159b6381-0ba1-11ef-8eca-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel orders 100,000 civilians to evacuate Rafah, says it will operate with \u2018extreme force\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Israel orders 100,000 civilians to evacuate Rafah, says it will operate with \u2018extreme force\u2019",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/06/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-05-06T12:06:34.733000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6638c7ca288eae3600000001",
+                        "targetTopic": "world",
+                        "text": "The southern Gazan city is home to more than a million displaced Palestinians and, according to Israel, the last Hamas battalions. Aid agencies have said there is nowhere for civilians to go and U.S. officials have warned a major operation in Rafah would be a \u201cdisaster.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
