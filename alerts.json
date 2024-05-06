@@ -32690,5 +32690,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d7f098b1-0bb5-11ef-835b-00000a1aced6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Putin is forging a new Russia: Ultraconservative, militarized and anti-West",
+            "ios": {
+                "alert": {
+                    "body": "Putin is forging a new Russia: Ultraconservative, militarized and anti-West",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/putin-values-russian-society-conservatism/",
+                        "datetime": "2024-05-06T14:35:10.818000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6638ea9e288eae3600000004",
+                        "targetTopic": "special_report",
+                        "text": "The Russian leader is harnessing his invasion of Ukraine to transform his country into a regressive, militarized state and to fulfill his vision of a restored superpower set on upending the U.S.-led global order."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
