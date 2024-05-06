@@ -32739,5 +32739,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f6c84b50-0bc1-11ef-86e0-00000a1acec7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Sisters were close \u2014 then one accused the other\u2019s husband of abuse",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Sisters were close \u2014 then one accused the other\u2019s husband of abuse",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/06/carolyn-hax-brother-in-law-abusive-sister/",
+                        "datetime": "2024-05-06T16:01:56.577000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6638fef4f1a7663500000006",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Sisters were close \u2014 then one accused the other\u2019s husband of abuse"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
