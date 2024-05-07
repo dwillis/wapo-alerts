@@ -33376,5 +33376,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3530d3e0-0c89-11ef-9de2-00000a1ace6f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stormy Daniels, testifying now, recounts how she came to meet Trump in a hotel room \u2014 and the pajamas she said he was wearing",
+            "ios": {
+                "alert": {
+                    "body": "Stormy Daniels, testifying now, recounts how she came to meet Trump in a hotel room \u2014 and the pajamas she said he was wearing",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/07/trump-hush-money-trial-live-updates/",
+                        "datetime": "2024-05-07T15:48:11.129000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a4d3bf1a7663500000014",
+                        "targetTopic": "politics",
+                        "text": "Daniels, who alleged that she had a sexual encounter with Donald Trump years before he sought the presidency, is testifying this morning in his criminal trial. Trump faces 34 counts of falsifying business records related to his reimbursement of his then-lawyer Michael Cohen for a hush money payment made to the adult-film actress shortly before the 2016 election, which was meant to keep her from publicly sharing her story."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
