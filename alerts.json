@@ -33621,5 +33621,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6c703890-0cc1-11ef-918f-00000a1ace44",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kendrick Lamar and Drake\u2019s rap feud has gotten ugly. Here\u2019s a breakdown, track by track.",
+            "ios": {
+                "alert": {
+                    "body": "Kendrick Lamar and Drake\u2019s rap feud has gotten ugly. Here\u2019s a breakdown, track by track.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/05/06/drake-kendrick-beef-diss-tracks/",
+                        "datetime": "2024-05-07T22:30:35.642000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663aab8b4021823500000003",
+                        "targetTopic": "entertainment",
+                        "text": "Since Friday, Drake and Lamar have released songs with some serious allegations against each other, igniting pro-sports levels of spectating. Full of easter eggs (and probably misinformation), it\u2019s a classic hip-hop feud with a very modern flavor."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
