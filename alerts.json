@@ -33229,5 +33229,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb54cb80-0c75-11ef-9bed-00000a1ace75",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A photo finish in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A photo finish in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-07T13:30:33.542000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a2cf9f1a7663500000012",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8dde8e80-0c73-11ef-9a38-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Adult-film actress Stormy Daniels is expected to testify today in Trump\u2019s hush money trial in N.Y. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Adult-film actress Stormy Daniels is expected to testify today in Trump\u2019s hush money trial in N.Y. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/07/trump-hush-money-trial-live-updates/#link-IODWKAEYT5FKROCIKOEXBXM7D4",
+                        "datetime": "2024-05-07T13:13:10.870000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a28e6f1a7663500000011",
+                        "targetTopic": "breaking-news",
+                        "text": "Donald Trump faces 34 counts of falsifying business records related to his reimbursement of his former lawyer Michael Cohen for a hush money payment before the 2016 election to Daniels, who alleged that she had a sexual encounter with Trump years earlier."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
