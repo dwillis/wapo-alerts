@@ -33082,5 +33082,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ee584b0-0c54-11ef-84a4-0000a1ace3b2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Vladimir Putin sworn in for a fifth term as president, positioning him as Russia\u2019s leader-for-life",
+            "ios": {
+                "alert": {
+                    "body": "Vladimir Putin sworn in for a fifth term as president, positioning him as Russia\u2019s leader-for-life",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/07/vladimir-putin-inauguration-russia-war/",
+                        "datetime": "2024-05-07T09:29:04.111000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6639f460f1a766350000000e",
+                        "targetTopic": "world",
+                        "text": "Putin, who has circumvented term limits repeatedly to remain Russia\u2019s supreme political leader for a quarter-century, was inaugurated for a new six-year term that will run through 2030. Putin has vowed to persist with his war in Ukraine and is presiding over a sweeping transformation of Russia into a regressive militarized state in conflict with America and the West."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
