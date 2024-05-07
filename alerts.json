@@ -33523,5 +33523,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9f335c30-0cb2-11ef-a60c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why Stormy Daniels\u2019s account of sex with Trump may be problematic, and other takeaways from today\u2019s hush money trial testimony",
+            "ios": {
+                "alert": {
+                    "body": "Why Stormy Daniels\u2019s account of sex with Trump may be problematic, and other takeaways from today\u2019s hush money trial testimony",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/07/trump-trial-takeaways-hush-money-stormy-daniels/",
+                        "datetime": "2024-05-07T20:44:37.984000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a92b54021823500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "The first trial of a former U.S. president took an especially surreal turn, as adult-film actress Stormy Daniels told jurors about an alleged sexual encounter with Donald Trump that she did not want, prompting a call from defense lawyers for a mistrial. Read our takeaways."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
