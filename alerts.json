@@ -33572,5 +33572,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a53f9ca0-0cb8-11ef-8879-00000a1acecb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump's classified documents trial in Florida delayed indefinitely, judge says",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump's classified documents trial in Florida delayed indefinitely, judge says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/07/trump-classified-documents-trial-delayed-cannon-florida/",
+                        "datetime": "2024-05-07T21:27:45.205000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a9cd14021823500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Judge Aileen M. Cannon canceled the May 20 start of Donald Trump's trial for allegedly withholding classified documents after leaving the White House and obstructing government efforts to get them back, saying she could not set a new date until myriad pre-trial issues are resolved. The decision increases the chances that Trump, who\u2019s on trial in New York for allegedly falsifying business records connected to a hush money payment, will not face another criminal trial before the November presidential election in which he is the likely Republican nominee."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
