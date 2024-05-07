@@ -33425,5 +33425,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c8dd40c0-0c8d-11ef-8ef0-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "TikTok files court challenge to law that could lead to its ban, setting up what could be an existential fight for the popular app",
+            "ios": {
+                "alert": {
+                    "body": "TikTok files court challenge to law that could lead to its ban, setting up what could be an existential fight for the popular app",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/05/07/tiktok-legal-challenge-law-ban/",
+                        "datetime": "2024-05-07T16:20:56.786000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a54e8f1a7663500000016",
+                        "targetTopic": "breaking-news",
+                        "text": "The filing raises a variety of legal issues arguing that the law, signed by President Biden last month and which calls for TikTok\u2019s sale within 270 days, was an unconstitutional overreach. It called for the court to block the law\u2019s enforcement until it reaches a decision on the substance of the filing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e69f3b70-0c8a-11ef-b7ab-0000a1ace835",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Husband admits to one-night stand, wants spouse to \u2018let it go\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Husband admits to one-night stand, wants spouse to \u2018let it go\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/07/carolyn-hax-husband-one-night-stand-cheater/",
+                        "datetime": "2024-05-07T16:00:17.222000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a5011f1a7663500000015",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Husband admits to one-night stand, wants spouse to \u2018let it go\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
