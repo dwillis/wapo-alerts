@@ -33131,5 +33131,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7e10ae20-0c64-11ef-b2b2-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel captures Rafah border crossing, imperiling aid efforts to Gaza",
+            "ios": {
+                "alert": {
+                    "body": "Israel captures Rafah border crossing, imperiling aid efforts to Gaza",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/07/rafah-israel-gaza-egypt-crossing/",
+                        "datetime": "2024-05-07T11:25:21.832000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a0fa1f1a7663500000010",
+                        "targetTopic": "world",
+                        "text": "The Israel Defense Forces said it has taken \u201coperational control\u201d of the Gazan side of the Rafah crossing. Egypt has condemned the move, calling it a dangerous escalation. A Gaza border official said the flow of aid into the Strip \u201cstopped completely\u201d as a result."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f516f190-0c60-11ef-be7a-0000a1ace201",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cease-fire talks. Trump warning. Tornadoes. Putin\u2019s inauguration. Social Security. Highway 1. Met Gala. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Cease-fire talks. Trump warning. Tornadoes. Putin\u2019s inauguration. Social Security. Highway 1. Met Gala. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/07/what-to-know-for-may-7/?noredirect=1",
+                        "datetime": "2024-05-07T11:00:03.765000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "663a09b3f1a766350000000f",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
