@@ -33327,5 +33327,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "08351091-0c7f-11ef-aee0-00000a1aced1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nearly 1,000 people, including 91 admirals, swept up in \u2018Fat Leonard\u2019 scandal, new book reveals. Yet only one admiral went to prison.",
+            "ios": {
+                "alert": {
+                    "body": "Nearly 1,000 people, including 91 admirals, swept up in \u2018Fat Leonard\u2019 scandal, new book reveals. Yet only one admiral went to prison.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/05/06/book-excerpt-admiral-who-had-mental-breakdown-over-fat-leonard/",
+                        "datetime": "2024-05-07T14:35:20.533000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663a3c28f1a7663500000013",
+                        "targetTopic": "special_report",
+                        "text": "Aides accused Rear Adm. Robert Gilbeau, known as \u201cCrazy Bob,\u201d of faking a mental breakdown in Afghanistan to avoid prosecution. He became the only admiral in history to be found guilty of committing a federal crime while on active duty."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
