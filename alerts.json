@@ -34161,5 +34161,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbe3e9a0-0d54-11ef-90a9-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Family pushes siblings to \u2018make amends\u2019 after their mother\u2019s death",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Family pushes siblings to \u2018make amends\u2019 after their mother\u2019s death",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/08/carolyn-hax-siblings-estrangement-grief/",
+                        "datetime": "2024-05-08T16:05:31.820000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663ba2cb288eae3600000008",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Family pushes siblings to \u2018make amends\u2019 after their mother\u2019s death"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
