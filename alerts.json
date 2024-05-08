@@ -33817,5 +33817,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c1274980-0ceb-11ef-b37b-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. paused shipments of thousands of bombs to Israel amid a rift over its battle plans for Rafah",
+            "ios": {
+                "alert": {
+                    "body": "U.S. paused shipments of thousands of bombs to Israel amid a rift over its battle plans for Rafah",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/07/biden-delays-weapons-israel-rafah/",
+                        "datetime": "2024-05-08T03:33:36.608000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663af2904021823500000006",
+                        "targetTopic": "world",
+                        "text": "In an unprecedented move, the Biden administration paused a shipment of 2,000-pound bombs and other munitions bound for Israel last week as a result of mounting concern about the country\u2019s plan to expand a military operation in southern Gaza that could dramatically increase the conflict\u2019s death toll, senior administration officials said. It is the first known instance of a pause in U.S. arms transfers since the Oct. 7 Hamas-led attack. One U.S. official described the move as a \u201cshot across the bow\u201d intended to underscore the seriousness of Washington\u2019s concerns."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
