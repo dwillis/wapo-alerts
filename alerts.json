@@ -33964,5 +33964,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5e9ae6e0-0d41-11ef-8022-00000a1aceb4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Brittney Griner landed in Russia and wound up in prison. She details what happened in a new excerpt.",
+            "ios": {
+                "alert": {
+                    "body": "Brittney Griner landed in Russia and wound up in prison. She details what happened in a new excerpt.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/05/08/brittney-griner-excerpt-russia-prison/",
+                        "datetime": "2024-05-08T13:46:28.036000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663b823402ba643500000002",
+                        "targetTopic": "opinions",
+                        "text": "This column \u2014 adapted from her memoir, \u201cComing Home\u201d \u2014 is the story of how Griner\u2019s ordeal began."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f8c1d240-0d3e-11ef-874f-00000a1ace24",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A reelection bid in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A reelection bid in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-08T13:29:18.082000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663b7e2e288eae3600000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
