@@ -34210,5 +34210,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c9183af0-0d5e-11ef-bad6-0000a1ace97f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How do you get an air fryer to make food that\u2019s actually crispy? We answered your cooking questions.",
+            "ios": {
+                "alert": {
+                    "body": "How do you get an air fryer to make food that\u2019s actually crispy? We answered your cooking questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/05/08/questions-recipe-cooking-advice/",
+                        "datetime": "2024-05-08T17:17:02.016000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663bb38e288eae3600000009",
+                        "targetTopic": "food",
+                        "text": "How do you get an air fryer to make food that\u2019s actually crispy? We answered your cooking questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
