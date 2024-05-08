@@ -34062,5 +34062,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "972a1960-0d53-11ef-99fb-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "To please Putin, Russian universities purge liberals and embrace patriotism",
+            "ios": {
+                "alert": {
+                    "body": "To please Putin, Russian universities purge liberals and embrace patriotism",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/07/russia-universities-education-putin-overhaul/",
+                        "datetime": "2024-05-08T15:56:53.785000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663ba0c5288eae3600000007",
+                        "targetTopic": "special_report",
+                        "text": "In a transformation of Russia\u2019s education system, pro-Kremlin university administrators have ousted students and professors who oppose the war in Ukraine, slashed humanities programs with ties to the West, and rewritten curriculums to emphasize nationalism."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a5d19cd0-0d4f-11ef-94cb-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Human disruptions to the planet have made it easier for diseases to spread \u2014 raising the risk of a new pandemic, study finds",
+            "ios": {
+                "alert": {
+                    "body": "Human disruptions to the planet have made it easier for diseases to spread \u2014 raising the risk of a new pandemic, study finds",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/05/08/climate-change-disease-pandemics/",
+                        "datetime": "2024-05-08T15:28:40.406000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663b9a28288eae3600000006",
+                        "targetTopic": "health",
+                        "text": "As humans degrade Earth\u2019s environment, we have created a world in which diseases may be increasingly apt to fester and multiply. Climate change and biodiversity losses encourage disease to spread, according to research published Wednesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
