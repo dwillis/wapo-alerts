@@ -33670,5 +33670,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8c6edbd1-0cc9-11ef-b23c-00000a1acec8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Final body found in Baltimore Key Bridge collapse, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Final body found in Baltimore Key Bridge collapse, officials say",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/07/last-body-found-key-bridge-collapse-baltimore/",
+                        "datetime": "2024-05-07T23:28:45.128000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663ab92dd6cec83500000003",
+                        "targetTopic": "local",
+                        "text": "Salvage crews have located the remains of the sixth and apparently final construction worker killed when the Francis Scott Key Bridge in Baltimore was struck by a ship and collapsed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "72a12291-0cc8-11ef-b98c-0000a1ace4b1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New York judge was alarmed by Trump\u2019s response to Stormy Daniels testimony, early trial transcripts show",
+            "ios": {
+                "alert": {
+                    "body": "New York judge was alarmed by Trump\u2019s response to Stormy Daniels testimony, early trial transcripts show",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/07/stormy-daniels-testimony-trump-hush-money-trial/",
+                        "datetime": "2024-05-07T23:20:52.427000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663ab7544021823500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "New York Supreme Court Justice Juan Merchan called Trump lawyer Todd Blanche to a sidebar during a midday break to say the former president was \u201ccursing audibly\u201d and shaking his head, possibly intimidating adult-film actress Stormy Daniels as she testified in Trump's falsifying records criminal trial. \u201cI am speaking to you here at the bench because I don\u2019t want to embarrass him,\" Merchan said, according to transcripts. \"You need to speak to him. I won\u2019t tolerate that.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
