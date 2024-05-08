@@ -33768,5 +33768,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a04401b0-0cda-11ef-b6a9-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "About 50 people are trapped inside a FedEx facility after a tornado hit Portage, Mich., county authorities say",
+            "ios": {
+                "alert": {
+                    "body": "About 50 people are trapped inside a FedEx facility after a tornado hit Portage, Mich., county authorities say",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/07/michigan-tornadoes-kalamazoo-portage-unioncity/",
+                        "datetime": "2024-05-08T01:30:59.984000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663ad5d34021823500000005",
+                        "targetTopic": "us",
+                        "text": "First responders were trying to get the people out but were waiting for the power company to clear downed wires blocking the way, Taylor Koopman, Kalamazoo County spokeswoman, said Tuesday evening. A nearby mobile home park was also hit hard, she said. No deaths had been reported in the city as of about 8 p.m., Portage Mayor Patricia Randall said, though crews were still assessing the damage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
