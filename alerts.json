@@ -33866,5 +33866,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c9a1ca00-0d21-11ef-9e11-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. police begin clearing, making arrests at George Washington University protest encampment",
+            "ios": {
+                "alert": {
+                    "body": "D.C. police begin clearing, making arrests at George Washington University protest encampment",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/08/gwu-protest-encampment-dc-police-arrests/",
+                        "datetime": "2024-05-08T10:00:23.634000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663b4d37d6cec83500000004",
+                        "targetTopic": "local",
+                        "text": "The move on the pro-Palestinian encampment comes hours before the District\u2019s mayor and police chief are set to testify on Capitol Hill about why they had for nearly two weeks declined requests from the university to clear it from the school\u2019s grounds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
