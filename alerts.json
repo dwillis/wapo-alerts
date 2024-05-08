@@ -33915,5 +33915,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "207c2892-0d2a-11ef-a78d-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stormy Daniels. Israel bombs. Zelensky plot. TikTok lawsuit. Michigan tornadoes. Olive oil. Whale speech. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Stormy Daniels. Israel bombs. Zelensky plot. TikTok lawsuit. Michigan tornadoes. Olive oil. Whale speech. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/08/what-to-know-for-may-8/?noredirect=1",
+                        "datetime": "2024-05-08T11:00:05.400000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "663b5b3502ba643500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
