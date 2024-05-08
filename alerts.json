@@ -34259,5 +34259,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e83b1270-0d8d-11ef-937e-0000a1ace8b2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Biden says he will stop weapons shipments if Israel invades Rafah, the most direct threat he\u2019s made since war started",
+            "ios": {
+                "alert": {
+                    "body": "President Biden says he will stop weapons shipments if Israel invades Rafah, the most direct threat he\u2019s made since war started",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/08/biden-threatens-suspension-military-aid-israel/",
+                        "datetime": "2024-05-08T22:54:20.675000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/05/08/biden-threatens-suspension-military-aid-israel/",
+                        "pushID": "663c029c4021823500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "Biden said in an interview with CNN scheduled to air Wednesday that civilians in Gaza have been killed by U.S. weapons as Israel has gone after \"population centers.\" Biden continued: \"If they go into Rafah, I\u2019m not supplying the weapons that have been used historically ... to deal with the cities.\" His acknowledgement that U.S. weapons have been used to kill civilians in Gaza and conditioning of support to the American ally is a notable change from his previous public comments on Israel's military operation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0b90a6b0-0d87-11ef-a3bc-00000a1ace90",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House overwhelmingly votes against ousting Speaker Mike Johnson, a blow to Rep. Marjorie Taylor Greene\u2019s efforts to remove him",
+            "ios": {
+                "alert": {
+                    "body": "House overwhelmingly votes against ousting Speaker Mike Johnson, a blow to Rep. Marjorie Taylor Greene\u2019s efforts to remove him",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/08/motion-to-vacate-house-speaker-marjorie-taylor-greene-mike-johnson/",
+                        "datetime": "2024-05-08T22:05:13.495000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/05/08/motion-to-vacate-house-speaker-marjorie-taylor-greene-mike-johnson/",
+                        "pushID": "663bf7194021823500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "Democrats voted with most Republicans in support of a procedural motion that effectively ends the attempt of Greene (R-Ga.) to topple Johnson (R-La.). That means the House will not consider a \u201cmotion to vacate,\u201d which would have been a direct vote on Johnson\u2019s leadership. The speaker will keep his job for now, but future ouster attempts are possible."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
