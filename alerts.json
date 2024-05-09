@@ -34749,5 +34749,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1d9fe4f0-0e2d-11ef-ac21-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Netanyahu says Israel can \u2018stand alone\u2019 after Biden warning he could halt U.S. arms",
+            "ios": {
+                "alert": {
+                    "body": "Netanyahu says Israel can \u2018stand alone\u2019 after Biden warning he could halt U.S. arms",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/09/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-05-09T17:54:00.212000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663d0db8288eae360000000d",
+                        "targetTopic": "world",
+                        "text": "Israeli Prime Minister Benjamin Netanyahu said Israel was strong enough to fight alone after President Biden threatened to halt the shipment of U.S. offensive weapons if the country moves ahead with its long-planned ground invasion of Rafah in the Gaza Strip. \u201cIf we have to stand alone, we will stand alone,\u201d Netanyahu said in a video message ahead of Israel\u2019s Independence Day."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e8857e21-0e2b-11ef-b86a-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Veterans Affairs leaders improperly approved almost $11 million in bonuses for senior executives, watchdog finds",
+            "ios": {
+                "alert": {
+                    "body": "Veterans Affairs leaders improperly approved almost $11 million in bonuses for senior executives, watchdog finds",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/09/va-bonuses-top-executives-pact-act-improper/",
+                        "datetime": "2024-05-09T17:45:21.601000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663d0bb1288eae360000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "The VA's inspector general has found that more than 180 senior executives received improper bonuses last fall, with several taking home more than $100,000. The bonuses came from money Congress had earmarked to recruit and retain specialists. VA executives have been ordered to repay the money, but some are challenging the ruling."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
