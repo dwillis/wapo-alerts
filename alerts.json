@@ -34406,5 +34406,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cdae0a60-0d98-11ef-9ec1-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Truth Social is relatively small. But Trump\u2019s posts find enormous audiences anyway, thanks to an army of amplifiers and surrogates.",
+            "ios": {
+                "alert": {
+                    "body": "Truth Social is relatively small. But Trump\u2019s posts find enormous audiences anyway, thanks to an army of amplifiers and surrogates.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2024/trump-truth-social-posts-amplifiers-right-wing-media/",
+                        "datetime": "2024-05-09T00:12:20.425000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/interactive/2024/trump-truth-social-posts-amplifiers-right-wing-media/",
+                        "pushID": "663c14e4402182350000000a",
+                        "targetTopic": "editors_picks",
+                        "text": "Those concerned about the impact of Donald Trump\u2019s incendiary and often inaccurate messages have long sought ways to limit his reach. A Washington Post analysis shows how those efforts have failed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
