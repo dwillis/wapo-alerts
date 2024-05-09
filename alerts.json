@@ -34651,5 +34651,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ccf28ee0-0e22-11ef-a67c-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. settles with two women who accused Mayor Muriel Bowser's former top aide of sexual harassment",
+            "ios": {
+                "alert": {
+                    "body": "D.C. settles with two women who accused Mayor Muriel Bowser's former top aide of sexual harassment",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/09/dc-settlement-sexual-harassment-john-falcicchio/",
+                        "datetime": "2024-05-09T16:40:09.820000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663cfc69402182350000000e",
+                        "targetTopic": "local",
+                        "text": "The terms of the settlement with the women, both of whom worked for the city, were not disclosed. The Mayor's Office of Legal Counsel had found John Falcicchio sexually harassed both of the women. Falcicchio, who was the chief of staff and former deputy mayor for planning and economic development, had resigned suddenly in March 2023 after the first accuser's complaint."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9be96760-0e1d-11ef-9ceb-00000a1acebd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Was it wrong to approach late wife\u2019s pal for no-commitment sex?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Was it wrong to approach late wife\u2019s pal for no-commitment sex?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/09/carolyn-hax-widower-friends-with-benefits/",
+                        "datetime": "2024-05-09T16:03:00.039000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663cf3b4402182350000000d",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Was it wrong to approach late wife\u2019s pal for no-commitment sex?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
