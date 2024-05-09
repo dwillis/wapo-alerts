@@ -34847,5 +34847,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3db6ed00-0e47-11ef-b12e-00000a1ace0b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The saga of Kitty Snows, D.C.\u2019s beloved blue-collar cat, and the neighbors who are fighting over her",
+            "ios": {
+                "alert": {
+                    "body": "The saga of Kitty Snows, D.C.\u2019s beloved blue-collar cat, and the neighbors who are fighting over her",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/of-interest/2024/05/09/kitty-snows-foggy-bottom-alley-cat-watergate/",
+                        "datetime": "2024-05-09T21:01:00.978000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663d398c288eae360000000e",
+                        "targetTopic": "editors_picks",
+                        "text": "She belonged to everyone and no one. She crashed college house parties and slipped into homes and napped on couches. The Foggy Bottom Association sold her likeness on T-shirts, mugs and trucker hats. And then, this February, Kitty Snows vanished."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
