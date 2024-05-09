@@ -34602,5 +34602,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5b625dd0-0e15-11ef-aa3a-00000a1aced8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stormy Daniels spars with Trump lawyer during heated cross-examination. Follow live coverage in the hush money trial.",
+            "ios": {
+                "alert": {
+                    "body": "Stormy Daniels spars with Trump lawyer during heated cross-examination. Follow live coverage in the hush money trial.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/09/trump-hush-money-trial-live-updates-stormy-daniels-testimony/",
+                        "datetime": "2024-05-09T15:03:55.918000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663ce5db288eae360000000b",
+                        "targetTopic": "politics",
+                        "text": "The exchanges between Daniels and defense lawyer Susan Necheles grew increasingly tense Thursday morning. As the two traded verbal jabs, the jurors had to turn their heads quickly back and forth to track the testimony."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
