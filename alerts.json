@@ -34357,5 +34357,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c56e0490-0d93-11ef-9a2b-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Denver Nuggets center Nikola Jokic wins NBA MVP award, becoming ninth player to receive the honor at least three times",
+            "ios": {
+                "alert": {
+                    "body": "Denver Nuggets center Nikola Jokic wins NBA MVP award, becoming ninth player to receive the honor at least three times",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/08/nikola-jokic-nba-mvp/",
+                        "datetime": "2024-05-08T23:36:19.122000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663c0c734021823500000009",
+                        "targetTopic": "sports",
+                        "text": "Jokic, 29, beat out fellow finalists Shai Gilgeous-Alexander of the Oklahoma City Thunder and Luka Doncic of the Dallas Mavericks to follow up his previous MVPs in 2021 and 2022. He finished second behind Philadelphia 76ers center Joel Embiid in 2023. The other players who have been named MVP at least three times are Kareem Abdul-Jabbar (six times), Bill Russell (five), Michael Jordan (five), Wilt Chamberlain (four), LeBron James (four), Moses Malone (three), Larry Bird (three) and Magic Johnson (three)."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
