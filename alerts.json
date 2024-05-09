@@ -34455,5 +34455,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "45f6f040-0df3-11ef-96fb-00000a1aceb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel weapons. Trump meeting. House speaker. Tornadoes. Brain worms. Pandemic risk. \u2018The Office.\u2019 Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Israel weapons. Trump meeting. House speaker. Tornadoes. Brain worms. Pandemic risk. \u2018The Office.\u2019 Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/09/what-to-know-for-may-9/?noredirect=1",
+                        "datetime": "2024-05-09T10:59:57.111000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "663cacad288eae360000000a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
