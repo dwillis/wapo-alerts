@@ -34504,5 +34504,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c1827740-0dfb-11ef-8ddf-0000a1ace69f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump asked oil CEOs at Mar-a-Lago to raise $1 billion for his campaign, vowed to target EVs, say people who knew of meeting",
+            "ios": {
+                "alert": {
+                    "body": "Trump asked oil CEOs at Mar-a-Lago to raise $1 billion for his campaign, vowed to target EVs, say people who knew of meeting",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/09/trump-oil-industry-campaign-money/",
+                        "datetime": "2024-05-09T12:00:40.356000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663cbae8402182350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "At a meeting last month at his Florida club, Donald Trump told some of the nation\u2019s top oil executives they should invest in his presidential campaign instead of spending huge sums lobbying the Biden administration, according to people with knowledge of the meeting, who spoke on the condition of anonymity to describe a private conversation. Trump told the executives that if he returns to office, he would quickly reverse President Biden\u2019s climate and energy policies. The result, Trump said, would be more offshore oil drilling, exports of liquified natural gas and support for gas-powered cars, instead of electric vehicles."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
