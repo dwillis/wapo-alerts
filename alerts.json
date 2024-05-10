@@ -34945,5 +34945,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "871b66b0-0ec9-11ef-800e-00000a1ace16",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Paul Manafort is poised to rejoin Trump world. But his global ties, including support for a Chinese media deal, complicate things.",
+            "ios": {
+                "alert": {
+                    "body": "Paul Manafort is poised to rejoin Trump world. But his global ties, including support for a Chinese media deal, complicate things.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/10/paul-manafort-pardon-donald-trump-china/",
+                        "datetime": "2024-05-10T12:33:38.721000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663e1422288eae360000000f",
+                        "targetTopic": "breaking-news",
+                        "text": "The former Trump campaign chairman, who\u2019s likely to help manage this summer\u2019s GOP convention, resumed consulting work after being pardoned in 2020."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
