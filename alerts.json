@@ -35190,5 +35190,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c8155480-0f0c-11ef-92c4-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A severe solar storm is hitting Earth. It could disrupt communications systems but show off the Northern Lights.",
+            "ios": {
+                "alert": {
+                    "body": "A severe solar storm is hitting Earth. It could disrupt communications systems but show off the Northern Lights.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/10/northern-lights-solar-storm-where-to-watch/",
+                        "datetime": "2024-05-10T20:35:04.015000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663e84f8eae4213500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "The severe geomagnetic storm is the most intense in two decades and resulted from multiple solar eruptions that hurtled toward Earth. If the storm holds its strength, auroras could be seen with the naked eye at night as far south as Alabama and California."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
