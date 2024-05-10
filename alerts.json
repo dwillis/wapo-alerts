@@ -34896,5 +34896,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7130aa71-0ebc-11ef-94ac-00000a1aced3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stormy Daniels. U.S.-Israel rift. Police shooting. Deaf baby. iPad ad. Eurovision. Northern lights. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Stormy Daniels. U.S.-Israel rift. Police shooting. Deaf baby. iPad ad. Eurovision. Northern lights. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/10/what-to-know-for-may-10/?noredirect=1",
+                        "datetime": "2024-05-10T10:59:58.449000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "663dfe2e402182350000000f",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
