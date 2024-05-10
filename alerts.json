@@ -35092,5 +35092,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db36f591-0ee0-11ef-ae53-00000a1ace26",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s what actually happens within your lawn when you don\u2019t mow it: An interactive guide",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s what actually happens within your lawn when you don\u2019t mow it: An interactive guide",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-solutions/interactive/2024/no-mow-lawn-care-tips/",
+                        "datetime": "2024-05-10T15:20:37.974000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663e3b45288eae3600000012",
+                        "targetTopic": "editors_picks",
+                        "text": "Follow this step-by-step process to let your grass grow and discover why it helps flowers, birds and bees."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
