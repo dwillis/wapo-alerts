@@ -35239,5 +35239,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b08f2701-0f1b-11ef-8e8e-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New limits on credit card late fees won\u2019t take effect as planned. A court issued a temporary injunction after banking groups sued.",
+            "ios": {
+                "alert": {
+                    "body": "New limits on credit card late fees won\u2019t take effect as planned. A court issued a temporary injunction after banking groups sued.",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/10/judge-halts-limiting-credit-card-fees/",
+                        "datetime": "2024-05-10T22:21:46.944000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663e9dfa288eae3600000014",
+                        "targetTopic": "business",
+                        "text": "The Consumer Financial Protection Bureau had sought to cap most fees at $8 per month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
