@@ -34994,5 +34994,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "08bd4f00-0ed2-11ef-ada6-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-10T13:34:31.966000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663e2267288eae3600000011",
+                        "targetTopic": "news_quiz",
+                        "text": "Think you\u2019ve got what it takes to earn a perfect score? Take today\u2019s longer news quiz and complete your point total for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b49334a1-0ecf-11ef-9009-00000a1ace36",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Confederate leaders\u2019 names will be restored to two Virginia schools, after school board reverses 2020 changes",
+            "ios": {
+                "alert": {
+                    "body": "Confederate leaders\u2019 names will be restored to two Virginia schools, after school board reverses 2020 changes",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/05/10/shenandoah-county-school-board-confederate-school-names/",
+                        "datetime": "2024-05-10T13:17:51.947000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663e1e7f288eae3600000010",
+                        "targetTopic": "us",
+                        "text": "The Shenandoah County schools will once again be called Stonewall Jackson High School and Ashby Lee Elementary School. The move comes four years after the Confederate generals\u2019 names were removed during the national reckoning about race sparked by the killing of George Floyd."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
