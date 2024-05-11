@@ -35289,5 +35289,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bb104330-0f20-11ef-b3a6-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden administration says Israel may have violated humanitarian law using U.S. weapons but that conclusive evidence is lacking",
+            "ios": {
+                "alert": {
+                    "body": "Biden administration says Israel may have violated humanitarian law using U.S. weapons but that conclusive evidence is lacking",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/10/biden-israel-gaza-us-weapons/",
+                        "datetime": "2024-05-10T22:57:52.045000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663ea670288eae3600000015",
+                        "targetTopic": "breaking-news",
+                        "text": "The Biden administration said it was \u201creasonable to assess\u201d that Israel violated international law using U.S. weapons in its military campaign in Gaza but it found that it did not have enough information to draw a conclusion in any specific instances, meaning U.S. military aid could continue to flow to the country."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
