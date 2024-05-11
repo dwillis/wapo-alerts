@@ -35486,5 +35486,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f7cd2e80-0fae-11ef-851e-00000a1ace58",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Despite warnings of violence at UCLA, police didn\u2019t step in to quell attack on protesters for over 3 hours",
+            "ios": {
+                "alert": {
+                    "body": "Despite warnings of violence at UCLA, police didn\u2019t step in to quell attack on protesters for over 3 hours",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/05/11/ucla-protests-police-inaction-fights/",
+                        "datetime": "2024-05-11T15:56:02.388000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663f9512b231de3500000004",
+                        "targetTopic": "us",
+                        "text": "The delayed response prolonged an April 30 attack on a pro-Palestinian encampment on campus, one of the most violent altercations during this spring\u2019s wave of campus protests. A Washington Post examination \u2014 based on more than 200 videos, emergency radio transmissions and other evidence \u2014 found that more than a dozen people were visibly injured before police stepped in. The Post also found that faculty had raised concerns for days about verbal and physical harassment directed at protesters, raising questions about whether the school should have had more police on hand to prevent an altercation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
