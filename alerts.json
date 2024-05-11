@@ -35584,5 +35584,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c3a35650-0fba-11ef-9c95-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "'There is an important message I am ready to scream out loud' this Mother's Day, writes Olena Zelenska, the first lady of Ukraine",
+            "ios": {
+                "alert": {
+                    "body": "'There is an important message I am ready to scream out loud' this Mother's Day, writes Olena Zelenska, the first lady of Ukraine",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/05/11/ukraine-mothers-day-first-lady/",
+                        "datetime": "2024-05-11T17:20:29.001000Z",
+                        "imageURL": "https://www.washingtonpost.com/opinions/2024/05/11/ukraine-mothers-day-first-lady/",
+                        "pushID": "663fa8ddae7f9a3500000001",
+                        "targetTopic": "opinions",
+                        "text": "Six-year-old Renat and 10-year-old Varvara were living in Mariupol \u2014 the city wiped from the face of the Earth by Russian bombing \u2014 when they were sent to an orphanage in Russia. They were torn from their mother, who had been taken prisoner."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
