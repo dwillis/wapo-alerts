@@ -35338,5 +35338,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "37399c90-0f44-11ef-9bcb-0000a1ace463",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Most extreme solar storm in 20 years brings beautiful northern lights",
+            "ios": {
+                "alert": {
+                    "body": "Most extreme solar storm in 20 years brings beautiful northern lights",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/10/northern-lights-aurora-borealis-photos-us/",
+                        "datetime": "2024-05-11T03:11:52.379000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663ee1f8b231de3500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "An extreme geomagnetic storm hit Earth for the first time in over 20 years, causing stunning aurora displays across Europe and very low latitudes in the U.S."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
