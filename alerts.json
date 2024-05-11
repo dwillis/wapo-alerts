@@ -35682,5 +35682,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "88562cc0-0fde-11ef-9684-0000a1aced60",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Scientists tracked a young whale\u2019s journey before he vanished. What they learned could help save his species.",
+            "ios": {
+                "alert": {
+                    "body": "Scientists tracked a young whale\u2019s journey before he vanished. What they learned could help save his species.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/north-atlantic-right-whale-species-challenges/",
+                        "datetime": "2024-05-11T21:36:31.112000Z",
+                        "imageURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/north-atlantic-right-whale-species-challenges/",
+                        "pushID": "663fe4dfae7f9a3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Bishop was luckier than many in his family on his trip from Florida to Maine \u2014 a harrowing journey that has killed many other North Atlantic right whales. Bishop\u2019s story shows the extreme danger facing right whales, which could be extinct in three decades if they continue to disappear at the present rate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
