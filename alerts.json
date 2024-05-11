@@ -35436,5 +35436,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ef48f10-0fa5-11ef-8cbb-00000a1ace55",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Social Security has to be fixed. But you still need your own savings, our personal finance columnist says.",
+            "ios": {
+                "alert": {
+                    "body": "Social Security has to be fixed. But you still need your own savings, our personal finance columnist says.",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/08/social-security-shortfall-retirement-savings/",
+                        "datetime": "2024-05-11T14:46:26.873000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663f84c2b231de3500000003",
+                        "targetTopic": "business",
+                        "text": "Congress needs to find a solution to Social Security's upcoming shortfall. In the meantime, here are three moves to get started on a retirement plan."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
