@@ -35633,5 +35633,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fbdaac30-0fc9-11ef-86ea-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New book reveals how \u2018Fat Leonard\u2019 compromised two admirals in charge of Navy intelligence",
+            "ios": {
+                "alert": {
+                    "body": "New book reveals how \u2018Fat Leonard\u2019 compromised two admirals in charge of Navy intelligence",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/05/07/how-fat-leonard-compromised-admirals-charge-navy-intelligence/",
+                        "datetime": "2024-05-11T19:09:25.578000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "663fc265c9d40f3500000001",
+                        "targetTopic": "special_report",
+                        "text": "Confidential transcripts show prosecutors interrogated the Navy\u2019s intelligence chief and a deputy about defense contractor Leonard Glenn Francis\u2019s allegations that he provided them with meals, gifts and women. Both denied wrongdoing, but 10 other officers admitted to leaking military secrets."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
