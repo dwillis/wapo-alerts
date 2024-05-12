@@ -36025,5 +36025,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c5341850-1092-11ef-abc5-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Putin reassigns defense minister in shake-up of Kremlin security chiefs, as Russia accelerates war in Ukraine",
+            "ios": {
+                "alert": {
+                    "body": "Putin reassigns defense minister in shake-up of Kremlin security chiefs, as Russia accelerates war in Ukraine",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/12/defense-minister-shoigu-ousted-russia/",
+                        "datetime": "2024-05-12T19:06:42.798000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66411342b231de350000000a",
+                        "targetTopic": "world",
+                        "text": "Sergei Shoigu, the longtime Russian defense minister who came under heavy criticism for Russia\u2019s losses early in its war against Ukraine, has been reassigned and will serve as secretary of the country\u2019s national security and defense council. The security council\u2019s current head, Nikolai Patrushev, was ousted and will take another job, Kremlin spokesman Dmitry Peskov said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
