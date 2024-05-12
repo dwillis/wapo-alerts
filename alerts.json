@@ -35976,5 +35976,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9080d160-1089-11ef-b6e9-000a1ace3dc9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s where you can see northern lights from the next solar storm this evening",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s where you can see northern lights from the next solar storm this evening",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/12/northern-lights-forecast-solar-storm-where-to-see/",
+                        "datetime": "2024-05-12T18:00:49.026000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664103d1b231de3500000009",
+                        "targetTopic": "us",
+                        "text": "Sunday night could offer another excellent opportunity to see the auroras unusually far south."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
