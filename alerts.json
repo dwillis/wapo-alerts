@@ -35731,5 +35731,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "06f2a0a0-1010-11ef-a848-0000a1ace01f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Roger Corman dies at 98. The low-budget filmmaker launched the careers of many actors and directors.",
+            "ios": {
+                "alert": {
+                    "body": "Roger Corman dies at 98. The low-budget filmmaker launched the careers of many actors and directors.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/05/11/roger-corman-movies-dead/",
+                        "datetime": "2024-05-12T03:30:49.094000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664037e9ae7f9a3500000003",
+                        "targetTopic": "entertainment",
+                        "text": "While making films on the cheap, Roger Corman became a \u201ccinematic godfather\u201d to Jack Nicholson, Francis Ford Coppola and others whose careers he boosted."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
