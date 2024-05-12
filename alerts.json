@@ -36074,5 +36074,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a4215910-10a2-11ef-a101-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "California\u2019s Highway 1 is iconic. It is also becoming a climate change challenge the state can\u2019t surmount.",
+            "ios": {
+                "alert": {
+                    "body": "California\u2019s Highway 1 is iconic. It is also becoming a climate change challenge the state can\u2019t surmount.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/05/07/california-highway1-climate-change-landslide/",
+                        "datetime": "2024-05-12T21:00:19.340000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66412de3ae7f9a3500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "Highway 1 is a road trip mecca, especially as it hugs the steep cliffs of Big Sur. But storms, fires and sea level rise threaten the future of this coastal highway, and landslides continue to force closures. The latest hurried repair job has workers dangling from a cliff face."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
