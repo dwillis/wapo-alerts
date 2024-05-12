@@ -35780,5 +35780,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a4e59540-1067-11ef-9bde-0000a1ace8d5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Crossword and a coffee: Solve the Sunday puzzle now",
+            "ios": {
+                "alert": {
+                    "body": "Crossword and a coffee: Solve the Sunday puzzle now",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/crossword-puzzles/sunday-evan-birnholz/",
+                        "datetime": "2024-05-12T13:58:00.174000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6640cae8b231de3500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Crossword and a coffee: Solve the Sunday puzzle now"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
