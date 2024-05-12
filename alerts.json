@@ -35829,5 +35829,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5197fa60-1074-11ef-a129-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A mystery illness stole their kids\u2019 personalities. These moms fought for answers.",
+            "ios": {
+                "alert": {
+                    "body": "A mystery illness stole their kids\u2019 personalities. These moms fought for answers.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/05/12/down-syndrome-regression-disorder-mothers-support/",
+                        "datetime": "2024-05-12T15:28:44.018000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6640e02cb231de3500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "Their children\u2019s decline was precipitous and dramatic, with patients losing function in days or weeks, including the ability to talk, move or take care of themselves."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
