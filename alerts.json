@@ -36417,5 +36417,105 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f992b5e0-1167-11ef-9dbd-00000a1ace0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Schumer\u2019s long-awaited \u2018road map\u2019 for regulating AI is coming this week. It will cost billions.",
+            "ios": {
+                "alert": {
+                    "body": "Schumer\u2019s long-awaited \u2018road map\u2019 for regulating AI is coming this week. It will cost billions.",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/05/13/congress-ai-laws-research-regulation-schumer/",
+                        "datetime": "2024-05-13T20:32:53.531000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664278f5865a7c3600000003",
+                        "targetTopic": "technology",
+                        "text": "A bipartisan group of senators including Majority Leader Charles E. Schumer will unveil a long-awaited \u201croad map\u201d for regulating artificial intelligence this week, directing Congress to infuse billions of dollars into research and development of the technology, according to people who have been briefed on the plan. The plan, which is not yet finalized, reviews a host of issues \u2014 including AI\u2019s impact on the military, health care and workers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4da18440-1163-11ef-b6ec-0000a1aced20",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Are pizza boxes recyclable or not? Here are three recycling myths you should discard.",
+            "ios": {
+                "alert": {
+                    "body": "Are pizza boxes recyclable or not? Here are three recycling myths you should discard.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-solutions/2024/05/13/can-you-recycle-pizza-boxes/",
+                        "datetime": "2024-05-13T19:59:26.913000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6642711e865a7c3600000002",
+                        "targetTopic": "climate",
+                        "text": "Recycling has been around for decades, and yet many questions about what can \u2014 and can\u2019t \u2014 go into our bins persist. Here\u2019s what to do with pizza boxes, why not all paper products are recyclable and how clean things have to be before they go in the bin."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
