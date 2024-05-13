@@ -36172,5 +36172,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8259b662-112e-11ef-846e-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michael Cohen is on the witness stand in Trump\u2019s hush money trial in New York. Follow our coverage as the former fixer testifies.",
+            "ios": {
+                "alert": {
+                    "body": "Michael Cohen is on the witness stand in Trump\u2019s hush money trial in New York. Follow our coverage as the former fixer testifies.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/13/trump-hush-money-trial-live-updates/",
+                        "datetime": "2024-05-13T13:41:32.231000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6642188cb231de350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "Prosecutors will ask Cohen, an outspoken critic of Donald Trump and the trial\u2019s most anticipated witness, to show that Trump was directly involved in falsifying business records to keep secret a $130,000 hush money payment to adult-film actress Stormy Daniels ahead of the 2016 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4346ab00-112d-11ef-b0b0-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A state\u2019s official gesture in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A state\u2019s official gesture in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-13T13:32:36.872000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66421674b231de350000000c",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f6316110-1128-11ef-be8c-00000a1ace72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. Mayor Bowser\u2019s approval rating drops below majority for first time in her tenure, Washington Post-Schar School poll finds",
+            "ios": {
+                "alert": {
+                    "body": "D.C. Mayor Bowser\u2019s approval rating drops below majority for first time in her tenure, Washington Post-Schar School poll finds",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/13/dc-poll-bowser-mayor-approval-rating/",
+                        "datetime": "2024-05-13T13:01:49.590000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66420f3db231de350000000b",
+                        "targetTopic": "local",
+                        "text": "Fewer than half of D.C. residents \u2014 46 percent \u2014 say they approve of Mayor Muriel E. Bowser\u2019s overall job performance, a decrease from 58 percent in a 2022 Post-Schar School poll and 67 percent in both 2019 and 2017. Residents continue to give her negative marks for her efforts to reduce crime while growing increasingly critical of her handling of other major issues, like addressing homelessness and improving the city\u2019s public schools."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
