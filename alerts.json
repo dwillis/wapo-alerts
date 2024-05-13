@@ -36368,5 +36368,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3e012710-1155-11ef-b241-00000a1acef6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michael Cohen testifies that hush money deal \u2018was all about the campaign,\u2019 says Trump \u2018wasn\u2019t thinking about Melania\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Michael Cohen testifies that hush money deal \u2018was all about the campaign,\u2019 says Trump \u2018wasn\u2019t thinking about Melania\u2019",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/13/trump-hush-money-trial-live-updates/",
+                        "datetime": "2024-05-13T18:18:47.909000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66425987865a7c3600000001",
+                        "targetTopic": "politics",
+                        "text": "Donald Trump\u2019s former lawyer and fixer is back on the witness stand after telling jurors before a lunch break that the hush money payment to Stormy Daniels was an effort to keep her quiet as Trump ran for president in 2016. Michael Cohen\u2019s testimony is key for prosecutors, who are seeking to prove Trump falsified records as a way to keep the hush money payment from public view."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
