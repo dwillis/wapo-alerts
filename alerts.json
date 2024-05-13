@@ -36319,5 +36319,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e03220b0-1142-11ef-b75f-00000a1acedb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: What\u2019s the real cost of going halfsies on a modest engagement ring?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: What\u2019s the real cost of going halfsies on a modest engagement ring?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/13/carolyn-hax-engagement-ring-split-cost/",
+                        "datetime": "2024-05-13T16:07:19.594000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66423ab7b231de350000000e",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: What\u2019s the real cost of going halfsies on a modest engagement ring?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
