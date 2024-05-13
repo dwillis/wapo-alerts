@@ -36517,5 +36517,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "28ee9e60-1174-11ef-aa69-0000a1ace429",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Our personal finance expert cuts through the bad money advice proliferating on social media",
+            "ios": {
+                "alert": {
+                    "body": "Our personal finance expert cuts through the bad money advice proliferating on social media",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/financial-advice-tiktok-quiz/",
+                        "datetime": "2024-05-13T22:00:06.934000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66428d66865a7c3600000004",
+                        "targetTopic": "business",
+                        "text": "About a third of U.S. adults turn to social media for guidance on managing their money. The personal finance team, led by advice columnist Michelle Singletary, scanned the most popular hashtags on TikTok, looking for top money videos. Take our quiz to see if you can spot sensible suggestions from foolish recommendations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
