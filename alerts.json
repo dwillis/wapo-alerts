@@ -36910,5 +36910,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1ba5eb90-1210-11ef-967b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nobel-winning author Alice Munro has died at 92. The Canadian writer was celebrated as a master of the short story.",
+            "ios": {
+                "alert": {
+                    "body": "Nobel-winning author Alice Munro has died at 92. The Canadian writer was celebrated as a master of the short story.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/05/14/alice-munro-author-canada-dead/",
+                        "datetime": "2024-05-14T16:36:25.697000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664393096d22423500000006",
+                        "targetTopic": "entertainment",
+                        "text": "Munro was a towering woman of letters whose works of short fiction often illuminated the emotional landscape of seemingly ordinary lives. She received the Nobel Prize in 2013, months after announcing she was ending her literary career because of health problems."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3ed632a0-120b-11ef-99a1-0000a1ace873",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is it \u2018charming\u2019 to stage a surprise wedding at a family reunion?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is it \u2018charming\u2019 to stage a surprise wedding at a family reunion?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/14/carolyn-hax-surprise-wedding-family-reunion/",
+                        "datetime": "2024-05-14T16:01:37.718000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66438ae16d22423500000005",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is it \u2018charming\u2019 to stage a surprise wedding at a family reunion?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
