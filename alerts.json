@@ -37107,5 +37107,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5fe52b11-122c-11ef-aeff-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ship that struck Baltimore bridge suffered two electrical blackouts that disabled key equipment, federal investigators find",
+            "ios": {
+                "alert": {
+                    "body": "Ship that struck Baltimore bridge suffered two electrical blackouts that disabled key equipment, federal investigators find",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/14/baltimore-key-bridge-collapse-ntsb-report/",
+                        "datetime": "2024-05-14T19:58:46.472000Z",
+                        "imageURL": "https://www.washingtonpost.com/dc-md-va/2024/05/14/baltimore-key-bridge-collapse-ntsb-report/",
+                        "pushID": "6643c2761369123500000003",
+                        "targetTopic": "local",
+                        "text": "The ship that knocked down Baltimore\u2019s Francis Scott Key Bridge experienced multiple electrical failures ahead of the crash, safety investigators said in a preliminary report released Tuesday. (edited)"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
