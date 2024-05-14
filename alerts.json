@@ -36567,5 +36567,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5175a21-117f-11ef-ab5d-0000a1ace153",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden signs bill banning Russian uranium imports, key to nuclear fuel supply",
+            "ios": {
+                "alert": {
+                    "body": "Biden signs bill banning Russian uranium imports, key to nuclear fuel supply",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/13/russian-uranium-imports-ban/",
+                        "datetime": "2024-05-13T23:22:46.463000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6642a0c6865a7c3600000005",
+                        "targetTopic": "world",
+                        "text": "Until now, U.S. companies have paid a Russian firm about $1 billion a year for enriched uranium, the main fuel used by nuclear power plants. The new law further sanctions the Kremlin for its war in Ukraine and is expected to give a boost to America\u2019s uranium industry."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
