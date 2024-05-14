@@ -36812,5 +36812,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "57cd37c0-1208-11ef-82ee-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michael Cohen tells jurors in Trump\u2019s trial about allegedly false invoices and records, and his own lies to Congress. Follow live.",
+            "ios": {
+                "alert": {
+                    "body": "Michael Cohen tells jurors in Trump\u2019s trial about allegedly false invoices and records, and his own lies to Congress. Follow live.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/14/trump-hush-money-trial-michael-cohen-live-updates/",
+                        "datetime": "2024-05-14T15:40:51.132000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664386036d22423500000004",
+                        "targetTopic": "politics",
+                        "text": "In his second day on the stand, the key prosecution witness looked at records that classified his reimbursement payments as a legal retainer, which Cohen said was a false description. Trump is accused of falsifying the records to cover up a hush money payment by Cohen to adult-film actress Stormy Daniels before the 2016 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "42c0d3f0-1203-11ef-9ce0-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Joe Biden nearly died after a misdiagnosis decades ago. His surgeon recounts saving his life.",
+            "ios": {
+                "alert": {
+                    "body": "Joe Biden nearly died after a misdiagnosis decades ago. His surgeon recounts saving his life.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/14/biden-nearly-died-an-aneurysm-risky-surgery-changed-his-life/",
+                        "datetime": "2024-05-14T15:04:28.322000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66437d7c6d22423500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Biden woke up fully clothed on a hotel room floor in 1988 with an excruciating pain in his head \u2014 the signs of a burst brain aneurysm. Only a risky, 100-mile journey to D.C. and then hours of brain surgery saved his life. As voters now question the 81-year-old\u2019s health, doctors say the episode carries little long-term risk, although the near miss changed his life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
