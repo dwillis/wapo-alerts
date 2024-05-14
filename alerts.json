@@ -37008,5 +37008,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4b5072d1-1228-11ef-bcd1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Arizona prosecutors haven't been able to serve Rudy Giuliani his indictment",
+            "ios": {
+                "alert": {
+                    "body": "Arizona prosecutors haven't been able to serve Rudy Giuliani his indictment",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/14/rudy-giuliani-arizona-charges/",
+                        "datetime": "2024-05-14T19:29:34.073000Z",
+                        "imageURL": "https://www.washingtonpost.com/national-security/2024/05/14/rudy-giuliani-arizona-charges/",
+                        "pushID": "6643bb9e1369123500000002",
+                        "targetTopic": "politics",
+                        "text": "Nearly three weeks ago, the former New York mayor was charged in Arizona in connection with actions he allegedly took after the 2020 presidential election to try to reverse Donald Trump's loss in the state. Two state attorney general agents traveled to New York to hand-deliver a summons to Giuliani but weren't able to get past a doorman. Other attempts have also failed. If Giuliani doesn't appear in court on May 21, he could be held in contempt."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8c93e500-1224-11ef-af23-000a1ace1bd4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A group of TikTok creators has filed a lawsuit asking court to block law that could lead to TikTok ban",
+            "ios": {
+                "alert": {
+                    "body": "A group of TikTok creators has filed a lawsuit asking court to block law that could lead to TikTok ban",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/05/14/tiktok-creators-lawsuit-ban/",
+                        "datetime": "2024-05-14T19:02:45.529000Z",
+                        "imageURL": "https://www.washingtonpost.com/technology/2024/05/14/tiktok-creators-lawsuit-ban/",
+                        "pushID": "6643b5551369123500000001",
+                        "targetTopic": "technology",
+                        "text": "Eight TikTok creators filed the suit before the U.S. Court of Appeals for the District of Columbia Circuit, saying the law that requires the sale of TikTok by its Chinese parent company or risk its ban violates their First Amendment rights. The law firm that filed the suit, Davis Wright Tremaine of Seattle, has won other lawsuits seeking to block previous efforts to ban the app."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
