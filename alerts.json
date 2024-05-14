@@ -36714,5 +36714,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "79a8d730-11f6-11ef-a346-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "An anniversary for this pop group in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "An anniversary for this pop group in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-14T13:32:56.974000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664368086d22423500000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1e9da360-11f2-11ef-952c-00000a1aced3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Georgia parliament adopts controversial foreign agent law, defying protesters and putting E.U. bid at risk",
+            "ios": {
+                "alert": {
+                    "body": "Georgia parliament adopts controversial foreign agent law, defying protesters and putting E.U. bid at risk",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/14/georgia-foreign-agent-law-approved/",
+                        "datetime": "2024-05-14T13:01:46.229000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664360ba2a5d443500000002",
+                        "targetTopic": "world",
+                        "text": "Lawmakers from the governing Georgian Dream party adopted a Russian-style law against foreign agents that had drawn sustained street protests by tens of thousands who say the measure will be used to stifle political freedoms. Some European Union critics of the law are calling for Georgia\u2019s membership bid to be suspended."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
