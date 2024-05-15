@@ -37843,5 +37843,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a734d512-12db-11ef-9d7c-00000a1ace11",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Spring Dining Guide: The 26 best new restaurants in the D.C. area, according to our food critic",
+            "ios": {
+                "alert": {
+                    "body": "Spring Dining Guide: The 26 best new restaurants in the D.C. area, according to our food critic",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/food/interactive/2024/dc-best-restaurants-2024/",
+                        "datetime": "2024-05-15T16:53:28.010000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6644e888136912350000000a",
+                        "targetTopic": "local",
+                        "text": "Critic Tom Sietsema\u2019s picks include a bevy of Mexican options, plant-based fine dining, beautiful burgers and more."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6c5e70b1-12d4-11ef-8490-00000a1ace8c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Aging mom\u2019s increasing anxiety robs child of a valued confidante",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Aging mom\u2019s increasing anxiety robs child of a valued confidante",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/15/carolyn-hax-mom-anxious-confidant/",
+                        "datetime": "2024-05-15T16:01:42.945000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6644dc661369123500000009",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Aging mom\u2019s increasing anxiety robs child of a valued confidante"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
