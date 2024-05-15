@@ -37745,5 +37745,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "161ac1f0-12ce-11ef-b57b-00000a1acedb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden and Trump agree to debate on CNN on June 27",
+            "ios": {
+                "alert": {
+                    "body": "Biden and Trump agree to debate on CNN on June 27",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/15/biden-trump-presidential-debates/",
+                        "datetime": "2024-05-15T15:16:21.201000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6644d1c51369123500000008",
+                        "targetTopic": "politics",
+                        "text": "The agreement came together hours after President Biden announced he would bypass the decades-old tradition of three fall debates organized by the bipartisan Commission on Presidential Debates. Biden proposed two debates, including a second in September. Former president Donald Trump publicly embraced the idea."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "85aeb630-12cd-11ef-aa5b-0000a1aceb91",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A 100-year-old law tried to keep America White. Instead, diversity triumphed, Eduardo Porter and Youyou Zhou explain.",
+            "ios": {
+                "alert": {
+                    "body": "A 100-year-old law tried to keep America White. Instead, diversity triumphed, Eduardo Porter and Youyou Zhou explain.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/immigration-history-race-quota-progress/",
+                        "datetime": "2024-05-15T15:12:18.945000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6644d0d2865a7c360000000c",
+                        "targetTopic": "opinions",
+                        "text": "100 years ago, the U.S. tried to limit immigration to White Europeans. Instead, diversity triumphed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
