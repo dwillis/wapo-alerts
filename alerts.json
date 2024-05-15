@@ -38041,5 +38041,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "97208d50-1302-11ef-9cda-0000a1ace089",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court restores Louisiana voting map with majority-Black district. A lower court had ruled it a racial gerrymander.",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court restores Louisiana voting map with majority-Black district. A lower court had ruled it a racial gerrymander.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/15/supreme-court-restores-la-voting-map-with-majority-black-district/",
+                        "datetime": "2024-05-15T21:32:11.507000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664529db136912350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "The move ends for now a prolonged legal fight over district lines with just months to go before an election that will determine which party controls the narrowly divided House."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
