@@ -37548,5 +37548,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "652ae5c0-12b7-11ef-8754-0000a1ace616",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Annual inflation shows signs of improvement, but prices are still rising faster than normal",
+            "ios": {
+                "alert": {
+                    "body": "Annual inflation shows signs of improvement, but prices are still rising faster than normal",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/15/cpi-inflation-fed/",
+                        "datetime": "2024-05-15T12:33:55.467000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6644abb31369123500000005",
+                        "targetTopic": "business",
+                        "text": "The economy is still confounding Federal Reserve officials, and it\u2019s not clear when they\u2019ll be able to lower high interest rates."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3e5bbc20-12b3-11ef-9043-0000a1acec1f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden proposes June and September faceoffs with Trump, ditching the bipartisan debate commission",
+            "ios": {
+                "alert": {
+                    "body": "Biden proposes June and September faceoffs with Trump, ditching the bipartisan debate commission",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/15/biden-trump-presidential-debates/",
+                        "datetime": "2024-05-15T12:04:12.394000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6644a4bc865a7c360000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "President Biden called on Donald Trump to debate him on television in June and September but said he would not participate in the three fall meetings organized by the Commission on Presidential Debates, which has convened presidential debates since the 1988 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
