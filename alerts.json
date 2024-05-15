@@ -37254,5 +37254,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c164a8c0-125e-11ef-9532-00000a1ace32",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Angela Alsobrooks wins Democratic nomination for U.S. Senate in Maryland, AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Angela Alsobrooks wins Democratic nomination for U.S. Senate in Maryland, AP projects",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/05/14/maryland-nebraska-west-virginia-2024-primary-election-campaign/",
+                        "datetime": "2024-05-15T01:59:24.871000Z",
+                        "imageURL": "https://www.washingtonpost.com/elections/2024/05/14/maryland-nebraska-west-virginia-2024-primary-election-campaign/",
+                        "pushID": "664416fc2a5d443500000005",
+                        "targetTopic": "local",
+                        "text": "The win sets up a general election contest between the Prince George\u2019s County leader and popular former Republican governor Larry Hogan, in one of the few races that could determine the balance of power in the U.S. Senate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
