@@ -37941,5 +37941,105 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "29bf7c71-12f4-11ef-9a92-00000a1acebd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "DeSantis signs bill scrubbing \u2018climate change\u2019 from Florida law, eliminating it as a priority in energy policy decisions",
+            "ios": {
+                "alert": {
+                    "body": "DeSantis signs bill scrubbing \u2018climate change\u2019 from Florida law, eliminating it as a priority in energy policy decisions",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/05/15/florida-law-climate-change-desantis-energy/",
+                        "datetime": "2024-05-15T19:48:54.941000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664511a66d22423500000008",
+                        "targetTopic": "climate",
+                        "text": "Environmentalists say the new law is the latest example of Republican Gov. Ron DeSantis\u2019s eagerness to use climate change as a culture war issue. But it may not have much practical effect, since solar power remains popular in the state and polls show Floridians remain highly concerned about climate change and sea-level rise."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "562502f1-12ed-11ef-8e0f-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How the authoritarian Middle East became the capital of Silicon Valley",
+            "ios": {
+                "alert": {
+                    "body": "How the authoritarian Middle East became the capital of Silicon Valley",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/05/14/middle-east-ai-tech-companies-saudi-arabia-uae/",
+                        "datetime": "2024-05-15T19:00:02.939000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664506326d22423500000007",
+                        "targetTopic": "technology",
+                        "text": "Virtually overnight, the Middle East has emerged as the most powerful geopolitical force in the tech industry, due in part to the Biden administration\u2019s fears about China."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
