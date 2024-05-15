@@ -37156,5 +37156,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d77a6410-1254-11ef-aeff-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden advances $1 billion in arms for Israel despite Netanyahu's escalation in Rafah",
+            "ios": {
+                "alert": {
+                    "body": "Biden advances $1 billion in arms for Israel despite Netanyahu's escalation in Rafah",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/14/biden-israel-weapons-gaza-rafah/",
+                        "datetime": "2024-05-15T00:48:26.989000Z",
+                        "imageURL": "https://www.washingtonpost.com/national-security/2024/05/14/biden-israel-weapons-gaza-rafah/",
+                        "pushID": "6644065a2a5d443500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The administration on Tuesday signaled its plan to move forward on the deals amid concerns that Israel's planned offensive in Rafah will cause enormous civilian casualties. The move comes a week after the White House said it was delaying a single shipment of munitions due to concerns that 2,000 pound bombs could be used in densely populated areas."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b0df90e3-1250-11ef-9532-00000a1ace32",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gov. Jim Justice wins the GOP Senate nod in West Virginia, per AP, in a seat that is expected to go Republican in November",
+            "ios": {
+                "alert": {
+                    "body": "Gov. Jim Justice wins the GOP Senate nod in West Virginia, per AP, in a seat that is expected to go Republican in November",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/05/14/maryland-nebraska-west-virginia-2024-primary-election-campaign/",
+                        "datetime": "2024-05-15T00:18:44.279000Z",
+                        "imageURL": "https://www.washingtonpost.com/elections/2024/05/14/maryland-nebraska-west-virginia-2024-primary-election-campaign/",
+                        "pushID": "6643ff642a5d443500000003",
+                        "targetTopic": "politics",
+                        "text": "Justice, a billionaire and former Democrat, beat Rep. Alex Mooney (R-W.Va.), the Associated Press reported, to clinch the GOP nomination for the seat of outgoing Sen. Joe Manchin (D). With Manchin no longer running, Justice is well positioned to put the Senate seat in Republican hands in November in a state that voted for Donald Trump by 39 points in 2020."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
