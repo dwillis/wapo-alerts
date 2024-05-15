@@ -37647,5 +37647,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "04f64ae1-12c2-11ef-aad3-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Slovakian Prime Minister Robert Fico has been shot. He was hospitalized, and his condition is unknown.",
+            "ios": {
+                "alert": {
+                    "body": "Slovakian Prime Minister Robert Fico has been shot. He was hospitalized, and his condition is unknown.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/15/robert-fico-shot-slovakia/",
+                        "datetime": "2024-05-15T13:49:58.439000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6644bd861369123500000007",
+                        "targetTopic": "world",
+                        "text": "Local media reported that a suspect had been detained by police at the scene, outside the House of Culture in the central town of Handlova. Slovakia\u2019s president condemned the \u201cbrutal and ruthless attack.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "690e40d1-12bf-11ef-aad3-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lighting up the sky in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Lighting up the sky in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-15T13:31:17.673000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6644b9251369123500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
