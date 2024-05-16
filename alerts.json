@@ -38433,5 +38433,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0e758130-13a8-11ef-8992-00000a1ace29",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump's trial revealed he likes the Oxford comma. How stunning, strange and disorienting.",
+            "ios": {
+                "alert": {
+                    "body": "Trump's trial revealed he likes the Oxford comma. How stunning, strange and disorienting.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/05/16/donald-trump-criminal-trial-oxford-comma/",
+                        "datetime": "2024-05-16T17:16:38.701000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66463f76136912350000000d",
+                        "targetTopic": "opinions",
+                        "text": "Also, now we know what Trump and Flaubert have in common."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
