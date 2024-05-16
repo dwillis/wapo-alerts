@@ -38532,5 +38532,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cc4cafb0-13b9-11ef-885a-0000a1ace0d1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Business titans privately urged New York City\u2019s mayor to use police on Columbia protesters, WhatsApp chats show",
+            "ios": {
+                "alert": {
+                    "body": "Business titans privately urged New York City\u2019s mayor to use police on Columbia protesters, WhatsApp chats show",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/16/business-leaders-chat-group-eric-adams-columbia-protesters/",
+                        "datetime": "2024-05-16T19:23:38.656000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66465d3a6d2242350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "A group of billionaires and business titans working to shape U.S. public opinion of the war in Gaza privately pressed Mayor Eric Adams (D) last month to send police to disperse pro-Palestinian protests at Columbia University, according to communications obtained by The Washington Post and people familiar with the group."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
