@@ -38139,5 +38139,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "72adbc10-1373-11ef-99bf-00000a1ace54",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Presidential debates. Michael Cohen. Slovakia shooting. Florida climate. HPV test. NFL schedule. Cheating mice. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Presidential debates. Michael Cohen. Slovakia shooting. Florida climate. HPV test. NFL schedule. Cheating mice. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/16/what-to-know-for-may-16/?noredirect=1",
+                        "datetime": "2024-05-16T11:00:03.448000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6645e7336d22423500000009",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
