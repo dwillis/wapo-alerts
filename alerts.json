@@ -38090,5 +38090,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8fb6f1e0-131f-11ef-bb0c-0000a1ace52b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The NFL\u2019s 2024 schedule is out. Here are the 21 can't-miss games, including a starry season opener and a Christmas doubleheader.",
+            "ios": {
+                "alert": {
+                    "body": "The NFL\u2019s 2024 schedule is out. Here are the 21 can't-miss games, including a starry season opener and a Christmas doubleheader.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/15/nfl-schedule-2024-best-games/",
+                        "datetime": "2024-05-16T00:59:34.439000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66455a76136912350000000c",
+                        "targetTopic": "sports",
+                        "text": "The NFL\u2019s regular season will start Sept. 5, when the Kansas City Chiefs will host the Baltimore Ravens in a rematch of the AFC championship game. The league will play on six days of the week \u2014 every day but Tuesday \u2014 and on three continents, showcasing veterans like Patrick Mahomes and Aaron Rodgers and a host of intriguing young quarterbacks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
