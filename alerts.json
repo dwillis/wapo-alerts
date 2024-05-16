@@ -38188,5 +38188,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a116f540-1381-11ef-99bf-00000a1ace54",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden asserts executive privilege on special counsel Hur\u2019s tapes as Congress moves to hold Garland in contempt for withholding them",
+            "ios": {
+                "alert": {
+                    "body": "Biden asserts executive privilege on special counsel Hur\u2019s tapes as Congress moves to hold Garland in contempt for withholding them",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/16/biden-hur-privilege-merrick-garland-contempt-impeachment/",
+                        "datetime": "2024-05-16T12:41:34.296000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6645fefe865a7c360000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "The Justice Department, which asked President Biden to assert privilege over the recordings, disclosed the decision in a letter Thursday, shortly before congressional Republicans planned to move forward with a contempt resolution against Attorney General Merrick Garland. They accuse Garland of defying a subpoena to turn over the audio and video recordings from the special counsel investigation, which includes an interview with Biden."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0564f6b0-137c-11ef-83e3-000a1ace0666",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Public concern over safety in D.C. grows despite drop in crime, Post-Schar School poll finds",
+            "ios": {
+                "alert": {
+                    "body": "Public concern over safety in D.C. grows despite drop in crime, Post-Schar School poll finds",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/16/dc-poll-fear-crime-rising/",
+                        "datetime": "2024-05-16T12:01:25.648000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6645f59518702e3500000001",
+                        "targetTopic": "local",
+                        "text": "D.C. residents are more worried about public safety now than they were a year ago despite a significant drop in violent crime in early 2024 and a raft of popular local legislation aimed at curtailing some of the city\u2019s more progressive public safety policies, according to a Washington Post-Schar School poll. Sixty-five percent of Washingtonians say crime is an \u201cextremely\u201d or a \u201cvery serious\u201d problem in the District, up from 56 percent in 2023. While 70 percent of D.C. residents feel at least \u201csomewhat\u201d safe from crime in their neighborhoods, that is down from 77 percent last year. That includes 23 percent who feel \u201cvery safe,\u201d down slightly from 29 percent last year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
