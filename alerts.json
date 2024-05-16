@@ -38335,5 +38335,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e24e97e0-138e-11ef-a3c9-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court rejects broad conservative challenge to funding for CFPB, a consumer watchdog agency created by Congress 12 years ago",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court rejects broad conservative challenge to funding for CFPB, a consumer watchdog agency created by Congress 12 years ago",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/16/supreme-court-cfpb-funding/",
+                        "datetime": "2024-05-16T14:16:27.048000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6646153b865a7c360000000f",
+                        "targetTopic": "breaking-news",
+                        "text": "The justices reversed a lower-court ruling that would have undermined the Consumer Financial Protection Bureau. The CFPB case is one of several the Supreme Court heard this term that challenge the power of federal agencies, long a target of conservatives concerned about regulation and government bureaucrats whom they see as unaccountable to the public."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
