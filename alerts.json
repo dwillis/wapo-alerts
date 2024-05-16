@@ -38482,5 +38482,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f95e5180-13ae-11ef-9e32-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. to end coal leasing in nation\u2019s largest coal-producing region, a win for climate activists",
+            "ios": {
+                "alert": {
+                    "body": "U.S. to end coal leasing in nation\u2019s largest coal-producing region, a win for climate activists",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/05/16/coal-leasing-powder-river-basin-climate/",
+                        "datetime": "2024-05-16T18:06:09.784000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66464b116d2242350000000a",
+                        "targetTopic": "climate",
+                        "text": "The Biden administration announced it will end coal leasing on federal lands in the Powder River Basin, which produces nearly half the coal in the United States. The decision by the Interior Department\u2019s Bureau of Land Management affects a vast coal-producing region that stretches more than 13 million acres across Montana and Wyoming."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
