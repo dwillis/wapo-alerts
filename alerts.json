@@ -38384,5 +38384,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0e457c10-139e-11ef-9a3f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Fianc\u00e9 plans to have a baby with someone else",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Fianc\u00e9 plans to have a baby with someone else",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/16/carolyn-hax-fiance-baby-someone-else/",
+                        "datetime": "2024-05-16T16:05:03.421000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66462eaf865a7c3600000010",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Fianc\u00e9 plans to have a baby with someone else"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
