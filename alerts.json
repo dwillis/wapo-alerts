@@ -38973,5 +38973,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d0123760-1462-11ef-b6b4-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "70 years after Brown v. Board of Education, 1 in 3 Black people say integration didn\u2019t help Black students",
+            "ios": {
+                "alert": {
+                    "body": "70 years after Brown v. Board of Education, 1 in 3 Black people say integration didn\u2019t help Black students",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/05/17/brown-vs-board-70-anniversary-poll/",
+                        "datetime": "2024-05-17T15:33:29.491000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664778c91369123500000011",
+                        "targetTopic": "us",
+                        "text": "The landmark ruling is overwhelmingly popular, but a Washington Post-Ipsos poll finds complex views on its legacy and the path forward."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
