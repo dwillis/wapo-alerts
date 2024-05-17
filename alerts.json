@@ -38924,5 +38924,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "44abef00-145c-11ef-afad-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Scottie Scheffler says \u2018a big misunderstanding\u2019 led to his arrest near PGA Championship",
+            "ios": {
+                "alert": {
+                    "body": "Scottie Scheffler says \u2018a big misunderstanding\u2019 led to his arrest near PGA Championship",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/17/scottie-scheffler-police-pga-championship/",
+                        "datetime": "2024-05-17T14:46:39.074000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66476dcf1369123500000010",
+                        "targetTopic": "sports",
+                        "text": "Scheffler, the top-ranked golfer in the world, was arrested Friday morning over a traffic-related incident as he was attempting to enter Valhalla Golf Club, the site of the PGA Championship. \u201cIt was a very chaotic situation, understandably so considering the tragic accident that had occurred earlier, and there was a big misunderstanding of what I thought I was being asked to do,\u201d he said in a statement shortly before beginning his second round. Earlier in the day, traffic entering the golf club was backed up because of an overnight fatal accident involving a worker for a tournament vendor."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
