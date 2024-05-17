@@ -38728,5 +38728,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9dcf0c40-143c-11ef-ae44-000a1ace5193",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump trial. Gaza pier. Houston storms. Black Lives Matter. Marijuana. City populations. Taco ruling. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump trial. Gaza pier. Houston storms. Black Lives Matter. Marijuana. City populations. Taco ruling. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/17/what-to-know-for-may-17/?noredirect=1",
+                        "datetime": "2024-05-17T11:00:04.728000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "664738b46d2242350000000e",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "59a6c010-1434-11ef-9b42-00000a1aced2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Brazil to host 2027 women\u2019s World Cup as tournament heads to South America for first time",
+            "ios": {
+                "alert": {
+                    "body": "Brazil to host 2027 women\u2019s World Cup as tournament heads to South America for first time",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/17/brazil-wins-vote-host-2027-womens-world-cup/",
+                        "datetime": "2024-05-17T10:00:54.360000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66472ad6865a7c3600000012",
+                        "targetTopic": "sports",
+                        "text": "Brazil had been considered the front-runner and won out over a joint bid by Belgium, the Netherlands and Germany. The decision was announced at FIFA\u2019s 74th Congress in Bangkok, and it was the first time a host was chosen through an open vote by the organization\u2019s 211 member associations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
