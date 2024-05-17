@@ -39169,5 +39169,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e8b41b02-1488-11ef-a573-00000a1ace15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dow closes above 40,000 for the first time, passing a key milestone for the widely followed stock index",
+            "ios": {
+                "alert": {
+                    "body": "Dow closes above 40,000 for the first time, passing a key milestone for the widely followed stock index",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/17/dow-jones-average-40000/",
+                        "datetime": "2024-05-17T20:06:12.105000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6647b8b4865a7c3600000013",
+                        "targetTopic": "business",
+                        "text": "The market\u2019s gains, analysts said, reflect renewed confidence that the Federal Reserve can win its inflation fight without breaking the economy, contributing to a tech-driven rally in stocks that shows little sign of slowing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
