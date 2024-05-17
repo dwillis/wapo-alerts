@@ -39022,5 +39022,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "446e92b0-146e-11ef-9999-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: I was the other woman. Can I befriend the ex-wife who didn\u2019t know?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: I was the other woman. Can I befriend the ex-wife who didn\u2019t know?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/17/live-chat-carolyn-hax/",
+                        "datetime": "2024-05-17T16:55:29.598000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66478c011369123500000013",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax chat: I was the other woman. Can I befriend the ex-wife who didn\u2019t know?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "85aaeae0-1468-11ef-b920-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In Gaza, Israeli military recovers the bodies of three hostages who were killed on Oct. 7",
+            "ios": {
+                "alert": {
+                    "body": "In Gaza, Israeli military recovers the bodies of three hostages who were killed on Oct. 7",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/17/israel-hamas-war-news-gaza-palestine-rafah/",
+                        "datetime": "2024-05-17T16:14:22.059000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6647825e1369123500000012",
+                        "targetTopic": "world",
+                        "text": "In an overnight operation based on intelligence, Israeli forces retrieved the bodies of Yitzhak Gelernter, Shani Louk, and Amit Buskila, a military spokesman said. The Israel Defense Forces said Palestinian militants killed the three Israelis on Oct. 7 and took their bodies back into Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
