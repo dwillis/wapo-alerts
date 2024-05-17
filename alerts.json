@@ -39120,5 +39120,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7495ec10-147b-11ef-8bf2-00000a1ace38",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel says it has no plans to occupy Gaza. But its military has built a strategic corridor that suggests a long-term presence.",
+            "ios": {
+                "alert": {
+                    "body": "Israel says it has no plans to occupy Gaza. But its military has built a strategic corridor that suggests a long-term presence.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/17/gaza-israel-netzarim-corridor-war-hamas/",
+                        "datetime": "2024-05-17T18:29:53.880000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6647a2211369123500000014",
+                        "targetTopic": "editors_picks",
+                        "text": "Satellite images and other visual evidence show Israel has constructed roads, outposts and buffer zones along the Netzarim Corridor, which runs from the Israeli border to the Mediterranean Sea, despite insisting there are no plans to permanently occupy Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
