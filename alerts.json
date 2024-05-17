@@ -38679,5 +38679,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4b6fe650-1418-11ef-88da-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. military begins Gaza aid deliveries from floating pier",
+            "ios": {
+                "alert": {
+                    "body": "U.S. military begins Gaza aid deliveries from floating pier",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://washingtonpost.com/world/2024/05/17/israel-hamas-war-news-gaza-palestine-rafah/",
+                        "datetime": "2024-05-17T06:40:04.654000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6646fbc4865a7c3600000011",
+                        "targetTopic": "world",
+                        "text": "American military personnel have begun moving humanitarian aid to Gaza using a floating pier, officials said, adding that no U.S. troops went ashore. It marks the start of an operation directed by President Biden to help alleviate the humanitarian crisis in the enclave \u2014 but whose critics fear it will leave American troops vulnerable to attack."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
