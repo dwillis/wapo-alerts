@@ -39219,5 +39219,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4f29b890-149d-11ef-8d25-0000a1ace9f6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dabney Coleman dies at 92. The actor excelled at portrayals of comic scoundrels.",
+            "ios": {
+                "alert": {
+                    "body": "Dabney Coleman dies at 92. The actor excelled at portrayals of comic scoundrels.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/17/dabney-coleman-actor-dead-obituary/",
+                        "datetime": "2024-05-17T22:32:13.921000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6647daed18702e3500000002",
+                        "targetTopic": "entertainment",
+                        "text": "He created an acclaimed gallery of comically macho throwbacks in films including \u201c9 to 5\u201d and \u201cTootsie\u201d and TV shows such as \u201cThe Slap Maxwell Story\u201d and \u201cBuffalo Bill.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
