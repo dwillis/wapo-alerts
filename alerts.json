@@ -38630,5 +38630,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "296f7710-13f9-11ef-abc2-00000a1ace1f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "4 dead as destructive thunderstorm blasts Houston; 800,000 lose power in Harris County",
+            "ios": {
+                "alert": {
+                    "body": "4 dead as destructive thunderstorm blasts Houston; 800,000 lose power in Harris County",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/16/houston-texas-tornado-storm-power-outage/",
+                        "datetime": "2024-05-17T02:57:13.202000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6646c7896d2242350000000d",
+                        "targetTopic": "us",
+                        "text": "At least four people were killed during a violent thunderstorm complex that ripped through downtown Houston and the surrounding area, the Houston mayor\u2019s office said. Destructive winds downed trees and blew out skyscraper windows, according to social media reports."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
