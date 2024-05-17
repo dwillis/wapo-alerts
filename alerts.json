@@ -38826,5 +38826,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5d5f8050-144a-11ef-878b-0000a1ace92b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "World\u2019s top-ranked golfer Scottie Scheffler arrested after a traffic-related incident near PGA Championship",
+            "ios": {
+                "alert": {
+                    "body": "World\u2019s top-ranked golfer Scottie Scheffler arrested after a traffic-related incident near PGA Championship",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/17/scottie-scheffler-police-pga-championship/",
+                        "datetime": "2024-05-17T12:38:27.337000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66474fc3136912350000000e",
+                        "targetTopic": "us",
+                        "text": "Scheffler was handcuffed and detained by Louisville police Friday morning, for a traffic-related incident as he was attempting to enter Valhalla Golf Club for the second round of the PGA Championship. Tournament officials delayed the start of Friday\u2019s round, but Scheffler\u2019s status was uncertain and it wasn\u2019t clear Friday morning whether the world\u2019s most dominant player would be on the tee box for the second round of the year\u2019s second major championship."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
