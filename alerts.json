@@ -39464,5 +39464,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ae46b6c0-1533-11ef-ab1d-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: I live with my parents and generational trauma \u2018runs the house\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: I live with my parents and generational trauma \u2018runs the house\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/16/ask-sahaj-parents-generational-trauma/",
+                        "datetime": "2024-05-18T16:28:38.024000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6648d7361a93b03500000004",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: I live with my parents and generational trauma \u2018runs the house\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
