@@ -39513,5 +39513,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "89434410-153d-11ef-accb-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "With Biden and Trump running for president, people are talking about the aging brain. Here\u2019s what science tells us.",
+            "ios": {
+                "alert": {
+                    "body": "With Biden and Trump running for president, people are talking about the aging brain. Here\u2019s what science tells us.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/science/2024/05/18/biden-trump-age-cognitive-decline/",
+                        "datetime": "2024-05-18T17:39:10.916000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6648e7be1a93b03500000005",
+                        "targetTopic": "editors_picks",
+                        "text": "As voters consider the mental fitness of President Biden and Donald Trump, experts warn against misinformation about aging and cognitive decline. Judgment and emotional stability can improve with age, they say, and may be essential to effective leadership."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
