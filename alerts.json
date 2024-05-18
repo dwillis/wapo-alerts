@@ -39562,5 +39562,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "43e2c200-1561-11ef-80ee-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The changing attitudes in restaurants: \u2018We are in service. We are not servants.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "The changing attitudes in restaurants: \u2018We are in service. We are not servants.\u2019",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/05/14/dining-trends-open-days-large-groups/",
+                        "datetime": "2024-05-18T21:54:56.343000Z",
+                        "imageURL": "https://www.washingtonpost.com/food/2024/05/14/dining-trends-open-days-large-groups/",
+                        "pushID": "664923b00209ae3500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Restaurants are increasingly saying no to large parties of diners and are closing during the \u201cdead\u201d midweek, among other trends."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
