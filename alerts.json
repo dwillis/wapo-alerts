@@ -39366,5 +39366,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d5053930-1524-11ef-accb-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Home prices are falling in some parts of the U.S. \u2014 and rising in others. We\u2019ve broken it down by Zip code.",
+            "ios": {
+                "alert": {
+                    "body": "Home prices are falling in some parts of the U.S. \u2014 and rising in others. We\u2019ve broken it down by Zip code.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/housing-market-price-trends-zip-code-map/",
+                        "datetime": "2024-05-18T14:42:20.334000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6648be4c1a93b03500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "In the past year, home prices increased 5.8 percent \u2014 a steadier rise after the volatile years of the early pandemic, according to a Washington Post analysis of home value data. Look up your Zip code to see how home prices are changing in your neighborhood."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
