@@ -39268,5 +39268,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e7aad7a1-14a4-11ef-a32e-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden and Trump cut a deal on debates. Then the fighting started.",
+            "ios": {
+                "alert": {
+                    "body": "Biden and Trump cut a deal on debates. Then the fighting started.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/17/biden-trump-cnn-debate-decision/",
+                        "datetime": "2024-05-17T23:26:36.238000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6647e7ac18702e3500000003",
+                        "targetTopic": "politics",
+                        "text": "The Trump and Biden campaigns, with the help of eager networks, found a way to come together for debates on CNN next month and ABC in September, even as animosity between the two camps remained high."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
