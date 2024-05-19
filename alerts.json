@@ -39758,5 +39758,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cdbf1720-15f8-11ef-9771-0000a1ace793",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "An island in Maryland holds tantalizing clues about when and how humans first made their way into North America",
+            "ios": {
+                "alert": {
+                    "body": "An island in Maryland holds tantalizing clues about when and how humans first made their way into North America",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/science/2024/05/19/first-americans-chesapeake-parsons-island/",
+                        "datetime": "2024-05-19T15:59:41.153000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664a21ed0209ae3500000005",
+                        "targetTopic": "editors_picks",
+                        "text": "The story of the first Americans has long stoked public and scientific fascination, sometimes fueled by vicious disagreements. Parsons Island in the Chesapeake Bay could rewrite American prehistory, with artifacts suggesting people may have inhabited the area more than 20,000 years ago, a discovery that could push the timeline of arrival earlier than most experts thought possible."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
