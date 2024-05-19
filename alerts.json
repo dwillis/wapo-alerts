@@ -39660,5 +39660,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a2cb1542-15ef-11ef-9020-0000a1ace7f6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rescue teams trying to reach helicopter carrying Iranian president after \u2018hard landing,\u2019 state media said",
+            "ios": {
+                "alert": {
+                    "body": "Rescue teams trying to reach helicopter carrying Iranian president after \u2018hard landing,\u2019 state media said",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/19/iran-president-raisi-helicopter-incident/",
+                        "datetime": "2024-05-19T14:54:04.181000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664a128c0209ae3500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The incident occurred as President Ebrahim Raisi was traveling back from Azerbaijan with Foreign Minister Hossein Amir-Abdollahian and other officials, state-run IRNA reported. Rescuers are reportedly struggling to reach the helicopter due to foggy conditions and mountainous terrain."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5fca1591-15e8-11ef-97a6-0000a1ace480",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ready to dive into the Sunday Crossword? It\u2019s time to play.",
+            "ios": {
+                "alert": {
+                    "body": "Ready to dive into the Sunday Crossword? It\u2019s time to play.",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/crossword-puzzles/sunday-evan-birnholz/",
+                        "datetime": "2024-05-19T14:02:00.040000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664a06580209ae3500000003",
+                        "targetTopic": "news_quiz",
+                        "text": "Ready to dive into the Sunday Crossword? It\u2019s time to play."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
