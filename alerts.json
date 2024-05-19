@@ -39611,5 +39611,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2fa15c10-156c-11ef-87c5-0000a1aced51",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Seize the Grey finishes first at Preakness, spoiling Mystik Dan\u2019s Triple Crown bid",
+            "ios": {
+                "alert": {
+                    "body": "Seize the Grey finishes first at Preakness, spoiling Mystik Dan\u2019s Triple Crown bid",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/18/seize-the-grey-wins-preakness-stakes-mystik-dan/",
+                        "datetime": "2024-05-18T23:13:06.765000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/2024/05/18/seize-the-grey-wins-preakness-stakes-mystik-dan/",
+                        "pushID": "664936020209ae3500000002",
+                        "targetTopic": "sports",
+                        "text": "This year\u2019s Kentucky Derby champion, Mystik Dan, was in the Preakness field but fell short at Pimlico Race Course in Baltimore on Saturday. No horse has won the Triple Crown since Justify in 2018."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
