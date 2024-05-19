@@ -39856,5 +39856,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e135e700-1622-11ef-8e3e-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 1920 shootout that may belie the Texas Rangers\u2019 romanticized image",
+            "ios": {
+                "alert": {
+                    "body": "The 1920 shootout that may belie the Texas Rangers\u2019 romanticized image",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/texas-ranger-song-shootout/",
+                        "datetime": "2024-05-19T21:00:53.211000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664a6885122e223500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "A century after three Tejano men were shot to death, the story that descendants tell of their killing contradicts official accounts. The families blame the storied Texas Rangers, while history has cast the men as tequila smugglers who shot first. Whose story counts as Texas history?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
