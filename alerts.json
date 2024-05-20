@@ -40248,5 +40248,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2ba3cc80-16c8-11ef-8005-00000a1ace10",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ivan Boesky dies at 87. The 1980s Wall Street titan was at the epicenter of an insider-trading scandal.",
+            "ios": {
+                "alert": {
+                    "body": "Ivan Boesky dies at 87. The 1980s Wall Street titan was at the epicenter of an insider-trading scandal.",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/05/20/ivan-boesky-insider-trading-dies/",
+                        "datetime": "2024-05-20T16:44:04.944000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664b7dd40209ae350000000c",
+                        "targetTopic": "business",
+                        "text": "Audacious and extravagant, Boesky helped inspire Hollywood\u2019s fictional financial mogul Gordon Gekko and his greed-is-good mantra."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9a70cea3-16c4-11ef-9788-0000a1ace214",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is it selfish or self-care to cancel plans, \u2018etiquette be damned\u2019?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is it selfish or self-care to cancel plans, \u2018etiquette be damned\u2019?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/20/carolyn-hax-selfish-cancel-plans/",
+                        "datetime": "2024-05-20T16:18:32.913000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664b77d80209ae350000000b",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is it selfish or self-care to cancel plans, \u2018etiquette be damned\u2019?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
