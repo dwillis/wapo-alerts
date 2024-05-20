@@ -40495,5 +40495,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "884c91a0-16f6-11ef-adda-00000a1ace88",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Boy Scouts love this scenic Virginia river. Locals say they\u2019re killing it.",
+            "ios": {
+                "alert": {
+                    "body": "Boy Scouts love this scenic Virginia river. Locals say they\u2019re killing it.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/20/virginia-district-scouts-maury-river/",
+                        "datetime": "2024-05-20T22:15:57.347000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664bcb9d1a93b03500000009",
+                        "targetTopic": "editors_picks",
+                        "text": "Three hours southwest of D.C., the Maury River suffers as sediment flows from a dam at a campground owned by a scouting organization based in Bethesda, Md. The situation has created an unusual standoff between local residents and an organization known for honor and stewardship but plagued in recent years by controversy and financial trouble."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
