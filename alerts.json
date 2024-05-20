@@ -40396,5 +40396,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dadaa380-16dd-11ef-937c-00000a1aceb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prosecution rests in Trump hush money trial after Michael Cohen\u2019s testimony. The defense will call up to two witnesses.",
+            "ios": {
+                "alert": {
+                    "body": "Prosecution rests in Trump hush money trial after Michael Cohen\u2019s testimony. The defense will call up to two witnesses.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/20/trump-hush-money-trial-live-updates-michael-cohen/",
+                        "datetime": "2024-05-20T19:19:18.288000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664ba2361a93b03500000007",
+                        "targetTopic": "politics",
+                        "text": "The prosecution rested and the defense said it would call no more than two witnesses in former president Donald Trump\u2019s criminal trial for allegedly falsifying documents related to a hush money payment. Because of scheduling issues around Memorial Day weekend, the judge said the jury will begin deliberations next week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
