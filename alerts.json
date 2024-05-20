@@ -40199,5 +40199,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b25b8950-16c0-11ef-8c5a-000a1ace8dc1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ship that destroyed Baltimore bridge is finally floated back to port, but its crew remains on board",
+            "ios": {
+                "alert": {
+                    "body": "Ship that destroyed Baltimore bridge is finally floated back to port, but its crew remains on board",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/20/dali-refloated-baltimore-bridge-port/",
+                        "datetime": "2024-05-20T15:50:35.047000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664b714b0209ae350000000a",
+                        "targetTopic": "local",
+                        "text": "Nearly two months after knocking down the Francis Scott Key Bridge, the container ship Dali is back in port in Baltimore. Here\u2019s what happens next to the ship and its crew."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
