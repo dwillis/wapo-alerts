@@ -40003,5 +40003,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "edbd2ca0-1699-11ef-88c5-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "International Criminal Court prosecutor applying for arrest warrants for Israeli and Hamas officials, including Benjamin Netanyahu",
+            "ios": {
+                "alert": {
+                    "body": "International Criminal Court prosecutor applying for arrest warrants for Israeli and Hamas officials, including Benjamin Netanyahu",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/20/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-05-20T11:13:04.278000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664b30400209ae3500000007",
+                        "targetTopic": "world",
+                        "text": "The prosecutor is applying to the court for warrants against Yahya Sinwar, a Hamas leader, and Israeli Prime Minister Netanyahu, for war crimes and crimes against humanity in the Gaza Strip. A panel of judges will consider the warrants. The court previously issued an arrest warrant for Russian President Vladimir Putin over the invasion of Ukraine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "17e8d670-1698-11ef-a386-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran\u2019s president. Trump trial. Biden speech. Sean Combs. Mosquitoes. PGA Championship. Ancient humans. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Iran\u2019s president. Trump trial. Biden speech. Sean Combs. Mosquitoes. PGA Championship. Ancient humans. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/20/what-to-know-for-may-20/?noredirect=1",
+                        "datetime": "2024-05-20T10:59:56.090000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "664b2d2c1a93b03500000006",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
