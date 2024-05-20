@@ -39954,5 +39954,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f7fe02c2-1662-11ef-9e6d-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iranian President Ebrahim Raisi dead in helicopter crash, state media says",
+            "ios": {
+                "alert": {
+                    "body": "Iranian President Ebrahim Raisi dead in helicopter crash, state media says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/20/iran-president-helicopter-crash-news/",
+                        "datetime": "2024-05-20T04:39:39.217000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664ad40b122e223500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "Raisi was returning from Azerbaijan with Iran\u2019s foreign minister and other officials Sunday when the helicopter went down in foggy conditions. He was elected in 2021, widely seen as the choice of Iran's supreme leader, Ayatollah Ali Khamenei, after a career in the judiciary. Raisi oversaw the crackdown on anti-government protests that erupted in late 2022 and Iran\u2019s first-ever direct attack on Israel in April."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
