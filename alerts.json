@@ -40101,5 +40101,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d8569d10-16a3-11ef-82e8-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "WikiLeaks founder Julian Assange can appeal his extradition to the U.S., Britain\u2019s high court rules",
+            "ios": {
+                "alert": {
+                    "body": "WikiLeaks founder Julian Assange can appeal his extradition to the U.S., Britain\u2019s high court rules",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/20/assange-appeal-extradition-court/",
+                        "datetime": "2024-05-20T12:24:03.364000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664b40e30209ae3500000008",
+                        "targetTopic": "world",
+                        "text": "The legal victory for Assange means he will not be whisked away by U.S. Marshals to the United States, where he faces charges of espionage for releasing reams of sensitive military and diplomatic files via WikiLeaks back in 2010."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
