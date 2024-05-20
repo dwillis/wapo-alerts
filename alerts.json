@@ -40347,5 +40347,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8df7c720-16cc-11ef-b701-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden calls International Criminal Court\u2019s arrest warrant request for Netanyahu and other Israeli officials \u2018outrageous\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Biden calls International Criminal Court\u2019s arrest warrant request for Netanyahu and other Israeli officials \u2018outrageous\u2019",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/20/israel-hamas-war-news-gaza-palestine/",
+                        "datetime": "2024-05-20T17:15:25.646000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664b852d0209ae350000000d",
+                        "targetTopic": "world",
+                        "text": "President Biden suggested the top global court\u2019s prosecutor had implied equivalence between Israel\u2019s leaders, including Prime Minister Benjamin Netanyahu, and Hamas\u2019s leaders, whose arrest is also being sought."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
