@@ -40445,5 +40445,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "402a6940-16f3-11ef-9d42-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FDIC Chairman Martin Gruenberg announces he will resign once successor is found after reports claimed he led hostile workplace",
+            "ios": {
+                "alert": {
+                    "body": "FDIC Chairman Martin Gruenberg announces he will resign once successor is found after reports claimed he led hostile workplace",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/20/martin-gruenberg-fdic-resign/",
+                        "datetime": "2024-05-20T21:52:26.727000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664bc61a1a93b03500000008",
+                        "targetTopic": "business",
+                        "text": "Lawmakers have been calling for the resignation of Gruenberg, chair of the Federal Deposit Insurance Corporation, a banking regulatory agency."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
