@@ -40839,5 +40839,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d53dfb70-17a0-11ef-9aae-0000a1ace376",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A dark new biopic starring Sebastian Stan as a young Trump is the talk of Cannes",
+            "ios": {
+                "alert": {
+                    "body": "A dark new biopic starring Sebastian Stan as a young Trump is the talk of Cannes",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2024/05/20/donald-trump-the-apprentice-cannes/",
+                        "datetime": "2024-05-21T18:35:00.895000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664ce954252a503500000006",
+                        "targetTopic": "entertainment",
+                        "text": "\u201cThe Apprentice\u201d drew spots of laughter from the Cannes Film Festival audience. But by and large, it is a chilling origin story.\n\nFormer president Donald Trump\u2019s campaign called the film \u201cpure fiction which sensationalizes lies.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
