@@ -40741,5 +40741,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "de1f2640-1784-11ef-877c-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Europe is funding the draconian practice of detaining migrants in North Africa and dumping them in the desert, investigation finds",
+            "ios": {
+                "alert": {
+                    "body": "Europe is funding the draconian practice of detaining migrants in North Africa and dumping them in the desert, investigation finds",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/eu-migrant-north-africa-mediterranean/",
+                        "datetime": "2024-05-21T15:14:49.827000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664cba69252a503500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "A year-long joint investigation by The Washington Post, Lighthouse Reports and a consortium of international media outlets shows how the European Union and individual European nations are supporting and financing aggressive operations to push tens of thousands of migrants to remote areas in Morocco, Mauritania and Tunisia each year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
