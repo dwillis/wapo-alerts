@@ -40594,5 +40594,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47c4ef90-1761-11ef-915c-00000a1ace9b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Middle East. Trump\u2019s trial. Campaign cash. Extreme weather. African migrants. Scarlett Johansson. Cockroaches. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Middle East. Trump\u2019s trial. Campaign cash. Extreme weather. African migrants. Scarlett Johansson. Cockroaches. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/21/what-to-know-for-may-21/?noredirect=1",
+                        "datetime": "2024-05-21T11:00:05.244000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "664c7eb5252a503500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
