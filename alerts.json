@@ -40790,5 +40790,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e11816c0-178b-11ef-b330-00000a1ace41",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: New mom with spendy lifestyle whines at having to go back to work",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: New mom with spendy lifestyle whines at having to go back to work",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/21/carolyn-hax-new-mom-complains-work/",
+                        "datetime": "2024-05-21T16:05:01.238000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664cc62d252a503500000005",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: New mom with spendy lifestyle whines at having to go back to work"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
