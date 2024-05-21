@@ -40544,5 +40544,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e07d5870-16fe-11ef-9332-000a1ace5824",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Scarlett Johansson threatens legal action against OpenAI, claiming it copied her voice for ChatGPT",
+            "ios": {
+                "alert": {
+                    "body": "Scarlett Johansson threatens legal action against OpenAI, claiming it copied her voice for ChatGPT",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/05/20/openai-scarlett-johansson-chatgpt-ai-voice/",
+                        "datetime": "2024-05-20T23:15:41.194000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664bd99d1a93b0350000000a",
+                        "targetTopic": "technology",
+                        "text": "The actress alleges OpenAI CEO Sam Altman tried to hire her, then copied her voice when she said no. The artificial intelligence start-up said it would pause ChatGPT\u2019s new voice features after drawing criticism that it sounded like Johansson\u2019s character in the 2013 movie \u201cHer.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
