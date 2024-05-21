@@ -40692,5 +40692,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "21a0da90-177f-11ef-8089-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump will not testify in his N.Y. hush-money trial. The defense has rested, and jury deliberations will take place next week.",
+            "ios": {
+                "alert": {
+                    "body": "Trump will not testify in his N.Y. hush-money trial. The defense has rested, and jury deliberations will take place next week.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/21/trump-hush-money-trial-live-updates/",
+                        "datetime": "2024-05-21T14:33:46.154000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664cb0ca252a503500000003",
+                        "targetTopic": "politics",
+                        "text": "Both sides have finished presenting evidence in Donald Trump\u2019s trial over allegedly falsifying business records related to a payment to adult-film actress Stormy Daniels before the 2016 election. After the judge and the lawyers discuss jury instructions this afternoon, the trial will take a break until closing arguments, scheduled for next Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
