@@ -40937,5 +40937,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cd700d00-17ca-11ef-a206-0000a1acec86",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fulton County District Attorney Fani Willis, who brought Georgia criminal case against Trump, wins Democratic primary",
+            "ios": {
+                "alert": {
+                    "body": "Fulton County District Attorney Fani Willis, who brought Georgia criminal case against Trump, wins Democratic primary",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/21/fani-willis-georgia-democratic-primary/",
+                        "datetime": "2024-05-21T23:35:23.223000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664d2fbb337bc53500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "Willis has beat a Democratic challenger in the primary for district attorney in the Atlanta area, according to the Associated Press. In the general election, Willis is expected to face Courtney Kramer, a Republican lawyer who interned in the Trump White House and was involved in Trump\u2019s efforts to reverse his 2020 loss in Georgia. It has been two months since an Atlanta-area judge ruled that Willis could continue prosecuting the case despite having a romantic relationship with the outside attorney she appointed to lead the investigation. The accusations have slowed the case down, making it unlikely it will get to trial before the election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
