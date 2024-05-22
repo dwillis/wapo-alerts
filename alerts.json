@@ -41035,5 +41035,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6b20b892-180e-11ef-b590-0000a1ace356",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ireland, Spain and Norway recognize Palestinian state, with several other European countries expected to follow",
+            "ios": {
+                "alert": {
+                    "body": "Ireland, Spain and Norway recognize Palestinian state, with several other European countries expected to follow",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/22/norway-ireland-palestine-state-recognition/",
+                        "datetime": "2024-05-22T07:39:27.420000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664da12f1a93b0350000000b",
+                        "targetTopic": "world",
+                        "text": "The symbolic diplomatic moves won\u2019t have any immediate effect on the Israel-Gaza war but they put pressure on Israel to move toward a two-state solution, which its government has rejected. Israel has said recognition for a Palestinian state amounts to support for terrorism that jeopardizes peace."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
