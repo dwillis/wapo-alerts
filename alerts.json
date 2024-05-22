@@ -41624,5 +41624,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c521e511-1883-11ef-b8ed-000a1ace16dc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After mounting a primary challenge against Donald Trump, Nikki Haley says she\u2019ll vote for him",
+            "ios": {
+                "alert": {
+                    "body": "After mounting a primary challenge against Donald Trump, Nikki Haley says she\u2019ll vote for him",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/22/nikki-haley-voting-donald-trump/",
+                        "datetime": "2024-05-22T21:39:29.595000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664e6611337bc53500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "In her first public appearance since suspending her campaign in early March, the former U.N. ambassador, when asked about which candidate she would prefer on foreign policy, said, \u201cI will be voting for Trump.\u201d\nHaley, who did not endorse Trump when she dropped out of the race, went on to say that it was incumbent upon the former president to earn the support of the people who voted for her in the primaries."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
