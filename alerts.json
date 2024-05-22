@@ -41378,5 +41378,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b026e630-1859-11ef-9109-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.K. election is set for July 4, with a high probability of ousting the Conservative Party",
+            "ios": {
+                "alert": {
+                    "body": "U.K. election is set for July 4, with a high probability of ousting the Conservative Party",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/22/uk-election-july-4-rishi-sunak/",
+                        "datetime": "2024-05-22T16:38:15.465000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664e1f770209ae3500000013",
+                        "targetTopic": "world",
+                        "text": "Prime Minister Rishi Sunak\u2019s announcement of a summer date landed as a surprise, as some analysts thought he wouldn\u2019t want to face voters before it was absolutely necessary."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "48b7f6b1-1854-11ef-ae0f-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Husband hasn\u2019t properly atoned for calling his spouse an \u2018eight\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Husband hasn\u2019t properly atoned for calling his spouse an \u2018eight\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/22/carolyn-hax-wife-husband-eight/",
+                        "datetime": "2024-05-22T15:59:34.549000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664e16660209ae3500000012",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Husband hasn\u2019t properly atoned for calling his spouse an \u2018eight\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
