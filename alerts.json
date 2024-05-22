@@ -41133,5 +41133,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "24eca090-1837-11ef-977e-0000a1ace2f8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump fundraising email falsely says Biden was \u2018locked & loaded\u2019 to \u2018take me out\u2019 in Mar-a-Lago search, misrepresenting FBI policy",
+            "ios": {
+                "alert": {
+                    "body": "Trump fundraising email falsely says Biden was \u2018locked & loaded\u2019 to \u2018take me out\u2019 in Mar-a-Lago search, misrepresenting FBI policy",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/21/trump-mar-a-lago-raid-fbi-deadly-force/",
+                        "datetime": "2024-05-22T12:30:59.103000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664de5830209ae350000000e",
+                        "targetTopic": "politics",
+                        "text": "Trump\u2019s baseless accusation \u2014 an extraordinary distortion of a standard FBI policy on the use of deadly force during such operations \u2014 came as the former president faces 88 criminal charges across four indictments, and added to a long history of false and incendiary claims against his political opponents."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
