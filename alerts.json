@@ -41526,5 +41526,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "76550ed0-1879-11ef-8a86-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republicans can't get anything done, so they're bullying D.C., Marc Fisher writes in his first Opinions column.",
+            "ios": {
+                "alert": {
+                    "body": "Republicans can't get anything done, so they're bullying D.C., Marc Fisher writes in his first Opinions column.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/05/22/congress-bully-district-of-columbia/",
+                        "datetime": "2024-05-22T20:25:42.436000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664e54c60209ae3500000016",
+                        "targetTopic": "opinions",
+                        "text": "Republicans in Congress have new \u2018solutions\u2019 for D.C. They\u2019re absurd."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8aa8caa1-1876-11ef-8a86-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A severe thunderstorm watch is in effect for the D.C. area until 8 p.m. Damaging winds and hail are possible.",
+            "ios": {
+                "alert": {
+                    "body": "A severe thunderstorm watch is in effect for the D.C. area until 8 p.m. Damaging winds and hail are possible.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/22/dc-area-forecast-thunderstorms-wednesday-thursday/",
+                        "datetime": "2024-05-22T20:04:47.981000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664e4fdf0209ae3500000015",
+                        "targetTopic": "local",
+                        "text": "Scattered storms are possible in the region through this evening, especially west and north of the District. A few could contain damaging winds and hail, in addition to heavy rain and lightning."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
