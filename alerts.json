@@ -41476,5 +41476,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8154aad0-1873-11ef-89f4-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Michigan farm worker tested positive for bird flu, the second human case in 2 months in the U.S. The worker has since recovered.",
+            "ios": {
+                "alert": {
+                    "body": "A Michigan farm worker tested positive for bird flu, the second human case in 2 months in the U.S. The worker has since recovered.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/05/22/bird-flu-detected-michigan-dairy-worker/",
+                        "datetime": "2024-05-22T19:43:03.868000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664e4ac70209ae3500000014",
+                        "targetTopic": "health",
+                        "text": "The worker suffered mild symptoms from the highly pathogenic H5N1 virus, according to state officials. Human cases of bird flu are rare."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
