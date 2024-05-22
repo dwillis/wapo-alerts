@@ -40986,5 +40986,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "17dc9460-17eb-11ef-97c4-0000a1acec74",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kevin McCarthy protege wins special election to fill his California House seat, the AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Kevin McCarthy protege wins special election to fill his California House seat, the AP projects",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/21/oregon-california-house-results/",
+                        "datetime": "2024-05-22T03:26:35.188000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664d65ebf6cfe73500000001",
+                        "targetTopic": "politics",
+                        "text": "California Assemblyman Vincent Fong (R) beat Tulare County Sheriff Mike Boudreaux (R) in the special election for California\u2019s 20th District, the Associated Press reported. Fong was endorsed by both McCarthy and Donald Trump and will serve the remainder of McCarthy\u2019s term. He is also a candidate for the full term in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
