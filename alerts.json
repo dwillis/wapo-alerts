@@ -42018,5 +42018,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a27fb550-1919-11ef-ac3e-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Norfolk Southern to pay $310 million over last year\u2019s toxic train derailment in Ohio, including cleanup costs and a penalty",
+            "ios": {
+                "alert": {
+                    "body": "Norfolk Southern to pay $310 million over last year\u2019s toxic train derailment in Ohio, including cleanup costs and a penalty",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/05/23/train-derailment-settlement-east-palestine/",
+                        "datetime": "2024-05-23T15:32:15.986000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664f617f1a93b03500000010",
+                        "targetTopic": "us",
+                        "text": "The settlement with the Justice Department resolves a lawsuit over the railroad\u2019s discharge of toxic substances following the fiery train derailment in Ohio on Feb. 3, 2023.\n\nUnder the agreement, Norfolk Southern will pay an estimated $235 million to cover the costs of the EPA\u2019s efforts to clean up contaminated air, water and soil in and around where the train derailed and toxic fumes were later vented."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
