@@ -41919,5 +41919,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "75564060-1911-11ef-bebc-00000a1acef9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "NOAA warns this could be among the worst hurricane seasons in decades",
+            "ios": {
+                "alert": {
+                    "body": "NOAA warns this could be among the worst hurricane seasons in decades",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/23/hurricane-season-forecast-active-storms/",
+                        "datetime": "2024-05-23T14:33:42.896000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664f53c61a93b0350000000f",
+                        "targetTopic": "climate",
+                        "text": "Record-warm ocean waters, fueled by human-caused climate change, are a key factor in the prediction. Hurricane season officially begins on June 1 and typically peaks in August and September."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "32814070-190f-11ef-8695-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court allows disputed South Carolina voting map that critics say excludes Black voters",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court allows disputed South Carolina voting map that critics say excludes Black voters",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/23/supreme-court-ruling-south-carolina-voting-map-gerrymander/",
+                        "datetime": "2024-05-23T14:17:32.308000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664f4ffc1a93b0350000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "At issue was South Carolina\u2019s congressional district map used in 2022, which was created by the GOP-led state legislature and moved Black voters from one district to another. The justices had to decide whether it was permitted as a way to bolster the Republican majority or was an unconstitutional effort to divvy up voters by race."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
