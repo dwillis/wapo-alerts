@@ -42116,5 +42116,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "60fec1f0-193e-11ef-b0b1-0000a1ace832",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ex-Baltimore prosecutor Marilyn Mosby sentenced to 12 months of home detention, 2 years of supervised release for fraud and perjury",
+            "ios": {
+                "alert": {
+                    "body": "Ex-Baltimore prosecutor Marilyn Mosby sentenced to 12 months of home detention, 2 years of supervised release for fraud and perjury",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/23/marilyn-mosby-federal-court-sentencing/",
+                        "datetime": "2024-05-23T19:55:17.416000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664f9f250209ae3500000017",
+                        "targetTopic": "us",
+                        "text": "Mosby, who gained national prominence for charging police officers following the death of Freddie Gray, had been convicted in federal court in Maryland for lying to mortgage lenders in the process of buying two Florida vacation homes and falsely claiming financial hardship to access retirement money. Mosby has continued to deny wrongdoing, saying she was the target of a politically motivated prosecution, and has been campaigning for a presidential pardon."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
