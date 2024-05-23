@@ -41821,5 +41821,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9dfe6730-18fe-11ef-8b7c-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Long before the Key Bridge collapse, mariners sounded alarms that a \u2018ship strike\u2019 could be catastrophic",
+            "ios": {
+                "alert": {
+                    "body": "Long before the Key Bridge collapse, mariners sounded alarms that a \u2018ship strike\u2019 could be catastrophic",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/05/23/key-bridge-warnings-ship-strikes/",
+                        "datetime": "2024-05-23T12:18:52.040000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664f342c1a93b0350000000c",
+                        "targetTopic": "special_report",
+                        "text": "Over the past two decades, as cargo ships grew ever larger, members of a Baltimore harbor safety committee repeatedly raised the possibility that an out-of-control vessel could imperil the Key Bridge, according to previously unreported records obtained by The Washington Post. The records show no indication that the warnings spurred new physical protections for the bridge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
