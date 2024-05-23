@@ -41722,5 +41722,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c849ec0-1892-11ef-bc67-0000a1acef43",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "OpenAI didn\u2019t copy Scarlett Johansson\u2019s voice for ChatGPT, records show",
+            "ios": {
+                "alert": {
+                    "body": "OpenAI didn\u2019t copy Scarlett Johansson\u2019s voice for ChatGPT, records show",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/05/22/openai-scarlett-johansson-chatgpt-ai-voice/",
+                        "datetime": "2024-05-22T23:22:09.122000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664e7e21337bc53500000004",
+                        "targetTopic": "technology",
+                        "text": "On Monday, Johansson cast a pall over the release of improved AI voices for ChatGPT, alleging that OpenAI had copied her voice after she refused a request by CEO Sam Altman to license it. But an actress was hired to create the Sky voice months before Altman contacted Johansson, according to documents, recordings, casting directors and the actress\u2019s agent.\nThe agent, who spoke on the condition of anonymity to assure the safety of her client, said the actress confirmed that neither Johansson nor the movie \u201cHer\u201d were ever mentioned by OpenAI."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
