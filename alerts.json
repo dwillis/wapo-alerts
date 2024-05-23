@@ -42165,5 +42165,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3b8d8000-194d-11ef-bea2-00000a1ace53",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alternate electors who tried to reverse Trump\u2019s 2020 defeat are poised to serve as electors again in at least three states",
+            "ios": {
+                "alert": {
+                    "body": "Alternate electors who tried to reverse Trump\u2019s 2020 defeat are poised to serve as electors again in at least three states",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/23/2020-trump-electors-criminal-charges/",
+                        "datetime": "2024-05-23T21:41:37.094000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664fb8111a93b03500000012",
+                        "targetTopic": "politics",
+                        "text": "Their eagerness to serve \u2014 and encouragement to do so from their parties \u2014 reflects a widespread belief among Republicans that the electors did nothing wrong in 2020, raising the question of what they might do or say if former president Donald Trump once again loses any of those states."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
