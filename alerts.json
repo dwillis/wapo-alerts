@@ -42606,5 +42606,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42b0d6b0-1a0c-11ef-ac17-0000a1ace503",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Uvalde families announce new lawsuits alleging \u2018Call of Duty\u2019 studio, Meta and gunmaker all helped \u2018groom\u2019 shooter",
+            "ios": {
+                "alert": {
+                    "body": "Uvalde families announce new lawsuits alleging \u2018Call of Duty\u2019 studio, Meta and gunmaker all helped \u2018groom\u2019 shooter",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/24/uvalde-lawsuits-daniel-defense-meta-activision/",
+                        "datetime": "2024-05-24T20:29:02.935000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6650f88ef6cfe7350000000a",
+                        "targetTopic": "us",
+                        "text": "The lawyer who won a record-breaking settlement for Sandy Hook families alleges Daniel Defense, Activision and Meta are responsible for pushing the Robb Elementary shooter to acquire the AR-15 style weapon he used in the Texas attack. Victim relatives are intensifying their quest for accountability in civil court."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
