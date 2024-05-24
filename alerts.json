@@ -42312,5 +42312,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "84875530-19c8-11ef-a5d1-00000a1ace51",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "East Coast abortion clinics have seen a surge in traffic since a Florida law banning most abortions went into effect",
+            "ios": {
+                "alert": {
+                    "body": "East Coast abortion clinics have seen a surge in traffic since a Florida law banning most abortions went into effect",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/05/24/abortion-clinics-wait-time-florida-law/",
+                        "datetime": "2024-05-24T12:24:07.694000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665086e7f6cfe73500000004",
+                        "targetTopic": "us",
+                        "text": "New survey data collected by researchers at Middlebury College offers a first-of-its-kind look at the practical impact of the Florida law that banned most abortions on May 1, showing wait times at clinics increased in multiple states though a collapse in care many had predicted before the law passed has not so far materialized."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
