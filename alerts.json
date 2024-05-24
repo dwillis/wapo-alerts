@@ -42214,5 +42214,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2eca0102-1960-11ef-b637-00000a1aced1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Colleges are set to pay their athletes directly after NCAA and power conferences vote to settle landmark amateurism lawsuits",
+            "ios": {
+                "alert": {
+                    "body": "Colleges are set to pay their athletes directly after NCAA and power conferences vote to settle landmark amateurism lawsuits",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/23/ncaa-settlement-revenue-sharing/",
+                        "datetime": "2024-05-23T23:57:16.023000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "664fd7dc1a93b03500000013",
+                        "targetTopic": "breaking-news",
+                        "text": "The NCAA\u2019s board of governors and college athletics\u2019 five power conferences voted to approve a settlement in the House v. NCAA case that involved former athletes suing over not being compensated for the use of their names, images and likenesses. Two related cases also would be settled under the agreement.\nThe terms of the settlement, which is still pending plaintiff approval and additional steps in the legal process, include a framework for revenue sharing that would lead to athletes being paid by their schools beginning in the 2025-26 school year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
