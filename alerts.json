@@ -42459,5 +42459,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c44c1f30-19db-11ef-9401-00000a1acebd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Morgan Spurlock dies at 53. His documentary \u2018Super Size Me\u2019 skewered the fast-food industry and tackled the epidemic of obesity.",
+            "ios": {
+                "alert": {
+                    "body": "Morgan Spurlock dies at 53. His documentary \u2018Super Size Me\u2019 skewered the fast-food industry and tackled the epidemic of obesity.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/05/24/morgan-spurlock-supersize-documentary-dies/",
+                        "datetime": "2024-05-24T14:41:55.064000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6650a733f6cfe73500000007",
+                        "targetTopic": "us",
+                        "text": "Spurlock\u2019s family confirmed the Oscar-nominated director died from cancer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
