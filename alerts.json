@@ -42508,5 +42508,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f3c1f520-19e3-11ef-8a4b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Some high-tech U.S. weapons in Ukraine are being defeated by Russian jamming, documents obtained by The Post show",
+            "ios": {
+                "alert": {
+                    "body": "Some high-tech U.S. weapons in Ukraine are being defeated by Russian jamming, documents obtained by The Post show",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/24/russia-jamming-us-weapons-ukraine/",
+                        "datetime": "2024-05-24T15:40:30.703000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6650b4eef6cfe73500000008",
+                        "targetTopic": "special_report",
+                        "text": "The percentage of some GPS-guided munitions, including Excalibur artillery shells, successfully hitting their targets plummeted after Russian forces deployed sophisticated electronic warfare capabilities, prompting Kyiv to abandon some Western weapons altogether. Russia\u2019s successful jamming could serve as a blueprint for other adversaries, including China and Iran."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
