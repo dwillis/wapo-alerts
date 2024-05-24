@@ -42361,5 +42361,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "200feb10-19d4-11ef-8297-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-24T13:47:13.073000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66509a61f6cfe73500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Think you\u2019ve got what it takes to earn a perfect score? Take today\u2019s longer news quiz and complete your point total for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8c25ee10-19d1-11ef-a289-00000a1ace33",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.N.\u2019s top court rules that Israel must \u2018immediately halt\u2019 its military offensive in Rafah",
+            "ios": {
+                "alert": {
+                    "body": "The U.N.\u2019s top court rules that Israel must \u2018immediately halt\u2019 its military offensive in Rafah",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/24/israel-hamas-war-news-gaza-palestine-rafah/",
+                        "datetime": "2024-05-24T13:28:45.895000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6650960df6cfe73500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "International Court of Justice rulings are legally binding but require the U.N. Security Council to enforce them. Israel\u2019s war to destroy Hamas in the Gaza Strip has leveled large sections of the territory, killed tens of thousands of people, mostly civilians, and brought the population to the brink of famine, according to health officials. In a preliminary response to the case filed by South Africa, the ICJ in January ordered provisional measures to prevent further harm to civilians."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
