@@ -42557,5 +42557,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "995ecde0-19ef-11ef-9b0a-0000a1ace636",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Three missionaries were killed by a gang in Haiti, an Oklahoma-based group says. Two were relatives of a Missouri lawmaker.",
+            "ios": {
+                "alert": {
+                    "body": "Three missionaries were killed by a gang in Haiti, an Oklahoma-based group says. Two were relatives of a Missouri lawmaker.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/24/american-missionaries-killed-haiti/",
+                        "datetime": "2024-05-24T17:03:53.012000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6650c879f6cfe73500000009",
+                        "targetTopic": "us",
+                        "text": "Missouri state Rep. Ben Baker identified two of the victims as his daughter Natalie and son-in-law Davy Lloyd. They were coming out of a church Thursday evening when they were ambushed by \u201ca gang of 3 trucks full of guys,\u201d Missions in Haiti Inc. said on its Facebook page. A U.N.-approved international police force, led by Kenya and funded and trained largely by the United States, is preparing to deploy to the Caribbean nation to help its security forces confront gangs that now control an estimated 80 percent of the capital."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
