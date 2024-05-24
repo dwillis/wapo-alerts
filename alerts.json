@@ -42263,5 +42263,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c5dfa890-19bc-11ef-a464-0000a1ace460",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Voting map. Israel ruling. Ticketmaster lawsuit. College athletes. Hurricanes. Food prices. Holiday weekend travel. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Voting map. Israel ruling. Ticketmaster lawsuit. College athletes. Hurricanes. Food prices. Holiday weekend travel. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/24/what-to-know-for-may-24/?noredirect=1",
+                        "datetime": "2024-05-24T11:00:03.233000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "665073330209ae3500000018",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
