@@ -42704,5 +42704,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0b8c2f70-1aa4-11ef-9fa7-00000a1ace08",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Milwaukee patio becomes a battleground for Black public housing tenants, some of America\u2019s most talked-about voters",
+            "ios": {
+                "alert": {
+                    "body": "A Milwaukee patio becomes a battleground for Black public housing tenants, some of America\u2019s most talked-about voters",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/milwaukee-public-housing-black-voters-biden/",
+                        "datetime": "2024-05-25T14:35:33.989000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6651f7354759343500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "College Court Apartments residents, exasperated by the problems in their building, proposed solutions to local leaders. Instead of a response, tenants awoke a few days later to find a padlock on the gate to the patio. Recent polling suggests low-income Black voters like the ones at College Court are disappointed in Joe Biden\u2019s presidency \u2014 but he desperately needs their votes, especially in swing states such as Wisconsin."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
