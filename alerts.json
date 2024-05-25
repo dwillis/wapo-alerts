@@ -42802,5 +42802,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9d6ed2a0-1ac5-11ef-8540-00000a1ace2d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Black rising star lost his elite orchestra job. He won\u2019t go quietly.",
+            "ios": {
+                "alert": {
+                    "body": "A Black rising star lost his elite orchestra job. He won\u2019t go quietly.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/2024/05/24/josh-jones-kansas-city-symphony/",
+                        "datetime": "2024-05-25T18:35:52.152000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66522f884759343500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "Josh Jones, an acclaimed young classical percussionist, thinks the Kansas City Symphony dismissed him unjustly. Now he is breaking the orchestra world\u2019s \u201ccode of silence\u201d about hiring, firing and promotion to share his grievances. Symphony officials deny he was unfairly treated. But other musicians say he has launched a much-needed conversation about an outdated system they believe thwarts many talented young artists."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
