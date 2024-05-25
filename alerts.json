@@ -42753,5 +42753,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "12c09800-1ab1-11ef-ace5-0000a1aceff9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: Sister-in-law inserts herself into our kids\u2019 playdates. Do I say something?",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: Sister-in-law inserts herself into our kids\u2019 playdates. Do I say something?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/23/ask-sahaj-sister-in-law-playdates-cousins/",
+                        "datetime": "2024-05-25T16:08:49.537000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66520d114759343500000003",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: Sister-in-law inserts herself into our kids\u2019 playdates. Do I say something?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
