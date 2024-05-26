@@ -42949,5 +42949,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "771b0000-1b70-11ef-b9eb-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "When open houses get weird: Real estate agents dish on the horrors they\u2019ve seen, from the gross to the dangerous",
+            "ios": {
+                "alert": {
+                    "body": "When open houses get weird: Real estate agents dish on the horrors they\u2019ve seen, from the gross to the dangerous",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/home/2024/05/21/how-open-houses-go-wrong-weird/",
+                        "datetime": "2024-05-26T14:58:51.768000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66534e2b6747c43500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Industry experts are split on whether open houses actually help sell homes, but there seem to be two universal truths about them: The practice helps agents expand their client base, and, when you welcome large numbers of random people to view a listing, extremely strange things can happen."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
