@@ -42851,5 +42851,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "df0437c1-1af5-11ef-a852-00000a1ace1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Small tortilla shops are being shaken down as Mexican cartels create vast extortion networks, expanding their grip on the economy",
+            "ios": {
+                "alert": {
+                    "body": "Small tortilla shops are being shaken down as Mexican cartels create vast extortion networks, expanding their grip on the economy",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/23/mexico-cartels-tortilla-exortion-crime/",
+                        "datetime": "2024-05-26T00:21:17.951000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6652807d2cf1663600000001",
+                        "targetTopic": "world",
+                        "text": "At least 15 percent of tortiller\u00edas in Mexico \u2014 about 20,000 storefront businesses \u2014 are regularly extorted, according to the industry trade group. A decade ago only a tiny percentage were threatened. What has happened is emblematic of the criminal penetration of industries from agriculture to construction across Mexico and Latin America."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
