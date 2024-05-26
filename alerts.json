@@ -43047,5 +43047,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "265dcba4-1b8b-11ef-9c11-00000a1aced8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 26 most anticipated movies of the summer",
+            "ios": {
+                "alert": {
+                    "body": "The 26 most anticipated movies of the summer",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2024/05/21/top-summer-movies-2024/",
+                        "datetime": "2024-05-26T18:09:52.657000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66537af02cf1663600000002",
+                        "targetTopic": "entertainment",
+                        "text": "The surf is up, bringing what board riders might call a \u201cset\u201d of cinematic waves to theaters: Two Kevin Bacon movies! Two Shyamalan movies \u2014 a father and daughter affair! And two Kevin Costner movies! But there\u2019s something for everyone, including, for the mavericks among us, more than a few one-offs: stories that showcase originality, verve, surprise and eccentricity."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
