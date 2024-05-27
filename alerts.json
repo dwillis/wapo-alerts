@@ -43341,5 +43341,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cb06c1b1-1c4a-11ef-9379-00000a1ace8f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It's time to shake up America's national holidays, starting with Memorial Day, Daniel Pink writes.",
+            "ios": {
+                "alert": {
+                    "body": "It's time to shake up America's national holidays, starting with Memorial Day, Daniel Pink writes.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/05/22/memorial-day-federal-holiday-overhaul/",
+                        "datetime": "2024-05-27T17:01:42.822000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6654bc762cf1663600000005",
+                        "targetTopic": "opinions",
+                        "text": "Why not shake up America\u2019s national holidays?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
