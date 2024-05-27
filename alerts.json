@@ -43488,5 +43488,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "516c88f0-1c7a-11ef-8cfd-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018I saw with my own eyes someone burning\u2019: Eyewitnesses describe Israeli strike on Rafah tent camp",
+            "ios": {
+                "alert": {
+                    "body": "\u2018I saw with my own eyes someone burning\u2019: Eyewitnesses describe Israeli strike on Rafah tent camp",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/27/rafah-strike-israel-displaced-palestinians/",
+                        "datetime": "2024-05-27T22:41:54.676000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66550c324759343500000009",
+                        "targetTopic": "world",
+                        "text": "At least 45 people were killed and dozens wounded in the Israeli airstrike late Sunday, according to the Gaza Health Ministry, which said about half of the victims were women and children. Israel\u2019s Prime Minister Benjamin Netanyahu called it a \u201ctragic accident\u201d and promised an investigation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
