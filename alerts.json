@@ -43145,5 +43145,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4e803951-1bc8-11ef-80be-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Severe thunderstorm watch in effect until midnight as potentially damaging storms approach D.C. area",
+            "ios": {
+                "alert": {
+                    "body": "Severe thunderstorm watch in effect until midnight as potentially damaging storms approach D.C. area",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/26/pm-update-dc-weather-memorial-day-storms/",
+                        "datetime": "2024-05-27T01:27:39.363000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6653e18b2cf1663600000004",
+                        "targetTopic": "local",
+                        "text": "These storms have a long history of bringing down trees and will blast through much of the metro region between 10 p.m. and midnight. Follow the Capital Weather Gang for the latest."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
