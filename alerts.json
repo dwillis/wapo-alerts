@@ -43390,5 +43390,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "872cc950-1c52-11ef-bfaa-00000a1acef5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bill Walton dies at 71. The Basketball Hall of Famer went on to a colorful career as a commentator.",
+            "ios": {
+                "alert": {
+                    "body": "Bill Walton dies at 71. The Basketball Hall of Famer went on to a colorful career as a commentator.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/27/bill-walton-dies/",
+                        "datetime": "2024-05-27T17:57:04.938000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6654c9704759343500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "Walton, a dominant college player at UCLA and a two-time NBA champion whose professional career was affected by injuries, died after a prolonged battle with cancer, the NBA announced in a statement.\n\n\u201cBill Walton was truly one of a kind,\u201d NBA Commissioner Adam Silver said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
