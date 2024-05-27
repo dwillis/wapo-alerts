@@ -43439,5 +43439,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d96c3770-1c64-11ef-8179-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tornado watch issued for D.C. area until 11 p.m.",
+            "ios": {
+                "alert": {
+                    "body": "Tornado watch issued for D.C. area until 11 p.m.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/27/dc-md-va-severe-storm-risk/",
+                        "datetime": "2024-05-27T20:08:13.784000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6654e82d6747c43500000005",
+                        "targetTopic": "local",
+                        "text": "Thunderstorms, some of which may be severe, are most probable in the Washington region between about 5 and 8 p.m. A couple tornadoes cannot be ruled out, although heavy rain, lightning and strong winds will be most widespread."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
