@@ -43292,5 +43292,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ceb19050-1c41-11ef-9d66-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Weekend storms kill at least 22 people as severe weather heads toward East Coast. Here\u2019s where it could hit next.",
+            "ios": {
+                "alert": {
+                    "body": "Weekend storms kill at least 22 people as severe weather heads toward East Coast. Here\u2019s where it could hit next.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/05/27/tornado-kentucky-texas-storms-weather-news/",
+                        "datetime": "2024-05-27T15:57:23.408000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6654ad634759343500000007",
+                        "targetTopic": "us",
+                        "text": "Deadly storms producing destructive tornadoes slammed Texas, Oklahoma, Arkansas and Kentucky. Areas from Alabama to New York could see severe storms on Memorial Day afternoon and evening."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
