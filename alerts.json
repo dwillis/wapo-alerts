@@ -43243,5 +43243,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "11f8be91-1c3a-11ef-a0ac-00000a1ace89",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hunters killed off most of Florida\u2019s wild flamingos. Now the fluorescent fowl appears to be making a comeback.",
+            "ios": {
+                "alert": {
+                    "body": "Hunters killed off most of Florida\u2019s wild flamingos. Now the fluorescent fowl appears to be making a comeback.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/florida-flamingo-idalia-hurricane-everglades/",
+                        "datetime": "2024-05-27T15:02:00.373000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6654a0684759343500000006",
+                        "targetTopic": "editors_picks",
+                        "text": "Few animals are more closely associated with Florida\u2019s iconography than the flamingo, but its numbers plummeted by the 1920s. Then Hurricane Idalia blew in several flamboyant flocks last year. Scientists feared they might fly back home, but a new Audubon Florida survey indicates they could be planning to stay."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
