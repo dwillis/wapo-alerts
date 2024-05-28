@@ -43831,5 +43831,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "921748e0-1d0b-11ef-acba-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Family clown hopes to pivot by offering sincere support",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Family clown hopes to pivot by offering sincere support",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/28/carolyn-hax-support-family-hard-time/",
+                        "datetime": "2024-05-28T16:01:40.178000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6655ffe42cf166360000000b",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Family clown hopes to pivot by offering sincere support"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
