@@ -43635,5 +43635,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "997a9730-1cf8-11ef-a96b-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Closing arguments are underway in Trump\u2019s New York hush money trial. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Closing arguments are underway in Trump\u2019s New York hush money trial. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/28/trump-hush-money-trial-live-updates-closing-arguments/",
+                        "datetime": "2024-05-28T13:45:52.027000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6655e0102cf1663600000006",
+                        "targetTopic": "breaking-news",
+                        "text": "In the New York court system, the defense gives its closing argument first, followed by prosecutors. After that, jurors will get instructions from New York Supreme Court Justice Juan Merchan and begin deliberations over whether Donald Trump, the first former U.S. president charged with a crime, falsified business records related to a payment to an adult-film actress ahead of the 2016 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
