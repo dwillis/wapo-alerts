@@ -43929,5 +43929,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47a0fde0-1d35-11ef-ad6a-00000a1ace5d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mexico City and millions of its residents could run out of water in weeks",
+            "ios": {
+                "alert": {
+                    "body": "Mexico City and millions of its residents could run out of water in weeks",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/05/25/mexico-city-water-day-zero/",
+                        "datetime": "2024-05-28T21:00:14.044000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665645de2cf166360000000c",
+                        "targetTopic": "editors_picks",
+                        "text": "The metropolitan area gets about a quarter of its water from a system that could be unable to provide water by June 26 because of decreased rainfall and the recent El Ni\u00f1o pattern. Rain would help alleviate the strain, but it could also \u201ccause a false sense of security,\u201d one expert said, as the city grapples with poor water management and infrastructure."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
