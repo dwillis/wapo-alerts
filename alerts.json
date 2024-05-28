@@ -43782,5 +43782,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "01c8a5a0-1d0a-11ef-9696-00000a1ace01",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Georgia enacts Russian-style \u2018foreign agent\u2019 law despite mass protests \u2014 a victory for Moscow",
+            "ios": {
+                "alert": {
+                    "body": "Georgia enacts Russian-style \u2018foreign agent\u2019 law despite mass protests \u2014 a victory for Moscow",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/28/georgia-russia-foreig-agent-law-parliament/",
+                        "datetime": "2024-05-28T15:50:28.569000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6655fd442cf166360000000a",
+                        "targetTopic": "world",
+                        "text": "The Georgian Dream party overrode a presidential veto, so now the law \u2014 which critics warn will be used to restrict free speech and squash political dissent \u2014 will pass. Georgia\u2019s future as being part of either Moscow\u2019s orbit or that of Western Europe hangs in the balance."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
