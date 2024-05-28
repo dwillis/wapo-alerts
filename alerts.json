@@ -43880,5 +43880,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c896e630-1d26-11ef-b655-00000a1ace20",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon suspends aid deliveries to Gaza civilians after repeated mishaps and weather damage to floating pier",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon suspends aid deliveries to Gaza civilians after repeated mishaps and weather damage to floating pier",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/28/gaza-pier-pentagon-weather-damage/",
+                        "datetime": "2024-05-28T19:16:27.919000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66562d8b72bc5d3600000001",
+                        "targetTopic": "world",
+                        "text": "A U.S. service member was critically injured, four U.S. military vessels were beached, and sections of the structure were ripped free in bad weather. The pier will be towed to the Israeli port of Ashdod for repair and reassembly \u2014 a process that will take \u201cat least a week,\u201d according to a Pentagon official."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
