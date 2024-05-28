@@ -43537,5 +43537,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a309ebb0-1c81-11ef-8722-00000a1ace7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Covid will still be here this summer. Will anyone care?",
+            "ios": {
+                "alert": {
+                    "body": "Covid will still be here this summer. Will anyone care?",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/05/26/covid-flirt-variant-cases-summer/",
+                        "datetime": "2024-05-27T23:34:18.102000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6655187a475934350000000b",
+                        "targetTopic": "special_report",
+                        "text": "Despite \u201cFLiRT\u201d variants, this may be the first covid wave with little federal pressure to limit transmission or data to even declare a surge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
