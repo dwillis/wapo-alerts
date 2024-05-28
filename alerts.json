@@ -43586,5 +43586,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6fe34780-1ce1-11ef-80f6-000a1aced053",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s trial. Rafah strike. Tornadoes. Deadly landslide. Bill Walton. Wildlife bridge. Orcas. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s trial. Rafah strike. Tornadoes. Deadly landslide. Bill Walton. Wildlife bridge. Orcas. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/28/what-to-know-for-may-28/?noredirect=1",
+                        "datetime": "2024-05-28T11:00:03.918000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6655b9336747c43500000006",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
