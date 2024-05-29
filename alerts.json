@@ -43978,5 +43978,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9d40cc10-1daa-11ef-bddd-0000a1ace7b7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump jury. Gaza pier. Pope Francis. Texas storms. Child abuse. Baseball history. Wu-Tang Clan. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump jury. Gaza pier. Pope Francis. Texas storms. Child abuse. Baseball history. Wu-Tang Clan. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/29/what-to-know-for-may-29/?noredirect=1",
+                        "datetime": "2024-05-29T11:00:08.912000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "66570ab860c5d43500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
