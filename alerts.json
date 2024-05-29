@@ -44517,5 +44517,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8f34bf50-1df0-11ef-9de9-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Girls\u2019 periods are starting sooner and are more irregular than in past generations, study finds",
+            "ios": {
+                "alert": {
+                    "body": "Girls\u2019 periods are starting sooner and are more irregular than in past generations, study finds",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/05/29/early-periods-menstruation-irregularity/",
+                        "datetime": "2024-05-29T19:20:50.063000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6657801272bc5d360000000b",
+                        "targetTopic": "health",
+                        "text": "A new study of 71,341 women supports the growing concern that the age at which girls start menstruating is getting younger. Higher body weight and \u201cforever chemicals\u201d in the environment probably play a role in the trend."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
