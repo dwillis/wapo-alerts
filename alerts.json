@@ -44125,5 +44125,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0233a090-1dc7-11ef-95ec-00000a1ace87",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Native American children suffered pervasive sexual abuse at the Catholic-run boarding schools they were forced to attend",
+            "ios": {
+                "alert": {
+                    "body": "Native American children suffered pervasive sexual abuse at the Catholic-run boarding schools they were forced to attend",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2024/sexual-abuse-native-american-boarding-schools/",
+                        "datetime": "2024-05-29T14:23:24.044000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66573a5c72bc5d3600000004",
+                        "targetTopic": "special_report",
+                        "text": "The U.S. government took Native American children from their families and sent them to live at remote boarding schools, some of which were operated by the Catholic Church or its religious affiliates. A Post investigation uncovered decades of abuse \u2014 Catholic priests, brothers and sisters raped and molested more than 1,000 Native American children in their care."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2a161321-1dc4-11ef-a91b-00000a1ace45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Most Washington-area sports fans dislike or hate the Washington Commanders\u2019 name, Post-Schar School poll finds",
+            "ios": {
+                "alert": {
+                    "body": "Most Washington-area sports fans dislike or hate the Washington Commanders\u2019 name, Post-Schar School poll finds",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/29/washington-commanders-name-poll/",
+                        "datetime": "2024-05-29T14:03:02.621000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6657359672bc5d3600000003",
+                        "targetTopic": "local",
+                        "text": "A Washington Post-Schar School poll finds that 54 percent of Washington-area sports fans say they either dislike or hate the local NFL team's name. Among just local Commanders fans, the antipathy toward the name is even more stark; 58 percent say they don\u2019t like the name. The franchise unveiled the Commanders name, logo and uniforms in February 2022."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
