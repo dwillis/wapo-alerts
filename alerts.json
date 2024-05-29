@@ -44370,5 +44370,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd0070b0-1de3-11ef-b875-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alito says he will not recuse from Jan. 6 cases, offers new details on politically charged flags raised at his homes",
+            "ios": {
+                "alert": {
+                    "body": "Alito says he will not recuse from Jan. 6 cases, offers new details on politically charged flags raised at his homes",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/29/supreme-court-alito-recuse-flag-jan-6/",
+                        "datetime": "2024-05-29T17:49:57.037000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66576ac572bc5d360000000a",
+                        "targetTopic": "us",
+                        "text": "Justice Samuel A. Alito Jr. faced calls from Democratic lawmakers and some legal experts to recuse from two Supreme Court cases related to efforts to overturn the 2020 election results after reports that an upside-down American flag and a religious flag \u2014 both of which have been embraced by election deniers \u2014 flew outside the homes owned by him and his wife. Alito said his wife is \u201cfond of flying flags\u201d and was responsible for the raising of these flags. He also said he asked her to lower the upside-down American flag but she initially refused to do so."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6910b5b0-1ddf-11ef-b5f8-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel says it has military control of a buffer zone on the border between Gaza and Egypt",
+            "ios": {
+                "alert": {
+                    "body": "Israel says it has military control of a buffer zone on the border between Gaza and Egypt",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/29/israel-hamas-war-news-gaza-palestine-rafah/",
+                        "datetime": "2024-05-29T17:18:04.651000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6657634c72bc5d3600000009",
+                        "targetTopic": "world",
+                        "text": "The Israel Defense Forces said Wednesday that it had gained \u201ctactical control over the Philadelphi corridor,\u201d a narrow strip of land separating Gaza from Egypt, and a key target of Israel\u2019s offensive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4c9b0df1-1dde-11ef-94d5-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prosecutor drops charges against golfer Scottie Scheffler after traffic-related incident near PGA Championship",
+            "ios": {
+                "alert": {
+                    "body": "Prosecutor drops charges against golfer Scottie Scheffler after traffic-related incident near PGA Championship",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/05/29/scottie-scheffler-charges-dropped/",
+                        "datetime": "2024-05-29T17:10:07.367000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6657616f72bc5d3600000008",
+                        "targetTopic": "sports",
+                        "text": "Scheffler was arrested on May 17 and booked on four charges, including second-degree assault of a police officer, while driving toward Valhalla Golf Club in Louisville, site of the PGA Championship. Scheffler, the world's top-ranked golfer, called the incident \"a big misunderstanding.\" Louisville's mayor and police chief said last week that the officer who arrested Scheffler failed to activate his body camera, in violation of policy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
