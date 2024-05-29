@@ -44567,5 +44567,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dfe77620-1e06-11ef-97e8-0000a1ace6f6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "TikTok offered an extraordinary deal to give the White House control over its American operations. The U.S. took a pass.",
+            "ios": {
+                "alert": {
+                    "body": "TikTok offered an extraordinary deal to give the White House control over its American operations. The U.S. took a pass.",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/05/29/tiktok-cfius-proposal-rejected/",
+                        "datetime": "2024-05-29T22:00:34.377000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6657a5826747c43500000007",
+                        "targetTopic": "technology",
+                        "text": "In 2022, TikTok offered the Biden administration control over the app\u2019s U.S. operations, including a nationwide kill switch and the right to veto its hiring in the United States. The administration said no, a decision that set in motion an uncertain legal battle that could either solidify the app's First Amendment protections or lead to the potential ban of a service used by 170 million across the country."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
