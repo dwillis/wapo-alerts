@@ -44027,5 +44027,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "964ec1b3-1db3-11ef-879e-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Giant pandas are returning to D.C. this year, the Smithsonian\u2019s National Zoo announces, after reaching a lease agreement with China",
+            "ios": {
+                "alert": {
+                    "body": "Giant pandas are returning to D.C. this year, the Smithsonian\u2019s National Zoo announces, after reaching a lease agreement with China",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/29/dc-new-giant-pandas-national-zoo-china/",
+                        "datetime": "2024-05-29T12:04:22.426000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665719c660c5d43500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The new pandas \u2014 Bao Li, 2, a male, and Qing Bao, 2, a female \u2014 are coming on a 10-year lease, during which the zoo will pay the China Wildlife and Conservation Association $1 million a year, the zoo said in its announcement.\n\nBao Li is the son of Bao Bao, a female giant panda born at the zoo in 2013, and the grandson of Mei Xiang and Tian Tian, the panda couple whose departure from the zoo last year broke hearts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
