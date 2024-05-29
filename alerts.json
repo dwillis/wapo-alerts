@@ -44223,5 +44223,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "11dd4960-1dd1-11ef-9e82-0000a1ace929",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jury deliberations have begun in Trump\u2019s hush money trial. Here\u2019s what he could face if he\u2019s convicted.",
+            "ios": {
+                "alert": {
+                    "body": "Jury deliberations have begun in Trump\u2019s hush money trial. Here\u2019s what he could face if he\u2019s convicted.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/29/trump-if-convicted-hush-money-trial-new-york/",
+                        "datetime": "2024-05-29T15:35:25.231000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66574b3d72bc5d3600000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Twelve New Yorkers will weigh whether former president Donald Trump, the presumptive Republican White House nominee, falsified business records connected to a hush money payment to an adult-film actress before the 2016 election. If convicted, he\u2019s in for a mix of routine court processing and extraordinary logistical considerations, legal experts say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "520b9ab0-1dd0-11ef-bdd3-00000a1aced6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live chat: Is it safe to eat at a restaurant after it was closed by the health department? Our food critic answers your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Live chat: Is it safe to eat at a restaurant after it was closed by the health department? Our food critic answers your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/05/23/tom-sietsema-live-chat/",
+                        "datetime": "2024-05-29T15:30:03.531000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665749fb72bc5d3600000005",
+                        "targetTopic": "food",
+                        "text": "Live chat: Is it safe to eat at a restaurant after it was closed by the health department? Our food critic answers your questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
