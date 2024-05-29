@@ -44076,5 +44076,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b91ba350-1dbf-11ef-bced-00000a1ace72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A celebrity mountain lion\u2019s legacy in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A celebrity mountain lion\u2019s legacy in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-29T13:31:15.088000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66572e2372bc5d3600000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
