@@ -44321,5 +44321,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ab267030-1dd4-11ef-adf2-00000a1acef1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Turns out their 40-year \u2018secret\u2019 was out of the bag the whole time",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Turns out their 40-year \u2018secret\u2019 was out of the bag the whole time",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/29/carolyn-hax-secret-friend-spilled/",
+                        "datetime": "2024-05-29T16:01:11.083000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6657514772bc5d3600000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Turns out their 40-year \u2018secret\u2019 was out of the bag the whole time"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
