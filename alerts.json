@@ -44764,5 +44764,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "617a8460-1e9e-11ef-b653-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: It\u2019s \u2018emasculating\u2019 to question husband on how he spends her money?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: It\u2019s \u2018emasculating\u2019 to question husband on how he spends her money?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/05/30/carolyn-hax-husband-spending-emasculating/",
+                        "datetime": "2024-05-30T16:05:05.655000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6658a3b16747c43500000008",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: It\u2019s \u2018emasculating\u2019 to question husband on how he spends her money?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
