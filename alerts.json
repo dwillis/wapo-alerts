@@ -44666,5 +44666,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e60ded80-1e89-11ef-add8-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sports used to unify us, columnist Jerry Brewer writes. Now grievance has splintered them.",
+            "ios": {
+                "alert": {
+                    "body": "Sports used to unify us, columnist Jerry Brewer writes. Now grievance has splintered them.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/interactive/2024/american-sports-grievance-culture/",
+                        "datetime": "2024-05-30T13:38:28.802000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6658815472bc5d360000000d",
+                        "targetTopic": "editors_picks",
+                        "text": "From the NFL and other national leagues to competitions on an international stage, sports have become a platform for division in an increasingly politicized society."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "801c0441-1e88-11ef-a8f3-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Saying goodbye to a Hall of Famer in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Saying goodbye to a Hall of Famer in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-05-30T13:28:28.201000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66587efc72bc5d360000000c",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Thursday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
