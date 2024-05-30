@@ -44617,5 +44617,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c3966360-1e73-11ef-92b3-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump jury deliberations. Rafah bomb. Justice Alito. Hong Kong. Credit scores. First periods. Ancient skull. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump jury deliberations. Rafah bomb. Justice Alito. Hong Kong. Credit scores. First periods. Ancient skull. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/30/what-to-know-for-may-30/?noredirect=1",
+                        "datetime": "2024-05-30T11:00:02.066000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "66585c3260c5d43500000003",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
