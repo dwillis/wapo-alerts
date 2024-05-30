@@ -44863,5 +44863,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "05c87ab0-1ec5-11ef-949f-0000a1ace83d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The jury has reached a decision in Donald Trump's hush money trial. Follow our coverage as the verdict is read.",
+            "ios": {
+                "alert": {
+                    "body": "The jury has reached a decision in Donald Trump's hush money trial. Follow our coverage as the verdict is read.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/30/trump-hush-money-trial-live-updates-jury-deliberations/#link-RRGGXMTSSRHHVGPA4DL6KSQIXM",
+                        "datetime": "2024-05-30T20:41:42.302000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6658e48672bc5d360000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "Trump, his lawyers and Manhattan prosecutors have been summoned back to the courtroom to hear whether the jury has reached a unanimous decision to convict or acquit the only former U.S. president ever charged with a crime. If jurors were divided over whether Trump falsified business records related to a hush money payment in an effort to impact the 2016 election, the judge will declare a mistrial \u2014 and prosecutors will have to decide whether to retry the case."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
