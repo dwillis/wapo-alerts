@@ -44912,5 +44912,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "024e0050-1ecd-11ef-bab1-0000a1ace0cd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After historic conviction on 34 felony counts, Trump says \u2018the real verdict\u2019 will come on Election Day: \u2018I\u2019m a very innocent man\u2019",
+            "ios": {
+                "alert": {
+                    "body": "After historic conviction on 34 felony counts, Trump says \u2018the real verdict\u2019 will come on Election Day: \u2018I\u2019m a very innocent man\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/30/trump-hush-money-trial-live-updates-jury-deliberations/",
+                        "datetime": "2024-05-30T21:38:52.426000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6658f1ec6747c4350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "Former president Donald Trump, after being found guilty on all counts in the New York hush money case, vows to keep fighting through the Nov. 5 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c1e28650-1eca-11ef-9331-00000a1ace05",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump was convicted on all 34 felonies in his N.Y. hush money trial. His sentencing is set for July 11.",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump was convicted on all 34 felonies in his N.Y. hush money trial. His sentencing is set for July 11.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/30/trump-guilty-verdict-hush-money-trial/",
+                        "datetime": "2024-05-30T21:22:45.342000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6658ee256747c4350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "Trump is the first former president found guilty of a crime. Will he serve time in prison? How will the verdict reshape the November election?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "aaaf6a90-1ec8-11ef-8c5e-000a1ace8900",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump found guilty in N.Y. hush money trial, becoming the first ex-president convicted of a crime",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump found guilty in N.Y. hush money trial, becoming the first ex-president convicted of a crime",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/05/30/trump-hush-money-trial-live-updates-jury-deliberations/",
+                        "datetime": "2024-05-30T21:07:47.464000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6658eaa36747c4350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "A jury has found Trump, the presumptive Republican presidential nominee, guilty on at least one count of falsifying business records related to a hush money payment ahead of the 2016 election. He faces 34 counts in all. Follow our live coverage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
