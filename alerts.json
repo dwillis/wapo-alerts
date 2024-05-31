@@ -45304,5 +45304,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aab6e760-1f46-11ef-aaac-0000a1ace89c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel military confirms it\u2019s operating in central Rafah for the first time, despite U.S. warnings",
+            "ios": {
+                "alert": {
+                    "body": "Israel military confirms it\u2019s operating in central Rafah for the first time, despite U.S. warnings",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/05/31/israel-rafah-offensive-hamas-biden/",
+                        "datetime": "2024-05-31T12:09:44.127000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6659be0872bc5d360000000f",
+                        "targetTopic": "world",
+                        "text": "Israeli forces have begun to push into Rafah\u2019s most populated areas in recent days, razing scores of buildings along the way, as they work to dismantle Hamas and establish a line of control along the Egyptian border, according to satellite imagery and videos. The Biden administration had warned against major operations inside the populated parts of Rafah in southern Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
