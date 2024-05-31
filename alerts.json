@@ -45500,5 +45500,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "63720b90-1f83-11ef-8000-0000a1ace005",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "University of Virginia, state to pay a total of $6 million to the families of three students killed in a 2022 shooting on campus",
+            "ios": {
+                "alert": {
+                    "body": "University of Virginia, state to pay a total of $6 million to the families of three students killed in a 2022 shooting on campus",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/05/31/uva-shooting-settlement/",
+                        "datetime": "2024-05-31T19:24:22.986000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665a23e660c5d43500000004",
+                        "targetTopic": "local",
+                        "text": "The settlements come after three students were killed, and two others injured, when a gunman opened fire after a class trip in November 2022. A U-Va. student was charged with murder in the case."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
