@@ -45451,5 +45451,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d64b1580-1f7e-11ef-8b02-0000a1ace599",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden announces new Israeli proposal for temporary cease-fire deal",
+            "ios": {
+                "alert": {
+                    "body": "Biden announces new Israeli proposal for temporary cease-fire deal",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/31/biden-israel-hamas-ceasefire-proposal/",
+                        "datetime": "2024-05-31T18:51:49.066000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665a1c4572bc5d3600000012",
+                        "targetTopic": "breaking-news",
+                        "text": "Details of the terms are unclear, but the president described a three-phase agreement put to Hamas that would see a cessation of fighting, a securing of hostage releases, humanitarian aid and the withdrawal of Israeli troops from Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
