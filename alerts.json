@@ -45549,5 +45549,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "238c9a60-1f95-11ef-951b-0000a1ace005",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What AI thinks a \u2018beautiful\u2019 woman and an \u2018ugly\u2019 woman look like",
+            "ios": {
+                "alert": {
+                    "body": "What AI thinks a \u2018beautiful\u2019 woman and an \u2018ugly\u2019 woman look like",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/interactive/2024/ai-bias-beautiful-women-ugly-images/",
+                        "datetime": "2024-05-31T21:31:27.464000Z",
+                        "imageURL": "https://www.washingtonpost.com/technology/interactive/2024/ai-bias-beautiful-women-ugly-images/",
+                        "pushID": "665a41af2cf166360000000e",
+                        "targetTopic": "editors_picks",
+                        "text": "As AI-generated images spread across entertainment, social media and other industries that shape cultural norms, The Washington Post set out to understand how this technology defines one of society\u2019s most indelible standards: female beauty. Using dozens of prompts on three of the leading image tools \u2014 MidJourney, DALL-E and Stable Diffusion \u2014 The Post found that AI steers users toward a startlingly narrow vision of attractiveness."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
