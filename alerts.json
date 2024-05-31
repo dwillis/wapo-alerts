@@ -45598,5 +45598,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "787a1d10-1f9d-11ef-8e3f-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Marian Robinson, mother of former first lady Michelle Obama, dies at 86",
+            "ios": {
+                "alert": {
+                    "body": "Marian Robinson, mother of former first lady Michelle Obama, dies at 86",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/05/31/marian-robinson-mother-of-michelle-obama-dead-obituary/",
+                        "datetime": "2024-05-31T22:31:05.820000Z",
+                        "imageURL": "https://www.washingtonpost.com/obituaries/2024/05/31/marian-robinson-mother-of-michelle-obama-dead-obituary/",
+                        "pushID": "665a4fa92cf166360000000f",
+                        "targetTopic": "us",
+                        "text": "A homemaker from the South Side of Chicago, she became the first presidential in-law in generations to live in the White House. On election night in 2008, Barack Obama described his mother-in-law as having been uncharacteristically emotional as she witnessed his historic election as the first Black president of the United States.\n\u201cShe was sitting next to me, actually, as we were watching returns. And she\u2019s like my grandmother was, sort of a no-fuss type of person. And suddenly, she just kind of reached out and she started holding my hand, you know, kind of squeezing it,\u201d he said in an interview with CBS\u2019s \u201c60 Minutes.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
