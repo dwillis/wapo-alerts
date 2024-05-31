@@ -45402,5 +45402,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ea9c4900-1f6a-11ef-bd0d-000a1aced516",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can Trump get a security clearance now that he is a felon? Our reporters are answering your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Can Trump get a security clearance now that he is a felon? Our reporters are answering your questions.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/05/31/questions-verdict-trump-hush-money-trial/",
+                        "datetime": "2024-05-31T16:29:13.110000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6659fad972bc5d3600000011",
+                        "targetTopic": "politics",
+                        "text": "Donald Trump has been convicted on all 34 counts of falsifying business records. Join our live chat to speak with our reporters who have been covering the trial."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
