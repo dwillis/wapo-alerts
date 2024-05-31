@@ -45255,5 +45255,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ec6a6831-1f3c-11ef-be32-00000a1ace03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump verdict. Sentencing date. Ukraine weapons. Direct File. AI dangers. Northern lights. Spelling Bee. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump verdict. Sentencing date. Ukraine weapons. Direct File. AI dangers. Northern lights. Spelling Bee. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/05/31/what-to-know-for-may-31/?noredirect=1",
+                        "datetime": "2024-05-31T10:59:59.267000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6659adaf6747c43500000010",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
