@@ -45696,5 +45696,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e8e1f720-2020-11ef-bc5b-00000a1ace73",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new national spelling bee champion was crowned after knowing how to spell \u2018abseil.\u2019 How good of a speller are you? Take our quiz.",
+            "ios": {
+                "alert": {
+                    "body": "A new national spelling bee champion was crowned after knowing how to spell \u2018abseil.\u2019 How good of a speller are you? Take our quiz.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/interactive/2024/spelling-test-word-quiz/",
+                        "datetime": "2024-06-01T14:11:58.676000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665b2c2e64f9793500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Students compete in the Scripps National Spelling Bee by spelling words that could make one\u2019s head spin. But there are dozens of everyday words that are regularly misspelled. Think you can find them all?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
