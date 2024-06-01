@@ -45745,5 +45745,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0f18e621-202a-11ef-afc6-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Boeing is gearing up to send Starliner into space with two NASA astronauts on board. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Boeing is gearing up to send Starliner into space with two NASA astronauts on board. Follow our coverage.",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/01/boeing-starliner-launch-live-video-nasa/",
+                        "datetime": "2024-06-01T15:17:28.285000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665b3b8864f9793500000003",
+                        "targetTopic": "technology",
+                        "text": "The mission \u2014 a test flight for the space agency \u2014 comes after years of delays and setbacks for the company\u2019s spacecraft."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
