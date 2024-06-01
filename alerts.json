@@ -45844,5 +45844,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "59bc7651-203a-11ef-a45c-0000a1ace09b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They took the children: The United States\u2019 hidden legacy of using Indian boarding schools to destroy tribal culture and seize land",
+            "ios": {
+                "alert": {
+                    "body": "They took the children: The United States\u2019 hidden legacy of using Indian boarding schools to destroy tribal culture and seize land",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2024/american-indian-boarding-schools-history-legacy/",
+                        "datetime": "2024-06-01T17:14:05.424000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665b56dd64f9793500000005",
+                        "targetTopic": "special_report",
+                        "text": "For 150 years, the U.S. government ordered Native American children to be removed from their families and sent them to remote boarding schools to eradicate their cultures, assimilate them into White society and seize tribal land."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
