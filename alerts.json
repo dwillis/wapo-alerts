@@ -45893,5 +45893,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f2c8cf50-204a-11ef-9d84-000a1acec3b4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Listen to our columnists react to Donald Trump\u2019s guilty verdict, the quality of his defense and consequences moving forward.",
+            "ios": {
+                "alert": {
+                    "body": "Listen to our columnists react to Donald Trump\u2019s guilty verdict, the quality of his defense and consequences moving forward.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/06/01/trump-verdict-impromptu-podcast/",
+                        "datetime": "2024-06-01T19:12:54.075000Z",
+                        "imageURL": "https://www.washingtonpost.com/opinions/2024/06/01/trump-verdict-impromptu-podcast/",
+                        "pushID": "665b72b68a91a03500000001",
+                        "targetTopic": "opinions",
+                        "text": "Three Post Opinions columnists got together right after the Trump verdict was announced Thursday to talk through what just happened. This excerpt of their conversation has been edited."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
