@@ -45795,5 +45795,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4431fb20-2030-11ef-afc6-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s guilty verdict sharpens the two big questions of this election, The Post\u2019s chief correspondent writes",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s guilty verdict sharpens the two big questions of this election, The Post\u2019s chief correspondent writes",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/01/trump-conviction-2024-election/",
+                        "datetime": "2024-06-01T16:01:54.327000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665b45f264f9793500000004",
+                        "targetTopic": "politics",
+                        "text": "Trump\u2019s conviction on 34 felony counts is a precedent-breaking outcome that has sharpened the competition between him and President Biden to define the stakes and the choices for voters in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
