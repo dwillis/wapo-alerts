@@ -45942,5 +45942,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "93606f00-205e-11ef-baa0-000a1acedb86",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Another beach house in North Carolina\u2019s scenic Outer Banks just fell into the ocean. Others may follow.",
+            "ios": {
+                "alert": {
+                    "body": "Another beach house in North Carolina\u2019s scenic Outer Banks just fell into the ocean. Others may follow.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/05/28/rodanthe-home-collapse/",
+                        "datetime": "2024-06-01T21:33:23.746000Z",
+                        "imageURL": "https://www.washingtonpost.com/climate-environment/2024/05/28/rodanthe-home-collapse/",
+                        "pushID": "665b93a3416cb53500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Rising seas and eroding shorelines have now claimed a half-dozen houses along the Cape Hatteras National Seashore in the past four years. Some property owners have been forced to take drastic measures to retreat from the oceanfront."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
