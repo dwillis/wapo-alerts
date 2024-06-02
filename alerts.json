@@ -46138,5 +46138,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cf1e0630-2101-11ef-8243-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "28 books to read this summer",
+            "ios": {
+                "alert": {
+                    "body": "28 books to read this summer",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/books/2024/05/24/summer-reading-recommendations/",
+                        "datetime": "2024-06-02T17:01:52.131000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665ca58064f979350000000a",
+                        "targetTopic": "entertainment",
+                        "text": "It\u2019s going to be a busy travel season, and you\u2019ll need books for all those trains, planes and automobiles. Our picks would make good company, from absorbing histories to funny fiction and everything in between."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
