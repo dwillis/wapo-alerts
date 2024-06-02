@@ -46236,5 +46236,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b9aeb021-2123-11ef-af66-0000a1aceb32",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why restaurants are so loud, how it affects our health and what science says we can do about it",
+            "ios": {
+                "alert": {
+                    "body": "Why restaurants are so loud, how it affects our health and what science says we can do about it",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/science/interactive/2024/loud-restaurant-noise-health-effects/",
+                        "datetime": "2024-06-02T21:04:39.071000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665cde67416cb53500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Washington Post food critic Tom Sietsema began recording and publishing decibel levels in his reviews in response to reader feedback. Noise was the most cited complaint in Zagat\u2019s last Dining Trends Survey in 2018, and it continues to dominate the conversation in online restaurant reviews. Experts are advocating standards that would not only alleviate customer complaints, but also protect the health of patrons and staff members. Learn about how sound behaves in restaurants."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
