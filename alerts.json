@@ -46040,5 +46040,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ec402720-20ed-11ef-8e92-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "America\u2019s best decade, according to our Department of Data",
+            "ios": {
+                "alert": {
+                    "body": "America\u2019s best decade, according to our Department of Data",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/24/when-america-was-great-according-data/",
+                        "datetime": "2024-06-02T14:39:31.192000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665c842364f9793500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "Pollsters asked Americans when the United States had the best economy, most moral society and best music. One variable best predicted their answers \u2014 and it wasn\u2019t race, gender or politics."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
