@@ -46187,5 +46187,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7decf070-2113-11ef-8c7d-00000a1acef7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How a dramatic spat between Hunter Biden and his brother\u2019s widow led to tomorrow\u2019s trial",
+            "ios": {
+                "alert": {
+                    "body": "How a dramatic spat between Hunter Biden and his brother\u2019s widow led to tomorrow\u2019s trial",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/02/hunter-biden-beau-widow-gun-trial/",
+                        "datetime": "2024-06-02T19:08:26.766000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665cc32a7068843600000001",
+                        "targetTopic": "politics",
+                        "text": "When Hallie Biden found a newly purchased Colt Cobra .38 handgun in Hunter Biden\u2019s truck, she put it in a shopping bag and drove to a high-end grocery store, where she tossed it in a trash can. That set off a chain of events that would trigger frantic text messages, launch another dark chapter in a doomed romance \u2014 and lead to Hunter Biden\u2019s federal trial beginning Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
