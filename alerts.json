@@ -46628,5 +46628,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "df0f6420-21c0-11ef-a39c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "During the coronavirus pandemic, we were told to stay 6 feet apart. There\u2019s no science to support that.",
+            "ios": {
+                "alert": {
+                    "body": "During the coronavirus pandemic, we were told to stay 6 feet apart. There\u2019s no science to support that.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/06/02/six-foot-rule-covid-no-science/",
+                        "datetime": "2024-06-03T15:49:32.784000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665de60c7068843600000007",
+                        "targetTopic": "health",
+                        "text": "Physicians at the forefront of the country\u2019s response to the health crisis, including infectious-disease expert Anthony S. Fauci, have acknowledged the six-foot rule \u201cwasn\u2019t based on data.\u201d It remains clear that social distancing measures saved lives, but the reasons for telling people to maintain six feet of separation in public \u2014 compared with the World Health Organization\u2019s recommendation of about three feet \u2014 are not clear."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
