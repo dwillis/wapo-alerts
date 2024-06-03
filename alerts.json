@@ -46776,5 +46776,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "12ed5380-21e7-11ef-8444-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The jury has been selected for Hunter Biden\u2019s gun trial in Delaware. Opening statements are expected tomorrow.",
+            "ios": {
+                "alert": {
+                    "body": "The jury has been selected for Hunter Biden\u2019s gun trial in Delaware. Opening statements are expected tomorrow.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/06/03/hunter-biden-gun-trial-live-updates-jury-selection/",
+                        "datetime": "2024-06-03T20:23:00.737000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665e2624706884360000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "The president\u2019s son faces three felony counts for allegedly lying about his drug use on a gun purchase form and then illegally possessing the gun while also using drugs. As Hunter Biden, his wife, first lady Jill Biden and others looked on, dozens of potential jurors from Wilmington, Del., were asked Monday whether they thought politics played a role in the judicial system and whether they could judge Hunter Biden impartially."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
