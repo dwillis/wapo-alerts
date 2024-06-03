@@ -46727,5 +46727,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3853b140-21de-11ef-bceb-00000a1ace01",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden plans to sign executive order that returns migrants to Mexico when illegal crossings exceed daily limit, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Biden plans to sign executive order that returns migrants to Mexico when illegal crossings exceed daily limit, officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2024/06/03/biden-border-migrants-asylum-restrictions/",
+                        "datetime": "2024-06-03T19:19:38.015000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665e174a7068843600000009",
+                        "targetTopic": "breaking-news",
+                        "text": "President Biden is expected to issue an order Tuesday that would shut off access to the U.S. asylum system when illegal border crossings exceed a daily threshold, according to four administration officials and people with knowledge of the plans.\n\nMigrants would be ineligible for asylum consideration once the limit is surpassed, according to the officials, who spoke on the condition of anonymity because they were not authorized to discuss a pending White House order."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
