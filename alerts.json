@@ -46383,5 +46383,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f0937710-216e-11ef-bf16-00000a1ace4f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Claudia Sheinbaum wins the Mexican presidency, becoming the first woman to lead the nation",
+            "ios": {
+                "alert": {
+                    "body": "Claudia Sheinbaum wins the Mexican presidency, becoming the first woman to lead the nation",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/02/mexico-president-election-sheinbaum-galvez/",
+                        "datetime": "2024-06-03T06:03:03.514000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665d5c978a91a03500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The victory by the 61-year-old scientist and former Mexico City mayor, a prot\u00e9g\u00e9 of outgoing President Andr\u00e9s Manuel L\u00f3pez Obrador, consolidates the power of the leftist Morena movement. Morena has transformed Mexican politics in six years and focused attention on the poor, but opponents say it\u2019s weakened democratic institutions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
