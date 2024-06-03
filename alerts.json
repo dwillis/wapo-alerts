@@ -46825,5 +46825,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "71dd1e10-21f7-11ef-a5b7-00000a1ace45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What\u2019s left to decide on the Supreme Court docket? A lot. Here\u2019s our guide to the major rulings to come.",
+            "ios": {
+                "alert": {
+                    "body": "What\u2019s left to decide on the Supreme Court docket? A lot. Here\u2019s our guide to the major rulings to come.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/supreme-court-cases-abortion-trump-guns/",
+                        "datetime": "2024-06-03T22:20:11.970000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665e419b416cb53500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "From gun rights to Donald Trump\u2019s immunity claim, we are tracking major cases until the Supreme Court\u2019s term wraps at the end of this month. The Court is expected to announce more opinions Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
