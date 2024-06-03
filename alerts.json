@@ -46530,5 +46530,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5b2f4640-21a5-11ef-9deb-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russia co-opts far-right politicians in Europe with cash to promote anti-Ukraine agenda, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Russia co-opts far-right politicians in Europe with cash to promote anti-Ukraine agenda, officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/03/russia-europe-far-right-espionage/",
+                        "datetime": "2024-06-03T12:32:35.161000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665db7e37068843600000005",
+                        "targetTopic": "world",
+                        "text": "A front organization masquerading as a news website was used to funnel hundreds of thousands of euros to far-right politicians in more than five countries to plant Kremlin propaganda in Western media and bolster the position of pro-Russian candidates in this week\u2019s European Parliament elections, according to interviews with a dozen European intelligence officials from five countries."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
