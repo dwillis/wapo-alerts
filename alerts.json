@@ -46285,5 +46285,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd138670-2145-11ef-a151-00000a1ace28",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sally Buzbee steps down as editor of The Washington Post",
+            "ios": {
+                "alert": {
+                    "body": "Sally Buzbee steps down as editor of The Washington Post",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/06/02/sally-buzbee-washington-post-steps-down/",
+                        "datetime": "2024-06-03T01:09:55.016000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665d17e364f979350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "Publisher and CEO William Lewis announced on Sunday that she will be replaced temporarily by Matt Murray, the former editor of the Wall Street Journal. After the presidential election in November, Robert Winnett, of Telegraph Media Group, will take over."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c5f25320-2144-11ef-9cb5-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Simone Biles wins ninth national all-around title at U.S. gymnastics championships",
+            "ios": {
+                "alert": {
+                    "body": "Simone Biles wins ninth national all-around title at U.S. gymnastics championships",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/02/us-gymnastics-championships-live-scores-simone-biles/",
+                        "datetime": "2024-06-03T01:01:13.012000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665d15d97068843600000002",
+                        "targetTopic": "sports",
+                        "text": "Biles, 27, dominated the field in Fort Worth, extending her record for most all-around titles by an American gymnast. The next event for U.S. women's gymnasts is the Olympic trials, which begin June 28. The top finisher at the trials will automatically earn a spot on the team for the Paris Games."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
