@@ -47021,5 +47021,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b526c570-2280-11ef-affc-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ex-Trump attorney Kenneth Chesebro and other aides charged in Wisconsin over 2020 elector plot",
+            "ios": {
+                "alert": {
+                    "body": "Ex-Trump attorney Kenneth Chesebro and other aides charged in Wisconsin over 2020 elector plot",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/04/wisconsin-charges-2020-trump-electors/",
+                        "datetime": "2024-06-04T14:42:45.874000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665f27e5706884360000000b",
+                        "targetTopic": "politics",
+                        "text": "Chesebro is among three who were charged in connection with the former president\u2019s attempt to overturn the election. The charges are the first in Wisconsin related to the effort, following charges in Arizona, Michigan, Nevada and Georgia."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
