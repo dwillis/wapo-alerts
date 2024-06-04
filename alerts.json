@@ -47267,5 +47267,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ae890151-22a4-11ef-91b0-0000a1aced5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lawmakers expensed millions in 2023 under a new program that doesn\u2019t require receipts. Rep. Matt Gaetz was the top spender.",
+            "ios": {
+                "alert": {
+                    "body": "Lawmakers expensed millions in 2023 under a new program that doesn\u2019t require receipts. Rep. Matt Gaetz was the top spender.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/04/house-representatives-expenses-receipts-lodging/",
+                        "datetime": "2024-06-04T19:00:16.704000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665f64407068843600000010",
+                        "targetTopic": "politics",
+                        "text": "The program, which kicked off last year after a House panel passed it with bipartisan support, was intended to make it easier for lawmakers to cover the cost of maintaining separate homes in D.C. and their home districts. But critics argue that its reliance on the honor system and lack of transparent record-keeping makes it ripe for abuse."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
