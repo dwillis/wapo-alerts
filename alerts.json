@@ -47316,5 +47316,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "15480720-22bd-11ef-b2b0-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FDA panel recommends against approving MDMA to treat PTSD. It\u2019s unclear whether the agency will authorize the novel treatment.",
+            "ios": {
+                "alert": {
+                    "body": "FDA panel recommends against approving MDMA to treat PTSD. It\u2019s unclear whether the agency will authorize the novel treatment.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/06/04/mdma-fda-review-ptsd-treatment/",
+                        "datetime": "2024-06-04T21:54:56.965000Z",
+                        "imageURL": "https://www.washingtonpost.com/health/2024/06/04/mdma-fda-review-ptsd-treatment/",
+                        "pushID": "665f8d309e1c433500000003",
+                        "targetTopic": "health",
+                        "text": "Committee members said there is not enough evidence that use of the drug, also known as ecstasy, can be used safely and effectively. But the Food and Drug Administration sometimes sets aside recommendations of its advisory panels, so there\u2019s still a chance the agency will approve the first-of-its kind application for a psychedelic drug."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
