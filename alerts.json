@@ -47168,5 +47168,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b38b5200-228d-11ef-8444-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "AI firm employees write open letter warning of the technology\u2019s grave risks to humanity",
+            "ios": {
+                "alert": {
+                    "body": "AI firm employees write open letter warning of the technology\u2019s grave risks to humanity",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/04/openai-employees-ai-whistleblowers/",
+                        "datetime": "2024-06-04T16:15:46.678000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665f3db2706884360000000f",
+                        "targetTopic": "technology",
+                        "text": "Current and former workers with ties to OpenAI, Anthropic and Google\u2019s DeepMind called on companies to provide greater transparency and whistleblower protections in a Tuesday letter. The letter was endorsed by AI luminaries including Yoshua Bengio and Geoffrey Hinton, considered the technology\u2019s \u201cgodfathers,\u201d and renowned computer scientist Stuart Russell."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "932bbb50-228b-11ef-9683-0000a1ace928",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is it worth proposing with a simple, \u2018subpar\u2019 engagement ring?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is it worth proposing with a simple, \u2018subpar\u2019 engagement ring?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/04/carolyn-hax-subpar-engagement-ring/",
+                        "datetime": "2024-06-04T16:00:33.413000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665f3a21706884360000000e",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is it worth proposing with a simple, \u2018subpar\u2019 engagement ring?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
