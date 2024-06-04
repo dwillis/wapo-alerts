@@ -47366,5 +47366,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f70da825-22bf-11ef-a64c-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dr Pepper has joined Pepsi as the second-best-selling soda in the U.S. It\u2019s still shrouded in mystery.",
+            "ios": {
+                "alert": {
+                    "body": "Dr Pepper has joined Pepsi as the second-best-selling soda in the U.S. It\u2019s still shrouded in mystery.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/06/04/dr-pepper-questions-pepsi-mystery/",
+                        "datetime": "2024-06-04T22:15:34.746000Z",
+                        "imageURL": "https://www.washingtonpost.com/food/2024/06/04/dr-pepper-questions-pepsi-mystery/",
+                        "pushID": "665f92069e1c433500000004",
+                        "targetTopic": "food",
+                        "text": "Dr Pepper has joined Pepsi as the second-best-selling soda in the U.S. It\u2019s still shrouded in mystery."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
