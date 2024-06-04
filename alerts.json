@@ -46874,5 +46874,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "76b242d0-2265-11ef-beae-00000a1ace24",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Early election returns in India indicate Prime Minister Narendra Modi\u2019s party will struggle to win an outright majority",
+            "ios": {
+                "alert": {
+                    "body": "Early election returns in India indicate Prime Minister Narendra Modi\u2019s party will struggle to win an outright majority",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/04/india-election-results-modi-bjp/",
+                        "datetime": "2024-06-04T11:27:44.134000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665efa3064f979350000000c",
+                        "targetTopic": "world",
+                        "text": "The early results showed tepid support for Modi\u2019s Bharatiya Janata Party, piercing the air of invincibility around the most dominant Indian politician in decades. Modi and his supporters had entered the election predicting a landslide."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "974db8c1-2261-11ef-91b0-0000a1aced5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Border rules. Hunter Biden. Anthony Fauci. Affirmative action. Maternal deaths. Giant hail. GameStop. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Border rules. Hunter Biden. Anthony Fauci. Affirmative action. Maternal deaths. Giant hail. GameStop. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/04/what-to-know-for-june-4/?noredirect=1",
+                        "datetime": "2024-06-04T11:00:01.426000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "665ef3b19e1c433500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
