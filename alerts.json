@@ -47070,5 +47070,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "759297a0-2289-11ef-90ea-0000a1ace129",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Novak Djokovic, world No. 1 and defending champion, withdraws from French Open with knee injury",
+            "ios": {
+                "alert": {
+                    "body": "Novak Djokovic, world No. 1 and defending champion, withdraws from French Open with knee injury",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/04/novak-djokovic-withdraws-french-open/",
+                        "datetime": "2024-06-04T15:45:24.551000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665f3694706884360000000d",
+                        "targetTopic": "sports",
+                        "text": "Djokovic, a three-time champion at Roland Garros, tweaked his already-injured right knee during his five-set victory Monday over Argentina\u2019s Francisco Cerundolo. Djokovic had been set to face Casper Ruud of Norway in the quarterfinals."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6e864c50-2283-11ef-a50b-0000a1ace061",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "MLB issues lifetime ban to Padres infielder Tucupita Marcano for sports betting violations and disciplines 4 other players",
+            "ios": {
+                "alert": {
+                    "body": "MLB issues lifetime ban to Padres infielder Tucupita Marcano for sports betting violations and disciplines 4 other players",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/04/mlb-sports-betting-bans-tucupita-marcano/",
+                        "datetime": "2024-06-04T15:02:15.891000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "665f2c77706884360000000c",
+                        "targetTopic": "sports",
+                        "text": "The league on Tuesday announced that Marcano, a 24-year-old from Venezuela who played for the San Diego Padres, had been \u201cdeclared permanently ineligible.\u201d Four other players \u2014 Michael Kelly, Jay Groome, Jos\u00e9 Rodr\u00edguez and Andrew Saalfrank \u2014 were suspended for a year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
