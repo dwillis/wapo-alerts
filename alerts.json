@@ -48006,5 +48006,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "00b55531-237e-11ef-9ca4-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Georgia appeals court pauses lower-court proceedings in Trump election case",
+            "ios": {
+                "alert": {
+                    "body": "Georgia appeals court pauses lower-court proceedings in Trump election case",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/06/05/georgia-appeals-court-pauses-lower-court-proceedings-trump-election-case/",
+                        "datetime": "2024-06-05T20:55:55.385000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6660d0db7068843600000011",
+                        "targetTopic": "breaking-news",
+                        "text": "The order means the case against the former president and eight of his co-defendants, accusing them of a criminal conspiracy to overturn his defeat in the state, will almost certainly not be scheduled for trial before the fall election or even the new year. The appeals court is reviewing a request from the defendants to disqualify Fulton County District Attorney Fani T. Willis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
