@@ -47562,5 +47562,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c1321c21-232a-11ef-a5e6-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "India\u2019s election. Primary results. MDMA. Birth control. AI warning. Sinking city. Dr Pepper. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "India\u2019s election. Primary results. MDMA. Birth control. AI warning. Sinking city. Dr Pepper. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/05/what-to-know-for-june-5/?noredirect=1",
+                        "datetime": "2024-06-05T11:00:00.567000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "66604530d04f193500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
