@@ -47956,5 +47956,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "29302410-2363-11ef-a74c-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Birth control access could be threatened as conservatives mischaracterize IUDs and emergency contraception as causing abortions",
+            "ios": {
+                "alert": {
+                    "body": "Birth control access could be threatened as conservatives mischaracterize IUDs and emergency contraception as causing abortions",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/06/05/birth-control-access-abortion-ban/",
+                        "datetime": "2024-06-05T17:43:46.817000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6660a3d2d04f193500000008",
+                        "targetTopic": "health",
+                        "text": "Since the Supreme Court overturned the right to abortion two years ago, far-right conservatives have been trying to curtail birth-control access by sowing misinformation about how various methods work to prevent pregnancy, even as Republican leaders scramble to reassure voters they have no intention of restricting the right to contraception, which polls show the vast majority of Americans favor.\n\nDemocrats are seeking to capitalize on the moment, with the Senate scheduled to hold a vote Wednesday on the federal right to contraception."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
