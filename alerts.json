@@ -47808,5 +47808,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9654f8a0-2358-11ef-89d1-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live chat: The garden\u2019s overrun with basil. What are some really good recipes using it? Our food writers are taking your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Live chat: The garden\u2019s overrun with basil. What are some really good recipes using it? Our food writers are taking your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/06/05/questions-recipe-cooking-advice/",
+                        "datetime": "2024-06-05T16:28:05.349000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66609215d04f193500000007",
+                        "targetTopic": "food",
+                        "text": "Live chat: The garden\u2019s overrun with basil. What are some really good recipes using it? Our food writers are taking your questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2b11abc0-2357-11ef-a579-0000a1aceb57",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Earth\u2019s record heat streak has now lasted an entire year, pushing the planet closer to a dangerous climate threshold",
+            "ios": {
+                "alert": {
+                    "body": "Earth\u2019s record heat streak has now lasted an entire year, pushing the planet closer to a dangerous climate threshold",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/06/05/global-temperatures-1-5-celsius-record-year/",
+                        "datetime": "2024-06-05T16:17:56.009000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66608fb4d04f193500000006",
+                        "targetTopic": "climate",
+                        "text": "Scientists announced that it was the hottest May on record, marking an entire year of uninterrupted record warmth. It is now highly likely that there will be a year in which temperatures exceed the global target of limiting global warming to 1.5 degrees Celsius (2.7 degrees Fahrenheit) by 2028, the World Meteorological Organization said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d480ca90-2354-11ef-8dfa-00000a1ace3b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Ex offered son a loan \u2014 with strings that could trip up the family",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Ex offered son a loan \u2014 with strings that could trip up the family",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/05/carolyn-hax-ex-loan-strings-son/",
+                        "datetime": "2024-06-05T16:01:11.685000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66608bc7d04f193500000005",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Ex offered son a loan \u2014 with strings that could trip up the family"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
