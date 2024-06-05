@@ -47660,5 +47660,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e6325de0-2349-11ef-b643-000a1acefb8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Boeing is making a third attempt to send Starliner into space for its first flight with astronauts aboard. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Boeing is making a third attempt to send Starliner into space for its first flight with astronauts aboard. Follow our coverage.",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/05/being-starliner-launch-live-video-nasa/",
+                        "datetime": "2024-06-05T14:42:56.979000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66607970d04f193500000003",
+                        "targetTopic": "technology",
+                        "text": "If successful, the mission would mark the first time Boeing\u2019s Starliner spacecraft has flown people, a key milestone for the company and for NASA, which is relying on the commercial sector to ferry its astronauts to space."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2ae2e352-2346-11ef-84c0-0000a1ace503",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Youngkin says he\u2019ll end Virginia\u2019s participation in standards that zero-emission vehicles make up all new auto sales by 2035",
+            "ios": {
+                "alert": {
+                    "body": "Youngkin says he\u2019ll end Virginia\u2019s participation in standards that zero-emission vehicles make up all new auto sales by 2035",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/05/youngkin-virginia-auto-emissions-california/",
+                        "datetime": "2024-06-05T14:16:14.304000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6660732ed04f193500000002",
+                        "targetTopic": "local",
+                        "text": "The standards were set by California and adopted by multiple other states. This marks at least the second time Gov. Glenn Youngkin (R) has circumvented environmental standards passed by Democratic majorities in the Virginia legislature."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
