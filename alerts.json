@@ -48055,5 +48055,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3b1f5bd0-2388-11ef-aa50-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why Justice Alito\u2019s account of the upside-down flag at his home doesn\u2019t fully add up: A look at the major discrepancies",
+            "ios": {
+                "alert": {
+                    "body": "Why Justice Alito\u2019s account of the upside-down flag at his home doesn\u2019t fully add up: A look at the major discrepancies",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/05/justice-alito-flags-unanswered-questions/",
+                        "datetime": "2024-06-05T22:09:08.331000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6660e204c3ea573500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Supreme Court Justice Samuel A. Alito Jr. has said that it was his wife who flew the banners, not him, and that she flew one of them after a neighborhood dispute. But his successive explanations have raised additional questions and, in some cases, conflicted with known facts, police records and accounts of neighbors."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
