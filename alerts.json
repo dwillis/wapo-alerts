@@ -47464,5 +47464,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "10fe4620-22d6-11ef-b2b0-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Incumbent Trayon White Sr. projected to win Democratic primary for D.C. Council Ward 8 seat",
+            "ios": {
+                "alert": {
+                    "body": "Incumbent Trayon White Sr. projected to win Democratic primary for D.C. Council Ward 8 seat",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/04/dc-primary-election-2024/",
+                        "datetime": "2024-06-05T00:53:47.248000Z",
+                        "imageURL": "https://www.washingtonpost.com/dc-md-va/2024/06/04/dc-primary-election-2024/",
+                        "pushID": "665fb71b9e1c433500000008",
+                        "targetTopic": "local",
+                        "text": "The race pitted White, who was first elected in 2016, against two challengers who argued that the ward\u2019s lingering troubles call for new leadership. White surmounted a financial disadvantage, including fines that his previous campaign committees owe to the city."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c005fd00-22ce-11ef-af39-0000a1ace164",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Polls have closed in the D.C. Democratic primary. Follow our coverage to see results in Wards 7, 8 and more.",
+            "ios": {
+                "alert": {
+                    "body": "Polls have closed in the D.C. Democratic primary. Follow our coverage to see results in Wards 7, 8 and more.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/04/dc-primary-election-2024/",
+                        "datetime": "2024-06-05T00:01:24.736000Z",
+                        "imageURL": "https://www.washingtonpost.com/dc-md-va/2024/06/04/dc-primary-election-2024/",
+                        "pushID": "665faad49e1c433500000005",
+                        "targetTopic": "local",
+                        "text": "The Washington Post is bringing you live coverage of election results, analysis and more as votes are tallied in several City Council races \u2014 including the open Ward 7 race, where 10 candidates are seeking to succeed former Mayor Vincent C. Gray."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
