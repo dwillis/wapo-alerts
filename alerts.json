@@ -47611,5 +47611,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d13dba10-233f-11ef-a103-0000a1acecf1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This popular, mysterious soda is the topic of today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This popular, mysterious soda is the topic of today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-06-05T13:30:46.935000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66606886c3ea573500000001",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
