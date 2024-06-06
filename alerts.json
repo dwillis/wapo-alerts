@@ -48301,5 +48301,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c193cba0-2410-11ef-8985-00000a1acec6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Paris wants an Olympics without air conditioning. So visiting nations are getting their own.",
+            "ios": {
+                "alert": {
+                    "body": "Paris wants an Olympics without air conditioning. So visiting nations are getting their own.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/06/06/paris-olympics-no-air-conditioning-village-2024/",
+                        "datetime": "2024-06-06T14:26:25.445000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6661c711d04f193500000009",
+                        "targetTopic": "editors_picks",
+                        "text": "Organizers planned a 2024 Paris Olympics that would be more climate friendly and less reliant on AC. But some wealthy nations \u2014 uneasy about an unconventional cooling system in dormitories amid what could be the hottest year on record \u2014 are obtaining AC units to keep athletes cool, adding to the energy intensity of the games."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
