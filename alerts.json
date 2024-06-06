@@ -48153,5 +48153,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ea2b8340-23f3-11ef-bea9-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli strike. Trump trial delay. Contraception vote. D-Day. Extreme heat. Spider invasion. Starliner. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Israeli strike. Trump trial delay. Contraception vote. D-Day. Extreme heat. Spider invasion. Starliner. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/06/what-to-know-for-july-6/?noredirect=1",
+                        "datetime": "2024-06-06T10:59:58.181000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "666196aec3ea573500000003",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
