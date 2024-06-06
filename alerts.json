@@ -48497,5 +48497,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7a5f0950-2435-11ef-bccc-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Severe thunderstorm watch issued for D.C. area day after tornado outbreak",
+            "ios": {
+                "alert": {
+                    "body": "Severe thunderstorm watch issued for D.C. area day after tornado outbreak",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/06/06/dc-area-forecast-showers-thunderstorms/",
+                        "datetime": "2024-06-06T18:49:17.377000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666204adc3ea573500000009",
+                        "targetTopic": "local",
+                        "text": "Scattered storms could become severe, producing heavy rain, lightning and some damaging wind gusts through around sunset. However, a repeat of Wednesday\u2019s tornado outbreak is highly unlikely."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
