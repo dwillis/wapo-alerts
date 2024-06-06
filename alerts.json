@@ -48399,5 +48399,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "66dcc5c0-2421-11ef-807f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge orders Stephen K. Bannon, former Trump adviser, to report to prison by July 1 for contempt of Congress",
+            "ios": {
+                "alert": {
+                    "body": "Judge orders Stephen K. Bannon, former Trump adviser, to report to prison by July 1 for contempt of Congress",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/05/bannon-prison-hearing-contempt/",
+                        "datetime": "2024-06-06T16:25:34.651000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6661e2fec3ea573500000008",
+                        "targetTopic": "us",
+                        "text": "Bannon was sentenced to four months for refusing to provide documents or testimony to a House committee probing the Jan. 6, 2021, attack on the U.S. Capitol. His sentence had been put on hold while he appealed his case, but a three-judge panel rejected his challenge last month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "438bd0f1-241e-11ef-80d8-0000a1aced0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Spouse no-shows promised support for sick stay-at-home parent",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Spouse no-shows promised support for sick stay-at-home parent",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/06/carolyn-hax-spouse-no-support-sick/",
+                        "datetime": "2024-06-06T16:03:07.007000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6661ddbbc3ea573500000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Spouse no-shows promised support for sick stay-at-home parent"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
