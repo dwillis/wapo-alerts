@@ -48350,5 +48350,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c1e5270-241c-11ef-ae64-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s how the unusual tornado outbreak in Maryland happened",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s how the unusual tornado outbreak in Maryland happened",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/06/06/maryland-tornadoes-montgomery-gaithersburg-explained/",
+                        "datetime": "2024-06-06T15:49:29.230000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6661da89c3ea573500000006",
+                        "targetTopic": "local",
+                        "text": "The swarm of tornadoes Wednesday in Maryland \u2014 among the most significant in years \u2014 took forecasters by surprise. Here\u2019s why the tornadoes formed and how the ingredients came together."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
