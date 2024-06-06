@@ -48104,5 +48104,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "97feeb60-2395-11ef-8bb9-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Particularly dangerous situation\u2019 warning for confirmed tornado in Montgomery County",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Particularly dangerous situation\u2019 warning for confirmed tornado in Montgomery County",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/06/05/dc-area-forecast-showers-storms/",
+                        "datetime": "2024-06-05T23:44:47.656000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6660f86f7068843600000014",
+                        "targetTopic": "local",
+                        "text": "Authorities advised people in the path of the storm to seek immediate shelter, and that there was a confirmed tornado near Poolesville and headed east."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
