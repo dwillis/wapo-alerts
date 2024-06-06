@@ -48595,5 +48595,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b55e8540-2457-11ef-b2ef-00000a1aceb1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wendell Felder, ANC chair and former Ward 7 Democrats chair, projected to win Democratic primary for D.C. Council Ward 7 seat",
+            "ios": {
+                "alert": {
+                    "body": "Wendell Felder, ANC chair and former Ward 7 Democrats chair, projected to win Democratic primary for D.C. Council Ward 7 seat",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/06/dc-ward-7-wendell-felder/",
+                        "datetime": "2024-06-06T22:54:19.257000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66623e1bc3ea57350000000c",
+                        "targetTopic": "local",
+                        "text": "The race was the only open council contest on the ballot. The winner is likely to succeed Council member and former D.C. Mayor Vincent C. Gray (D), who is not running for reelection amid health issues."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "212c26e0-2450-11ef-ae37-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Unusual\u2019 cancers have emerged since the pandemic. Doctors are asking whether covid is to blame.",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Unusual\u2019 cancers have emerged since the pandemic. Doctors are asking whether covid is to blame.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/06/06/covid-cancer-increase-link/",
+                        "datetime": "2024-06-06T22:00:04.145000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66623164c3ea57350000000b",
+                        "targetTopic": "editors_picks",
+                        "text": "As some early national reports and large cancer institutions have confirmed an uptick in aggressive, late-stage cancers, there\u2019s debate among doctors and public health experts about the cause. While some physicians say it is the consequence of disruptions to health-care services that began in 2020, others suspect a link to covid."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
