@@ -48546,5 +48546,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "473327e0-243b-11ef-9424-00000a1ace08",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "George Clooney called White House to defend his wife\u2019s work on ICC arrest warrants against Israeli leaders after Biden\u2019s criticism",
+            "ios": {
+                "alert": {
+                    "body": "George Clooney called White House to defend his wife\u2019s work on ICC arrest warrants against Israeli leaders after Biden\u2019s criticism",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/06/george-clooney-biden-criminal-court-israel/",
+                        "datetime": "2024-06-06T19:30:48.450000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66620e68c3ea57350000000a",
+                        "targetTopic": "politics",
+                        "text": "The Academy Award-winning actor called one of President Biden\u2019s top aides last month to complain about the president\u2019s criticism of the International Criminal Court\u2019s action against Israeli leaders \u2014 a case his wife, Amal Clooney, worked on, according to three people familiar with the conversation. His concerns spread throughout Biden\u2019s orbit, leaving some officials to worry that the high-profile actor would withdraw from participating in a marquee fundraiser."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
