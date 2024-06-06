@@ -48202,5 +48202,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c2da570-2400-11ef-882b-0000a1ace079",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "European Central Bank cuts interest rates, after successfully bringing down inflation and ahead of the Federal Reserve",
+            "ios": {
+                "alert": {
+                    "body": "European Central Bank cuts interest rates, after successfully bringing down inflation and ahead of the Federal Reserve",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/06/european-central-bank-interest-rates-cut/",
+                        "datetime": "2024-06-06T12:29:03.314000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6661ab8fc3ea573500000004",
+                        "targetTopic": "business",
+                        "text": "The ECB, setting monetary policy for Europe, became the first major central bank to lower borrowing costs, cutting its main policy rate by one-quarter of a percentage point. The Fed is not expected to cut rates for months."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
