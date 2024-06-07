@@ -48938,5 +48938,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "63f1b2e0-2515-11ef-b21c-0000a1ace025",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A catastrophic earthquake and tsunami will one day hit the Pacific Northwest as tectonic plates slip",
+            "ios": {
+                "alert": {
+                    "body": "A catastrophic earthquake and tsunami will one day hit the Pacific Northwest as tectonic plates slip",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/science/2024/06/07/earthquake-tsunami-cascadia/",
+                        "datetime": "2024-06-07T21:32:07.036000Z",
+                        "imageURL": "https://www.washingtonpost.com/science/2024/06/07/earthquake-tsunami-cascadia/",
+                        "pushID": "66637c57736c7f3500000001",
+                        "targetTopic": "us",
+                        "text": "Scientists have mapped one of the most hazardous spots on the globe in unprecedented detail: a 600-mile geologic boundary just off the coast. Along this fraught stretch, mapped in a study published Friday in the journal Science Advances, two pieces of the Earth\u2019s crust slide against each other, building up stresses capable of unleashing a 9.0-magnitude earthquake and generating a tsunami, with waves as high as 40 feet."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
