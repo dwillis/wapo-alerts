@@ -48742,5 +48742,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4aae5ef0-24ca-11ef-a837-00000a1ace8f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The economy added a strong 272,000 jobs in May, but the unemployment rate edged up to 4 percent.",
+            "ios": {
+                "alert": {
+                    "body": "The economy added a strong 272,000 jobs in May, but the unemployment rate edged up to 4 percent.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/07/may-jobs-unemployment/",
+                        "datetime": "2024-06-07T12:34:32.391000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6662fe589e1c433500000009",
+                        "targetTopic": "us",
+                        "text": "The labor market continued to churn out jobs at a decent pace in May, according to the Bureau of Labor Statistics, even as higher interest rates weigh on the economy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
