@@ -48693,5 +48693,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "176d4272-24bd-11ef-b3f1-00000a1aceb3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli strike. Trump campaign. Steve Bannon. Heat index. Rare cancers. Xylitol risk. Pat Sajak. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Israeli strike. Trump campaign. Steve Bannon. Heat index. Rare cancers. Xylitol risk. Pat Sajak. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/07/what-to-know-for-june-7/?noredirect=1",
+                        "datetime": "2024-06-07T11:00:02.855000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6662e832d04f19350000000a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
