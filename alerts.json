@@ -49183,5 +49183,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ca623b60-25ad-11ef-b68c-00000a1ace8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Caitlin Clark, the rising star at the center of women\u2019s basketball discourse, expected to be left off U.S. Olympic team",
+            "ios": {
+                "alert": {
+                    "body": "Caitlin Clark, the rising star at the center of women\u2019s basketball discourse, expected to be left off U.S. Olympic team",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/06/08/caitlin-clark-paris-olympics/",
+                        "datetime": "2024-06-08T15:43:02.296000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66647c06736c7f3500000005",
+                        "targetTopic": "sports",
+                        "text": "The Indiana Fever rookie set NCAA records at the University of Iowa and has brought unprecedented attention to women\u2019s basketball, but she is not expected to be included on the 12-player roster for this summer\u2019s Paris Games, two people with knowledge of the decision confirmed. Team USA will feature a remarkable collection of decorated WNBA stars and will be heavily favored to win its eighth consecutive gold medal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
