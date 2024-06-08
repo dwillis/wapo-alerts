@@ -49232,5 +49232,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b3ba95c3-25b6-11ef-b68c-00000a1ace8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: My mom wants me to forgive my estranged sibling she\u2019s always favored",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: My mom wants me to forgive my estranged sibling she\u2019s always favored",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/06/ask-sahaj-mom-favorite-sibling-forgive/",
+                        "datetime": "2024-06-08T16:46:49.864000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66648af9736c7f3500000006",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: My mom wants me to forgive my estranged sibling she\u2019s always favored"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
