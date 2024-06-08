@@ -49379,5 +49379,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cb91a3c1-25e6-11ef-95ff-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stephen Strasburg comes to terms with the end of his baseball career and what might have been: \u2018I felt like I \u2014 you know, I failed\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Stephen Strasburg comes to terms with the end of his baseball career and what might have been: \u2018I felt like I \u2014 you know, I failed\u2019",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/08/stephen-strasburg-injuries-retirement-washington-nationals/",
+                        "datetime": "2024-06-08T22:31:05.594000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/2024/06/08/stephen-strasburg-injuries-retirement-washington-nationals/",
+                        "pushID": "6664dba9b248bb3500000001",
+                        "targetTopic": "sports",
+                        "text": "The former Washington Nationals star, whose retirement became official in April, said he struggles with the feeling that his career \u201cwasn\u2019t good enough.\u201d But as he leaves Washington and moves back to his native California, Strasburg also reflected on the sparkling memories from his Nationals tenure."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
