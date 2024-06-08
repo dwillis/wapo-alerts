@@ -49281,5 +49281,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "17d31500-25c1-11ef-ae99-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Trump loyalist is pushing a \u2018post-constitutional\u2019 vision that would be a broad expansion of presidential powers",
+            "ios": {
+                "alert": {
+                    "body": "A Trump loyalist is pushing a \u2018post-constitutional\u2019 vision that would be a broad expansion of presidential powers",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/08/russ-vought-trump-second-term-radical-constitutional/",
+                        "datetime": "2024-06-08T18:01:12.755000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66649c68736c7f3500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "Russ Vought, the former president\u2019s budget director, is laying the groundwork for a philosophy he calls \u201cradical constitutionalism.\u201d Vought envisions Donald Trump seizing new control over the military, federal agencies and spending \u2014 an agenda he is poised to steer from an influential perch if Trump is reelected, possibly as his chief of staff."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
