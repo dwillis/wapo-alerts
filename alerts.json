@@ -49134,5 +49134,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "14ca3d70-25a3-11ef-937d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iga Swiatek wins third consecutive French Open title, becoming the third woman to accomplish that feat in the open era",
+            "ios": {
+                "alert": {
+                    "body": "Iga Swiatek wins third consecutive French Open title, becoming the third woman to accomplish that feat in the open era",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/08/iga-swiatek-french-open/",
+                        "datetime": "2024-06-08T14:26:22.654000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66646a0e736c7f3500000004",
+                        "targetTopic": "sports",
+                        "text": "Swiatek, a 23-year-old from Poland who is the top-ranked player in the world, beat No. 12 seed Jasmine Paolini of Italy in Paris to win her fourth career championship at Roland Garros and her fifth Grand Slam title overall. Swiatek joins Monica Seles and Justine Henin as the only women since 1968 to win the French Open in three straight years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
