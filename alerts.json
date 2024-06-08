@@ -48987,5 +48987,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "13a75b00-2524-11ef-a861-0000a1ace423",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Panic over trans sports inclusion is forcing us to choose between extremes, columnist Jerry Brewer writes",
+            "ios": {
+                "alert": {
+                    "body": "Panic over trans sports inclusion is forcing us to choose between extremes, columnist Jerry Brewer writes",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/interactive/2024/transgender-sports-debate-politics/",
+                        "datetime": "2024-06-07T23:17:14.797000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/interactive/2024/transgender-sports-debate-politics/",
+                        "pushID": "666394fa736c7f3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "In the fight over transgender participation in U.S. sports, the right to play is simply an opening act."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
