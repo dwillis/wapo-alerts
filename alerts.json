@@ -49330,5 +49330,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1996f600-25ca-11ef-9066-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli forces killed at least 210 people in central Gaza on the same day four hostages were rescued, hospital officials say",
+            "ios": {
+                "alert": {
+                    "body": "Israeli forces killed at least 210 people in central Gaza on the same day four hostages were rescued, hospital officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/08/israel-hamas-war-news-gaza-hostages/",
+                        "datetime": "2024-06-08T19:05:41.188000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6664ab85736c7f3500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "Al-Aqsa Hospital spokesman Khalil al-Degran in Deir al-Balah said 94 bodies had been counted there. Al-Awda Hospital administrative director Marwan Abu Nasser said 116 were counted at his medical center in Nuseirat. It was not immediately clear whether all of them were killed in the hostage rescue."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
