@@ -49722,5 +49722,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "371ab8b2-2697-11ef-8ec2-00000a1ace10",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Far right projected to make big gains in European Parliament; pending loss prompts France\u2019s Macron to call legislative elections",
+            "ios": {
+                "alert": {
+                    "body": "Far right projected to make big gains in European Parliament; pending loss prompts France\u2019s Macron to call legislative elections",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/09/european-parliament-elections-results-far-right/",
+                        "datetime": "2024-06-09T19:33:57.467000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666603a5004b4d3500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Early forecasts in the European Parliament elections show voters punishing ruling centrists and boosting nationalist parties that have made populist economic appeals and taken hard-right positions on immigration. After polls showed the far-right National Rally trouncing French President Emmanuel Macron\u2019s centrist coalition, he dissolved the national parliament and set the first round of elections for June 30."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
