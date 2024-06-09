@@ -49477,5 +49477,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e7606640-266d-11ef-a4e4-00000a1acedc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Has tipping gone too far? Here\u2019s a guide on when to tip, according to our personal finance columnist.",
+            "ios": {
+                "alert": {
+                    "body": "Has tipping gone too far? Here\u2019s a guide on when to tip, according to our personal finance columnist.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/07/tipping-guide-michelle-singletary/",
+                        "datetime": "2024-06-09T14:38:14.445000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6665be56b248bb3500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Many Americans have tipping fatigue, with 1 in 3 adults calling the practice \u201cout of control.\u201d With so much confusion about who and how much to tip, read this guide from The Post's personal finance columnist, Michelle Singletary."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
