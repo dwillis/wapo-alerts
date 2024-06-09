@@ -49673,5 +49673,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "27878bd0-2692-11ef-b4b0-00000a1ace4b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Billions in taxpayer dollars are going to religious schools via vouchers as the separation between church and state erodes",
+            "ios": {
+                "alert": {
+                    "body": "Billions in taxpayer dollars are going to religious schools via vouchers as the separation between church and state erodes",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/06/03/tax-dollars-religious-schools/",
+                        "datetime": "2024-06-09T18:57:43.909000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6665fb27004b4d3500000001",
+                        "targetTopic": "special_report",
+                        "text": "School vouchers can be used at almost any private school, but the vast majority of the money is being directed to religious schools, according to a Washington Post examination. The voucher programs, popular with conservatives, are rapidly growing in GOP-run states."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
