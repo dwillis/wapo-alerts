@@ -49575,5 +49575,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9f2e63c0-2688-11ef-8d94-00000a1ace1b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli opposition leader Benny Gantz announces departure from war cabinet, upending Netanyahu government",
+            "ios": {
+                "alert": {
+                    "body": "Israeli opposition leader Benny Gantz announces departure from war cabinet, upending Netanyahu government",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/09/israel-hamas-war-news-gaza-hostages/",
+                        "datetime": "2024-06-09T17:49:29.706000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6665eb29b248bb3500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "The move by Gantz, a former general, may not bring down the government, but it destabilizes the emergency coalition formed after Oct. 7 and increases the political pressure on Prime Minister Benjamin Netanyahu to accept a Gaza cease-fire proposal that would bring home the hostages still held by Hamas."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5689a870-2686-11ef-882a-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carlos Alcaraz wins French Open, continuing his ascent to the top of men\u2019s tennis",
+            "ios": {
+                "alert": {
+                    "body": "Carlos Alcaraz wins French Open, continuing his ascent to the top of men\u2019s tennis",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/09/carlos-alcaraz-alexander-zverev-french-open/",
+                        "datetime": "2024-06-09T17:33:08.858000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6665e754b248bb3500000005",
+                        "targetTopic": "sports",
+                        "text": "Alcaraz won the U.S. Open in 2022 on hard court and Wimbledon in 2023 on grass, so he is the youngest player to win majors on all three surfaces."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
