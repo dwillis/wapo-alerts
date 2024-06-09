@@ -49771,5 +49771,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "85720541-26ab-11ef-953a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Home insurance was once a \u2018must.\u2019 Now more homeowners are going without.",
+            "ios": {
+                "alert": {
+                    "body": "Home insurance was once a \u2018must.\u2019 Now more homeowners are going without.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/05/27/home-insurance-dropped-coverage/",
+                        "datetime": "2024-06-09T21:59:18.864000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666625b615c9ff3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Experts say the trend in forgoing home insurance is driven by the growing impact of climate change \u2014 which has forced insurers to make larger and larger payouts \u2014 and skyrocketing housing prices. As the cost of insurance rises, more Americans have decided to expose themselves to risk rather than pay for it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
