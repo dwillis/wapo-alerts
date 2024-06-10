@@ -50066,5 +50066,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4c5255b0-2761-11ef-aaba-00000a1ace75",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "James Lawson dies at 95. The leading civil rights tactician helped organize sit-ins, marches and Freedom Rides in the 1960s.",
+            "ios": {
+                "alert": {
+                    "body": "James Lawson dies at 95. The leading civil rights tactician helped organize sit-ins, marches and Freedom Rides in the 1960s.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/06/10/james-lawson-civil-rights-dead/",
+                        "datetime": "2024-06-10T19:40:31.419000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666756af736c7f350000000c",
+                        "targetTopic": "us",
+                        "text": "Civil rights chroniclers credit the Rev. Lawson, a Methodist minister, with playing a leading role in the opening of restaurants, movie theaters, city buses, public restrooms and municipal swimming pools in Nashville, one of the first major Southern cities to desegregate public accommodations. He was later one of the first Freedom Riders arrested in Jackson, Miss., as the activists sought to integrate interstate bus and train travel."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
