@@ -49967,5 +49967,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c5a5970-2743-11ef-8268-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Spouse feels blindsided after overhearing husband\u2019s therapy session",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Spouse feels blindsided after overhearing husband\u2019s therapy session",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/10/carolyn-hax-husband-therapy-overheard/",
+                        "datetime": "2024-06-10T16:04:24.219000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66672408736c7f350000000a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Spouse feels blindsided after overhearing husband\u2019s therapy session"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
