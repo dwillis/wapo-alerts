@@ -50115,5 +50115,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bac57d60-2770-11ef-9574-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Gaslit by doctors,\u2019 some patients are turning to a shadow system of at-home tests",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Gaslit by doctors,\u2019 some patients are turning to a shadow system of at-home tests",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/09/home-health-tests-doctors-fda/",
+                        "datetime": "2024-06-10T21:30:59.138000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6667709315c9ff3500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "A new world of DIY testing is allowing patients to bypass the doctor\u2019s office and take medical tests on their own. The growth is fueled by a distrust of Big Medicine and confidence in home-testing born from the coronavirus pandemic. But the boom angers some doctors, who argue that circumventing their offices can lead to questionable remedies, misdiagnosis or delayed medical care."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
