@@ -50016,5 +50016,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c75a7a0-2759-11ef-853d-00000a1ace04",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Apple announces a deal with OpenAI as it aims to play catchup in a race against Google and Microsoft",
+            "ios": {
+                "alert": {
+                    "body": "Apple announces a deal with OpenAI as it aims to play catchup in a race against Google and Microsoft",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/10/apple-openai-chatgpt-deal-siri/",
+                        "datetime": "2024-06-10T18:41:55.195000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666748f3736c7f350000000b",
+                        "targetTopic": "technology",
+                        "text": "Apple announced a deal to use OpenAI's technology to power its generative artificial intelligence offerings, potentially helping it keep up with competitors. But the deal could raise antitrust concerns, experts say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
