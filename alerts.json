@@ -49869,5 +49869,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "06179750-2724-11ef-9ab4-00000a1acefd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside Israel\u2019s hostage rescue: Top-secret planning and a deadly \u2018wall of fire\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Inside Israel\u2019s hostage rescue: Top-secret planning and a deadly \u2018wall of fire\u2019",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/09/israel-gaza-hostages-rescue-raid/",
+                        "datetime": "2024-06-10T12:21:54.306000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6666efe2b248bb3500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "The military operation on Saturday that freed four Israeli hostages and killed more than 270 Palestinians, according to the Gaza Health Ministry, was one of the most dramatic and deadly episodes of Israel\u2019s war against Hamas. This account is based on more than a dozen interviews with former and current Israeli military officials, family members of hostages and Palestinian eyewitnesses."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
