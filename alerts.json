@@ -50458,5 +50458,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6a21d820-2812-11ef-830d-00000a1ace80",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. economy is growing significantly faster than expected, World Bank says",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. economy is growing significantly faster than expected, World Bank says",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/11/world-bank-us-economy/",
+                        "datetime": "2024-06-11T16:48:22.402000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66687fd6b248bb350000000e",
+                        "targetTopic": "business",
+                        "text": "The global economy is doing better now than the bank had projected in January, thanks to resilience in the United States, a report said. However, high interest rates and trade tensions pose risks to the upbeat forecast."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ba0907c0-280b-11ef-88c7-0000a1ace047",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Now that she\u2019s the mother-in-law, she sees no need for boundaries",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Now that she\u2019s the mother-in-law, she sees no need for boundaries",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/11/carolyn-hax-mother-in-law-no-boundaries/",
+                        "datetime": "2024-06-11T16:00:29.965000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6668749db248bb350000000d",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Now that she\u2019s the mother-in-law, she sees no need for boundaries"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
