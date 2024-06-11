@@ -50164,5 +50164,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ad481680-277e-11ef-addb-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Baltimore shipping channel fully reopens more than two months after Key Bridge collapse that killed six workers",
+            "ios": {
+                "alert": {
+                    "body": "Baltimore shipping channel fully reopens more than two months after Key Bridge collapse that killed six workers",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/10/baltimore-channel-reopening-key-bridge/",
+                        "datetime": "2024-06-10T23:10:49.548000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666787f915c9ff3500000004",
+                        "targetTopic": "us",
+                        "text": "After a colossal cleanup effort, federal and state authorities announced Monday they had fully reopened the main shipping channel to the Port of Baltimore, restoring it to its 700-foot width. The channel had been slowly reopening since the March 26 collapse of the Key Bridge, and some early estimates suggested full restoration could take up to a year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
