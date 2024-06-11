@@ -50409,5 +50409,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8a921900-2806-11ef-bf54-00000a1ace51",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hunter Biden convicted of lying during gun purchase, after trial that focused on his drug addiction",
+            "ios": {
+                "alert": {
+                    "body": "Hunter Biden convicted of lying during gun purchase, after trial that focused on his drug addiction",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/06/11/hunter-biden-gun-trial-verdict-live-updates/",
+                        "datetime": "2024-06-11T15:23:22.793000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66686beab248bb350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "President Biden\u2019s son Hunter was accused of lying when he claimed on a federal gun-purchasing form that he was not using or addicted to illegal drugs, and of illegally possessing a Colt revolver while on drugs. His attorneys said he completed a stint in rehab shortly before buying the gun in October 2018 and was drug-free for the 11 days it was in his possession."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
