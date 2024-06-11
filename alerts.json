@@ -50311,5 +50311,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "96a6a770-2800-11ef-9826-00000a1ace99",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018The Justice Department is under attack like never before,\u2019 Attorney General Merrick Garland writes. \u2018This must stop.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "\u2018The Justice Department is under attack like never before,\u2019 Attorney General Merrick Garland writes. \u2018This must stop.\u2019",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/06/11/merrick-garland-justice-department-threats-fbi-2024/",
+                        "datetime": "2024-06-11T14:40:46.169000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666861ee004b4d3500000003",
+                        "targetTopic": "opinions",
+                        "text": "Merrick Garland: Unfounded attacks on the Justice Department must end"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "775ef0c0-27fb-11ef-9567-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It was a beautiful day in this coastal town. Watch what happened when the water started to rise.",
+            "ios": {
+                "alert": {
+                    "body": "It was a beautiful day in this coastal town. Watch what happened when the water started to rise.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/coastal-flooding-carolina-beach-videos/",
+                        "datetime": "2024-06-11T14:04:06.159000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66685956b248bb350000000b",
+                        "targetTopic": "special_report",
+                        "text": "The Washington Post installed cameras along the main road of one North Carolina town to document the many ways rising seas exacerbate high-tide flooding. Higher oceans are compromising stormwater infrastructure, overtopping shorelines, elevating groundwater and combining with rain to make flooding more persistent and insidious over time."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
