@@ -50802,5 +50802,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "92eec820-28c7-11ef-94f2-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hundreds of police officers have sexually abused children, The Post found. Many exploited their authority to coerce their victims.",
+            "ios": {
+                "alert": {
+                    "body": "Hundreds of police officers have sexually abused children, The Post found. Many exploited their authority to coerce their victims.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2024/police-officers-child-sexual-abuse-in-america/",
+                        "datetime": "2024-06-12T14:25:09.674000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6669afc5b248bb3500000013",
+                        "targetTopic": "special_report",
+                        "text": "A Washington Post investigation found at least 1,800 state and local law enforcement officers were charged with crimes involving child sexual abuse from 2005 through 2022. Predatory cops often used the power of their badges to find and silence their victims, while officials at every level of the criminal justice system failed to protect children and punish abusers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
