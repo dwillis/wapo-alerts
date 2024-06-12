@@ -50606,5 +50606,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "df994550-28aa-11ef-9217-0000a1ace2c1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hunter Biden. Primary results. Transgender law. Medical debt. Climate damage. Spaceflight risks. Hot dogs. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Hunter Biden. Primary results. Transgender law. Medical debt. Climate damage. Spaceflight risks. Hot dogs. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/12/what-to-know-for-june-12/?noredirect=1",
+                        "datetime": "2024-06-12T10:59:43.026000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "66697f9fb248bb350000000f",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
