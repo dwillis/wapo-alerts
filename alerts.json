@@ -50851,5 +50851,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "563e8af0-28d1-11ef-bd8d-0000a1ace774",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dining chat: How should a restaurant respond to a missing dish? Our food critic is answering your questions now.",
+            "ios": {
+                "alert": {
+                    "body": "Dining chat: How should a restaurant respond to a missing dish? Our food critic is answering your questions now.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/06/06/tom-sietsema-live-chat/",
+                        "datetime": "2024-06-12T15:35:02.394000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6669c026b248bb3500000014",
+                        "targetTopic": "food",
+                        "text": "Dining chat: How should a restaurant respond to a missing dish? Our food critic is answering your questions now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
