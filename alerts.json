@@ -50998,5 +50998,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1a40faf1-28e6-11ef-b715-00000a1ace26",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Fed leaves interest rates unchanged and signals a scaled-back plan to cut rates once this year",
+            "ios": {
+                "alert": {
+                    "body": "The Fed leaves interest rates unchanged and signals a scaled-back plan to cut rates once this year",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/12/cpi-fed-inflation-interest-rates/",
+                        "datetime": "2024-06-12T18:03:41.625000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6669e2fdb248bb3500000017",
+                        "targetTopic": "breaking-news",
+                        "text": "The announcement came just a few hours after an encouraging inflation report beat economists' expectations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
