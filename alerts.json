@@ -51096,5 +51096,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c0de3640-28fd-11ef-8561-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "GOP-run House votes to hold Garland in contempt after he refused to turn over Biden interview tapes in classified documents probe",
+            "ios": {
+                "alert": {
+                    "body": "GOP-run House votes to hold Garland in contempt after he refused to turn over Biden interview tapes in classified documents probe",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/06/12/congress-republicans-merrick-garland/",
+                        "datetime": "2024-06-12T20:52:59.678000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666a0aabb248bb3500000019",
+                        "targetTopic": "breaking-news",
+                        "text": "The vote targeting Attorney General Merrick Garland was a show of Republicans\u2019 displeasure that the Biden administration refuses to turn over audiotapes of President Biden\u2019s interview with federal investigators about classified documents found in his home and former office. The Justice Department has already turned over the transcripts but says handing over the recordings would set a bad precedent."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
