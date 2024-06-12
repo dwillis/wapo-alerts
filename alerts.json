@@ -51145,5 +51145,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "068c5060-290c-11ef-ac38-00000a1ace7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A heat wave in the eastern U.S. could produce dangerously high temperatures for much of next week. See maps of the region at risk.",
+            "ios": {
+                "alert": {
+                    "body": "A heat wave in the eastern U.S. could produce dangerously high temperatures for much of next week. See maps of the region at risk.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/06/12/heat-wave-dome-midwest-mid-atlantic-south/",
+                        "datetime": "2024-06-12T22:35:09.545000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666a229db248bb350000001a",
+                        "targetTopic": "us",
+                        "text": "A punishing combination of heat and humidity will remain lodged over the East, potentially for an extended period. It\u2019s already been one of the warmest years on record in the region."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
