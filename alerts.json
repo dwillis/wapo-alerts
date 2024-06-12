@@ -50949,5 +50949,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7c409830-28e3-11ef-b013-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Howard Fineman dies at 75. The veteran political correspondent brought an analytical approach to coverage at Newsweek and on TV.",
+            "ios": {
+                "alert": {
+                    "body": "Howard Fineman dies at 75. The veteran political correspondent brought an analytical approach to coverage at Newsweek and on TV.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/06/12/howard-fineman-newsweek-dead/",
+                        "datetime": "2024-06-12T17:44:57.603000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6669de99b248bb3500000016",
+                        "targetTopic": "politics",
+                        "text": "Fineman spent 30 years at Newsweek beginning in 1980, serving as chief political correspondent and deputy Washington bureau chief during the era when the magazine, then owned by The Washington Post, was one of the most widely read newsweeklies in the United States. He was also an analyst for NBC and MSNBC for years and became familiar to television viewers through his appearances on shows including \u201cHardball With Chris Matthews,\u201d PBS\u2019s \u201cWashington Week in Review\u201d and CNN\u2019s \u201cCapital Gang Sunday.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
