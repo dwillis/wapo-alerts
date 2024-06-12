@@ -50900,5 +50900,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fce81260-28d4-11ef-a122-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How to curb a \u2018growing dislike\u2019 of nephew\u2019s new wife?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How to curb a \u2018growing dislike\u2019 of nephew\u2019s new wife?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/12/carolyn-hax-dislike-nephew-wife/",
+                        "datetime": "2024-06-12T16:01:11.005000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6669c647b248bb3500000015",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How to curb a \u2018growing dislike\u2019 of nephew\u2019s new wife?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
