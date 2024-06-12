@@ -50655,5 +50655,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e07f73b0-28b7-11ef-b5d8-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inflation eased slightly in the year ending in May, but it\u2019s still above normal",
+            "ios": {
+                "alert": {
+                    "body": "Inflation eased slightly in the year ending in May, but it\u2019s still above normal",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/12/cpi-fed-inflation-interest-rates/",
+                        "datetime": "2024-06-12T12:32:47.897000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6669956fb248bb3500000010",
+                        "targetTopic": "breaking-news",
+                        "text": "The latest snapshot from the Bureau of Labor Statistics comes as Federal Reserve officials wrap up their two-day meeting and try to understand where the economy is headed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
