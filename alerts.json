@@ -50704,5 +50704,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f76219f2-28c3-11ef-9717-000a1ace3782",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jerry West dies at 86. He was a Basketball Hall of Famer as a player and executive, and his silhouette inspired the NBA\u2019s logo.",
+            "ios": {
+                "alert": {
+                    "body": "Jerry West dies at 86. He was a Basketball Hall of Famer as a player and executive, and his silhouette inspired the NBA\u2019s logo.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/06/12/jerry-west-coach-lakers-dead/",
+                        "datetime": "2024-06-12T13:59:20.317000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6669a9b8b248bb3500000012",
+                        "targetTopic": "sports",
+                        "text": "West died Wednesday morning, the Los Angeles Clippers announced in a statement without specifying the cause.\n\nThe 14-time all-star spent his entire playing career with the Los Angeles Lakers from 1960 to 1974, winning the 1972 NBA championship, then won several more titles as an executive with multiple franchises in the ensuing decades."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "edcc52b0-28bf-11ef-bcf0-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Snap elections in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Snap elections in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-06-12T13:30:26.257000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6669a2f2b248bb3500000011",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
