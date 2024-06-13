@@ -51587,5 +51587,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0ed3ec80-29af-11ef-9fc9-0000a1ace245",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live now: The Post\u2019s AI summit, featuring Reid Hoffman, Gen. Mark A. Milley, Maria Ressa, Jen Easterly and more",
+            "ios": {
+                "alert": {
+                    "body": "Live now: The Post\u2019s AI summit, featuring Reid Hoffman, Gen. Mark A. Milley, Maria Ressa, Jen Easterly and more",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/washington-post-live/the-futurist-the-age-of-ai/",
+                        "datetime": "2024-06-13T18:02:11.344000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666b3423b248bb3500000022",
+                        "targetTopic": "technology",
+                        "text": "Artificial intelligence could herald a massive technology shift that transforms the way we work, live and interact with the world around us. Join The Washington Post for robust discussions about the future of the rapidly evolving technology dominating daily headlines."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
