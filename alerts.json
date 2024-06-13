@@ -51735,5 +51735,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6584c0b0-29d0-11ef-a391-0000a1ace4f2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This \u2018Bridgerton\u2019 duo\u2019s long-simmering, friends-to-lovers romance is bringing the heat to Season 3",
+            "ios": {
+                "alert": {
+                    "body": "This \u2018Bridgerton\u2019 duo\u2019s long-simmering, friends-to-lovers romance is bringing the heat to Season 3",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/tv/2024/06/13/nicola-coughlan-luke-newton-bridgerton/",
+                        "datetime": "2024-06-13T22:00:50.221000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666b6c12736c7f3500000010",
+                        "targetTopic": "entertainment",
+                        "text": "Nicola Coughlan and Luke Newton are heating up the Netflix juggernaut, but their path to Shondaland had plenty of bumps. In interviews with The Washington Post, they discuss their journey from out-of-work artists to the diamonds of the season."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
