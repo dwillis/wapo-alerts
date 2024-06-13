@@ -51686,5 +51686,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b9bd09b0-29c3-11ef-94f2-00000a1ace15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "With extreme heat set to roar in, we declare spring over. Here\u2019s how hot it could get next week.",
+            "ios": {
+                "alert": {
+                    "body": "With extreme heat set to roar in, we declare spring over. Here\u2019s how hot it could get next week.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/06/13/dc-heat-wave-records-md-va/",
+                        "datetime": "2024-06-13T20:30:08.054000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666b56d0736c7f350000000f",
+                        "targetTopic": "local",
+                        "text": "Starting Monday, every day will probably see highs of at least 90, with the possibility of temperatures approaching 100 during the week\u2019s second half. It could rank among the hottest weeks in several years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
