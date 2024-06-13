@@ -51637,5 +51637,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "09370a81-29bb-11ef-9f1d-00000a1ace86",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate Republicans block consideration of bill to protect access to in vitro fertilization. See how every lawmaker voted.",
+            "ios": {
+                "alert": {
+                    "body": "Senate Republicans block consideration of bill to protect access to in vitro fertilization. See how every lawmaker voted.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2024/06/13/senate-vote-right-to-ivf-bill/",
+                        "datetime": "2024-06-13T19:27:55.812000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666b483b736c7f350000000e",
+                        "targetTopic": "politics",
+                        "text": "The measure needed 60 votes to advance and received 48. It was the latest Democratic effort to put Republicans on the defensive amid a broader election-year debate over reproductive health care."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
