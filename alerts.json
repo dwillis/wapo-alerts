@@ -51194,5 +51194,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1cdb6200-2940-11ef-9217-0000a1ace2c1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tesla shareholders re-approve Elon Musk\u2019s 2018 pay package, Musk says",
+            "ios": {
+                "alert": {
+                    "body": "Tesla shareholders re-approve Elon Musk\u2019s 2018 pay package, Musk says",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/13/tesla-shareholders-approve-musk-pay/",
+                        "datetime": "2024-06-13T04:48:00.753000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666a7a00736c7f350000000d",
+                        "targetTopic": "technology",
+                        "text": "The Tesla CEO shared the news Wednesday night on X, his social media platform. Though the full results will not be revealed until Thursday\u2019s shareholder meeting, the current tallies appear to resolve a dispute that has loomed over Musk\u2019s future with the company."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
