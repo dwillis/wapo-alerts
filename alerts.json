@@ -51342,5 +51342,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "91cba801-298f-11ef-b63a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court retains access to key abortion medication with procedural ruling, a win for abortion rights after Roe was overturned",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court retains access to key abortion medication with procedural ruling, a win for abortion rights after Roe was overturned",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/13/supreme-court-abortion-pill-ruling-mifepristone/",
+                        "datetime": "2024-06-13T14:16:47.125000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666aff4fb248bb350000001e",
+                        "targetTopic": "breaking-news",
+                        "text": "A group of antiabortion doctors challenged the FDA\u2019s regulation of mifepristone, used in more than 60 percent of U.S. abortions. Since the high court overturned Roe v. Wade in 2022, abortion medications have grown increasingly important but have faced court challenges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a1ff4250-298e-11ef-8b5c-00000a1ace85",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "American journalist Evan Gershkovich of the Wall Street Journal to stand trial in Russia on charges of spying for the CIA",
+            "ios": {
+                "alert": {
+                    "body": "American journalist Evan Gershkovich of the Wall Street Journal to stand trial in Russia on charges of spying for the CIA",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/13/evan-gershkovich-trial-russia-journalist/",
+                        "datetime": "2024-06-13T14:10:04.843000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666afdbcb248bb350000001d",
+                        "targetTopic": "breaking-news",
+                        "text": "Gershkovich has been detained in Russia for more than a year on spying charges that he, the Journal and the State Department vehemently deny and for which Russian authorities have provided no evidence. Officials previously confirmed that a potential exchange had been in discussion involving Alexei Navalny, the Russian opposition leader, who died in prison, and Vadim Krasikov, a Russian security agent convicted and jailed in Germany on murder charges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
