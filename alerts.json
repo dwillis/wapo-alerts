@@ -51882,5 +51882,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "73651030-2a53-11ef-a3c2-00000a1ace3d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. Catholic bishops apologize for church\u2019s role at Indian boarding schools, citing \u2018trauma\u2019 for generations of children",
+            "ios": {
+                "alert": {
+                    "body": "U.S. Catholic bishops apologize for church\u2019s role at Indian boarding schools, citing \u2018trauma\u2019 for generations of children",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/06/14/catholic-church-indian-boarding-schools/",
+                        "datetime": "2024-06-14T13:38:57.595000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666c47f115c9ff3500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "The extraordinary vote represents the most direct expression of regret to date by senior officials in the Catholic Church for its participation in a U.S. government program to systematically strip Native American children of their identities and forcibly assimilate them into White society. It comes weeks after a Washington Post investigation documenting pervasive sexual abuse by Catholic priests at the schools."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5de79e40-2a52-11ef-921b-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-06-14T13:31:12.006000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666c462015c9ff3500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Think you\u2019ve got what it takes to earn a perfect score? Take today\u2019s longer news quiz."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
