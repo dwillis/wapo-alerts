@@ -52127,5 +52127,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "25c3e180-2a71-11ef-aeeb-00000a1ace51",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stanford\u2019s top disinformation research group collapses under political and legal attacks",
+            "ios": {
+                "alert": {
+                    "body": "Stanford\u2019s top disinformation research group collapses under political and legal attacks",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/14/stanford-internet-observatory-disinformation-research-lawsuits-politics/",
+                        "datetime": "2024-06-14T17:11:32.239000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666c79c415c9ff350000000c",
+                        "targetTopic": "technology",
+                        "text": "The Stanford Internet Observatory, which published some of the most influential analyses on the spread of false information on social media during elections, has shed most of its staff and may shut down.\n\nJust three staffers remain, who will either leave or find roles at Stanford\u2019s Cyber Policy Center, according to eight people familiar with the developments, some of whom spoke on the condition of anonymity to discuss internal matters."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e3f363d1-2a6f-11ef-bf2d-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is chatting with readers: My husband changed his mind about kids, months after our wedding. Did he trick me?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is chatting with readers: My husband changed his mind about kids, months after our wedding. Did he trick me?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/14/live-chat-carolyn-hax/",
+                        "datetime": "2024-06-14T17:02:32.323000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666c77a815c9ff350000000b",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is chatting with readers: My husband changed his mind about kids, months after our wedding. Did he trick me?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
