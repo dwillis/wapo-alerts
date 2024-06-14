@@ -51833,5 +51833,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "349a16e0-2a3d-11ef-bf2d-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Abortion pills. IVF vote. Evan Gershkovich. Florida flooding. Racism study. NBA Finals. Taylor Swift. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Abortion pills. IVF vote. Evan Gershkovich. Florida flooding. Racism study. NBA Finals. Taylor Swift. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/14/what-to-know-for-june-14/?noredirect=1",
+                        "datetime": "2024-06-14T10:59:43.236000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "666c229f15c9ff3500000005",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
