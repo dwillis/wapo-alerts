@@ -52226,5 +52226,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "da0dd140-2a9f-11ef-a32f-00000a1ace00",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alex Jones ordered to sell personal assets to pay $1.5 billion to Sandy Hook families but judge dismisses case to shut Infowars",
+            "ios": {
+                "alert": {
+                    "body": "Alex Jones ordered to sell personal assets to pay $1.5 billion to Sandy Hook families but judge dismisses case to shut Infowars",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/06/14/alex-jones-infowars-sandy-hook-liquidate/",
+                        "datetime": "2024-06-14T22:45:51.447000Z",
+                        "imageURL": "https://www.washingtonpost.com/style/media/2024/06/14/alex-jones-infowars-sandy-hook-liquidate/",
+                        "pushID": "666cc81f6e3cf93500000001",
+                        "targetTopic": "us",
+                        "text": "The ruling, ending a bankruptcy case involving Infowars\u2019s parent company, means Jones\u2019s far-right website will continue to operate at least a little longer, as parents seek the massive damages he owes for falsely claiming that the 2012 school shooting was a hoax."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
