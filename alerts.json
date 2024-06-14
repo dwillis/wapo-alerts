@@ -52029,5 +52029,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "213cbea0-2a64-11ef-bc70-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New rules aimed at protecting transgender students are blocked in four states by a federal court",
+            "ios": {
+                "alert": {
+                    "body": "New rules aimed at protecting transgender students are blocked in four states by a federal court",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/06/14/transgender-titleix-schools-federal-court/",
+                        "datetime": "2024-06-14T15:38:21.150000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666c63ed15c9ff350000000a",
+                        "targetTopic": "us",
+                        "text": "The regulations, issued by the Education Department in April, represent its interpretation of Title IX, a half-century-old law that bars discrimination in schools based on sex. The preliminary injunction against the rules applies in Louisiana, Mississippi, Montana and Idaho, though similar challenges are pending in other states. The rules are set to take effect on Aug. 1 and affect every K-12 school, college and university in the country that accepts any type of federal funding."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2c715080-2a62-11ef-82ec-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House passes $895 billion defense policy bill that targets abortion access and diversity protections, advances other GOP priorities",
+            "ios": {
+                "alert": {
+                    "body": "House passes $895 billion defense policy bill that targets abortion access and diversity protections, advances other GOP priorities",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/06/14/ndaa-house-republicans-defense-bill/",
+                        "datetime": "2024-06-14T15:24:20.950000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666c60a415c9ff3500000009",
+                        "targetTopic": "politics",
+                        "text": "The bill, initially hailed by lawmakers who drafted it as a feat of bipartisanship, is certain to set up a clash \u2014 and prolonged negotiation \u2014 with the Democratic-controlled Senate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
