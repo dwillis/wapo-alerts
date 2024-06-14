@@ -51784,5 +51784,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0c250d70-29e1-11ef-8472-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Customers love the Call Your Mother bagel shop in Georgetown. Some neighbors want it closed.",
+            "ios": {
+                "alert": {
+                    "body": "Customers love the Call Your Mother bagel shop in Georgetown. Some neighbors want it closed.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/12/call-your-mother-georgetown-zoning-fight/",
+                        "datetime": "2024-06-14T00:00:01.633000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666b8801736c7f3500000011",
+                        "targetTopic": "local",
+                        "text": "If the crowds outside got to make the call, the self-described \u201cJew-ish\u201d deli in a bright pink D.C. rowhome would have no trouble winning officials\u2019 blessing to keep selling its bagels. But owners of neighboring million-dollar rowhouses, citing decades-old zoning laws and a D.C. Court of Appeals ruling, want the shop to stop serving prepared food."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
