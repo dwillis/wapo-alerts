@@ -51980,5 +51980,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8a814bc0-2a59-11ef-8ee4-0000a1ace894",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court strikes down Trump-era federal ban on bump stock devices that allow rifles to fire hundreds of bullets per minute",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court strikes down Trump-era federal ban on bump stock devices that allow rifles to fire hundreds of bullets per minute",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/14/bump-stocks-supreme-court-machine-gun-bruen-cargill/",
+                        "datetime": "2024-06-14T14:22:33.304000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666c522915c9ff3500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "The case turned on whether bump stocks meet the definition of a machine gun. Federal appeals courts were sharply divided over that question in earlier decisions on the ban\u2019s legality, before the Supreme Court took up the lawsuit."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
