@@ -52373,5 +52373,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f1620e80-2b2e-11ef-8514-00000a1acec8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Amazon-owned One Medical shifted some care to a call center, leading to patient safety issues, leaked documents reveal",
+            "ios": {
+                "alert": {
+                    "body": "Amazon-owned One Medical shifted some care to a call center, leading to patient safety issues, leaked documents reveal",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/15/amazon-one-medical-patient-safety/",
+                        "datetime": "2024-06-15T15:50:08.730000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666db830f8291e3600000003",
+                        "targetTopic": "business",
+                        "text": "Since Amazon acquired the primary-care service One Medical, elderly patients have been routed to a call center \u2014 staffed partly by contractors with limited training \u2014 that failed on more than a dozen occasions to seek immediate attention for callers with urgent symptoms, according to internal documents seen by The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
