@@ -52521,5 +52521,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5ac4c30-2b5f-11ef-b939-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "An officer met a teen at Chick-fil-A, then abused her in his police car. Now a judge must decide his punishment.",
+            "ios": {
+                "alert": {
+                    "body": "An officer met a teen at Chick-fil-A, then abused her in his police car. Now a judge must decide his punishment.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2024/south-bend-police-child-sexual-abuse-punishment/",
+                        "datetime": "2024-06-15T21:39:13.902000Z",
+                        "imageURL": "https://www.washingtonpost.com/investigations/interactive/2024/south-bend-police-child-sexual-abuse-punishment/",
+                        "pushID": "666e0a01f8291e3600000006",
+                        "targetTopic": "special_report",
+                        "text": "The high school student, who\u2019d wanted to be a cop, was assured that the Indiana officer would be held accountable for sexually abusing her. But a Washington Post investigation found hundreds of officers evaded serious consequences for preying on children, even after they admitted to wrongdoing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
