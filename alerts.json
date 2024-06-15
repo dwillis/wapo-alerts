@@ -52423,5 +52423,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c83a6a60-2b34-11ef-b88d-000a1acebcb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: My friend\u2019s new girlfriend is jealous and sent me abusive messages",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: My friend\u2019s new girlfriend is jealous and sent me abusive messages",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/13/ask-sahaj-jealous-girlfriend-abusive-messages/",
+                        "datetime": "2024-06-15T16:31:56.695000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666dc1fcf8291e3600000004",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: My friend\u2019s new girlfriend is jealous and sent me abusive messages"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
