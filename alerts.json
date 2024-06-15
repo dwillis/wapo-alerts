@@ -52472,5 +52472,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1ae581b0-2b3e-11ef-b939-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump pledged to pardon Jan. 6 rioters. He faces pressure to name names.",
+            "ios": {
+                "alert": {
+                    "body": "Trump pledged to pardon Jan. 6 rioters. He faces pressure to name names.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/06/14/trump-jan6-attack-pardons/",
+                        "datetime": "2024-06-15T17:38:40.763000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666dd1a0f8291e3600000005",
+                        "targetTopic": "politics",
+                        "text": "The presumptive Republican nominee\u2019s vow to exercise the clemency powers of the presidency if he returns to office has raised alarms about his support for political violence and touched off private conversations among supporters about how to deliver on his pledge. There is only one known individual rioter Trump has specifically promised to pardon, according to interviews with about a dozen other prominent family members and advocates of those charged for their roles in the attack. His campaign has said he will decide on a \u201ccase-by-case\u201d basis without specifying what criteria he would use."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
