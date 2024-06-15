@@ -52324,5 +52324,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3dd4d180-2b20-11ef-bd9c-00000a1ace9d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They\u2019re the nation\u2019s first Black, Muslim, nonbinary state lawmaker. The hard part came after taking office.",
+            "ios": {
+                "alert": {
+                    "body": "They\u2019re the nation\u2019s first Black, Muslim, nonbinary state lawmaker. The hard part came after taking office.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/mauree-turner-oklahoma-legislature/",
+                        "datetime": "2024-06-15T14:04:54.521000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666d9f86f8291e3600000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Four years ago, Mauree Turner\u2019s election in one of the most conservative states made history. What they\u2019ve achieved \u2014 or failed to achieve \u2014 since taking office has come at a high personal cost."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
