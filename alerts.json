@@ -52766,5 +52766,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f13c5f60-2c31-11ef-a841-00000a1ace83",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bryson DeChambeau wins the U.S. Open for the second time",
+            "ios": {
+                "alert": {
+                    "body": "Bryson DeChambeau wins the U.S. Open for the second time",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/16/bryson-dechambeau-us-open-champion/",
+                        "datetime": "2024-06-16T22:44:08.120000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666f6ab86e3cf93500000006",
+                        "targetTopic": "sports",
+                        "text": "DeChambeau, 30, entered Sunday's final round at Pinehurst No. 2 with a three-shot lead. DeChambeau, who joined LIV Golf in 2022, also won the 2020 U.S. Open at Winged Foot."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
