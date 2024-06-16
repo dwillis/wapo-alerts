@@ -52619,5 +52619,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "26bae530-2bf1-11ef-a49f-000a1ace957c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Every time you breathe, you could be inhaling microplastics. See how the tiny particles infiltrate organs, threatening our health.",
+            "ios": {
+                "alert": {
+                    "body": "Every time you breathe, you could be inhaling microplastics. See how the tiny particles infiltrate organs, threatening our health.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/microplastics-air-human-body-organs-spread/",
+                        "datetime": "2024-06-16T15:00:20.564000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666efe046e3cf93500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Scientists are increasingly concerned that microplastics may be linked to growing rates of cancer, heart disease and other chronic illnesses."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
