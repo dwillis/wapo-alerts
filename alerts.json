@@ -52717,5 +52717,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1cf9cc90-2c0b-11ef-a41c-0000a1acef9f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new program allows members of Congress to receive reimbursements without receipts. See how much your representative expensed.",
+            "ios": {
+                "alert": {
+                    "body": "A new program allows members of Congress to receive reimbursements without receipts. See how much your representative expensed.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/13/house-expenses-receipts-database-list/",
+                        "datetime": "2024-06-16T18:06:11.177000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666f29936e3cf93500000005",
+                        "targetTopic": "politics",
+                        "text": "More than two dozen members of Congress were paid at least $30,000 in addition to their salary last year as part of the program."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
