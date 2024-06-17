@@ -52864,5 +52864,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "28250aa0-2c40-11ef-91af-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Incoming Post editor tied to self-described \u2018thief\u2019 who claimed role in his reporting",
+            "ios": {
+                "alert": {
+                    "body": "Incoming Post editor tied to self-described \u2018thief\u2019 who claimed role in his reporting",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/06/16/washington-post-editor-robert-winnett/",
+                        "datetime": "2024-06-17T00:25:53.200000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666f82916e3cf93500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "Unpublished book drafts and other documents raise questions about Robert Winnett\u2019s journalistic record just months before he is to assume a top newsroom role at The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
