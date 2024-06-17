@@ -52913,5 +52913,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f45167c1-2c56-11ef-b360-00000a1acef5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Stereophonic\u2019 and \u2018The Outsiders\u2019 win big at the 2024 Tony Awards",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Stereophonic\u2019 and \u2018The Outsiders\u2019 win big at the 2024 Tony Awards",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/theater/2024/06/16/tonys-2024-live-updates/",
+                        "datetime": "2024-06-17T03:09:04.684000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666fa8d0f8291e3600000007",
+                        "targetTopic": "entertainment",
+                        "text": "Daniel Radcliffe and Jeremy Strong also took home prizes at the ceremony honoring Broadway\u2019s best."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
