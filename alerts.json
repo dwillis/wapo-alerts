@@ -52815,5 +52815,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b4ca3ca0-2c3b-11ef-8ba3-00000a1ace25",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Md. governor to pardon more than 175,000 marijuana convictions, one of the nation\u2019s most sweeping clemency acts involving the drug",
+            "ios": {
+                "alert": {
+                    "body": "Md. governor to pardon more than 175,000 marijuana convictions, one of the nation\u2019s most sweeping clemency acts involving the drug",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/16/maryland-mass-pardon-marijuana-conviction/",
+                        "datetime": "2024-06-16T23:54:01.699000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "666f7b196e3cf93500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "The pardons will forgive decades of low-level marijuana possession charges for an estimated 100,000 people in what Gov. Wes Moore (D) said is a step to heal decades of social and economic injustice that disproportionately harm Black and Brown people."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
