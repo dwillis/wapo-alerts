@@ -53109,5 +53109,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d89c0de1-2cc5-11ef-8a42-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: I'm married to a \u2018secret bigot.\u2019 How do I reconcile the vile things he says?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: I'm married to a \u2018secret bigot.\u2019 How do I reconcile the vile things he says?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/17/carolyn-hax-husband-secret-bigot/",
+                        "datetime": "2024-06-17T16:22:52.278000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667062dcf8291e3600000009",
+                        "targetTopic": "advice",
+                        "text": "I'm married to a \u2018secret bigot.\u2019 How do I reconcile the vile things he says?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
