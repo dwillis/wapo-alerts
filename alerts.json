@@ -52962,5 +52962,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb1009a0-2c9b-11ef-bca2-00000a1ace02",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Putin traveling to North Korea on Tuesday amid concerns about growing military cooperation between the countries",
+            "ios": {
+                "alert": {
+                    "body": "Putin traveling to North Korea on Tuesday amid concerns about growing military cooperation between the countries",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/17/russia-putin-north-korea-visit-kim/",
+                        "datetime": "2024-06-17T11:23:11.263000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66701c9f3936e73500000001",
+                        "targetTopic": "world",
+                        "text": "Russian President Vladimir Putin and Kim Jong Un are expected to pledge public support for each other and rebuff U.S.-led efforts to isolate Russia over its invasion of Ukraine. Moscow is in desperate need of the munitions that North Korea can provide."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b35c5a81-2c98-11ef-9bbb-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gaza fighting. Brutal heat. Biden ad. Marijuana pardons. Baby genomes. Screen time. Princess Kate. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Gaza fighting. Brutal heat. Biden ad. Marijuana pardons. Baby genomes. Screen time. Princess Kate. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/17/what-to-know-for-june-17/?noredirect=1",
+                        "datetime": "2024-06-17T10:59:42.496000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6670171ebe84133600000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
