@@ -53207,5 +53207,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "20e069d0-2d01-11ef-a840-00000a1ace9b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Biden to announce program allowing undocumented immigrants married to U.S. citizens to apply for legal residency",
+            "ios": {
+                "alert": {
+                    "body": "President Biden to announce program allowing undocumented immigrants married to U.S. citizens to apply for legal residency",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2024/06/17/biden-undocumented-immigrant-spouses/",
+                        "datetime": "2024-06-17T23:27:13.848000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6670c651be84133600000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Biden will unveil the policy Tuesday in one of the most expansive immigration programs of his presidency, according to two federal sources with knowledge of the plans. About 500,000 people are expected to be eligible to apply."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
