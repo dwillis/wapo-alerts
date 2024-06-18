@@ -53501,5 +53501,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "33d4de50-2daf-11ef-a0e2-00000a1ace24",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nvidia becomes the world\u2019s most valuable public company, pushing past Apple and Microsoft",
+            "ios": {
+                "alert": {
+                    "body": "Nvidia becomes the world\u2019s most valuable public company, pushing past Apple and Microsoft",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/18/nvidia-most-valuable-company-microsoft-ai/",
+                        "datetime": "2024-06-18T20:13:18.116000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6671ea5e3936e73500000005",
+                        "targetTopic": "business",
+                        "text": "The company\u2019s computer chips and software are crucial to training the artificial-intelligence algorithms behind image generators and chatbots like OpenAI\u2019s ChatGPT. As the tech and business worlds throw themselves into the AI boom, demand for Nvidia's chips has skyrocketed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
