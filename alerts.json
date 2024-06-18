@@ -53452,5 +53452,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b6a32cf0-2d9c-11ef-ae40-00000a1ace8d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The national debt will grow to more than $50 trillion by 2034, CBO projects, as defense costs and safety net spending rise",
+            "ios": {
+                "alert": {
+                    "body": "The national debt will grow to more than $50 trillion by 2034, CBO projects, as defense costs and safety net spending rise",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/18/national-debt-budget-projections-cbo/",
+                        "datetime": "2024-06-18T18:00:56.918000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6671cb583936e73500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "This year\u2019s federal deficit will grow to $1.9 trillion, according to the Congressional Budget Office. A large debt balance could keep federal interest rates high and present risks in bond markets."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
