@@ -53551,5 +53551,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "92543800-2db8-11ef-8cc3-0000a1aced16",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Robert F. Kennedy Jr. won\u2019t meet CNN debate requirement for ballot access",
+            "ios": {
+                "alert": {
+                    "body": "Robert F. Kennedy Jr. won\u2019t meet CNN debate requirement for ballot access",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/18/rfk-jr-presidential-debate/",
+                        "datetime": "2024-06-18T21:20:22.138000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/06/18/rfk-jr-presidential-debate/",
+                        "pushID": "6671fa163936e73500000006",
+                        "targetTopic": "politics",
+                        "text": "The independent presidential candidate has said he has qualified for enough state ballots, but state election officials have said that\u2019s not true."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
