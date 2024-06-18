@@ -53305,5 +53305,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "def80ad0-2d61-11ef-b168-0000a1ace076",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Immigration rule. Heat wave. Putin visit. Mark Robinson. Social media warning. Ian McKellen. NBA Finals. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Immigration rule. Heat wave. Putin visit. Mark Robinson. Social media warning. Ian McKellen. NBA Finals. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/18/what-to-know-for-june-18/?noredirect=1",
+                        "datetime": "2024-06-18T10:59:44.501000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "667168a0f8291e360000000b",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
