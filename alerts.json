@@ -53600,5 +53600,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0a4e6240-2dbe-11ef-a0e2-00000a1ace24",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel says it is nearing the end of its Rafah offensive, potentially shifting to a new, less-intense phase of the conflict",
+            "ios": {
+                "alert": {
+                    "body": "Israel says it is nearing the end of its Rafah offensive, potentially shifting to a new, less-intense phase of the conflict",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/18/israel-rafah-offensive-gaza-hamas/",
+                        "datetime": "2024-06-18T21:59:30.853000Z",
+                        "imageURL": "https://www.washingtonpost.com/world/2024/06/18/israel-rafah-offensive-gaza-hamas/",
+                        "pushID": "667203423936e73500000007",
+                        "targetTopic": "world",
+                        "text": "Israeli forces are making progress against Hamas in Rafah, a senior military official said, destroying the group\u2019s infrastructure and cutting the supply of weapons coming through tunnels from Egypt. A shift to more targeted operations across Gaza could bring respite to civilians who have spent months in the line of fire."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
