@@ -53403,5 +53403,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2ed001f0-2d8c-11ef-b0d0-00000a1ace8f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Does age make a person less gracious \u2014 or better at boundaries?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Does age make a person less gracious \u2014 or better at boundaries?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/18/carolyn-hax-age-boundaries-gracious/",
+                        "datetime": "2024-06-18T16:02:37.297000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6671af9d3936e73500000003",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Does age make a person less gracious \u2014 or better at boundaries?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
