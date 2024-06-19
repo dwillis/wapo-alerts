@@ -54237,5 +54237,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c9903320-2e65-11ef-809a-00000a1ace39",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran signals a major boost to nuclear program at key site",
+            "ios": {
+                "alert": {
+                    "body": "Iran signals a major boost to nuclear program at key site",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/06/19/iran-nuclear-enrichment-fordow/",
+                        "datetime": "2024-06-19T18:00:17.693000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66731cb1be84133600000004",
+                        "targetTopic": "world",
+                        "text": "The expansion in Iran\u2019s most heavily protected nuclear facility could triple the site\u2019s production of enriched uranium and give Tehran new options for quickly assembling a nuclear arsenal if it chooses to, according to confidential documents and analysis by weapons experts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
