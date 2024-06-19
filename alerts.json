@@ -54041,5 +54041,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5a1af50-2e48-11ef-8516-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "China backed the ringleaders of a global scam network \u2014 then turned on them",
+            "ios": {
+                "alert": {
+                    "body": "China backed the ringleaders of a global scam network \u2014 then turned on them",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/19/china-online-scams-myanmar-trafficking/",
+                        "datetime": "2024-06-19T14:32:08.878000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6672ebe8255d083500000002",
+                        "targetTopic": "special_report",
+                        "text": "Crime syndicates in Kokang, Myanmar, near the border with China, operated more than 300 compounds running online fraud schemes, often with trafficked workers. That made Kokang a key hub in what Interpol estimates is a $3 trillion global online scam industry, a Washington Post investigation found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "16388a40-2e45-11ef-ab3c-0000a1ace62b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Happy Juneteenth! Play today\u2019s On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "Happy Juneteenth! Play today\u2019s On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-06-19T14:06:12.927000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6672e5d4255d083500000001",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
