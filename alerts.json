@@ -53992,5 +53992,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "090d6940-2e2b-11ef-b6c3-0000a1ace20d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Heat wave. Nvidia surge. Presidential debate. Willie Mays. Justin Timberlake. Childhood obesity. Black hole. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Heat wave. Nvidia surge. Presidential debate. Willie Mays. Justin Timberlake. Childhood obesity. Black hole. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/19/what-to-know-for-june-19/?noredirect=1",
+                        "datetime": "2024-06-19T10:59:43.959000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6672ba1fcd341b3500000002",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
