@@ -53747,5 +53747,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "550ef9e1-2dda-11ef-b6c3-0000a1ace20d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Va. state Sen. Suhas Subramanyam wins Democratic primary for Jennifer Wexton\u2019s (D) 10th District seat, AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Va. state Sen. Suhas Subramanyam wins Democratic primary for Jennifer Wexton\u2019s (D) 10th District seat, AP projects",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/18/virginia-district-10-primary/",
+                        "datetime": "2024-06-19T01:21:57.539000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667232b53936e7350000000e",
+                        "targetTopic": "local",
+                        "text": "The seat is open after Wexton announced she is not seeking reelection because of health reasons. Wexton had flipped the seat in 2018, and Democrats hope to hang onto it in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9cd7f800-2dd8-11ef-aeee-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Willie Mays dies at 93. The legendary baseball player of peerless power and grace was the \u2018Say Hey Kid\u2019 who could do it all.",
+            "ios": {
+                "alert": {
+                    "body": "Willie Mays dies at 93. The legendary baseball player of peerless power and grace was the \u2018Say Hey Kid\u2019 who could do it all.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/06/18/willie-mays-baseball-dead/",
+                        "datetime": "2024-06-19T01:09:43.675000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66722fd73936e7350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "With sublime athletic grace, Mays excelled in every facet of the game as a center fielder with the New York and San Francisco Giants in the 1950s and \u201960s, hitting 660 home runs and becoming arguably the best all-around player in baseball history."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d6fe2791-2dd1-11ef-b378-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Eugene Vindman, a Trump whistleblower, is projected to win Democratic nomination in Va.\u2019s 7th Congressional District",
+            "ios": {
+                "alert": {
+                    "body": "Eugene Vindman, a Trump whistleblower, is projected to win Democratic nomination in Va.\u2019s 7th Congressional District",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/18/virginia-district-7-primary/",
+                        "datetime": "2024-06-19T00:21:14.735000Z",
+                        "imageURL": "https://www.washingtonpost.com/dc-md-va/2024/06/18/virginia-district-7-primary/",
+                        "pushID": "6672247a3936e7350000000b",
+                        "targetTopic": "local",
+                        "text": "Vindman, a former Army colonel who helped file a report prompting the first impeachment inquiry into President Donald Trump, had used his celebrity on the national stage to catapult to the front of the crowded Democratic primary. He hopes to succeed Rep. Abigail Spanberger (D), who is running for governor."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
