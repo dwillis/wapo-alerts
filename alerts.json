@@ -54139,5 +54139,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ebbd7c60-2e50-11ef-b647-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: A nail-biter in the 5th District, and four other takeaways from Virginia\u2019s primary election results",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: A nail-biter in the 5th District, and four other takeaways from Virginia\u2019s primary election results",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/19/virginia-primary-election-analysis/",
+                        "datetime": "2024-06-19T15:30:55.635000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6672f9af255d083500000003",
+                        "targetTopic": "local",
+                        "text": "Virginia, home to several competitive districts and virtually a permanent bellwether for national politics, never lacks for drama in its congressional races. Here are our takeaways from Tuesday\u2019s primary."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
