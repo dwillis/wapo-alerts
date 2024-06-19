@@ -53649,5 +53649,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ee4f540-2dce-11ef-9971-0000a1ace569",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tech company executive Mike Clancy wins GOP primary for Rep. Jennifer Wexton\u2019s (D) 10th District seat, AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Tech company executive Mike Clancy wins GOP primary for Rep. Jennifer Wexton\u2019s (D) 10th District seat, AP projects",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/18/virginia-district-10-primary/",
+                        "datetime": "2024-06-18T23:55:31.069000Z",
+                        "imageURL": "https://www.washingtonpost.com/dc-md-va/2024/06/18/virginia-district-10-primary/",
+                        "pushID": "66721e733936e7350000000a",
+                        "targetTopic": "local",
+                        "text": "The seat is open after Rep. Jennifer Wexton announced she is not seeking reelection because of health reasons. Wexton had flipped the seat in 2018, and Republicans hope to flip it back in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "10442d20-2dc7-11ef-8ce5-0000a1ace053",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Polls have closed in the Virginia primaries. Follow The Post\u2019s coverage to see results in crucial House races and more.",
+            "ios": {
+                "alert": {
+                    "body": "Polls have closed in the Virginia primaries. Follow The Post\u2019s coverage to see results in crucial House races and more.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/06/18/election-2024-campaign-primaries-virginia-oklahoma/",
+                        "datetime": "2024-06-18T23:04:06.377000Z",
+                        "imageURL": "https://www.washingtonpost.com/elections/2024/06/18/election-2024-campaign-primaries-virginia-oklahoma/",
+                        "pushID": "667212663936e73500000008",
+                        "targetTopic": "local",
+                        "text": "The Washington Post is bringing you live coverage of election results, analysis and more as votes are tallied in several contested House primaries across the state, as well as local races."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
