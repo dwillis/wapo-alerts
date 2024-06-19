@@ -53943,5 +53943,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7cf58eb0-2e25-11ef-aafb-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "North Korea\u2019s Kim Jong Un declares \u2018full support\u2019 for Russian war in Ukraine during Vladimir Putin\u2019s visit to Pyongyang",
+            "ios": {
+                "alert": {
+                    "body": "North Korea\u2019s Kim Jong Un declares \u2018full support\u2019 for Russian war in Ukraine during Vladimir Putin\u2019s visit to Pyongyang",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/18/russia-vladimir-putin-north-korea-kim-jong-un/",
+                        "datetime": "2024-06-19T10:20:01.294000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6672b0d1cd341b3500000001",
+                        "targetTopic": "world",
+                        "text": "The Russian president, looking for diplomatic and military support, signed a \u201ccomprehensive\u201d agreement with Kim during a rare visit to North Korea. They gave no details, but the United States and its allies are concerned North Korea will ship more munitions to Russia to help it sustain its war against Ukraine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
