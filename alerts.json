@@ -54286,5 +54286,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "396465e0-2e7f-11ef-b6c3-0000a1ace20d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A rare gene mutation helps people resist Alzheimer\u2019s disease, study finds \u2014 a hopeful clue for new therapies",
+            "ios": {
+                "alert": {
+                    "body": "A rare gene mutation helps people resist Alzheimer\u2019s disease, study finds \u2014 a hopeful clue for new therapies",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/science/2024/06/19/alzheimers-disease-gene-treatment/",
+                        "datetime": "2024-06-19T21:02:22.775000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6673475ebe84133600000005",
+                        "targetTopic": "health",
+                        "text": "In a study published Wednesday in the New England Journal of Medicine, researchers reported 27 members of an extended Colombian family carry extreme genetic risk for Alzheimer\u2019s, along with a copy of a protective gene called Christchurch. Cognitive decline in this singular group was delayed by about five years, suggesting that a drug that emulates the gene could have similar effects."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
