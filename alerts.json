@@ -54336,5 +54336,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8cc30e60-2e8b-11ef-bdbc-00000a1acec6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 2024 \u2018Deciders\u2019: Who are they and what makes them tick?",
+            "ios": {
+                "alert": {
+                    "body": "The 2024 \u2018Deciders\u2019: Who are they and what makes them tick?",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/17/deciders-2024-election-poll/",
+                        "datetime": "2024-06-19T22:30:36.606000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66735c0cbe84133600000006",
+                        "targetTopic": "politics",
+                        "text": "In a nation where many voters have made up their minds in the upcoming presidential election, 6 in 10 voters in key battleground states turn out sporadically or are not firmly committed to President Biden or Donald Trump.\nThese Deciders skew young and non-White and are even more sour on major candidates than the broader electorate. The Washington Post and the Schar School of Policy and Government at George Mason University surveyed 3,513 registered voters in six key states to find out what they think."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
