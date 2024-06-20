@@ -54828,5 +54828,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "216de1c0-2f3b-11ef-9d3c-00000a1aceb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Los Angeles Lakers to hire JJ Redick as head coach. The former NBA player co-hosts a podcast with Lakers star LeBron James.",
+            "ios": {
+                "alert": {
+                    "body": "Los Angeles Lakers to hire JJ Redick as head coach. The former NBA player co-hosts a podcast with Lakers star LeBron James.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/20/lakers-hire-jj-redick/",
+                        "datetime": "2024-06-20T19:27:27.945000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6674829f255d083500000005",
+                        "targetTopic": "sports",
+                        "text": "Redick, 39, had a 15-year NBA playing career but has no previous coaching experience. He replaces Darvin Ham, who was fired last month.\nRedick hosts multiple popular basketball-related podcasts, including one he launched with James in March."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
