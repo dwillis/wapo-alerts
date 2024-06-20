@@ -54434,5 +54434,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2d3e4e01-2f03-11ef-a6d3-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dutch leader Mark Rutte is poised to become new NATO secretary general, replacing Jens Stoltenberg, after competition drops out",
+            "ios": {
+                "alert": {
+                    "body": "Dutch leader Mark Rutte is poised to become new NATO secretary general, replacing Jens Stoltenberg, after competition drops out",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/20/nato-chief-mark-rutte/",
+                        "datetime": "2024-06-20T12:46:55.911000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667424bff8291e360000000d",
+                        "targetTopic": "world",
+                        "text": "The change in leadership, which could be announced within days, comes amid worry over the return of former U.S. president Donald Trump. The prime minister of the Netherlands is known for his pragmatic outlook and willingness to work with Trump should he win the 2024 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b07e5e50-2efd-11ef-89ac-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Despite a Biden-Xi agreement to crack down on fentanyl, Chinese sellers are open for business",
+            "ios": {
+                "alert": {
+                    "body": "Despite a Biden-Xi agreement to crack down on fentanyl, Chinese sellers are open for business",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/20/china-fentanyl-mexico-us/",
+                        "datetime": "2024-06-20T12:07:39.148000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66741b8bf8291e360000000c",
+                        "targetTopic": "world",
+                        "text": "A booming online marketplace for shipping small but potent packages of the chemicals used in the production of fentanyl from China to Mexico remains largely unhindered, a Post investigation found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
