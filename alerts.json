@@ -54926,5 +54926,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd9bfe50-2f51-11ef-919c-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bayer is pushing Congress for legislation \u2014 and helped shape a provision \u2014 that could help fight lawsuits tying Roundup to cancer",
+            "ios": {
+                "alert": {
+                    "body": "Bayer is pushing Congress for legislation \u2014 and helped shape a provision \u2014 that could help fight lawsuits tying Roundup to cancer",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/20/bayer-roundup-farm-bill-lobbying/",
+                        "datetime": "2024-06-20T22:11:06.014000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6674a8fa255d083500000007",
+                        "targetTopic": "business",
+                        "text": "The company has paid billions of dollars in settlements, even as it maintains its weedkiller is safe and denies wrongdoing. A Bayer-backed provision in the House\u2019s sweeping agricultural bill could halt some lawsuits, according to documents viewed by The Washington Post and seven people familiar with the matter."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
