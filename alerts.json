@@ -54631,5 +54631,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "799fe0e0-2f1e-11ef-88e3-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How to fix low self-esteem so it doesn\u2019t drag down a marriage?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How to fix low self-esteem so it doesn\u2019t drag down a marriage?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/20/carolyn-hax-low-self-esteem-marriage/",
+                        "datetime": "2024-06-20T16:02:20.457000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6674528cf8291e3600000010",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How to fix low self-esteem so it doesn\u2019t drag down a marriage?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
