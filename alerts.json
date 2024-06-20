@@ -54680,5 +54680,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "63542f31-2f2d-11ef-a8e5-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Sutherland dies at 88. The actor had a stunning range in films such as \u2018Ordinary People\u2019 and \u2018The Hunger Games.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Donald Sutherland dies at 88. The actor had a stunning range in films such as \u2018Ordinary People\u2019 and \u2018The Hunger Games.\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/06/20/donald-sutherland-dead/",
+                        "datetime": "2024-06-20T17:49:05.555000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66746b91f8291e3600000013",
+                        "targetTopic": "breaking-news",
+                        "text": "Tall, expressive and possessing remarkable versatility, his roles ranged from an irreverent G.I. in \u201cThe Dirty Dozen\u201d to the antiwar comedy \u201cM.A.S.H.\u201d and the campus romp \u201cAnimal House\u201d in the 1970s to the dystopian leader in the recent \u201cHunger Games\u201d franchise."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4437c6e0-2f2b-11ef-8021-0000a1acefff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Tara: My ex-husband lives two doors from me. How do I stop feeling he is too close?",
+            "ios": {
+                "alert": {
+                    "body": "Ask Tara: My ex-husband lives two doors from me. How do I stop feeling he is too close?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/06/20/tara-parker-pope-advice/",
+                        "datetime": "2024-06-20T17:33:54.305000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66746802f8291e3600000012",
+                        "targetTopic": "advice",
+                        "text": "Well+Being editor Tara Parker-Pope answers your questions with science-based advice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4d79e980-2f27-11ef-a5c0-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "TikTok files brief to challenge potential ban, kicking off a consequential legal battle between the popular app and U.S. government",
+            "ios": {
+                "alert": {
+                    "body": "TikTok files brief to challenge potential ban, kicking off a consequential legal battle between the popular app and U.S. government",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/06/20/tiktok-ban-lawsuit-us-biden-bytedance/",
+                        "datetime": "2024-06-20T17:05:31.898000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6674615bf8291e3600000011",
+                        "targetTopic": "technology",
+                        "text": "The brief, filed by TikTok and a group of eight creators, argues that a law demanding TikTok\u2019s China-based owner, ByteDance, sell its U.S. operations by Jan. 19 or face a nationwide ban would violate Americans\u2019 First Amendment right to free expression. TikTok also went on the offensive, sharing for the first time internal documents from years of failed negotiations with the federal government that it says show the Biden administration was not operating in good faith."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
