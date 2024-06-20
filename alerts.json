@@ -54877,5 +54877,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "54bd39a0-2f49-11ef-86fa-0000a1ace675",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ex-Prince George\u2019s County councilman Mel Franklin charged with embezzling campaign funds for personal expenses",
+            "ios": {
+                "alert": {
+                    "body": "Ex-Prince George\u2019s County councilman Mel Franklin charged with embezzling campaign funds for personal expenses",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/20/mel-franklin-embezzlement-charges-prince-georges/",
+                        "datetime": "2024-06-20T21:09:06.952000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66749a72255d083500000006",
+                        "targetTopic": "local",
+                        "text": "At least $130,000 of his campaign funds were used to pay for personal expenses, including his rent, loans and cosmetic procedures for him and a close friend, prosecutors allege. Franklin abruptly resigned Friday from his seat after serving on the council for nearly 14 years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
