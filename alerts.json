@@ -55368,5 +55368,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2111e790-3016-11ef-867a-0000a1ace43b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. restrictions on how far Ukraine can fire American weapons into Russia leave key bases out of range, Ukrainian officials say",
+            "ios": {
+                "alert": {
+                    "body": "U.S. restrictions on how far Ukraine can fire American weapons into Russia leave key bases out of range, Ukrainian officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/21/ukraine-firing-range-us-weapons-russia/",
+                        "datetime": "2024-06-21T21:35:07.087000Z",
+                        "imageURL": "https://www.washingtonpost.com/world/2024/06/21/ukraine-firing-range-us-weapons-russia/",
+                        "pushID": "6675f20bcd341b350000000a",
+                        "targetTopic": "world",
+                        "text": "The two officials say that the Biden administration\u2019s lifting of a ban on targets in Russia has helped their military reduce some incoming attacks, but that air bases used by planes that drop highly destructive glide bombs are beyond a range set by Washington."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
