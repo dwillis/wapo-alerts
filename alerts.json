@@ -54976,5 +54976,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "30610b00-2f75-11ef-ae59-00000a1ace37",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump\u2019s felony conviction fuels a donation surge that narrows Biden\u2019s advantage",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump\u2019s felony conviction fuels a donation surge that narrows Biden\u2019s advantage",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/20/trump-conviction-fundraising-campaign-donations/",
+                        "datetime": "2024-06-21T02:23:03.824000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/06/20/trump-conviction-fundraising-campaign-donations/",
+                        "pushID": "6674e407f8291e3600000014",
+                        "targetTopic": "politics",
+                        "text": "The Trump campaign and an allied super PAC received a huge influx of cash in the days following his May conviction on 34 felony counts of falsifying business records. The surge in post-conviction donations \u2014 captured in part in May reports filed to the Federal Election Commission on Thursday \u2014 is giving Trump a significant boost as he tries to narrow the Biden campaign\u2019s once-enormous cash advantage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
