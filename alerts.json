@@ -55221,5 +55221,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dfb780e1-2feb-11ef-945e-0000a1ace489",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: Dad thinks cancer survivor dyed hair purple for attention",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: Dad thinks cancer survivor dyed hair purple for attention",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/21/live-chat-carolyn-hax/",
+                        "datetime": "2024-06-21T16:32:38.616000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6675ab26cd341b3500000006",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax chat: Dad thinks cancer survivor dyed hair purple for attention"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
