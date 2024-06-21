@@ -55025,5 +55025,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5da05dd1-2fbd-11ef-ae8b-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump donation surge. Heat wave. Donald Sutherland. Murder suspect. AI emissions. Chimp medicine. Ancient beach. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump donation surge. Heat wave. Donald Sutherland. Murder suspect. AI emissions. Chimp medicine. Ancient beach. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/21/what-to-know-for-june-21/?noredirect=1",
+                        "datetime": "2024-06-21T10:59:43.544000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "66755d1ff8291e3600000015",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
