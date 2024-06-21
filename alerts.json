@@ -55270,5 +55270,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "74458940-2ff2-11ef-8857-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It could feel like 105 degrees in D.C. on Saturday. Officials have issued a heat advisory for the region.",
+            "ios": {
+                "alert": {
+                    "body": "It could feel like 105 degrees in D.C. on Saturday. Officials have issued a heat advisory for the region.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/06/21/dc-heat-wave-100/",
+                        "datetime": "2024-06-21T17:19:44.809000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6675b630cd341b3500000007",
+                        "targetTopic": "local",
+                        "text": "Temperatures could be the highest in the region since August 2016. Sunday\u2019s heat is expected to be similarly intense."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
