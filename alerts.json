@@ -55074,5 +55074,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f541eaf0-2fc7-11ef-ab4e-0000a1ace8c6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Robert Winnett will not join The Post as editor",
+            "ios": {
+                "alert": {
+                    "body": "Robert Winnett will not join The Post as editor",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/06/21/robert-winnett-steps-down-washington-post-lewis-buzbee/",
+                        "datetime": "2024-06-21T12:15:32.842000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66756ee4cd341b3500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "Winnett, deputy editor of London\u2019s Telegraph Media Group, who was to lead The Washington Post newsroom, faced questions about his work in England, including stories based on illicitly obtained records. Early Friday, the editor of the Telegraph, Chris Evans, told staff Winnett will stay with the paper."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
