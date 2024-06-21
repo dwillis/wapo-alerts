@@ -55172,5 +55172,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7c2ee9c1-2fda-11ef-a975-00000a1ace95",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court upholds gun ban for people subject to domestic-violence restraining orders in rare victory for firearms restrictions",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court upholds gun ban for people subject to domestic-violence restraining orders in rare victory for firearms restrictions",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/21/supreme-court-guns-domestic-violence-restraining-orders/",
+                        "datetime": "2024-06-21T14:28:10.184000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66758dfacd341b3500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "A federal law that strips guns from those deemed dangerous was among a number of firearms restrictions imperiled after the Supreme Court\u2019s conservative majority bolstered gun rights in its 2022 decision, known as New York State Rifle & Pistol Association v. Bruen."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
