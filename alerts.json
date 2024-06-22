@@ -55761,5 +55761,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d6726ca0-30e2-11ef-8ec3-00000a1ace09",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tech firms chase fusion energy and other miracles as AI drains the power grid",
+            "ios": {
+                "alert": {
+                    "body": "Tech firms chase fusion energy and other miracles as AI drains the power grid",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/",
+                        "datetime": "2024-06-22T22:00:28.758000Z",
+                        "imageURL": "https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/",
+                        "pushID": "6677497c9ae9aa3500000002",
+                        "targetTopic": "technology",
+                        "text": "Big Tech companies are going all in on experimental clean-energy projects that have long odds of success anytime soon, even as their race to dominate artificial intelligence boosts demand for fossil fuels."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
