@@ -55663,5 +55663,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7132d150-30be-11ef-8dd6-0000a1ace40b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Arizona delegates gathered this month to discuss a secret plan: A far-right effort to throw Trump\u2019s nomination into chaos",
+            "ios": {
+                "alert": {
+                    "body": "Arizona delegates gathered this month to discuss a secret plan: A far-right effort to throw Trump\u2019s nomination into chaos",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/22/trump-convention-revolt-right-wing-arizona/",
+                        "datetime": "2024-06-22T17:39:57.026000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66770c6d6035593500000005",
+                        "targetTopic": "editors_picks",
+                        "text": "The exact motive behind the plotting remained unclear, but it set off a scramble within the Trump campaign to replace the delegates. One campaign staffer involved in the cleanup described the scheme as an \u201cexistential threat\u201d to Trump\u2019s nomination next month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
