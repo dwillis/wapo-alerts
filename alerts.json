@@ -55565,5 +55565,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5ca63bf0-30a5-11ef-a925-00000a1ace73",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "For Black families, the race to preserve civil rights history in the South comes with an unexpected sacrifice",
+            "ios": {
+                "alert": {
+                    "body": "For Black families, the race to preserve civil rights history in the South comes with an unexpected sacrifice",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/civil-rights-sites-alabama-selma-march/",
+                        "datetime": "2024-06-22T14:40:25.088000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6676e2596035593500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "With the 60th anniversary of the march from Selma to Montgomery approaching next year, Phillip Howard is working to save sites where Martin Luther King Jr. and his followers camped out. But the Black families who still own the land face difficult questions about what they owe to preserving public memory \u2014 particularly as civil rights education comes under threat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
