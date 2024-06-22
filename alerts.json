@@ -55712,5 +55712,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6ff656b0-30df-11ef-8516-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. just reached 100 degrees for the first time in almost eight years",
+            "ios": {
+                "alert": {
+                    "body": "D.C. just reached 100 degrees for the first time in almost eight years",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/06/22/dc-100-high-temperature/",
+                        "datetime": "2024-06-22T21:36:08.298000Z",
+                        "imageURL": "https://www.washingtonpost.com/climate-environment/2024/06/22/dc-100-high-temperature/",
+                        "pushID": "667743c89ae9aa3500000001",
+                        "targetTopic": "local",
+                        "text": "Today is the first time since Aug. 15, 2016, that Washington's temperature has hit the century mark. It ends the fifth-longest streak on record without hitting 100 degrees and comes as a heat wave now baking the East Coast expands into the Mid-Atlantic."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
