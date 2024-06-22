@@ -55466,5 +55466,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb7cd0e1-309b-11ef-b069-0000a1ace78c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How many guesses will Keyword take you today? Try to beat the average now.",
+            "ios": {
+                "alert": {
+                    "body": "How many guesses will Keyword take you today? Try to beat the average now.",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/keyword/",
+                        "datetime": "2024-06-22T13:33:16.609000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6676d29c6035593500000002",
+                        "targetTopic": "news_quiz",
+                        "text": "How many guesses will Keyword take you today? Try to beat the average now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9ad93370-3099-11ef-85eb-0000a1acecd2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Billions of people this week felt the deadly intensity of heat waves fueled by climate change",
+            "ios": {
+                "alert": {
+                    "body": "Billions of people this week felt the deadly intensity of heat waves fueled by climate change",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/06/22/deadly-heat-wave-climate-change/",
+                        "datetime": "2024-06-22T13:16:15.532000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6676ce9f6035593500000001",
+                        "targetTopic": "climate",
+                        "text": "A week of scorching heat across five continents shows how human-driven warming has raised the baseline of normal temperatures, scientists say, fueling more frequent extremes. In just the past seven days, a majority of the planet experienced heat waves that were made more likely by climate change, and more than 1,000 temperature records fell around the globe."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
