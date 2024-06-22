@@ -55417,5 +55417,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0f86d290-3022-11ef-8e3b-0000a1acef42",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "She spent 23 years asking who killed her mom. Then her phone rang.",
+            "ios": {
+                "alert": {
+                    "body": "She spent 23 years asking who killed her mom. Then her phone rang.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/06/21/leslie-preer-chevy-chase-cold-case-murder-ex-boyfriend/",
+                        "datetime": "2024-06-21T23:00:31.627000Z",
+                        "imageURL": "https://www.washingtonpost.com/dc-md-va/2024/06/21/leslie-preer-chevy-chase-cold-case-murder-ex-boyfriend/",
+                        "pushID": "6676060fcd341b350000000b",
+                        "targetTopic": "local",
+                        "text": "Lauren Preer spent more than two decades waiting for answers in the brutal killing of her mother, Leslie J. Preer, in her Chevy Chase, Md., home. She hoped an arrest would bring closure. Instead, she felt shock \u2014 then betrayal and rage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
