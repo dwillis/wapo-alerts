@@ -56008,5 +56008,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "24ae4f70-319b-11ef-8b96-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Do you think like a key swing-state voter? Answer these 8 questions to find out.",
+            "ios": {
+                "alert": {
+                    "body": "Do you think like a key swing-state voter? Answer these 8 questions to find out.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2024/undecided-voters-views-2024-election/",
+                        "datetime": "2024-06-23T19:59:47.354000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66787eb3cd341b350000000c",
+                        "targetTopic": "politics",
+                        "text": "See what you have in common with this small but influential subset of voters who might decide the election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
