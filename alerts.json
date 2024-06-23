@@ -55958,5 +55958,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6a796a72-3188-11ef-99da-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Big Tobacco courts Black and LGBTQ+ activists to help loosen vaping regulations and fight menthol cigarette ban",
+            "ios": {
+                "alert": {
+                    "body": "Big Tobacco courts Black and LGBTQ+ activists to help loosen vaping regulations and fight menthol cigarette ban",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/06/21/menthol-ban-vaping-black-lgbt-activists/",
+                        "datetime": "2024-06-23T17:45:44.058000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66785f48afc3603500000005",
+                        "targetTopic": "health",
+                        "text": "The tobacco industry has expanded alliances with activists representing Black, LGBTQ+ and other disenfranchised groups to defend products that public health experts say are harmful.\n\nAnti-tobacco activists say these partnerships help companies gain credibility among regulators and lawmakers, as vaping groups lobby the Food and Drug Administration to approve more e-cigarette products and tobacco firms fight a Biden administration plan to ban menthol cigarettes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
