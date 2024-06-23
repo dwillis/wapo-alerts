@@ -56057,5 +56057,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c716bee1-31ab-11ef-adc7-00000a1ace3f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Could a month at an all-inclusive resort in Mexico cost the same as rent in a big U.S. city? This man tried it to find out.",
+            "ios": {
+                "alert": {
+                    "body": "Could a month at an all-inclusive resort in Mexico cost the same as rent in a big U.S. city? This man tried it to find out.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/2024/06/19/seattle-man-mexico-resort-cheaper-rent/",
+                        "datetime": "2024-06-23T21:58:51.838000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66789a9bcd341b350000000d",
+                        "targetTopic": "editors_picks",
+                        "text": "Expedia contacted TikToker Ben Keenan with an offer to cover the cost of accommodations at a luxury resort on the Yucat\u00e1n Peninsula. He had nothing to lose, so he flew to Mexico to put his viral question to the test."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
