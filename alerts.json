@@ -56401,5 +56401,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "34d9def0-3254-11ef-8149-00000a1ace59",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They don\u2019t like Biden. They don\u2019t like Trump either. Meet the \u2018double haters\u2019 who could decide the election.",
+            "ios": {
+                "alert": {
+                    "body": "They don\u2019t like Biden. They don\u2019t like Trump either. Meet the \u2018double haters\u2019 who could decide the election.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/23/double-haters-biden-trump-deciders/",
+                        "datetime": "2024-06-24T18:04:31.086000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6679b52f330ce33600000003",
+                        "targetTopic": "politics",
+                        "text": "Many voters express resignation, dismay and anger over being asked to choose between Joe Biden and Donald Trump again. These double haters \u2014 voters who are dissatisfied with both major-party choices \u2014 are likely to prove a critical voting bloc in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
