@@ -56204,5 +56204,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5047d650-3237-11ef-a714-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Vladimir Kara-Murza from a prison colony in Russia: Putin\u2019s definition of a \u2018foreign agent\u2019? Anyone who opposes him.",
+            "ios": {
+                "alert": {
+                    "body": "Vladimir Kara-Murza from a prison colony in Russia: Putin\u2019s definition of a \u2018foreign agent\u2019? Anyone who opposes him.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/06/24/russia-putin-stalin-foreign-agent/",
+                        "datetime": "2024-06-24T14:37:42.062000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667984b69ae9aa3500000003",
+                        "targetTopic": "opinions",
+                        "text": "I am not a foreign agent, the Russian dissident writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "55a4da10-3234-11ef-a3ae-0000a1ace9b0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court to review Tenn. law banning gender transition care for minors in justices\u2019 first opportunity to weigh in on treatments",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court to review Tenn. law banning gender transition care for minors in justices\u2019 first opportunity to weigh in on treatments",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/24/scotus-trans-minors-gender-care/",
+                        "datetime": "2024-06-24T14:16:22.568000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66797fb6afc3603500000008",
+                        "targetTopic": "us",
+                        "text": "Transgender young people, their families and medical providers in Tennessee asked the Supreme Court to review an appeals court decision that upheld the laws banning gender transition care for people younger than 18. Twenty-three states have passed such bans since 2021."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
