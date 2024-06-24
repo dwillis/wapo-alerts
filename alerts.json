@@ -56352,5 +56352,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0bd48750-3243-11ef-948f-000a1ace51d7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Best friend is poised to estrange parents over misunderstanding",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Best friend is poised to estrange parents over misunderstanding",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/24/carolyn-hax-child-care-aging-parents/",
+                        "datetime": "2024-06-24T16:01:41.195000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66799865330ce33600000002",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Best friend is poised to estrange parents over misunderstanding"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
