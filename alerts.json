@@ -56302,5 +56302,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "58c1f460-323b-11ef-a3ca-00000a1ace5d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Extreme wildfires around the world have doubled in the past 20 years, new study finds",
+            "ios": {
+                "alert": {
+                    "body": "Extreme wildfires around the world have doubled in the past 20 years, new study finds",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/06/24/extreme-wildfires-increased-study/",
+                        "datetime": "2024-06-24T15:06:34.256000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66798b7a330ce33600000001",
+                        "targetTopic": "climate",
+                        "text": "The analysis, published Monday in the journal Nature Ecology & Evolution, found that climate change is exacerbating fire weather and extreme blazes, which emit high levels of carbon and are often deadly. The six most extreme fire years have occurred since 2017, researchers said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
