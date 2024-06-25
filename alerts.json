@@ -56597,5 +56597,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "98d6a4c0-329e-11ef-8b96-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Florida Panthers win the Stanley Cup for the first time, taking Game 7 of the finals to top Connor McDavid's Edmonton Oilers",
+            "ios": {
+                "alert": {
+                    "body": "Florida Panthers win the Stanley Cup for the first time, taking Game 7 of the finals to top Connor McDavid's Edmonton Oilers",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/24/florida-panthers-stanley-cup-champions-game-7-edmonton-oilers/",
+                        "datetime": "2024-06-25T02:57:01.892000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667a31fd9ae9aa3500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The Panthers jumped out to a 3-0 series lead in the finals but were then sent reeling by the resilient Oilers. They dropped Games 4, 5 and 6 to set up the Game 7 clash in South Florida on Monday night. The Oilers' loss leaves McDavid, Edmonton's dazzling captain, still searching for the Stanley Cup. A Canadian team has not won the Stanley Cup since the Montreal Canadiens in 1993."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
