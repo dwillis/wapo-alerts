@@ -56548,5 +56548,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "14569930-328a-11ef-8b98-00000a1ace33",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Two federal court rulings threaten the future of Biden administration\u2019s new student loan repayment plan",
+            "ios": {
+                "alert": {
+                    "body": "Two federal court rulings threaten the future of Biden administration\u2019s new student loan repayment plan",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2024/06/24/student-loan-repayment-plan-lawsuits/",
+                        "datetime": "2024-06-25T00:30:09.736000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667a0f916035593500000008",
+                        "targetTopic": "us",
+                        "text": "Judges in Kansas and Missouri issued separate injunctions Monday preventing the government from fully implementing and forgiving any more loans through the Save program while they consider lawsuits to end the administration\u2019s plan."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
