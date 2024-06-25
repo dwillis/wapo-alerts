@@ -56646,5 +56646,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3af72500-32cb-11ef-ac84-000a1ace0258",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel\u2019s Supreme Court rules that ultra-Orthodox must do military service, throwing Netanyahu\u2019s government into turmoil",
+            "ios": {
+                "alert": {
+                    "body": "Israel\u2019s Supreme Court rules that ultra-Orthodox must do military service, throwing Netanyahu\u2019s government into turmoil",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/25/israel-haredi-ultra-orthodox/",
+                        "datetime": "2024-06-25T08:16:31.803000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667a7cdfafc3603500000009",
+                        "targetTopic": "world",
+                        "text": "The ruling on the controversial issue of the haredim engaging in compulsory military service could lead to the ultra-Orthodox parties quitting the ruling coalition and bringing down Prime Minister Benjamin Netanyahu\u2019s government."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
