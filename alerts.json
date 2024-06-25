@@ -56793,5 +56793,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e2d3f620-32eb-11ef-abd3-00000a1ace90",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "International Criminal Court issues arrest warrants for two top Russian defense officials, alleging war crimes in Ukraine",
+            "ios": {
+                "alert": {
+                    "body": "International Criminal Court issues arrest warrants for two top Russian defense officials, alleging war crimes in Ukraine",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/25/icc-arrest-warrants-shoigu-gerasimov/",
+                        "datetime": "2024-06-25T12:10:17.363000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667ab3a9afc360350000000b",
+                        "targetTopic": "world",
+                        "text": "According to the indictment, former defense minister Sergei Shoigu and Valery Gerasimov, chief of the staff of the Russian Armed Forces, were responsible for directing attacks at civilian objects and \u201ccausing excessive incidental harm to civilians or damage to civilian objects \u2026 and the crime against humanity of inhumane acts.\u201d The court, to which Russia is not a signatory, has no powers of enforcement and relies on the 124 nations that are signatories to arrest those indicted for war crimes or crimes against humanity if they visit their territories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
