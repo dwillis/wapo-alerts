@@ -56499,5 +56499,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c7eb3291-327f-11ef-948f-000a1ace51d7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "WikiLeaks founder Julian Assange expected to plead guilty to a felony, according to court filing",
+            "ios": {
+                "alert": {
+                    "body": "WikiLeaks founder Julian Assange expected to plead guilty to a felony, according to court filing",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/06/24/assange-wikileaks-plea-deal-guilty/",
+                        "datetime": "2024-06-24T23:16:26.428000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6679fe4a6035593500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "A court filing indicates the controversial former hacker plans to plead guilty to a single felony count of violating the Espionage Act for his role in obtaining and publishing classified military and diplomatic documents in 2010. The plea deal would end a long-running legal saga and a transatlantic tug-of-war that pitted national security against press freedom."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
