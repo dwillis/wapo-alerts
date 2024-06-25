@@ -56695,5 +56695,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5a07d610-32e4-11ef-8300-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. surgeon general calls gun violence a public health crisis in landmark declaration",
+            "ios": {
+                "alert": {
+                    "body": "U.S. surgeon general calls gun violence a public health crisis in landmark declaration",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/06/26/surgeon-general-firearm-deaths/",
+                        "datetime": "2024-06-25T11:16:21.328000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667aa705afc360350000000a",
+                        "targetTopic": "us",
+                        "text": "The advisory from Vivek H. Murthy says the nation must act with urgency to address death and injury caused by firearms, saying inspiration can be drawn from earlier campaigns to combat tobacco use and motor vehicle accidents."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "064445b0-32e2-11ef-a665-00000a1ace01",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Julian Assange. Transgender case. Gun violence. Israel ruling. Student loans. Stanley Cup. Bathroom Picassos. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Julian Assange. Transgender case. Gun violence. Israel ruling. Student loans. Stanley Cup. Bathroom Picassos. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/25/what-to-know-for-june-25/?noredirect=1",
+                        "datetime": "2024-06-25T10:59:41.837000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "667aa31d9ae9aa3500000005",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
