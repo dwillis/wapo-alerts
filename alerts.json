@@ -56891,5 +56891,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e0526dd0-330b-11ef-879e-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Norfolk Southern\u2019s decision to burn off toxic chemicals in Ohio derailment was unnecessary, NTSB investigators say",
+            "ios": {
+                "alert": {
+                    "body": "Norfolk Southern\u2019s decision to burn off toxic chemicals in Ohio derailment was unnecessary, NTSB investigators say",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/06/25/east-palestine-train-derailment-chemicals-report/",
+                        "datetime": "2024-06-25T15:59:07.654000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667ae94bafc360350000000d",
+                        "targetTopic": "us",
+                        "text": "The railway and its contractors disregarded signs that the train\u2019s derailed tank cars posed little risk of exploding, yet went ahead with the venting and burning of toxic vinyl chloride, investigators from the National Transportation Safety Board said. The burn-off sent a towering black cloud of toxic fumes into the air following the accident, spreading contamination over a vast area. In addition, Norfolk Southern failed to communicate adequately with incident commanders, a decision that was unjustified, investigators said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
