@@ -57381,5 +57381,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f87a5020-33d9-11ef-9182-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cooking chat: I\u2019ve cooked with a gas range all my life. How can I replicate it with electric? We\u2019re taking your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Cooking chat: I\u2019ve cooked with a gas range all my life. How can I replicate it with electric? We\u2019re taking your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/06/26/questions-recipe-cooking-advice/",
+                        "datetime": "2024-06-26T16:34:33.868000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667c43199ae9aa350000000b",
+                        "targetTopic": "food",
+                        "text": "Cooking chat: I\u2019ve cooked with a gas range all my life. How can I replicate it with electric? We\u2019re taking your questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4cee9711-33d5-11ef-9d30-0000a1ace5b9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Mom badgers with loaded questions when she wants to make a point",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Mom badgers with loaded questions when she wants to make a point",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/26/carolyn-hax-mom-leading-questions/",
+                        "datetime": "2024-06-26T16:01:08.065000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667c3b449ae9aa350000000a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Mom badgers with loaded questions when she wants to make a point"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
