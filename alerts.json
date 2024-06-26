@@ -56989,5 +56989,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "205e5980-334c-11ef-afb2-00000a1acebb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "WikiLeaks founder Julian Assange pleads guilty to U.S. espionage charge, ending years of legal deadlock. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "WikiLeaks founder Julian Assange pleads guilty to U.S. espionage charge, ending years of legal deadlock. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/25/julian-assange-plea-deal-updates/",
+                        "datetime": "2024-06-25T23:39:12.230000Z",
+                        "imageURL": "https://www.washingtonpost.com/world/2024/06/25/julian-assange-plea-deal-updates/",
+                        "pushID": "667b55206035593500000009",
+                        "targetTopic": "breaking-news",
+                        "text": "Assange, 52, will head to his native Australia after making a deal with U.S. prosecutors and admitting to publishing military documents about the wars in Afghanistan and Iraq. He had spent nearly seven years at the Ecuadorian Embassy in London, evading extradition for a Swedish sex assault investigation over allegations he denied, then for five years fought a bid to send him to the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
