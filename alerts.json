@@ -57038,5 +57038,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6bebdf10-335d-11ef-ba98-00000a1ace43",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Jamaal Bowman (N.Y.) loses Democratic primary to George Latimer in race that highlighted divisions over Israel, AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Jamaal Bowman (N.Y.) loses Democratic primary to George Latimer in race that highlighted divisions over Israel, AP projects",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/06/25/election-2024-campaign-updates-primaries/",
+                        "datetime": "2024-06-26T01:43:00.462000Z",
+                        "imageURL": "https://www.washingtonpost.com/elections/2024/06/25/election-2024-campaign-updates-primaries/",
+                        "pushID": "667b7224603559350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "The race between Bowman and Latimer, which also included accusations of racism against Latimer, was the most expensive House primary in history."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "806c33b0-335b-11ef-86f5-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Lauren Boebert wins Republican primary in new Colorado district, AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Lauren Boebert wins Republican primary in new Colorado district, AP projects",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/06/25/election-2024-campaign-updates-primaries/",
+                        "datetime": "2024-06-26T01:29:15.856000Z",
+                        "imageURL": "https://www.washingtonpost.com/elections/2024/06/25/election-2024-campaign-updates-primaries/",
+                        "pushID": "667b6eeb603559350000000a",
+                        "targetTopic": "politics",
+                        "text": "Boebert, who has survived several controversies, prevailed in a crowded GOP contest in the state\u2019s 4th Congressional District. She decided to run in the new district after a close general election against a Democrat in the 3rd District in 2022. The new district is more friendly to Republicans."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
