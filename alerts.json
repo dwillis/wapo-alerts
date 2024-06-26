@@ -57136,5 +57136,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9345a460-3380-11ef-b233-000a1ace8291",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Evan Gershkovich\u2019s espionage trial begins in Russia behind closed doors. The U.S. says the reporter was \u2018wrongfully detained.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Evan Gershkovich\u2019s espionage trial begins in Russia behind closed doors. The U.S. says the reporter was \u2018wrongfully detained.\u2019",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/26/journalist-evan-gershkovich-russia-trial/",
+                        "datetime": "2024-06-26T05:54:38.896000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667bad1e9ae9aa3500000006",
+                        "targetTopic": "world",
+                        "text": "It is the first such trial for an American journalist since the Cold War. Gershkovich was arrested on a reporting trip over a year ago in Russia and faces 20 years in prison if convicted."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
