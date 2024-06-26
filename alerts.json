@@ -57577,5 +57577,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c83a8a0-33ee-11ef-b1ba-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Where 4.1 million immigrants in the U.S. came from and where they live now",
+            "ios": {
+                "alert": {
+                    "body": "Where 4.1 million immigrants in the U.S. came from and where they live now",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/immigration/interactive/2024/us-immigration-where-migrants-live/",
+                        "datetime": "2024-06-26T19:00:31.668000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667c654f603559350000000c",
+                        "targetTopic": "special_report",
+                        "text": "The immigration debate in the United States generally revolves around illegal crossings at the U.S.-Mexico border, but those numbers don\u2019t indicate what happens to these and other migrants who stay in the country. A Washington Post analysis of U.S. immigration court records from the past decade reveals a population that has fanned out into every state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
