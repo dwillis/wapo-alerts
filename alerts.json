@@ -57332,5 +57332,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "05824370-33cd-11ef-a216-00000a1aced7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Soccer star Alex Morgan left off the U.S. Olympic roster, a decision that comes amid a generational shift for the women\u2019s program",
+            "ios": {
+                "alert": {
+                    "body": "Soccer star Alex Morgan left off the U.S. Olympic roster, a decision that comes amid a generational shift for the women\u2019s program",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/26/alex-morgan-uswnt-olympic-team-roster-paris/",
+                        "datetime": "2024-06-26T15:01:52.282000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667c2d609ae9aa3500000009",
+                        "targetTopic": "sports",
+                        "text": "Morgan, who will turn 35 in July, was co-captain of the 2023 World Cup squad in New Zealand and Australia. She has long been considered a centerpiece of the U.S. women\u2019s soccer team and is one of the program's greatest scorers, but her production has fallen significantly in recent years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
