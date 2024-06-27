@@ -58215,5 +58215,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd813861-34ab-11ef-b769-00000a1ace09",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live chat: I\u2019m \u2018poopless\u2019 after years of regularity. What are my options? Dr. Trisha Pasricha is taking your poop questions.",
+            "ios": {
+                "alert": {
+                    "body": "Live chat: I\u2019m \u2018poopless\u2019 after years of regularity. What are my options? Dr. Trisha Pasricha is taking your poop questions.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/06/27/poop-problems-questions-answers/",
+                        "datetime": "2024-06-27T17:37:02.889000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667da33e6035593500000017",
+                        "targetTopic": "advice",
+                        "text": "Live chat: I\u2019m \u2018poopless\u2019 after years of regularity. What are my options? Dr. Trisha Pasricha is taking your poop questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
