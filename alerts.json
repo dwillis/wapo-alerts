@@ -58264,5 +58264,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "54005860-34d2-11ef-b496-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Los Angeles Lakers select Bronny James in second round of NBA draft, setting him up to be teammates with his father, LeBron",
+            "ios": {
+                "alert": {
+                    "body": "Los Angeles Lakers select Bronny James in second round of NBA draft, setting him up to be teammates with his father, LeBron",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/27/bronny-james-lakers-nba-draft/",
+                        "datetime": "2024-06-27T22:12:22.456000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/2024/06/27/bronny-james-lakers-nba-draft/",
+                        "pushID": "667de3c66035593500000018",
+                        "targetTopic": "sports",
+                        "text": "The 19-year-old James was drafted Thursday despite a middling freshman season at Southern Cal, where he played after suffering cardiac arrest last summer. LeBron James can become a free agent this offseason, but the 39-year-old Lakers star has long expressed a desire to play with Bronny as the NBA's first father-son duo."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
