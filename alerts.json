@@ -57773,5 +57773,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c284b50-3474-11ef-bf79-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Presidential debate. Supreme Court. Bolivia unrest. \u2018Forever chemicals.\u2019 Green hydrogen. NBA draft. Sunspot. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Presidential debate. Supreme Court. Bolivia unrest. \u2018Forever chemicals.\u2019 Green hydrogen. NBA draft. Sunspot. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/27/what-to-know-for-june-27/?noredirect=1",
+                        "datetime": "2024-06-27T10:59:43.626000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "667d461ffb59ee3500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
