@@ -57724,5 +57724,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0ef6c770-341b-11ef-8339-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Atlanta Hawks select Zaccharie Risacher with No. 1 pick in NBA draft; Washington Wizards take Alex Sarr with No. 2 pick",
+            "ios": {
+                "alert": {
+                    "body": "Atlanta Hawks select Zaccharie Risacher with No. 1 pick in NBA draft; Washington Wizards take Alex Sarr with No. 2 pick",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/06/26/nba-draft-live-updates/",
+                        "datetime": "2024-06-27T00:20:28.917000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667cb04c603559350000000f",
+                        "targetTopic": "sports",
+                        "text": "The draft continues with the rest of the first round Wednesday night and the second round Thursday afternoon.\nThe class lacks any players who are considered generational prospects such as 2023 No. 1 pick Victor Wembanyama."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
