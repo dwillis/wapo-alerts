@@ -58117,5 +58117,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fe7559d0-34a0-11ef-8d8e-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Can this sibling salvage a brother\u2019s relationship with their mom?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Can this sibling salvage a brother\u2019s relationship with their mom?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/27/carolyn-hax-brother-strained-relationship-mom/",
+                        "datetime": "2024-06-27T16:19:13.759000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667d91016035593500000016",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Can this sibling salvage a brother\u2019s relationship with their mom?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "702a9252-349e-11ef-b15a-00000a1aced1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These 21 questions will define the next 4 years. Do Trump and Biden have answers?",
+            "ios": {
+                "alert": {
+                    "body": "These 21 questions will define the next 4 years. Do Trump and Biden have answers?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/06/26/hardest-policy-questions-biden-trump-next-four-years/",
+                        "datetime": "2024-06-27T16:00:56.047000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667d8cb8330ce33600000005",
+                        "targetTopic": "opinions",
+                        "text": "We asked 21 Post Opinions columnists to pose one policy question that will define the next four years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
