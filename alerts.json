@@ -58999,5 +58999,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b4208400-358f-11ef-ac39-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What\u2019s next for Biden and the Democrats? Our columnists discuss the aftermath of the first debate.",
+            "ios": {
+                "alert": {
+                    "body": "What\u2019s next for Biden and the Democrats? Our columnists discuss the aftermath of the first debate.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/podcasts/impromptu/biden-finally-overshadowed-trump-in-all-the-wrong-ways/",
+                        "datetime": "2024-06-28T20:47:58.809000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667f217ed10e2c3500000001",
+                        "targetTopic": "opinions",
+                        "text": "President Biden\u2019s debate performance has Democrats in a panic and Donald Trump supporters gleeful. Columnists Karen Tumulty, Dana Milbank and Jim Geraghty process how things feel the morning after, whether the president should step aside and how the truth was the night\u2019s biggest loser."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
