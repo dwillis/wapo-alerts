@@ -58313,5 +58313,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "72516a50-34e8-11ef-a2e9-00000a1ace5f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Joe Biden and former president Donald Trump to face off in the first 2024 presidential debate. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "President Joe Biden and former president Donald Trump to face off in the first 2024 presidential debate. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/06/27/presidential-debate-live-updates/",
+                        "datetime": "2024-06-28T00:50:42.395000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667e08e2fb59ee3500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Tonight\u2019s highly anticipated debate, which holds high stakes for both candidates, is being hosted by CNN in Atlanta."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9a9405a0-34e2-11ef-8427-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former Uvalde school district police chief indicted in connection with botched response to 2022 mass shooting",
+            "ios": {
+                "alert": {
+                    "body": "Former Uvalde school district police chief indicted in connection with botched response to 2022 mass shooting",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/06/27/uvalde-police-chief-indicment-shooting/",
+                        "datetime": "2024-06-28T00:08:52.935000Z",
+                        "imageURL": "https://www.washingtonpost.com/nation/2024/06/27/uvalde-police-chief-indicment-shooting/",
+                        "pushID": "667dff146035593500000019",
+                        "targetTopic": "breaking-news",
+                        "text": "The Texas attack was one of the deadliest school shootings in U.S. history. The 18-year-old gunman who stormed the school in May 2022 killed 19 students and two teachers before officers eventually shot him. In January, the Justice Department issued a scathing 575-page report that criticized local police commanders and state law enforcement for their actions that day."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
