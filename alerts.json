@@ -58558,5 +58558,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "49cfbf00-3542-11ef-9604-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Washington Post publisher\u2019s role in Murdoch phone-hacking response comes into sharper focus",
+            "ios": {
+                "alert": {
+                    "body": "Washington Post publisher\u2019s role in Murdoch phone-hacking response comes into sharper focus",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/06/28/william-lewis-gordon-brown-phone-hacking/",
+                        "datetime": "2024-06-28T11:33:49.176000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667e9f9dfb59ee3500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "William Lewis helped manage News International\u2019s handling of the hacking scandal, a response that left some police officials and IT workers concerned the company was obstructing the inquiry. Former British prime minister Gordon Brown is now calling for Lewis to be criminally investigated. Lewis denies wrongdoing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
