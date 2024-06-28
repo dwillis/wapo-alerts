@@ -58901,5 +58901,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e8a64cc0-3560-11ef-afc9-00000a1ace3f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Happening now: Could Democrats replace Biden at the convention? We\u2019re answering your debate questions.",
+            "ios": {
+                "alert": {
+                    "body": "Happening now: Could Democrats replace Biden at the convention? We\u2019re answering your debate questions.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/06/28/questions-answers-presidential-debate/",
+                        "datetime": "2024-06-28T15:13:00.579000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667ed2fcfb59ee3500000008",
+                        "targetTopic": "politics",
+                        "text": "Join Washington Post reporters Toluse Olorunnipa, Michael Scherer and Amy Gardner for a live chat on what President Biden and former president Donald Trump said \u2014 and didn\u2019t say \u2014 during the debate along with what\u2019s next for both candidates. Ask your question now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
