@@ -58607,5 +58607,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f6a4ca80-3552-11ef-8eca-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-06-28T13:33:10.744000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667ebb96fb59ee3500000005",
+                        "targetTopic": "news_quiz",
+                        "text": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9bb67810-354f-11ef-b9cf-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats question whether Biden can recover from his damaging debate performance",
+            "ios": {
+                "alert": {
+                    "body": "Democrats question whether Biden can recover from his damaging debate performance",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/28/presidential-debate-biden-analysis/",
+                        "datetime": "2024-06-28T13:09:10.014000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667eb5f6fb59ee3500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "Democrats awoke Friday wondering whether President Biden can recover from what many judged as the worst performance by a presidential candidate in the modern history of politics. He has time to turn his campaign around, but he would need to persuade voters to forget what they saw Thursday night and reassess his fitness to serve a second term, chief correspondent Dan Balz writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
