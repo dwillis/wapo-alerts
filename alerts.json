@@ -58509,5 +58509,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9226d3b0-353d-11ef-af63-00000a1ace8d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Debate fallout. Supreme Court. Bible lessons. Uvalde police. Bronny James. Gen Z creators. Pandas. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Debate fallout. Supreme Court. Bible lessons. Uvalde police. Bronny James. Gen Z creators. Pandas. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/06/28/what-to-know-for-june-28/?noredirect=1",
+                        "datetime": "2024-06-28T11:00:02.969000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "667e97b2603559350000001a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
