@@ -58411,5 +58411,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c216240-34f0-11ef-afeb-0000a1aceb92",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "'This is excruciating to watch': Follow along with 12 columnists as they discuss the debate",
+            "ios": {
+                "alert": {
+                    "body": "'This is excruciating to watch': Follow along with 12 columnists as they discuss the debate",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/06/27/live-commentary-trump-biden-debate-opinions/",
+                        "datetime": "2024-06-28T01:45:33.789000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667e15bd330ce33600000006",
+                        "targetTopic": "opinions",
+                        "text": "\u2018This is starting to get really hard to watch\u2019: 12 columnists discuss the debate"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
