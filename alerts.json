@@ -58950,5 +58950,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2acf22a0-356d-11ef-b0fa-00000a1ace80",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is taking your questions now: Are my friends judging me because I don't have a maid?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is taking your questions now: Are my friends judging me because I don't have a maid?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/06/28/live-chat-carolyn-hax/",
+                        "datetime": "2024-06-28T16:40:45.522000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667ee78dfb59ee3500000009",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is taking your questions now: Are my friends judging me because I don't have a maid?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
