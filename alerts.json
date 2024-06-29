@@ -59244,5 +59244,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7f1d3320-3648-11ef-a09c-00000a1ace85",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "See how one green hydrogen plant is turning water into clean fuel for trucks",
+            "ios": {
+                "alert": {
+                    "body": "See how one green hydrogen plant is turning water into clean fuel for trucks",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-solutions/interactive/2024/green-hydrogen-water-clean-fuel-process/",
+                        "datetime": "2024-06-29T18:50:46.720000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66805786a6491a3500000001",
+                        "targetTopic": "climate",
+                        "text": "This new generation of fuels could power planes, ships and trucks without warming the planet \u2014 but it won\u2019t be easy or cheap."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
