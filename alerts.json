@@ -59294,5 +59294,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "26f77af0-3663-11ef-a782-00000a1ace9c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How an aging Biden and his advisers locked in a decision to run again",
+            "ios": {
+                "alert": {
+                    "body": "How an aging Biden and his advisers locked in a decision to run again",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/29/biden-decision-reelection/",
+                        "datetime": "2024-06-29T22:01:35.213000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/06/29/biden-decision-reelection/",
+                        "pushID": "6680843fd10e2c3500000005",
+                        "targetTopic": "editors_picks",
+                        "text": "In late 2022, President Biden\u2019s team signaled he\u2019d seek reelection and quashed discussions of an alternative. That fateful decision now hangs over the 2024 presidential race."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
