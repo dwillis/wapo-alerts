@@ -59048,5 +59048,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dae4a7f0-35d1-11ef-a47b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Orlando Cepeda dies at 86. The Hall of Famer was known as baseball\u2019s \u2018Baby Bull.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Orlando Cepeda dies at 86. The Hall of Famer was known as baseball\u2019s \u2018Baby Bull.\u2019",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/06/29/orlando-cepeda-baseball-dead/",
+                        "datetime": "2024-06-29T04:41:30.568000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "667f907a8afc4f3500000001",
+                        "targetTopic": "sports",
+                        "text": "Cepeda, one of baseball\u2019s most feared hitters in the 1950s and 1960s who played in three World Series, died Friday, according to a statement from his family released through the San Francisco Giants."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
