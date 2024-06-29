@@ -59146,5 +59146,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9622d2e1-3621-11ef-8e6b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They can finally vote \u2014 and they don\u2019t really want to. Their civics teacher is trying to change that.",
+            "ios": {
+                "alert": {
+                    "body": "They can finally vote \u2014 and they don\u2019t really want to. Their civics teacher is trying to change that.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2024/young-voters-election-2024-democracy/",
+                        "datetime": "2024-06-29T14:12:14.943000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6680163ed10e2c3500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Shannon Salter wanted her students to believe that their voices and opinions could shape the nation\u2019s future. But their interest in voting has been hobbled by poverty, racism and two aging presidential candidates seemingly far removed from the world of a struggling teen in Allentown, Pa."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
