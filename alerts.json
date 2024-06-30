@@ -59588,5 +59588,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "79772a50-370d-11ef-ab37-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "French election projections show voters punishing Macron\u2019s centrists, boosting far right",
+            "ios": {
+                "alert": {
+                    "body": "French election projections show voters punishing Macron\u2019s centrists, boosting far right",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/06/30/france-elections-macron-le-pen-bardella/",
+                        "datetime": "2024-06-30T18:20:48.111000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6681a200a3e4cf3500000005",
+                        "targetTopic": "world",
+                        "text": "French voters appeared to have boosted the prospects of the far right while potentially shattering the centrist alliance of President Emmanuel Macron, in projections released after polls closed in the first round of French legislative elections on Sunday. A second round on July 7 will determine if a far-right nationalist party will govern in France for the first time since World War II, or if French politics will be immobilized by a hung parliament."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
