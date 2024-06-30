@@ -59441,5 +59441,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a72247a0-36ef-11ef-86e5-0000a1ace023",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "See how someone your age spent their money in 1972",
+            "ios": {
+                "alert": {
+                    "body": "See how someone your age spent their money in 1972",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/us-spending-housing-healthcare-costs/",
+                        "datetime": "2024-06-30T14:47:19.801000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66816ff7a3e4cf3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Fifty years ago, the average American household spent more on clothing than health care, and putting food on the table cost about as much as keeping a roof overhead. Here\u2019s how technological advances, globalization and housing shortages have radically reshaped American spending habits."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
