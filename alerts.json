@@ -59539,5 +59539,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "450b61c0-3706-11ef-9470-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As county officials try to block election result certification, some say it\u2019s a test run for Trump allies to thwart a Biden victory",
+            "ios": {
+                "alert": {
+                    "body": "As county officials try to block election result certification, some say it\u2019s a test run for Trump allies to thwart a Biden victory",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/06/26/certification-2024-election-results/",
+                        "datetime": "2024-06-30T17:29:13.706000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668195e9a3e4cf3500000004",
+                        "targetTopic": "politics",
+                        "text": "Since 2020, county-level election officials in five key battleground states \u2014 Georgia, Arizona, Michigan, Nevada and Pennsylvania \u2014 have tried to block the certification of vote tallies in both primaries and general elections. So far, none of the efforts have succeeded, but election experts worry these attempts could be a preview of November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
