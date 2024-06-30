@@ -59637,5 +59637,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cabcf960-3723-11ef-9ca0-00000a1ace78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How one family escaped North Korea in a rickety boat on the open sea",
+            "ios": {
+                "alert": {
+                    "body": "How one family escaped North Korea in a rickety boat on the open sea",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/north-korea-defector-escape-sea/",
+                        "datetime": "2024-06-30T21:00:33.398000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6681c771a6491a3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Almost no one has defected from North Korea since Kim Jong Un shut the borders at the start of 2020. But this family made a terrifying bid for freedom \u2014 and succeeded. This is their story."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
