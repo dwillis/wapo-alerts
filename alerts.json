@@ -59343,5 +59343,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c6423df1-36e7-11ef-9470-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jason Rezaian visited a Palestinian family bakery in Maryland. Here's what he learned.",
+            "ios": {
+                "alert": {
+                    "body": "Jason Rezaian visited a Palestinian family bakery in Maryland. Here's what he learned.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/rezaian-food-zz-bakery-manoushe/",
+                        "datetime": "2024-06-30T13:50:56.086000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668162c08afc4f3500000002",
+                        "targetTopic": "opinions",
+                        "text": "This Palestinian bakery is an ode to family and roots"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e626ca80-36e4-11ef-9470-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Crossword and a coffee: Solve the Sunday puzzle now",
+            "ios": {
+                "alert": {
+                    "body": "Crossword and a coffee: Solve the Sunday puzzle now",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/crossword-puzzles/sunday-evan-birnholz/",
+                        "datetime": "2024-06-30T13:30:21.083000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66815deda3e4cf3500000001",
+                        "targetTopic": "news_quiz",
+                        "text": "Crossword and a coffee: Solve the Sunday puzzle now"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
