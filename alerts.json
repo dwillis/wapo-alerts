@@ -60130,5 +60130,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ccd2cce0-37da-11ef-9c63-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mistrial declared in Karen Read trial on charges of murdering her Boston police officer boyfriend",
+            "ios": {
+                "alert": {
+                    "body": "Mistrial declared in Karen Read trial on charges of murdering her Boston police officer boyfriend",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/01/karen-read-mistrial-murder-trial-boston-police/",
+                        "datetime": "2024-07-01T18:50:34.795000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6682fa7aa3e4cf3500000007",
+                        "targetTopic": "us",
+                        "text": "A jury was deadlocked after nearly five days of deliberations in the case of Read, who was accused of fatally striking John O\u2019Keefe with her car amid a volatile romance. It\u2019s unclear whether prosecutors will seek to retry Read, who has maintained she was being framed by police officers to protect another potential suspect."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
