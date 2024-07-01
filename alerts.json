@@ -59686,5 +59686,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1ff99332-373c-11ef-a7b6-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Climate change is fueling a global explosion of dengue fever as mosquitoes multiply in warmer, wetter weather",
+            "ios": {
+                "alert": {
+                    "body": "Climate change is fueling a global explosion of dengue fever as mosquitoes multiply in warmer, wetter weather",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/06/30/dengue-puerto-rico-mosquito-climate-change/",
+                        "datetime": "2024-06-30T23:54:44.325000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6681f044a6491a3500000003",
+                        "targetTopic": "health",
+                        "text": "A record 10 million people have contracted the virus so far this year, triggering health emergencies from Brazil to Puerto Rico. As increased summer travel coincides with peak dengue season, officials are bracing for outbreaks in more temperate regions, including the southernmost portions of the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
