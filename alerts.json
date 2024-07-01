@@ -59736,5 +59736,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "60deb290-3755-11ef-9470-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Simone Biles headlines U.S. women's gymnastics team selected for Paris Olympics",
+            "ios": {
+                "alert": {
+                    "body": "Simone Biles headlines U.S. women's gymnastics team selected for Paris Olympics",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/06/30/us-olympic-gymnastic-trials-live-results-simone-biles/",
+                        "datetime": "2024-07-01T02:55:30.596000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66821aa2a6491a3500000004",
+                        "targetTopic": "sports",
+                        "text": "Biles finished first in the all-around competition at the U.S. gymnastics trials in Minneapolis, securing an automatic spot on her third Olympic team. Jordan Chiles, Sunisa Lee, Jade Carey and Hezly Rivera round out the five-member team headed to Paris."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
