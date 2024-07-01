@@ -59981,5 +59981,105 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "38258941-37bf-11ef-b154-00000a1ace5f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FTC opens investigation into Teva over \u2018junk patent listings,\u2019 a significant escalation of Democrats\u2019 fight with pharma industry",
+            "ios": {
+                "alert": {
+                    "body": "FTC opens investigation into Teva over \u2018junk patent listings,\u2019 a significant escalation of Democrats\u2019 fight with pharma industry",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/07/01/teva-patent-pharma-generic-inhaler/",
+                        "datetime": "2024-07-01T15:33:08.891000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6682cc34a6491a3500000009",
+                        "targetTopic": "health",
+                        "text": "The agency is demanding internal communications, analysis and financial data related to Teva\u2019s contested patents for asthma and COPD inhalers. Top Democrats have accused Teva and other companies of gaming the patent system and inflating patient costs by blocking generic competition."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "03604eb0-37bb-11ef-a345-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court tells lower courts to take another look at Texas, Florida social media laws barring platforms from deleting content",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court tells lower courts to take another look at Texas, Florida social media laws barring platforms from deleting content",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/01/supreme-court-social-media-content-moderation/",
+                        "datetime": "2024-07-01T15:03:02.419000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6682c526a6491a3500000008",
+                        "targetTopic": "technology",
+                        "text": "The justices said lower courts had not conducted a proper analysis of the free speech issues in the laws governing social media content."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
