@@ -60179,5 +60179,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d94a84c0-37e6-11ef-a910-0000a1ace9c3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: A victory for once and future presidents, and other takeaways from Trump immunity ruling by Supreme Court",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: A victory for once and future presidents, and other takeaways from Trump immunity ruling by Supreme Court",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/01/4-takeaways-supreme-courts-trump-immunity-decision/",
+                        "datetime": "2024-07-01T20:16:49.685000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66830eb1a3e4cf3500000008",
+                        "targetTopic": "editors_picks",
+                        "text": "Capping a string of bad days for Democrats, Monday\u2019s decision by the high court makes further Trump trials unlikely before the 2024 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
