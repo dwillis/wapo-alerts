@@ -60081,5 +60081,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "61841ae0-37c4-11ef-ae16-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: \u2018Snowflake\u2019 asks in-laws not to fight in front of their grandkid",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: \u2018Snowflake\u2019 asks in-laws not to fight in front of their grandkid",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/01/carolyn-hax-in-laws-fight-grandkid/",
+                        "datetime": "2024-07-01T16:10:05.845000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6682d4dda6491a350000000a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: \u2018Snowflake\u2019 asks in-laws not to fight in front of their grandkid"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
