@@ -59834,5 +59834,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2085dbf0-37b0-11ef-8432-00000a1ace56",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court to rule on presidential immunity, impacting Trump\u2019s D.C. election-interference trial. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court to rule on presidential immunity, impacting Trump\u2019s D.C. election-interference trial. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/01/trump-presidential-immunity-supreme-court/",
+                        "datetime": "2024-07-01T13:45:06.886000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6682b2e2a6491a3500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "On the final day of a momentous term, the Supreme Court will rule on whether Donald Trump may be shielded from prosecution for any of the acts alleged in his federal election-interference case. The ruling will determine whether and how soon he stands trial in D.C., and it could impact his other criminal cases. The justices also will rule on whether states can bar social media companies from removing certain political posts or accounts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "320ec280-37ae-11ef-8470-00000a1ace39",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A toothless dog is crowned champion in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A toothless dog is crowned champion in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-01T13:31:17.269000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6682afa5a6491a3500000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to kick off July with points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
