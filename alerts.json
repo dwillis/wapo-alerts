@@ -60818,5 +60818,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b750f171-38c6-11ef-9301-0000a1ace642",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Dept. would pursue Donald Trump's criminal cases past Election Day, even if he wins",
+            "ios": {
+                "alert": {
+                    "body": "Justice Dept. would pursue Donald Trump's criminal cases past Election Day, even if he wins",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/07/02/justice-dept-trump-prosecute-after-election/",
+                        "datetime": "2024-07-02T22:59:19.916000Z",
+                        "imageURL": "https://www.washingtonpost.com/national-security/2024/07/02/justice-dept-trump-prosecute-after-election/",
+                        "pushID": "668486478afc4f350000000d",
+                        "targetTopic": "politics",
+                        "text": "Prosecutors believe a Justice Dept. ban on charging or prosecuting sitting presidents applies to Inauguration Day, not Election Day, according to people familiar with internal deliberations. That means Trump could face court hearings or even trials until Jan. 20, 2025, if he is elected in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5d701431-38bf-11ef-9962-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They left Maryland for Mecca, but they didn\u2019t all come home. Texts, recordings and witness accounts reveal \u2018nightmare\u2019 Hajj tour.",
+            "ios": {
+                "alert": {
+                    "body": "They left Maryland for Mecca, but they didn\u2019t all come home. Texts, recordings and witness accounts reveal \u2018nightmare\u2019 Hajj tour.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/07/02/hajj-deadly-maryland-families/",
+                        "datetime": "2024-07-02T22:06:42.665000Z",
+                        "imageURL": "https://www.washingtonpost.com/dc-md-va/2024/07/02/hajj-deadly-maryland-families/",
+                        "pushID": "668479f28afc4f350000000c",
+                        "targetTopic": "editors_picks",
+                        "text": "A mosque in Prince George's County is mourning three members who died during the Hajj amid extreme heat in Saudi Arabia. Family members and fellow travelers say tour operators failed to provide proper visas, sufficient transportation and adequate support during the sacred pilgrimage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
