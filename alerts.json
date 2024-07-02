@@ -60278,5 +60278,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a5a28b20-3810-11ef-8bde-00000a1ace25",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Biden blasts the Supreme Court for decision on presidential immunity",
+            "ios": {
+                "alert": {
+                    "body": "President Biden blasts the Supreme Court for decision on presidential immunity",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/01/biden-denounces-supreme-court-immunity/",
+                        "datetime": "2024-07-02T01:16:01.883000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668354d1a3e4cf350000000a",
+                        "targetTopic": "politics",
+                        "text": "Biden, speaking from the White House, issued a blistering attack on the high court for its decision earlier in the day declaring that Donald Trump was immune from prosecution for official acts he took during his presidency. Biden said that the high court was setting a dangerous new precedent that could fundamentally change the world\u2019s most powerful office.\n\u201cFor all practical purposes, today\u2019s decision almost certainly means that there are virtually no limits on what the president can do,\u201d Biden said, adding that he pledges \u201cto respect the limits of the presidential powers.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
