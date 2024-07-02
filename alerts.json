@@ -60720,5 +60720,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7dc7ed10-389d-11ef-bfd1-0000a1aceb70",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FDA approves Alzheimer\u2019s drug donanemab, only the second drug shown to modestly slow the disease, after months of delay",
+            "ios": {
+                "alert": {
+                    "body": "FDA approves Alzheimer\u2019s drug donanemab, only the second drug shown to modestly slow the disease, after months of delay",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/07/02/alzheimers-drug-approval-fda-donanemab/",
+                        "datetime": "2024-07-02T18:04:14.062000Z",
+                        "imageURL": "https://www.washingtonpost.com/health/2024/07/02/alzheimers-drug-approval-fda-donanemab/",
+                        "pushID": "6684411e8afc4f350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "The Food and Drug Administration had initially delayed green-lighting Eli Lilly\u2019s donanemab so that it could further study the drug\u2019s safety and efficacy, including unique features of the clinical trial. But the agency ultimately determined that the potential of slowing the devastating disease in patients with mild cognitive impairment outweighs the risks of brain bleeds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
