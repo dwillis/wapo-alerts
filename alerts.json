@@ -60769,5 +60769,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "53fb47a0-38a9-11ef-a047-000a1ace0715",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s N.Y. hush money sentencing is postponed until September, showing initial impact of Supreme Court immunity ruling",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s N.Y. hush money sentencing is postponed until September, showing initial impact of Supreme Court immunity ruling",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/02/trump-sentencing-delay-supreme-court-ruling/",
+                        "datetime": "2024-07-02T19:28:57.804000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/02/trump-sentencing-delay-supreme-court-ruling/",
+                        "pushID": "668454f98afc4f350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "The judge in Donald Trump's trial for falsifying records related to a hush money payment has pushed his sentencing back to September, just weeks before the November election, to give his lawyers time to argue that Monday's Supreme Court ruling on presidential immunity means Trump's 34 felony convictions should be tossed out."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
