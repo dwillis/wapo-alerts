@@ -60671,5 +60671,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6c6ae030-3899-11ef-8ed1-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Joe Manchin III threatened to break with Biden after the president\u2019s debate performance before senior Democrats intervened",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Joe Manchin III threatened to break with Biden after the president\u2019s debate performance before senior Democrats intervened",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/02/joe-manchin-biden-debate-democrats-drop-out/",
+                        "datetime": "2024-07-02T17:35:06.886000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66843a4a8afc4f3500000009",
+                        "targetTopic": "politics",
+                        "text": "The West Virginia senator intended to break with Biden on a Sunday news show, a high-profile defection that would have underscored Biden\u2019s weakness had senior Democrats not helped dissuade Manchin from doing so. Manchin is an independent who caucuses with the Democrats and would have been the first elected official allied with Democrats to break with Biden. On Tuesday, however, Rep. Lloyd Doggett (D-Tex.) became the first sitting House member to urge Biden to step aside, saying in a statement that \u201ctoo much is at stake to risk a Trump victory.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
