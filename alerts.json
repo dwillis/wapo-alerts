@@ -60573,5 +60573,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6d433540-388d-11ef-87e2-00000a1ace74",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rudy Giuliani disbarred in New York for efforts to overturn 2020 election",
+            "ios": {
+                "alert": {
+                    "body": "Rudy Giuliani disbarred in New York for efforts to overturn 2020 election",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/02/giuliani-disbarred-new-york/",
+                        "datetime": "2024-07-02T16:09:14.405000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6684262a8afc4f3500000008",
+                        "targetTopic": "politics",
+                        "text": "A state appeals court found that Giuliani, as a personal attorney to former president Donald Trump, \u201cflagrantly misused his prominent position.\u201d The panel said that Giuliani, a former prosecutor and former mayor of New York, repeatedly made false statements to courts and lawmakers about the election and that he \u201cbaselessly attacked and undermined the integrity of this country\u2019s electoral process.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8987f3e0-388c-11ef-a2e1-00000a1acef2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Does ambivalence about parenthood mean you shouldn\u2019t have kids?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Does ambivalence about parenthood mean you shouldn\u2019t have kids?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/02/carolyn-hax-ambivalence-parenthood-kids/",
+                        "datetime": "2024-07-02T16:02:52.302000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668424ac8afc4f3500000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Does ambivalence about parenthood mean you shouldn\u2019t have kids?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
