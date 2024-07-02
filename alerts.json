@@ -60376,5 +60376,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "39914f30-3878-11ef-88fc-0000a1ace02c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least 70 people were killed in northern India during a stampede at a religious event, local officials say",
+            "ios": {
+                "alert": {
+                    "body": "At least 70 people were killed in northern India during a stampede at a religious event, local officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/02/india-stampede-uttar-pradesh-hathras/",
+                        "datetime": "2024-07-02T13:37:28.221000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668402988afc4f3500000005",
+                        "targetTopic": "world",
+                        "text": "While the cause of the stampede was not immediately clear to authorities, a district official told local television reporters that \u201cstuffiness\u201d triggered it. Weather conditions hit 90 degrees and 77 percent humidity in the region."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4bb98d90-3877-11ef-afe8-00000a1ace01",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This person tries to bounce back in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This person tries to bounce back in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-02T13:30:49.178000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668401098afc4f3500000004",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9a966a60-3876-11ef-b95e-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hurricane Beryl is the earliest on record to reach Category 5 in the Atlantic. Here\u2019s where it is expected to hit next.",
+            "ios": {
+                "alert": {
+                    "body": "Hurricane Beryl is the earliest on record to reach Category 5 in the Atlantic. Here\u2019s where it is expected to hit next.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/02/hurricane-beryl-path-forecast-jamaica-yucatan/",
+                        "datetime": "2024-07-02T13:25:52.011000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6683ffe08afc4f3500000003",
+                        "targetTopic": "climate",
+                        "text": "Beryl is expected to gradually weaken in the days ahead, but the National Hurricane Center still expects \u201clife-threatening winds and storm surge\u201d in Jamaica on Wednesday, as well as probable impacts in Mexico\u2019s Yucat\u00e1n Peninsula by Friday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
