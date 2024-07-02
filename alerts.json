@@ -60524,5 +60524,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ba6bcf30-3888-11ef-8554-0000a1aceff2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump\u2019s July 11 sentencing in N.Y. hush money case may be postponed in light of Supreme Court immunity ruling",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump\u2019s July 11 sentencing in N.Y. hush money case may be postponed in light of Supreme Court immunity ruling",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/02/trump-sentencing-delay-supreme-court-ruling/",
+                        "datetime": "2024-07-02T15:35:36.349000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66841e488afc4f3500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "The former president asked a judge to postpone the sentencing for his 34 felony convictions, arguing that Monday\u2019s Supreme Court ruling on presidential immunity could invalidate some of the evidence used in the Manhattan trial this spring. On Tuesday, the Manhattan district attorney told the judge he would not oppose a delay in sentencing, increasing the likelihood the July 11 sentencing date will be pushed back."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
