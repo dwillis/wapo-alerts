@@ -60228,5 +60228,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eb16e150-3802-11ef-b9f0-00000a1aceb3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal court blocks Biden\u2019s pause on approving new gas export projects",
+            "ios": {
+                "alert": {
+                    "body": "Federal court blocks Biden\u2019s pause on approving new gas export projects",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/07/01/liquefied-natural-gas-exports-court-ruling/",
+                        "datetime": "2024-07-01T23:37:45.458000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66833dc9a3e4cf3500000009",
+                        "targetTopic": "climate",
+                        "text": "The decision by a federal judge in Louisiana represents the latest legal setback to the president\u2019s climate agenda. Republican attorneys general from 16 states had sued over the administration's action, calling it federal overreach."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
