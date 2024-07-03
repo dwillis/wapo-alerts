@@ -61014,5 +61014,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e29d21d0-3945-11ef-a7bc-00000a1ace63",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Who are America\u2019s best leaders? How can we make more of them? Garrett Graff explores what makes a good leader in his first column.",
+            "ios": {
+                "alert": {
+                    "body": "Who are America\u2019s best leaders? How can we make more of them? Garrett Graff explores what makes a good leader in his first column.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/03/graff-leadership-curiosity-patience/",
+                        "datetime": "2024-07-03T14:09:38.679000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66855ba28afc4f350000000f",
+                        "targetTopic": "opinions",
+                        "text": "Great leaders are scarce. How do we increase the supply?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
