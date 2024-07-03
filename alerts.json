@@ -61112,5 +61112,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7b084e40-3955-11ef-a9fb-0000a1aced20",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Parents of teen dad wonder if they\u2019re the ones making mistakes",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Parents of teen dad wonder if they\u2019re the ones making mistakes",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/03/carolyn-hax-parent-teen-dad/",
+                        "datetime": "2024-07-03T16:01:16.813000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668575cc8afc4f3500000011",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Parents of teen dad wonder if they\u2019re the ones making mistakes"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
