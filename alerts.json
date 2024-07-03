@@ -61161,5 +61161,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a34ade30-397e-11ef-ac86-00000a1aced2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Heat advisory issued for D.C. area on the Fourth of July with strong storms also possible",
+            "ios": {
+                "alert": {
+                    "body": "Heat advisory issued for D.C. area on the Fourth of July with strong storms also possible",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/03/dc-area-forecast-hot-independence-day/",
+                        "datetime": "2024-07-03T20:55:53.727000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6685bad95cd8343500000002",
+                        "targetTopic": "local",
+                        "text": "Factoring in humidity, it could feel as hot as 100 to 105 Thursday afternoon, prompting a heat advisory from the National Weather Service for areas near the Interstate 95 corridor. The heat and humidity could also fuel some strong late-day thunderstorms with dangerous lightning, strong winds and heavy rain."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f68b7fc0-397c-11ef-904b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "If not Biden, who? Five columnists rate the potential field of replacements for the Democratic presidential nominee.",
+            "ios": {
+                "alert": {
+                    "body": "If not Biden, who? Five columnists rate the potential field of replacements for the Democratic presidential nominee.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/03/potential-joe-biden-replacement-candidates-democrats/",
+                        "datetime": "2024-07-03T20:43:54.327000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6685b80a5cd8343500000001",
+                        "targetTopic": "opinions",
+                        "text": "If President Biden were to decide not to run for reelection, who should replace him? That would be a question for the 4,000-plus delegates in August at the Democratic National Convention in Chicago, but before then, it\u2019s a question for five Post Opinions columnists, who kicked the tires on the options over email this week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
