@@ -61063,5 +61063,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dfe04030-394f-11ef-9a8d-0000a1ace241",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dining chat: Why are some restaurants switching to fixed-price menus? Our food critic is answering your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Dining chat: Why are some restaurants switching to fixed-price menus? Our food critic is answering your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/06/28/tom-sietsema-live-chat/",
+                        "datetime": "2024-07-03T15:21:09.063000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66856c658afc4f3500000010",
+                        "targetTopic": "food",
+                        "text": "Dining chat: Why are some restaurants switching to fixed-price menus? Our food critic is answering your questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
