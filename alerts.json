@@ -61602,5 +61602,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a2de9221-3a1e-11ef-94ab-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Guy who berated spouse over butter would like his second chance now",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Guy who berated spouse over butter would like his second chance now",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/04/carolyn-hax-berates-spouse-second-chance/",
+                        "datetime": "2024-07-04T16:01:12.509000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6686c7485cd8343500000008",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Guy who berated spouse over butter would like his second chance now"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
