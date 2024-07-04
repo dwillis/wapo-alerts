@@ -61651,5 +61651,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbbfe0a0-3a27-11ef-ae5c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new men\u2019s hot-dog eating champion is crowned: Patrick Bertoletti ate 58. Miki Sudo downed a record 51 to win the women\u2019s contest.",
+            "ios": {
+                "alert": {
+                    "body": "A new men\u2019s hot-dog eating champion is crowned: Patrick Bertoletti ate 58. Miki Sudo downed a record 51 to win the women\u2019s contest.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/07/04/nathans-hot-dog-eating-contest-winners/",
+                        "datetime": "2024-07-04T17:06:46.548000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6686d6a65cd8343500000009",
+                        "targetTopic": "sports",
+                        "text": "Bertoletti won for the first time, while 10-time champion Sudo defended her title at this year's Nathan's Famous International Hot Dog Eating Contest, held at Coney Island in New York City. It was the first time since 2004 that Joey Chestnut, the 16-time champion who had won the previous eight contests, was missing from the competition. He was banned last month after signing a sponsorship agreement with Nathan's rival Impossible Foods."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
