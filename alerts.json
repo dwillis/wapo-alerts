@@ -61406,5 +61406,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dc0303c1-3a04-11ef-aced-00000a1ace17",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Boil-water advisory lifted for D.C. and Arlington; utility says it confirmed that water quality \u2018never deviated' from EPA standards",
+            "ios": {
+                "alert": {
+                    "body": "Boil-water advisory lifted for D.C. and Arlington; utility says it confirmed that water quality \u2018never deviated' from EPA standards",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/07/03/dc-boil-water-advisory-arlington/",
+                        "datetime": "2024-07-04T12:56:41.445000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66869c095cd8343500000004",
+                        "targetTopic": "local",
+                        "text": "The warnings were issued because of clarity issues, which can interfere with disinfection or indicate the presence of bacteria, viruses and parasites, according to D.C. Water."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
