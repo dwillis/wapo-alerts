@@ -61308,5 +61308,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "26bd5511-39b9-11ef-92fd-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. and Arlington issue boil-water advisories",
+            "ios": {
+                "alert": {
+                    "body": "D.C. and Arlington issue boil-water advisories",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/07/03/dc-boil-water-advisory-arlington/",
+                        "datetime": "2024-07-04T03:54:45.084000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66861d05a3e4cf350000000c",
+                        "targetTopic": "local",
+                        "text": "The District and Arlington County advised residents to boil their water because of clarity issues in local water sources."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
