@@ -61700,5 +61700,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff1112a1-3a48-11ef-a4de-0000a1ace5dc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.K. election exit poll projects big win for Labour, ending 14 years of Conservative Party rule",
+            "ios": {
+                "alert": {
+                    "body": "U.K. election exit poll projects big win for Labour, ending 14 years of Conservative Party rule",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/04/uk-election-2024-live-updates-results/",
+                        "datetime": "2024-07-04T21:04:24.524000Z",
+                        "imageURL": "https://www.washingtonpost.com/world/2024/07/04/uk-election-2024-live-updates-results/",
+                        "pushID": "66870e585cd834350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "In an election that was more about mood than policy, voters appear to have conveyed their frustration with the incumbent Conservative Party and a willingness to give a chance to a renewed Labour Party, purged of its hard-left elements and socialist rhetoric."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
