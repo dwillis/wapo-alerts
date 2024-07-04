@@ -61357,5 +61357,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8502ee60-39f4-11ef-9051-00000a1ace0b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden campaign crisis. Hurricane Beryl. U.K. election. Wildfire. Banned additive. Longer workweek. Ant surgery. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Biden campaign crisis. Hurricane Beryl. U.K. election. Wildfire. Banned additive. Longer workweek. Ant surgery. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/04/what-to-know-for-july-4/?noredirect=1",
+                        "datetime": "2024-07-04T10:59:43.559000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6686809f5cd8343500000003",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
