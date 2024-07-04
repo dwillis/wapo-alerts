@@ -61504,5 +61504,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a456ff20-3a0f-11ef-9c18-00000a1ace20",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Thousands will celebrate Independence Day by becoming U.S. citizens \u2014 after taking a civics test. Try our quiz to see if you\u2019d pass.",
+            "ios": {
+                "alert": {
+                    "body": "Thousands will celebrate Independence Day by becoming U.S. citizens \u2014 after taking a civics test. Try our quiz to see if you\u2019d pass.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/interactive/2024/us-citizenship-quiz/",
+                        "datetime": "2024-07-04T14:13:52.489000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6686ae205cd8343500000006",
+                        "targetTopic": "editors_picks",
+                        "text": "Before taking part in naturalization ceremonies, all aspiring U.S. citizens must prove their knowledge of civics in an oral exam."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
