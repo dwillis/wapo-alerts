@@ -61455,5 +61455,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b43b5a40-3a09-11ef-9ea3-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Happy Fourth! Celebrate with today\u2019s On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "Happy Fourth! Celebrate with today\u2019s On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-04T13:31:22.232000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6686a42a5cd8343500000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Enjoy the holiday!"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
