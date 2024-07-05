@@ -62043,5 +62043,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "12807af0-3ae0-11ef-9f63-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden has displayed signs of accelerated aging with lapses appearing more common, those who have interacted with him say",
+            "ios": {
+                "alert": {
+                    "body": "Biden has displayed signs of accelerated aging with lapses appearing more common, those who have interacted with him say",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/05/biden-aging-recent-months/",
+                        "datetime": "2024-07-05T15:05:52.664000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66880bd0a3e4cf3500000012",
+                        "targetTopic": "editors_picks",
+                        "text": "Aides, foreign leaders, donors and members of Congress say Biden has seemed slower and more often loses his train of thought in recent months, though close aides insist he remains mentally sharp."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
