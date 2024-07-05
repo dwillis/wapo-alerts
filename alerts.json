@@ -61847,5 +61847,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3546a171-3ace-11ef-8c52-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Vatican excommunicates Carlo Maria Vigan\u00f2, former ambassador to the U.S., for refusing to recognize the pope",
+            "ios": {
+                "alert": {
+                    "body": "Vatican excommunicates Carlo Maria Vigan\u00f2, former ambassador to the U.S., for refusing to recognize the pope",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/05/vigano-excommunicated-schism-pope-francis/",
+                        "datetime": "2024-07-05T12:58:00.070000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6687edd8a3e4cf350000000f",
+                        "targetTopic": "world",
+                        "text": "In a rare trial, the Vatican took action against one of Pope Francis\u2019s most vociferous internal critics. Vigan\u00f2, who was loyal to the previous pope, Benedict XVI, had called on the pope to resign, be arrested, and excoriated him in harsh terms, including calling him \u201ca servant of Satan.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d5bddf50-3aca-11ef-a88f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Economy adds 206,000 jobs in June, as the resilient labor market continues to grow despite some headwinds",
+            "ios": {
+                "alert": {
+                    "body": "Economy adds 206,000 jobs in June, as the resilient labor market continues to grow despite some headwinds",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/07/05/june-jobs-report/",
+                        "datetime": "2024-07-05T12:33:51.294000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6687e82fa3e4cf350000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "The labor market notched another month of growth in June, according to data released Friday from the Bureau of Labor Statistics. Even as interest rates remain high, weighing on some parts of the economy, the labor market continues to buoy workers, wages and consumer spending, preventing a broader downturn."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
