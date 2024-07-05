@@ -62141,5 +62141,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a783b5b0-3b1a-11ef-9c74-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This natural gas exporter is building a fortress on sinking land. Can its 26-foot-high wall protect it from sea level rise?",
+            "ios": {
+                "alert": {
+                    "body": "This natural gas exporter is building a fortress on sinking land. Can its 26-foot-high wall protect it from sea level rise?",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/louisiana-sea-wall-gas-facility-flooding/",
+                        "datetime": "2024-07-05T22:05:13.450000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66886e1985eef73500000001",
+                        "targetTopic": "us",
+                        "text": "In a part of Louisiana threatened by hurricanes and storm surge, a company has built a massive sea wall around its gas export plant.\nThat raises a question: How far will the fossil fuel industry go to protect itself from climate impacts it helped cause?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
