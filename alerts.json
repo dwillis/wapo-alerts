@@ -62092,5 +62092,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ed43c9a1-3b06-11ef-b109-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Mark Warner (D-Va.) is seeking to assemble a group of senators to ask Biden to exit the presidential race",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Mark Warner (D-Va.) is seeking to assemble a group of senators to ask Biden to exit the presidential race",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/05/mark-warner-joe-biden-exit-race-democratic-senators/",
+                        "datetime": "2024-07-05T19:44:00.537000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66884d00a06e4a3600000001",
+                        "targetTopic": "breaking-news",
+                        "text": "Warner is telling Democratic senators that Biden can no longer stay in the election in the wake of his faltering debate performance, according to two people familiar with private conversations who spoke on the condition of anonymity to talk freely.\nAs the chair of the Senate Intelligence Committee, the Virginia Democrat is viewed as a serious voice privately advocating for the president to step aside. He represents a state that Democrats must win in November to maintain their hold on the White House."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
