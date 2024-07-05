@@ -61749,5 +61749,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "78b626f0-3ac0-11ef-9471-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Keir Starmer becomes Britain\u2019s next prime minister, ushering in a new era after 14 years of Conservative rule",
+            "ios": {
+                "alert": {
+                    "body": "Keir Starmer becomes Britain\u2019s next prime minister, ushering in a new era after 14 years of Conservative rule",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/05/uk-election-keir-starmer-prime-minister-live-updates/",
+                        "datetime": "2024-07-05T11:19:40.211000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6687d6cca3e4cf350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "King Charles III invited the Labour Party leader to form a government, after Conservative Prime Minister Rishi Sunak tendered his resignation at Buckingham Palace. It marks a huge reversal for Britain\u2019s top parties, with a new government dominated by the center left."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b93e42f0-3abd-11ef-92fd-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.K. election. Biden interview. Hurricane Beryl. Jobs market. Threads. Wimbledon. Hot dogs. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "U.K. election. Biden interview. Hurricane Beryl. Jobs market. Threads. Wimbledon. Hot dogs. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/05/what-to-know-for-july-5/?noredirect=1",
+                        "datetime": "2024-07-05T10:59:59.996000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6687d22f5cd834350000000b",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
