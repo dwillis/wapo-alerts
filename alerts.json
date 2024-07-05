@@ -61945,5 +61945,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2199b020-3ad5-11ef-8c52-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wisconsin Supreme Court clears way for ballot drop boxes, reversing an earlier decision by a conservative-controlled court",
+            "ios": {
+                "alert": {
+                    "body": "Wisconsin Supreme Court clears way for ballot drop boxes, reversing an earlier decision by a conservative-controlled court",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/05/wisconsin-ballot-drop-boxes/",
+                        "datetime": "2024-07-05T13:47:33.405000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6687f975a3e4cf3500000011",
+                        "targetTopic": "politics",
+                        "text": "Liberals on the Wisconsin Supreme Court on Friday overturned a decision that banned absentee ballot drop boxes made by conservatives when they controlled the court two years ago. The 4-3 ruling came a year after liberals took a majority on the top court in a crucial swing state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4472cf20-3ad3-11ef-9a2d-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager. It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager. It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-05T13:34:13.027000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6687f655a3e4cf3500000010",
+                        "targetTopic": "news_quiz",
+                        "text": "10 questions, plus a bonus wager. It\u2019s the weekend edition of On the Record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
