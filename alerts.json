@@ -62190,5 +62190,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8f67a240-3b54-11ef-a889-00000a1aced8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Reformist Masoud Pezeshkian will be Iran\u2019s next president",
+            "ios": {
+                "alert": {
+                    "body": "Reformist Masoud Pezeshkian will be Iran\u2019s next president",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/06/pezeshkian-iran-new-president/",
+                        "datetime": "2024-07-06T04:59:43.698000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6688cf3f4262323500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "A heart surgeon and relative unknown, Pezeshkian campaigned on engaging with the West to help free the country\u2019s economy from crippling sanctions. He prevailed in the second round of snap elections Friday organized after the death of President Ebrahim Raisi in a May helicopter crash."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
