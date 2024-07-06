@@ -62337,5 +62337,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2fedf680-3bad-11ef-b218-0000a1ace759",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden relies on a little-known White House doctor who has never ordered a cognitive test for the president",
+            "ios": {
+                "alert": {
+                    "body": "Biden relies on a little-known White House doctor who has never ordered a cognitive test for the president",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/06/kevin-oconnor-biden-doctor-cognitive-tests-debate/",
+                        "datetime": "2024-07-06T15:34:08.872000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668963f04262323500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "President Biden\u2019s prime-time debate performance \u2014 where he mumbled, repeatedly misspoke and sometimes appeared confused \u2014 has put new scrutiny on the man that the president simply calls \u201cDoc\u201d and on his handling of the president\u2019s health. Kevin O\u2019Connor, the physician to the president, has grown extraordinarily close to Biden since becoming his personal doctor in 2009 but has kept a low profile in the job."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
