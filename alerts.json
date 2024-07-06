@@ -62288,5 +62288,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d3a13ba0-3ba0-11ef-99e0-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We mapped weather forecast accuracy across the U.S. Look up your city.",
+            "ios": {
+                "alert": {
+                    "body": "We mapped weather forecast accuracy across the U.S. Look up your city.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2024/how-accurate-is-the-weather-forecast/",
+                        "datetime": "2024-07-06T14:05:40.045000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66894f344262323500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Everyone complains about the weather forecast, but some people have more cause to grumble than others. Find out how accurate the forecast is where you live."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
