@@ -62435,5 +62435,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9b214000-3bbd-11ef-a4f4-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Women\u2019s No. 1 seed Iga Swiatek knocked out of Wimbledon in the third round by Yulia Putintseva of Kazakhstan",
+            "ios": {
+                "alert": {
+                    "body": "Women\u2019s No. 1 seed Iga Swiatek knocked out of Wimbledon in the third round by Yulia Putintseva of Kazakhstan",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/07/06/iga-swiatek-wimbledon-third-round-loss/",
+                        "datetime": "2024-07-06T17:31:40.646000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66897f7c4262323500000005",
+                        "targetTopic": "sports",
+                        "text": "Swiatek, the world\u2019s top ranked player, dropped the second and third sets at the All England Club to Putintseva, who is ranked No. 27 in the world. Swiatek, of Poland, is a five-time Grand Slam tournament winner but has yet to advance past the quarterfinals at Wimbledon in her career."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
