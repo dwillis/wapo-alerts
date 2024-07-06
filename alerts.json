@@ -62484,5 +62484,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ceba8b70-3bc6-11ef-80e9-00000a1ace68",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "NFL rookie and Maryland native Khyree Jackson was killed in a car crash along with two high school teammates in Prince George\u2019s County",
+            "ios": {
+                "alert": {
+                    "body": "NFL rookie and Maryland native Khyree Jackson was killed in a car crash along with two high school teammates in Prince George\u2019s County",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/07/06/khyree-jackson-minnesota-vikings-dead/",
+                        "datetime": "2024-07-06T18:37:32.681000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66898eec4262323500000007",
+                        "targetTopic": "local",
+                        "text": "Jackson, 24, was drafted by the Vikings in the fourth round of this year\u2019s NFL draft. Jackson and his former teammates were killed early Saturday in a three-vehicle crash after their car was struck by another car and veered off the road in Upper Marlboro, according to Maryland State Police."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
