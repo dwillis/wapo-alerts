@@ -62533,5 +62533,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0b07c470-3be6-11ef-90f5-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "He decided to run on every street in Washington \u2014 and finished his 1,838th street on Friday. Here\u2019s his big takeaway.",
+            "ios": {
+                "alert": {
+                    "body": "He decided to run on every street in Washington \u2014 and finished his 1,838th street on Friday. Here\u2019s his big takeaway.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/07/05/dc-runner-every-street/",
+                        "datetime": "2024-07-06T22:21:08.273000Z",
+                        "imageURL": "https://www.washingtonpost.com/dc-md-va/2024/07/05/dc-runner-every-street/",
+                        "pushID": "6689c354a06e4a3600000003",
+                        "targetTopic": "local",
+                        "text": "Although there were some exceptions, like no highways and no streets banned by the Secret Service, Dion Thompson-Davoli's 1,400-mile labor of love left a lasting impression: \u201cIt\u2019s magnificent,\u201d he said of the city."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
