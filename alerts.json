@@ -62778,5 +62778,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "943f3f51-3c83-11ef-9b6d-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This is what it\u2019s like to survive measles. One of the most contagious diseases once defeated in the U.S. is surging again.",
+            "ios": {
+                "alert": {
+                    "body": "This is what it\u2019s like to survive measles. One of the most contagious diseases once defeated in the U.S. is surging again.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/interactive/2024/measles-outbreak-vaccine/",
+                        "datetime": "2024-07-07T17:08:49.400000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668acba1a06e4a3600000008",
+                        "targetTopic": "health",
+                        "text": "Vaccination had largely eliminated the scourge from the United States in 2000. But amid falling domestic vaccination rates, measles is back, with more cases this year than each of the past two years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
