@@ -62828,5 +62828,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e7761150-3c8b-11ef-a5c7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "French election projections put a leftist alliance in the lead, as far right performs far below expectations. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "French election projections put a leftist alliance in the lead, as far right performs far below expectations. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/07/france-election-updates-results/",
+                        "datetime": "2024-07-07T18:08:24.484000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668ad998a06e4a3600000009",
+                        "targetTopic": "breaking-news",
+                        "text": "The populist, anti-immigration National Rally party had been hoping to install France\u2019s first far-right government since World War II, with 28-year-old Jordan Bardella as prime minister. A left-wing party alliance and candidates from President Emmanuel Macron\u2019s centrist movement have been trying to block them."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
