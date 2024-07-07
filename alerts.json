@@ -62680,5 +62680,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0a184700-3c78-11ef-be2d-000a1acec4c1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How do you like your hot dog? Explore our highly subjective guide to America\u2019s best regional styles.",
+            "ios": {
+                "alert": {
+                    "body": "How do you like your hot dog? Explore our highly subjective guide to America\u2019s best regional styles.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/06/27/american-regional-hot-dog-styles/",
+                        "datetime": "2024-07-07T15:46:13.235000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668ab845a06e4a3600000006",
+                        "targetTopic": "food",
+                        "text": "How do you like your hot dog? Explore our highly subjective guide to America\u2019s best regional styles."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
