@@ -62631,5 +62631,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "177d51a0-3c6f-11ef-a47c-00000a1ace62",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The most religious, and religiously diverse, places in America",
+            "ios": {
+                "alert": {
+                    "body": "The most religious, and religiously diverse, places in America",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/06/28/religious-census-map-diversity-catholics/",
+                        "datetime": "2024-07-07T14:42:10.230000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668aa942a06e4a3600000005",
+                        "targetTopic": "editors_picks",
+                        "text": "The Post\u2019s Department of Data mined the U.S. Religious Census, a decennial count of America\u2019s faithful, for insights into the geography of religious devotion, including claims on church attendance and actual behavior."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
