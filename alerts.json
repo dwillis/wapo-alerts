@@ -63073,5 +63073,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c7a983b0-3d09-11ef-84a2-00000a1ace6b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Beryl makes landfall near Matagorda, Tex., as a Category 1 hurricane",
+            "ios": {
+                "alert": {
+                    "body": "Beryl makes landfall near Matagorda, Tex., as a Category 1 hurricane",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/08/hurricane-beryl-texas-landfall-updates/",
+                        "datetime": "2024-07-08T09:09:28.253000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668bacc814117c3500000002",
+                        "targetTopic": "us",
+                        "text": "Beryl came ashore at 4 a.m. Central time with peak winds of 80 mph. The storm is forecast to produce a \u201clife-threatening\u201d ocean surge and damaging hurricane-force winds. It is the first Atlantic hurricane to make landfall in the United States this year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
