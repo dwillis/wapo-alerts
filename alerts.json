@@ -63318,5 +63318,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8993da90-3d49-11ef-afb5-00000a1ace98",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "More than 2.6 million are without power and at least two people have died as Beryl moves through Houston. Follow our live updates.",
+            "ios": {
+                "alert": {
+                    "body": "More than 2.6 million are without power and at least two people have died as Beryl moves through Houston. Follow our live updates.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/08/hurricane-beryl-texas-landfall-updates/",
+                        "datetime": "2024-07-08T16:45:51.882000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668c17bf4262323500000011",
+                        "targetTopic": "breaking-news",
+                        "text": "Beryl was downgraded to a tropical storm Monday morning, the National Hurricane Center said, after making landfall as a Category 1 hurricane. The storm continues to pound Houston and the surrounding area with intense winds and rain."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "95eaa220-3d43-11ef-a8c3-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Mom sees different parenting styles as critiques of her own choices",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Mom sees different parenting styles as critiques of her own choices",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/08/carolyn-hax-mom-parenting-choices-critique/",
+                        "datetime": "2024-07-08T16:03:15.619000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668c0dc34262323500000010",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Mom sees different parenting styles as critiques of her own choices"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
