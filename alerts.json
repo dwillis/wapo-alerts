@@ -63024,5 +63024,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c80a8180-3cdf-11ef-9e05-000a1acef361",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Boeing agrees to plead guilty to conspiring to defraud the government in a case linked to two jet crashes that killed 346 people",
+            "ios": {
+                "alert": {
+                    "body": "Boeing agrees to plead guilty to conspiring to defraud the government in a case linked to two jet crashes that killed 346 people",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2024/07/08/boeing-guilty-737-max-crashes/",
+                        "datetime": "2024-07-08T04:08:50.042000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668b665214117c3500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "Prosecutors alleged two Boeing pilots concealed key information from the government about a new automated control system aboard the 737 Max aircraft that was implicated in two fatal crashes in 2018 and 2019."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
