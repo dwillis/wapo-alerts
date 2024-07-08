@@ -62975,5 +62975,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1e764d50-3cc8-11ef-80f6-00000a1ace71",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Correction: Four senior House Democrats, in private leadership call, say Biden should step aside",
+            "ios": {
+                "alert": {
+                    "body": "Correction: Four senior House Democrats, in private leadership call, say Biden should step aside",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/07/election-2024-biden-campaign-updates-trump/",
+                        "datetime": "2024-07-08T01:19:27.157000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668b3e9f426232350000000c",
+                        "targetTopic": "politics",
+                        "text": "Those who made the case for the president to drop his reelection bid were Reps. Jerry Nadler (N.Y.), Joseph Morelle (N.Y.), Mark Takano (Calif.) and Adam Smith (Wash.), according to three people on the call who spoke on the condition of anonymity.\n\n<i> A previous news alert incorrectly said that Rep. Ted Lieu (Calif.) was among the House Democrats who said on a private call Sunday that they wanted President Biden to end his reelection campaign. Lieu was on the call but said he did not speak. This alert has been corrected. </i>"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
