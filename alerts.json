@@ -63220,5 +63220,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2088b221-3d42-11ef-a08d-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump proposes scaled-back platform that softens language on abortion, same-sex marriage",
+            "ios": {
+                "alert": {
+                    "body": "Trump proposes scaled-back platform that softens language on abortion, same-sex marriage",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/08/trump-abortion-republican-platform/",
+                        "datetime": "2024-07-08T15:52:49.210000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668c0b51426232350000000f",
+                        "targetTopic": "politics",
+                        "text": "The document, which is set to be discussed and voted on ahead of the GOP national convention in Milwaukee, hews to former president Donald Trump\u2019s current position on abortion being an issue that should be decided by states \u2014 a departure from previous years when the party called for a nationwide restriction. It also affirms GOP support for deporting millions of undocumented immigrants, embracing tariffs and ending the Education Department."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0c144890-3d3d-11ef-80f4-0000a1ace8c4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "No one had ever charged a school shooter\u2019s parents with homicide. She did it anyway.",
+            "ios": {
+                "alert": {
+                    "body": "No one had ever charged a school shooter\u2019s parents with homicide. She did it anyway.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2024/michigan-prosecutors-crumbley-parents-oxford-school-shooting/",
+                        "datetime": "2024-07-08T15:16:27.355000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668c02cb426232350000000e",
+                        "targetTopic": "special_report",
+                        "text": "A Post reporter embedded with Michigan prosecutor Karen McDonald as she pursued involuntary manslaughter charges against Jennifer and James Crumbley, whose 15-year-old son killed four students at Oxford High School. Go behind the scenes to see what it took for McDonald and her team to make legal history in a case few believed they could win."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
