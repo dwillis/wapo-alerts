@@ -63416,5 +63416,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0b3ef660-3d6d-11ef-a70a-00000a1ace87",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Could you pass a math test for fourth-, eighth- and 12th-graders? Take our quiz and get your score.",
+            "ios": {
+                "alert": {
+                    "body": "Could you pass a math test for fourth-, eighth- and 12th-graders? Take our quiz and get your score.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/education/interactive/2024/dc-school-math-quiz/",
+                        "datetime": "2024-07-08T21:00:01.784000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668c535185eef73500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "The pandemic reversed years of academic progress for children across the country. They\u2019re bouncing back, but a full recovery is still a long way off, experts predict.\nThis quiz features some math questions on the National Assessment of Educational Progress, commonly called \u201cthe nation\u2019s report card.\u201d How do you stack up?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
