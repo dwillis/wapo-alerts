@@ -63171,5 +63171,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "69d34c61-3d2e-11ef-8c94-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Who\u2019s described as \u2018boring\u2019 but \u2018sensible\u2019 in today\u2019s On the Record?",
+            "ios": {
+                "alert": {
+                    "body": "Who\u2019s described as \u2018boring\u2019 but \u2018sensible\u2019 in today\u2019s On the Record?",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-08T13:31:42.254000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668bea3e426232350000000d",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
