@@ -63514,5 +63514,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9a9546c0-3df9-11ef-9b4e-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Out of a coconut tree and into today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Out of a coconut tree and into today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-09T13:46:11.877000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668d3f2385eef73500000004",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a19ad4f0-3df7-11ef-994d-00000a1aced1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In a first, federal regulators ban anonymous messaging app from allowing minors on the platform",
+            "ios": {
+                "alert": {
+                    "body": "In a first, federal regulators ban anonymous messaging app from allowing minors on the platform",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/09/ftc-bans-kids-ngl-messaging-app/",
+                        "datetime": "2024-07-09T13:32:04.662000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668d3bd485eef73500000003",
+                        "targetTopic": "technology",
+                        "text": "In a groundbreaking settlement, the Federal Trade Commission accused the app NGL of exaggerating its ability to use artificial intelligence to curb cyberbullying and aggressively marketing to young users despite risks. NGL, internet shorthand for \u201cnot gonna lie,\u201d agreed to pay $5 million and to stop marketing to kids and teens to settle the lawsuit, marking a milestone in the federal government\u2019s efforts to tackle concerns that tech platforms are profiting from exposing noxious material to youths."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
