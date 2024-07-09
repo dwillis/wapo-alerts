@@ -63711,5 +63711,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c87b4460-3e42-11ef-83c3-0000a1ace3d1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This House race reflects how the Supreme Court has narrowed options for Black voters",
+            "ios": {
+                "alert": {
+                    "body": "This House race reflects how the Supreme Court has narrowed options for Black voters",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/09/gerrymandering-black-voters-supreme-court/",
+                        "datetime": "2024-07-09T22:30:02.157000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668db9ea9ddf943500000001",
+                        "targetTopic": "politics",
+                        "text": "The high court gave the go-ahead for a South Carolina district that a lower court had deemed an unconstitutional racial gerrymander. Now a Black Democrat is campaigning against the odds to win the seat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
