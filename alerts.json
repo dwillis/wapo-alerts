@@ -63465,5 +63465,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "618d2d00-3de2-11ef-99b0-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "NATO summit. Biden support. Beryl damage. Israeli offensive. Baldwin trial. Ticks. Free tuition. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "NATO summit. Biden support. Beryl damage. Israeli offensive. Baldwin trial. Ticks. Free tuition. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/09/what-to-know-for-july-9/?noredirect=1",
+                        "datetime": "2024-07-09T10:59:57.414000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "668d182ddeac943500000004",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
