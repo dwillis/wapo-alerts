@@ -63662,5 +63662,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4ae36a10-3e23-11ef-a675-0000a1ace286",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. is under an excessive heat warning as indexes climb above 110",
+            "ios": {
+                "alert": {
+                    "body": "D.C. is under an excessive heat warning as indexes climb above 110",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/09/dc-heat-wave-warning-climate/",
+                        "datetime": "2024-07-09T18:44:37.001000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668d851585eef73500000006",
+                        "targetTopic": "local",
+                        "text": "The combination of heat and humidity is among the most extreme in the United States. The long-range forecast shows little relief amid what's been the region's second-hottest start to a summer on record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
