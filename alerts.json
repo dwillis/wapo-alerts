@@ -63809,5 +63809,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8f742050-3ec0-11ef-9264-00000a1acec9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Don\u2019t cuddle this animal in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Don\u2019t cuddle this animal in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-10T13:30:22.083000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668e8ceec900223500000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bf31d5b1-3ebd-11ef-80f4-0000a1ace8c4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Three Mile Island\u2019s owner is weighing a revival of the nuclear plant, site of 1979 partial meltdown, to meet surging energy demands",
+            "ios": {
+                "alert": {
+                    "body": "Three Mile Island\u2019s owner is weighing a revival of the nuclear plant, site of 1979 partial meltdown, to meet surging energy demands",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/07/10/three-mile-island-nuclear-artificial-intelligence/",
+                        "datetime": "2024-07-10T13:10:14.553000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668e8836c900223500000001",
+                        "targetTopic": "us",
+                        "text": "The plant along the Susquehanna River in Pennsylvania is part of a burst of fresh activity at mothballed plants as tech companies, manufacturers and energy regulators scramble to find enough zero emissions electricity to keep up with demand."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
