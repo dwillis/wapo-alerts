@@ -63956,5 +63956,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8bf146e1-3edb-11ef-8833-0000a1ace74c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The great burger debate: To smash or not to smash? Our food writers are taking your questions now.",
+            "ios": {
+                "alert": {
+                    "body": "The great burger debate: To smash or not to smash? Our food writers are taking your questions now.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/07/10/questions-recipe-cooking-advice/",
+                        "datetime": "2024-07-10T16:43:33.560000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668eba35c900223500000006",
+                        "targetTopic": "food",
+                        "text": "The great burger debate: To smash or not to smash? Our food writers are taking your questions now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "98b77540-3ed9-11ef-bd31-0000a1ace445",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "George Clooney calls for Biden to leave ticket, weeks after the actor co-hosted a star-studded fundraiser for the campaign",
+            "ios": {
+                "alert": {
+                    "body": "George Clooney calls for Biden to leave ticket, weeks after the actor co-hosted a star-studded fundraiser for the campaign",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/10/election-2024-campaign-updates/",
+                        "datetime": "2024-07-10T16:29:35.938000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668eb6efc900223500000005",
+                        "targetTopic": "politics",
+                        "text": "Clooney said in a Wednesday op-ed in the New York Times that he \u201clove[s]\u201d the 81-year-old President Biden but argued that Biden\u2019s age has imperiled his reelection bid against former president Donald Trump.\n\n\u201cIt\u2019s devastating to say it, but the Joe Biden I was with three weeks ago at the fund-raiser was not the Joe \u2018big F-ing deal\u2019 Biden of 2010,\u201d Clooney wrote. \u201cHe wasn\u2019t even the Joe Biden of 2020. He was the same man we all witnessed at the debate.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "874aff11-3ed5-11ef-a523-0000a1acef7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Parents \u2018very opinionated\u2019 about how their children\u2019s partners look",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Parents \u2018very opinionated\u2019 about how their children\u2019s partners look",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/10/carolyn-hax-parents-kids-partners-looks/",
+                        "datetime": "2024-07-10T16:00:28.768000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668eb01cc900223500000004",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Parents \u2018very opinionated\u2019 about how their children\u2019s partners look"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
