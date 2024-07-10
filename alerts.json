@@ -64250,5 +64250,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "88b6bf10-3f0c-11ef-8e1a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gregg Berhalter is out as U.S. men's national soccer team coach after early Copa Am\u00e9rica exit",
+            "ios": {
+                "alert": {
+                    "body": "Gregg Berhalter is out as U.S. men's national soccer team coach after early Copa Am\u00e9rica exit",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/07/11/gregg-berhalter-fired-usmnt-coach/",
+                        "datetime": "2024-07-10T22:34:13.476000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/2024/07/11/gregg-berhalter-fired-usmnt-coach/",
+                        "pushID": "668f0c6514117c3500000005",
+                        "targetTopic": "sports",
+                        "text": "With arguably the most talented roster in program history, the U.S. men's team fared well in regional competition this year but stumbled under this summer\u2019s bright lights. Berhalter's squad made a disappointing early exit at Copa Am\u00e9rica, flaming out in the group stage with losses to Panama and Uruguay. The move comes two years before the United States will be one of the hosts of the 2026 World Cup."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
