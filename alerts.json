@@ -64152,5 +64152,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "78221e31-3efb-11ef-b5f5-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "GOP jump-starts 2024 election challenges with Trump-inspired lawsuits in key swing states",
+            "ios": {
+                "alert": {
+                    "body": "GOP jump-starts 2024 election challenges with Trump-inspired lawsuits in key swing states",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/10/republican-trump-election-voting-lawsuits/",
+                        "datetime": "2024-07-10T20:32:04.202000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/10/republican-trump-election-voting-lawsuits/",
+                        "pushID": "668eefc414117c3500000003",
+                        "targetTopic": "politics",
+                        "text": "Republicans have moved to challenge voting procedures since presumptive nominee Donald Trump installed new leaders at the party's central committee. Democrats view the lawsuits as legally frivolous but still damaging to public confidence and a potential precursor to efforts to overturn the vote."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
