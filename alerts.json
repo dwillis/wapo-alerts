@@ -63907,5 +63907,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2a699df0-3ecc-11ef-9d5d-00000a1ace55",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A group of Republican women in Texas begged their party to back off on abortion. Then came the backlash.",
+            "ios": {
+                "alert": {
+                    "body": "A group of Republican women in Texas begged their party to back off on abortion. Then came the backlash.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/09/texas-abortion-republican-women/",
+                        "datetime": "2024-07-10T14:53:27.428000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668ea067c900223500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "The fight waged at the Texas Republican Convention highlights the deep divisions on abortion within the Republican Party as the GOP's national convention looms."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
