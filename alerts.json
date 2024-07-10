@@ -64103,5 +64103,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3119a100-3ee9-11ef-8915-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Severe thunderstorm watch issued for D.C. area until 10 p.m., with damaging winds possible. A break in the heat could follow.",
+            "ios": {
+                "alert": {
+                    "body": "Severe thunderstorm watch issued for D.C. area until 10 p.m., with damaging winds possible. A break in the heat could follow.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/10/dc-forecast-severe-storm-watch/",
+                        "datetime": "2024-07-10T18:21:14.120000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668ed11ac900223500000007",
+                        "targetTopic": "local",
+                        "text": "A line of storms is likely to approach the region around sunset and could contain damaging winds in addition to heavy rain and lightning. An isolated tornado cannot be ruled out. The storms and weak cold front passing will help lower the heat and humidity on Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
