@@ -64201,5 +64201,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7ebea5d0-3f03-11ef-ab29-00000a1ace9c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Extreme heat has killed at least 27 people in the U.S. in the past week. Experts say the true death toll is certain to rise.",
+            "ios": {
+                "alert": {
+                    "body": "Extreme heat has killed at least 27 people in the U.S. in the past week. Experts say the true death toll is certain to rise.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/07/10/heat-wave-us-death-toll/",
+                        "datetime": "2024-07-10T21:29:31.261000Z",
+                        "imageURL": "https://www.washingtonpost.com/climate-environment/2024/07/10/heat-wave-us-death-toll/",
+                        "pushID": "668efd3b14117c3500000004",
+                        "targetTopic": "us",
+                        "text": "The searing heat wave that has gripped much of the United States in recent days is suspected of killing dozens of people, according to state officials, medical examiners and media reports.\n\nMany of the deaths were in California and Oregon, but the actual number is difficult to track because of variations in how states and counties investigate fatalities."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
