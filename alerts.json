@@ -64740,5 +64740,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "733db9b0-3faa-11ef-8144-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel\u2019s military admits \u2018severe mistakes\u2019 in defending border kibbutz in first probe of Oct. 7 failings",
+            "ios": {
+                "alert": {
+                    "body": "Israel\u2019s military admits \u2018severe mistakes\u2019 in defending border kibbutz in first probe of Oct. 7 failings",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/11/israeli-military-says-it-failed-protect-gaza-border-town-oct-7/",
+                        "datetime": "2024-07-11T17:24:37.865000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669015559ddf943500000009",
+                        "targetTopic": "world",
+                        "text": "The results of an internal Israel Defense Forces investigation said its troops failed to protect residents of Kibbutz Beeri during the Hamas attack that killed as many as 1,200 people in Israel. Some army units waited outside as the massacre unfolded, the report said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c56e7c70-3fa9-11ef-9b98-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Tara: Waking up to pee often? It might be a different problem. We\u2019re taking your sleep questions.",
+            "ios": {
+                "alert": {
+                    "body": "Ask Tara: Waking up to pee often? It might be a different problem. We\u2019re taking your sleep questions.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/07/11/tara-parker-pope-advice-sleep/",
+                        "datetime": "2024-07-11T17:19:46.329000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669014329ddf943500000008",
+                        "targetTopic": "advice",
+                        "text": "Ask Tara: Waking up to pee often? It might be a different problem. We\u2019re taking your sleep questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
