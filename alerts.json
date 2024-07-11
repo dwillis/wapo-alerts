@@ -64397,5 +64397,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2e899490-3f1b-11ef-923c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Biden administration appears close to a Gaza cease-fire deal, a senior U.S. official tells David Ignatius",
+            "ios": {
+                "alert": {
+                    "body": "The Biden administration appears close to a Gaza cease-fire deal, a senior U.S. official tells David Ignatius",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/10/israel-hamas-gaza-ceasefire-agreement-within-reach/",
+                        "datetime": "2024-07-11T00:19:04.654000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668f24f885eef73500000008",
+                        "targetTopic": "opinions",
+                        "text": "U.S. officials say the framework of a three-stage deal is down to implementation details."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
