@@ -64544,5 +64544,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dbc7f320-3f81-11ef-a9fb-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Annual inflation eased further in June, widening the Fed\u2019s path to a rate cut",
+            "ios": {
+                "alert": {
+                    "body": "Annual inflation eased further in June, widening the Fed\u2019s path to a rate cut",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/07/11/cpi-inflation-fed/",
+                        "datetime": "2024-07-11T12:34:03.978000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668fd13b9ddf943500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "Inflation continues to trend downward from highs of two years ago, although some categories, including rent, have made slower progress. Fed watchers and financial markets are eyeing a potential cut in September."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
