@@ -64838,5 +64838,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "896c6750-3fb8-11ef-b5ce-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. has a plan to protect millions of workers from heat. Here\u2019s whom it would safeguard.",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. has a plan to protect millions of workers from heat. Here\u2019s whom it would safeguard.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/07/08/biden-heat-labor-rules-osha-map/",
+                        "datetime": "2024-07-11T19:05:28.071000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66902cf89ddf94350000000a",
+                        "targetTopic": "climate",
+                        "text": "Some 500,000 agricultural workers and 4.3 million construction workers nationwide could receive greater heat protections under a new OSHA proposal, according to a Washington Post analysis. The plan, which would require rest breaks for employees when the heat index tops 90 degrees, faces industry opposition, but it could be transformative for workers \u2014 especially in the South."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
