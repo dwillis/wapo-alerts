@@ -64888,5 +64888,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e4362de0-3fd3-11ef-91ec-00000a1ace25",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump seeks dismissal of N.Y. charges and conviction, citing Supreme Court\u2019s sweeping ruling on presidential immunity",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump seeks dismissal of N.Y. charges and conviction, citing Supreme Court\u2019s sweeping ruling on presidential immunity",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/07/11/trump-immunity-new-york-trial-dismiss/",
+                        "datetime": "2024-07-11T22:21:16.607000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66905adc9ddf94350000000b",
+                        "targetTopic": "politics",
+                        "text": "Trump is seeking to toss out the guilty verdict after the Supreme Court ruled that a president\u2019s official conduct cannot be used as evidence against him. In a court filing, Trump\u2019s lawyers said Trump\u2019s tweets and testimony from two White House aides should not have been allowed at his New York hush money trial, where he was convicted of 34 counts of falsifying business records in an attempt to impact the 2016 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
