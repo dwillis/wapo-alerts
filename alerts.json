@@ -64642,5 +64642,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "be0b50d0-3f9e-11ef-8f2f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is it controlling for boyfriend to ask not to be written about?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is it controlling for boyfriend to ask not to be written about?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/11/carolyn-hax-freelance-writer-boyfriend/",
+                        "datetime": "2024-07-11T16:00:49.499000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669001b19ddf943500000006",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is it controlling for boyfriend to ask not to be written about?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
