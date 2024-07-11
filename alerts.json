@@ -64446,5 +64446,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0daef550-3f78-11ef-9b0f-00000a1ace21",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Most Democrats want Biden to drop out, but overall presidential race is static, Post-ABC-Ipsos poll finds",
+            "ios": {
+                "alert": {
+                    "body": "Most Democrats want Biden to drop out, but overall presidential race is static, Post-ABC-Ipsos poll finds",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/11/poll-biden-drop-out-election/",
+                        "datetime": "2024-07-11T11:23:52.733000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "668fc0c89ddf943500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The Washington Post-ABC News-Ipsos poll finds that 56 percent of Democrats say that President Biden should end his candidacy, while 42 percent say he should continue to seek reelection. Biden and former president Donald Trump are in a dead heat in the contest for the popular vote, with both candidates receiving 46 percent support among registered voters. Those numbers are nearly identical to the results of an ABC-Ipsos poll in April."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bb083c10-3f74-11ef-a9db-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden campaign. Trump and NATO. Abortion rights. Gaza bombs. Heat deaths. Three Mile Island. \u2018Simpsons\u2019 joke. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Biden campaign. Trump and NATO. Abortion rights. Gaza bombs. Heat deaths. Three Mile Island. \u2018Simpsons\u2019 joke. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/11/what-to-know-for-july-11/?noredirect=1",
+                        "datetime": "2024-07-11T11:00:05.471000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "668fbb3585eef73500000009",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
