@@ -64691,5 +64691,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d3741760-3fa1-11ef-b069-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Shelley Duvall dies at 75. The versatile actress became a face of 1970s film and was chased by Jack Nicholson in \u2018The Shining.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Shelley Duvall dies at 75. The versatile actress became a face of 1970s film and was chased by Jack Nicholson in \u2018The Shining.\u2019",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/11/shelley-duvall-dead/",
+                        "datetime": "2024-07-11T16:22:53.914000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669006dd9ddf943500000007",
+                        "targetTopic": "entertainment",
+                        "text": "Duvall was among the most distinctive actresses to emerge out of the so-called New Hollywood era of the late 1960s and \u201970s, when directors were making personal, idiosyncratic films that ran counter to the old studio mold. Discovered by director Robert Altman at a party in Houston, she appeared in many of his acclaimed ensemble-driven movies, including \u201cBrewster McCloud,\u201d \u201cMcCabe & Mrs. Miller\u201d and \u201cNashville.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
