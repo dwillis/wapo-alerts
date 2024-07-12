@@ -65231,5 +65231,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ffe7f7e1-406d-11ef-a0c0-000a1aceb390",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is taking your questions now: My husband never wants to visit my family",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is taking your questions now: My husband never wants to visit my family",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/12/live-chat-carolyn-hax/",
+                        "datetime": "2024-07-12T16:44:25.817000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66915d697359643600000001",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is taking your questions now: My husband never wants to visit my family"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
