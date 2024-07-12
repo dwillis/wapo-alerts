@@ -65378,5 +65378,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aeeda460-4091-11ef-9bf6-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "OpenAI rushed through safety tests, undermining its White House AI pledge",
+            "ios": {
+                "alert": {
+                    "body": "OpenAI rushed through safety tests, undermining its White House AI pledge",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/12/openai-ai-safety-regulation-gpt4/",
+                        "datetime": "2024-07-12T20:59:51.853000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669199477359643600000004",
+                        "targetTopic": "technology",
+                        "text": "The start-up promised the White House it would rigorously safety-test new versions of its tech to make sure it wouldn\u2019t inflict damage. But this spring, some members of OpenAI\u2019s safety team felt pressured to speed through a new testing protocol, designed to prevent the technology from causing catastrophic harm, to meet a May launch date set by company leaders, according to three people familiar with the matter who spoke on the condition of anonymity for fear of retaliation. The previously unreported incident sheds light on the changing culture at OpenAI, where company leaders including CEO Sam Altman have been accused of prioritizing commercial interests over public safety \u2014 a stark departure from the company\u2019s roots as an altruistic nonprofit."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
