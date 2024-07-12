@@ -65329,5 +65329,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fec74b00-4080-11ef-8915-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge throws out Giuliani\u2019s bankruptcy case, making it easier for former election workers he defamed to try to seize his assets",
+            "ios": {
+                "alert": {
+                    "body": "Judge throws out Giuliani\u2019s bankruptcy case, making it easier for former election workers he defamed to try to seize his assets",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/12/rudy-giuliani-bankruptcy/",
+                        "datetime": "2024-07-12T19:00:24.289000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66917d487359643600000003",
+                        "targetTopic": "politics",
+                        "text": "A federal judge in New York threw out Rudy Giuliani\u2019s bankruptcy case and paved the way for a litany of creditors, including two former Georgia election workers who won a $148 million defamation claim against him, to pursue and potentially seize his assets. They and other creditors have accused the former New York mayor of using the proceedings to avoid paying."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
