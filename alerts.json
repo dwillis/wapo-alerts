@@ -64937,5 +64937,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "184a4ea0-3fdd-11ef-895b-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Biden holds a news conference amid rising calls within his party to drop out. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "President Biden holds a news conference amid rising calls within his party to drop out. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/11/election-2024-news-biden-press-conference-nato-summit/",
+                        "datetime": "2024-07-11T23:27:09.435000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66906a4d9ddf94350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "Two weeks after a disastrous performance in the first general-election debate that left Democratic officials, donors and voters with doubts about the president\u2019s ability to defeat Donald Trump and serve another term, Biden will take reporters\u2019 questions.\nAll eyes will be on how the president handles the unscripted question-and-answer session with reporters, as more lawmakers in recent days have called for him to leave the party\u2019s ticket."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
