@@ -65428,5 +65428,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cce00010-409d-11ef-92fd-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge dismisses Alec Baldwin\u2019s manslaughter case in 'Rust' shooting, saying prosecutors failed to provide defense with evidence",
+            "ios": {
+                "alert": {
+                    "body": "Judge dismisses Alec Baldwin\u2019s manslaughter case in 'Rust' shooting, saying prosecutors failed to provide defense with evidence",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/2024/07/12/baldwin-trial-dismissed/",
+                        "datetime": "2024-07-12T22:26:36.047000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6691ad9c1736883500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "The shocking dismissal came after defense lawyers claimed that investigators had improperly withheld potential evidence that would have helped Baldwin's defense in the 2021 fatal shooting of Halyna Hutchins on a film set."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
