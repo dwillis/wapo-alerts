@@ -65280,5 +65280,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8f9a9750-4071-11ef-849d-00000a1ace47",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hackers stole almost everyone\u2019s AT&T phone records. What should you do?",
+            "ios": {
+                "alert": {
+                    "body": "Hackers stole almost everyone\u2019s AT&T phone records. What should you do?",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/12/att-data-breach-hack-calls-texts-what-do/",
+                        "datetime": "2024-07-12T17:09:55.401000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669163637359643600000002",
+                        "targetTopic": "us",
+                        "text": "Here\u2019s what you need to know about AT&T\u2019s massive data breach."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
