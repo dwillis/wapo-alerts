@@ -65182,5 +65182,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5eecb460-405a-11ef-bae3-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Robert F. Kennedy Jr. sent text apologizing to woman who accused him of sexual assault",
+            "ios": {
+                "alert": {
+                    "body": "Robert F. Kennedy Jr. sent text apologizing to woman who accused him of sexual assault",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/12/rfk-sexual-assault-apology-eliza-cooney/",
+                        "datetime": "2024-07-12T14:23:55.239000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66913c7b14117c3500000009",
+                        "targetTopic": "politics",
+                        "text": "Eliza Cooney called the unsolicited late-night message from Kennedy \u201cdisingenuous and arrogant.\u201d In a message that Cooney shared with The Washington Post, the independent presidential candidate told Cooney that he did not recall the incident but that any harm he caused was \u201cinadvertent.\u201d Cooney has described inappropriate behavior and sexual advances from Kennedy when she worked as his family\u2019s weekend nanny in the late 1990s, including an incident in which Kennedy approached her from behind and allegedly groped her in a pantry."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
