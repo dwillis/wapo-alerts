@@ -65084,5 +65084,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c35f66c0-4052-11ef-bdde-0000a1acebc1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-12T13:29:27.824000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66912fb714117c3500000008",
+                        "targetTopic": "news_quiz",
+                        "text": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e3caa4f0-404e-11ef-9fdd-00000a1acef7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Watch live: Post journalists join expanded edition of \u2018First Look\u2019 with Jonathan Capehart to discuss 2024 election",
+            "ios": {
+                "alert": {
+                    "body": "Watch live: Post journalists join expanded edition of \u2018First Look\u2019 with Jonathan Capehart to discuss 2024 election",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/washington-post-live/2024/07/12/first-look-with-posts-jonathan-capehart/",
+                        "datetime": "2024-07-12T13:01:43.917000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6691293714117c3500000007",
+                        "targetTopic": "politics",
+                        "text": "Washington Post reporters and columnists discuss President Biden\u2019s make-or-break stretch in his 2024 campaign, the countdown to the Republican National Convention in Milwaukee, the pending announcement of Donald Trump\u2019s running mate and more."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
