@@ -65821,5 +65821,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9fb15d20-4168-11ef-b9bb-0000a1aceb56",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump rushed offstage after loud noises heard at rally in Pennsylvania",
+            "ios": {
+                "alert": {
+                    "body": "Trump rushed offstage after loud noises heard at rally in Pennsylvania",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "datetime": "2024-07-13T22:38:27.568000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "pushID": "669301e3947f0c3500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "Former president Donald Trump was escorted away from an event in Butler, Pa., about 30 miles north of Pittsburgh, after loud noises were heard at the rally."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
