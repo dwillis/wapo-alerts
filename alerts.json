@@ -65575,5 +65575,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b79c3d81-4125-11ef-a22c-00000a1ace54",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ruth Westheimer dies at 96. The sex therapist was known to millions as \u2018Dr. Ruth.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Ruth Westheimer dies at 96. The sex therapist was known to millions as \u2018Dr. Ruth.\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/13/dr-ruth-westheimer-sex-dead/",
+                        "datetime": "2024-07-13T14:39:31.866000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669291a38ad3673500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "Westheimer was over 50 when she debuted on New York radio in the 1980s to explain, in straightforward fashion, the ways of making love. A child survivor of the Holocaust, she once said that \u201cbecause I was not killed by the Nazis \u2014 because I survived \u2014 I had an obligation to make a dent in the world.\u201d Her mix of candor and can-do cheer made her a popular guest on late-night talk shows."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bcfe2340-4122-11ef-b5f2-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In small-town Oklahoma, a mother worries about feeding her kids after GOP governor turns down millions in summer aid",
+            "ios": {
+                "alert": {
+                    "body": "In small-town Oklahoma, a mother worries about feeding her kids after GOP governor turns down millions in summer aid",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/12/federal-funding-children-food-program-rejected/",
+                        "datetime": "2024-07-13T14:18:12.477000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66928ca48ad3673500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Tabitha Shinn calculates down to the penny for groceries for her three teens but still must rely on giveaways from a food pantry to make it through the month. Even so, there are days when the refrigerator is almost bare."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
