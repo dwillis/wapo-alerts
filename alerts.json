@@ -65477,5 +65477,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "985803e1-410d-11ef-b4e7-0000a1ace325",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel targeted Hamas\u2019s military leader in a strike in southern Gaza. At least 71 were killed, health officials there said.",
+            "ios": {
+                "alert": {
+                    "body": "Israel targeted Hamas\u2019s military leader in a strike in southern Gaza. At least 71 were killed, health officials there said.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/13/israel-hamas-war-news-gaza-deif-mawasi/",
+                        "datetime": "2024-07-13T11:46:51.485000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6692692b8ad3673500000001",
+                        "targetTopic": "world",
+                        "text": "It was unclear whether the strike killed Mohammed Deif, who is considered one of the main architects of the Oct. 7 attack on Israel. The Gaza Health Ministry said the strike on Mawasi was a \u201cmassacre\u201d that also left hundreds injured."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
