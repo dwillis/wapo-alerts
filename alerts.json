@@ -66311,5 +66311,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "866e0a51-41fb-11ef-9654-0000a1ace02f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+            "ios": {
+                "alert": {
+                    "body": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-14T16:10:01.638000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6693f859947f0c350000000b",
+                        "targetTopic": "news_quiz",
+                        "text": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
