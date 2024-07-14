@@ -66409,5 +66409,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4d761830-421b-11ef-9588-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It could feel like 110 degrees in the D.C. area on Monday. Officials have issued an excessive-heat warning.",
+            "ios": {
+                "alert": {
+                    "body": "It could feel like 110 degrees in the D.C. area on Monday. Officials have issued an excessive-heat warning.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/14/pm-update-couple-storms-possible-into-early-evening-near-100-degrees-monday-may-feel-near-110/",
+                        "datetime": "2024-07-14T19:57:29.986000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66942da9947f0c350000000d",
+                        "targetTopic": "local",
+                        "text": "Highs are forecast to reach 100 or so but heat indexes, factoring in humidity, will near 110. Tuesday could be just as hot, and an excessive-heat watch is in effect."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
