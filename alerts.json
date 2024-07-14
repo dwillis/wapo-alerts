@@ -66213,5 +66213,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47424e30-41f7-11ef-a9ca-00000a1ace58",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carlos Alcaraz wins Wimbledon men\u2019s singles title, beating Novak Djokovic in the final for the second straight year",
+            "ios": {
+                "alert": {
+                    "body": "Carlos Alcaraz wins Wimbledon men\u2019s singles title, beating Novak Djokovic in the final for the second straight year",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/07/14/wimbledon-score-live-updates/",
+                        "datetime": "2024-07-14T15:39:37.695000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6693f139947f0c350000000a",
+                        "targetTopic": "sports",
+                        "text": "Alcaraz, a 21-year-old from Spain, beat Djokovic on Sunday at the All England Club for his second Wimbledon title and his fourth Grand Slam championship overall.\nDjokovic, 37, was playing for a record-tying eighth Wimbledon men\u2019s singles title and a 25th Grand Slam singles title that would have given him the most of any player in any era."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bf66c853-41f2-11ef-bde2-00000a1ace8d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Witnesses describe chaos, fear at Trump rally shooting: \u2018Oh my god, they got Trump\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Witnesses describe chaos, fear at Trump rally shooting: \u2018Oh my god, they got Trump\u2019",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/14/trump-shooting-rally-attendees-witnesses/",
+                        "datetime": "2024-07-14T15:07:11.750000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6693e99f947f0c3500000009",
+                        "targetTopic": "editors_picks",
+                        "text": "For those who had been waiting hours in the heat on Saturday in Butler, Pa., to hear Donald Trump speak, elation turned instantly to disbelief, horror, terror and anger after a sniper opened fire. They struggled in real time to comprehend what millions would soon grapple with from afar \u2014 a brazen attack on a former president and presumed GOP nominee."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
