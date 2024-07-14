@@ -66360,5 +66360,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ac660240-4209-11ef-bfd5-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Explosive material found in Trump rally shooter\u2019s car. Biden expected to speak on attempted assassination soon. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Explosive material found in Trump rally shooter\u2019s car. Biden expected to speak on attempted assassination soon. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/14/trump-shooting-news-thomas-matthew-crooks-investigation/",
+                        "datetime": "2024-07-14T17:51:18.335000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66941016947f0c350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "Pennsylvania Gov. Josh Shapiro (D) identified the person killed during Saturday\u2019s rally as Corey Comperatore, saying he died \u201cprotecting his family.\u201d And former president Donald Trump on Sunday urged Americans to \u201cstand united\u201d after the shooting at the Pennsylvania rally."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
