@@ -65870,5 +65870,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b1a6e730-4171-11ef-92fd-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Two dead, including apparent shooter, after gunfire broke out at Trump\u2019s rally, an official said",
+            "ios": {
+                "alert": {
+                    "body": "Two dead, including apparent shooter, after gunfire broke out at Trump\u2019s rally, an official said",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "datetime": "2024-07-13T23:43:23.651000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "pushID": "6693111b947f0c3500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "President Biden has received an initial briefing on the incident, according to the White House."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ebf9e130-416c-11ef-b9bb-0000a1aceb56",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump is \u2018fine\u2019 after being rushed away from a rally when loud noises were heard, spokesperson says",
+            "ios": {
+                "alert": {
+                    "body": "Trump is \u2018fine\u2019 after being rushed away from a rally when loud noises were heard, spokesperson says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "datetime": "2024-07-13T23:09:13.852000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "pushID": "66930919947f0c3500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The former president is \"being checked out at a local medical facility,\" according to Steven Cheung, Trump's spokesperson."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
