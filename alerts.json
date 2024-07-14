@@ -65968,5 +65968,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ece4b130-417e-11ef-a614-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says bullet hit his ear during Pa. rally. Secret Service confirms one spectator dead and two injured.",
+            "ios": {
+                "alert": {
+                    "body": "Trump says bullet hit his ear during Pa. rally. Secret Service confirms one spectator dead and two injured.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "datetime": "2024-07-14T01:18:06.412000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "pushID": "6693274e947f0c3500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "Secret Service confirms one attendee dead, two injured and shooter was killed. Trump extended his condolences to the family of the victim shot and killed at Pa. rally."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f93cea40-4176-11ef-b8ac-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Shooting at Trump rally being investigated as assassination attempt, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Shooting at Trump rally being investigated as assassination attempt, officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "datetime": "2024-07-14T00:21:11.145000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/13/2024-election-campaign-updates-biden-trump-rally/",
+                        "pushID": "669319f7947f0c3500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The FBI, Secret Service and ATF are working on the case, according to two people familiar with the matter, who spoke on the condition of anonymity to discuss it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
