@@ -66458,5 +66458,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "60e6f7a0-4224-11ef-bde2-00000a1ace8d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Spain wins European Championship, beating England, 2-1, for its third title since 2008",
+            "ios": {
+                "alert": {
+                    "body": "Spain wins European Championship, beating England, 2-1, for its third title since 2008",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/07/14/spain-england-euro-2024-live-harry-kane-nico-williams/",
+                        "datetime": "2024-07-14T21:02:28.109000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66943ce4947f0c350000000e",
+                        "targetTopic": "sports",
+                        "text": "La Roja finished a dominant run Sunday in Berlin, claiming its fourth continental championship in its fifth title-game appearance and denying England its first major trophy since the 1966 World Cup."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
