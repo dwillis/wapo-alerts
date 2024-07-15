@@ -66997,5 +66997,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4f9bbba0-42fd-11ef-9255-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republicans kick off their convention just days after the assassination attempt against Donald Trump. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Republicans kick off their convention just days after the assassination attempt against Donald Trump. Follow our live coverage.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/15/republican-national-convention-trump-biden-2024-election-campaign-updates/",
+                        "datetime": "2024-07-15T22:55:19.838000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6695a8d77c37e93500000005",
+                        "targetTopic": "politics",
+                        "text": "Convening in Milwaukee, the party adopted a new platform earlier Monday, while Trump announced J.D. Vance as his running mate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "94817750-42f8-11ef-8d27-00000a1aceb6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Witnesses warned police of Trump shooter at least 86 seconds before gunfire, video shows",
+            "ios": {
+                "alert": {
+                    "body": "Witnesses warned police of Trump shooter at least 86 seconds before gunfire, video shows",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/07/15/trump-rally-shooting-witness-warning/",
+                        "datetime": "2024-07-15T22:21:27.931000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6695a0e77c37e93500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "A Post analysis of the newly surfaced video backs up reports from other witnesses, who have said they tried to alert police before shots rang out. Growing evidence that law enforcement was made aware of the shooter before he opened fire has put the Secret Service under pressure to explain what analysts have described as a major security failure."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
