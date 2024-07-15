@@ -66801,5 +66801,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "55918a80-42da-11ef-a669-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republicans at convention approve new platform without long-held positions on abortion and same-sex marriage",
+            "ios": {
+                "alert": {
+                    "body": "Republicans at convention approve new platform without long-held positions on abortion and same-sex marriage",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/15/republican-party-platform-trum-abortion/",
+                        "datetime": "2024-07-15T18:44:57.504000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66956e297c37e93500000001",
+                        "targetTopic": "politics",
+                        "text": "Antiabortion activists had wanted to explicitly call for a constitutional amendment to give embryos or fetuses legal rights."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
