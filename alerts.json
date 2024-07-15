@@ -66948,5 +66948,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "07ed9750-42e5-11ef-9843-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rifle used by Trump rally shooter was bought 11 years ago, person familiar says",
+            "ios": {
+                "alert": {
+                    "body": "Rifle used by Trump rally shooter was bought 11 years ago, person familiar says",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/15/thomas-crooks-trump-assassination-investigation/",
+                        "datetime": "2024-07-15T20:01:31.580000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6695801b7c37e93500000003",
+                        "targetTopic": "us",
+                        "text": "Thomas Matthew Crooks, who fired shots at former president Donald Trump at a rally in Butler, Pa., Saturday evening, used a rifle legally purchased by his father in 2013, said a person familiar with the investigation, speaking on the condition of anonymity to share details that have not been made public. Crooks, who was shot dead by the Secret Service after opening fire, bought 50 rounds of ammunition at a local gun shop Saturday morning, this person said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
