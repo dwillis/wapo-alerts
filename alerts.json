@@ -66752,5 +66752,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "318cf7c1-42c4-11ef-a9bd-0000a1aceb03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Spouse takes over as class parent for husband who dropped the ball",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Spouse takes over as class parent for husband who dropped the ball",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/15/carolyn-hax-class-parent-husband-fails/",
+                        "datetime": "2024-07-15T16:06:28.142000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66954904947f0c3500000012",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Spouse takes over as class parent for husband who dropped the ball"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
