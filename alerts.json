@@ -66507,5 +66507,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d9218110-423b-11ef-9588-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "America\u2019s close call: Seven columnists respond to the attempt on former president Donald Trump\u2019s life \u2014 and its aftermath.",
+            "ios": {
+                "alert": {
+                    "body": "America\u2019s close call: Seven columnists respond to the attempt on former president Donald Trump\u2019s life \u2014 and its aftermath.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/14/trump-shooting-unity-opinions/",
+                        "datetime": "2024-07-14T23:50:27.897000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669464431736883500000002",
+                        "targetTopic": "opinions",
+                        "text": "Seven columnists respond to the attempt on former president Donald Trump\u2019s life \u2014 and its aftermath."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2bf329a0-4239-11ef-be0b-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Biden is set to speak from the Oval Office at 8 p.m. ET. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "President Biden is set to speak from the Oval Office at 8 p.m. ET. Follow our live coverage.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/14/trump-shooting-news-thomas-matthew-crooks-investigation/",
+                        "datetime": "2024-07-14T23:31:18.532000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66945fc6947f0c350000000f",
+                        "targetTopic": "politics",
+                        "text": "The president said earlier on Sunday that he was directing an \u201cindependent review of the national security\u201d at Saturday\u2019s Trump rally to assess exactly what happened in the shooting that left one attendee dead and two injured."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
