@@ -66703,5 +66703,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f5021120-42b2-11ef-8c38-000a1acedf4d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge dismisses classified documents case against Trump",
+            "ios": {
+                "alert": {
+                    "body": "Judge dismisses classified documents case against Trump",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/07/15/trump-classified-trial-dismisssed-cannon/",
+                        "datetime": "2024-07-15T14:03:05.111000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66952c19947f0c3500000011",
+                        "targetTopic": "breaking-news",
+                        "text": "Aileen Cannon, the federal judge overseeing the classified documents charges against former president Donald Trump, has dismissed the indictment on the grounds that special counsel Jack Smith was improperly appointed, according to a new court filing Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
