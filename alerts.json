@@ -67340,5 +67340,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d7a7e4a0-4394-11ef-b06c-0000a1ace647",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Bob Menendez (D-N.J.) found guilty in federal bribery and corruption trial in Manhattan",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Bob Menendez (D-N.J.) found guilty in federal bribery and corruption trial in Manhattan",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/07/16/bob-menendez-convicted-trial-bribery/",
+                        "datetime": "2024-07-16T17:00:02.091000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6696a712947f0c3500000015",
+                        "targetTopic": "breaking-news",
+                        "text": "Menendez had been accused of accepting gold bars, a Mercedes-Benz convertible and other bribes from businessmen with ties to the governments of Egypt and Qatar, as well as trying to derail criminal investigations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
