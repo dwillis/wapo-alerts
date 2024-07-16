@@ -67095,5 +67095,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0d1972f0-4324-11ef-8f10-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump made an emotional entrance at the GOP convention, seizing his moment after an assassination attempt and a string of wins",
+            "ios": {
+                "alert": {
+                    "body": "Trump made an emotional entrance at the GOP convention, seizing his moment after an assassination attempt and a string of wins",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/15/trump-rnc-appearance-rally-shooting/",
+                        "datetime": "2024-07-16T03:32:38.666000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6695e9d68ad3673500000009",
+                        "targetTopic": "breaking-news",
+                        "text": "Donald Trump\u2019s appearance at the Republican National Convention in Milwaukee was a fitting culmination to a two-and-a-half-week stretch during which the former president survived an attempt on his life \u2014 and scored crucial victories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5bf62580-431f-11ef-a8d5-00000a1ace52",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Los Angeles Dodgers outfielder Teoscar Hern\u00e1ndez wins Home Run Derby in Texas",
+            "ios": {
+                "alert": {
+                    "body": "Los Angeles Dodgers outfielder Teoscar Hern\u00e1ndez wins Home Run Derby in Texas",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/07/15/home-run-derby-live-results-updates-winner-mlb/",
+                        "datetime": "2024-07-16T02:59:03.326000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6695e1f78ad3673500000008",
+                        "targetTopic": "sports",
+                        "text": "The 31-year-old Hern\u00e1ndez beat Kansas City Royals shortstop Bobby Witt Jr. in the final Monday night at Globe Life Field in Arlington, Tex., to win this year\u2019s event. He has 19 home runs this season. The All-Star Game is Tuesday night."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
