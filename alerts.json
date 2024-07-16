@@ -67586,5 +67586,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c5d9300-43b9-11ef-8cd8-0000a1aced38",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden set to announce support for major changes to the Supreme Court",
+            "ios": {
+                "alert": {
+                    "body": "Biden set to announce support for major changes to the Supreme Court",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/16/biden-supreme-court-reforms/",
+                        "datetime": "2024-07-16T21:19:39.303000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6696e3ebbb2dd13500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The plans include proposals for legislation to establish term limits for the justices and an enforceable ethics code. President Biden, who has long resisted such revisions, and other Democrats have been outraged by a wave of sharply conservative rulings from the high court, including a decision this month granting presidential immunity from prosecution for official acts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b0bb3630-43b7-11ef-b892-0000a1ace8f0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. security officials recently learned of Iranian threat against Trump, apparently unrelated to rally shooting",
+            "ios": {
+                "alert": {
+                    "body": "U.S. security officials recently learned of Iranian threat against Trump, apparently unrelated to rally shooting",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/16/iran-trump-threat-secret-service/",
+                        "datetime": "2024-07-16T21:09:29.181000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6696e189bb2dd13500000003",
+                        "targetTopic": "world",
+                        "text": "The Biden administration warned the Secret Service and the former president's security detail about an unspecified threat before Saturday\u2019s shooting, according to a national security official, who spoke on the condition of anonymity to discuss security decisions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
