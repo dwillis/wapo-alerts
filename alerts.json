@@ -67193,5 +67193,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8ccf5a30-4362-11ef-97f5-00000a1ace6b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bandaged Trump. Rally shooting. Aileen Cannon. Brutal heat. Prime Day. Longer days. Extinct butterfly. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Bandaged Trump. Rally shooting. Aileen Cannon. Brutal heat. Prime Day. Longer days. Extinct butterfly. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/16/what-to-know-for-july-16/?noredirect=1",
+                        "datetime": "2024-07-16T11:00:01.733000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "669652b17c37e93500000006",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
