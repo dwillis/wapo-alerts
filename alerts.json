@@ -67488,5 +67488,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3dc9cdd0-43b2-11ef-9bd0-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. J.D. Vance says wife Usha Vance is \u2018brilliant.\u2019 Here's what to know about the potential next second lady.",
+            "ios": {
+                "alert": {
+                    "body": "Sen. J.D. Vance says wife Usha Vance is \u2018brilliant.\u2019 Here's what to know about the potential next second lady.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/16/usha-vance-jd-vance-wife/",
+                        "datetime": "2024-07-16T20:30:28.802000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6696d864bb2dd13500000002",
+                        "targetTopic": "politics",
+                        "text": "The lawyer and mother of three could add second lady to her list of titles if Donald Trump is elected in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d7d18350-43ad-11ef-b892-0000a1ace8f0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. ties a temperature high of 104 set in 1988 for the calendar day amid its most intense heat wave since the Dust Bowl",
+            "ios": {
+                "alert": {
+                    "body": "D.C. ties a temperature high of 104 set in 1988 for the calendar day amid its most intense heat wave since the Dust Bowl",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/16/dc-heat-100-record-high-temperatures/",
+                        "datetime": "2024-07-16T19:58:59.779000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6696d103bb2dd13500000001",
+                        "targetTopic": "local",
+                        "text": "It is the District's highest temperature since July 2012. It's the third straight day above 100, matching the longest such streak since 1930. One more day of extreme heat is expected on Wednesday before some relief."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
