@@ -67242,5 +67242,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a2972b80-4377-11ef-a8b6-00000a1ace7c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Their cup of woes runneth over in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Their cup of woes runneth over in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-16T13:30:57.715000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66967611947f0c3500000013",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
