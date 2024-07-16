@@ -67291,5 +67291,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c48eccb0-438c-11ef-aa51-000a1ace43c3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: 20-year-old listens to racist rapper. Should his parent speak up?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: 20-year-old listens to racist rapper. Should his parent speak up?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/16/carolyn-hax-son-disturbing-music/",
+                        "datetime": "2024-07-16T16:02:14.047000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66969986947f0c3500000014",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: 20-year-old listens to racist rapper. Should his parent speak up?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
