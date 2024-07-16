@@ -67389,5 +67389,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c872ff31-43a1-11ef-86b3-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Schumer, N.J. Gov. Murphy lead calls for Sen. Menendez to resign following his guilty verdict in bribery case",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Schumer, N.J. Gov. Murphy lead calls for Sen. Menendez to resign following his guilty verdict in bribery case",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/16/menendez-guilty-verdict-reactions-corruption-trial/",
+                        "datetime": "2024-07-16T18:32:39.903000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6696bcc77c37e93500000007",
+                        "targetTopic": "politics",
+                        "text": "Senate Majority Leader Charles E. Schumer (D-N.Y.) and New Jersey Gov. Phil Murphy (D) issued swift calls for Sen. Bob Menendez (D-N.J.) to step aside after he was convicted of taking bribes from three businessmen who showered him and his wife with cash, gold bars and a Mercedes-Benz. \u201cSenator Menendez must now do what is right for his constituents,\u201d Schumer said in a statement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
