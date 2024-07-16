@@ -67438,5 +67438,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd8524d0-43a5-11ef-a0d4-00000a1ace40",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s allies are planning a series of artificial intelligence \u2018Manhattan Projects\u2019 to develop military technology",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s allies are planning a series of artificial intelligence \u2018Manhattan Projects\u2019 to develop military technology",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/16/trump-ai-executive-order-regulations-military/",
+                        "datetime": "2024-07-16T19:01:53.432000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6696c3a17c37e93500000008",
+                        "targetTopic": "technology",
+                        "text": "The framework would also lift \"burdensome regulations\" and create \u201cindustry-led\u201d agencies to evaluate AI models and secure systems from foreign adversaries, according to a copy of the document viewed exclusively by The Washington Post. It presents a markedly different strategy for the booming sector than that of the Biden administration."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
