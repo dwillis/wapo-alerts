@@ -68076,5 +68076,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5b030e40-4464-11ef-a213-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Adam Schiff (D-Calif.) calls on Biden to drop out of the presidential race, questioning his ability to beat Trump",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Adam Schiff (D-Calif.) calls on Biden to drop out of the presidential race, questioning his ability to beat Trump",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/17/adam-schiff-biden-drop-out/",
+                        "datetime": "2024-07-17T17:45:28.283000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669803384c3a4b3500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Schiff, who is heavily favored to win a Senate seat in November, is among the highest-profile members of his party urging President Biden to abandon his bid. Schiff said he believes it is time for Biden \u201cto pass the torch.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c5d817b0-445f-11ef-845f-00000a1ace65",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The sleeper hit of Emmy nominations was \u2018The Morning Show.\u2019 See the list.",
+            "ios": {
+                "alert": {
+                    "body": "The sleeper hit of Emmy nominations was \u2018The Morning Show.\u2019 See the list.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/tv/2024/07/17/emmy-nominations-2024-full-list/",
+                        "datetime": "2024-07-17T17:12:40.080000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6697fb884c3a4b3500000005",
+                        "targetTopic": "entertainment",
+                        "text": "The 76th Emmy Awards cover shows aired between June 1, 2023, and May 31, 2024. The ceremony will be held Sept. 15."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
