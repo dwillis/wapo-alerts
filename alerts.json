@@ -67831,5 +67831,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b3d57cd0-442b-11ef-92fd-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nikki Haley. Rally shooting response. Supreme Court. Bob Menendez. Elon Musk. Amazon tribe. Rare whale. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Nikki Haley. Rally shooting response. Supreme Court. Bob Menendez. Elon Musk. Amazon tribe. Rare whale. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/17/what-to-know-for-july-17/?noredirect=1",
+                        "datetime": "2024-07-17T10:59:56.051000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/07-17-2024/t_cffd2b2c167e4272aef86a8c6774e1c3_name_Haley.jpg&w=1440",
+                        "pushID": "6697a42c947f0c3500000016",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
