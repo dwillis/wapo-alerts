@@ -68370,5 +68370,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fa833360-448b-11ef-87c7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden tests positive for covid while campaigning in Las Vegas, is experiencing \u2018mild symptoms,\u2019 according to White House",
+            "ios": {
+                "alert": {
+                    "body": "Biden tests positive for covid while campaigning in Las Vegas, is experiencing \u2018mild symptoms,\u2019 according to White House",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/17/republican-national-convention-jd-vance-trump-biden-election/",
+                        "datetime": "2024-07-17T22:29:04.685000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669845b0bb2dd1350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "The president, 81, will return to his home in Rehoboth Beach, Del., to isolate, White House press secretary Karine Jean-Pierre said in a statement. Biden\u2019s doctor said the president has received his first dose of Paxlovid and is experiencing a runny nose, cough and \u201cgeneral mailaise,\u201d according to the White House."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
