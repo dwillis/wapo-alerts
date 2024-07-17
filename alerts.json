@@ -67684,5 +67684,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47cfd9b0-43cf-11ef-b892-0000a1ace8f0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Obstructed view may have delayed Secret Service sniper response at Trump rally, according to a 3D analysis by The Washington Post",
+            "ios": {
+                "alert": {
+                    "body": "Obstructed view may have delayed Secret Service sniper response at Trump rally, according to a 3D analysis by The Washington Post",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2024/trump-rally-shooting-maps-secret-service-analysis/",
+                        "datetime": "2024-07-16T23:58:21.105000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6697091dbb2dd13500000006",
+                        "targetTopic": "editors_picks",
+                        "text": "The analysis found two countersniper teams likely faced difficulty seeing the gunman before he fired. The examination, based on more than 40 videos and photos, established that the units may have been hampered by the slant of the roof where the shooter was positioned."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3311c451-43c7-11ef-aa8c-0000a1ace335",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nikki Haley, Ron DeSantis scheduled to speak on second night of Republican convention. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Nikki Haley, Ron DeSantis scheduled to speak on second night of Republican convention. Follow our live coverage.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/16/republican-national-convention-trump-biden-2024-election-updates/",
+                        "datetime": "2024-07-16T23:00:30.362000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6696fb8ebb2dd13500000005",
+                        "targetTopic": "politics",
+                        "text": "The former U.N. ambassador and the Florida governor, who each challenged Donald Trump for the Republican nomination, are expected to give speeches in support of the newly minted ticket a day after the former president selected Sen. J.D. Vance (R-Ohio) to be his running mate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
