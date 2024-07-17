@@ -67782,5 +67782,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd8f68f0-43f0-11ef-89c5-000a1ace4bbc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: Trump\u2019s former rivals make the case for him, and other takeaways from Day 2 of the GOP convention",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: Trump\u2019s former rivals make the case for him, and other takeaways from Day 2 of the GOP convention",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/16/rnc-day-2-takeaways-nikki-haley-ron-desantis/",
+                        "datetime": "2024-07-17T03:58:45.728000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66974175bb2dd13500000007",
+                        "targetTopic": "politics",
+                        "text": "Seventy-two hours after the attempted assassination, Republicans returned to their ominous and combative posture as they went hard after Democrats."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
