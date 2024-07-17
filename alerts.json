@@ -68223,5 +68223,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a388b590-4476-11ef-a238-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Severe thunderstorm watch issued for D.C. area as highs reach the triple digits for record fourth straight day",
+            "ios": {
+                "alert": {
+                    "body": "Severe thunderstorm watch issued for D.C. area as highs reach the triple digits for record fourth straight day",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/17/dc-md-va-heat-wave-storms/",
+                        "datetime": "2024-07-17T19:56:20.922000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669821e4bb2dd1350000000a",
+                        "targetTopic": "local",
+                        "text": "Storms could contain damaging winds, lightning and torrential rain, while putting an end to the historic heat wave. Temperatures have reached at least 100 daily since Sunday, making this only the third time there have been four consecutive highs at or above the century mark."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "71647690-4470-11ef-8147-0000a1ace142",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. ends its troubled Gaza pier mission, shifts humanitarian operation to Israeli port, officials say",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. ends its troubled Gaza pier mission, shifts humanitarian operation to Israeli port, officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/07/17/gaza-pier-mission-ends-pentagon-israel/",
+                        "datetime": "2024-07-17T19:11:59.801000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6698177fbb2dd13500000009",
+                        "targetTopic": "world",
+                        "text": "The project was beset by challenges from almost the moment President Biden announced it months ago. Though U.S. officials say the floating structure enabled delivery of millions of pounds of food, aid groups in Gaza were reluctant to distribute much of it, citing safety concerns amid Israel\u2019s ongoing war with Hamas."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
