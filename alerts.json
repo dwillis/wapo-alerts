@@ -68321,5 +68321,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "16c55e21-4484-11ef-845f-00000a1ace65",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "LGBTQ flags and quinoa: Here\u2019s the liberal Va. enclave where Trump\u2019s VP pick J.D. Vance lives",
+            "ios": {
+                "alert": {
+                    "body": "LGBTQ flags and quinoa: Here\u2019s the liberal Va. enclave where Trump\u2019s VP pick J.D. Vance lives",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/07/16/jd-vance-alexandria-home/",
+                        "datetime": "2024-07-17T21:32:37.708000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66983875bb2dd1350000000b",
+                        "targetTopic": "local",
+                        "text": "Vance, an arch conservative and a self-professed Trump acolyte, lives in the Del Ray neighborhood of Alexandria, which went for Joe Biden by more than 80 percent in 2020. His neighbors aren't thrilled."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
