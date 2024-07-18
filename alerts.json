@@ -68468,5 +68468,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "66daa700-449b-11ef-9fd5-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democratic leaders Hakeem Jeffries and Charles E. Schumer told Biden his candidacy imperils the party\u2019s ability to win Congress",
+            "ios": {
+                "alert": {
+                    "body": "Democratic leaders Hakeem Jeffries and Charles E. Schumer told Biden his candidacy imperils the party\u2019s ability to win Congress",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/17/jeffries-schumer-biden-hurting-democrats/",
+                        "datetime": "2024-07-18T00:19:30.493000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66985f92bb2dd1350000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "In their separate meetings with the president last week, each congressional leader discussed their members\u2019 concerns that he could deprive them of congressional majorities, giving Republicans a much easier path to push through legislation, according to four people briefed on the meetings who spoke on the condition of anonymity to describe private encounters."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
