@@ -68762,5 +68762,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "18a7ff91-452e-11ef-b587-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jason Wright, first Black team president in NFL history, to leave Commanders by end of season",
+            "ios": {
+                "alert": {
+                    "body": "Jason Wright, first Black team president in NFL history, to leave Commanders by end of season",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/07/18/jason-wright-leaves-commanders/",
+                        "datetime": "2024-07-18T17:49:35.309000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669955af4c3a4b350000000c",
+                        "targetTopic": "local",
+                        "text": "Wright, who will assume the title of senior adviser while the search for a new team president begins, was often the face of the organization as it attempted to change its workplace culture after allegations of widespread sexual harassment and verbal abuse. \u201cThis feels like the right moment for me to explore my next leadership opportunity,\u201d Wright said in a statement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d6fdfd00-4529-11ef-b260-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Is it weird to talk to your dog like a toddler? Chat with us all about your pets.",
+            "ios": {
+                "alert": {
+                    "body": "Is it weird to talk to your dog like a toddler? Chat with us all about your pets.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/07/18/tara-parker-pope-advice/",
+                        "datetime": "2024-07-18T17:19:07.162000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66994e8b4c3a4b350000000b",
+                        "targetTopic": "advice",
+                        "text": "Is it weird to talk to your dog like a toddler? Chat with us all about your pets."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
