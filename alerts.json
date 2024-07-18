@@ -68517,5 +68517,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5eacfcd0-44fb-11ef-92fd-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Francis Ford Coppola, Bonnie Raitt and the Grateful Dead are among this year\u2019s Kennedy Center honorees",
+            "ios": {
+                "alert": {
+                    "body": "Francis Ford Coppola, Bonnie Raitt and the Grateful Dead are among this year\u2019s Kennedy Center honorees",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/2024/07/18/kennedy-center-honors-coppola-raitt-grateful-dead/",
+                        "datetime": "2024-07-18T11:46:28.456000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669900944c3a4b3500000007",
+                        "targetTopic": "entertainment",
+                        "text": "The Kennedy Center will also honor the historic Apollo theater along with celebrated Cuban American trumpeter and composer Arturo Sandoval in a ceremony on Dec. 8. The 47th edition of the Kennedy Center Honors will be broadcast Dec. 23 on CBS."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e1b502a1-44f4-11ef-b32d-000a1ace7857",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "J.D. Vance. Biden crisis. Secret Service. Drug kingpin. Emmys. Paris Olympics. Pompeii skeletons. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "J.D. Vance. Biden crisis. Secret Service. Drug kingpin. Emmys. Paris Olympics. Pompeii skeletons. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/18/what-to-know-for-july-18/?noredirect=1",
+                        "datetime": "2024-07-18T11:00:01.852000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6698f5b17c37e93500000009",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
