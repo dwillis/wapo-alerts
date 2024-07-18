@@ -68664,5 +68664,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c2e53a40-451f-11ef-8e5a-000a1ace3c80",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Obama tells allies Biden needs to seriously consider his viability to win reelection, according to people briefed on the matter",
+            "ios": {
+                "alert": {
+                    "body": "Obama tells allies Biden needs to seriously consider his viability to win reelection, according to people briefed on the matter",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/18/obama-says-biden-must-consider-viability/",
+                        "datetime": "2024-07-18T16:06:58.376000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66993da24c3a4b350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Former president Barack Obama has spoken with President Biden only once since the debate, and he has been clear in his conversations with others that the future of Biden\u2019s candidacy is a decision the president has to make. He has emphasized that his concern is protecting Biden and his legacy, and has pushed back against the idea that he alone can influence Biden\u2019s decision-making process."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ed6bb8d0-451e-11ef-9b76-00000a1ace52",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Family \u2018won\u2019t let\u2019 him marry until his partner speaks fluent French",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Family \u2018won\u2019t let\u2019 him marry until his partner speaks fluent French",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/18/carolyn-hax-family-blocks-wedding/",
+                        "datetime": "2024-07-18T16:01:00.274000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66993c3c4c3a4b3500000009",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Family \u2018won\u2019t let\u2019 him marry until his partner speaks fluent French"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
