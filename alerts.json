@@ -68860,5 +68860,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "610e10f0-4540-11ef-a019-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bob Newhart dies at 94. The comic and actor\u2019s understated routines emphasized the absurdities of life.",
+            "ios": {
+                "alert": {
+                    "body": "Bob Newhart dies at 94. The comic and actor\u2019s understated routines emphasized the absurdities of life.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/18/bob-newhart-dead/",
+                        "datetime": "2024-07-18T20:00:27.758000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6699745b947f0c3500000017",
+                        "targetTopic": "breaking-news",
+                        "text": "Newhart, the star of two long-running TV sitcoms \u2014 \u201cThe Bob Newhart Show\u201d and \u201cNewhart\u201d \u2014 had a staid \u201cbutton-down\u201d style that was marked by his uninflected delivery, carefully placed pauses and stutters. By looking at familiar situations from fresh angles, he uncovered an original brand of humor."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
