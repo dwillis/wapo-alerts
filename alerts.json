@@ -68909,5 +68909,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8a885930-454b-11ef-b2e6-00000a1ace82",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lou Dobbs dies at 78. The conservative commentator was a fierce critic of immigration with close ties to the Trump administration.",
+            "ios": {
+                "alert": {
+                    "body": "Lou Dobbs dies at 78. The conservative commentator was a fierce critic of immigration with close ties to the Trump administration.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/07/18/lou-dobbs-obituary/",
+                        "datetime": "2024-07-18T21:20:21.817000Z",
+                        "imageURL": "https://www.washingtonpost.com/style/media/2024/07/18/lou-dobbs-obituary/",
+                        "pushID": "669987157c37e9350000000a",
+                        "targetTopic": "politics",
+                        "text": "Dobbs was one of the original stars of CNN at the cable giant\u2019s founding before his conservative politics took him into a career as a pundit. His Fox Business Network show was canceled after his airing of false election-fraud theories prompted lawsuits from voting machine companies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
