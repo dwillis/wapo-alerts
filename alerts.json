@@ -69056,5 +69056,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "81526ef0-4578-11ef-9b0a-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Am I imagining this?\u2019: Follow along as nine columnists discuss Trump\u2019s RNC speech",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Am I imagining this?\u2019: Follow along as nine columnists discuss Trump\u2019s RNC speech",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/18/live-commentary-trump-nomination-rnc/",
+                        "datetime": "2024-07-19T02:42:13.724000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6699d285bb2dd13500000010",
+                        "targetTopic": "opinions",
+                        "text": "Follow our columnists as they discuss Trump\u2019s speech at the Republican convention"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
