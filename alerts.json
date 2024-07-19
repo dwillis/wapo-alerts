@@ -69546,5 +69546,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2ac68d01-4609-11ef-a7e5-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Leaked document reveals J.D. Vance\u2019s anti-woke campaign holding up key State Deptartment nominations",
+            "ios": {
+                "alert": {
+                    "body": "Leaked document reveals J.D. Vance\u2019s anti-woke campaign holding up key State Deptartment nominations",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/19/jd-vance-leaked-memo-state-department/",
+                        "datetime": "2024-07-19T19:57:45.554000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669ac5398c52d53600000001",
+                        "targetTopic": "politics",
+                        "text": "Before he became Donald Trump\u2019s running mate, the Republican senator was known in the most powerful offices of the State Department as the single biggest obstacle in the Senate to confirming career ambassadors. He held up dozens of President Biden\u2019s nominations over hot-button social issues involving gay and lesbian rights, gender transition care, and hiring practices related to diversity, equity and inclusion, according to a questionnaire obtained by The Post, offering a glimpse into his anti-establishment views."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
