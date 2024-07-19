@@ -69595,5 +69595,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "19ae4190-4616-11ef-a9ac-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How a botched update from a software security leader triggered a global systems crash",
+            "ios": {
+                "alert": {
+                    "body": "How a botched update from a software security leader triggered a global systems crash",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/19/bosd-outage-microsoft-crowdstrike/",
+                        "datetime": "2024-07-19T21:30:20.269000Z",
+                        "imageURL": "https://www.washingtonpost.com/technology/2024/07/19/bosd-outage-microsoft-crowdstrike/",
+                        "pushID": "669adaeccecd273500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Hacking experts said CrowdStrike's catastrophically faulty code was inadequately tested and included random data."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
