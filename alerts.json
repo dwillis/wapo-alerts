@@ -69154,5 +69154,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9ffcf740-45a9-11ef-b366-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Major U.S. air carriers ground flights as mass IT outage hits Windows users",
+            "ios": {
+                "alert": {
+                    "body": "Major U.S. air carriers ground flights as mass IT outage hits Windows users",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/19/microsoft-windows-outage-blue-screen-bsod/",
+                        "datetime": "2024-07-19T08:33:50.482000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669a24ee4c3a4b350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "American Airlines, United and Delta are grounding flights citing communications issues, according to the Federal Aviation Administration\u2019s advisory page, as mass IT outages affect businesses across the world."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
