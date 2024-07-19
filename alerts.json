@@ -69448,5 +69448,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4256f180-45eb-11ef-acf5-0000a1acedd8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is taking your questions now: My parents are hurt my daughter favors my father-in-law",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is taking your questions now: My parents are hurt my daughter favors my father-in-law",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/19/live-chat-carolyn-hax/",
+                        "datetime": "2024-07-19T16:23:40.137000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669a930ccecd273500000001",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is taking your questions now: My parents are hurt my daughter favors my father-in-law"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "46959780-45e9-11ef-ab0d-0000a1aceb1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Project 2025 is a threat to American values, GOP Senate nominee Larry Hogan of Maryland writes",
+            "ios": {
+                "alert": {
+                    "body": "Project 2025 is a threat to American values, GOP Senate nominee Larry Hogan of Maryland writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/19/larry-hogan-project-2025-trump-abortion/",
+                        "datetime": "2024-07-19T16:09:28.264000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669a8fb84f53a83500000001",
+                        "targetTopic": "opinions",
+                        "text": "\"There is no clearer example of the threat to our way of life.\""
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
