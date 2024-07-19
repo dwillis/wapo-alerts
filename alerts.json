@@ -69350,5 +69350,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "115316a0-45e5-11ef-b521-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Top U.N. court says Israel should end occupation, pay reparations",
+            "ios": {
+                "alert": {
+                    "body": "Top U.N. court says Israel should end occupation, pay reparations",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/19/israel-icj-occupation-palestinian-territory/",
+                        "datetime": "2024-07-19T15:39:20.958000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669a88a84c3a4b350000000f",
+                        "targetTopic": "world",
+                        "text": "Israel should withdraw from illegal settlements, stop building new ones and pay reparations to Palestinians who have lost property in areas occupied since 1967, the International Court of Justice said on Friday. The advisory opinion is not legally binding but could have political and diplomatic implications."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "42d685f0-45e4-11ef-9e25-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Microsoft outage continues to disrupt systems globally. What caused it? Who\u2019s affected? Here\u2019s what we know. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "The Microsoft outage continues to disrupt systems globally. What caused it? Who\u2019s affected? Here\u2019s what we know. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/19/microsoft-windows-outage-blue-screen-bsod/",
+                        "datetime": "2024-07-19T15:33:34.417000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669a874e4c3a4b350000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "A technical problem affecting systems running Windows led to widespread confusion and outages across an array of sectors, with airlines canceling or delaying thousands of flights and hospitals putting off non-urgent medical appointments, among other reported issues. The CEO of cybersecurity company CrowdStrike said he was \u201cdeeply sorry\u201d for the company\u2019s role in the crisis, which appeared to be resolving."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
