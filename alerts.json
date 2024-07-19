@@ -69252,5 +69252,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e0119881-45c8-11ef-8406-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russia convicts Wall Street Journal reporter Evan Gershkovich of espionage in a case the U.S. denounced as hostage-taking",
+            "ios": {
+                "alert": {
+                    "body": "Russia convicts Wall Street Journal reporter Evan Gershkovich of espionage in a case the U.S. denounced as hostage-taking",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/19/evan-gershkovich-journalist-russia-espionage/",
+                        "datetime": "2024-07-19T12:17:32.392000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669a595cbb2dd13500000011",
+                        "targetTopic": "world",
+                        "text": "Gershkovich, who was accredited by the Russian Foreign Ministry, was arrested on a reporting trip to Yekaterinburg in March 2023 on spying charges he vehemently denied. After a secret trial in which no evidence was made public, he was sentenced to TK years in prison. The widely expected conviction, in a trial closed to the media and public, clears the way for a potential prisoner exchange."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
