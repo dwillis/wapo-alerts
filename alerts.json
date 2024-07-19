@@ -69105,5 +69105,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dcc77300-457a-11ef-bfb0-0000a1ace468",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump recounts his assassination attempt in his RNC acceptance speech: \u2018I\u2019m not supposed to be here tonight.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Trump recounts his assassination attempt in his RNC acceptance speech: \u2018I\u2019m not supposed to be here tonight.\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/18/rnc-republican-national-convention-trump-speech-biden-election/",
+                        "datetime": "2024-07-19T02:59:06.094000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "6699d67a7c37e9350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "The former president started his speech with a description of the assassination attempt at his rally Saturday. He said this would be the only time he would retell that day\u2019s events because it was too painful to recount."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
