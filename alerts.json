@@ -69203,5 +69203,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0d09e5f0-45be-11ef-9d37-00000a1ace58",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s speech. Biden pressure. Microsoft outage. Rally shooter. Covid wave. Bob Newhart. Musket balls. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s speech. Biden pressure. Microsoft outage. Rally shooter. Covid wave. Bob Newhart. Musket balls. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/19/what-to-know-for-july-19/?noredirect=1",
+                        "datetime": "2024-07-19T11:00:03.194000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "669a4733947f0c350000001a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
