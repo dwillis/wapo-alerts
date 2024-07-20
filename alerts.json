@@ -70085,5 +70085,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "993c4450-46ea-11ef-b36c-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Secret Service said to have denied requests for more security at Trump events",
+            "ios": {
+                "alert": {
+                    "body": "Secret Service said to have denied requests for more security at Trump events",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/20/trump-secret-service-security-attempted-assassination/",
+                        "datetime": "2024-07-20T22:51:27.598000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669c3f6f8c52d53600000009",
+                        "targetTopic": "breaking-news",
+                        "text": "Top officials repeatedly rejected requests from Donald Trump\u2019s security detail for more personnel and gear at events before attempted assassination, at times citing lack of resources at short-staffed agency, person familiar with the matter said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
