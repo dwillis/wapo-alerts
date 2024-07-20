@@ -69742,5 +69742,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eac84af2-468e-11ef-834a-00000a1ace6c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "To people in this Russian city, war in Ukraine is a must-win fight against the West, even as cemeteries fill with soldiers\u2019 bodies",
+            "ios": {
+                "alert": {
+                    "body": "To people in this Russian city, war in Ukraine is a must-win fight against the West, even as cemeteries fill with soldiers\u2019 bodies",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/20/kirov-russia-war-west-ukraine/",
+                        "datetime": "2024-07-20T11:55:10.687000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669ba59e8c52d53600000002",
+                        "targetTopic": "world",
+                        "text": "Washington Post journalists visited Kirov, in western Russia, where President Vladimir Putin\u2019s war in Ukraine is filling cemeteries with the bodies of killed soldiers. Residents say the bloodshed is a necessary sacrifice because their country is in an existential struggle against the United States and its NATO allies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
