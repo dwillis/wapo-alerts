@@ -69987,5 +69987,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "779b52d0-46ce-11ef-a03c-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "When should you salt food while cooking? Here\u2019s what\u2019s best for meat, eggs, vegetables and more.",
+            "ios": {
+                "alert": {
+                    "body": "When should you salt food while cooking? Here\u2019s what\u2019s best for meat, eggs, vegetables and more.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/07/17/when-to-salt-food-cooking-meat/",
+                        "datetime": "2024-07-20T19:30:05.246000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669c103d8c52d53600000007",
+                        "targetTopic": "food",
+                        "text": "When you add salt to a recipe can be just as important as how much you add, and that timing impacts more than flavor. Depending on the food, salting before, during or after cooking will yield optimal results."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
