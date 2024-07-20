@@ -69840,5 +69840,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8c782de0-46a1-11ef-9ac3-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Behind the scenes as President Biden lost control of the Democratic Party",
+            "ios": {
+                "alert": {
+                    "body": "Behind the scenes as President Biden lost control of the Democratic Party",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/19/biden-democrats-drop-out/",
+                        "datetime": "2024-07-20T14:08:32.883000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669bc4e08c52d53600000004",
+                        "targetTopic": "editors_picks",
+                        "text": "People working inside Democratic politics and government described the first three weeks of July as a kind of nightmare \u2014 too extraordinary to be real, too unexpected to be believed. Biden and his campaign team still maintain that nothing has changed, even as calls increase for him to leave the presidential race."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
