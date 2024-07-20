@@ -70036,5 +70036,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c5c1821-46e1-11ef-9f34-0000a1aceb12",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A double life: The cocaine kingpin who hid as a professional soccer player",
+            "ios": {
+                "alert": {
+                    "body": "A double life: The cocaine kingpin who hid as a professional soccer player",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/sebastian-marset-soccer-football-cocaine-trafficking/",
+                        "datetime": "2024-07-20T21:45:19.955000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669c2fef8c52d53600000008",
+                        "targetTopic": "editors_picks",
+                        "text": "Sebasti\u00e1n Marset used his vast drug proceeds to buy and sponsor soccer teams in South America and Europe, investigators say. And then, to fulfill a boyhood fantasy, inserted himself under false identities into the starting lineups \u2014 even though he\u2019s not good enough to play at the professional level."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
