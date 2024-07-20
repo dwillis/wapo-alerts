@@ -69644,5 +69644,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "62766cf0-4624-11ef-8f85-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Twelve more Democratic lawmakers, including Sens. Sherrod Brown and Martin Heinrich, call on Biden to drop out as campaign digs in",
+            "ios": {
+                "alert": {
+                    "body": "Twelve more Democratic lawmakers, including Sens. Sherrod Brown and Martin Heinrich, call on Biden to drop out as campaign digs in",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/19/democrats-biden-withdraw-clash/",
+                        "datetime": "2024-07-19T23:12:35.262000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/19/democrats-biden-withdraw-clash/",
+                        "pushID": "669af2e3cecd273500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The calls from two senators and 10 House members marked the largest wave of lawmakers asking Biden to step aside in a single day since his politically damaging debate performance in June. A total of 37 Democratic lawmakers have called on him to abandon his candidacy, even as his campaign manager said he was \"absolutely\" staying in the race."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
