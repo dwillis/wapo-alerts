@@ -69889,5 +69889,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "65d8d6c1-46b1-11ef-8902-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: After so many racist incidents, I\u2019m afraid White people think I\u2019m ugly",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: After so many racist incidents, I\u2019m afraid White people think I\u2019m ugly",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/18/ask-sahaj-racism-beauty-standards/",
+                        "datetime": "2024-07-20T16:02:00.127000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669bdf788c52d53600000005",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: After so many racist incidents, I\u2019m afraid White people think I\u2019m ugly"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
