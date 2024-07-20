@@ -69938,5 +69938,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cd9c6730-46bc-11ef-aa77-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli jets strike Houthi targets in Yemen, military says, one day after a drone attack in Tel Aviv",
+            "ios": {
+                "alert": {
+                    "body": "Israeli jets strike Houthi targets in Yemen, military says, one day after a drone attack in Tel Aviv",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/20/israel-yemen-hodeida-drone-tel-aviv/",
+                        "datetime": "2024-07-20T17:23:38.658000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669bf29a8c52d53600000006",
+                        "targetTopic": "world",
+                        "text": "The strikes in the port city of Hodeida hit an oil depot and power station, a Houthi spokesman said. Israel launched the attack after a drone attack claimed by the Houthis hit a building in central Tel Aviv early Friday, killing one."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
