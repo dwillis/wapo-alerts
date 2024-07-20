@@ -69693,5 +69693,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "17eeabe0-4645-11ef-b3bf-0000a1aced81",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. Rep. Sheila Jackson Lee dies at 74. The Texas Democrat was a prominent champion of African American and women\u2019s rights.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. Rep. Sheila Jackson Lee dies at 74. The Texas Democrat was a prominent champion of African American and women\u2019s rights.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/19/sheila-jackson-lee-congresswoman-dead/",
+                        "datetime": "2024-07-20T03:06:43.482000Z",
+                        "imageURL": "https://www.washingtonpost.com/obituaries/2024/07/19/sheila-jackson-lee-congresswoman-dead/",
+                        "pushID": "669b29c38f34143500000001",
+                        "targetTopic": "us",
+                        "text": "During three decades in Congress, she helped make Juneteenth a federal holiday and reauthorize the Violence Against Women Act. She announced in June that she had pancreatic cancer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
