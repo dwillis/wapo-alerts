@@ -70477,5 +70477,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5a2ac081-47a2-11ef-98b7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Vice President Harris says she will \u2018earn and win\u2019 presidential nomination",
+            "ios": {
+                "alert": {
+                    "body": "Vice President Harris says she will \u2018earn and win\u2019 presidential nomination",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/21/election-2024-biden-trump-campaign-updates/",
+                        "datetime": "2024-07-21T20:46:49.162000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669d73b98c52d53600000011",
+                        "targetTopic": "breaking-news",
+                        "text": "\u201cI am honored to have the President\u2019s endorsement and my intention is to earn and win this nomination,\u201d Harris said in a statement Sunday.\nPresident Biden announced his withdrawal from the race and endorsed Harris to lead the Democratic ticket earlier on Sunday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
