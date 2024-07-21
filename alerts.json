@@ -70526,5 +70526,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "66641e91-47a8-11ef-8b79-000a1acebc1f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden\u2019s exit could help his party hold the White House. But Democrats need to proceed carefully, the Editorial Board writes.",
+            "ios": {
+                "alert": {
+                    "body": "Biden\u2019s exit could help his party hold the White House. But Democrats need to proceed carefully, the Editorial Board writes.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/21/biden-drop-out-dnc-convention-harris/",
+                        "datetime": "2024-07-21T21:30:06.277000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669d7dde8c52d53600000012",
+                        "targetTopic": "opinions",
+                        "text": "With Biden stepping aside, Democrats must now embrace an open process"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
