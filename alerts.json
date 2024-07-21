@@ -70330,5 +70330,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d44e6800-4787-11ef-829d-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Xander Schauffele wins the British Open, capturing his second major championship of the year",
+            "ios": {
+                "alert": {
+                    "body": "Xander Schauffele wins the British Open, capturing his second major championship of the year",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/07/21/british-open-live-updates-results/",
+                        "datetime": "2024-07-21T17:36:57.671000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669d47398c52d5360000000e",
+                        "targetTopic": "sports",
+                        "text": "Schauffele, 30, also won the PGA Championship at Valhalla in May and became the first player to win two majors in the same year since Brooks Koepka in 2018. He entered the day one shot off the lead and tied for second place before moving up the leader board to win his second career major. American men won all four majors this year for the first time since 1982."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
