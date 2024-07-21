@@ -70379,5 +70379,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1fcb0930-478f-11ef-911c-0000a1aceb07",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden backs Harris as Democratic Party nominee",
+            "ios": {
+                "alert": {
+                    "body": "Biden backs Harris as Democratic Party nominee",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/21/election-2024-biden-trump-campaign-updates/",
+                        "datetime": "2024-07-21T18:29:10.727000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669d53768c52d53600000010",
+                        "targetTopic": "breaking-news",
+                        "text": "Biden said he gives his \u201cfull support and endorsement for Kamala to be the nominee of our party this year. Democrats \u2014 it\u2019s time to come together and beat Trump.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "54b97041-478b-11ef-bbe7-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden to end reelection bid, the president announced in a letter",
+            "ios": {
+                "alert": {
+                    "body": "Biden to end reelection bid, the president announced in a letter",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/21/election-2024-biden-trump-campaign-updates/",
+                        "datetime": "2024-07-21T18:02:01.551000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669d4d198c52d5360000000f",
+                        "targetTopic": "breaking-news",
+                        "text": "A growing number of Democrats for weeks had called on the president to withdraw from the race after his performance in a June debate with Republican nominee Donald Trump. Biden said in a letter he would address the nation later this week regarding his decision to end his campaign."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
