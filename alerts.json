@@ -70134,5 +70134,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6fa1ebc0-46f1-11ef-bd1c-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democratic donors are funding a preliminary vetting process for running mates should Harris replace Biden as nominee",
+            "ios": {
+                "alert": {
+                    "body": "Democratic donors are funding a preliminary vetting process for running mates should Harris replace Biden as nominee",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/20/democrat-donors-fund-vp-vetting-push/",
+                        "datetime": "2024-07-20T23:40:24.195000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669c4ae88c52d5360000000a",
+                        "targetTopic": "politics",
+                        "text": "The effort, described by four people familiar with the process, suggests that influential figures in the party are growing increasingly restless and concerned about the time remaining to mount a national campaign.\n\nIn recent days, people involved in the effort have contacted the teams of top Democratic figures, including Pennsylvania Gov. Josh Shapiro and Kentucky Gov. Andy Beshear, the people said, speaking on the condition of anonymity to discuss a sensitive effort. The donors are also interested in vetting North Carolina Gov. Roy Cooper, Michigan Gov. Gretchen Whitmer and Arizona Sen. Mark Kelly."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
