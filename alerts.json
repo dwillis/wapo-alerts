@@ -70232,5 +70232,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd30b900-4771-11ef-85ce-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "School turned him liberal. His mom loves Fox News. Will their bond survive?",
+            "ios": {
+                "alert": {
+                    "body": "School turned him liberal. His mom loves Fox News. Will their bond survive?",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/education/interactive/2024/indoctrination-schools-student-political-views-change/",
+                        "datetime": "2024-07-21T15:00:37.143000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669d22958c52d5360000000c",
+                        "targetTopic": "editors_picks",
+                        "text": "After a conservative mother sent her son to a new school, his views shifted left \u2014 bringing the nation\u2019s political division home. As claims of school indoctrination are surging, can their family find a way to heal?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
