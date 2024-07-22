@@ -71016,5 +71016,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4106c7a0-4858-11ef-8160-00000a1acec5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pelosi endorses Harris as Democratic Congressional leadership prepares to sit down with vice president \u2018in short order\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Pelosi endorses Harris as Democratic Congressional leadership prepares to sit down with vice president \u2018in short order\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/22/2024-election-biden-kamala-harris-campaign-updates/",
+                        "datetime": "2024-07-22T18:28:55.438000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669ea4e78c52d53600000018",
+                        "targetTopic": "breaking-news",
+                        "text": "Vice President Harris picked up key endorsements for her White House bid on Monday, including from Rep. Nancy Pelosi (D-Calif.). House Minority Leader Hakeem Jeffries (D-N.Y.) said he and Senate Majority Leader Charles E. Schumer (D-N.Y.) plan to meet with Harris \u201cin short order\u201d and will have more to say then. He said Harris\u2019s candidacy has \u201cexcited the country.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
