@@ -70918,5 +70918,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a1b72990-484a-11ef-a005-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Presidential candidate RFK Jr. floated taking a job in a Trump White House as he weighed an endorsement for the Republican nominee",
+            "ios": {
+                "alert": {
+                    "body": "Presidential candidate RFK Jr. floated taking a job in a Trump White House as he weighed an endorsement for the Republican nominee",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/22/rfk-jr-floated-job-trump-white-house-he-weighed-endorsing-trump/",
+                        "datetime": "2024-07-22T16:51:23.775000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669e8e0b8c52d53600000017",
+                        "targetTopic": "politics",
+                        "text": "Independent candidate Robert F. Kennedy Jr. suggested being given a senior job overseeing a portfolio of health and medical issues, an idea that the Trump campaign rejected, according to several people familiar with the matter."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2737a970-4844-11ef-814b-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris calls Biden\u2019s record \u2018unmatched\u2019 in first public appearance since endorsement. She heads to Delaware today. Follow updates.",
+            "ios": {
+                "alert": {
+                    "body": "Harris calls Biden\u2019s record \u2018unmatched\u2019 in first public appearance since endorsement. She heads to Delaware today. Follow updates.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/22/2024-election-biden-kamala-harris-campaign-updates/",
+                        "datetime": "2024-07-22T16:05:02.194000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669e832e8c52d53600000016",
+                        "targetTopic": "politics",
+                        "text": "Vice President Harris made her comments at the start of an event honoring championship college athletes at the White House. She is heading to campaign headquarters in Delaware later Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
