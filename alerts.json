@@ -70624,5 +70624,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "600b0690-47b6-11ef-a658-0000a1acefcf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Democrats can pick a new candidate, a step-by-step visual guide",
+            "ios": {
+                "alert": {
+                    "body": "How Democrats can pick a new candidate, a step-by-step visual guide",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/21/open-convention-democrats-biden-drop-out/",
+                        "datetime": "2024-07-21T23:10:08.979000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669d95504f53a83500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "There are two paths for replacing Biden at the top of the Democratic ticket: a virtual vote that would lock in a new nominee in early August or an \u201copen\u201d convention starting Aug. 19. Here\u2019s how they work."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
