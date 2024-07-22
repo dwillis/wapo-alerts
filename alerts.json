@@ -70722,5 +70722,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "898a28d0-4819-11ef-bd2f-000a1acedf53",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden\u2019s exit. Kamala Harris. Trump\u2019s reaction. Netanyahu visit. Listeria outbreak. Retirement. \u2018Magical\u2019 painting. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Biden\u2019s exit. Kamala Harris. Trump\u2019s reaction. Netanyahu visit. Listeria outbreak. Retirement. \u2018Magical\u2019 painting. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/22/what-to-know-for-july-22/?noredirect=1",
+                        "datetime": "2024-07-22T10:59:58.819000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "669e3baececd273500000004",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
