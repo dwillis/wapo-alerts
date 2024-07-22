@@ -70820,5 +70820,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5912cc20-4837-11ef-a620-00000a1ace8d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Kamala Harris performs against Donald Trump in election polls",
+            "ios": {
+                "alert": {
+                    "body": "How Kamala Harris performs against Donald Trump in election polls",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/21/trump-kamala-harris-polls/",
+                        "datetime": "2024-07-22T14:33:21.706000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669e6db18c52d53600000014",
+                        "targetTopic": "politics",
+                        "text": "Even though President Biden has endorsed Vice President Harris to replace him at the top of the ticket, recent polls find little difference between how she and Biden stack up against Donald Trump. In a Washington Post average of 11 post-debate polls, Trump edged out Harris by 1.5 percentage points, only slightly less than his 1.9-point lead over Biden in the same polls."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
