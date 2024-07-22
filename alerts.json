@@ -70673,5 +70673,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "31c85ed0-47c1-11ef-9dcf-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Joe Manchin (I-W.Va.) is considering re-registering as a Democrat to compete for the party\u2019s presidential nomination",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Joe Manchin (I-W.Va.) is considering re-registering as a Democrat to compete for the party\u2019s presidential nomination",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/21/manchin-weighs-options-after-biden-exits-presidential-race/",
+                        "datetime": "2024-07-22T00:27:35.863000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669da7774f53a83500000004",
+                        "targetTopic": "politics",
+                        "text": "Manchin is weighing his options following President Biden\u2019s withdrawal Sunday afternoon from the presidential race, according to an adviser. Some in the party establishment coalesced behind Vice President Harris, who announced she is seeking the presidential nomination, in the immediate wake of Biden\u2019s exit.\n\n\nManchin is the only elected official besides Harris who as of Sunday night had signaled an interest in seeking the Democratic nod. Motivational speaker Marianne Williamson also says she is vying for Biden's delegates."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
