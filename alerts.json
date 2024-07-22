@@ -71065,5 +71065,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fa420d91-486e-11ef-a8b6-00000a1ace47",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lawmakers summon CrowdStrike CEO to testify on Friday\u2019s massive computer outage",
+            "ios": {
+                "alert": {
+                    "body": "Lawmakers summon CrowdStrike CEO to testify on Friday\u2019s massive computer outage",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/22/house-committee-calls-crowdstrike-ceo-testify-global-outage/",
+                        "datetime": "2024-07-22T21:11:35.110000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669ecb074f53a83500000005",
+                        "targetTopic": "technology",
+                        "text": "Republican leaders of the House Homeland Security Committee demanded that George Kurtz appear on Capitol Hill to explain how the outage happened and what the cybersecurity company is doing to prevent future incidents."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
