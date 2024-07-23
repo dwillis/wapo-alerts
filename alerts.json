@@ -71115,5 +71115,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "822403a0-4895-11ef-8004-0000a1ace472",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A majority of Democratic delegates have pledged their support for Harris, signaling she is likely to secure the party\u2019s nomination",
+            "ios": {
+                "alert": {
+                    "body": "A majority of Democratic delegates have pledged their support for Harris, signaling she is likely to secure the party\u2019s nomination",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/22/2024-election-biden-kamala-harris-campaign-updates/",
+                        "datetime": "2024-07-23T01:47:23.887000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669f0bab4f53a83500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "These pledges are a symbolic show of support for Vice President Harris. She would not officially become the party\u2019s nominee for president until delegates formally vote next month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
