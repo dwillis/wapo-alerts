@@ -71360,5 +71360,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "43849041-4905-11ef-8790-00000a1ace93",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden to give speech Wednesday about his decision to end reelection campaign, people familiar with his plans say",
+            "ios": {
+                "alert": {
+                    "body": "Biden to give speech Wednesday about his decision to end reelection campaign, people familiar with his plans say",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/23/2024-election-kamala-harris-biden-campaign-updates/",
+                        "datetime": "2024-07-23T15:07:22.423000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669fc72a8c52d5360000001d",
+                        "targetTopic": "politics",
+                        "text": "Biden announced he would withdraw from the race in a letter to Americans on Sunday, promising he would \u201cspeak to the Nation later this week in more detail about my decision.\u201d Vice President Harris, having secured pledges of support from a majority of Democratic National Convention delegates to be the party\u2019s  likely presidential nominee, is heading to the battleground state of Wisconsin for a rally Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
