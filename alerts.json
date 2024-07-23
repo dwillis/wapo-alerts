@@ -71164,5 +71164,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b653aac0-48e2-11ef-a83c-00000a1ace6d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kamala Harris. Donald Trump\u2019s age. Body-cam video. Israel-Gaza war. Climate fight. Test scores. \u2018Twisters.\u2019 Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Kamala Harris. Donald Trump\u2019s age. Body-cam video. Israel-Gaza war. Climate fight. Test scores. \u2018Twisters.\u2019 Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/23/what-to-know-for-july-23/?noredirect=1",
+                        "datetime": "2024-07-23T11:00:02.761000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "669f8d328c52d53600000019",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
