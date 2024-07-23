@@ -71458,5 +71458,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47ff19e0-491b-11ef-b966-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Bob Menendez plans to resign, effective Aug. 20, after bribery conviction, according to two people briefed on the decision",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Bob Menendez plans to resign, effective Aug. 20, after bribery conviction, according to two people briefed on the decision",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/23/senator-bob-menendez-resigns-senate/",
+                        "datetime": "2024-07-23T17:44:58.950000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669fec1acecd273500000006",
+                        "targetTopic": "politics",
+                        "text": "Menendez, a Democrat from New Jersey, faced calls for him to leave the Senate following his conviction on federal bribery and corruption charges.\n\nA Manhattan jury found the 70-year-old guilty on 16 felony counts in a case in which he was accused of taking bribes from three businessmen who showered him and his wife with cash, gold bars and a Mercedes-Benz, an extravagant bounty for his help securing deals with foreign officials and trying to derail several criminal investigations in New Jersey."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2e88c4e0-4919-11ef-9e4a-00000a1aced8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sunday was the hottest day ever recorded on Earth, scientists say",
+            "ios": {
+                "alert": {
+                    "body": "Sunday was the hottest day ever recorded on Earth, scientists say",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/07/23/hottest-day-ever-recorded-climate-change/",
+                        "datetime": "2024-07-23T17:29:57.019000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669fe895cecd273500000005",
+                        "targetTopic": "climate",
+                        "text": "Preliminary data from Europe\u2019s top climate monitor shows the planet\u2019s average temperature on July 21 was 17.09 degrees Celsius (62.76 degrees Fahrenheit) \u2014 breaking a record set only last year. Researchers say that evidence suggests Sunday was the hottest day on Earth since the start of the last ice age more than 100,000 years ago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
