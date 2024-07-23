@@ -71213,5 +71213,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b8dfb990-48f2-11ef-b5fc-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What voters in key states think about Kamala Harris replacing Joe Biden as the likely Democratic nominee",
+            "ios": {
+                "alert": {
+                    "body": "What voters in key states think about Kamala Harris replacing Joe Biden as the likely Democratic nominee",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/23/what-key-state-voters-think-about-kamala-harris-replacing-joe-biden/",
+                        "datetime": "2024-07-23T12:54:38.978000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669fa80e8c52d5360000001a",
+                        "targetTopic": "politics",
+                        "text": "The Washington Post and George Mason University\u2019s Schar School asked 152 registered voters from six battleground states to share their reactions to President Biden\u2019s abrupt decision to end his presidential candidacy and endorse Vice President Harris. The responses were decidedly mixed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
