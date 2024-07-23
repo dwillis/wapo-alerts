@@ -71606,5 +71606,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2bb8d2a0-4932-11ef-b18f-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Maine writer set out on the Appalachian Trail with his son. Mistakes were made.",
+            "ios": {
+                "alert": {
+                    "body": "A Maine writer set out on the Appalachian Trail with his son. Mistakes were made.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/23/appalachian-trail-hike-mistakes-start/",
+                        "datetime": "2024-07-23T20:28:49.525000Z",
+                        "imageURL": "https://www.washingtonpost.com/opinions/2024/07/23/appalachian-trail-hike-mistakes-start/",
+                        "pushID": "66a012818f34143500000002",
+                        "targetTopic": "opinions",
+                        "text": "When you\u2019re heading into 100 miles of wilderness, sometimes you have to start with a pause."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "24ec6491-492e-11ef-816b-0000a1acec61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Bob Menendez (D-N.J.) says he\u2019ll step down, ending long political career amid pressure from his party over bribery conviction",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Bob Menendez (D-N.J.) says he\u2019ll step down, ending long political career amid pressure from his party over bribery conviction",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/23/senator-bob-menendez-resigns-senate/",
+                        "datetime": "2024-07-23T20:00:00.569000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a00bc0cecd273500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "His decision to resign, effective Aug. 20, will allow New Jersey Gov. Phil Murphy (D) to appoint a temporary replacement to serve until January."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
