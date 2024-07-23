@@ -71704,5 +71704,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "abf20660-493e-11ef-88f2-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Secret Service asks Trump campaign to stop holding outdoor rallies, following assassination attempt in Pennsylvania",
+            "ios": {
+                "alert": {
+                    "body": "Secret Service asks Trump campaign to stop holding outdoor rallies, following assassination attempt in Pennsylvania",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/23/trump-rallies-secret-service-change/",
+                        "datetime": "2024-07-23T21:58:18.846000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/07/23/trump-rallies-secret-service-change/",
+                        "pushID": "66a0277a4f53a83500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "Donald Trump's campaign is scouting indoor venues, such as basketball arenas and other large spaces where thousands of people can fit, said people familiar with the request who spoke on the condition of anonymity to describe private discussions.\nBut those indoor events would be a marked change for Trump, who has held hundreds of outdoor rallies since launching his first presidential bid."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "04dcc4d0-493b-11ef-8bb3-00000a1acec0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Years after Larry Nassar scandal, top gymnastics coaches remain in the sport despite allegations of physical and emotional abuse",
+            "ios": {
+                "alert": {
+                    "body": "Years after Larry Nassar scandal, top gymnastics coaches remain in the sport despite allegations of physical and emotional abuse",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/23/gymnastics-abuse-safe-sport/",
+                        "datetime": "2024-07-23T21:32:08.036000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/olympics/2024/07/23/gymnastics-abuse-safe-sport/",
+                        "pushID": "66a021584f53a83500000007",
+                        "targetTopic": "sports",
+                        "text": "Gymnastics officials promised reform. But gymnasts\u2019 allegations of abuse in their clubs have been met largely with inaction, an investigation by The Washington Post found, including in one California gym that still produces elite gymnasts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
