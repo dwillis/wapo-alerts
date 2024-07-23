@@ -71557,5 +71557,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "496a8201-4921-11ef-8b02-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kamala Harris said 19 words in 2018 that taught us all we need to know about the kind of candidate she\u2019ll be, our columnist writes",
+            "ios": {
+                "alert": {
+                    "body": "Kamala Harris said 19 words in 2018 that taught us all we need to know about the kind of candidate she\u2019ll be, our columnist writes",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/power/2024/07/22/kamala-harris-brett-kavanaugh/",
+                        "datetime": "2024-07-23T18:27:58.363000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669ff62ececd273500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "Harris\u2019s question at Justice Brett Kavanaugh\u2019s confirmation hearing is worth a rewatch, columnist Monica Hesse says."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
