@@ -71311,5 +71311,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f6b5cfc1-4901-11ef-8674-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Secret Service Director Kimberly Cheatle resigns amid criticism for security failures at Trump rally shooting",
+            "ios": {
+                "alert": {
+                    "body": "Secret Service Director Kimberly Cheatle resigns amid criticism for security failures at Trump rally shooting",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/23/secret-service-director-cheatle-scrutiny/",
+                        "datetime": "2024-07-23T14:43:45.222000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "669fc1a18c52d5360000001c",
+                        "targetTopic": "breaking-news",
+                        "text": "Cheatle, a veteran Secret Service agent who became director in 2022, had called the security failure \u2014 involving a gunman shooting from an apparently unsecured roof at a July 13 Trump campaign rally \u2014 unacceptable. She faced increasing calls from Republican leaders to step down."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
