@@ -72047,5 +72047,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2480ac60-49dc-11ef-9e25-00000a1ace05",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump gunman Googled \u2018how far away was Oswald from Kennedy\u2019 before rally shooting, FBI director says in testimony",
+            "ios": {
+                "alert": {
+                    "body": "Trump gunman Googled \u2018how far away was Oswald from Kennedy\u2019 before rally shooting, FBI director says in testimony",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/24/wray-fbi-trump-shooting-testimony-capitol-hill/",
+                        "datetime": "2024-07-24T16:45:32.295000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a12fac8f34143500000007",
+                        "targetTopic": "us",
+                        "text": "FBI Director Christopher A. Wray told lawmakers the gunman who tried to assassinate former president Donald Trump had conducted a Google search seeking information on John F. Kennedy\u2019s assassination. Wray also said the gunman used a rifle with a collapsible stock, which may have helped him conceal the weapon until he was on the roof where he opened fire."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0fb4f080-49d6-11ef-9a26-0000a1ace833",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Parents\u2019 clash over child\u2019s screen time is affecting their marriage",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Parents\u2019 clash over child\u2019s screen time is affecting their marriage",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/24/carolyn-hax-toddler-screen-time/",
+                        "datetime": "2024-07-24T16:02:00.454000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a125788f34143500000006",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Parents\u2019 clash over child\u2019s screen time is affecting their marriage"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
