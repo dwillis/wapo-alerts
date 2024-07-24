@@ -71949,5 +71949,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "61d91170-49c7-11ef-8986-00000a1ace15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: 7 options for Kamala Harris\u2019s VP pick, in rough order of who makes the most sense for the ticket",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: 7 options for Kamala Harris\u2019s VP pick, in rough order of who makes the most sense for the ticket",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/23/kamala-harris-vp-pick/",
+                        "datetime": "2024-07-24T14:16:55.785000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a10cd78f34143500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "There will be a premium on a proven commodity and someone who can help Harris. That points to a handful of names, including Pennsylvania Gov. Josh Shapiro, Arizona Sen. Mark Kelly and North Carolina Gov. Roy Cooper."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
