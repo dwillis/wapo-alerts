@@ -72145,5 +72145,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7d4d0f90-49e7-11ef-b38d-00000a1ace76",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Netanyahu addresses a Congress divided on Israel-Gaza war as event draws throngs of protesters. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Netanyahu addresses a Congress divided on Israel-Gaza war as event draws throngs of protesters. Follow our live coverage.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/24/netanyahu-speech-congress-live-updates/",
+                        "datetime": "2024-07-24T18:06:45.704000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a142b58f34143500000008",
+                        "targetTopic": "world",
+                        "text": "Israeli Prime Minister Benjamin Netanyahu\u2019s speech spotlights the disagreement between Republicans and Democrats in their approach to one of America\u2019s closest allies amid a devastating war in Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
