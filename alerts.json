@@ -72243,5 +72243,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "09cb58d0-4a08-11ef-b13d-00000a1aceb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Companies producing millions of dollars of carbon offset credits in the Amazon routinely use public land they have no right to",
+            "ios": {
+                "alert": {
+                    "body": "Companies producing millions of dollars of carbon offset credits in the Amazon routinely use public land they have no right to",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/brazil-amazon-carbon-credit-offsets/",
+                        "datetime": "2024-07-24T21:59:45.339000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a17951c460de3500000002",
+                        "targetTopic": "climate",
+                        "text": "A six-month Washington Post investigation reveals that many carbon credit ventures have repeatedly and, authorities say, illegally laid claim to publicly protected lands, generating enormous profits and then failing to share the revenue with those who protected or lived on the land. The use of such lands to sell credits also contributes little to reducing carbon emissions, even though carbon credits are considered one of the world\u2019s most important tools in the fight against climate change."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
