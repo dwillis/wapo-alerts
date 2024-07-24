@@ -71998,5 +71998,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6d150741-49ce-11ef-b8a8-0000a1ace5cf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live now: Can Trump stop Biden\u2019s campaign funds from going to Harris? Our politics reporters are taking your 2024 questions.",
+            "ios": {
+                "alert": {
+                    "body": "Live now: Can Trump stop Biden\u2019s campaign funds from going to Harris? Our politics reporters are taking your 2024 questions.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/24/questions-answers-harris-biden-election/",
+                        "datetime": "2024-07-24T15:07:21.144000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a118a98f34143500000005",
+                        "targetTopic": "politics",
+                        "text": "Washington Post reporters Colby Itkowitz, Tyler Pager, Yvonne Wingett Sanchez and Michael Scherer are answering your questions about what\u2019s next for Vice President Harris and the Democratic Party."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
