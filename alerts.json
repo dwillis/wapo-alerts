@@ -71851,5 +71851,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db190520-49ab-11ef-8d9e-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris campaign. Secret Service. Netanyahu visit. Delta chaos. Carbon credits. Yellowstone eruption. \u2018Dark oxygen.\u2019 Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris campaign. Secret Service. Netanyahu visit. Delta chaos. Carbon credits. Yellowstone eruption. \u2018Dark oxygen.\u2019 Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/24/what-to-know-for-july-24/?noredirect=1",
+                        "datetime": "2024-07-24T10:59:53.275000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "66a0dea9c460de3500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
