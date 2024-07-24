@@ -71802,5 +71802,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2f1fabe0-4954-11ef-9518-00000a1ace96",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "John Mayall dies at 90. Known as the godfather of British blues, he helped shape 1960s rock through his band the Bluesbreakers.",
+            "ios": {
+                "alert": {
+                    "body": "John Mayall dies at 90. Known as the godfather of British blues, he helped shape 1960s rock through his band the Bluesbreakers.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/23/john-mayall-blues-dead/",
+                        "datetime": "2024-07-24T00:32:18.584000Z",
+                        "imageURL": "https://www.washingtonpost.com/obituaries/2024/07/23/john-mayall-blues-dead/",
+                        "pushID": "66a04b9261f78f3500000001",
+                        "targetTopic": "entertainment",
+                        "text": "A multi-instrumentalist who sang and played guitar, keyboards and harmonica, Mayall was better known as a bandleader who had a superb eye for talent and a steadfast devotion to the purity of the blues. No fewer than seven members of his groups have been named to the Rock & Roll Hall of Fame, which announced in April that Mayall would be inducted this fall."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
