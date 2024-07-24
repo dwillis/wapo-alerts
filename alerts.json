@@ -72194,5 +72194,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d93d4e60-49fa-11ef-ba97-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lewis H. Lapham dies at 89. The innovative editor revived Harper\u2019s magazine and wrote books and essays skewering upper-class excess.",
+            "ios": {
+                "alert": {
+                    "body": "Lewis H. Lapham dies at 89. The innovative editor revived Harper\u2019s magazine and wrote books and essays skewering upper-class excess.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/24/lewis-lapham-harpers-dead/",
+                        "datetime": "2024-07-24T20:25:20.384000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a163308f34143500000009",
+                        "targetTopic": "entertainment",
+                        "text": "During two stints as the top editor at Harper\u2019s, he turned the magazine into what he called a \u201ctheater of ideas,\u201d promoting emerging voices such as David Foster Wallace, Christopher Hitchens and Fareed Zakaria. After retiring from the magazine in 2006, he founded his own publication, Lapham\u2019s Quarterly, devoting each issue to a single subject."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
