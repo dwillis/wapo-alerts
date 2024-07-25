@@ -72832,5 +72832,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "08f32ac0-4ad8-11ef-9595-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can Kamala Harris win? Three columnists share their impromptu thoughts on her candidacy \u2014 and the doubters.",
+            "ios": {
+                "alert": {
+                    "body": "Can Kamala Harris win? Three columnists share their impromptu thoughts on her candidacy \u2014 and the doubters.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/25/impromptu-podcast-kamala-harris-worries/",
+                        "datetime": "2024-07-25T22:48:39.275000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a2d64761f78f3500000003",
+                        "targetTopic": "opinions",
+                        "text": "\u2018I do think she can win!\u2019 Impromptu thoughts on Harris doubters."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bfbba224-4ad1-11ef-b928-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A network of political novices is building an online army for Kamala Harris, one video at a time",
+            "ios": {
+                "alert": {
+                    "body": "A network of political novices is building an online army for Kamala Harris, one video at a time",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/25/kamala-harris-election-tiktok-fancam/",
+                        "datetime": "2024-07-25T22:03:39.405000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a2cbbbcecd273500000011",
+                        "targetTopic": "politics",
+                        "text": "Some TikTok creators, energized by the new likely Democratic nominee, are using their skill at playful video collages to build Harris a viral political powerhouse from scratch."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
