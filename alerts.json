@@ -72587,5 +72587,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "48d5ee90-4a9f-11ef-8fdb-0000a1ace66c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Brother-in-law and his wife go on about themselves. And that\u2019s it.",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Brother-in-law and his wife go on about themselves. And that\u2019s it.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/25/carolyn-hax-in-laws-talk-themselves/",
+                        "datetime": "2024-07-25T16:02:25.124000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a27711cecd27350000000c",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Brother-in-law and his wife go on about themselves. And that\u2019s it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fbd01120-4a9e-11ef-9083-00000a1ace53",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "OpenAI CEO Sam Altman writes: Who will control the future of AI? The U.S., an allied nation \u2014 or an authoritarian one?",
+            "ios": {
+                "alert": {
+                    "body": "OpenAI CEO Sam Altman writes: Who will control the future of AI? The U.S., an allied nation \u2014 or an authoritarian one?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/25/sam-altman-ai-democracy-authoritarianism-future/",
+                        "datetime": "2024-07-25T16:00:15.912000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a2768f61f78f3500000002",
+                        "targetTopic": "opinions",
+                        "text": "A democratic vision for artificial intelligence must prevail over an authoritarian one."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
