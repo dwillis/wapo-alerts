@@ -72391,5 +72391,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "08f619f0-4a75-11ef-9142-0000a1acedd5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden\u2019s speech. Harris vs. Trump. Netanyahu protests. Wildfires. Financial warfare. HIV shot. Soccer chaos. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Biden\u2019s speech. Harris vs. Trump. Netanyahu protests. Wildfires. Financial warfare. HIV shot. Soccer chaos. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/25/what-to-know-for-july-25/?noredirect=1",
+                        "datetime": "2024-07-25T10:59:59.109000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "66a2302fc460de3500000005",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
