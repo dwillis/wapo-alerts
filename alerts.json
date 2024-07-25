@@ -72685,5 +72685,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a477d560-4aa9-11ef-884f-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live now: Why does covid rise in the summer? What are the isolation guidelines? We\u2019re taking your questions about the latest wave.",
+            "ios": {
+                "alert": {
+                    "body": "Live now: Why does covid rise in the summer? What are the isolation guidelines? We\u2019re taking your questions about the latest wave.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/07/25/tara-parker-pope-advice-covid/",
+                        "datetime": "2024-07-25T17:16:33.862000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a28871cecd27350000000d",
+                        "targetTopic": "advice",
+                        "text": "Health reporter Fenit Nirappil gets you up to date with information about boosters, testing and isolation protocols. Ask your question now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
