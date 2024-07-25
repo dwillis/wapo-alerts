@@ -72734,5 +72734,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1fffcd60-4ac7-11ef-9947-000a1ace7572",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court Justice Elena Kagan calls for a way to examine alleged ethics violations by justices",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court Justice Elena Kagan calls for a way to examine alleged ethics violations by justices",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/25/supreme-court-kagan-ethics-code-reform/",
+                        "datetime": "2024-07-25T20:47:36.489000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a2b9e8cecd273500000010",
+                        "targetTopic": "politics",
+                        "text": "The justice said she would support the creation of a committee of outside judges to weigh potential violations of the ethics code, which was put in place last year amid concerns about unreported gifts and potential conflicts of interest but was criticized for lacking any enforcement mechanism. Kagan, one of three liberals on the court, spoke as President Biden and Democratic lawmakers are increasingly calling for changes at the high court."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "be7065d0-4ac3-11ef-abb7-0000a1ace5c9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Man arrested in connection with California\u2019s largest fire of the year",
+            "ios": {
+                "alert": {
+                    "body": "Man arrested in connection with California\u2019s largest fire of the year",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/25/california-park-fire-chico-butte-tehama/",
+                        "datetime": "2024-07-25T20:23:23.783000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a2b43bcecd27350000000f",
+                        "targetTopic": "us",
+                        "text": "The fast-growing Northern California blaze, which has consumed at least 71,489 acres, has resulted in at least 3,500 people being ordered to evacuate. Though the cause of the Park Fire is still under investigation, authorities say that a 42-year-old man from Chico was seen pushing a burning car into a gully in Bidwell Park, outside the city where the fire began."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
