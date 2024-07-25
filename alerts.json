@@ -72538,5 +72538,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5cfe2e90-4a91-11ef-9862-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Battles without bullets: How four U.S. presidents unleashed economic war across the globe with sanctions",
+            "ios": {
+                "alert": {
+                    "body": "Battles without bullets: How four U.S. presidents unleashed economic war across the globe with sanctions",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/us-sanction-countries-work/",
+                        "datetime": "2024-07-25T14:22:45.974000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a25fb5cecd27350000000b",
+                        "targetTopic": "special_report",
+                        "text": "Over the past two decades, American presidents have massively increased the use of financial sanctions, which are now in effect in some form on roughly one-third of all countries. But the tools don\u2019t always do what they\u2019re meant to. Who pays the price when they go astray?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
