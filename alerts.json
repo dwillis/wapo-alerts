@@ -72440,5 +72440,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1ced91b0-4a82-11ef-ac15-0000a1ace756",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The economy grew by 2.8% in the second quarter, reflecting unexpected strength after a slowdown earlier in the year",
+            "ios": {
+                "alert": {
+                    "body": "The economy grew by 2.8% in the second quarter, reflecting unexpected strength after a slowdown earlier in the year",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/07/25/gdp-q2-economy/",
+                        "datetime": "2024-07-25T12:33:35.814000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a2461fcecd273500000009",
+                        "targetTopic": "breaking-news",
+                        "text": "Gross domestic product came in much stronger than the previous quarter, according to data from the Commerce Department, as consumers continued to spend."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
