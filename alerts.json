@@ -73469,5 +73469,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bf2489a1-4b7e-11ef-b0ea-000a1ace42f2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The world has changed overnight, and Trump is going to need a mulligan, Dana Milbank writes",
+            "ios": {
+                "alert": {
+                    "body": "The world has changed overnight, and Trump is going to need a mulligan, Dana Milbank writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/26/kamala-harris-donald-trump-race-reset-gop-reaction/",
+                        "datetime": "2024-07-26T18:42:01.378000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a3edf961f78f350000000b",
+                        "targetTopic": "opinions",
+                        "text": "The former president is back to firing off random, late-night rage posts from his social media account."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
