@@ -73371,5 +73371,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1af9c630-4b6d-11ef-8efc-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: Husband says hyphenating baby\u2019s last name is confusing",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: Husband says hyphenating baby\u2019s last name is confusing",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/26/live-chat-carolyn-hax/",
+                        "datetime": "2024-07-26T16:35:44.509000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a3d06061f78f3500000009",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax chat: Husband says hyphenating baby\u2019s last name is confusing"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
