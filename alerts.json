@@ -73518,5 +73518,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5735fe50-4b83-11ef-9d5b-00000a1acef0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Virginia health staff failed Irvo Otieno as he suffocated at a state mental hospital last year, experts say",
+            "ios": {
+                "alert": {
+                    "body": "Virginia health staff failed Irvo Otieno as he suffocated at a state mental hospital last year, experts say",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/07/26/irvo-otieno-medical-response/",
+                        "datetime": "2024-07-26T19:14:54.534000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a3f5ae61f78f350000000c",
+                        "targetTopic": "local",
+                        "text": "A new Washington Post analysis of nearly two hours of surveillance footage inside and outside Central State Hospital identifies serious shortcomings in Otieno\u2019s care by clinical personnel at the facility as officers and workers pinned him down for more than 11 minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
