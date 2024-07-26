@@ -72979,5 +72979,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "11608120-4ae8-11ef-8a67-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ismael \u2018El Mayo\u2019 Zambada, top leader of Sinaloa cartel, surrenders to U.S. authorities alongside son of Joaquin \u2018El Chapo\u2019 Guzman",
+            "ios": {
+                "alert": {
+                    "body": "Ismael \u2018El Mayo\u2019 Zambada, top leader of Sinaloa cartel, surrenders to U.S. authorities alongside son of Joaquin \u2018El Chapo\u2019 Guzman",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/25/mayo-zambada-sinaloa-cartel-arrested/",
+                        "datetime": "2024-07-26T00:43:25.143000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a2f12dcecd273500000013",
+                        "targetTopic": "breaking-news",
+                        "text": "Zambada and the younger Joaquin Guzman surrendered on a flight on Thursday, according to a DHS official and a former U.S. official with knowledge of the situation. The Sinaloa cartel, a global drug-trafficking syndicate, has shipped tons of cocaine, heroin, fentanyl and methamphetamines into the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
