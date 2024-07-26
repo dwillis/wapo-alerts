@@ -73077,5 +73077,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9794d620-4b2d-11ef-abd2-0000a1ace9c8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Barack and Michelle Obama endorse Kamala Harris for president",
+            "ios": {
+                "alert": {
+                    "body": "Barack and Michelle Obama endorse Kamala Harris for president",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/26/barack-michelle-obama-kamala-harris-endorse/",
+                        "datetime": "2024-07-26T09:01:05.667000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a365d18f3414350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "The Obamas are the final key leaders in the Democratic Party to unite behind Harris after President Biden abandoned his bid for a second term. Barack Obama said in a call with Harris that the Democrats would be \u201cunderdogs,\u201d but that he pledged to \u201cget to work\u201d on helping her defeat Donald Trump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
