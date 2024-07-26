@@ -73420,5 +73420,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d660e011-4b73-11ef-b1d1-000a1ace2cd1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The most daring Opening Ceremonies in Olympic history are about to begin. Follow our live coverage from Paris.",
+            "ios": {
+                "alert": {
+                    "body": "The most daring Opening Ceremonies in Olympic history are about to begin. Follow our live coverage from Paris.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/26/paris-olympics-opening-ceremony-arson-attack-live-updates/",
+                        "datetime": "2024-07-26T17:23:55.892000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a3dbab61f78f350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Years in the making, the Paris Games are planning to make an audacious statement with a boat parade of athletes on the Seine toward the Eiffel Tower."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
