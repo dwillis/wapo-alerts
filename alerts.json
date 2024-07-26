@@ -73175,5 +73175,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42bac582-4b53-11ef-b756-00000a1ace91",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-26T13:30:44.299000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a3a50461f78f3500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Think you\u2019ve got what it takes to earn a perfect score? Take today\u2019s longer news quiz and complete your point total for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1734a380-4b4f-11ef-8e20-0000a1ace040",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Live now: Join Sen. Tim Kaine (D-Va.) and Post journalists for \u2018First Look\u2019 to discuss the 2024 election reset",
+            "ios": {
+                "alert": {
+                    "body": "Live now: Join Sen. Tim Kaine (D-Va.) and Post journalists for \u2018First Look\u2019 to discuss the 2024 election reset",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/washington-post-live/subscriber/2024/07/26/wp-subscriber-exclusive-first-look-with-posts-jonathan-capehart/",
+                        "datetime": "2024-07-26T13:00:53.230000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a39e0561f78f3500000005",
+                        "targetTopic": "politics",
+                        "text": "Vice President Harris is consolidating support for the Democratic nomination. Former president Donald Trump and Sen. JD Vance (R-Ohio) are hitting the campaign trail. And voters are beginning to assess a brand-new presidential contest. Join Washington Post associate editor Jonathan Capehart for a special, expanded edition of First Look."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
