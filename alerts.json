@@ -73273,5 +73273,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "38497f71-4b5c-11ef-8f9f-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Olympic records motivate athletes and fascinate fans. But one day, those milestones may be unbreakable.",
+            "ios": {
+                "alert": {
+                    "body": "Olympic records motivate athletes and fascinate fans. But one day, those milestones may be unbreakable.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/interactive/2024/olympics-records-athletes-unbreakable-human-limit/",
+                        "datetime": "2024-07-26T14:34:52.225000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a3b40c61f78f3500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "As advances in training, technology and technique continue, how close are we to reaching the limits of human performance?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
