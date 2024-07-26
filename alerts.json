@@ -73567,5 +73567,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b2e51bd0-4b9e-11ef-afcd-0000a1ace035",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Dept. settles with ex-FBI officials Strzok, Page over leak of anti-Trump texts",
+            "ios": {
+                "alert": {
+                    "body": "Justice Dept. settles with ex-FBI officials Strzok, Page over leak of anti-Trump texts",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/07/26/strzok-page-fbi-settlement-trump-text-leak/",
+                        "datetime": "2024-07-26T22:30:44.725000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a42394069e803600000001",
+                        "targetTopic": "politics",
+                        "text": "The Justice Department has agreed to settle claims by former senior FBI special agent Peter P. Strzok and FBI lawyer Lisa Page, who had sued saying the government violated their privacy rights when it leaked their politically charged text messages criticizing Donald Trump.\n\n\nStrzok's attorneys say he will receive a $1.2 million settlement. Terms for Page were not disclosed. Strzok and Page said they were illegally targeted for retribution by the Trump administration after the FBI investigated Russia\u2019s interference in the 2016 presidential election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
