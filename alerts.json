@@ -73322,5 +73322,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5379a020-4b63-11ef-8efc-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mexico says it wasn\u2019t informed of operation to whisk Sinaloa cartel leaders to the U.S.",
+            "ios": {
+                "alert": {
+                    "body": "Mexico says it wasn\u2019t informed of operation to whisk Sinaloa cartel leaders to the U.S.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/26/sinaloa-cartel-arrests-zambada-guzman/",
+                        "datetime": "2024-07-26T15:25:44.120000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a3bff861f78f3500000008",
+                        "targetTopic": "world",
+                        "text": "Sinaloa cartel leaders \u201cEl Mayo\u201d Zambada and a son of \u201cEl Chapo\u201d Guzm\u00e1n were flown to Texas in a private plane in a coup for U.S. agents fighting the fentanyl trade. Mexico didn\u2019t learn of the arrests until hours later."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
