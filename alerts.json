@@ -73028,5 +73028,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "52ae9121-4b25-11ef-8a67-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "France\u2019s national rail says \u2018malicious\u2019 acts causing disruptions before Olympics",
+            "ios": {
+                "alert": {
+                    "body": "France\u2019s national rail says \u2018malicious\u2019 acts causing disruptions before Olympics",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/26/france-rail-disruptions-scnf-olympics/",
+                        "datetime": "2024-07-26T08:01:54.200000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a357f28f3414350000000a",
+                        "targetTopic": "world",
+                        "text": "France\u2019s national rail service, SNCF, on Friday said several \u201cmalicious acts\u201d targeted three of its high-speed lines, causing disruptions hours before the Opening Ceremonies of the Paris Olympic Games. \u201cArson attacks were started to damage our facilities,\u201d SNCF said in a post on X. Some disruptions are expected to last through the weekend until Monday, SNCF said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
