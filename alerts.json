@@ -74008,5 +74008,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9e6451f0-4c64-11ef-9d2b-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Caeleb Dressel anchors relay to first U.S. gold and Katie Ledecky takes bronze in 'race of the century' on Day 1 at Paris Olympics",
+            "ios": {
+                "alert": {
+                    "body": "Caeleb Dressel anchors relay to first U.S. gold and Katie Ledecky takes bronze in 'race of the century' on Day 1 at Paris Olympics",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/27/paris-olympics-2024-live-results-day-1",
+                        "datetime": "2024-07-27T22:07:30.672000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/olympics/2024/07/27/paris-olympics-2024-live-results-day-1",
+                        "pushID": "66a56fa2069e803600000004",
+                        "targetTopic": "sports",
+                        "text": "The Summer Games are underway in Paris. The United States claimed its first gold medal in the men's 4x100-meter freestyle swimming relay, powered by Dressel in the final leg. Ledecky earned her first medal in Paris with bronze in the women's 400 freestyle, and NBA sensation Victor Wembanyama shined in his Olympic debut for host France."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
