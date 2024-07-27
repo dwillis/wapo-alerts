@@ -73910,5 +73910,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2e2c36a0-4c32-11ef-a191-000a1acef43f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: My brother stopped talking to me after a heated political discussion",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: My brother stopped talking to me after a heated political discussion",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/25/ask-sahaj-brother-political-discussion/",
+                        "datetime": "2024-07-27T16:06:27.527000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a51b03fc3ac33500000005",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: My brother stopped talking to me after a heated political discussion"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
