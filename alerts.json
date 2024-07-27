@@ -73763,5 +73763,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cfd49290-4c0f-11ef-80dd-00000a1acef7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 10 best breakfast sandwiches in the D.C. area, according to our restaurant critic",
+            "ios": {
+                "alert": {
+                    "body": "The 10 best breakfast sandwiches in the D.C. area, according to our restaurant critic",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/interactive/2024/best-breakfast-sandwiches-dc-area-review-2024/",
+                        "datetime": "2024-07-27T12:00:26.247000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a4e15afc3ac33500000002",
+                        "targetTopic": "local",
+                        "text": "Ranging from the simple to the sublime, Tim Carman tasted more than 90 breakfast sandwiches in search of the best in the D.C. area. It wasn\u2019t easy to narrow the field to 10, but there was one clear winner."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
