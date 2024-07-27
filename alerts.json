@@ -73714,5 +73714,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "18b7ed40-4c01-11ef-8ac9-0000a1aceb30",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Team USA has captured its first medal of the Paris Olympics, in diving. Follow our coverage here.",
+            "ios": {
+                "alert": {
+                    "body": "Team USA has captured its first medal of the Paris Olympics, in diving. Follow our coverage here.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/27/paris-olympics-2024-live-results-day-1/",
+                        "datetime": "2024-07-27T10:15:06.183000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/olympics/2024/07/27/paris-olympics-2024-live-results-day-1/",
+                        "pushID": "66a4c8aafc3ac33500000001",
+                        "targetTopic": "sports",
+                        "text": "Americans Sarah Bacon and Kassidy Cook won silver in the women's synchronized 3-meter diving competition, the first U.S. medal of the Summer Olympics. It's the first day medals are being awarded in Paris, where swimmer Katie Ledecky will compete for more hardware later today."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
