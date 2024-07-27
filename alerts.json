@@ -73616,5 +73616,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "68fcd114-4ba9-11ef-9857-00000a1ace0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What we know about the man suspected of causing California\u2019s largest wildfire",
+            "ios": {
+                "alert": {
+                    "body": "What we know about the man suspected of causing California\u2019s largest wildfire",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/26/park-fire-california-suspect/",
+                        "datetime": "2024-07-26T23:47:24.605000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a4358c069e803600000003",
+                        "targetTopic": "us",
+                        "text": "The man suspected of causing the wildfire is a loner with a criminal record. Authorities say a witness saw him light a vehicle on fire and push it down a ravine, triggering an explosive conflagration that led to his arrest.\n\n\nNeighbors of Ronnie Stout, a 42-year-old Chico resident, say they never imagined he\u2019d do anything like this \u2014 a mysterious act that put them at mortal risk."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6eb65ea0-4ba4-11ef-a662-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Two Boeing Starliner astronauts are stuck indefinitely in space. This is what their life is like.",
+            "ios": {
+                "alert": {
+                    "body": "Two Boeing Starliner astronauts are stuck indefinitely in space. This is what their life is like.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/07/26/boeing-starliner-astronauts-stuck-orbit-space-station/",
+                        "datetime": "2024-07-26T23:11:47.339000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a42d33069e803600000002",
+                        "targetTopic": "editors_picks",
+                        "text": "They spend their time conducting experiments and maintaining equipment, including the space station toilet, weeks after they were supposed to return to Earth."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
