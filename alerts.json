@@ -74351,5 +74351,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bc4db870-4d2a-11ef-bc08-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Simone Biles advances to gymnastics all-around final and Torri Huske leads U.S. swimming's medal haul on Day 2 at Paris Olympics",
+            "ios": {
+                "alert": {
+                    "body": "Simone Biles advances to gymnastics all-around final and Torri Huske leads U.S. swimming's medal haul on Day 2 at Paris Olympics",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/28/paris-olympics-2024-live-results-day-2-basketball-swimming/",
+                        "datetime": "2024-07-28T21:45:41.188000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a6bc05069e803600000006",
+                        "targetTopic": "sports",
+                        "text": "The Americans cruised into the women's gymnastics team final, with Biles and Sunisa Lee earning spots in the all-around final. Huske edged teammate Gretchen Walsh for a gold-silver finish in the women's 100-meter butterfly, and French star Leon Marchand set an Olympic record in the men's 400 individual medley. Elsewhere, the U.S. men's basketball and women's soccer teams won in group play, and two Americans featured in the women's fencing individual foil final."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
