@@ -74302,5 +74302,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4cf69fc0-4d23-11ef-94ab-0000a1ace713",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Kamala Harris took control of the Democratic Party",
+            "ios": {
+                "alert": {
+                    "body": "How Kamala Harris took control of the Democratic Party",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/28/kamala-harris-control-democratic-party/",
+                        "datetime": "2024-07-28T20:52:26.760000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a6af8a069e803600000005",
+                        "targetTopic": "politics",
+                        "text": "In the hours and days after President Biden's departure from the race, party officials and campaign aides raced to flip an entire brand from fading hope to salute emojis. What resulted was a flash-bang midsummer swap at the top of the presidential ticket, an outpouring of volunteer energy, a rebound in the polls and a flood of hundreds of millions of dollars in donations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
