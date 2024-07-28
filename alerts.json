@@ -74204,5 +74204,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "37255230-4d06-11ef-8134-00000a1ace78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Edna O\u2019Brien dies at 93. The groundbreaking Irish writer of \u2018The Country Girls\u2019 captured women\u2019s struggles in a male-dominated world.",
+            "ios": {
+                "alert": {
+                    "body": "Edna O\u2019Brien dies at 93. The groundbreaking Irish writer of \u2018The Country Girls\u2019 captured women\u2019s struggles in a male-dominated world.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/28/edna-obrien-irish-novelist-country-girls-dead/",
+                        "datetime": "2024-07-28T17:24:15.954000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a67ebffc3ac33500000009",
+                        "targetTopic": "entertainment",
+                        "text": "The book, which was banned in Ireland, made O\u2019Brien a literary sensation and propelled her into the Swinging Sixties cultural whir."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
