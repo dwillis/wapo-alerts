@@ -74106,5 +74106,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "481a1ba0-4cef-11ef-a227-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sanctions crushed this brutal regime\u2019s elite. So they built a zombie economy fueled by drugs.",
+            "ios": {
+                "alert": {
+                    "body": "Sanctions crushed this brutal regime\u2019s elite. So they built a zombie economy fueled by drugs.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/national-security/interactive/2024/us-syria-civil-war-sanctions-drug-trafficking/",
+                        "datetime": "2024-07-28T14:40:05.891000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a65845fc3ac33500000007",
+                        "targetTopic": "special_report",
+                        "text": "A stimulant called Captagon has become the fabulously profitable core of Syria\u2019s economy and helped the country\u2019s political and military elite cling to power. The illicit pills, manufactured in Syrian factories and sold across the Middle East, are generating an estimated $10 billion a year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
