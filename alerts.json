@@ -74155,5 +74155,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9a532550-4cfa-11ef-9394-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+            "ios": {
+                "alert": {
+                    "body": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-07-28T16:01:08.227000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a66b44fc3ac33500000008",
+                        "targetTopic": "news_quiz",
+                        "text": "Play now to finish out your score for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
