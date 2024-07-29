@@ -74400,5 +74400,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c486ea30-4d60-11ef-9394-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Nicol\u00e1s Maduro\u2019s electoral council declared him the winner of Venezuela\u2019s election",
+            "ios": {
+                "alert": {
+                    "body": "President Nicol\u00e1s Maduro\u2019s electoral council declared him the winner of Venezuela\u2019s election",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/28/venezuela-election-maduro-gonzalez/",
+                        "datetime": "2024-07-29T04:12:26.953000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a716aa069e803600000007",
+                        "targetTopic": "world",
+                        "text": "Maduro\u2019s electoral council claimed the authoritarian socialist won the hard-fought contest Sunday despite independent exit polling that suggested challenger Edmundo Gonz\u00e1lez captured twice as many votes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
