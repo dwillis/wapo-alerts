@@ -74694,5 +74694,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "500583d0-4ddb-11ef-ae92-0000a1ace580",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least 2 children dead and 6 in critical condition after mass stabbing in English seaside town",
+            "ios": {
+                "alert": {
+                    "body": "At least 2 children dead and 6 in critical condition after mass stabbing in English seaside town",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/29/southport-stabbing-arrest/",
+                        "datetime": "2024-07-29T18:49:40.316000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a7e4447643873500000001",
+                        "targetTopic": "world",
+                        "text": "Police detained a teenage boy with a knife Monday in the attack that killed two and injured another nine children and two adults in Southport in North West England."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "332dbbb0-4dd6-11ef-9b2a-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. men win bronze in the gymnastics team competition. It\u2019s the Americans\u2019 first Olympic medal in the event since 2008.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. men win bronze in the gymnastics team competition. It\u2019s the Americans\u2019 first Olympic medal in the event since 2008.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/29/paris-olympics-2024-live-results-medals-score-day-3/",
+                        "datetime": "2024-07-29T18:13:04.556000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a7dbb0069e80360000000d",
+                        "targetTopic": "sports",
+                        "text": "Over the past three years, the U.S. gymnasts have aggressively pushed to increase the difficulty of their routines after a disappointing output in Tokyo. Japan earned the gold medal while China took home silver Monday in Paris."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
