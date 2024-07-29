@@ -74645,5 +74645,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ccfd2b81-4dc3-11ef-ae93-00000a1ace8d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Type A parent wants to tell chronically late partner to be on time",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Type A parent wants to tell chronically late partner to be on time",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/29/carolyn-hax-type-a-partner-late/",
+                        "datetime": "2024-07-29T16:01:21.454000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a7bcd1069e80360000000c",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Type A parent wants to tell chronically late partner to be on time"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
