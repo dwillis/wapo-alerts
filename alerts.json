@@ -74792,5 +74792,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "adbbf2c0-4de5-11ef-a7fe-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. gymnast Stephen Nedoroscik is at the Olympics for one reason: Pommel horse. Today, he became both a medalist and viral star.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. gymnast Stephen Nedoroscik is at the Olympics for one reason: Pommel horse. Today, he became both a medalist and viral star.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/29/stephen-nedoroscik-us-mens-gymnastics-paris-olympics-medal/",
+                        "datetime": "2024-07-29T20:03:52.682000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a7f5a87643873500000002",
+                        "targetTopic": "sports",
+                        "text": "Pommel horse is an apparatus so fickle that one misstep can derail an athlete\u2019s rhythm and send the routine into disarray. And in the waning moments of Monday\u2019s final, Nedoroscik had to deliver for the United States to clinch its first Olympic team medal since 2008. He leaped onto the apparatus and began swinging, floating through each element and maneuvering his hands with precision. His teammates watched with their arms around one another, and as soon as he dismounted, the celebration began."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
