@@ -74449,5 +74449,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b899a2f1-4d9f-11ef-84e2-00000a1ace6f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Maduro claims victory in Venezuelan election; several countries, including U.S., cast doubt",
+            "ios": {
+                "alert": {
+                    "body": "Maduro claims victory in Venezuelan election; several countries, including U.S., cast doubt",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/29/venezuela-presidential-election-result-maduro/",
+                        "datetime": "2024-07-29T11:43:06.137000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a7804a069e80360000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "President Nicol\u00e1s Maduro\u2019s electoral council declared him the winner of Sunday's election, though his opponent, Edmundo Gonz\u00e1lez, also claimed victory. Multiple world leaders called for transparency over how votes were counted, while Russia, China and Cuba congratulated Maduro."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f9567570-4d9a-11ef-a8a5-0000a1acec72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In an op-ed, Biden calls for \u2018three bold reforms\u2019 to restore trust in the Supreme Court and American democracy",
+            "ios": {
+                "alert": {
+                    "body": "In an op-ed, Biden calls for \u2018three bold reforms\u2019 to restore trust in the Supreme Court and American democracy",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/07/29/joe-biden-reform-supreme-court-presidential-immunity-plan-announcement/",
+                        "datetime": "2024-07-29T11:09:07.265000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a77853069e803600000009",
+                        "targetTopic": "breaking-news",
+                        "text": "President Biden pushes for term limits and a code of conduct for the Supreme Court, and a constitutional amendment making clear there is no immunity for crimes a former president committed while in office. Read his op-ed in The Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b4262af0-4d99-11ef-a24f-00000a1ace87",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Election countdown. Supreme Court. Israel. Venezuela\u2019s disputed vote. Park Fire. Simone Biles. Chimp language. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Election countdown. Supreme Court. Israel. Venezuela\u2019s disputed vote. Park Fire. Simone Biles. Chimp language. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/29/what-to-know-for-july-29/?noredirect=1",
+                        "datetime": "2024-07-29T11:00:01.651000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "66a77631069e803600000008",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
