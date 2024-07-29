@@ -74841,5 +74841,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5190b180-4df8-11ef-ae75-00000a1ace70",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 3 highlights from Paris Olympics: U.S. women's basketball opens with a rout and Summer McIntosh coasts to swimming gold",
+            "ios": {
+                "alert": {
+                    "body": "Day 3 highlights from Paris Olympics: U.S. women's basketball opens with a rout and Summer McIntosh coasts to swimming gold",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-07-29T22:17:18.469000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a814ee069e803600000011",
+                        "targetTopic": "sports",
+                        "text": "McIntosh, a 17-year-old Canadian star, won the women's 400-meter individual medley in dominant fashion. Elsewhere, the U.S. women\u2019s basketball team opened group play with a blowout of Japan, Novak Djokovic defeated Rafael Nadal in the second round of the men\u2019s tennis singles tournament, and the U.S. men earned their first medal in the gymnastics team event since 2008."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
