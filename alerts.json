@@ -75086,5 +75086,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ae193c70-4e7e-11ef-913f-0000a1ace305",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Landslides in southern India kill at least 99 people, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Landslides in southern India kill at least 99 people, officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/30/wayanad-kerala-india-landslides-floods/",
+                        "datetime": "2024-07-30T14:19:06.074000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a8f65afc3ac3350000000d",
+                        "targetTopic": "world",
+                        "text": "Dozens of others were injured or missing after heavy rains struck the state of Kerala during the height of monsoon season."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
