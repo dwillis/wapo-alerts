@@ -75380,5 +75380,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4bbd67e0-4ea1-11ef-9e4d-00000a1ace97",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. women capture Olympic gold in team gymnastics, redeeming Tokyo stumble",
+            "ios": {
+                "alert": {
+                    "body": "U.S. women capture Olympic gold in team gymnastics, redeeming Tokyo stumble",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/30/olympic-gymnastics-simone-biles-results-scores-paris/",
+                        "datetime": "2024-07-30T18:26:53.603000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a9306d069e803600000014",
+                        "targetTopic": "breaking-news",
+                        "text": "Led by Simone Biles and Sunisa Lee, the women\u2019s team held off Italy (silver) and Brazil (bronze) to win its third gold medal in the past four Olympics after it took silver at the Tokyo Games in 2021. It\u2019s the Americans' ninth straight team medal. Biles and Lee will compete in the all-around competition on Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
