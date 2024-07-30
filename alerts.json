@@ -75478,5 +75478,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9de5f900-4ebb-11ef-9132-00000a1aceb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Have babies for Russia: Putin presses women to embrace patriotism over feminism",
+            "ios": {
+                "alert": {
+                    "body": "Have babies for Russia: Putin presses women to embrace patriotism over feminism",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/30/russia-putin-antifeminism-women-children-society/",
+                        "datetime": "2024-07-30T21:35:18.420000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a95c96069e803600000016",
+                        "targetTopic": "world",
+                        "text": "Facing his country\u2019s demographic decline and a war in Ukraine that is killing and wounding many men, the Russian president is urging women to adopt traditional roles and serve the nation by giving birth young and often, and by raising their children to be patriots. Critics say the policy is rolling back rights and protections, including against domestic violence."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
