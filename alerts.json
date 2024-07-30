@@ -75135,5 +75135,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ce992b60-4e8b-11ef-a173-00000a1ace57",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Details emerge from Trump rally about local officer\u2019s shot and role it may have played before gunman was killed by Secret Service",
+            "ios": {
+                "alert": {
+                    "body": "Details emerge from Trump rally about local officer\u2019s shot and role it may have played before gunman was killed by Secret Service",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/07/30/trump-rally-local-officer-shot/",
+                        "datetime": "2024-07-30T15:53:04.270000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a90c60fc3ac3350000000e",
+                        "targetTopic": "us",
+                        "text": "After a local officer fired at him, Thomas Matthew Crooks temporarily recoiled from his rooftop perch and did not shoot again before he was killed by a Secret Service countersniper, according to officials familiar with the investigation along with a Washington Post video analysis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
