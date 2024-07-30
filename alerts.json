@@ -75527,5 +75527,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "17f0c5b1-4ebf-11ef-a0d3-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 4 highlights from Paris Olympics: U.S. women\u2019s rugby wins its first medal and tennis star Coco Gauff falls in contentious loss",
+            "ios": {
+                "alert": {
+                    "body": "Day 4 highlights from Paris Olympics: U.S. women\u2019s rugby wins its first medal and tennis star Coco Gauff falls in contentious loss",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-07-30T22:00:11.653000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a9626b069e803600000017",
+                        "targetTopic": "sports",
+                        "text": "The U.S. women's rugby sevens team beat Australia at the buzzer in a dramatic bronze medal game. Earlier, Gauff lost to Croatia\u2019s Donna Vekic in women\u2019s singles tennis after a tearful argument over a questionable call. In other highlights, Simone Biles and the U.S. women's gymnastics team won gold, the U.S. men's soccer team advanced to the Olympic quarterfinals for the first time in 24 years, and Australian swimmer Kaylee McKeown edged American rival Regan Smith for 100-meter backstroke gold."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
