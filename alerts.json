@@ -75429,5 +75429,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd1c5060-4ea7-11ef-806c-0000a1ace702",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Project 2025 to end policy work, as attacks on the right-wing group spurred backlash from Trump. Its director is also departing.",
+            "ios": {
+                "alert": {
+                    "body": "Project 2025 to end policy work, as attacks on the right-wing group spurred backlash from Trump. Its director is also departing.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/07/30/project-2025-director-paul-dans-leaves-heritage-foundation/",
+                        "datetime": "2024-07-30T19:13:54.504000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a93b72069e803600000015",
+                        "targetTopic": "breaking-news",
+                        "text": "The right-wing policy operation that became a rallying cry for Democrats and a nuisance for Republican nominee Donald Trump is winding down its policy operations, and its director, former Trump administration personnel official Paul Dans, is departing. The Heritage Foundation also recently distributed new talking points encouraging participants to emphasize that the project does not speak for Trump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
