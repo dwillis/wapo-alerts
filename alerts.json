@@ -74890,5 +74890,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1f1bdc50-4e04-11ef-83f5-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Convicted war criminal William Calley is dead at 80. He was the face of the My Lai massacre, one of the Army\u2019s darkest chapters.",
+            "ios": {
+                "alert": {
+                    "body": "Convicted war criminal William Calley is dead at 80. He was the face of the My Lai massacre, one of the Army\u2019s darkest chapters.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/29/william-calley-dead-my-lai-massacre/",
+                        "datetime": "2024-07-29T23:41:47.766000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a828bb069e803600000013",
+                        "targetTopic": "us",
+                        "text": "Calley was the only person convicted in connection with the 1968 massacre, in which U.S. troops killed hundreds of unarmed South Vietnamese men, women and children. His death in April was not previously reported."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5caa6ec0-4dfe-11ef-98a3-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Chinese migrants are illegally entering the U.S. from Mexico in record numbers, testing Biden and Xi",
+            "ios": {
+                "alert": {
+                    "body": "Chinese migrants are illegally entering the U.S. from Mexico in record numbers, testing Biden and Xi",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/immigration/interactive/2024/china-migrants-us-border-san-diego-new-york/",
+                        "datetime": "2024-07-29T23:00:33.988000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a81f11069e803600000012",
+                        "targetTopic": "editors_picks",
+                        "text": "U.S. authorities have encountered more than 55,000 Chinese migrants crossing illegally from Mexico during the past 18 months \u2014 up from 3,813 in 2022. It is the last stage of the journey known in Chinese as zouxian \u2014 \u201cwalking the line.\u201d Driven in part by the stifling economic and political fallout of China\u2019s extended covid-19 lockdowns, the Chinese arrivals have become a political and national security flash point in Washington."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
