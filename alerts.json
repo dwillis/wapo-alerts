@@ -75282,5 +75282,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "16bdd8e0-4e9c-11ef-a227-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel targets Hezbollah commander near Beirut in response to deadly rocket strike over the weekend, military says",
+            "ios": {
+                "alert": {
+                    "body": "Israel targets Hezbollah commander near Beirut in response to deadly rocket strike over the weekend, military says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/30/israel-hamas-war-news-gaza-lebanon-hezbollah/",
+                        "datetime": "2024-07-30T17:49:37.235000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a927b13a7a4a3500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The strike Tuesday night on the outskirts of the Lebanese capital followed warnings from Israel that it would retaliate for a rocket strike that killed 12 children and teenagers in the Israeli-occupied Golan Heights."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "276caff0-4e96-11ef-b3d7-0000a1ace401",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate passes landmark bills to protect kids online, raising pressure on House",
+            "ios": {
+                "alert": {
+                    "body": "Senate passes landmark bills to protect kids online, raising pressure on House",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/07/30/seante-kosa-passes-kids-online-privacy/",
+                        "datetime": "2024-07-30T17:07:08.196000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a91dbc3a7a4a3500000001",
+                        "targetTopic": "politics",
+                        "text": "The pair of bills \u2014 the Kids Online Safety Act, or KOSA, and the Children and Teens\u2019 Online Privacy Protection Act, referred to as COPPA 2.0 \u2014 would force digital platforms to take \u201creasonable\u201d steps to prevent harms to children such as bullying, drug addiction and sexual exploitation, and would broaden existing federal privacy protections to include kids and teens 16 years old and younger. Proponents of the measures hope Senate passage will amplify calls for the package to be taken up in the House, where the bills have garnered bipartisan support but negotiations publicly unraveled last month amid infighting between House Republican leaders."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
