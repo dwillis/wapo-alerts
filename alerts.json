@@ -75184,5 +75184,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c00e5e0-4e8e-11ef-9a2f-0000a1ace369",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Simone Biles and the U.S. women are vying to reclaim gold in the Olympics team gymnastics final. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Simone Biles and the U.S. women are vying to reclaim gold in the Olympics team gymnastics final. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/30/olympic-gymnastics-simone-biles-results-scores-paris/",
+                        "datetime": "2024-07-30T16:11:20.487000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a910a8fc3ac33500000010",
+                        "targetTopic": "breaking-news",
+                        "text": "Led by Biles and defending all-around champion Sunisa Lee, the Americans are heavy favorites to win gold. The team has said it is seeking redemption for its 2021 stumble in Tokyo, where Biles withdrew from some events because of a disorienting mental block and the Americans took silver."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8f2bc3a0-4e8d-11ef-b6b8-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Husband won\u2019t admit that he prefers sleeping in separate bedrooms",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Husband won\u2019t admit that he prefers sleeping in separate bedrooms",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/30/carolyn-hax-husband-separate-bedrooms/",
+                        "datetime": "2024-07-30T16:05:36.812000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a90f50fc3ac3350000000f",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Husband won\u2019t admit that he prefers sleeping in separate bedrooms"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
