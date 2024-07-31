@@ -76066,5 +76066,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c90b7d00-4f86-11ef-bb08-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Another brutal heat wave is cranking up in the D.C. region, and it could last a week",
+            "ios": {
+                "alert": {
+                    "body": "Another brutal heat wave is cranking up in the D.C. region, and it could last a week",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/07/31/dc-summer-heat-wave-forecast/",
+                        "datetime": "2024-07-31T21:49:38.636000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aab172764387350000000c",
+                        "targetTopic": "local",
+                        "text": "The National Weather Service has issued a heat advisory for Thursday afternoon, when it could feel like 107 degrees, factoring in the humidity. This latest heat wave begins amid the District's second hottest summer on record to date."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
