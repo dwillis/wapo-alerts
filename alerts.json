@@ -76115,5 +76115,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9fc55460-4f8c-11ef-911d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 5 highlights from Paris Olympics: Leon Marchand, Pan Zhanle make swimming history and U.S. men\u2019s basketball wins big",
+            "ios": {
+                "alert": {
+                    "body": "Day 5 highlights from Paris Olympics: Leon Marchand, Pan Zhanle make swimming history and U.S. men\u2019s basketball wins big",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-07-31T22:31:25.585000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aabb3d3a7a4a3500000004",
+                        "targetTopic": "sports",
+                        "text": "Marchand, the 22-year-old French phenom, became the first swimmer to win both the 200-meter butterfly and the 200 breaststroke at the same Games. China\u2019s Pan shattered his own world record in the 100 freestyle. U.S. star Katie Ledecky continued her dominance in the 1,500 freestyle, setting an Olympic record and winning her first gold in Paris. In men's basketball, LeBron James and Bam Adebayo powered the Americans to a win over South Sudan. The Spanish duo of Rafael Nadal and Carlos Alcaraz saw their doubles run end in the tennis quarterfinals at Roland Garros."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
