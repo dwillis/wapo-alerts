@@ -75576,5 +75576,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cf8b3570-4eec-11ef-92fe-00000a1ace45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hamas leader Ismail Haniyeh was killed in Tehran, the group says in statement",
+            "ios": {
+                "alert": {
+                    "body": "Hamas leader Ismail Haniyeh was killed in Tehran, the group says in statement",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/30/israel-hamas-war-news-gaza-haniyeh/",
+                        "datetime": "2024-07-31T03:27:26.597000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66a9af1e7643873500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "Haniyeh, the head of Hamas\u2019s political bureau, was killed in the Iranian capital after participating in the inauguration of Iran\u2019s new president, Hamas said in a statement. It was unclear how Haniyeh was killed. He led Hamas in the Gaza Strip for over a decade."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
