@@ -75821,5 +75821,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "97357950-4f65-11ef-9af1-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Netanyahu says \u2018crushing blows\u2019 dealt to Hezbollah and Hamas, but stops short of claiming responsibility for Hamas leader\u2019s death",
+            "ios": {
+                "alert": {
+                    "body": "Netanyahu says \u2018crushing blows\u2019 dealt to Hezbollah and Hamas, but stops short of claiming responsibility for Hamas leader\u2019s death",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/07/30/israel-hamas-war-news-gaza-haniyeh/",
+                        "datetime": "2024-07-31T17:52:01.562000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aa79c17643873500000008",
+                        "targetTopic": "world",
+                        "text": "Israeli Prime Minister Benjamin Netanyahu said in a televised address that Israel was in a fight against Iranian-backed groups in the region, including Hamas, Hezbollah in Lebanon and the Houthi movement in Yemen. \u201cIn the last few days, we have struck crushing blows on each of them,\u201d he said, but without taking responsibility for the killing Wednesday of Hamas leader Ismail Haniyeh in Tehran."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7ba719c0-4f63-11ef-bdd9-0000a1ace011",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Norma Padgett dies at 92. Her rape accusation in \u2018Groveland Four\u2019 case led to a gross miscarriage of justice in the Jim Crow South.",
+            "ios": {
+                "alert": {
+                    "body": "Norma Padgett dies at 92. Her rape accusation in \u2018Groveland Four\u2019 case led to a gross miscarriage of justice in the Jim Crow South.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/07/31/norma-padgett-groveland-four-dies/",
+                        "datetime": "2024-07-31T17:36:56.367000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aa76387643873500000007",
+                        "targetTopic": "us",
+                        "text": "The four Black men she accused of rape in Florida in 1949 were exonerated seven decades later. Two had been killed, and two spent years in prison. She refused to publicly recant her story."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
