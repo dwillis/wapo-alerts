@@ -75968,5 +75968,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bd1ecb40-4f73-11ef-939c-00000a1ace70",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Katie Ledecky wins 1,500-meter freestyle, tying records for most Olympic medals and gold medals by a female swimmer",
+            "ios": {
+                "alert": {
+                    "body": "Katie Ledecky wins 1,500-meter freestyle, tying records for most Olympic medals and gold medals by a female swimmer",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/07/31/paris-olympics-2024-live-results-scores-medals-day-5/",
+                        "datetime": "2024-07-31T19:33:18.142000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aa917e764387350000000b",
+                        "targetTopic": "sports",
+                        "text": "It was Ledecky's first gold medal of the Paris Games. She\u2019ll have a chance to break both records Thursday when the Americans swim the 4x200 freestyle relay."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f0c84ee0-4f72-11ef-953a-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says Harris \u2018wants to be known as Black,\u2019 questioning her identity in his remarks at a convention of Black journalists",
+            "ios": {
+                "alert": {
+                    "body": "Trump says Harris \u2018wants to be known as Black,\u2019 questioning her identity in his remarks at a convention of Black journalists",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/31/2024-election-campaign-updates-harris-trump/",
+                        "datetime": "2024-07-31T19:27:35.315000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aa9027764387350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Former president Donald Trump said he had been aware of Vice President Harris\u2019s Indian heritage but didn\u2019t know she was Black \u201cuntil a number of years ago when she happened to turn Black.\u201d\n\nTrump claimed Harris used to only promote her Indian heritage \u2014 even though, as a moderator pointed out, she was part of a historically Black sorority and embraced her Black identity in many ways. \u201cAnd now she wants to be known as Black,\u201d Trump said during a very combative question-and-answer session at the National Association of Black Journalists convention in Chicago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
