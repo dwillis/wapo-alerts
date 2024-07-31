@@ -75772,5 +75772,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6d52a810-4f56-11ef-939c-00000a1ace70",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: After a scare with their first baby, husband says no to a second",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: After a scare with their first baby, husband says no to a second",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/07/31/carolyn-hax-couple-second-child-disagreement/",
+                        "datetime": "2024-07-31T16:03:28.892000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aa60503a7a4a3500000003",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: After a scare with their first baby, husband says no to a second"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
