@@ -75625,5 +75625,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "08ccf5a0-4f2c-11ef-83e1-00000a1acef7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hamas leader. Harris rally. Project 2025. Venezuela protests. Suicide rates. Heat wave. Simone Biles. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Hamas leader. Harris rally. Project 2025. Venezuela protests. Suicide rates. Heat wave. Simone Biles. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/07/31/what-to-know-for-july-31/?noredirect=1",
+                        "datetime": "2024-07-31T11:00:01.383000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "66aa19317643873500000004",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
