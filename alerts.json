@@ -75919,5 +75919,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f4d939b1-4f66-11ef-953a-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fed leaves interest rates unchanged but inches closer to long-awaited cut",
+            "ios": {
+                "alert": {
+                    "body": "Fed leaves interest rates unchanged but inches closer to long-awaited cut",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/07/31/fed-rate-cuts-inflation/",
+                        "datetime": "2024-07-31T18:01:48.237000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aa7c0c7643873500000009",
+                        "targetTopic": "breaking-news",
+                        "text": "Central bankers have kept borrowing costs at the highest level in more than 20 years to stifle inflation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
