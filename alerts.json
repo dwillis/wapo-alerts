@@ -76262,5 +76262,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "055a17c0-4fb5-11ef-9f67-00000a1aceb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A day before Sonya Massey was killed by a deputy, her mother called 911: \u2018I don\u2019t want you guys to hurt her\u2019",
+            "ios": {
+                "alert": {
+                    "body": "A day before Sonya Massey was killed by a deputy, her mother called 911: \u2018I don\u2019t want you guys to hurt her\u2019",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/31/sonya-massey-killing-911-calls/",
+                        "datetime": "2024-08-01T03:20:36.670000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aaff04764387350000000f",
+                        "targetTopic": "us",
+                        "text": "Massey\u2019s mother said her daughter was having a mental breakdown and implored law enforcement officers not to harm her, newly released 911 recordings show."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
