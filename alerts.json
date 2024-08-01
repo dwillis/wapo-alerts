@@ -76458,5 +76458,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "31950600-5015-11ef-900a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Evan Gershkovich, Paul Whelan and Vladimir Kara-Murza among those to be freed in prisoner swap with Russia, Turkish government says",
+            "ios": {
+                "alert": {
+                    "body": "Evan Gershkovich, Paul Whelan and Vladimir Kara-Murza among those to be freed in prisoner swap with Russia, Turkish government says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/01/russia-us-prisoner-swap/",
+                        "datetime": "2024-08-01T14:49:02.570000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aba05e7643873500000012",
+                        "targetTopic": "breaking-news",
+                        "text": "The Wall Street Journal reporter, the former Marine and the political dissident were part of the deal for a Russian assassin convicted of murder in Germany and others imprisoned in the United States and other countries for serious crimes, according to a statement by the Turkish presidency. The exchange included at least two dozen people."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
