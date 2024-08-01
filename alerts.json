@@ -76507,5 +76507,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "daddcfc0-5020-11ef-98c5-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. gymnasts Simone Biles and Sunisa Lee compete for gold in the women\u2019s all-around final. Follow our live coverage from Paris.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. gymnasts Simone Biles and Sunisa Lee compete for gold in the women\u2019s all-around final. Follow our live coverage from Paris.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/01/olympic-gymnastics-simone-biles-score-results-live/",
+                        "datetime": "2024-08-01T16:12:30.977000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66abb3ee7643873500000014",
+                        "targetTopic": "breaking-news",
+                        "text": "Biles, who won the event in 2016, returns after a disorienting mental block caused her to withdraw during the Tokyo Olympics in 2021. Lee, who won gold in Tokyo, will look to defend her title."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "41e0bb30-501f-11ef-b7fd-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: What to do when every family member struggles at once?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: What to do when every family member struggles at once?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/01/carolyn-hax-family-struggle-cope/",
+                        "datetime": "2024-08-01T16:01:04.882000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66abb1407643873500000013",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: What to do when every family member struggles at once?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
