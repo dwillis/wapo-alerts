@@ -76654,5 +76654,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "64053390-5046-11ef-880a-00000a1ace17",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What will Evan Gershkovich, Paul Whelan and Vladimir Kara-Murza face coming home? Jason Rezaian writes from experience.",
+            "ios": {
+                "alert": {
+                    "body": "What will Evan Gershkovich, Paul Whelan and Vladimir Kara-Murza face coming home? Jason Rezaian writes from experience.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/01/russia-gershkovich-whelan-karamurza-trade/",
+                        "datetime": "2024-08-01T20:41:12.487000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66abf2e83a7a4a3500000006",
+                        "targetTopic": "opinions",
+                        "text": "Coming home after being a hostage abroad"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1261e091-5043-11ef-8495-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Katie Ledecky sets record for most Olympic medals won by a female swimmer as U.S. takes silver in 4x200-meter freestyle relay",
+            "ios": {
+                "alert": {
+                    "body": "Katie Ledecky sets record for most Olympic medals won by a female swimmer as U.S. takes silver in 4x200-meter freestyle relay",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/01/paris-olympics-2024-live-results-scores-medals-day-6/#link-3JFC7KR7IREZBDWUIJCA6X57XE",
+                        "datetime": "2024-08-01T20:17:26.822000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66abed567643873500000016",
+                        "targetTopic": "breaking-news",
+                        "text": "Ledecky has 13 medals in her Olympic career, including eight golds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
