@@ -76164,5 +76164,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0825da60-4f93-11ef-8c56-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Accused 9/11 plotter Khalid Sheikh Mohammed reaches plea deal with U.S. to avoid death penalty",
+            "ios": {
+                "alert": {
+                    "body": "Accused 9/11 plotter Khalid Sheikh Mohammed reaches plea deal with U.S. to avoid death penalty",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/07/31/sept-11-case-plea-agreement/",
+                        "datetime": "2024-07-31T23:17:18.419000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aac5fe764387350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "The agreement with Mohammed and two others charged in the Sept. 11, 2001, attacks on the United States was approved by a senior U.S. defense official overseeing their cases at the U.S. military detention facility in Guantanamo Bay. A panel of military officials eventually will determine the men\u2019s sentences."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
