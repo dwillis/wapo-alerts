@@ -76752,5 +76752,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd216412-5055-11ef-b9a9-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 6 highlights from Paris Olympics: Biles wins gold again; Ledecky sets a record; triumphs for U.S. women\u2019s fencing and basketball",
+            "ios": {
+                "alert": {
+                    "body": "Day 6 highlights from Paris Olympics: Biles wins gold again; Ledecky sets a record; triumphs for U.S. women\u2019s fencing and basketball",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-01T22:31:58.165000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ac0cde7643873500000017",
+                        "targetTopic": "sports",
+                        "text": "Simone Biles captured the women's all-around gymnastics gold, her sixth Olympic gold medal and first in the event since the 2016 Rio Games. Katie Ledecky, swimming the third leg of the women's 4x200 freestyle relay, took home a silver for the 13th Olympic medal of her storied career. Also in the pool, Kate Douglass won gold in the 200-meter breaststroke and Regan Smith took silver in the 200-meter butterfly for the Americans. The U.S. women's fencing team won its first gold medal with a victory over Italy in team foil. And the U.S. women's basketball squad rode a 26-point night from Breanna Stewart to a gritty win over Belgium."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
