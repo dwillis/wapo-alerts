@@ -76213,5 +76213,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d42a48b1-4f9f-11ef-8e19-0000a1ace0d0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris responds to Trump\u2019s attacks on her racial identity: \u2018The same old show\u2019 of \u2018divisiveness and disrespect.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Harris responds to Trump\u2019s attacks on her racial identity: \u2018The same old show\u2019 of \u2018divisiveness and disrespect.\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/07/31/2024-election-campaign-updates-harris-trump/",
+                        "datetime": "2024-08-01T00:48:54.712000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66aadb76764387350000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "\u201cLet me just say: The American people deserve better. The American people deserve better,\u201d Vice President Harris said at a historically Black sorority event.\nFormer president Donald Trump said earlier Wednesday that he had been aware of Harris\u2019s Indian heritage but didn\u2019t know she was Black \u201cuntil a number of years ago when she happened to turn Black.\u201d \u201cAnd now she wants to be known as Black,\u201d Trump added, questioning Harris\u2019s identity during a combative question-and-answer session at the National Association of Black Journalists convention."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
