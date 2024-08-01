@@ -76360,5 +76360,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "34d01a50-4ff5-11ef-b85e-00000a1ace7c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump vs. Harris. Iran threat. 9/11 plotters. Tropical storm. Cancer risk. Rent prices. Katie Ledecky. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump vs. Harris. Iran threat. 9/11 plotters. Tropical storm. Cancer risk. Rent prices. Katie Ledecky. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/01/what-to-know-for-august-1/?noredirect=1",
+                        "datetime": "2024-08-01T11:00:04.084000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "66ab6ab43a7a4a3500000005",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
