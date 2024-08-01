@@ -76311,5 +76311,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3c021f70-4fe2-11ef-868b-0000a1acecdd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Top Hamas military commander Mohammed Deif was killed in Israeli strikes earlier in July, Israel\u2019s military confirms",
+            "ios": {
+                "alert": {
+                    "body": "Top Hamas military commander Mohammed Deif was killed in Israeli strikes earlier in July, Israel\u2019s military confirms",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/01/hamas-commander-mohammed-deif-killed/",
+                        "datetime": "2024-08-01T08:44:15.629000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ab4adf7643873500000010",
+                        "targetTopic": "world",
+                        "text": "Deif, a founder and longtime leader of Hamas\u2019s armed wing, was believed by Israel to be among the architects of the Oct. 7 attacks. The strikes on July 13 on an area designated by Israel as a humanitarian zone killed at least 90 Palestinians, according to the Gaza Health Ministry."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
