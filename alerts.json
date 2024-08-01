@@ -76409,5 +76409,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bc9410d0-500a-11ef-950d-00000a1acebd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This Father of the Country stars in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This Father of the Country stars in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-01T13:34:11.304000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ab8ed37643873500000011",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Thursday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
