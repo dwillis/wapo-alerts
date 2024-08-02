@@ -77046,5 +77046,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "81fc6641-50cb-11ef-a2ba-0000a1ace89d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Economy adds 114,000 jobs in July and unemployment rose to 4.3 percent, signaling a broadening slowdown in the labor market",
+            "ios": {
+                "alert": {
+                    "body": "Economy adds 114,000 jobs in July and unemployment rose to 4.3 percent, signaling a broadening slowdown in the labor market",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/08/02/july-jobs-unemployment-labor-market/",
+                        "datetime": "2024-08-02T12:34:05.778000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66acd23d3a7a4a3500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "The labor market notched another month of sluggish growth in July, according to data released Friday from the Bureau of Labor Statistics, as high interest rates continue to weigh on parts of the economy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "faaa5bb0-50c6-11ef-8439-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A $10 million cash withdrawal drove a probe into whether Trump took money from Egypt. Then political appointees closed the case.",
+            "ios": {
+                "alert": {
+                    "body": "A $10 million cash withdrawal drove a probe into whether Trump took money from Egypt. Then political appointees closed the case.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/08/02/trump-campaign-egypt-investigation/",
+                        "datetime": "2024-08-02T12:01:40.784000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66accaa4764387350000001c",
+                        "targetTopic": "special_report",
+                        "text": "Federal investigators discovered the mysterious Cairo transaction from early 2017 as they pursued classified intelligence indicating Egypt\u2019s president wanted to give Donald Trump $10 million, a Washington Post investigation has found. But the case ground to a halt after Attorney General William P. Barr raised questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
