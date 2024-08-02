@@ -77438,5 +77438,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b540a450-510a-11ef-bac2-00000a1ace75",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As markets slump, Nasdaq closes in correction territory, weeks after setting a record high",
+            "ios": {
+                "alert": {
+                    "body": "As markets slump, Nasdaq closes in correction territory, weeks after setting a record high",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/08/02/stock-market-nasdaq-dow/",
+                        "datetime": "2024-08-02T20:06:30.168000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ad3c463a7a4a350000000e",
+                        "targetTopic": "business",
+                        "text": "Markets have started August on a two-day down note, with the three major indexes accelerating their slide Friday. The Nasdaq composite index fell into correction territory \u2014 down about 10 percent from the record it set less than a month ago \u2014 following disappointing quarterly reports from Big Tech firms such as Amazon, Intel and Microsoft."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
