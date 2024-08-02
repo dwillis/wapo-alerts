@@ -76997,5 +76997,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "52e71920-50be-11ef-a160-0000a1ace12c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prisoner swap. Election 2024. Trump probe. Venezuela election. Wildfires. Gene-edited trees. Simone Biles. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Prisoner swap. Election 2024. Trump probe. Venezuela election. Wildfires. Gene-edited trees. Simone Biles. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/02/what-to-know-for-august-2/?noredirect=1",
+                        "datetime": "2024-08-02T10:59:43.391000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "66acbc1f3a7a4a3500000007",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
