@@ -76850,5 +76850,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2d8e2db0-506b-11ef-b6d9-00000a1ace00",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. says Maduro lost Venezuelan presidential election and calls for negotiations to transition away from socialist government",
+            "ios": {
+                "alert": {
+                    "body": "U.S. says Maduro lost Venezuelan presidential election and calls for negotiations to transition away from socialist government",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/01/venezuela-election-maduro-us/",
+                        "datetime": "2024-08-02T01:04:32.473000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ac30a0764387350000001a",
+                        "targetTopic": "breaking-news",
+                        "text": "Secretary of State Antony Blinken said \u201coverwhelming evidence\u201d makes it \u201cclear to the United States and, most importantly, to the Venezuelan people\u201d that opposition candidate Edmundo Gonz\u00e1lez won the election Sunday. President Nicol\u00e1s Maduro claims that he won the vote. Independent exit polling and, the opposition says, the government\u2019s own records indicate that Gonz\u00e1lez won twice as many as votes as Maduro. The authoritarian socialist has refused to release those records as required by Venezuelan law."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "21d8ad00-5062-11ef-ba8b-00000a1acedc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s lead over Harris has narrowed, The Post\u2019s polling model shows. See how the race stacks up in battleground states.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s lead over Harris has narrowed, The Post\u2019s polling model shows. See how the race stacks up in battleground states.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/interactive/2024/presidential-polling-averages/",
+                        "datetime": "2024-08-01T23:59:47.371000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ac21737643873500000019",
+                        "targetTopic": "politics",
+                        "text": "Vice President Harris has closed the gap against Donald Trump in seven key states since she became the likely Democratic presidential nominee, according to The Washington Post\u2019s polling model, which was relaunched Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
