@@ -77488,5 +77488,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0eeef780-5120-11ef-8e1d-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 7 highlights from Paris Olympics: Richardson back on track; Marchand a four-time gold medalist; an unlikely U.S. medal",
+            "ios": {
+                "alert": {
+                    "body": "Day 7 highlights from Paris Olympics: Richardson back on track; Marchand a four-time gold medalist; an unlikely U.S. medal",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-02T22:39:19.720000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "pushID": "66ad6017764387350000001d",
+                        "targetTopic": "sports",
+                        "text": "Sha\u2019Carri Richardson easily won her heat in the 100 meters and is a favorite to take gold in that event three years after being suspended for the Tokyo Games. In the pool, Leon Marchand, the hometown hero, cruised to his fourth gold of these Games in the 200-meter individual medley, while American star Caeleb Dressel failed to advance to Saturday's 100-meter butterfly final and Regan Smith grabbed her second silver of the week for the United States. And back at the track, Grant Fisher used a strong finishing kick to capture the first U.S. medal in the men's 10,000 since Galen Rupp\u2019s silver in 2012 \u2014 and only the second since 1964."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
