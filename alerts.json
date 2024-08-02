@@ -77144,5 +77144,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9f5e1020-50d6-11ef-9108-00000a1aceb2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate Minority Leader Mitch McConnell responds to Biden\u2019s Supreme Court plan: Term limits would end our independent judiciary",
+            "ios": {
+                "alert": {
+                    "body": "Senate Minority Leader Mitch McConnell responds to Biden\u2019s Supreme Court plan: Term limits would end our independent judiciary",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/02/biden-mcconnell-court-reform/",
+                        "datetime": "2024-08-02T13:53:39.582000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ace4e34c94683500000001",
+                        "targetTopic": "opinions",
+                        "text": "Biden\u2019s latest \u201creform\u201d push is just liberal frustration with a court that follows the Constitution, McConnell writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "817eff40-50d3-11ef-a049-00000a1ace9d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-02T13:31:21.009000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66acdfa93a7a4a3500000009",
+                        "targetTopic": "news_quiz",
+                        "text": "Think you\u2019ve got what it takes to earn a perfect score? Take today\u2019s longer news quiz and complete your point total for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
