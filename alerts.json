@@ -77242,5 +77242,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "86bf2600-50ed-11ef-bc30-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is taking your questions now: Should I let my bullying sister babysit my son?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is taking your questions now: Should I let my bullying sister babysit my son?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/02/live-chat-carolyn-hax/",
+                        "datetime": "2024-08-02T16:37:36.758000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ad0b503a7a4a350000000a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is taking your questions now: Should I let my bullying sister babysit my son?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
