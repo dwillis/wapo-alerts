@@ -76948,5 +76948,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "539b9de0-5083-11ef-9f47-0000a1ace77d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Freed Americans return home from Russia after the largest prisoner exchange since the height of the Cold War",
+            "ios": {
+                "alert": {
+                    "body": "Freed Americans return home from Russia after the largest prisoner exchange since the height of the Cold War",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/01/russia-us-prisoner-swap/",
+                        "datetime": "2024-08-02T03:57:24.288000Z",
+                        "imageURL": "https://www.washingtonpost.com/world/2024/08/01/russia-us-prisoner-swap/",
+                        "pushID": "66ac5924764387350000001b",
+                        "targetTopic": "breaking-news",
+                        "text": "Evan Gershkovich, Paul Whelan and Alsu Kurmasheva landed at Joint Base Andrews, outside Washington, where they were welcomed by President Biden and Vice President Harris. Another prisoner, Russian-born activist Vladimir Kara-Murza, will return to the U.S. after reuniting with his family in Germany, White House officials said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
