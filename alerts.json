@@ -77291,5 +77291,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dafef1a0-50f7-11ef-ae0f-00000a1ace0f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Dept. sues TikTok, alleging it broke child privacy law",
+            "ios": {
+                "alert": {
+                    "body": "Justice Dept. sues TikTok, alleging it broke child privacy law",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/08/02/doj-tiktok-child-privacy-lawsuit/",
+                        "datetime": "2024-08-02T17:51:33.044000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ad1ca53a7a4a350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "Justice Department officials said TikTok made it too easy for children to create accounts and then collected data on those who did. The lawsuit comes five years after regulators fined TikTok\u2019s predecessor on similar charges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6cca3180-50f3-11ef-890e-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris formally secures Democratic nomination, officially becoming the first woman of color to lead a presidential ticket",
+            "ios": {
+                "alert": {
+                    "body": "Harris formally secures Democratic nomination, officially becoming the first woman of color to lead a presidential ticket",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/02/harris-becomes-democratic-nominee/",
+                        "datetime": "2024-08-02T17:19:50.019000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ad15363a7a4a350000000b",
+                        "targetTopic": "politics",
+                        "text": "Vice President Harris has received a majority of the pledged delegates to the Democratic National Convention, concluding an unprecedented process after President Biden withdrew from the race last month.\n\nDemocratic leaders decided months ago, when Biden was still expected to be the nominee, to use a virtual vote to finalize the nomination, rather than waiting for the party\u2019s convention in Chicago from Aug. 19-22."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
