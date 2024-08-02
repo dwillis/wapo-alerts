@@ -76801,5 +76801,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f587dd70-505c-11ef-9033-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside the deal that led to a blockbuster prisoner swap between the U.S. and Russia",
+            "ios": {
+                "alert": {
+                    "body": "Inside the deal that led to a blockbuster prisoner swap between the U.S. and Russia",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/01/deal-us-russia-prisoner-swap/",
+                        "datetime": "2024-08-01T23:22:45.557000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ac18c57643873500000018",
+                        "targetTopic": "editors_picks",
+                        "text": "Months of complex negotiations, near misses and high-stakes diplomacy resulted in the largest prisoner exchange since the Cold War and freedom for a Wall Street Journal reporter."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
