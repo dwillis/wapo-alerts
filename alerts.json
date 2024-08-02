@@ -77389,5 +77389,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "765351c0-50fb-11ef-ba4a-0000a1ace1c8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russian opposition figure Ilya Yashin says he demanded not to be freed in prisoner swap, was taken out of Russia against his will",
+            "ios": {
+                "alert": {
+                    "body": "Russian opposition figure Ilya Yashin says he demanded not to be freed in prisoner swap, was taken out of Russia against his will",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/02/ilya-yashin-russia-prisoner-exchange/",
+                        "datetime": "2024-08-02T18:17:22.112000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ad22b23a7a4a350000000d",
+                        "targetTopic": "world",
+                        "text": "Yashin, a longtime friend and colleague of the late opposition leader Alexei Navalny, said at a news conference in Germany on Friday that he had submitted a document to Russian prison officials declaring that he did not want to be freed as part of any prisoner exchange: \u201cI insist on my legal right to remain in the country where I was born.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
