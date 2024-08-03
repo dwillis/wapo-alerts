@@ -77733,5 +77733,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8072ab60-51af-11ef-8ce5-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. women\u2019s soccer team tops Japan to advance to Olympic semifinals on Trinity Rodman\u2019s extra-time goal",
+            "ios": {
+                "alert": {
+                    "body": "U.S. women\u2019s soccer team tops Japan to advance to Olympic semifinals on Trinity Rodman\u2019s extra-time goal",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/03/uswnt-vs-japan-live-score-results-olympic-soccer/",
+                        "datetime": "2024-08-03T15:46:08.542000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ae50c07643873500000020",
+                        "targetTopic": "sports",
+                        "text": "The United States beat Japan, 1-0, in Paris on Saturday, overcoming a sluggish start to stay alive at the Summer Games. The Americans, led by new coach Emma Hayes, will next face either Canada, the defending gold medalist, or Germany."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a02fc7e0-51ae-11ef-81e5-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump claims he struck a new deal to debate Harris. But the vice president says that\u2019s untrue and urges sticking to existing date.",
+            "ios": {
+                "alert": {
+                    "body": "Trump claims he struck a new deal to debate Harris. But the vice president says that\u2019s untrue and urges sticking to existing date.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/03/trump-harris-debate-abc-fox/",
+                        "datetime": "2024-08-03T15:39:52.284000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ae4f4869422f3500000003",
+                        "targetTopic": "politics",
+                        "text": "Republican presidential nominee Donald Trump claimed late Friday night to have struck a deal for a new debate with Vice President Harris, the presumptive Democratic nominee. But the Harris campaign said Saturday that she never agreed to such a deal, urging Trump to keep the debate date he agreed to with President Biden before Biden withdrew from the race last month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
