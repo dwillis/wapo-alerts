@@ -77880,5 +77880,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "41721e21-51d0-11ef-86cf-00000a1aceff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Katie Ledecky wins gold in 800-meter freestyle, making Olympic history with fourth straight win in a single event",
+            "ios": {
+                "alert": {
+                    "body": "Katie Ledecky wins gold in 800-meter freestyle, making Olympic history with fourth straight win in a single event",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/03/paris-olympics-2024-live-results-scores-medals-day-8/",
+                        "datetime": "2024-08-03T19:40:36.183000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ae87b43a7a4a3500000010",
+                        "targetTopic": "breaking-news",
+                        "text": "In her last event of the Paris Games, Ledecky became the first woman to win the same swimming event in four straight Olympics. It was her fourth medal and second gold of these Games, bringing her to nine career golds, more than any female swimmer in history."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "57917230-51cd-11ef-b404-00000a1aceb1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Severe thunderstorm and flood watches in effect for the D.C. area into Saturday evening",
+            "ios": {
+                "alert": {
+                    "body": "Severe thunderstorm and flood watches in effect for the D.C. area into Saturday evening",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/08/03/pm-update-severe-thunderstorm-watch-until-9-pm-flood-watch-until-10-pm/",
+                        "datetime": "2024-08-03T19:19:44.797000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ae82d03a7a4a350000000f",
+                        "targetTopic": "local",
+                        "text": "Numerous storms are expected to pass through the Washington region between 9 p.m. and 10 p.m. A few could produce damaging wind gusts and flooding downpours in addition to dangerous lightning."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
