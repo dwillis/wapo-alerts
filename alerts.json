@@ -77537,5 +77537,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "83e64544-5129-11ef-bd5d-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. military moves additional forces toward Israel as Iran threatens to attack",
+            "ios": {
+                "alert": {
+                    "body": "U.S. military moves additional forces toward Israel as Iran threatens to attack",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/02/us-military-israel-iran-attack/",
+                        "datetime": "2024-08-02T23:47:01.695000Z",
+                        "imageURL": "https://www.washingtonpost.com/national-security/2024/08/02/us-military-israel-iran-attack/",
+                        "pushID": "66ad6ff5764387350000001e",
+                        "targetTopic": "world",
+                        "text": "The Pentagon has ordered the deployment of Navy destroyers and cruisers, both with offensive and defensive ballistic missile capabilities, and an additional squadron of fighter jets to the Middle East as Tehran vows to avenge the killing of militant leaders, officials said Friday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
