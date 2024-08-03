@@ -77978,5 +77978,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "04facd70-51e9-11ef-a697-0000a1ace43c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 8 highlights from Paris Olympics: Simone Biles wins gold on vault and Sha\u2019Carri Richardson takes silver in 100 meters",
+            "ios": {
+                "alert": {
+                    "body": "Day 8 highlights from Paris Olympics: Simone Biles wins gold on vault and Sha\u2019Carri Richardson takes silver in 100 meters",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-03T22:37:52.204000Z",
+                        "imageURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "pushID": "66aeb1403a7a4a3500000011",
+                        "targetTopic": "sports",
+                        "text": "Biles on Saturday won her third gold medal at the Paris Games, holding off Brazil's Rebeca Andrade in the vault final. Richardson, who was kept out of the Tokyo Games, competed in her first Olympic final and earned silver, behind Saint Lucia's Julien Alfred. In the pool, Katie Ledecky made more history with her ninth Olympic gold and the Americans set a world record in the mixed 4x100-meter relay. Elsewhere, Trinity Rodman lifted the U.S. women into the soccer semifinals and Anthony Edwards powered the U.S. men to a win in their final game of basketball group play."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
