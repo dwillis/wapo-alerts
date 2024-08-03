@@ -77586,5 +77586,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "84fc0481-5135-11ef-8890-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Defense secretary revokes deals with accused 9/11 plotters that would have blocked the death penalty",
+            "ios": {
+                "alert": {
+                    "body": "Defense secretary revokes deals with accused 9/11 plotters that would have blocked the death penalty",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/02/9-11-plea-deals-rejected-lloyd-austin/",
+                        "datetime": "2024-08-03T01:12:57.471000Z",
+                        "imageURL": "https://www.washingtonpost.com/national-security/2024/08/02/9-11-plea-deals-rejected-lloyd-austin/",
+                        "pushID": "66ad8419764387350000001f",
+                        "targetTopic": "breaking-news",
+                        "text": "In a Friday night memo, Defense Secretary Lloyd Austin withdrew the agreements with Khalid Sheikh Mohammed and two others charged in the Sept. 11, 2001, attacks that would have allowed them to avoid the death penalty. He also took direct oversight of the case from retired Brig. Gen. Susan K. Escallier."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
