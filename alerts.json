@@ -77635,5 +77635,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3a661e90-5196-11ef-a0a1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018We lost sight of him\u2019: Local police radio traffic shows failed search for Trump rally shooter",
+            "ios": {
+                "alert": {
+                    "body": "\u2018We lost sight of him\u2019: Local police radio traffic shows failed search for Trump rally shooter",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/08/03/trump-rally-police-radio-transmissions/",
+                        "datetime": "2024-08-03T12:45:13.463000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ae265969422f3500000001",
+                        "targetTopic": "special_report",
+                        "text": "The Washington Post obtained a transcript of encrypted radio communications by local police that, along with interviews, provides the clearest picture yet of the minute-by-minute hunt for Thomas Matthew Crooks. The examination also shows that communication between Secret Service and the local police was disjointed and time-consuming, helping to explain why Secret Service agents closest to Trump were taken by surprise when gunfire erupted."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
