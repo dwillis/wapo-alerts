@@ -78076,5 +78076,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2b156f82-526e-11ef-bb67-00000a1aced8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rent prices are actually falling in some areas. Check to see if yours is one of them.",
+            "ios": {
+                "alert": {
+                    "body": "Rent prices are actually falling in some areas. Check to see if yours is one of them.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/rent-average-by-county-change-rising-falling/",
+                        "datetime": "2024-08-04T14:30:59.159000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66af90a34c94683500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Rents nationally have climbed about 19 percent since 2019, though prices increased only about 1 percent in the past year, according to a Washington Post analysis. That pace is down considerably from the steep price growth seen in 2021 and 2022."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
