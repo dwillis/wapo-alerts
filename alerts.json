@@ -78371,5 +78371,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f63c2500-529b-11ef-84da-0000a1ace8f9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. sprinter Noah Lyles wins Olympic gold in the 100-meter dash, cementing status as fastest man alive",
+            "ios": {
+                "alert": {
+                    "body": "U.S. sprinter Noah Lyles wins Olympic gold in the 100-meter dash, cementing status as fastest man alive",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/04/olympics-2024-live-medals-scores-day-9-paris/",
+                        "datetime": "2024-08-04T19:58:47.391000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66afdd773a7a4a3500000012",
+                        "targetTopic": "breaking-news",
+                        "text": "It\u2019s the first Olympic gold medal for the 27-year-old from Alexandria, Va. After a public battle with mental health issues, Lyles has emerged as the world\u2019s top sprinter, winning three golds at last year\u2019s world championships. He will go for two more in Paris \u2014 in the 200-meter dash and the 4x100-meter relay."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
