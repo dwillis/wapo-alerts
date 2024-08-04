@@ -78223,5 +78223,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e6f84711-528a-11ef-b3ec-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "American women set world record to win gold in 4x100-meter medley swimming relay",
+            "ios": {
+                "alert": {
+                    "body": "American women set world record to win gold in 4x100-meter medley swimming relay",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/04/olympics-2024-live-medals-scores-day-9-paris/",
+                        "datetime": "2024-08-04T17:56:40.301000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66afc0d84c94683500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "The squad of Regan Smith (backstroke), Lilly King (breaststroke), Gretchen Walsh (butterfly) and Torri Huske (freestyle) crushed the field, setting the mark in 3 minutes 49.63 seconds, more than 3\u00bd seconds ahead of their rivals from Australia.\n\nTheir win gave the Americans their eighth gold medal of the meet, against seven for Australia, keeping alive their streak of topping the gold medal chart in swimming at every Olympics since 1992."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b8e9b760-5284-11ef-b3ec-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "American swimmer Bobby Finke sets world record to win gold in men\u2019s 1,500-meter freestyle at Paris Olympics",
+            "ios": {
+                "alert": {
+                    "body": "American swimmer Bobby Finke sets world record to win gold in men\u2019s 1,500-meter freestyle at Paris Olympics",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/04/olympics-2024-live-medals-scores-day-9-paris/",
+                        "datetime": "2024-08-04T17:12:25.453000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66afb6794c94683500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "Finke defended his gold medal in the event from the Tokyo Games, finishing Sunday\u2019s race in 14 minutes 30.67 seconds, besting China\u2019s Sun Yang\u2019s previous mark from 2012."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4f64e360-5283-11ef-acbc-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "When online patient portals reveal scary health news such as cancer and other grim test results before doctors can",
+            "ios": {
+                "alert": {
+                    "body": "When online patient portals reveal scary health news such as cancer and other grim test results before doctors can",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/07/14/medical-test-results-online-patient-portal/",
+                        "datetime": "2024-08-04T17:02:19.416000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66afb41b4c94683500000006",
+                        "targetTopic": "health",
+                        "text": "Americans are entitled to immediate access of medical tests and scan results, from routine bloodwork to MRIs, lifting the veil on records that were once difficult to access. The new medical landscape resulting from a bipartisan law promoting transparency has exposed fault lines in a stressed health-care system where the promises of technological advancements are undercut by the heavy workloads foisted on medical professionals."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
