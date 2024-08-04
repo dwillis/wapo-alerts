@@ -78125,5 +78125,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "63ab44a0-5273-11ef-b3ec-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Serbia\u2019s Novak Djokovic wins his first Olympic tennis gold medal over Spain\u2019s Carlos Alcaraz in Paris",
+            "ios": {
+                "alert": {
+                    "body": "Serbia\u2019s Novak Djokovic wins his first Olympic tennis gold medal over Spain\u2019s Carlos Alcaraz in Paris",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/04/olympics-2024-live-medals-scores-day-9-paris/",
+                        "datetime": "2024-08-04T15:08:21.443000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66af99654c94683500000004",
+                        "targetTopic": "sports",
+                        "text": "A bronze medalist in 2008, Djokovic won his first Olympic gold and avenged a loss to Alcaraz in the Wimbledon final last month. The win makes him the fifth player to capture the golden slam: singles titles in the four majors and the Olympic gold."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
