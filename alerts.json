@@ -78763,5 +78763,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c9177cb1-5330-11ef-9cf0-00000a1ace2d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Simone Biles wins silver for her floor routine after a fall on beam earlier in the day. She will leave Paris with 3 gold medals.",
+            "ios": {
+                "alert": {
+                    "body": "Simone Biles wins silver for her floor routine after a fall on beam earlier in the day. She will leave Paris with 3 gold medals.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/05/paris-olympics-2024-live-medals-scores-day-10/",
+                        "datetime": "2024-08-05T13:44:06.620000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b0d726b029c73600000003",
+                        "targetTopic": "breaking-news",
+                        "text": "Brazil\u2019s Rebeca Andrade, Biles\u2019s top rival at these Games, won gold. Biles, 27, said this week that while she is \u201cgetting really old,\u201d she hasn\u2019t ruled out competing in Los Angeles in 2028."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3e373af0-532f-11ef-8cf8-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dow slides more than 1,000 points at open as fears of a U.S. economic downturn sparked a global selloff",
+            "ios": {
+                "alert": {
+                    "body": "Dow slides more than 1,000 points at open as fears of a U.S. economic downturn sparked a global selloff",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/08/05/japan-stock-market-crash/",
+                        "datetime": "2024-08-05T13:33:04.118000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b0d4903a7a4a3500000018",
+                        "targetTopic": "breaking-news",
+                        "text": "Japan\u2019s Nikkei 225 index plunged more than 4,400 points, or 12 percent, in its biggest single-day drop on record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
