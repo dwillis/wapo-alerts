@@ -78665,5 +78665,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "88daf201-531a-11ef-aedd-0000a1ace809",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Debby makes landfall as Category 1 hurricane in Florida\u2019s Big Bend; \u2018catastrophic flooding\u2019 feared as storm moves inland",
+            "ios": {
+                "alert": {
+                    "body": "Debby makes landfall as Category 1 hurricane in Florida\u2019s Big Bend; \u2018catastrophic flooding\u2019 feared as storm moves inland",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/08/05/hurricane-debby-florida-storms-flooding-rain/",
+                        "datetime": "2024-08-05T11:04:49.933000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b0b1d13a7a4a3500000017",
+                        "targetTopic": "breaking-news",
+                        "text": "After producing a \u201clife-threatening\u201d storm surge, heavy rain and damaging winds to Florida's west coast, the storm is forecast to bring \"potentially historic heavy rainfall\" across southeast Georgia and eastern South Carolina into midweek."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "de67ff21-5319-11ef-8d4c-00000a1ace99",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris\u2019s VP search. Hurricane Debby. Israeli strikes. Bangladesh protests. U.K. violence. Noah Lyles. Asteroid. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris\u2019s VP search. Hurricane Debby. Israeli strikes. Bangladesh protests. U.K. violence. Noah Lyles. Asteroid. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/05/what-to-know-for-august-5/?noredirect=1",
+                        "datetime": "2024-08-05T11:00:03.818000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "66b0b0b3b029c73600000002",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
