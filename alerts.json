@@ -79008,5 +79008,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "df760460-5374-11ef-937b-000a1ace2638",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Several U.S. service members injured in suspected rocket attack at Iraqi air base, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Several U.S. service members injured in suspected rocket attack at Iraqi air base, officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/05/us-troops-attacked-asad-iraq/",
+                        "datetime": "2024-08-05T21:51:29.925000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b149613a7a4a3500000019",
+                        "targetTopic": "world",
+                        "text": "The incident occurred at Al Asad air base, an installation in western Iraq, U.S. defense officials said in a statement. It was not immediately clear how many American personnel were wounded or the extent of their injuries."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
