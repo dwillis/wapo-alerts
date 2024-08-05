@@ -78959,5 +78959,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "67d6afe0-5365-11ef-9b42-00000a1ace21",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. stock markets close with some of the worst losses in nearly two years. But economists say there\u2019s no reason to panic.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. stock markets close with some of the worst losses in nearly two years. But economists say there\u2019s no reason to panic.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/08/05/global-markets-economists-calm/",
+                        "datetime": "2024-08-05T20:00:46.617000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b12f6eb029c73600000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Two major stock indexes dropped more than three percentage points Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
