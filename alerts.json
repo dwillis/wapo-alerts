@@ -78518,5 +78518,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "571f79d0-52ba-11ef-989b-0000a1ace08f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Maduro lost Venezuela\u2019s election, a Post review of voting receipts collected by Venezuela\u2019s opposition shows",
+            "ios": {
+                "alert": {
+                    "body": "Maduro lost Venezuela\u2019s election, a Post review of voting receipts collected by Venezuela\u2019s opposition shows",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/04/maduro-gonzalez-election-actas-analysis/",
+                        "datetime": "2024-08-04T23:36:14.824000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b0106e3a7a4a3500000015",
+                        "targetTopic": "breaking-news",
+                        "text": "Challenger Edmundo Gonz\u00e1lez likely beat President Nicol\u00e1s Maduro in the July 28 election by millions of votes, according to data pulled from more than 23,000 precinct-level tally sheets. Maduro\u2019s electoral council last week declared him the winner; the United States and other governments have rejected the claim."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4094b693-52b9-11ef-8027-00000a1ace92",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 9 highlights from Paris Olympics: U.S. swimmers finish on top; Scheffler wins golf gold; a medal surprise in cycling",
+            "ios": {
+                "alert": {
+                    "body": "Day 9 highlights from Paris Olympics: U.S. swimmers finish on top; Scheffler wins golf gold; a medal surprise in cycling",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-04T23:28:27.436000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b00e9b3a7a4a3500000014",
+                        "targetTopic": "sports",
+                        "text": "The Americans won the final event of the Olympic swimming meet, the women\u2019s 4x100-meter medley relay, to overtake the Australians atop the gold medal standings with eight. Scottie Scheffler, the world\u2019s top-ranked golfer, staged a spectacular comeback to claim gold. U.S. cyclist Kristen Faulkner pulled a major upset in the women\u2019s road race, becoming the first American to win the event since 1984. Elsewhere, Noah Lyles stole the show on the track in the photo-finish final of the men\u2019s 100 meters and the U.S. women\u2019s basketball team cruised into the knockout round."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
