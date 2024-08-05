@@ -78910,5 +78910,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c542c2a0-535f-11ef-8ee0-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Google is an illegal monopoly, federal court rules \u2014 a landmark antitrust win for the Justice Department",
+            "ios": {
+                "alert": {
+                    "body": "Google is an illegal monopoly, federal court rules \u2014 a landmark antitrust win for the Justice Department",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/08/05/doj-google-monopoly-trial-judgment/",
+                        "datetime": "2024-08-05T19:20:26.418000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b125fab029c73600000005",
+                        "targetTopic": "breaking-news",
+                        "text": "The case has been closely watched in antitrust law circles as the first of a string of cases by federal prosecutors against high-tech giants, as Washington enforcers argue that Big Tech has gotten too powerful and doesn\u2019t serve the public interest. Lawsuits have also been filed against Amazon, Meta and Apple."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
