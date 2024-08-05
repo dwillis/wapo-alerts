@@ -78616,5 +78616,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3e45fc40-5314-11ef-bb58-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bangladesh\u2019s Prime Minister Sheikh Hasina resigns in wake of deadly anti-government protests, army chief says",
+            "ios": {
+                "alert": {
+                    "body": "Bangladesh\u2019s Prime Minister Sheikh Hasina resigns in wake of deadly anti-government protests, army chief says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/05/bangladesh-prime-minister-hasina-resigns/",
+                        "datetime": "2024-08-05T10:19:47.813000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b0a7433a7a4a3500000016",
+                        "targetTopic": "breaking-news",
+                        "text": "Hasina\u2019s resignation, announced in a televised address by army chief Gen. Waker-Uz-Zaman, comes after a month of violent clashes between Bangladeshi security forces and anti-government protesters that led to the death of hundreds and culminated on Monday with crowds storming into Hasina\u2019s official residence."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
