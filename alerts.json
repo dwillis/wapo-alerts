@@ -78861,5 +78861,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e5b826e0-5343-11ef-ab29-00000a1acedf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is it unfair to want to be an at-home mom after agreeing to work?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is it unfair to want to be an at-home mom after agreeing to work?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/05/carolyn-hax-stay-at-home-mom/",
+                        "datetime": "2024-08-05T16:00:55.111000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b0f737b029c73600000004",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is it unfair to want to be an at-home mom after agreeing to work?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
