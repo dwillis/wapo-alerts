@@ -79057,5 +79057,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d9299030-537a-11ef-a277-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 10 highlights from Paris Olympics: Mondo Duplantis raises the bar and Simone Biles ends her Games with silver",
+            "ios": {
+                "alert": {
+                    "body": "Day 10 highlights from Paris Olympics: Mondo Duplantis raises the bar and Simone Biles ends her Games with silver",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-05T22:34:16.337000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b153683a7a4a350000001a",
+                        "targetTopic": "sports",
+                        "text": "Duplantis, a Louisiana-born pole vaulter who competes for Sweden, capped his performance with a world record leap. After concluding her Olympics with a silver medal on floor, Biles created an instantly iconic image with U.S. teammate Jordan Chiles when the duo bowed to Brazilian winner Rebeca Andrade. Elsewhere, American star Noah Lyles advanced in the 200 meters, compatriot Valarie Allman defended her women\u2019s discus title, and the U.S. women's three-on-three basketball team claimed bronze."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
