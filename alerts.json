@@ -79499,5 +79499,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "83f5cbc0-542d-11ef-8e01-0000a1aceb3b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "American runner Gabby Thomas cruises to Olympic gold in women\u2019s 200 meters",
+            "ios": {
+                "alert": {
+                    "body": "American runner Gabby Thomas cruises to Olympic gold in women\u2019s 200 meters",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/06/paris-olympics-2024-live-medals-scores-day-11/",
+                        "datetime": "2024-08-06T19:53:13.326000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b27f2969422f350000000b",
+                        "targetTopic": "sports",
+                        "text": "Three years after taking bronze at the Tokyo Games, Thomas left no doubt that gold was on her mind in Paris. She thumped the field in the women's 200 meters, posting a time of 21.83 seconds, a full 0.25 seconds ahead of silver medalist Julien Alfred. Fellow American Brittany Brown won bronze with a time of 22.20."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "03072680-5428-11ef-9766-00000a1ace41",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. runner Cole Hocker wins gold in thrilling men\u2019s 1,500-meter race",
+            "ios": {
+                "alert": {
+                    "body": "U.S. runner Cole Hocker wins gold in thrilling men\u2019s 1,500-meter race",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/06/paris-olympics-2024-live-medals-scores-day-11/",
+                        "datetime": "2024-08-06T19:13:49.506000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b275ed69422f350000000a",
+                        "targetTopic": "sports",
+                        "text": "One of the most anticipated races of the Olympic track and field meet yielded one of the most stunning champions. Hocker, a long-haired Indiana native by way of the University of Oregon, broke an Olympic record in the men's 1,500 meters, spoiled the heated rivalry between Jakob Ingebrigtsen and Josh Kerr and ran into American track history."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
