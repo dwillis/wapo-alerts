@@ -79695,5 +79695,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "652a4b20-5442-11ef-91d1-00000a1ace17",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 11 highlights from Paris Olympics: U.S. men's basketball rolls and a Cuban wrestler makes history",
+            "ios": {
+                "alert": {
+                    "body": "Day 11 highlights from Paris Olympics: U.S. men's basketball rolls and a Cuban wrestler makes history",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-06T22:22:41.117000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b2a23169422f350000000e",
+                        "targetTopic": "sports",
+                        "text": "Devin Booker led the U.S. men's basketball team to a blowout of Brazil, setting up a semifinal against Nikola Jokic and Serbia. Elsewhere, Gabby Thomas and Cole Hocker won track gold, the U.S. women's soccer team topped Germany in a tense semifinal, and Cuban wrestler Mija\u00edn L\u00f3pez made history with a gold medal in his fifth straight Games."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "94b04eb0-543f-11ef-8f35-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kamala Harris makes first appearance with running mate Gov. Tim Walz at Pa. rally before multistate tour. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Kamala Harris makes first appearance with running mate Gov. Tim Walz at Pa. rally before multistate tour. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/06/2024-election-campaign-updates-harris-trump/",
+                        "datetime": "2024-08-06T22:02:32.308000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b29d7869422f350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "Walz is expected to share his and Harris\u2019s biographies of longtime public service, according to shared excerpts of his speech. And he will distinguish their ticket from Donald Trump, whom he will portray as selfish."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
