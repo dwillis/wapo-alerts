@@ -79352,5 +79352,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "521b65d0-540d-11ef-b4a8-00000a1ace58",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Nosy bridesmaid learns best friend\u2019s groom was cheating. Now what?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Nosy bridesmaid learns best friend\u2019s groom was cheating. Now what?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/06/carolyn-hax-groom-cheating-bridesmaid/",
+                        "datetime": "2024-08-06T16:02:45.797000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b2492569422f3500000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Nosy bridesmaid learns best friend\u2019s groom was cheating. Now what?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
