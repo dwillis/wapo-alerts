@@ -79302,5 +79302,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "259d3a20-5407-11ef-99c7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "For first time in 40 years, EPA issues an emergency order to stop use of a pesticide known to harm fetuses",
+            "ios": {
+                "alert": {
+                    "body": "For first time in 40 years, EPA issues an emergency order to stop use of a pesticide known to harm fetuses",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/08/06/epa-pesticide-farmworkers/",
+                        "datetime": "2024-08-06T15:18:34.109000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b23eca69422f3500000006",
+                        "targetTopic": "climate",
+                        "text": "The order applies to dimethyl tetrachloroterephthalate, also known as DCPA or Dacthal, an herbicide used on crops such as broccoli, Brussels sprouts, cabbage and onions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
