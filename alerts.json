@@ -79155,5 +79155,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "06851000-53e3-11ef-9d3f-0000a1ace55f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Financial markets. Harris tour. Google ruling. Iraq attack. Tropical Storm Debby. HBCU gift. Olympics. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Financial markets. Harris tour. Google ruling. Iraq attack. Tropical Storm Debby. HBCU gift. Olympics. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/06/what-to-know-for-august-6/?noredirect=1",
+                        "datetime": "2024-08-06T11:00:00.093000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "66b202303a7a4a350000001c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
