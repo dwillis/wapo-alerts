@@ -79204,5 +79204,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dc102a61-53f3-11ef-b972-0000a1acef82",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kamala Harris has told allies that Minnesota Gov. Tim Walz is her VP pick. The military veteran has a record of wins on conservative terrain.",
+            "ios": {
+                "alert": {
+                    "body": "Kamala Harris has told allies that Minnesota Gov. Tim Walz is her VP pick. The military veteran has a record of wins on conservative terrain.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/06/2024-election-campaign-updates-harris-trump/",
+                        "datetime": "2024-08-06T13:00:30.339000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b21e6e3a7a4a350000001d",
+                        "targetTopic": "breaking-news",
+                        "text": "The presumptive Democratic nominee selected the former congressman and military veteran as her running mate. Walz, 60, is not well known nationally but has gained more attention in recent weeks after giving television interviews in which he criticized Donald Trump and Republicans as \u201cweird.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
