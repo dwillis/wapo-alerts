@@ -79646,5 +79646,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ceb63a20-543a-11ef-984a-00000a1ace95",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tim Walz made \u2018weird\u2019 happen, Karen Tumulty writes. He offers the ticket much more than that.",
+            "ios": {
+                "alert": {
+                    "body": "Tim Walz made \u2018weird\u2019 happen, Karen Tumulty writes. He offers the ticket much more than that.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/06/tim-walz-benefits-vice-president-harris-democrats/",
+                        "datetime": "2024-08-06T21:28:22.131000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b295764c94683500000009",
+                        "targetTopic": "opinions",
+                        "text": "Walz has a genuine feel for the concerns of people in conservative corners of the country, Tumulty writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
