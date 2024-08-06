@@ -79106,5 +79106,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8cdd6901-537e-11ef-942d-00000a1ace37",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Many Arizona schools are refusing to host polling places, fearing threats and chaos as elections come under attack",
+            "ios": {
+                "alert": {
+                    "body": "Many Arizona schools are refusing to host polling places, fearing threats and chaos as elections come under attack",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/05/arizona-maricopa-county-schools-elections/",
+                        "datetime": "2024-08-05T23:00:46.178000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b1599e3a7a4a350000001b",
+                        "targetTopic": "politics",
+                        "text": "For generations, public school gymnasiums, classrooms and cafeterias have been fundamental to American elections. But when voters in Maricopa County \u2014 home to Phoenix and more than half of this swing state\u2019s registered voters \u2014 show up to make their voices heard in November, chances are it won\u2019t be at a school."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
