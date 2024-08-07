@@ -80185,5 +80185,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f886a350-54e2-11ef-af9f-00000a1acefc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris asked \u2018probing questions\u2019 about the Afghanistan exit. But military officials say she didn\u2019t push Biden for a different plan.",
+            "ios": {
+                "alert": {
+                    "body": "Harris asked \u2018probing questions\u2019 about the Afghanistan exit. But military officials say she didn\u2019t push Biden for a different plan.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/07/kamala-harris-biden-afghanistan-withdrawal/",
+                        "datetime": "2024-08-07T17:32:07.827000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b3af9769422f3500000016",
+                        "targetTopic": "politics",
+                        "text": "As vice president, Kamala Harris was the \u201clast person in the room\u201d as President Joe Biden decided to pull all U.S. troops from Afghanistan, ending a 20-year war. But military officials involved in those discussions say she didn\u2019t significantly affect Biden\u2019s determination to leave \u2014 or alter plans that led to a chaotic and deadly evacuation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
