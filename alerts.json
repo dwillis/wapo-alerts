@@ -79989,5 +79989,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b2f04600-54cb-11ef-8dc3-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JD Vance\u2019s private texts with a far-right figure show the VP nominee entertaining conspiracy theories and scorning a GOP megadonor",
+            "ios": {
+                "alert": {
+                    "body": "JD Vance\u2019s private texts with a far-right figure show the VP nominee entertaining conspiracy theories and scorning a GOP megadonor",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/07/jd-vance-charles-johnson-texts/",
+                        "datetime": "2024-08-07T14:45:32.659000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b3888c69422f3500000013",
+                        "targetTopic": "editors_picks",
+                        "text": "Over 20 months, Sen. JD Vance (R-Ohio) texted regularly with Charles Johnson, a blogger and entrepreneur who has zealously promoted right-wing conspiracy theories. The messages, shared by Johnson with The Washington Post, offer a glimpse of the Republican vice-presidential nominee\u2019s off-the-cuff musings on subjects including UFOs, Ukraine and the death of convicted sex offender Jeffrey Epstein."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "568964b1-54c5-11ef-8ec2-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Team gold was Simone Biles\u2019s goal for the Olympics. \u2018Anything else was a cherry on top,\u2019 she tells The Post in an interview.",
+            "ios": {
+                "alert": {
+                    "body": "Team gold was Simone Biles\u2019s goal for the Olympics. \u2018Anything else was a cherry on top,\u2019 she tells The Post in an interview.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/06/simone-biles-gymnastics-dominance-wins-olympics/",
+                        "datetime": "2024-08-07T14:00:00.646000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b37de069422f3500000012",
+                        "targetTopic": "sports",
+                        "text": "Biles has dominated gymnastics for more than a decade, racking up one all-around title after another, often by wide margins. Watch her interview with The Washington Post as she reflects on her career, growth and influence on the sport."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
