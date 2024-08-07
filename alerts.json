@@ -79793,5 +79793,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ce119e40-5451-11ef-b9b9-00000a1ace3b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside Harris\u2019s whirlwind, high-pressure VP vetting process: Who rose to the top and what ultimately sold her on Walz",
+            "ios": {
+                "alert": {
+                    "body": "Inside Harris\u2019s whirlwind, high-pressure VP vetting process: Who rose to the top and what ultimately sold her on Walz",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/06/how-harris-decided-on-walz-as-vp/",
+                        "datetime": "2024-08-07T00:12:59.524000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b2bc0b69422f350000000f",
+                        "targetTopic": "editors_picks",
+                        "text": "Kamala Harris interviewed three final candidates on Sunday. Her team had reservations about one of them, then another expressed doubts about leaving his current job. That paved the way for Tuesday\u2019s announcement of Tim Walz."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
