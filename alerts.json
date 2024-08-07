@@ -80283,5 +80283,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d7d63940-54fb-11ef-a2fa-0000a1ace6b8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Is it weird to choose Tim Walz? 3 columnists discuss whether he's really a unity candidate.",
+            "ios": {
+                "alert": {
+                    "body": "Is it weird to choose Tim Walz? 3 columnists discuss whether he's really a unity candidate.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/07/impromptu-podcast-walz-harris-pick/",
+                        "datetime": "2024-08-07T20:30:10.324000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b3d9524c9468350000000a",
+                        "targetTopic": "opinions",
+                        "text": "Is it weird to choose Tim Walz?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
