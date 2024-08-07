@@ -79842,5 +79842,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a86efd01-5469-11ef-b609-00000a1ace65",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cori Bush, part of the \u2018Squad\u2019 of liberal House lawmakers, loses her Missouri primary, the AP projects",
+            "ios": {
+                "alert": {
+                    "body": "Cori Bush, part of the \u2018Squad\u2019 of liberal House lawmakers, loses her Missouri primary, the AP projects",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/06/cori-bush-faces-primary-challenge-voters-head-polls-missouri-michigan-washington/",
+                        "datetime": "2024-08-07T03:03:44.276000Z",
+                        "imageURL": "https://www.washingtonpost.com/politics/2024/08/06/cori-bush-faces-primary-challenge-voters-head-polls-missouri-michigan-washington/",
+                        "pushID": "66b2e410b029c73600000007",
+                        "targetTopic": "breaking-news",
+                        "text": "Bush lost to St. Louis County prosecutor Wesley Bell (D), the Associated Press reported, in Missouri\u2019s 1st Congressional District. Bush was the first member of Congress to call for a cease-fire between Israel and Hamas, while Bell, who was backed by a powerful pro-Israel lobbying group, says he would fully stand by Israel. Bush is the second member of the \u201cSquad\u201d to lose a House Democratic primary this cycle, after Rep. Jamaal Bowman (D-N.Y.) was also targeted for his stance on Israel."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
