@@ -80234,5 +80234,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "329c1290-54f3-11ef-9c45-00000a1ace35",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "American Quincy Hall wins Olympic gold in men\u2019s 400 meters as U.S. track dominance continues",
+            "ios": {
+                "alert": {
+                    "body": "American Quincy Hall wins Olympic gold in men\u2019s 400 meters as U.S. track dominance continues",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/07/paris-olympics-2024-live-medals-scores-day-12/",
+                        "datetime": "2024-08-07T19:28:17.197000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b3cad169422f3500000017",
+                        "targetTopic": "sports",
+                        "text": "It\u2019s the sixth gold medal for the U.S. track and field team. Hall is expected to race for another medal Saturday in the 4x400 relay."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
