@@ -80332,5 +80332,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b147f2c1-5503-11ef-ab66-00000a1ace2f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Taylor Swift cancels three shows in Vienna after authorities arrest two people suspected of plotting terror attack",
+            "ios": {
+                "alert": {
+                    "body": "Taylor Swift cancels three shows in Vienna after authorities arrest two people suspected of plotting terror attack",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/07/taylor-swift-concerts-terrorist-attack-vienna-austria/",
+                        "datetime": "2024-08-07T21:26:21.607000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b3e67db029c73600000008",
+                        "targetTopic": "world",
+                        "text": "Authorities identified one suspect as a 19-year-old who allegedly pledged allegiance to the Islamic State. Swift\u2019s concerts were expected to draw more than 150,000 people across three nights.\n\nThe arrests come amid a string of similar terror threats targeting major events in Europe this summer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
