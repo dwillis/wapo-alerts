@@ -80381,5 +80381,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "80bb6260-550b-11ef-b8b1-0000a1ace979",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 12 highlights from Paris Olympics: Noah Lyles advances to 200-meter final; U.S. women's basketball cruises to win",
+            "ios": {
+                "alert": {
+                    "body": "Day 12 highlights from Paris Olympics: Noah Lyles advances to 200-meter final; U.S. women's basketball cruises to win",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-07T22:22:16.146000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b3f398b029c7360000000a",
+                        "targetTopic": "sports",
+                        "text": "Lyles, the world's fastest human, qualified for the final of the men's 200 meters set for Thursday. American Quincy Hall came from behind to capture gold in the stirring men's 400-meter final. In other events, the U.S. women's basketball team easily handled Nigeria in a quarterfinal. And the United States ended a 20-year medal drought with silver in artistic swimming."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0fbda1c0-5508-11ef-b8b1-0000a1ace979",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump took a private flight with Project 2025\u2019s leader in 2022. He recently claimed he had \u2018no idea who is in charge of it.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Trump took a private flight with Project 2025\u2019s leader in 2022. He recently claimed he had \u2018no idea who is in charge of it.\u2019",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/07/trump-heritage-project-2025-roberts/",
+                        "datetime": "2024-08-07T21:57:38.146000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b3edd2b029c73600000009",
+                        "targetTopic": "special_report",
+                        "text": "Former president Donald Trump shared a 45-minute chartered flight with Heritage Foundation president Kevin Roberts in April 2022, according to people familiar with the trip, plane-tracking data and a photograph from the plane. Trump was traveling to speak at a Heritage Foundation conference, where he said, \u201cThey\u2019re going to lay the groundwork and detail plans for exactly what our movement will do.\u201d\n\nThe flight and Trump\u2019s comments from the time undercut the former president\u2019s recent efforts to distance himself from Project 2025 once Democrats turned some of its most controversial proposals into a frequent campaign attack."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
