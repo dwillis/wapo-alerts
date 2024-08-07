@@ -80087,5 +80087,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "11178d40-54d8-11ef-8d11-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cooking chat: Can a Midwestern hot dish be healthy? Our food writer answers your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Cooking chat: Can a Midwestern hot dish be healthy? Our food writer answers your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/08/07/questions-recipe-cooking-advice/",
+                        "datetime": "2024-08-07T16:14:04.566000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b39d4c69422f3500000015",
+                        "targetTopic": "food",
+                        "text": "Cooking chat: Can a Midwestern hot dish be healthy? Our food writer answers your questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "35afe870-54d6-11ef-a1f6-000a1ace5438",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Partner of six years comes with bothersome prior-life baggage",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Partner of six years comes with bothersome prior-life baggage",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/07/carolyn-hax-husband-motorcycle-stepson/",
+                        "datetime": "2024-08-07T16:00:46.938000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b39a2e69422f3500000014",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Partner of six years comes with bothersome prior-life baggage"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
