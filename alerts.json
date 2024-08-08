@@ -80724,5 +80724,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6f2168c0-55a5-11ef-b253-00000a1acecf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Debby will bring a threat of heavy rain, flooding and tornadoes. Here\u2019s what to know.",
+            "ios": {
+                "alert": {
+                    "body": "Debby will bring a threat of heavy rain, flooding and tornadoes. Here\u2019s what to know.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/08/08/debby-dc-maryland-virginia-flooding-tornadoes/",
+                        "datetime": "2024-08-08T16:44:09.127000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b4f5d94c9468350000000f",
+                        "targetTopic": "local",
+                        "text": "The remnants of the tropical storm will sweep across the Mid-Atlantic from Thursday night into Friday. In the D.C. area, it could produce 1.5 to 3 inches of rain and a few tornadoes. Mountains to the west will see more rain and a serious threat of flooding."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e5e2d070-55a0-11ef-ac72-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Surprise Ukrainian attack in western Russia stuns Moscow and raises questions about Kyiv\u2019s use of U.S.-donated weapons",
+            "ios": {
+                "alert": {
+                    "body": "Surprise Ukrainian attack in western Russia stuns Moscow and raises questions about Kyiv\u2019s use of U.S.-donated weapons",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/08/ukraine-kursk-russia-occupied-war/",
+                        "datetime": "2024-08-08T16:11:40.859000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b4ee3c4c9468350000000e",
+                        "targetTopic": "world",
+                        "text": "A cross-border assault by Ukrainian forces into the Kursk region that began Tuesday raised questions about whether Kyiv\u2019s forces violated Western restrictions on the use of fighting vehicles and weapons donated by the United States and other countries. The operation, which Ukrainian officials have declined to comment on, is the largest Ukrainian incursion on Russian territory since 2022. It could mark a new chapter in the war."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "74257e71-559f-11ef-94bb-00000a1aceb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How to get over the hurt of a mom who never wants to get in touch?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How to get over the hurt of a mom who never wants to get in touch?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/08/carolyn-hax-mom-never-in-touch/",
+                        "datetime": "2024-08-08T16:01:20.594000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b4ebd04c9468350000000d",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How to get over the hurt of a mom who never wants to get in touch?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
