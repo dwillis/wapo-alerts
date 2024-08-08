@@ -80675,5 +80675,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7e17b401-5597-11ef-bcd0-00000a1ace8f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump has been complaining about his campaign to friends and advisers as Harris\u2019s poll numbers surge",
+            "ios": {
+                "alert": {
+                    "body": "Trump has been complaining about his campaign to friends and advisers as Harris\u2019s poll numbers surge",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/07/trump-election-campaign/",
+                        "datetime": "2024-08-08T15:04:21.296000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b4de754c9468350000000c",
+                        "targetTopic": "politics",
+                        "text": "The GOP nominee has grown increasingly upset about Kamala Harris\u2019s crowd sizes and media coverage since she replaced Joe Biden on the Democratic ticket. The situation has left people close to the campaign wondering why Donald Trump and his team seemed ill-prepared for Harris\u2019s entry into the race after Biden\u2019s disastrous June debate performance."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
