@@ -80479,5 +80479,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7356eca1-5517-11ef-b860-0000a1ace404",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nancy Pelosi says she joined the effort to urge Biden to end reelection bid because his campaign had \u2018no path to victory\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Nancy Pelosi says she joined the effort to urge Biden to end reelection bid because his campaign had \u2018no path to victory\u2019",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/07/nancy-pelosi-joe-biden-dropped-out-reelection-campaign/",
+                        "datetime": "2024-08-07T23:47:47.669000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b407a3b029c7360000000b",
+                        "targetTopic": "politics",
+                        "text": "In her most extensive remarks yet about the the political earthquake of the past few weeks, the former House speaker said she was concerned President Joe Biden staying in the race would inevitably lead to the reelection of Donald Trump. Pelosi, who carries tremendous clout on Capitol Hill and in the Democratic Party, also said that while she did not make any phone calls seeking Biden\u2019s ouster, \u201chundreds\u201d of people who wanted to see that outcome called her."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
