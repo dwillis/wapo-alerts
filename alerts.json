@@ -81116,5 +81116,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eef0f380-55d8-11ef-9b9a-00000a1ace66",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 13 highlights from Paris Olympics: Holloway, Davis-Woodhall win big in track and field; U.S. men's basketball survives scare",
+            "ios": {
+                "alert": {
+                    "body": "Day 13 highlights from Paris Olympics: Holloway, Davis-Woodhall win big in track and field; U.S. men's basketball survives scare",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-08T22:52:47.601000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b54c3f4c94683500000014",
+                        "targetTopic": "sports",
+                        "text": "Grant Holloway cruised to victory in the men's 110-meter hurdles while Tara Davis-Woodhall captured her first Olympic gold, but they were perhaps overshadowed by Noah Lyles's bronze in the 200 meters and subsequent revelation that he ran with covid-19. In other events, the U.S. men's basketball team trailed for more than 35 of 40 minutes versus Nikola Jokic and Serbia but narrowly avoided what would have been its first Olympic loss since the 2004 Athens Games."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
