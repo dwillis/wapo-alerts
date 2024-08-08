@@ -80969,5 +80969,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b2825d90-55be-11ef-89a2-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump and Harris confirm they will attend ABC\u2019s Sept. 10 presidential debate as scheduled, network says",
+            "ios": {
+                "alert": {
+                    "body": "Trump and Harris confirm they will attend ABC\u2019s Sept. 10 presidential debate as scheduled, network says",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/08/2024-election-campaign-updates-harris-trump/",
+                        "datetime": "2024-08-08T19:44:59.503000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b5203b4c94683500000013",
+                        "targetTopic": "politics",
+                        "text": "Former president Donald Trump said in a Thursday news conference that he wants to debate his opponent three times, including the Sept. 10 date that was previously agreed to by both parties\u2019 campaigns before President Joe Biden withdrew from the 2024 race. That date will serve as the first time Trump and Kamala Harris will share a stage since she was tapped to replace Biden weeks ago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "13afe850-55bd-11ef-bff7-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "American Sydney McLaughlin-Levrone breaks her own world record and wins gold in women\u2019s 400-meter hurdles",
+            "ios": {
+                "alert": {
+                    "body": "American Sydney McLaughlin-Levrone breaks her own world record and wins gold in women\u2019s 400-meter hurdles",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/08/paris-olympics-2024-live-medals-usa-results-day-13/",
+                        "datetime": "2024-08-08T19:33:22.927000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b51d824c94683500000012",
+                        "targetTopic": "sports",
+                        "text": "McLaughlin-Levrone ran the event in 50.37 seconds to break the world record she set at Olympic trials in June."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4a8a6090-55bc-11ef-aa1c-0000a1aced64",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "American sprinter Noah Lyles says he tested positive for the coronavirus before winning Olympic bronze in 200 meters",
+            "ios": {
+                "alert": {
+                    "body": "American sprinter Noah Lyles says he tested positive for the coronavirus before winning Olympic bronze in 200 meters",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/08/noah-lyles-covid-olympics-200/",
+                        "datetime": "2024-08-08T19:27:46.046000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b51c324c94683500000011",
+                        "targetTopic": "breaking-news",
+                        "text": "After struggling in his signature event, he left the track breathing heavily while riding in a wheelchair. Lyles tested positive for the coronavirus two days ago, he told NBC, adding that he was leaning toward skipping the 4x100-meter relay."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
