@@ -80871,5 +80871,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0efeac60-55a9-11ef-8a00-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can you become an athlete at 70? Ask us how to feel like an Olympian at any age in our Well+Being chat.",
+            "ios": {
+                "alert": {
+                    "body": "Can you become an athlete at 70? Ask us how to feel like an Olympian at any age in our Well+Being chat.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/08/08/tara-parker-pope-advice/",
+                        "datetime": "2024-08-08T17:10:05.066000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b4fbed7441a53500000001",
+                        "targetTopic": "advice",
+                        "text": "Can you become an athlete at 70? Ask us how to feel like an Olympian at any age in our Well+Being chat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
