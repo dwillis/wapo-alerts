@@ -80920,5 +80920,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "45832980-55b5-11ef-bc56-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Noah Lyles, U.S. sprint star who was trying for second Paris gold, takes bronze in 200 meters. Teammate Kenny Bednarek won silver.",
+            "ios": {
+                "alert": {
+                    "body": "Noah Lyles, U.S. sprint star who was trying for second Paris gold, takes bronze in 200 meters. Teammate Kenny Bednarek won silver.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/08/paris-olympics-2024-live-medals-usa-results-day-13/",
+                        "datetime": "2024-08-08T18:37:30.833000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b5106a4c94683500000010",
+                        "targetTopic": "sports",
+                        "text": "Lyles previously won the 100-meter dash and will race for at least one more gold in Paris. He was trying to become the first man since Jamaican Usain Bolt to win the 100 and 200 in the same Games, and the first American man since Carl Lewis in 1984."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
