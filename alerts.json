@@ -81557,5 +81557,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7352acf0-5682-11ef-a218-00000a1ace29",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Man who pleaded guilty to assaulting police during Capitol attack gets 20 years, the second longest sentence of Jan. 6 defendants",
+            "ios": {
+                "alert": {
+                    "body": "Man who pleaded guilty to assaulting police during Capitol attack gets 20 years, the second longest sentence of Jan. 6 defendants",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/09/david-dempsey-jan-6-sentencing/",
+                        "datetime": "2024-08-09T19:06:14.889000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b668a6aa89e13500000002",
+                        "targetTopic": "us",
+                        "text": "David N. Dempsey deployed chemical spray on police and attacked them with poles in one of the most violent confrontations between law enforcement and the mob on Jan. 6, 2021. He pleaded guilty earlier this year to two counts of assaulting police with dangerous or deadly weapons."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
