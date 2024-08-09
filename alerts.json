@@ -81263,5 +81263,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7eb4bd70-563e-11ef-9b82-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump vs. Harris. Rally shooting. Ukraine attack. Debby. Mpox outbreak. Cash App payout. Noah Lyles. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump vs. Harris. Rally shooting. Ukraine attack. Debby. Mpox outbreak. Cash App payout. Noah Lyles. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/09/what-to-know-for-august-9/?noredirect=1",
+                        "datetime": "2024-08-09T10:59:48.298000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "66b5f6a469422f3500000019",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
