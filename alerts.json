@@ -81508,5 +81508,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d81e1ef1-5680-11ef-afe3-00000a1ace80",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A domestic flight with 62 people on board crashed in Brazil. It's unclear whether anyone survived.",
+            "ios": {
+                "alert": {
+                    "body": "A domestic flight with 62 people on board crashed in Brazil. It's unclear whether anyone survived.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/09/brazil-crash-voepass-vinhedo/",
+                        "datetime": "2024-08-09T18:54:45.011000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b665f5aa89e13500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "The plane crashed in a residential area in Vinhedo, a city in the state of S\u00e3o Paulo, leaving a fiery wreck as firefighters and military police responded."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
