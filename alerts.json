@@ -81606,5 +81606,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1e3b63b0-5691-11ef-9891-0000a1ace932",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A look at Nixon\u2019s resignation 50 years later",
+            "ios": {
+                "alert": {
+                    "body": "A look at Nixon\u2019s resignation 50 years later",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/watergate-50th-anniversary/",
+                        "datetime": "2024-08-09T20:51:14.632000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b68142aa89e13500000003",
+                        "targetTopic": "politics",
+                        "text": "On Aug. 9, 1974, Richard M. Nixon became the only U.S. president to have ever resigned. Learn more about the Watergate scandal and what led to his downfall."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
