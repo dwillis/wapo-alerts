@@ -81459,5 +81459,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "15361410-5676-11ef-9d0d-000a1ace5b92",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Anchored by Sha'Carri Richardson, American women win gold in 4x100-meter relay, the 10th gold for U.S. track tea",
+            "ios": {
+                "alert": {
+                    "body": "Anchored by Sha'Carri Richardson, American women win gold in 4x100-meter relay, the 10th gold for U.S. track tea",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/09/paris-olympics-2024-live-medals-results-day-14/?token=2",
+                        "datetime": "2024-08-09T17:37:43.088000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b653e7945b0d3600000003",
+                        "targetTopic": "sports",
+                        "text": "The American women have won the event in three of the past four Olympics and 12 times in Olympic history, more than any other country."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
