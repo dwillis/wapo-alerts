@@ -81704,5 +81704,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a3bca4e0-56a0-11ef-b28e-00000a1aceb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 14 highlights from Paris Olympics: American Rai Benjamin rules the track; U.S. women\u2019s basketball will play for gold",
+            "ios": {
+                "alert": {
+                    "body": "Day 14 highlights from Paris Olympics: American Rai Benjamin rules the track; U.S. women\u2019s basketball will play for gold",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-09T22:42:20.729000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b69b4caa89e13500000006",
+                        "targetTopic": "sports",
+                        "text": "Benjamin breezed to a gold medal in the men's 400-meter hurdles and helped erase the foibles of the U.S. men's 4x100 relay team, which finished seventh and was eventually disqualified because of a bad first baton exchange. Elsewhere, the U.S. women smothered Australia on the basketball court, ensuring a trip to their eighth straight gold medal game, where they will meet France on Sunday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e97cc591-569c-11ef-845e-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FDA rejects first psychedelic to treat PTSD, marking a setback and calling for more study of ecstasy-based drug",
+            "ios": {
+                "alert": {
+                    "body": "FDA rejects first psychedelic to treat PTSD, marking a setback and calling for more study of ecstasy-based drug",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/08/09/fda-rejects-first-psychedelic-treat-ptsd-calling-more-study/",
+                        "datetime": "2024-08-09T22:15:40.138000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b6950caa89e13500000005",
+                        "targetTopic": "us",
+                        "text": "The Food and Drug Administration declined to approve MDMA to treat post-traumatic stress disorder, instead calling for another large study that could take years to complete."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
