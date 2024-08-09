@@ -81214,5 +81214,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "adf79af1-55e2-11ef-bb84-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Noah Lyles was a reminder of the pandemic on the night he could've become an Olympic legend, columnist Jerry Brewer writes",
+            "ios": {
+                "alert": {
+                    "body": "Noah Lyles was a reminder of the pandemic on the night he could've become an Olympic legend, columnist Jerry Brewer writes",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/08/noah-lyles-covid-health-200-meter-bronze/",
+                        "datetime": "2024-08-09T00:02:33.787000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b55c997441a53500000002",
+                        "targetTopic": "sports",
+                        "text": "The U.S. sprinter finished third in the 200-meter race he was widely expected to win, then revealed he had tested positive for the coronavirus and indicated his Paris Games were over. Although we thought covid was behind us, Brewer writes, Thursday felt like the pandemic-affected 2021 Tokyo Olympics."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
