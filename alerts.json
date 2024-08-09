@@ -81312,5 +81312,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "919afe31-5649-11ef-b6fc-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Flash flood warnings in effect for D.C. area, tornadoes possible throughout region",
+            "ios": {
+                "alert": {
+                    "body": "Flash flood warnings in effect for D.C. area, tornadoes possible throughout region",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/08/09/debby-storm-floods-tornadoes-dc-east-coast-updates/",
+                        "datetime": "2024-08-09T12:19:04.223000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b60938b029c7360000000d",
+                        "targetTopic": "local",
+                        "text": "Torrential rain has prompted flash flood warnings for large parts of the metro region through late Friday morning. A tornado watch is also in effect until 2 p.m. and multiple warnings have already been issued."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
