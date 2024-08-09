@@ -81361,5 +81361,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0a19bb90-566c-11ef-901b-0000a1acec0f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Vietnam accelerates island building to challenge rising Chinese assertiveness in the South China Sea",
+            "ios": {
+                "alert": {
+                    "body": "Vietnam accelerates island building to challenge rising Chinese assertiveness in the South China Sea",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/vietnam-south-china-sea-islands-growth/",
+                        "datetime": "2024-08-09T16:25:49.385000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b6430d945b0d3600000002",
+                        "targetTopic": "world",
+                        "text": "As tensions mount, Vietnam is dredging and filling in land, fortifying barriers and erecting structures to establish new military outposts. Satellite imagery reveals that Vietnam has ramped up its effort since January and is on track to create more than 1,000 acres of island territory this year, more than in any year prior."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "31ff9411-566a-11ef-ba6b-0000a1ace5d0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: This couple want a life partnership, but worry the institution of marriage will ruin their relationship.",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: This couple want a life partnership, but worry the institution of marriage will ruin their relationship.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/09/carolyn-hax-marriage-fears-couple/",
+                        "datetime": "2024-08-09T16:12:37.421000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b63ff5945b0d3600000001",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: This couple want a life partnership, but worry the institution of marriage will ruin their relationship."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
