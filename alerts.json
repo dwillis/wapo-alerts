@@ -81655,5 +81655,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3843df31-5696-11ef-9e61-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Imane Khelif, female boxer who was a target of online attacks over \u2018gender eligibility\u2019 test, wins Olympic gold",
+            "ios": {
+                "alert": {
+                    "body": "Imane Khelif, female boxer who was a target of online attacks over \u2018gender eligibility\u2019 test, wins Olympic gold",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/09/imane-khelif-olympic-boxing-gold-gender-controversy/",
+                        "datetime": "2024-08-09T21:27:45.729000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b689d1aa89e13500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The Algerian fighter faced online hate after a Russia-linked boxing organization disqualified her from last year's world championships."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
