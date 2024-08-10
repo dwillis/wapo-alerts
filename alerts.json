@@ -81900,5 +81900,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6d8c7f80-5727-11ef-92d9-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. women\u2019s soccer team, seeking its first Olympic gold since 2012, is set to take on Brazil in Paris. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. women\u2019s soccer team, seeking its first Olympic gold since 2012, is set to take on Brazil in Paris. Follow our coverage.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/10/olympic-soccer-usa-vs-brazil-live-score-uswnt-paris/",
+                        "datetime": "2024-08-10T14:47:12.098000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b77d70111f983500000003",
+                        "targetTopic": "sports",
+                        "text": "Led by a new cohort of young stars, the Americans have stormed through the tournament undefeated after a disappointing World Cup last year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c24b27d0-5720-11ef-9928-0000a1acecdc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A pastor claimed his pro-Trump prophecies came from God. His brother called him a fake.",
+            "ios": {
+                "alert": {
+                    "body": "A pastor claimed his pro-Trump prophecies came from God. His brother called him a fake.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/trump-prophecy-josiah-jeremiah-johnson-alabama/",
+                        "datetime": "2024-08-10T13:59:27.495000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b7723f111f983500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Jeremiah Johnson found religious fame after leaning into politics. His brother, also a preacher, worried he was twisting the Lord\u2019s word for money and power."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
