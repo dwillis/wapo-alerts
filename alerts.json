@@ -82194,5 +82194,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6139cd70-576b-11ef-9ab4-0000a1ace6f2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 15 highlights from Paris Olympics: U.S. track and field stands out behind stars Sydney McLaughlin-Levrone, Gabby Thomas and Rai Benjamin",
+            "ios": {
+                "alert": {
+                    "body": "Day 15 highlights from Paris Olympics: U.S. track and field stands out behind stars Sydney McLaughlin-Levrone, Gabby Thomas and Rai Benjamin",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-10T22:53:37.323000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b7ef71945b0d3600000005",
+                        "targetTopic": "sports",
+                        "text": "Benjamin's huge anchor leg ensured the men's 4x400 team the victory. On the women's side, McLaughlin-Levrone ran away from everyone on the second leg, and Thomas followed suit en route to an easy win. Also on the track, American Masai Russell brought home gold in the women's 100-meter hurdles. And elsewhere, the U.S. women's soccer and men's basketball teams added golds of their own."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
