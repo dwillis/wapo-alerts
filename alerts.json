@@ -82145,5 +82145,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "198e1920-575e-11ef-9942-00000a1acecc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. men\u2019s basketball team beats host France, capturing gold for the fifth straight Olympics",
+            "ios": {
+                "alert": {
+                    "body": "U.S. men\u2019s basketball team beats host France, capturing gold for the fifth straight Olympics",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/10/usa-france-basketball-live-score-paris-olympics-gold-medal/",
+                        "datetime": "2024-08-10T21:18:33.450000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b7d929945b0d3600000004",
+                        "targetTopic": "breaking-news",
+                        "text": "Led by aging stars LeBron James, Steph Curry and Kevin Durant, the Americans went 6-0 in the Paris Games and captured gold in front of rabid French fans in central Paris. The Americans last failed to win gold in 2004."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
