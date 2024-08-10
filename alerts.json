@@ -81802,5 +81802,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8834b451-56a6-11ef-9400-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Frank Zappa\u2019s kids are still grappling with his legacy \u2014 and each other",
+            "ios": {
+                "alert": {
+                    "body": "Frank Zappa\u2019s kids are still grappling with his legacy \u2014 and each other",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/music/interactive/2024/frank-zappa-family-feud-moon-unit-dweezil/",
+                        "datetime": "2024-08-09T23:24:31.854000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b6a52faa89e13500000007",
+                        "targetTopic": "editors_picks",
+                        "text": "Dweezil no longer speaks to his siblings. Moon has spent decades reassessing the family dynamic \u2014 emotional labor that lies thick on the pages of her new memoir.\n\nAhmet and Diva, meanwhile, seem dazed still by the force of their siblings\u2019 anger \u2014 siblings with whom they share not just a fraught business partnership but also a one-of-a-kind childhood."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
