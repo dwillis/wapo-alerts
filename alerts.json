@@ -81998,5 +81998,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff4192c0-5737-11ef-9e1d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: I feel pressured by my family\u2019s hopes for my future partner",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: I feel pressured by my family\u2019s hopes for my future partner",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/08/ask-sahaj-family-future-partner/",
+                        "datetime": "2024-08-10T16:45:48.666000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b7993c111f983500000004",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: I feel pressured by my family\u2019s hopes for my future partner"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
