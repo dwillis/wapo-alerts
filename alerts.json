@@ -82096,5 +82096,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0bac7fc0-574c-11ef-9891-0000a1ace932",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. men take on Victor Wembanyama and host nation France in a battle for Olympic hoops gold. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. men take on Victor Wembanyama and host nation France in a battle for Olympic hoops gold. Follow our coverage.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/10/usa-france-basketball-live-score-paris-olympics-gold-medal/",
+                        "datetime": "2024-08-10T19:09:19.247000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b7badf111f983500000006",
+                        "targetTopic": "sports",
+                        "text": "Team USA was the tournament\u2019s favorite. Backed by rabid fans, France has notched multiple upsets along the way. Now the teams will battle for gold in Paris."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
