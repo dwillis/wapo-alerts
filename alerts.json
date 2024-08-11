@@ -82341,5 +82341,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f840fa70-57e5-11ef-b4a7-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. women\u2019s basketball team takes on host France for its eighth straight Olympic gold. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. women\u2019s basketball team takes on host France for its eighth straight Olympic gold. Follow our coverage.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/11/usa-france-womens-basketball-live-score-olympics-gold-medal-game/",
+                        "datetime": "2024-08-11T13:31:09.213000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b8bd1daa89e1350000000a",
+                        "targetTopic": "sports",
+                        "text": "Team USA, the heavy favorite, is on a 60-game winning streak in the Olympics and looking to make it back-to-back wins for American men\u2019s and women\u2019s basketball over the French. This is France\u2019s second appearance in a gold medal game."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1e939ab0-57e2-11ef-a16b-0000a1ace146",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Crossword and a coffee: Solve the Sunday puzzle now",
+            "ios": {
+                "alert": {
+                    "body": "Crossword and a coffee: Solve the Sunday puzzle now",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/crossword-puzzles/sunday-evan-birnholz/",
+                        "datetime": "2024-08-11T13:03:35.559000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b8b6a7aa89e13500000009",
+                        "targetTopic": "news_quiz",
+                        "text": "Crossword and a coffee: Solve the Sunday puzzle now"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
