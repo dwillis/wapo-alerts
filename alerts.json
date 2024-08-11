@@ -82635,5 +82635,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d1869f40-580b-11ef-a3ac-0000a1ace14b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s plan to upend the federal workforce could rattle the DMV economy",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s plan to upend the federal workforce could rattle the DMV economy",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/08/trump-dc-workers-economy/",
+                        "datetime": "2024-08-11T18:02:05.052000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b8fc9d945b0d3600000007",
+                        "targetTopic": "local",
+                        "text": "The Republican presidential nominee\u2019s Agenda47 policy manifesto and his party platform seek to \u201cshatter the Deep State\u201d with actions such as moving up to 100,000 federal positions out of D.C., which experts say could be devastating to the area\u2019s economy. Virginia, Maryland and D.C. are among the top four jurisdictions nationwide for federal civilian employees."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
