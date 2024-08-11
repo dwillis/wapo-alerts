@@ -82684,5 +82684,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5df105a0-581c-11ef-bb78-000a1ace1b0b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After two years of far-right rule in a Michigan county, the opposition had one chance to change it",
+            "ios": {
+                "alert": {
+                    "body": "After two years of far-right rule in a Michigan county, the opposition had one chance to change it",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/11/michigan-county-far-right-commission-election/",
+                        "datetime": "2024-08-11T20:00:32.691000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b91860945b0d3600000008",
+                        "targetTopic": "politics",
+                        "text": "Divisive, Trump-style politics came to Ottawa County. Then moderate Republicans and some Democrats mobilized and fought back."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
