@@ -82586,5 +82586,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "757edca0-57ff-11ef-a7af-00000a1ace03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Day 16 highlights from Paris Olympics: Team USA wraps up Games tied with China in gold medals and atop total medal count",
+            "ios": {
+                "alert": {
+                    "body": "Day 16 highlights from Paris Olympics: Team USA wraps up Games tied with China in gold medals and atop total medal count",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/paris-summer-games-2024/",
+                        "datetime": "2024-08-11T16:33:36.815000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b8e7e0aa89e1350000000e",
+                        "targetTopic": "sports",
+                        "text": "Sunday\u2019s win over France in the women\u2019s basketball final gave the United States a 40th gold, enough to finish the competition even with China. Team USA\u2019s 126 medals overall easily topped China\u2019s 91. American gymnast Jordan Chiles must return her bronze medal from the women\u2019s floor exercise. And Dutch distance runner Sifan Hassan won the women\u2019s marathon in Olympic record time."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
