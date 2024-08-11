@@ -82292,5 +82292,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ae66aeb0-57ca-11ef-acb9-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. gymnast Jordan Chiles must return her Olympic bronze medal for floor after court ruling",
+            "ios": {
+                "alert": {
+                    "body": "U.S. gymnast Jordan Chiles must return her Olympic bronze medal for floor after court ruling",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/10/jordan-chiles-olympic-bronze-jeopardy-court/",
+                        "datetime": "2024-08-11T10:15:48.850000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b88f54aa89e13500000008",
+                        "targetTopic": "sports",
+                        "text": "Chiles won her medal Monday after a coach\u2019s inquiry lifted her over Romania\u2019s Ana Barbosu, but the Court of Arbitration for Sport ruled Saturday that the inquiry that benefited Chiles was filed after the one-minute deadline. The International Olympic Committee confirmed Sunday morning that the medal would be reallocated to Barbosu."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
