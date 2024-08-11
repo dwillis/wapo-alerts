@@ -82733,5 +82733,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "143365a1-582d-11ef-9891-0000a1ace932",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Olympics needed a reset. Merci to Paris for providing it, columnist Barry Svrluga writes.",
+            "ios": {
+                "alert": {
+                    "body": "The Olympics needed a reset. Merci to Paris for providing it, columnist Barry Svrluga writes.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/11/paris-olympics-reboot/",
+                        "datetime": "2024-08-11T22:00:10.103000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b9346a945b0d3600000009",
+                        "targetTopic": "editors_picks",
+                        "text": "After lackluster Olympics in Tokyo and Beijing and disappointing hosts even before the coronavirus pandemic, these Summer Games were exactly what the whole enterprise needed and in a style no other city could provide, Svrluga writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
