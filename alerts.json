@@ -82243,5 +82243,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "90ce24b0-576f-11ef-adfa-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump campaign says it is the victim of a foreign hack after the leak of a report on Vance",
+            "ios": {
+                "alert": {
+                    "body": "Trump campaign says it is the victim of a foreign hack after the leak of a report on Vance",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/10/trump-hack-iran-vance-report/",
+                        "datetime": "2024-08-10T23:23:35.132000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b7f677945b0d3600000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Microsoft discovered evidence that Iranian hackers compromised the email account of a former Trump campaign adviser, a person familiar with the matter says."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
