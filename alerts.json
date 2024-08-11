@@ -82439,5 +82439,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "69d37140-57fa-11ef-8c2c-00000a1ace65",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+            "ios": {
+                "alert": {
+                    "body": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-11T15:57:29.774000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b8df69aa89e1350000000d",
+                        "targetTopic": "news_quiz",
+                        "text": "Play now to finish out your score for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c4db86e0-57f5-11ef-8936-00000a1ace1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. women\u2019s basketball team, trailing in second half, comes back to beat host France and capture eighth straight Olympic gold",
+            "ios": {
+                "alert": {
+                    "body": "U.S. women\u2019s basketball team, trailing in second half, comes back to beat host France and capture eighth straight Olympic gold",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/11/usa-france-womens-basketball-live-score-olympics-gold-medal-game/",
+                        "datetime": "2024-08-11T15:24:14.954000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b8d79eaa89e1350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "One of the Olympics\u2019 greatest dynasties was tested Sunday. But the United States survived and has now won 10 of 13 Olympic women\u2019s basketball tournaments."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b7b5c5a0-57f2-11ef-8201-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can you reduce your risk of cancer? Here\u2019s what an oncologist with a family history of diagnoses does.",
+            "ios": {
+                "alert": {
+                    "body": "Can you reduce your risk of cancer? Here\u2019s what an oncologist with a family history of diagnoses does.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/08/05/how-to-prevent-cancer/",
+                        "datetime": "2024-08-11T15:02:24.164000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66b8d280aa89e1350000000b",
+                        "targetTopic": "editors_picks",
+                        "text": "Taking sun protection seriously is one of this doctor\u2019s five tips to prevent a cancer diagnosis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
