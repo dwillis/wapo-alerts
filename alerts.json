@@ -82978,5 +82978,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5a00980-58f9-11ef-88de-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden-Harris campaign advisers and a Trump ally were allegedly targeted by Iranian hackers, FBI probe finds",
+            "ios": {
+                "alert": {
+                    "body": "Biden-Harris campaign advisers and a Trump ally were allegedly targeted by Iranian hackers, FBI probe finds",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/12/trump-hack-iran-fbi/",
+                        "datetime": "2024-08-12T22:24:58.470000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ba8bba7321a62a00000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The FBI investigation began in June after Roger Stone's email was allegedly compromised and hackers attempted to break into the accounts of Democratic presidential campaign advisers, people familiar with the matter say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "70e6aea1-58f6-11ef-8162-0000a1ace36b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran, wary of war, weighs retaliation against Israel for the assassination of Hamas leader Ismail Haniyeh",
+            "ios": {
+                "alert": {
+                    "body": "Iran, wary of war, weighs retaliation against Israel for the assassination of Hamas leader Ismail Haniyeh",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/12/iran-israel-attack-haniyeh-assassination/",
+                        "datetime": "2024-08-12T22:01:34.575000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ba863e7321a62a00000001",
+                        "targetTopic": "world",
+                        "text": "In public, Iranian officials are continuing to warn of a \u201ctough\u201d reprisal to \u201cpunish\u201d Israel. But in private meetings with the leaders of its armed proxies, according to those familiar with the conversations, Iran has called for caution \u2014 seeking to balance any show of force with the desire to avoid an all-out war in the region."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
