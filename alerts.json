@@ -82880,5 +82880,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c6dd8d1-58c4-11ef-ab41-00000a1ace94",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Surprise half-siblings are living reminders of father\u2019s infidelity",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Surprise half-siblings are living reminders of father\u2019s infidelity",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/12/carolyn-hax-infidelity-father-half-siblings/",
+                        "datetime": "2024-08-12T16:01:18.313000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ba31ceaa533f3500000003",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Surprise half-siblings are living reminders of father\u2019s infidelity"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
