@@ -83371,5 +83371,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "68f9f050-599e-11ef-b5c3-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ex-police chief who led raid on Kansas newspaper faces felony charge of obstruction of justice amid investigation of his department",
+            "ios": {
+                "alert": {
+                    "body": "Ex-police chief who led raid on Kansas newspaper faces felony charge of obstruction of justice amid investigation of his department",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/08/13/kansas-newsroom-raid-cody-marion/",
+                        "datetime": "2024-08-13T18:03:56.860000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bba00c51a5172a00000005",
+                        "targetTopic": "us",
+                        "text": "Gideon Cody allegedly tampered with an investigation into his force\u2019s raid of the Marion County Record newsroom and its publisher\u2019s home in a case that sparked national outrage from press freedom advocates."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
