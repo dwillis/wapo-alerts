@@ -83076,5 +83076,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5bfc7a01-590b-11ef-a81b-00000a1aced1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump\u2019s interview with Elon Musk on X delayed by technical difficulties",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump\u2019s interview with Elon Musk on X delayed by technical difficulties",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/12/2024-election-campaign-updates-harris-trump/",
+                        "datetime": "2024-08-13T00:31:19.064000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66baa9577321a62a00000003",
+                        "targetTopic": "technology",
+                        "text": "The former president\u2019s interview was scheduled to begin at 8 p.m. Eastern time, but has been delayed by at least 20 minutes due to unknown technical difficulties. Musk previously interviewed Florida Gov. Ron DeSantis on X when DeSantis announced his primary challenge to Trump, and the website faced similar issues that prevented people from being able to join the call between the two men. Musk blamed a \u201cmassive\u201d denial of service attack on the website for the problems."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
