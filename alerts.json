@@ -83126,5 +83126,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3e57f1c0-5963-11ef-802b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hack investigation. Musk and Trump. Ukraine. Abortion lawsuit. Greece fire. Disputed bronze medal. Spinning iceberg. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Hack investigation. Musk and Trump. Ukraine. Abortion lawsuit. Greece fire. Disputed bronze medal. Spinning iceberg. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/13/what-to-know-for-august-13/?noredirect=1",
+                        "datetime": "2024-08-13T11:00:24.500000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "66bb3cc8c7f9152b00000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
