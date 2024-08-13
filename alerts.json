@@ -83273,5 +83273,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c8e49140-5990-11ef-b1b4-00000a1ace0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "An Israeli raid deep inside Gaza rescued four hostages but killed scores of Palestinians. A review of videos shows how it happened.",
+            "ios": {
+                "alert": {
+                    "body": "An Israeli raid deep inside Gaza rescued four hostages but killed scores of Palestinians. A review of videos shows how it happened.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/13/israel-hostage-rescue-palestinian-deaths-analysis/",
+                        "datetime": "2024-08-13T16:26:24.888000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bb893051a5172a00000004",
+                        "targetTopic": "world",
+                        "text": "A Washington Post video investigation of the June 8 raid in Nuseirat shows the Israeli military employed heavy airstrikes for nearly four hours in the dense residential area where Hamas was holding the captives. The raid, which left 274 people dead according to Palestinian authorities, was the most successful hostage-rescue operation of the war."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6810d890-598d-11ef-9034-00000a1ace6f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: When his partner gets sick, boyfriend makes a show of being sicker",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: When his partner gets sick, boyfriend makes a show of being sicker",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/13/carolyn-hax-partner-sicker-boyfriend/",
+                        "datetime": "2024-08-13T16:02:13.855000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bb838551a5172a00000003",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: When his partner gets sick, boyfriend makes a show of being sicker"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
