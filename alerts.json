@@ -83224,5 +83224,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7b2d9c00-597f-11ef-bb8b-0000a1ace976",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This oil tycoon brings in tens of millions for Trump, and he\u2019s telling Trump what the industry wants",
+            "ios": {
+                "alert": {
+                    "body": "This oil tycoon brings in tens of millions for Trump, and he\u2019s telling Trump what the industry wants",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/13/oil-donors-trump-pac-harold-hamm-election/",
+                        "datetime": "2024-08-13T14:22:32.991000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bb6c2851a5172a00000002",
+                        "targetTopic": "politics",
+                        "text": "Harold Hamm has become the former president\u2019s point person in raising money from oil industry donors. He is also relaying to Trump what the industry is seeking: less environmental regulation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
