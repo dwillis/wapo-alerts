@@ -83763,5 +83763,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8c3130a0-5a67-11ef-9f26-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "WHO declares a global health emergency as a new form of mpox spreads rapidly in Africa",
+            "ios": {
+                "alert": {
+                    "body": "WHO declares a global health emergency as a new form of mpox spreads rapidly in Africa",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/08/14/mpox-who-emergency-africa-congo/",
+                        "datetime": "2024-08-14T18:03:44.897000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bcf18051a5172a0000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Cases in Africa have already surpassed 15,000 this year, exceeding the toll for all of 2023. Two years ago, mpox emerged as a threat in the United States as cases surged mainly among gay men."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
