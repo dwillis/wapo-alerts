@@ -83665,5 +83665,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "340d8701-5a50-11ef-8925-0000a1ace047",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Happening now: Our food critic is telling the story of the time he judged Tim Walz\u2019s hot dish",
+            "ios": {
+                "alert": {
+                    "body": "Happening now: Our food critic is telling the story of the time he judged Tim Walz\u2019s hot dish",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/08/14/tom-sietsema-live-chat/",
+                        "datetime": "2024-08-14T15:16:38.627000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bcca5651a5172a00000008",
+                        "targetTopic": "food",
+                        "text": "Happening now: Our food critic is telling the story of the time he judged Tim Walz\u2019s hot dish"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
