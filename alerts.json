@@ -83420,5 +83420,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "28a3fa80-59e6-11ef-b2d9-0000a1aceb29",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Japanese Prime Minister Fumio Kishida, mired in record-low approval ratings, says he will stand down next month",
+            "ios": {
+                "alert": {
+                    "body": "Japanese Prime Minister Fumio Kishida, mired in record-low approval ratings, says he will stand down next month",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/13/japan-prime-minister-fumio-kishida/",
+                        "datetime": "2024-08-14T02:37:32.707000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bc186c7321a62a00000004",
+                        "targetTopic": "world",
+                        "text": "Kishida, who has ramped up Japan's defense spending and hewn closely with the United States on security matters, will not seek reelection as head of the ruling Liberal Democratic Party next month, bringing to an end his three-year tenure as prime minister."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
