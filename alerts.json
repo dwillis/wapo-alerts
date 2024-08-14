@@ -83518,5 +83518,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "79b2ee60-5a39-11ef-a82d-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The annual inflation rate dropped in July, probably keeping the Fed on track to cut interest rates next month",
+            "ios": {
+                "alert": {
+                    "body": "The annual inflation rate dropped in July, probably keeping the Fed on track to cut interest rates next month",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/08/14/cpi-inflation-report-interest-rate-fed/",
+                        "datetime": "2024-08-14T12:33:57.018000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bca4357321a62a00000005",
+                        "targetTopic": "breaking-news",
+                        "text": "A string of encouraging reports on prices have bolstered the central bank\u2019s confidence that it can take some pressure off the economy before it slows down too much."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
