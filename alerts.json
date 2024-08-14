@@ -83567,5 +83567,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "575b9370-5a44-11ef-bff6-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Congress declined to create a national monument to recognize the 1908 Springfield race riot. Now Biden will do it on his own.",
+            "ios": {
+                "alert": {
+                    "body": "Congress declined to create a national monument to recognize the 1908 Springfield race riot. Now Biden will do it on his own.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/08/14/1908-springfield-race-riot-monument/",
+                        "datetime": "2024-08-14T13:51:43.902000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bcb66f51a5172a00000006",
+                        "targetTopic": "us",
+                        "text": "The president will make the designation during a Friday event with civil rights leaders and Illinois lawmakers, the White House confirmed to The Washington Post on Wednesday. More than a century after the 1908 race riot sparked the founding of the NAACP, Springfield is reeling from the fatal shooting of Sonya Massey, an unarmed Black woman, by an Illinois sheriff\u2019s deputy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "aad2f1e0-5a41-11ef-b3d6-0000a1acec42",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Today\u2019s On the Record is inspired by a kangaroo",
+            "ios": {
+                "alert": {
+                    "body": "Today\u2019s On the Record is inspired by a kangaroo",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-14T13:32:35.382000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bcb1f37321a62a00000006",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
