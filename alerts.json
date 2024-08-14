@@ -83812,5 +83812,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b6f59a31-5a74-11ef-9cc0-00000a1ace09",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump vs. Harris magnifies America\u2019s generational and cultural divides",
+            "ios": {
+                "alert": {
+                    "body": "Trump vs. Harris magnifies America\u2019s generational and cultural divides",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/14/trump-harris-voters-generation-culture-election-2024/",
+                        "datetime": "2024-08-14T19:38:00.061000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bd079851a5172a0000000b",
+                        "targetTopic": "politics",
+                        "text": "\u201cMake America Great Again\u201d versus \u201cWe are not going back.\u201d Lee Greenwood\u2019s music versus Beyonc\u00e9\u2019s. The two candidates, their rallies and their movements are showcasing two sides of the country split by demographics and cultural touchstones \u2014 not just party and policy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
