@@ -83959,5 +83959,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4d8c1590-5aa3-11ef-91f9-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gena Rowlands dies at 94. The actress starred in \u2018A Woman Under the Influence\u2019 and \u2018The Notebook.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Gena Rowlands dies at 94. The actress starred in \u2018A Woman Under the Influence\u2019 and \u2018The Notebook.\u2019",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/08/14/gena-rowlands-actress-dead-obituary/",
+                        "datetime": "2024-08-15T01:11:29.583000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bd55c1c7f9152b00000006",
+                        "targetTopic": "entertainment",
+                        "text": "Over seven decades, Rowlands worked sparingly in mainstream fare but managed to attract a cascade of superlatives and an honorary Academy Award for career achievement in 2015."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b43bdf51-5a9e-11ef-92f2-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Columbia President Minouche Shafik resigns after drawing ire over response to pro-Palestinian protests",
+            "ios": {
+                "alert": {
+                    "body": "Columbia President Minouche Shafik resigns after drawing ire over response to pro-Palestinian protests",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/08/14/columbia-minouche-shafik-protests/",
+                        "datetime": "2024-08-15T00:38:34.425000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bd4e0ac7f9152b00000005",
+                        "targetTopic": "breaking-news",
+                        "text": "The resignation ends a short and turbulent tenure marred by controversy and backlash over how she handled an outbreak of protests on campus last spring."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
