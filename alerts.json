@@ -84253,5 +84253,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7a0f3191-5b1d-11ef-9d03-0000a1ace9f9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why AI detection tools can fail to catch election deepfakes",
+            "ios": {
+                "alert": {
+                    "body": "Why AI detection tools can fail to catch election deepfakes",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/interactive/2024/ai-detection-tools-accuracy-deepfakes-election-2024/",
+                        "datetime": "2024-08-15T15:46:02.866000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66be22baf6d1762a00000004",
+                        "targetTopic": "editors_picks",
+                        "text": "Deepfake detectors have been marketed as a silver bullet for identifying AI fakes, or \u201cdeepfakes.\u201d But the science of detecting manipulated content is in its early stages, while the videos are proliferating. See how this technology works \u2014 and where it falls short."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
