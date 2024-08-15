@@ -84400,5 +84400,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d50a6c90-5b31-11ef-b142-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Happening now: Travel icon Rick Steves is answering your questions about how to plan a once-in-a-lifetime Europe trip and more",
+            "ios": {
+                "alert": {
+                    "body": "Happening now: Travel icon Rick Steves is answering your questions about how to plan a once-in-a-lifetime Europe trip and more",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/travel/2024/08/15/rick-steves-travel-europe-fall/",
+                        "datetime": "2024-08-15T18:11:45.494000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66be44e1f6d1762a00000007",
+                        "targetTopic": "advice",
+                        "text": "Happening now: Travel icon Rick Steves is answering your questions about how to plan a once-in-a-lifetime Europe trip and more"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
