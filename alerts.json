@@ -84106,5 +84106,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8e184fa1-5af5-11ef-8b94-0000a1ace465",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "RFK Jr. request. Cease-fire talks. Ukraine attack. Mpox. Aging molecules. Imane Khelif. Stonehenge. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "RFK Jr. request. Cease-fire talks. Ukraine attack. Mpox. Aging molecules. Imane Khelif. Stonehenge. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/15/what-to-know-for-august-15/?noredirect=1",
+                        "datetime": "2024-08-15T11:00:16.667000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "66bddfc0c7f9152b00000007",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
