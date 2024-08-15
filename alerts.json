@@ -84057,5 +84057,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "071e6210-5aef-11ef-bfc6-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gaza\u2019s Health Ministry says 40,000 Palestinians have been killed in Israel\u2019s war against Hamas. A full count is elusive.",
+            "ios": {
+                "alert": {
+                    "body": "Gaza\u2019s Health Ministry says 40,000 Palestinians have been killed in Israel\u2019s war against Hamas. A full count is elusive.",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/15/gaza-death-toll-israel-hamas/",
+                        "datetime": "2024-08-15T10:13:33.158000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bdd4cd51a5172a0000000c",
+                        "targetTopic": "world",
+                        "text": "The Gaza Health Ministry does not distinguish between civilians and combatants but says the majority of the dead are women and children. Aid workers say the 40,000 figure is likely to be an undercount that excludes thousands of bodies believed to be buried under rubble. About 1,200 people in Israel were killed in Hamas\u2019s Oct. 7 attack, and more than 300 Israeli soldiers have died in combat since late October."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
