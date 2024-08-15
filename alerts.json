@@ -84498,5 +84498,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "92575740-5b55-11ef-a61e-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate Majority Leader Chuck Schumer writes: To protect rule of law, Congress must check Supreme Court overreach",
+            "ios": {
+                "alert": {
+                    "body": "Senate Majority Leader Chuck Schumer writes: To protect rule of law, Congress must check Supreme Court overreach",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/15/chuck-schumer-supreme-court-reform/",
+                        "datetime": "2024-08-15T22:27:35.397000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66be80d7f6d1762a0000000b",
+                        "targetTopic": "opinions",
+                        "text": "To protect rule of law, Congress must check Supreme Court overreach"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a5431411-5b51-11ef-9842-00000a1aced1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris has opened up a second path to victory over Trump, The Post\u2019s polling model shows",
+            "ios": {
+                "alert": {
+                    "body": "Harris has opened up a second path to victory over Trump, The Post\u2019s polling model shows",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/15/kamala-harris-polling-electoral-college-polling-model-donald-trump/",
+                        "datetime": "2024-08-15T21:59:29.233000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66be7a41f6d1762a0000000a",
+                        "targetTopic": "politics",
+                        "text": "Relative to the day that Joe Biden dropped out of the contest, Kamala Harris has gained two percentage points nationally and, as of Sunday, leads against Donald Trump in our national polling average."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
