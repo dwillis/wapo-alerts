@@ -84449,5 +84449,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "804fccd0-5b41-11ef-8b94-0000a1ace465",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Secret Service approves new plan for Trump to continue outdoor rallies, including use of bulletproof glass",
+            "ios": {
+                "alert": {
+                    "body": "Secret Service approves new plan for Trump to continue outdoor rallies, including use of bulletproof glass",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/15/secret-service-trump-rallies-bulletproof-glass/",
+                        "datetime": "2024-08-15T20:03:55.299000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66be5f2bf6d1762a00000009",
+                        "targetTopic": "politics",
+                        "text": "In a first for Donald Trump\u2019s 2024 campaign, the Secret Service will use technical security assets that have not normally been provided for presidential candidates, the agency said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
