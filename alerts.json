@@ -83910,5 +83910,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d899a6b2-5a95-11ef-9843-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Robert F. Kennedy Jr. tried to meet with Kamala Harris to discuss endorsing her in exchange for a Cabinet job",
+            "ios": {
+                "alert": {
+                    "body": "Robert F. Kennedy Jr. tried to meet with Kamala Harris to discuss endorsing her in exchange for a Cabinet job",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/14/rfk-jr-kamala-harris-cabinet-trump/",
+                        "datetime": "2024-08-14T23:35:09.930000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bd3f2dc7f9152b00000004",
+                        "targetTopic": "breaking-news",
+                        "text": "Harris has rebuffed the outreach, while Kennedy has had conversations with Republican nominee Donald Trump about a role in his administration as well. Kennedy is exploring multiple options for the future of his presidential effort, which has seen a decline in national polling since President Joe Biden dropped out of the race."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
