@@ -84155,5 +84155,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd1ae8a0-5b0f-11ef-a111-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JD Vance and Tim Walz have both agreed to an Oct. 1 vice-presidential debate hosted by CBS",
+            "ios": {
+                "alert": {
+                    "body": "JD Vance and Tim Walz have both agreed to an Oct. 1 vice-presidential debate hosted by CBS",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/15/vance-walz-debate-cbs/",
+                        "datetime": "2024-08-15T14:08:36.137000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66be0be4f6d1762a00000003",
+                        "targetTopic": "politics",
+                        "text": "Vance, the Republican vice-presidential nominee, confirmed his plans to attend, saying on X that \u201cthe American people deserve as many debates as possible.\u201d He also proposed an earlier debate in September."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4ed20070-5b0e-11ef-b25c-00000a1ace12",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "One stone\u2019s long journey in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "One stone\u2019s long journey in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-15T13:57:27.919000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66be0947f6d1762a00000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Thursday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
