@@ -84302,5 +84302,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "36d48dd0-5b22-11ef-b8f4-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Parents are tired of the eggshell-walk around son\u2019s moody fianc\u00e9e",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Parents are tired of the eggshell-walk around son\u2019s moody fianc\u00e9e",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/15/carolyn-hax-fiance-moody-son/",
+                        "datetime": "2024-08-15T16:19:57.615000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66be2aadf6d1762a00000005",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Parents are tired of the eggshell-walk around son\u2019s moody fianc\u00e9e"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
