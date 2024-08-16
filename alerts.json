@@ -84596,5 +84596,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7fb70010-5bc1-11ef-8e6d-00000a1ace55",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris unveils her most detailed economic agenda since becoming the Democratic nominee, including a $6,000 tax credit for newborns",
+            "ios": {
+                "alert": {
+                    "body": "Harris unveils her most detailed economic agenda since becoming the Democratic nominee, including a $6,000 tax credit for newborns",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/08/16/kamala-harris-2024-policy-child-tax-credit/",
+                        "datetime": "2024-08-16T11:20:09.757000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bf35e951a5172a0000000d",
+                        "targetTopic": "politics",
+                        "text": "Ahead of Vice President Kamala Harris\u2019s speech in North Carolina, her campaign announced support for more than a dozen economic policies aimed at \u201clowering costs for American families.\u201d Other proposals call for eliminating medical debt for millions of Americans, banning price gouging for groceries, capping prescription drug costs and providing $25,000 subsidies for first-time home buyers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b07fe3e0-5bbe-11ef-8e6d-00000a1ace55",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris momentum. Trump attacks. Ukraine. Mpox. Matthew Perry. Social Security numbers. Yoga benefits. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris momentum. Trump attacks. Ukraine. Mpox. Matthew Perry. Social Security numbers. Yoga benefits. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/16/what-to-know-for-august-16/?noredirect=1",
+                        "datetime": "2024-08-16T11:00:03.078000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "66bf3133f6d1762a0000000c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
