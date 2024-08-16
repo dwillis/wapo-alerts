@@ -84841,5 +84841,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "80984010-5c08-11ef-bf04-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former D.C. Parks and Recreation worker convicted of manslaughter in fatal shooting of unarmed 13-year-old",
+            "ios": {
+                "alert": {
+                    "body": "Former D.C. Parks and Recreation worker convicted of manslaughter in fatal shooting of unarmed 13-year-old",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/16/karon-blake-jason-lewis-verdict/",
+                        "datetime": "2024-08-16T19:48:25.505000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bfad09288d5c3500000004",
+                        "targetTopic": "local",
+                        "text": "The worker had asserted he shot the youngster, whom he saw outside his Brookland home in the early morning hours, because he feared for his life. He was found not guilty of a more serious charge, second-degree murder. The shooting had sparked outrage in D.C. and drew comparisons to other killings of unarmed Black youths."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
