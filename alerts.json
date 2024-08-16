@@ -84694,5 +84694,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "166405f0-5bca-11ef-ad3e-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Americans have positive first impressions of Walz and negative ones of Vance, Post-ABC-Ipsos poll finds",
+            "ios": {
+                "alert": {
+                    "body": "Americans have positive first impressions of Walz and negative ones of Vance, Post-ABC-Ipsos poll finds",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/16/vance-walz-post-poll/",
+                        "datetime": "2024-08-16T12:21:38.550000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66bf4452288d5c3500000001",
+                        "targetTopic": "politics",
+                        "text": "Minnesota Gov. Tim Walz has made a positive first impression after Vice President Kamala Harris announced him as her running mate. But Sen. JD Vance (R-Ohio), former president Donald Trump\u2019s choice for vice president, is not winning the popularity contest. A Washington Post-ABC News-Ipsos poll finds 32 percent of Americans have a favorable impression of Vance and 42 percent find him unfavorable, a net favorability rating of -10 points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
