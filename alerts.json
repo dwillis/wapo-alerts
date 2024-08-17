@@ -84988,5 +84988,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aa9afa50-5ca4-11ef-b0f3-0000a1ace955",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jared Kushner is planning a luxury resort on the Albanian coast. His use of foreign funds again raises questions of conflicts.",
+            "ios": {
+                "alert": {
+                    "body": "Jared Kushner is planning a luxury resort on the Albanian coast. His use of foreign funds again raises questions of conflicts.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/17/jared-kushner-resort-albania-environment/",
+                        "datetime": "2024-08-17T14:26:17.507000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c0b309288d5c3500000007",
+                        "targetTopic": "special_report",
+                        "text": "Environmentalists fear the resort development could destroy a delicate ecosystem. Kushner said it is an \u201cincredible canvas\u201d for his dreams of developing luxury projects."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
