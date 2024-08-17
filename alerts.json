@@ -85037,5 +85037,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "423c3eb0-5cc2-11ef-8750-00000a1ace89",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ex-congressman George Santos expected to plead guilty to multiple counts, a person familiar with the matter says",
+            "ios": {
+                "alert": {
+                    "body": "Ex-congressman George Santos expected to plead guilty to multiple counts, a person familiar with the matter says",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/17/george-santos-guilty-plea/",
+                        "datetime": "2024-08-17T17:58:07.306000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c0e4af288d5c3500000008",
+                        "targetTopic": "politics",
+                        "text": "The former Republican lawmaker was ousted from the House late last year after being caught in a web of lies about his background and alleged money grifting. He is expected to plead guilty in federal court on Long Island on Monday afternoon, a person familiar with the matter said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
