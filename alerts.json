@@ -84890,5 +84890,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "09a14700-5c9d-11ef-88f2-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How many guesses will Keyword take you today? Try to beat the average now.",
+            "ios": {
+                "alert": {
+                    "body": "How many guesses will Keyword take you today? Try to beat the average now.",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/keyword/",
+                        "datetime": "2024-08-17T13:31:40.986000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c0a63c288d5c3500000006",
+                        "targetTopic": "news_quiz",
+                        "text": "How many guesses will Keyword take you today? Try to beat the average now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d52f0e71-5c98-11ef-8b27-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ukraine\u2019s Kursk offensive derailed secret efforts for a partial cease-fire with Russia, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Ukraine\u2019s Kursk offensive derailed secret efforts for a partial cease-fire with Russia, officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/17/kursk-ukraine-russia-energy-ceasefire/",
+                        "datetime": "2024-08-17T13:01:35.007000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c09f2f288d5c3500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "Moscow and Kyiv were set to send delegations to Doha this month to negotiate a landmark agreement to halt strikes by both sides on energy and power infrastructure, diplomats and officials familiar with the discussions said. But the indirect talks, with the Qataris as mediators and meeting separately with the Ukrainian and Russian delegations, were derailed by Ukraine\u2019s surprise incursion into Russia\u2019s Kursk region last week, according to the officials."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
