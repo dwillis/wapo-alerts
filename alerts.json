@@ -85086,5 +85086,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9798b100-5ce4-11ef-bf18-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Chrystul Kizer, a child sex trafficking victim who killed her abuser, is finally about to learn her fate",
+            "ios": {
+                "alert": {
+                    "body": "Chrystul Kizer, a child sex trafficking victim who killed her abuser, is finally about to learn her fate",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/08/14/chrystul-kizer-sentence-sex-trafficking/",
+                        "datetime": "2024-08-17T22:03:53.371000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c11e49f310063500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Kizer was 17 when she shot Randall Volar III, who\u2019d been filming his abuse of her and other girls in Kenosha, Wisc. On Monday, a judge will decide whether Kizer \u2014 whose case was the subject of a 2019 Washington Post investigation \u2014 deserves a prison cell or a counseling program."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
