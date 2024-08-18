@@ -85331,5 +85331,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c0b37810-5d87-11ef-90da-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "He found a Project 2025 duffel bag with documents inside. Then police showed up at his house.",
+            "ios": {
+                "alert": {
+                    "body": "He found a Project 2025 duffel bag with documents inside. Then police showed up at his house.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/08/16/project-2025-dc-duffel-bag/",
+                        "datetime": "2024-08-18T17:31:50.376000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c2300696e7413600000005",
+                        "targetTopic": "editors_picks",
+                        "text": "Journalist and author Malcolm Harris says he found the bag, with branding for the conservative Heritage Foundation think tank, left on a ledge in Capitol Hill. But it turned out to be more trouble than it was worth."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
