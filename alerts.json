@@ -85135,5 +85135,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "31c796c0-5d52-11ef-9181-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alain Delon dies at 88. The angel-faced French actor achieved global fame playing dark characters in films such as \u2018Purple Noon.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Alain Delon dies at 88. The angel-faced French actor achieved global fame playing dark characters in films such as \u2018Purple Noon.\u2019",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/08/18/alain-delon-movie-star-dead-obituary/",
+                        "datetime": "2024-08-18T11:08:26.766000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c1d62a96e7413600000001",
+                        "targetTopic": "entertainment",
+                        "text": "Delon, who vaulted to stardom with his performance as the murderous opportunist Tom Ripley in \u201cPurple Noon\u201d (1960), was sometimes called \u201cthe male Brigitte Bardot\u201d for his smoldering good looks. He became one of the most photographed men in the world."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
