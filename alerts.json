@@ -85478,5 +85478,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8f292b20-5dad-11ef-a71c-0000a1ace86b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FBI arrests D.C. council member Trayon White Sr.",
+            "ios": {
+                "alert": {
+                    "body": "FBI arrests D.C. council member Trayon White Sr.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/18/trayon-white-dc-arrested-fbi/",
+                        "datetime": "2024-08-18T22:02:28.104000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c26f74f7e32e3500000003",
+                        "targetTopic": "local",
+                        "text": "The circumstances of the arrest and the allegations against White, who represents Ward 8 in Southeast D.C., were not immediately clear. The FBI\u2019s Washington Field Office declined to comment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
