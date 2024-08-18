@@ -85184,5 +85184,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ada1cf70-5d59-11ef-93d6-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris holds slight national lead over Trump, Post-ABC-Ipsos poll finds",
+            "ios": {
+                "alert": {
+                    "body": "Harris holds slight national lead over Trump, Post-ABC-Ipsos poll finds",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/18/harris-trump-post-abc-ipsos-poll/",
+                        "datetime": "2024-08-18T12:02:01.558000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c1e2b996e7413600000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Vice President Kamala Harris holds a narrow lead over former president Donald Trump in the presidential election, a notable improvement for Democrats in a contest that a little more than a month ago showed President Joe Biden and Trump in a dead heat, according to a Washington Post-ABC News-Ipsos poll."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
