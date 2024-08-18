@@ -85429,5 +85429,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "df50f1c0-5d9c-11ef-8d7f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Far-right influencers turn against Trump campaign, urging the former president\u2019s team to take harder-right positions",
+            "ios": {
+                "alert": {
+                    "body": "Far-right influencers turn against Trump campaign, urging the former president\u2019s team to take harder-right positions",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/08/18/trump-campaign-nick-fuentes-groypers-hard-right-criticism/",
+                        "datetime": "2024-08-18T20:03:01.189000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c25375f7e32e3500000002",
+                        "targetTopic": "politics",
+                        "text": "As Donald Trump\u2019s campaign grapples with slumping performance in the polls, some activists are threatening a digital \u201cwar\u201d against the Republican candidate\u2019s aides and allies unless it adopts harder-right positions on race and immigration. The insider attacks, which come as other backers are calling for Trump to take a more disciplined, policy-oriented approach to his campaign, highlight a new vulnerability in one of the loudest corners of Trump\u2019s nationwide base, presenting a challenge for campaign officials who have worked to publicly disavow or disregard extreme voices."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
