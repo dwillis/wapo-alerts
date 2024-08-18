@@ -85380,5 +85380,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "23125c40-5d99-11ef-933b-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Severe thunderstorm and flood watches in effect until 10 p.m. for the D.C. area",
+            "ios": {
+                "alert": {
+                    "body": "Severe thunderstorm and flood watches in effect until 10 p.m. for the D.C. area",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/08/18/dc-weather-severe-thunderstorm-flooding/",
+                        "datetime": "2024-08-18T19:36:16.885000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c24d30f7e32e3500000001",
+                        "targetTopic": "local",
+                        "text": "Storms through late this evening could produce damaging wind gusts and flooding rains. The storms are most probable between 6 and 10 p.m."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
