@@ -85919,5 +85919,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a348b780-5e6e-11ef-809a-0000a1ace068",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Under new deal, Afghan refugees will be temporarily relocated to Philippines as part of a pathway to U.S. resettlement",
+            "ios": {
+                "alert": {
+                    "body": "Under new deal, Afghan refugees will be temporarily relocated to Philippines as part of a pathway to U.S. resettlement",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/19/afghanistan-allies-refugees-us-philippines/",
+                        "datetime": "2024-08-19T21:04:34.737000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c3b362f7e32e350000000b",
+                        "targetTopic": "world",
+                        "text": "Tens of thousands of Afghans eligible for relocation to the United States remain scattered across the globe in the wake of the chaotic evacuation from Kabul in 2021."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
