@@ -85968,5 +85968,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6114aa20-5e7a-11ef-9638-0000a1acef6d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FBI and intelligence agencies conclude Iran was behind attempted hacks of Trump campaign and Democratic presidential campaign",
+            "ios": {
+                "alert": {
+                    "body": "FBI and intelligence agencies conclude Iran was behind attempted hacks of Trump campaign and Democratic presidential campaign",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/19/iran-hack-trump-biden-harris-fbi/",
+                        "datetime": "2024-08-19T22:28:37.668000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c3c71596e7413600000007",
+                        "targetTopic": "politics",
+                        "text": "In a joint statement, the agencies say they are confident \"the Iranians have through social engineering and other efforts sought access to individuals with direct access to the Presidential campaigns of both political parties.\" It is unclear what information \u2014 if any \u2014 was obtained."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
