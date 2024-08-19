@@ -85625,5 +85625,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bdf75981-5e30-11ef-bda8-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Phil Donahue dies at 88. The long-reigning king of daytime TV tackled tough issues but pioneered a breezy show format.",
+            "ios": {
+                "alert": {
+                    "body": "Phil Donahue dies at 88. The long-reigning king of daytime TV tackled tough issues but pioneered a breezy show format.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/08/19/phil-donahue-dead/",
+                        "datetime": "2024-08-19T13:41:30.575000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c34b8af7e32e3500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "\u201cPhil Donahue Show\u201d audience members asked questions and offered opinions \u2014 a format that opened the door to successors and rivals including Oprah Winfrey. Over the years, Donahue interviewed late-night host Johnny Carson, pop star Elton John and boxer Muhammad Ali. Some of his more controversial guests included novelist Ayn Rand, Nation of Islam leader Louis Farrakhan and Ku Klux Klan grand wizard David Duke."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "27e41e70-5e2f-11ef-a52e-00000a1ace3f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A presidential candidate\u2019s onetime summer job is the topic of today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A presidential candidate\u2019s onetime summer job is the topic of today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-19T13:30:09.382000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c348e1f7e32e3500000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
