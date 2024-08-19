@@ -85723,5 +85723,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "83f5c090-5e45-11ef-ac73-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. Council member Trayon White Sr. charged with bribery and accused of taking cash to help companies secure government funds",
+            "ios": {
+                "alert": {
+                    "body": "D.C. Council member Trayon White Sr. charged with bribery and accused of taking cash to help companies secure government funds",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/19/trayon-white-bribery-arrest-dc/",
+                        "datetime": "2024-08-19T16:10:12.724000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c36e64f7e32e3500000008",
+                        "targetTopic": "local",
+                        "text": "White, a Democrat who represents Ward 8 in Southeast Washington, is accused of taking cash in exchange for assisting businesses with securing government contracts or grants worth millions, according to court documents. He is expected to appear in federal court in D.C. this afternoon."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "96571050-5e44-11ef-be6b-0000a1ace576",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Husband constantly interrupts spouse\u2019s night of alone time",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Husband constantly interrupts spouse\u2019s night of alone time",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/19/carolyn-hax-husband-fight-alone-time/",
+                        "datetime": "2024-08-19T16:03:34.055000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c36cd6f7e32e3500000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Husband constantly interrupts spouse\u2019s night of alone time"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
