@@ -85821,5 +85821,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6ef078f0-5e51-11ef-b4c2-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Chrystul Kizer, child sex-trafficking victim who killed her abuser, is sentenced to 11 years in prison",
+            "ios": {
+                "alert": {
+                    "body": "Chrystul Kizer, child sex-trafficking victim who killed her abuser, is sentenced to 11 years in prison",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/08/19/chrystul-kizer-sentence-wisconsin-sex-trafficking/",
+                        "datetime": "2024-08-19T17:35:31.562000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c38263f7e32e3500000009",
+                        "targetTopic": "breaking-news",
+                        "text": "Kizer was 17 when she shot Randall Volar III, who\u2019d filmed his abuse of her. Rather than risk a life sentence, Kizer, now 24, pleaded guilty in May to a reduced charge of second-degree reckless homicide with use of a dangerous weapon, leaving her fate to a Wisconsin circuit court judge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
