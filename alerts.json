@@ -85870,5 +85870,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "44e3ce30-5e66-11ef-9b3a-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former GOP congressman George Santos pleads guilty to identity theft and wire fraud",
+            "ios": {
+                "alert": {
+                    "body": "Former GOP congressman George Santos pleads guilty to identity theft and wire fraud",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/19/george-santos-guilty-plea-fraud/",
+                        "datetime": "2024-08-19T20:04:40.359000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c3a558f7e32e350000000a",
+                        "targetTopic": "politics",
+                        "text": "Santos (R), who lied about his credentials and life story during his 2022 campaign, was charged with defrauding donors by taking their money for his personal use and using their credit cards without authorization, wrongfully claiming unemployment benefits, and lying on his congressional financial disclosure statements."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
