@@ -85527,5 +85527,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "48735ba0-5db8-11ef-933b-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In a Russian town controlled by Ukrainian forces, stranded civilians wonder what\u2019s next",
+            "ios": {
+                "alert": {
+                    "body": "In a Russian town controlled by Ukrainian forces, stranded civilians wonder what\u2019s next",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/18/ukraine-russia-sudzha-kursk/",
+                        "datetime": "2024-08-18T23:19:13.993000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c28171f7e32e3500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "For the Ukrainian forces on the ground in Sudzha, the offensive is seen less as a conquest for long-term annexation and more as a negotiating tactic."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
