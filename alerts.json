@@ -86017,5 +86017,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "126c7510-5e7f-11ef-b6cf-00000a1acebb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Joe Biden and Hillary Clinton headline Night 1 of the Democratic National Convention. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "President Joe Biden and Hillary Clinton headline Night 1 of the Democratic National Convention. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/19/democratic-national-convention-harris-trump-election-updates/",
+                        "datetime": "2024-08-19T23:02:13.172000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c3cef596e7413600000008",
+                        "targetTopic": "breaking-news",
+                        "text": "As his party gathers to rally around a new nominee, the president, who withdrew from the race last month, will speak on the first day of the convention. He then plans to leave for a family vacation as a jubilant convention goes on without him.\nAnd while he had hoped this week would be about rallying the party around his vision for a second term, he has now reoriented himself around bolstering Vice President Kamala Harris, a recognition that his legacy is deeply tied to whether she can win in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
