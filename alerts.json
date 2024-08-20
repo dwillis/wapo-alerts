@@ -86115,5 +86115,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bb197490-5ef9-11ef-a6e5-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: Biden\u2019s big send-off, \u2018Trump\u2019s a scab\u2019 is born and other takeaways from Day 1 of the Democratic convention",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: Biden\u2019s big send-off, \u2018Trump\u2019s a scab\u2019 is born and other takeaways from Day 1 of the Democratic convention",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/20/dnc-day-1-takeaways-biden-speech/",
+                        "datetime": "2024-08-20T13:40:14.769000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c49cbef7e32e350000000c",
+                        "targetTopic": "editors_picks",
+                        "text": "Abortion, covid and Rep. Alexandria Ocasio-Cortez played featured roles, while protests stayed mostly in the background."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c3e0aff0-5ef7-11ef-8b99-0000a1acecd4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wait, an AI bot is running for mayor?? Find out more in today\u2019s On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "Wait, an AI bot is running for mayor?? Find out more in today\u2019s On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-20T13:26:10.531000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c4997296e7413600000009",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
