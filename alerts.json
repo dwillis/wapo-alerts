@@ -86066,5 +86066,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5b2938b0-5ee3-11ef-94f4-00000a1ace41",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden\u2019s big night. Yacht disaster. Gaza hostages. George Santos. Trafficking victim. Phil Donahue. Friendship apps. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Biden\u2019s big night. Yacht disaster. Gaza hostages. George Santos. Trafficking victim. Phil Donahue. Friendship apps. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/20/what-to-know-for-/?noredirect=1",
+                        "datetime": "2024-08-20T11:00:04.878000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "66c47734f310063500000002",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
