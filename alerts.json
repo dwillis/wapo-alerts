@@ -86213,5 +86213,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3fdda650-5f14-11ef-8f00-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is girlfriend keeping him secret as she goes through a divorce?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is girlfriend keeping him secret as she goes through a divorce?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/20/carolyn-hax-girlfriend-holding-back-kids/",
+                        "datetime": "2024-08-20T16:50:04.394000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c4c93cf7e32e350000000e",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is girlfriend keeping him secret as she goes through a divorce?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "84ad53e1-5f0d-11ef-83cb-00000a1acef1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018A ringside seat to a financial catastrophe\u2019: Michael Lewis on Sam Bankman-Fried and the crypto trial of the century",
+            "ios": {
+                "alert": {
+                    "body": "\u2018A ringside seat to a financial catastrophe\u2019: Michael Lewis on Sam Bankman-Fried and the crypto trial of the century",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/sam-bankman-fried-michael-lewis-ftx/",
+                        "datetime": "2024-08-20T16:01:53.369000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c4bdf1f7e32e350000000d",
+                        "targetTopic": "opinions",
+                        "text": "A few thoughts on how Americans thought about the crypto trial of the century."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
