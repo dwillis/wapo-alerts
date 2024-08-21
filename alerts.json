@@ -86360,5 +86360,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ccb12920-5fb0-11ef-b328-0000a1ace5db",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: The Obamas seek to bestow their movement on Harris, and other takeaways from Day 2 of the Democratic convention",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: The Obamas seek to bestow their movement on Harris, and other takeaways from Day 2 of the Democratic convention",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/21/dnc-day-2-takeaways-obamas-speech/",
+                        "datetime": "2024-08-21T11:30:42.224000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c5cfe296e741360000000c",
+                        "targetTopic": "editors_picks",
+                        "text": "Disillusioned Republicans, blended families, Sen. Bernie Sanders (I-Vt.) and a DJ-spun roll call of the states were all featured."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "809162c0-5fac-11ef-a0a7-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Obamas at the DNC. Trump campaign. Tennessee prison. Disney death. Southern heat. Bennifer. Blind rock-climber. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "The Obamas at the DNC. Trump campaign. Tennessee prison. Disney death. Southern heat. Bennifer. Blind rock-climber. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/21/what-to-know-for-august-21/?noredirect=1",
+                        "datetime": "2024-08-21T10:59:56.506000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/08-21-2024/t_c1104b1fcc9744178269b2eb5deb5017_name_barack_wrap_00_01_23_29_Still004.jpg&w=1440",
+                        "pushID": "66c5c8ac96e741360000000b",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
