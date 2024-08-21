@@ -86802,5 +86802,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5595fd80-6009-11ef-85ec-00000a1ace81",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018I\u2019m a very deliberate person\u2019: Pelosi is making no apologies at the DNC for her role in Biden\u2019s ouster",
+            "ios": {
+                "alert": {
+                    "body": "\u2018I\u2019m a very deliberate person\u2019: Pelosi is making no apologies at the DNC for her role in Biden\u2019s ouster",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/21/nancy-pelosi-democratic-national-convention-joe-biden/",
+                        "datetime": "2024-08-21T22:04:27.153000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c6646b2dc8d53500000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Former House speaker Nancy Pelosi has been meme-d, lionized, vilified and all things in between for her role in getting President Joe Biden to decide not to seek reelection. She speaks tonight at the Democratic National Convention."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
