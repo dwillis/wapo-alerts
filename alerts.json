@@ -86556,5 +86556,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "05fb9681-5fdd-11ef-8aaa-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Big fix to jobs data shows labor market was weaker than previously reported, bolstering critics who say the Fed left rates too high",
+            "ios": {
+                "alert": {
+                    "body": "Big fix to jobs data shows labor market was weaker than previously reported, bolstering critics who say the Fed left rates too high",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/08/21/job-gains-revisions-federal-reserve/",
+                        "datetime": "2024-08-21T16:47:16.161000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c61a1496e7413600000011",
+                        "targetTopic": "business",
+                        "text": "The economy created 818,000 fewer jobs from April 2023 through March 2024 \u2014 the biggest revision to jobs data in years \u2014 according to details released by the Bureau of Labor Statistics. The revisions could add to arguments that the Fed has been overly focused on curbing inflation to the detriment of the labor market."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c8736db0-5fd7-11ef-b53e-0000a1ace268",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cooking chat: Do you add salt before or after water boils? Our food writers respond and answer your questions.",
+            "ios": {
+                "alert": {
+                    "body": "Cooking chat: Do you add salt before or after water boils? Our food writers respond and answer your questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/08/21/questions-recipe-cooking-advice/",
+                        "datetime": "2024-08-21T16:09:45.479000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c6114996e7413600000010",
+                        "targetTopic": "food",
+                        "text": "Cooking chat: Do you add salt before or after water boils? Our food writers respond and answer your questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cec7dee0-5fd6-11ef-8f41-00000a1ace91",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Wife has lost interest in sex. Her spouse wants to \u2018rectify\u2019 this.",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Wife has lost interest in sex. Her spouse wants to \u2018rectify\u2019 this.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/21/carolyn-hax-wife-low-sex-drive-fix/",
+                        "datetime": "2024-08-21T16:02:46.493000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c60fa696e741360000000f",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Wife has lost interest in sex. Her spouse wants to \u2018rectify\u2019 this."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
