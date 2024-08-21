@@ -86311,5 +86311,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "90566f50-5f54-11ef-96ec-0000a1ace8d6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Barack Obama, Michelle Obama and Doug Emhoff highlight Night 2 of the DNC. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Barack Obama, Michelle Obama and Doug Emhoff highlight Night 2 of the DNC. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/20/democratic-national-convention-harris-trump-election-updates/",
+                        "datetime": "2024-08-21T00:30:24.760000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c5352096e741360000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "The former president and first lady are among the most highly anticipated speakers of the week. Barack Obama is credited with helping Joe Biden win the White House after making him his vice president in 2008. And the Obamas released a video call endorsing Vice President Kamala Harris shortly after Biden withdrew from the race and endorsed his vice president to lead the ticket.\nSecond gentleman Emhoff has been a popular surrogate for her on the campaign trail and will speak during prime time."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
