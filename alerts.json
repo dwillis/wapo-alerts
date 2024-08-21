@@ -86704,5 +86704,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cf47d490-5fe7-11ef-82b3-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After George Floyd\u2019s death, Black women prodded and prayed with Tim Walz. In the end, he left them disappointed.",
+            "ios": {
+                "alert": {
+                    "body": "After George Floyd\u2019s death, Black women prodded and prayed with Tim Walz. In the end, he left them disappointed.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/21/walz-floyd-black-women/",
+                        "datetime": "2024-08-21T18:04:28.815000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c62c2cf7e32e3500000010",
+                        "targetTopic": "politics",
+                        "text": "Black women shifted the Minnesota governor\u2019s views on race and policing \u2014 but many of them were disappointed in the reforms he pushed through. The vice-presidential nominee speaks tonight at the Democratic National Convention."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
