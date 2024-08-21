@@ -86507,5 +86507,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "25582900-5fc7-11ef-b9f2-0000a1ace4f4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jennifer Lopez and Ben Affleck\u2019s marriage is dead. Here\u2019s the obituary.",
+            "ios": {
+                "alert": {
+                    "body": "Jennifer Lopez and Ben Affleck\u2019s marriage is dead. Here\u2019s the obituary.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/2024/08/20/ben-affleck-jennifer-lopez-divorce-obituary/",
+                        "datetime": "2024-08-21T14:10:39.896000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c5f55f96e741360000000e",
+                        "targetTopic": "entertainment",
+                        "text": "An on-and-off gossip sensation, the celebrity powerhouse known as Bennifer finally expired after a long bout of public discord. The breakup comes more than two decades after their first wildly public romance, engagement and eventual parting."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
