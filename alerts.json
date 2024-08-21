@@ -86753,5 +86753,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e0f5e5a0-6001-11ef-a953-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New Orleans is ordered to pay $1 million to teen who was sexually assaulted by a police officer",
+            "ios": {
+                "alert": {
+                    "body": "New Orleans is ordered to pay $1 million to teen who was sexually assaulted by a police officer",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/08/21/new-orleans-police-sexual-abuse-verdict/",
+                        "datetime": "2024-08-21T21:11:04.984000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c657e8b8b32e3600000001",
+                        "targetTopic": "us",
+                        "text": "A federal jury found the city responsible for what Officer Rodney Vicknair did to a 15-year-old in 2020 in a lawsuit brought by the girl. Vicknair began grooming her after taking her to the hospital for a rape exam. Her case was the subject of a Washington Post investigation that revealed the police department's top official had been warned about the \u201cpotential sexual abuse of a minor\u201d five days before Vicknair\u2019s assault."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
