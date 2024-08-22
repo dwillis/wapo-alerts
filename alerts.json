@@ -87145,5 +87145,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "700a93f0-60a0-11ef-8701-00000a1ace83",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Parent offended that grandparents call babysitting \u2018too stressful\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Parent offended that grandparents call babysitting \u2018too stressful\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/22/carolyn-hax-grandparents-babysitting-stressful/",
+                        "datetime": "2024-08-22T16:06:05.925000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c761edf7e32e3500000013",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Parent offended that grandparents call babysitting \u2018too stressful\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
