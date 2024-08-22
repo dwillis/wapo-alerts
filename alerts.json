@@ -87293,5 +87293,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1a593fb0-60d2-11ef-849b-0000a1ace5df",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kamala Harris\u2019s energized rallies mark a sharp contrast to her often-stumbling appearances of four years ago. That\u2019s no accident.",
+            "ios": {
+                "alert": {
+                    "body": "Kamala Harris\u2019s energized rallies mark a sharp contrast to her often-stumbling appearances of four years ago. That\u2019s no accident.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/22/harris-reinvention-speeches-rallies/",
+                        "datetime": "2024-08-22T22:01:36.925000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c7b5402dc8d53500000003",
+                        "targetTopic": "politics",
+                        "text": "Harris\u2019s team and top Biden aides took specific steps to right the ship \u2014 but only after what some White House officials now admit was a poor job of supporting the vice president at the outset. Tonight, she will step before a packed, enthusiastic crowd to accept the Democratic presidential nomination."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
