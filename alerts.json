@@ -87243,5 +87243,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0f038480-60c4-11ef-a319-0000a1ace638",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris and other Democrats have a big stage now but are barely mentioning climate change. Why?",
+            "ios": {
+                "alert": {
+                    "body": "Harris and other Democrats have a big stage now but are barely mentioning climate change. Why?",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/08/22/harris-campaign-democrats-climate-change-quiet/",
+                        "datetime": "2024-08-22T20:21:05.019000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c79db1f7e32e3500000015",
+                        "targetTopic": "climate",
+                        "text": "Vice President Kamala Harris and other party leaders have avoided the issue in recent stump speeches, including keynote remarks at the Democratic National Convention in Chicago this week. The reasons are complex, but leaders may fear alienating key constituencies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
