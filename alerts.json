@@ -87194,5 +87194,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6cb84bf0-60b1-11ef-b881-0000a1acef61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FDA approves updated coronavirus vaccines targeting new variants. Everyone 6 months and older should receive one, CDC recommends.",
+            "ios": {
+                "alert": {
+                    "body": "FDA approves updated coronavirus vaccines targeting new variants. Everyone 6 months and older should receive one, CDC recommends.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/08/22/new-coronavirus-vaccine-covid/",
+                        "datetime": "2024-08-22T18:07:41.789000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c77e6df7e32e3500000014",
+                        "targetTopic": "breaking-news",
+                        "text": "The virus keeps evolving, and because the shield offered by the vaccine weakens over time, the Food and Drug Administration and other health agencies recommend receiving a reformulated shot. The approval clears the way for shots manufactured by Pfizer-BioNTech and Moderna to start hitting pharmacy shelves and doctor\u2019s offices within a week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
