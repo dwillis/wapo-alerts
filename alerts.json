@@ -86851,5 +86851,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eaa78890-6021-11ef-9540-00000a1ace24",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bill Clinton, Nancy Pelosi and vice-presidential candidate Tim Walz highlight Day 3 of the DNC. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Bill Clinton, Nancy Pelosi and vice-presidential candidate Tim Walz highlight Day 3 of the DNC. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/21/democratic-national-convention-harris-trump-election-updates/",
+                        "datetime": "2024-08-22T01:00:25.608000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c68da92dc8d53500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The Minnesota governor is set to accept the nomination as Vice President Kamala Harris's running mate Wednesday, in a night designed to introduce him to the country as a teacher, football coach, father and husband.\nThe former president and former speaker of the House are also expected to speak, along with Transportation Secretary Pete Buttigieg \u2014 who was on the short list for the ticket's VP slot."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
