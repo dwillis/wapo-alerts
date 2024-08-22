@@ -86900,5 +86900,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3afd6270-6071-11ef-943e-00000a1aceb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Body of British tech entrepreneur Mike Lynch found in yacht wreck off Sicily, official says; one still missing",
+            "ios": {
+                "alert": {
+                    "body": "Body of British tech entrepreneur Mike Lynch found in yacht wreck off Sicily, official says; one still missing",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/22/mike-lynch-body-bayesian-yacht-sicily-italy/",
+                        "datetime": "2024-08-22T10:28:10.159000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c712bab8b32e3600000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The body of Lynch, 59, was recovered from the wreckage of the yacht Bayesian, according to a senior Italian government official who spoke on the condition of anonymity in keeping with protocol. Six bodies have been recovered since the yacht sank in a storm Monday. Lynch's teenage daughter Hannah remains missing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
