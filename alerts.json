@@ -86949,5 +86949,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "50fa8781-6079-11ef-ba9f-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: Tim Walz drives home the \u2018freedom\u2019 theme, and other takeaways from Day 3 of the Democratic convention",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: Tim Walz drives home the \u2018freedom\u2019 theme, and other takeaways from Day 3 of the Democratic convention",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/22/dnc-day-3-takeaways-walz-bill-clinton-pelosi-speech/",
+                        "datetime": "2024-08-22T11:26:03.219000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c7204bb8b32e3600000003",
+                        "targetTopic": "editors_picks",
+                        "text": "The Gaza war finally takes the stage, Nancy Pelosi nods to Biden, Bill Clinton delivers a choice line, and Democrats try to flip the script on the border crisis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b3851c20-6075-11ef-a475-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tim Walz. RFK Jr. Iran threat. Superyacht recovery. Officer assault. Moon discovery. Gay penguins. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Tim Walz. RFK Jr. Iran threat. Superyacht recovery. Officer assault. Moon discovery. Gay penguins. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/22/what-to-know-for-august-22/?noredirect=1",
+                        "datetime": "2024-08-22T11:00:10.801000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "66c71a3a96e7413600000012",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
