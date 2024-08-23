@@ -87391,5 +87391,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "45e17a30-60fa-11ef-baf4-0000a1ace6dc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "'She is defining herself before Republicans do': Follow along as 10 columnists discuss Harris\u2019s DNC speech",
+            "ios": {
+                "alert": {
+                    "body": "'She is defining herself before Republicans do': Follow along as 10 columnists discuss Harris\u2019s DNC speech",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/22/live-commentary-kamala-harris-dnc/",
+                        "datetime": "2024-08-23T02:49:09.923000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c7f8a5b8b32e3600000004",
+                        "targetTopic": "opinions",
+                        "text": "\u2018I guess this means no Beyonc\u00e9\u2019: 10 columnists on Harris\u2019s DNC speech"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
