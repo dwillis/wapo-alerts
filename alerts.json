@@ -87538,5 +87538,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "94c0d520-6153-11ef-9896-00000a1ace9f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-23T13:28:27.181000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c88e7b1070133600000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Think you\u2019ve got what it takes to earn a perfect score? Take today\u2019s longer news quiz and complete your point total for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
