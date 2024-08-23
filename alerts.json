@@ -87734,5 +87734,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "22021f41-617f-11ef-a341-00000a1acef4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Robert F. Kennedy Jr. plans to endorse Trump, per a court filing. He is expected to make remarks momentarily. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Robert F. Kennedy Jr. plans to endorse Trump, per a court filing. He is expected to make remarks momentarily. Follow our coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/23/harris-trump-rfk-jr-election-updates/",
+                        "datetime": "2024-08-23T18:40:12.818000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c8d78c1070133600000006",
+                        "targetTopic": "breaking-news",
+                        "text": "The filing surfaced ahead of a planned speech in which Kennedy said he would make an announcement about the direction of his campaign."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
