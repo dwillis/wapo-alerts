@@ -87440,5 +87440,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2b3a7850-6143-11ef-86bb-00000a1acecf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: Kamala Harris has put Trump in a box, and he\u2019s struggling to break out, chief correspondent Dan Balz writes",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: Kamala Harris has put Trump in a box, and he\u2019s struggling to break out, chief correspondent Dan Balz writes",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/23/trump-harris-campaign-analysis/",
+                        "datetime": "2024-08-23T11:30:58.502000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c872f21070133600000001",
+                        "targetTopic": "editors_picks",
+                        "text": "Democrats concluded their electrifying national convention Thursday night with Harris as the main event, delivering an address sculpted to keep her on the crest of a wave that has changed the contours of the presidential election. As the campaign now moves to its next phase, the focus on Donald Trump and how he attempts to regain his balance will be as much or more of the story compared with how Harris navigates the road ahead."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d8b0d970-613e-11ef-86bb-00000a1acecf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kamala Harris. Voter registration. New vaccines. Trans law. Record heat. Mosquito season. Giant diamond. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Kamala Harris. Voter registration. New vaccines. Trans law. Record heat. Mosquito season. Giant diamond. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/23/what-to-know-for-august-23/?noredirect=1",
+                        "datetime": "2024-08-23T11:00:01.977000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "66c86bb12499933500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
