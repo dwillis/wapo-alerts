@@ -87342,5 +87342,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1ee65f90-60eb-11ef-9f2c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kamala Harris to close out Democratic convention just weeks after ascending to the top of the ticket. Follow our live coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Kamala Harris to close out Democratic convention just weeks after ascending to the top of the ticket. Follow our live coverage.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/22/democratic-national-convention-harris-trump-election-updates/",
+                        "datetime": "2024-08-23T01:00:42.036000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c7df3a2dc8d53500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The vice president is set to give the keynote address on the fourth and final day of the DNC convention. She will formally accept the nomination a month after President Joe Biden withdrew from the race and endorsed Harris to take his place. Also expected to speak tonight are Michigan Gov. Gretchen Whitmer, Sen. Mark Kelly (D-Ariz.) and former congressman Adam Kinzinger, one of two Republicans on the House committee that investigated the Jan. 6, 2021, attack on the U.S. Capitol."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
