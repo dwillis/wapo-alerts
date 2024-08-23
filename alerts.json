@@ -87636,5 +87636,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6746c2a0-6160-11ef-a8bb-00000a1acecc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Traffic fatalities have doubled since D.C.\u2019s promise of zero",
+            "ios": {
+                "alert": {
+                    "body": "Traffic fatalities have doubled since D.C.\u2019s promise of zero",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/23/vision-zero-dc-traffic-deaths/",
+                        "datetime": "2024-08-23T15:00:14.665000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c8a3fe1070133600000004",
+                        "targetTopic": "local",
+                        "text": "Before she became mayor, Muriel E. Bowser (D) pledged to eliminate traffic deaths and serious injuries in D.C. by 2024. The city has relied heavily on camera enforcement, but a Washington Post analysis shows nine people have died this year within 250 feet of a camera. And an analysis of city traffic data shows that D.C. is on track this year to match last year\u2019s 52 traffic deaths, which marked a 16-year high. Experts say the city has failed to make the necessary changes to major roads that would slow traffic."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
