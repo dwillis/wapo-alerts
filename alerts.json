@@ -87587,5 +87587,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3983ccd0-6158-11ef-85f3-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018The time has come\u2019 for the Federal Reserve to lower interest rates, chair Jerome H. Powell says \u2014 without specifying how much",
+            "ios": {
+                "alert": {
+                    "body": "\u2018The time has come\u2019 for the Federal Reserve to lower interest rates, chair Jerome H. Powell says \u2014 without specifying how much",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/08/23/fed-powell-jackson-hole-rate-cuts/",
+                        "datetime": "2024-08-23T14:01:41.868000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c896451070133600000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The Fed chief\u2019s closely watched speech in Jackson Hole, Wyo., means rate cuts will probably come at the central bank\u2019s next meeting, in mid-September."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
