@@ -87832,5 +87832,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "233c2170-6225-11ef-a3b9-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A statue of Mark Zuckerberg\u2019s wife, Priscilla Chan, joins the interestingly bad art of the rich and famous, our critic writes",
+            "ios": {
+                "alert": {
+                    "body": "A statue of Mark Zuckerberg\u2019s wife, Priscilla Chan, joins the interestingly bad art of the rich and famous, our critic writes",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/art/2024/08/20/priscilla-chan-statue-mark-zuckerberg-daniel-arsham/",
+                        "datetime": "2024-08-24T14:28:31.359000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66c9ee0f1070133600000009",
+                        "targetTopic": "editors_picks",
+                        "text": "\u201cBringing back the Roman tradition of making sculptures of your wife,\u201d reads Zuckerberg\u2019s caption on an Instagram post unveiling the sculpture, created by New York-based artist Daniel Arsham. It\u2019s technically impressive but utterly arbitrary, Washington Post art critic Sebastian Smee writes. But at least the whole bit is self-aware?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
