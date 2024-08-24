@@ -88077,5 +88077,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd868640-6263-11ef-a4bf-0000a1ace28c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Black couple hosts family parties. Neighbors keep calling the cops.",
+            "ios": {
+                "alert": {
+                    "body": "A Black couple hosts family parties. Neighbors keep calling the cops.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/19/angela-prince-floyd-accokeek-loud-parties-neighbor-complaints/",
+                        "datetime": "2024-08-24T21:57:32.669000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ca574c592d363600000001",
+                        "targetTopic": "editors_picks",
+                        "text": "They bought their nearly 9,000-square-foot home in Maryland dreaming of karaoke nights and crab cookouts with their extended families. Then the calls to police started. A jury may decide: Is it racial discrimination, or are the parties just too loud?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
