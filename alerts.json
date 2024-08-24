@@ -87930,5 +87930,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1b75af10-6239-11ef-9201-000a1ace9d60",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump-backed changes to election rules and new plans to monitor ballot boxes raise fresh fears of interference",
+            "ios": {
+                "alert": {
+                    "body": "Trump-backed changes to election rules and new plans to monitor ballot boxes raise fresh fears of interference",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/23/trump-election-interference-georgia-arizona/",
+                        "datetime": "2024-08-24T16:51:28.167000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ca0f90107013360000000c",
+                        "targetTopic": "politics",
+                        "text": "The euphoric mood at the Democratic National Convention this week came alongside growing concern that the former president\u2019s backers could attempt to undermine the results of the November vote."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "61343e90-6234-11ef-9c09-00000a1ace16",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: If trolls think Harris is a \u2018DEI hire,\u2019 what do people think of me?",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: If trolls think Harris is a \u2018DEI hire,\u2019 what do people think of me?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/22/ask-sahaj-harris-racist-trolling/",
+                        "datetime": "2024-08-24T16:17:37.780000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ca07a1107013360000000b",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: If trolls think Harris is a \u2018DEI hire,\u2019 what do people think of me?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
