@@ -88028,5 +88028,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7388f510-623c-11ef-aebf-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "NASA picks SpaceX to bring back astronauts stuck on space station in a vote of no-confidence in Boeing\u2019s troubled Starliner capsule",
+            "ios": {
+                "alert": {
+                    "body": "NASA picks SpaceX to bring back astronauts stuck on space station in a vote of no-confidence in Boeing\u2019s troubled Starliner capsule",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/08/24/starliner-boeing-spacex-nasa/",
+                        "datetime": "2024-08-24T17:15:21.463000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ca15292499933500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Astronauts Sunita Williams and Barry Wilmore will have their mission, originally intended to last eight days, extended to about eight months. The autonomous Starliner spacecraft suffered thruster problems and helium leaks on its first crewed flight."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
