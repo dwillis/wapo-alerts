@@ -88322,5 +88322,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "77b1ebf1-6305-11ef-9a67-0000a1ace3c9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These jobs didn\u2019t exist a generation ago. What can they tell us about the future? Get Shifts, a new comic series, to find out.",
+            "ios": {
+                "alert": {
+                    "body": "These jobs didn\u2019t exist a generation ago. What can they tell us about the future? Get Shifts, a new comic series, to find out.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/19/shifts-future-jobs-sign-up/",
+                        "datetime": "2024-08-25T17:14:20.324000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cb666c2499933500000007",
+                        "targetTopic": "opinions",
+                        "text": "An illustrated history of the future of work."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
