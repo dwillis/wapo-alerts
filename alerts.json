@@ -88371,5 +88371,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a7212371-6313-11ef-bf33-000a1ace5f8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Scientists may have found a radical solution for making your hamburger less bad for the planet",
+            "ios": {
+                "alert": {
+                    "body": "Scientists may have found a radical solution for making your hamburger less bad for the planet",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-solutions/interactive/2024/cows-methane-emissions-gene-editing-microbiome/",
+                        "datetime": "2024-08-25T18:55:52.840000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cb7e38107013360000000d",
+                        "targetTopic": "climate",
+                        "text": "Cows produce more greenhouse gas emissions than the entire aviation industry. These researchers believe they can slash those emissions using gene editing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
