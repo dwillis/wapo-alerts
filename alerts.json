@@ -88224,5 +88224,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8afa2900-62f3-11ef-a9b3-0000a1acedd3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As Europe\u2019s most dangerous volcano reawakens, Italians wonder if they need to flee",
+            "ios": {
+                "alert": {
+                    "body": "As Europe\u2019s most dangerous volcano reawakens, Italians wonder if they need to flee",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/24/italy-volcano-eruption-phlegraean-fields/",
+                        "datetime": "2024-08-25T15:06:01.668000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cb48592499933500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "Scientists are debating the peril posed by the Phlegraean Fields volcano, thought to have caused the most violent eruption of prehistoric Europe."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
