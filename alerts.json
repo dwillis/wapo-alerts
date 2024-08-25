@@ -88126,5 +88126,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7fa2aaa0-6299-11ef-8db7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel says it is striking Hezbollah targets in Lebanon after detecting preparations for attack",
+            "ios": {
+                "alert": {
+                    "body": "Israel says it is striking Hezbollah targets in Lebanon after detecting preparations for attack",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/24/israel-hezbollah-lebanon-gaza-ceasefire-negotiations/",
+                        "datetime": "2024-08-25T04:21:27.980000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cab147592d363600000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Hezbollah also announced a drone and missile operation against Israel it said was to avenge slain commander Fuad Shukr. The White House said President Biden was \u201cclosely monitoring events.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
