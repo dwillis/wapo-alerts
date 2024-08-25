@@ -88421,5 +88421,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2dadf220-632c-11ef-bf13-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Trump event at a border wall built during the Obama administration highlights an unkept promise",
+            "ios": {
+                "alert": {
+                    "body": "A Trump event at a border wall built during the Obama administration highlights an unkept promise",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/25/trump-event-wall-obama-built-highlights-an-unkept-promise/",
+                        "datetime": "2024-08-25T21:51:26.517000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cba75e107013360000000e",
+                        "targetTopic": "editors_picks",
+                        "text": "Republican presidential nominee Donald Trump came to Montezuma Canyon in Arizona on Thursday to heap praise on \u201cthe Rolls-Royce of walls,\u201d as he called it. But the partition he praised was actually built during the Obama administration. Nearby lay piles of extra rusting pieces procured during the Trump administration but never erected."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
