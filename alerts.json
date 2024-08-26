@@ -88715,5 +88715,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e1bacab0-63cf-11ef-aa88-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former Prince George\u2019s County Council member Mel Franklin pleads guilty to theft scheme and perjury",
+            "ios": {
+                "alert": {
+                    "body": "Former Prince George\u2019s County Council member Mel Franklin pleads guilty to theft scheme and perjury",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/26/mel-franklin-guilty-plea-prince-georges/",
+                        "datetime": "2024-08-26T17:23:16.493000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ccba04eab1e43500000001",
+                        "targetTopic": "local",
+                        "text": "The Democrat faces up to one year of incarceration under a plea agreement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
