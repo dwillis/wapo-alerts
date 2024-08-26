@@ -88813,5 +88813,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ca089fa0-63e8-11ef-9265-00000a1acec0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Special counsel Smith appeals Judge Cannon\u2019s decision to toss out Trump indictment in classified documents case",
+            "ios": {
+                "alert": {
+                    "body": "Special counsel Smith appeals Judge Cannon\u2019s decision to toss out Trump indictment in classified documents case",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/26/trump-cannon-classified-documents-appeal/",
+                        "datetime": "2024-08-26T20:21:34.196000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cce3ceeab1e43500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Jack Smith\u2019s appeal said U.S. District Judge Aileen M. Cannon\u2019s ruling \u201cconflicts with an otherwise unbroken course of decisions, including by the Supreme Court ... and it is at odds with widespread and longstanding appointment practices in the Department of Justice and across the government.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
