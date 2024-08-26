@@ -88862,5 +88862,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "999afa30-63f6-11ef-b502-0000a1acecfb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Meet the 50 megadonors pumping $1.5 billion into the election",
+            "ios": {
+                "alert": {
+                    "body": "Meet the 50 megadonors pumping $1.5 billion into the election",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/interactive/2024/biggest-campaign-donors-election-2024/",
+                        "datetime": "2024-08-26T22:00:25.900000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ccfaf9c3be933500000002",
+                        "targetTopic": "politics",
+                        "text": "From billionaire investors to shipping magnates and cryptocurrency firms, these megadonors skew Republican, though they affiliate with both parties. Here are the people and groups making the biggest donations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
