@@ -88470,5 +88470,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "618cb720-639a-11ef-a578-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump-Harris debate. Hezbollah. Germany stabbing. Yacht probe. Mosquito disease. Stranded astronauts. Cow burps. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump-Harris debate. Hezbollah. Germany stabbing. Yacht probe. Mosquito disease. Stranded astronauts. Cow burps. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/26/what-to-know-for-august-26/?noredirect=1",
+                        "datetime": "2024-08-26T11:00:18.159000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "66cc6042e8a88a3500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
