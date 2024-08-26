@@ -88568,5 +88568,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0a851b50-63c4-11ef-a0b4-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: When parents divorce, does school-year timing matter for the kids?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: When parents divorce, does school-year timing matter for the kids?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/26/carolyn-hax-timing-divorce-kids/",
+                        "datetime": "2024-08-26T15:58:31.052000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cca627e8a88a3500000002",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: When parents divorce, does school-year timing matter for the kids?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3bc714d1-63c3-11ef-9666-0000a1ace59f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Telegram founder Pavel Durov\u2019s arrest is linked to site\u2019s inability to moderate \u2018child sex crimes,\u2019 French police say",
+            "ios": {
+                "alert": {
+                    "body": "Telegram founder Pavel Durov\u2019s arrest is linked to site\u2019s inability to moderate \u2018child sex crimes,\u2019 French police say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/26/pavel-durov-telegram-france-detention/",
+                        "datetime": "2024-08-26T15:52:44.002000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cca4cc2499933500000009",
+                        "targetTopic": "world",
+                        "text": "Durov was arrested in France for allegedly failing to moderate illegal child abuse activity on the messaging app, according to a police official. His arrest renews ongoing debate over free speech on social media."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8c4d4e20-63bd-11ef-ad99-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Some new flight attendants face homelessness and hunger: \u2018You\u2019re just barely surviving\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Some new flight attendants face homelessness and hunger: \u2018You\u2019re just barely surviving\u2019",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/travel/2024/08/26/flight-attendant-pay-flying-hours-homelessness/",
+                        "datetime": "2024-08-26T15:12:02.311000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cc9b422499933500000008",
+                        "targetTopic": "special_report",
+                        "text": "In interviews with 18 current or former flight attendants, workers recounted dire financial situations, with starting salaries as low as $23,000. They shared similar stories: Earning much less than expected. Quickly falling behind on bills. Spiraling into debt."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
