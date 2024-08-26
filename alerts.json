@@ -88519,5 +88519,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c2de2620-63af-11ef-8b1d-00000a1ace57",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Singing goodbye to Sphen in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Singing goodbye to Sphen in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-26T13:33:20.883000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cc8420592d363600000003",
+                        "targetTopic": "news_quiz",
+                        "text": "Hed: Singing goodbye to Sphen in today\u2019s On the Record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
