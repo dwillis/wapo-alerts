@@ -89402,5 +89402,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6d7506f0-64bc-11ef-9b14-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Heat advisory and air quality alert for D.C. area on Wednesday",
+            "ios": {
+                "alert": {
+                    "body": "Heat advisory and air quality alert for D.C. area on Wednesday",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/08/27/dc-area-forecast-heat-advisory/",
+                        "datetime": "2024-08-27T21:36:32.204000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ce46e0ec91b83500000003",
+                        "targetTopic": "local",
+                        "text": "Temperatures could climb to record-challenging highs of close to 100 degrees and it will feel as hot as 105 to 109 with the humidity, according to the National Weather Service.\nIn addition, the Metropolitan Washington Council of Governments has issued a code orange air quality alert, which means the air is expected to be unhealthy for sensitive groups."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
