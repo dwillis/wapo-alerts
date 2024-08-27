@@ -89303,5 +89303,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "283bc0f0-64a9-11ef-9ed2-00000a1acebc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Adulteration and mislabeling are rampant in the avocado oil industry, scientists say, including brands sold at large retail chains",
+            "ios": {
+                "alert": {
+                    "body": "Adulteration and mislabeling are rampant in the avocado oil industry, scientists say, including brands sold at large retail chains",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/08/27/avocado-oil-adulteration-tests/",
+                        "datetime": "2024-08-27T19:18:35.615000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ce268b6876133500000007",
+                        "targetTopic": "health",
+                        "text": "Scientists at the University of California at Davis found that at least 21 products labeled as avocado oil \u2014 nearly two-thirds of the 36 bottles they tested\u2014 were adulterated, in some cases with other oils that could pose a hazard to people with food sensitivities."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
