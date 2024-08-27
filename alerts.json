@@ -88911,5 +88911,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a17eb3f0-6463-11ef-8527-0000a1ace7d2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris endorsements. Trump cases. Gaza aid. Telegram arrest. Yacht investigation. Oasis reunion. World records. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris endorsements. Trump cases. Gaza aid. Telegram arrest. Yacht investigation. Oasis reunion. World records. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/27/what-to-know-for-august-27/?noredirect=1",
+                        "datetime": "2024-08-27T11:00:54.301000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "66cdb1e6acee313500000002",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
