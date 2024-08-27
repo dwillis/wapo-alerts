@@ -88960,5 +88960,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "81138d10-6478-11ef-8cec-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dropping out in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Dropping out in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-08-27T13:30:19.059000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cdd4eb6876133500000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3d91ab50-6476-11ef-8cec-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli troops have rescued a hostage held in Gaza since Oct. 7, military says",
+            "ios": {
+                "alert": {
+                    "body": "Israeli troops have rescued a hostage held in Gaza since Oct. 7, military says",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/27/hamas-hostage-rescued-kaid-farhan-al-qadi/",
+                        "datetime": "2024-08-27T13:14:07.062000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cdd11f6876133500000001",
+                        "targetTopic": "world",
+                        "text": "Kaid Farhan al-Qadi, 52, was kidnapped from his security job at Kibbutz Magen\u2019s packing factory during Hamas\u2019s attack on Israel. The Israeli military said Qadi is being transferred for medical checks at a hospital."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
