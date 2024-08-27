@@ -89254,5 +89254,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e7612e40-64a2-11ef-8527-0000a1ace7d2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "N.H. resident dies from mosquito-borne eastern equine encephalitis, or EEE, as some New England towns restrict activities",
+            "ios": {
+                "alert": {
+                    "body": "N.H. resident dies from mosquito-borne eastern equine encephalitis, or EEE, as some New England towns restrict activities",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/08/27/eee-new-hampshire-death/",
+                        "datetime": "2024-08-27T18:33:49.863000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ce1c0d6876133500000006",
+                        "targetTopic": "us",
+                        "text": "The death from the viral illness is the first in New Hampshire since 2014. In neighboring Massachusetts, some towns have closed parks after dusk and limited outdoor events because of the threat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
