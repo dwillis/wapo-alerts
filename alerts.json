@@ -89058,5 +89058,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f51151d0-647c-11ef-b73e-000a1ace384b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Chinese government hackers have penetrated several U.S. internet providers to spy on users",
+            "ios": {
+                "alert": {
+                    "body": "Chinese government hackers have penetrated several U.S. internet providers to spy on users",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/08/27/chinese-government-hackers-penetrate-us-internet-providers-spy/",
+                        "datetime": "2024-08-27T14:02:11.921000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cddc636876133500000003",
+                        "targetTopic": "special_report",
+                        "text": "The unusually aggressive and sophisticated attacks on at least two major providers with millions of customers suggest Beijing has \u201cdramatically stepped up\u201d its hacking efforts, a former top U.S. cybersecurity official said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
