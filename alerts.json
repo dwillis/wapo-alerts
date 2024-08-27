@@ -89353,5 +89353,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d92a1ee0-64b1-11ef-8b58-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Special counsel Jack Smith files new indictment against Trump in case involving alleged conspiracy to obstruct 2020 election",
+            "ios": {
+                "alert": {
+                    "body": "Special counsel Jack Smith files new indictment against Trump in case involving alleged conspiracy to obstruct 2020 election",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/27/trump-dc-indictment-new-charges-jan-6/",
+                        "datetime": "2024-08-27T20:20:48.431000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ce3520ec91b83500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The move comes in the wake of a Supreme Court ruling granting broad immunity to presidents for official acts, and just before a window when Justice Department policy would counsel against such a move so close to the election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
