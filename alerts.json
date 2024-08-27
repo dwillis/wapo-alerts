@@ -89107,5 +89107,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e175e450-6491-11ef-b330-00000a1ace34",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What if AI helped artists make music? Listen to some of the ways it can provide inspiration.",
+            "ios": {
+                "alert": {
+                    "body": "What if AI helped artists make music? Listen to some of the ways it can provide inspiration.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/music-ai-creativity/?itid=hp_opinions_p002_f001",
+                        "datetime": "2024-08-27T16:31:58.471000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cdff7ee04af53500000001",
+                        "targetTopic": "opinions",
+                        "text": "Here's why musicians are smart to embrace AI."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1410a1f1-648f-11ef-b330-00000a1ace34",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump adds Robert F. Kennedy Jr. and Tulsi Gabbard, two former Democrats, to his transition team",
+            "ios": {
+                "alert": {
+                    "body": "Trump adds Robert F. Kennedy Jr. and Tulsi Gabbard, two former Democrats, to his transition team",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/27/trump-kennedy-gabbard-transition/",
+                        "datetime": "2024-08-27T16:11:54.789000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cdfaca6876133500000005",
+                        "targetTopic": "politics",
+                        "text": "Kennedy ended his independent presidential campaign Friday and endorsed Donald Trump, appearing with him at a rally in Arizona. Gabbard, a former Democratic congresswoman from Hawaii, backed Trump during a joint appearance Monday in Michigan. She ran for the Democratic presidential nomination in 2020 but left the party two years later. Both will help prepare for a possible second Trump administration."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7b4d13f0-648d-11ef-ae63-0000a1ace59c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Family leaves Thanksgiving invitation hanging for months",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Family leaves Thanksgiving invitation hanging for months",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/27/carolyn-hax-thanksgiving-invitations-hanging/",
+                        "datetime": "2024-08-27T16:00:29.072000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cdf81d6876133500000004",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Family leaves Thanksgiving invitation hanging for months"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
