@@ -89843,5 +89843,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "139c52e0-656c-11ef-a020-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court refuses to allow Biden\u2019s latest student loan repayment plan as litigation continues",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court refuses to allow Biden\u2019s latest student loan repayment plan as litigation continues",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/28/supreme-court-blocks-biden-student-loan-repayment-save-plan/",
+                        "datetime": "2024-08-28T18:33:52.872000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cf6d90c3be933500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The justices declined to clear the way for the Biden administration\u2019s new student loan repayment plan for now, adding to uncertainty about the future of a program that would affect millions of borrowers. Biden introduced the program, Saving on a Valuable Education, last fall after a divided high court rejected a different effort by his administration to offer student debt relief."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
