@@ -89451,5 +89451,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff352bd0-64ce-11ef-ad49-0000a1ace1c3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden approved troubled Gaza pier mission despite internal pushback and warnings, inspector general finds",
+            "ios": {
+                "alert": {
+                    "body": "Biden approved troubled Gaza pier mission despite internal pushback and warnings, inspector general finds",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/27/gaza-pier-inspector-general/",
+                        "datetime": "2024-08-27T23:49:27.573000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ce6607ec91b83500000005",
+                        "targetTopic": "world",
+                        "text": "The humanitarian operation, halted last month after numerous setbacks, was set in motion earlier this year despite warnings from within the U.S. government that rough seas could pose significant challenges, and objections from officials who feared it would detract from a diplomatic campaign to make Israel open additional land routes into the war zone, according to an inspector general report published Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "18e9b160-64c8-11ef-9ba8-0000a1ace593",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Arkansas calls itself the \u2018most pro-life state\u2019 in the country. But moms there keep dying.",
+            "ios": {
+                "alert": {
+                    "body": "Arkansas calls itself the \u2018most pro-life state\u2019 in the country. But moms there keep dying.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/08/27/arkansas-maternal-mortality-rate-abortion-ban/",
+                        "datetime": "2024-08-27T23:00:04.296000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ce5a74ec91b83500000004",
+                        "targetTopic": "us",
+                        "text": "The challenges to maternal and infant health in Arkansas, a state that strictly bans abortion, are particularly daunting in its southeast corner. There, in timber country, doula Hajime White is among the women trying to help both newborns and their mothers survive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
