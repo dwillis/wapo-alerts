@@ -89647,5 +89647,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2e9a3ca0-654a-11ef-a79b-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cheating at the Paralympics? Athletes say some competitors lie about their levels of disability.",
+            "ios": {
+                "alert": {
+                    "body": "Cheating at the Paralympics? Athletes say some competitors lie about their levels of disability.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/olympics/2024/08/28/paralympics-cheating-classification-doping-disabilities/",
+                        "datetime": "2024-08-28T14:31:15.292000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cf34b3ec91b83500000007",
+                        "targetTopic": "sports",
+                        "text": "As the Paralympic Games begin in Paris today, athletes say the system that is intended to ensure equitable competition is easily manipulated and that the governing bodies charged with oversight are more concerned with silencing allegations of dishonesty to preserve the inspirational themes of the Paralympics than they are with safeguarding fair play."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
