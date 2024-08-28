@@ -89941,5 +89941,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7fbf5390-657c-11ef-bdf6-00000a1ace66",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Telegram CEO Pavel Durov is indicted on charges of complicity in distributing child porn and is forbidden to leave France",
+            "ios": {
+                "alert": {
+                    "body": "Telegram CEO Pavel Durov is indicted on charges of complicity in distributing child porn and is forbidden to leave France",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/08/28/telegram-durov-indicted/",
+                        "datetime": "2024-08-28T20:31:26.265000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cf891ec3be933500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "French prosecutors indicted the chief executive of popular messaging service Telegram Wednesday on charges including complicity in the distribution of child sex abuse images, aiding organized crime and refusing lawful orders to give information to law enforcement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
