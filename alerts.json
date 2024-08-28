@@ -90039,5 +90039,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "83341f40-658d-11ef-bb75-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Journalist withheld details about Emmett Till\u2019s killing, according to documents shared with The Post ahead of their public release",
+            "ios": {
+                "alert": {
+                    "body": "Journalist withheld details about Emmett Till\u2019s killing, according to documents shared with The Post ahead of their public release",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/history/2024/08/26/emmett-till-william-bradford-huie-carolyn-bryant-civil-rights/",
+                        "datetime": "2024-08-28T22:33:13.444000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cfa5a9e04af53500000003",
+                        "targetTopic": "editors_picks",
+                        "text": "William Bradford Huie\u2019s research notes, newly released to The Washington Post and Mississippi Today, show he suspected more than two men tortured and killed the 14-year-old, but suggest that he left out those details when they threatened his story published in Look magazine in 1956."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
