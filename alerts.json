@@ -90088,5 +90088,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c43f020-659d-11ef-842b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How a Trump visit sparked turmoil at America\u2019s most sacred cemetery",
+            "ios": {
+                "alert": {
+                    "body": "How a Trump visit sparked turmoil at America\u2019s most sacred cemetery",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/28/trump-arlington-cemetery-section-60/",
+                        "datetime": "2024-08-29T00:24:52.705000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cfbfd4e04af53500000004",
+                        "targetTopic": "politics",
+                        "text": "Federal law specifically prohibits election-related activities at military cemeteries. But during a visit, former president Donald Trump's aides pushed past an Arlington National Cemetery official to film footage they later released as a campaign video on TikTok."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
