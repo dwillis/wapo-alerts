@@ -90284,5 +90284,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "49036b20-6612-11ef-bf2c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Vladimir Kara-Murza\u2019s first column since release from Russia: \u2018My first thought was that I was going to be led out to be executed\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Vladimir Kara-Murza\u2019s first column since release from Russia: \u2018My first thought was that I was going to be led out to be executed\u2019",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/29/vladimir-kara-murza-prison-putin-freedom-ukraine/",
+                        "datetime": "2024-08-29T14:23:38.858000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d0846ae04af53500000006",
+                        "targetTopic": "editors_picks",
+                        "text": "Kara-Murza, who won the Pulitzer Prize for commentary in 2024, was imprisoned in Russia in 2022. He was released this month as part of the largest international prisoner exchange since the Cold War."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
