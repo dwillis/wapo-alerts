@@ -90186,5 +90186,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "da2f4aa0-65f5-11ef-8391-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump at Arlington Cemetery. Student loans. Telegram. Listeria. Hurricane season. Emmett Till. Venomous sea worms. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump at Arlington Cemetery. Student loans. Telegram. Listeria. Hurricane season. Emmett Till. Venomous sea worms. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/29/what-to-know-for-august-29/?noredirect=1",
+                        "datetime": "2024-08-29T11:00:07.098000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "66d054b7c3be933500000008",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
