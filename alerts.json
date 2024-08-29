@@ -90137,5 +90137,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0ba25820-65a6-11ef-90b3-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. police officer critically wounded in shooting near DC-295 in Northeast Washington, authorities say",
+            "ios": {
+                "alert": {
+                    "body": "D.C. police officer critically wounded in shooting near DC-295 in Northeast Washington, authorities say",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/28/dc-police-officer-shot-interstate-295/",
+                        "datetime": "2024-08-29T01:28:50.262000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66cfced2c3be933500000007",
+                        "targetTopic": "local",
+                        "text": "The officer was shot in the head and remained in critical condition on Wednesday after attempting to retrieve a firearm from around a storm drain on DC-295 South, according to two public safety officials."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
