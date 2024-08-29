@@ -90529,5 +90529,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1b24fb40-6650-11ef-b96c-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris pledges to name a Republican to her Cabinet if elected in her first major interview since Biden dropped out of the race",
+            "ios": {
+                "alert": {
+                    "body": "Harris pledges to name a Republican to her Cabinet if elected in her first major interview since Biden dropped out of the race",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/29/kamala-harris-tim-walz-interview-cnn/",
+                        "datetime": "2024-08-29T21:46:10.693000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d0ec226876133500000008",
+                        "targetTopic": "politics",
+                        "text": "Vice President Kamala Harris said such a move would reflect her interest in a variety of views.\n\n\u201cI have spent my career inviting diversity of opinion,\u201d Harris told CNN in an early excerpt of an interview that was set to air in full later Thursday night. \u201cI think it\u2019s important to have people at the table when some of the most important decisions are being made that have different views, different experiences.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
