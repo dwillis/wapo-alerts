@@ -90480,5 +90480,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8ecdaae0-6643-11ef-8116-00000a1ace92",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Severe thunderstorm and flood watches are in effect for large parts of the area into tonight",
+            "ios": {
+                "alert": {
+                    "body": "Severe thunderstorm and flood watches are in effect for large parts of the area into tonight",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/08/29/dc-area-forecast-showers-storms/",
+                        "datetime": "2024-08-29T20:16:21.376000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d0d715ec91b8350000000b",
+                        "targetTopic": "local",
+                        "text": "Storms could produce damaging wind gusts, hail and areas of flooding. The severe thunderstorm watch covers much of the area, while the risk of flooding is highest west of Fairfax and Montgomery counties."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
