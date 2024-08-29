@@ -90333,5 +90333,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1f2b4970-661d-11ef-b69f-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Army defends Arlington National Cemetery staffer who it says was \u2018abruptly pushed aside\u2019 by Trump campaign aides",
+            "ios": {
+                "alert": {
+                    "body": "Army defends Arlington National Cemetery staffer who it says was \u2018abruptly pushed aside\u2019 by Trump campaign aides",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/08/29/trump-arlington-cemetery-altercation/",
+                        "datetime": "2024-08-29T15:41:13.179000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d09699e04af53500000008",
+                        "targetTopic": "politics",
+                        "text": "In a statement Thursday, Army officials said the employee \u201cacted with professionalism\u201d when she sought to enforce regulations that prohibit partisan political activity on cemetery grounds. The employee has decided not to press charges, Army officials said.\n\nThe former president was at the cemetery to mark the third anniversary of a suicide bombing that killed 13 U.S. troops in Afghanistan."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "98b2cb70-6617-11ef-a0db-00000a1ace26",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Years after Larry Nassar scandal, FBI is still falling short at handling child sex abuse cases, internal Justice Dept. report finds",
+            "ios": {
+                "alert": {
+                    "body": "Years after Larry Nassar scandal, FBI is still falling short at handling child sex abuse cases, internal Justice Dept. report finds",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/08/29/fbi-child-sex-abuse-nassar-failures/",
+                        "datetime": "2024-08-29T15:01:40.104000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d08d54e04af53500000007",
+                        "targetTopic": "us",
+                        "text": "A new inspector general report found the FBI still often fails to quickly notify local authorities about alleged sexual abuse cases in their jurisdictions. In one especially egregious example, a suspect allegedly victimized another minor for 15 months after the FBI became aware of the allegations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
