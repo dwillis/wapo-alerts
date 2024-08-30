@@ -90823,5 +90823,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ea736d90-66e2-11ef-86b1-0000a1ace305",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The completely legal reason some disabled U.S. workers are paid just pennies per hour",
+            "ios": {
+                "alert": {
+                    "body": "The completely legal reason some disabled U.S. workers are paid just pennies per hour",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/08/30/subminimum-wage-disabled-workers/",
+                        "datetime": "2024-08-30T15:17:05.129000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d1e2718233563600000006",
+                        "targetTopic": "special_report",
+                        "text": "A long-standing government program is supposed to prepare disabled workers for higher-paying jobs in the community. But many workers are paid low wages for years under a tangled bureaucracy that lacks accountability and oversight, a Washington Post investigation has found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
