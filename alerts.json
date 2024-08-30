@@ -90921,5 +90921,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fbca6de1-6710-11ef-9963-0000a1ace913",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge orders suspension of social media platform X in Brazil in battle over disinformation",
+            "ios": {
+                "alert": {
+                    "body": "Judge orders suspension of social media platform X in Brazil in battle over disinformation",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/08/30/brazil-suspends-x-musk-moraes/",
+                        "datetime": "2024-08-30T20:46:51.010000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d22fbbc37b743500000001",
+                        "targetTopic": "world",
+                        "text": "The order is a dramatic escalation in a months-long dispute between platform owner Elon Musk and Brazilian jurists over the limits of freedom of speech. The ruling came days after Musk declined to comply with a request that X reestablish a physical presence in the country. Justice Alexandre de Moraes says X needs a representative in Brazil to respond to government requests to suspend accounts found to be spreading fake news."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
