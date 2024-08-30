@@ -90627,5 +90627,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dff2f2d1-66cb-11ef-9a80-0000a1ace747",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: In CNN interview, Kamala Harris addressed position changes, walked fine line as a \u2018change\u2019 candidate, and other takeaways",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: In CNN interview, Kamala Harris addressed position changes, walked fine line as a \u2018change\u2019 candidate, and other takeaways",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/29/kamala-harris-interview-cnn/",
+                        "datetime": "2024-08-30T12:32:08.903000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d1bbc88233563600000003",
+                        "targetTopic": "politics",
+                        "text": "The interview was much anticipated, given that the vice president has yet to lay out an extensive policy agenda and given the dearth of questions she has answered during her five-plus weeks as the Democratic standard-bearer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2ef8d840-66c7-11ef-8926-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Johnny Gaudreau, the dynamic NHL star known as \u2018Johnny Hockey,\u2019 dies at 31, his team confirms in a statement without citing a cause",
+            "ios": {
+                "alert": {
+                    "body": "Johnny Gaudreau, the dynamic NHL star known as \u2018Johnny Hockey,\u2019 dies at 31, his team confirms in a statement without citing a cause",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/08/30/johnny-gaudreau-dies-columbus-blue-jackets/",
+                        "datetime": "2024-08-30T11:58:34.120000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d1b3ea8233563600000002",
+                        "targetTopic": "sports",
+                        "text": "Gaudreau played left wing for the Columbus Blue Jackets, who on Friday morning released a statement confirming his death. Drafted by the Calgary Flames in 2011, the New Jersey native became one of the league\u2019s more popular players thanks to a scoring prowess and flashy offensive style that belied his diminutive size. Gaudreau\u2019s brother also died in the incident, the Blue Jackets said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
