@@ -90774,5 +90774,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2192fec0-66da-11ef-ab8b-00000a1ace1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Md. Supreme Court upholds decision to reinstate \u2018Serial\u2019 subject Adnan Syed\u2019s conviction but says case should return to lower court",
+            "ios": {
+                "alert": {
+                    "body": "Md. Supreme Court upholds decision to reinstate \u2018Serial\u2019 subject Adnan Syed\u2019s conviction but says case should return to lower court",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/08/30/adnan-syed-serial-podcast-maryland-supreme-court/",
+                        "datetime": "2024-08-30T14:14:12.112000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d1d3b48233563600000005",
+                        "targetTopic": "us",
+                        "text": "Today\u2019s decision is not the end of the road for Syed. The state\u2019s top court said the case should be sent back to a lower court to hold a new hearing on whether the case should be thrown out."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
