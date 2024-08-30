@@ -90970,5 +90970,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0995c882-6715-11ef-9789-00000a1ace63",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he opposes Fla. amendment granting right to abortion, one day after his confusing comments angered anti-abortion forces",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he opposes Fla. amendment granting right to abortion, one day after his confusing comments angered anti-abortion forces",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/30/2024-election-campaign-updates-harris-trump/",
+                        "datetime": "2024-08-30T21:15:52.191000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d23688df91af3600000001",
+                        "targetTopic": "politics",
+                        "text": "In an interview Friday, the GOP presidential nominee said he would vote no on the ballot initiative that would make abortion legal until a fetus becomes viable. A day earlier, he slammed Florida\u2019s six-week abortion ban as too restrictive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
