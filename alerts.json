@@ -90578,5 +90578,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "013e9500-66bf-11ef-b9cd-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris\u2019s interview. Trump campaign. FBI problems. Polio vaccinations. Covid risk. College football. Chatty monkeys. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris\u2019s interview. Trump campaign. FBI problems. Polio vaccinations. Covid risk. College football. Chatty monkeys. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/08/30/what-to-know-for-august-30/?noredirect=1",
+                        "datetime": "2024-08-30T11:00:01.370000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "66d1a6318233563600000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
