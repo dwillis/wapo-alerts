@@ -90872,5 +90872,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "abfa6c60-66ee-11ef-8926-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax is taking your questions now: Relative polices what everyone eats at family gatherings",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax is taking your questions now: Relative polices what everyone eats at family gatherings",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/30/live-chat-carolyn-hax/",
+                        "datetime": "2024-08-30T16:41:14.266000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d1f62a8233563600000007",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax is taking your questions now: Relative polices what everyone eats at family gatherings"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
