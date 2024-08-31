@@ -91117,5 +91117,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "69d41ec1-67b7-11ef-8d9e-0000a1ace01f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A sexual harassment scandal dogged Corey Lewandowski. Now he\u2019s officially back in Donald Trump\u2019s fold.",
+            "ios": {
+                "alert": {
+                    "body": "A sexual harassment scandal dogged Corey Lewandowski. Now he\u2019s officially back in Donald Trump\u2019s fold.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/31/corey-lewandowski-trump-sexual-harassment/",
+                        "datetime": "2024-08-31T16:38:12.114000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d346f4ed9d6d3500000004",
+                        "targetTopic": "politics",
+                        "text": "Lewandowski, Trump\u2019s first 2016 campaign manager, was reported to the police by three women who alleged unwanted physical contact, including a GOP donor in 2021 whose claims led Trump to call her directly, she said. Trump\u2019s decision to bring back Lewandowski this month as a senior adviser shows his high tolerance for allies with political liabilities as long as they remain loyal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d61143b0-67b2-11ef-b4f0-00000a1ace0b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ask Sahaj: My dad says my brother gets the family estate because of \u2018tradition\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Ask Sahaj: My dad says my brother gets the family estate because of \u2018tradition\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/08/29/ask-sahaj-dad-brother-family-estate/",
+                        "datetime": "2024-08-31T16:05:26.141000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d33f46ed9d6d3500000003",
+                        "targetTopic": "advice",
+                        "text": "Ask Sahaj: My dad says my brother gets the family estate because of \u2018tradition\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
