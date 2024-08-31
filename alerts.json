@@ -91068,5 +91068,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a5bb8750-67a5-11ef-b4f0-00000a1ace0b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A reporter detailed tennis star Alexander Zverev\u2019s alleged abuse of women \u2014 and is paying for it",
+            "ios": {
+                "alert": {
+                    "body": "A reporter detailed tennis star Alexander Zverev\u2019s alleged abuse of women \u2014 and is paying for it",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/media/2024/08/27/alexander-zverev-sued-ben-rothenberg-racquet/",
+                        "datetime": "2024-08-31T14:31:01.709000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d32925ed9d6d3500000002",
+                        "targetTopic": "editors_picks",
+                        "text": "Accusations of emotional and physical abuse by Zverev \u2014 which he has repeatedly denied \u2014 cast a shadow over his ascent. But the resulting stories may have created more troubles for their writer, Ben Rothenberg, as he grapples with a costly lawsuit."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
