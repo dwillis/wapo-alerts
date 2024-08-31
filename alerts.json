@@ -91215,5 +91215,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "906ec7e0-67dc-11ef-adb2-00000a1ace17",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Scientists are finding biases built into the Marshmallow Test and other common predictors of children\u2019s success",
+            "ios": {
+                "alert": {
+                    "body": "Scientists are finding biases built into the Marshmallow Test and other common predictors of children\u2019s success",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/science/2024/08/29/research-bias-cognitive-studies-executive-function-marshmallow-test/",
+                        "datetime": "2024-08-31T21:04:08.285000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d385488233563600000008",
+                        "targetTopic": "editors_picks",
+                        "text": "Developmental psychology aims to elucidate the \u201cuniversals\u201d in how the human mind develops but has often gleaned those insights by studying White, middle-class children from Western countries. So, if a child from a poor family or different culture doesn\u2019t perform well, is the fault in the child or the test?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
