@@ -91411,5 +91411,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "596f9c40-686f-11ef-9261-0000a1acec99",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Do you spend money like a Gen Z-er, millennial or boomer? Take our quiz to see which generation you align most with.",
+            "ios": {
+                "alert": {
+                    "body": "Do you spend money like a Gen Z-er, millennial or boomer? Take our quiz to see which generation you align most with.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/interactive/2024/spending-habits-quiz-generation-z-boomer-millennial/",
+                        "datetime": "2024-09-01T14:34:52.024000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d47b8cdf91af3600000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Your spending says a lot about your income bracket and whether you have kids. But there are also generational influences \u2014 and a growing gap between how older and younger generations spend money. Take this quiz to find out if you spend money more like an 18-year-old, a 78-year-old or somewhere in between."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
