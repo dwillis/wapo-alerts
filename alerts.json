@@ -91264,5 +91264,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "27b9bdd0-6819-11ef-8aff-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli American hostage Hersh Goldberg-Polin confirmed dead by family and White House",
+            "ios": {
+                "alert": {
+                    "body": "Israeli American hostage Hersh Goldberg-Polin confirmed dead by family and White House",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/01/israeli-american-hostage-hersh-goldber-polin-killed/",
+                        "datetime": "2024-09-01T04:17:51.932000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d3eaefc37b743500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The family of Hersh Goldberg-Polin, 23, who was kidnapped by Hamas on Oct. 7, said he had been killed. Their statement came after the Israeli military announced it had located a number of dead bodies in Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
