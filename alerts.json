@@ -91558,5 +91558,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1a7892a0-6895-11ef-999d-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What it\u2019s really like to take the train from California to New York",
+            "ios": {
+                "alert": {
+                    "body": "What it\u2019s really like to take the train from California to New York",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/interactive/2024/amtrak-train-travel-diary/",
+                        "datetime": "2024-09-01T19:05:07.233000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d4bae3ed9d6d3500000005",
+                        "targetTopic": "editors_picks",
+                        "text": "This summer, comic artist Christine Mi rode two Amtrak trains across 12 states and 3,397 miles, meandering her way alongside deserts, forests, mountains, rivers; through coal plants, suburban backyards, vast cornfields, and the occasional Big American City. See her illustrated Amtrak journey."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
