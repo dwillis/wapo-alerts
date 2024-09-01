@@ -91460,5 +91460,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d5d228b0-687f-11ef-b5db-00000a1ace0c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Protesters flood the streets of Israel, labor union announces general strike after recovery of six dead hostages in Gaza",
+            "ios": {
+                "alert": {
+                    "body": "Protesters flood the streets of Israel, labor union announces general strike after recovery of six dead hostages in Gaza",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/01/israeli-american-hostage-hersh-goldberg-polin-killed/",
+                        "datetime": "2024-09-01T16:32:52.634000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d49734df91af3600000005",
+                        "targetTopic": "breaking-news",
+                        "text": "Families of hostages and their supporters are trying to pressure Israeli Prime Minister Benjamin Netanyahu to agree to a deal with Hamas to bring home the remaining captives. The six hostages recovered by the military Saturday, including Israeli American Hersh Goldberg-Polin, were killed by their captors shortly before troops found them, Israel\u2019s Health Ministry said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9ce05b70-687b-11ef-8f1c-00000a1aceb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+            "ios": {
+                "alert": {
+                    "body": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-09-01T16:02:39.123000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d4901fdf91af3600000004",
+                        "targetTopic": "news_quiz",
+                        "text": "Play now to finish out your score for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
