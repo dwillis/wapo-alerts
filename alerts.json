@@ -91754,5 +91754,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ac8e32a0-6938-11ef-9f43-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A school cop was repeatedly accused of sexual misconduct with female students. He kept his job for years.",
+            "ios": {
+                "alert": {
+                    "body": "A school cop was repeatedly accused of sexual misconduct with female students. He kept his job for years.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2024/south-carolina-sro-child-sexual-abuse-jamel-bradley/",
+                        "datetime": "2024-09-02T14:36:00.321000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d5cd50ed9d6d3500000008",
+                        "targetTopic": "special_report",
+                        "text": "In South Carolina, Richland County Sheriff\u2019s Deputy Jamel Bradley continued working as a school resource officer despite multiple complaints that he was preying on teenage girls at Spring Valley High. Bradley, a former college basketball star, is now facing sex crime charges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
