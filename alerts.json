@@ -91803,5 +91803,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ab0f44b0-6941-11ef-be82-00000a1ace39",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Crash of \u2018dark\u2019 tanker exposes the dangers of China\u2019s thirst for cheap oil",
+            "ios": {
+                "alert": {
+                    "body": "Crash of \u2018dark\u2019 tanker exposes the dangers of China\u2019s thirst for cheap oil",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/china-dark-ships-south-china-sea/",
+                        "datetime": "2024-09-02T15:40:23.025000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d5dc67ed9d6d3500000009",
+                        "targetTopic": "world",
+                        "text": "To bypass Western financial systems and shipping services, China relies on a fleet of aging, substandard tankers that operate illicitly, analysts say. The ships pose major safety threats and have alarmed global shipping groups."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
