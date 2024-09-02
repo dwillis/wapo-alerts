@@ -91656,5 +91656,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "77dca5f0-691a-11ef-9bdb-0000a1acef07",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hostage deaths. Trump vs. Harris. Far-right victory. Hotel strike. Elon Musk. Hot summer. Cash incentive. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Hostage deaths. Trump vs. Harris. Far-right victory. Hotel strike. Elon Musk. Hot summer. Cash incentive. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/09/02/what-to-know-for-september-2/?noredirect=1",
+                        "datetime": "2024-09-02T10:59:47.026000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "66d59aa3ed9d6d3500000006",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
