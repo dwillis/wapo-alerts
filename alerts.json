@@ -91950,5 +91950,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a84d3320-6970-11ef-aa6e-00000a1ace10",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Your ride is here. Take a trip with Uber driver Jon Rigsby in this comic from the Shifts series.",
+            "ios": {
+                "alert": {
+                    "body": "Your ride is here. Take a trip with Uber driver Jon Rigsby in this comic from the Shifts series.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/08/28/shifts-uber-driver-comic/",
+                        "datetime": "2024-09-02T21:16:45.010000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d62b3dc37b743500000003",
+                        "targetTopic": "opinions",
+                        "text": "The loneliness of the short-distance driver"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
