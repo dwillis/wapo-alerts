@@ -91705,5 +91705,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0c0f1870-692f-11ef-916c-00000a1aced4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The origins of Labor Day in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "The origins of Labor Day in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-09-02T13:27:05.583000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d5bd29ed9d6d3500000007",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your holiday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
