@@ -91901,5 +91901,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "35dc1190-695b-11ef-a4cc-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Trump helped spark a culture war with his 1776 Commission on patriotism",
+            "ios": {
+                "alert": {
+                    "body": "How Trump helped spark a culture war with his 1776 Commission on patriotism",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/02/trump-1776-commission-education/",
+                        "datetime": "2024-09-02T18:43:13.587000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d60741ed9d6d350000000b",
+                        "targetTopic": "politics",
+                        "text": "In his final months in office, President Donald Trump\u2019s aides resisted as the president sought to ban the New York Times\u2019 1619 Project from the nation\u2019s classrooms. Instead, he created a new commission on patriotism \u2013 and launched a culture debate that would reenergize his base after he left office. The little-noticed episode helps explain how Trump might view education if reelected."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
