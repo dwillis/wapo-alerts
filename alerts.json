@@ -92293,5 +92293,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "783b3240-6a2e-11ef-8990-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A school resource officer admitted to sexually abusing two students. A South Carolina judge just sentenced him to probation.",
+            "ios": {
+                "alert": {
+                    "body": "A school resource officer admitted to sexually abusing two students. A South Carolina judge just sentenced him to probation.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/09/03/south-carolina-sro-jamel-bradley-sentenced-child-sexual-abuse/",
+                        "datetime": "2024-09-03T19:55:28.728000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d769b0823356360000000a",
+                        "targetTopic": "us",
+                        "text": "Richland County Sheriff's Deputy Jamel Bradley kept his job for years despite multiple complaints of sexual misconduct with teen girls, a Washington Post investigation found. The judge ordered Bradley to register as a sex offender, against the recommendation of prosecutors."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
