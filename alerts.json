@@ -92342,5 +92342,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d5e906f1-6a3e-11ef-aebd-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Dept. charges Hamas leaders with terrorism, citing Oct. 7 attack, and is investigating killing of Hersh Goldberg-Polin",
+            "ios": {
+                "alert": {
+                    "body": "Justice Dept. charges Hamas leaders with terrorism, citing Oct. 7 attack, and is investigating killing of Hersh Goldberg-Polin",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/03/sinwar-hamas-terror-justice-department/",
+                        "datetime": "2024-09-03T21:52:37.853000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d785259808c93500000006",
+                        "targetTopic": "world",
+                        "text": "Attorney General Merrick Garland stressed that Hamas was responsible for the Oct. 7 deaths in southern Israel and said the United States will investigate the killing of Goldberg-Polin, 23, whose body was found in Gaza last week, as an act of terrorism."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
