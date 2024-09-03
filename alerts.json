@@ -92146,5 +92146,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e85495e0-69fb-11ef-a90d-00000a1acef3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Post investigation into Xi\u2019s visit to San Francisco reveals how China extended its repression into a U.S. city",
+            "ios": {
+                "alert": {
+                    "body": "A Post investigation into Xi\u2019s visit to San Francisco reveals how China extended its repression into a U.S. city",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/interactive/2024/chinese-communist-party-us-repression-xi-jinping-apec/",
+                        "datetime": "2024-09-03T13:53:32.447000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d714dc9808c93500000003",
+                        "targetTopic": "special_report",
+                        "text": "Chinese diplomats and pro-China diaspora groups based in the United States organized demonstrations in San Francisco that harassed and silenced protesters opposed to Beijing\u2019s policies, including through violence, during Chinese leader Xi Jinping\u2019s visit to the city in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
