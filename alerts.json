@@ -92195,5 +92195,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ab9fcb30-6a0d-11ef-8557-00000a1acefb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Wife \u2018ticks every box,\u2019 but newlywed wants out of their marriage",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Wife \u2018ticks every box,\u2019 but newlywed wants out of their marriage",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/03/carolyn-hax-newlywed-out/",
+                        "datetime": "2024-09-03T16:00:41.547000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d732a99808c93500000005",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Wife \u2018ticks every box,\u2019 but newlywed wants out of their marriage"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7677a8c0-6a0c-11ef-aef7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Post Opinions asked seven writers to find an amazing story from deep within government. First up, Michael Lewis\u2019s discovery.",
+            "ios": {
+                "alert": {
+                    "body": "Post Opinions asked seven writers to find an amazing story from deep within government. First up, Michael Lewis\u2019s discovery.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/michael-lewis-chris-marks-the-canary-who-is-government/",
+                        "datetime": "2024-09-03T15:52:02.866000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d730a29808c93500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "The 2024 conversation has been driven by a handful of names. Trump. Harris. Biden. Vance. Walz. These individuals have put themselves forward to lead our government. But who really is our government? What is it made of? And what is at stake when politicians say they want to expand or dismantle it? To find out, we set seven stellar writers loose on the federal bureaucracy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
