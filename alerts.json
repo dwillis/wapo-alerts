@@ -91999,5 +91999,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aaf413f0-69e3-11ef-bbf2-000a1acef238",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris-Biden rally. Israel protests. Seized plane. China crackdown. Coronavirus shots. \u2018Spy\u2019 whale. Paralympics. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris-Biden rally. Israel protests. Seized plane. China crackdown. Coronavirus shots. \u2018Spy\u2019 whale. Paralympics. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/09/03/what-to-know-for-september-3/?noredirect=1",
+                        "datetime": "2024-09-03T11:00:01.568000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "66d6ec31c37b743500000004",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
