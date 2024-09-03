@@ -92048,5 +92048,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2987d1e1-69ec-11ef-8fde-0000a1ace008",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ukrainian president says at least 41 people killed in Russian missile strike at the Communications Institute in Poltava",
+            "ios": {
+                "alert": {
+                    "body": "Ukrainian president says at least 41 people killed in Russian missile strike at the Communications Institute in Poltava",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/03/russian-missile-strike-poltava/",
+                        "datetime": "2024-09-03T12:00:49.891000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d6fa719808c93500000001",
+                        "targetTopic": "world",
+                        "text": "President Volodymyr Zelensky said 180 people were injured when two ballistic missiles struck. The Defense Ministry said the time between the alarm and the impact was so short that many people were caught trying to reach shelters and were trapped under the rubble."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
