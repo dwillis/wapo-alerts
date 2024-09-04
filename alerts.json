@@ -92784,5 +92784,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e57c0520-6ae5-11ef-b32c-0000a1ace78b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden is preparing to block Nippon Steel\u2019s purchase of U.S. Steel in stunning move, people familiar with the matter say",
+            "ios": {
+                "alert": {
+                    "body": "Biden is preparing to block Nippon Steel\u2019s purchase of U.S. Steel in stunning move, people familiar with the matter say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/09/04/biden-prepares-reject-us-steel-deal/",
+                        "datetime": "2024-09-04T17:48:29.930000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d89d6d9808c93500000008",
+                        "targetTopic": "breaking-news",
+                        "text": "The move would formally block Nippon Steel\u2019s proposed $14.9 billion acquisition of U.S. Steel, according to three people with knowledge of the matter, who spoke on the condition of anonymity. The proposed deal has been under investigation by the Committee on Foreign Investment in the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a707a030-6ae3-11ef-b014-0000a1aceddf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least two killed and several wounded in Georgia high school shooting, according to a law enforcement official",
+            "ios": {
+                "alert": {
+                    "body": "At least two killed and several wounded in Georgia high school shooting, according to a law enforcement official",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/09/04/apalachee-high-school-shooting-georgia/",
+                        "datetime": "2024-09-04T17:32:24.145000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d899a86372de3500000007",
+                        "targetTopic": "breaking-news",
+                        "text": "Several others were wounded in the shooting at Apalachee High School, about 35 miles northeast of Atlanta. A suspect is in custody, the Georgia Bureau of Investigation said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "afb52e81-6ae0-11ef-a8f5-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These are the asteroids that scare scientists. Are we prepared for them?",
+            "ios": {
+                "alert": {
+                    "body": "These are the asteroids that scare scientists. Are we prepared for them?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/asteroids-nasa-strike-extinction-preparation/",
+                        "datetime": "2024-09-04T17:11:12.235000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d894b0823356360000000d",
+                        "targetTopic": "opinions",
+                        "text": "These are the asteroids that scare scientists. Are we prepared for them?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
