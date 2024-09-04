@@ -92440,5 +92440,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "413b7d20-6a8f-11ef-8149-00000a1ace96",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ukrainian Foreign Minister Dmytro Kuleba resigns amid government shake-up",
+            "ios": {
+                "alert": {
+                    "body": "Ukrainian Foreign Minister Dmytro Kuleba resigns amid government shake-up",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/04/ukraine-foreign-minister-resignation-dmytro-kuleba/",
+                        "datetime": "2024-09-04T07:28:17.632000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d80c11823356360000000b",
+                        "targetTopic": "world",
+                        "text": "Kuleba\u2019s exit follows those of other high-ranking officials in Ukraine this week. Kuleba, who has been in the role since 2020, has been a key voice in Ukraine\u2019s drive to receive foreign weapons and to push allies to loosen restrictions on how they are used."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
