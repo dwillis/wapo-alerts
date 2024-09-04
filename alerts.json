@@ -92636,5 +92636,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "201ec341-6ad5-11ef-91bb-00000a1ace9b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Meta\u2019s oversight body says \u2018from the river to the sea\u2019 isn\u2019t necessarily hate speech, a decision likely to fuel Israel-Gaza debates",
+            "ios": {
+                "alert": {
+                    "body": "Meta\u2019s oversight body says \u2018from the river to the sea\u2019 isn\u2019t necessarily hate speech, a decision likely to fuel Israel-Gaza debates",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/09/04/meta-israel-gaza-river-to-sea-hate-speech/",
+                        "datetime": "2024-09-04T15:48:26.792000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d8814a6372de3500000004",
+                        "targetTopic": "technology",
+                        "text": "The company-funded oversight body ruled the social media giant shouldn\u2019t automatically take down posts using the phrase, a decades-old rallying cry for Palestinian nationalism that has reignited debate about the boundaries of acceptable speech. The clash has forced the company to closely examine its content rules amid scrutiny from Jewish groups that have accused it of allowing antisemitism to surge and criticism from pro-Palestinian groups, which argue Meta has stifled political critique amid a deadly war."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
