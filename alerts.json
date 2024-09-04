@@ -92587,5 +92587,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bc82a752-6ac7-11ef-91bb-00000a1ace9b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It was pitched as \u2018an extraordinary opportunity\u2019 to protect the planet and people. The Post found deep failures.",
+            "ios": {
+                "alert": {
+                    "body": "It was pitched as \u2018an extraordinary opportunity\u2019 to protect the planet and people. The Post found deep failures.",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/08/24/carbon-credits-cook-stoves-africa/",
+                        "datetime": "2024-09-04T14:12:36.262000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d86ad46372de3500000003",
+                        "targetTopic": "special_report",
+                        "text": "C-Quest Capital said its stoves could improve people\u2019s lives and reduce carbon emissions. But an investigation by The Washington Post in Mozambique reveals that the company promised more than it could deliver \u2014 a further hit to a troubled offsets market used by BP, Shell and other major corporations to meet their climate goals."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
