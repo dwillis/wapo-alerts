@@ -92686,5 +92686,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "89f20890-6ada-11ef-a089-0000a1aceb59",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cooking chat: Why not use bagged shredded cheese in recipes? We\u2019re answering your questions now.",
+            "ios": {
+                "alert": {
+                    "body": "Cooking chat: Why not use bagged shredded cheese in recipes? We\u2019re answering your questions now.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/09/04/questions-recipe-cooking-advice/",
+                        "datetime": "2024-09-04T16:27:11.890000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d88a5f6372de3500000006",
+                        "targetTopic": "food",
+                        "text": "Cooking chat: Why not use bagged shredded cheese in recipes? We\u2019re answering your questions now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e6820140-6ad6-11ef-a0b7-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Imbalance in visits with in-laws vs. parents starts to chafe",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Imbalance in visits with in-laws vs. parents starts to chafe",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/04/carolyn-hax-visits-in-laws-parents/",
+                        "datetime": "2024-09-04T16:01:09.206000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d884456372de3500000005",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Imbalance in visits with in-laws vs. parents starts to chafe"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
