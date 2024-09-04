@@ -92980,5 +92980,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9d1802e0-6b10-11ef-b589-00000a1acefb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Liz Cheney, in a break with the Republican Party, says she will vote for Democratic nominee Kamala Harris",
+            "ios": {
+                "alert": {
+                    "body": "Liz Cheney, in a break with the Republican Party, says she will vote for Democratic nominee Kamala Harris",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/04/liz-cheney-endorsement-kamala-harris-election/",
+                        "datetime": "2024-09-04T22:54:16.746000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d8e5189808c93500000009",
+                        "targetTopic": "politics",
+                        "text": "Cheney, the former congresswoman who served as vice chair of the House committee that investigated the Jan. 6, 2021, attack on the U.S. Capitol, made the announcement in North Carolina, which is considered to be one of the battleground states that could help decide the election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
