@@ -93372,5 +93372,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff447940-6bcd-11ef-8dd8-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hunter Biden pleads guilty to federal tax charges, could face hefty fine and prison sentence",
+            "ios": {
+                "alert": {
+                    "body": "Hunter Biden pleads guilty to federal tax charges, could face hefty fine and prison sentence",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/05/hunter-biden-alford-guilty-plea-taxes/",
+                        "datetime": "2024-09-05T21:29:56.394000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66da22d49808c93500000011",
+                        "targetTopic": "breaking-news",
+                        "text": "President Joe Biden\u2019s son entered a last-minute guilty plea on the day jury selection was supposed to begin in his federal trial. He could face up to 17 years in prison and fines of up to $1.3 million, a judge in Los Angeles said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
