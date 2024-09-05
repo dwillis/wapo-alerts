@@ -93225,5 +93225,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3d4c1370-6ba0-11ef-ab71-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hunter Biden offers plea in tax case, in effort to avoid second criminal trial",
+            "ios": {
+                "alert": {
+                    "body": "Hunter Biden offers plea in tax case, in effort to avoid second criminal trial",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/05/hunter-biden-alford-guilty-plea-taxes/",
+                        "datetime": "2024-09-05T16:02:23.644000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d9d60f9808c9350000000e",
+                        "targetTopic": "us",
+                        "text": "President Joe Biden\u2019s son Hunter tried to resolve his federal tax case Thursday morning as jury selection was about to begin, offering an Alford plea in which he maintains he is innocent but acknowledges that the prosecution\u2019s evidence would likely result in a guilty verdict.\n\nThe judge adjourned the court proceedings until 11 a.m. Pacific time so prosecutors could consider the plea offer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
