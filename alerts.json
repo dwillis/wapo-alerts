@@ -93274,5 +93274,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "224aecd0-6bab-11ef-9cc0-00000a1ace6f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New York Times publisher A.G. Sulzberger writes in an op-ed: The quiet war against press freedom could come to America. Here\u2019s how.",
+            "ios": {
+                "alert": {
+                    "body": "New York Times publisher A.G. Sulzberger writes in an op-ed: The quiet war against press freedom could come to America. Here\u2019s how.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/09/05/sulzberger-free-press-new-york-times/",
+                        "datetime": "2024-09-05T17:20:22.802000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d9e8569808c9350000000f",
+                        "targetTopic": "editors_picks",
+                        "text": "Some foreign leaders have ruthlessly curtailed journalism. American politicians could draw from their playbook, Sulzberger writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
