@@ -93421,5 +93421,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "28bed370-6bd7-11ef-8873-00000a1acef1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Parkinson\u2019s may begin in the gut, study says, adding to growing body of evidence",
+            "ios": {
+                "alert": {
+                    "body": "Parkinson\u2019s may begin in the gut, study says, adding to growing body of evidence",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/09/05/parkinsons-disease-gut-study/",
+                        "datetime": "2024-09-05T22:35:31.484000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66da32339808c93500000012",
+                        "targetTopic": "health",
+                        "text": "The study, published in JAMA Network Open, found that people with upper gastrointestinal conditions \u2014 in particular, ulcers or other types of damage to the lining of the esophagus, stomach or upper part of the small intestine \u2014 were far more likely to develop Parkinson\u2019s disease later in life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
