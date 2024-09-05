@@ -93127,5 +93127,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "197bbaa0-6b8b-11ef-8c12-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A fictional train in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A fictional train in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-09-05T13:31:04.163000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d9b2989808c9350000000d",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Thursday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7ac69bf0-6b8a-11ef-8dd8-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ugandan Olympic runner Rebecca Cheptegei dies after she was set on fire by her ex-boyfriend",
+            "ios": {
+                "alert": {
+                    "body": "Ugandan Olympic runner Rebecca Cheptegei dies after she was set on fire by her ex-boyfriend",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/05/uganda-olympic-runner-burned-rebecca-cheptegei/",
+                        "datetime": "2024-09-05T13:26:37.792000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d9b18d9808c9350000000c",
+                        "targetTopic": "world",
+                        "text": "Cheptegei is the third high-profile athlete to be killed in a domestic violence incident in Kenya, where she was based."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
