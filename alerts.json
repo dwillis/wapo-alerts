@@ -93078,5 +93078,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff2f72a0-6b75-11ef-8453-00000a1ace88",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Georgia school shooting. Liz Cheney. Trump hearing. U.S. Steel. Toxic plastic. Space spectacle. \u2018Game of Thrones.\u2019 Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Georgia school shooting. Liz Cheney. Trump hearing. U.S. Steel. Toxic plastic. Space spectacle. \u2018Game of Thrones.\u2019 Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/09/05/what-to-know-for-september-5/?noredirect=1",
+                        "datetime": "2024-09-05T11:00:00.581000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/09-04-2024/t_6e89737a854a44338979091ce11998a5_name_DDWA3OLU4CHDP2XAC4PVUPAQG4.jpg&w=1440",
+                        "pushID": "66d98f309808c9350000000b",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
