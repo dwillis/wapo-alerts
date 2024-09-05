@@ -93323,5 +93323,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "151054f1-6bb1-11ef-a495-00000a1acec6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How does divorced parent adjust to having less time with son?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How does divorced parent adjust to having less time with son?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/05/carolyn-hax-divorced-parent-time/",
+                        "datetime": "2024-09-05T18:02:57.608000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d9f2519808c93500000010",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How does divorced parent adjust to having less time with son?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
