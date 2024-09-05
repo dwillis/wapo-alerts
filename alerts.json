@@ -93029,5 +93029,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "86862070-6b1f-11ef-bb0f-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The FBI learned of Ga. high school shooting suspect a year ago and sheriffs had questioned the teen and his father, agency says",
+            "ios": {
+                "alert": {
+                    "body": "The FBI learned of Ga. high school shooting suspect a year ago and sheriffs had questioned the teen and his father, agency says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/09/04/apalachee-high-school-shooting-georgia/#author-box",
+                        "datetime": "2024-09-05T00:41:01.386000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66d8fe1d9808c9350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "FBI agents received anonymous tips over a year ago about online threats allegedly made by the suspect now accused of killing four and injuring nine others at Apalachee High School. Jackson County Sheriff's officers interviewed the teen suspect and his father, who said hunting guns were kept in the house but his son did not have unsupervised access to them. Local schools were alerted about the tips, the FBI said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
