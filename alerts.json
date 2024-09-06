@@ -93815,5 +93815,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5f7ac4c0-6c66-11ef-92b6-00000a1ace28",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. woman fatally shot at West Bank protest; witnesses say Israeli forces shot her",
+            "ios": {
+                "alert": {
+                    "body": "U.S. woman fatally shot at West Bank protest; witnesses say Israeli forces shot her",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/06/west-bank-american-idf-aysenur-eygi/",
+                        "datetime": "2024-09-06T15:40:41.364000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66db2279e1abbe3500000004",
+                        "targetTopic": "breaking-news",
+                        "text": "The State Department said it was \u201curgently gathering more information about the circumstances of her death.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
