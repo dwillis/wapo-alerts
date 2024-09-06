@@ -93913,5 +93913,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "58524440-6c73-11ef-b078-0000a1ace191",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New York judge delays Trump sentencing in hush money case until after presidential election",
+            "ios": {
+                "alert": {
+                    "body": "New York judge delays Trump sentencing in hush money case until after presidential election",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/06/trump-sentencing-date-new-york-hush-money-case/",
+                        "datetime": "2024-09-06T17:13:32.703000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66db383ce1abbe3500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision to push sentencing from Sept. 18 to Nov. 26 means voters will cast ballots in the presidential election without knowing whether Donald Trump, the Republican nominee, could face jail time for his conviction on 34 counts of falsifying business records."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
