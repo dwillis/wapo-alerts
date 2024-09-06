@@ -93962,5 +93962,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6a86e641-6c94-11ef-b75e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Man charged with plotting an attack on a N.Y. Jewish center on the Oct. 7 anniversary of the Hamas attacks in southern Israel",
+            "ios": {
+                "alert": {
+                    "body": "Man charged with plotting an attack on a N.Y. Jewish center on the Oct. 7 anniversary of the Hamas attacks in southern Israel",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/06/new-york-oct-7-attack-pakistani-canadian-arrested/",
+                        "datetime": "2024-09-06T21:10:16.685000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66db6fb8e1abbe3500000007",
+                        "targetTopic": "us",
+                        "text": "U.S. officials have charged a Canadian resident with plotting to travel to New York to try to carry out a mass shooting attack against Jewish people on the one-year anniversary of the attacks, authorities announced."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
