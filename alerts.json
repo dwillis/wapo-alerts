@@ -94011,5 +94011,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2dbb0ac0-6c9e-11ef-a4fa-00000a1ace3d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dick Cheney, Republican former vice president, says he will vote for Kamala Harris to \u2018put country above partisanship\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Dick Cheney, Republican former vice president, says he will vote for Kamala Harris to \u2018put country above partisanship\u2019",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/06/former-vice-president-dick-cheney-will-vote-harris-his-daughter-says/",
+                        "datetime": "2024-09-06T22:20:09.695000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66db8019e1abbe3500000008",
+                        "targetTopic": "politics",
+                        "text": "Cheney, who served as George W. Bush\u2019s No. 2 and in other Republican administrations, said in a statement he will cast a ballot for the Democratic nominee, confirming remarks his daughter had made hours earlier.\n\u201cIn our nation\u2019s 248-year history, there has never been an individual who is a greater threat to our republic than Donald Trump,\u201d Cheney said. \u201cHe tried to steal the last election using lies and violence to keep himself in power after the voters had rejected him. He can never be trusted with power again.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
