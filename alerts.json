@@ -93471,5 +93471,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7ccc8e60-6be8-11ef-8873-00000a1acef1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new NFL season begins tonight as the Super Bowl champion Kansas City Chiefs meet the Baltimore Ravens. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "A new NFL season begins tonight as the Super Bowl champion Kansas City Chiefs meet the Baltimore Ravens. Follow our coverage.",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/05/chiefs-vs-ravens-live-score-highlights-nfl-kickoff-thursday/",
+                        "datetime": "2024-09-06T00:39:33.919000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66da4f459808c93500000014",
+                        "targetTopic": "sports",
+                        "text": "The NFL is going big with its season opener, a star-studded matchup featuring past MVP winners Patrick Mahomes and Lamar Jackson, plus Taylor Swift's favorite tight end. The game will also mark the regular season debut of the league's new kickoff format, a major change designed to reduce injuries."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0aca4b80-6be4-11ef-8713-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Father of Ga. high school shooting suspect was arrested on charges of involuntary manslaughter, second-degree murder",
+            "ios": {
+                "alert": {
+                    "body": "Father of Ga. high school shooting suspect was arrested on charges of involuntary manslaughter, second-degree murder",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/09/05/georgia-school-shooting-apalachee-high-updates/",
+                        "datetime": "2024-09-06T00:07:44.559000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66da47d09808c93500000013",
+                        "targetTopic": "breaking-news",
+                        "text": "Colin Gray was arrested Thursday night by the Georgia Bureau of Investigation, the agency said. Gray was charged with four counts of involuntary manslaughter, two counts of second-degree murder and eight counts of cruelty to children."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
