@@ -93766,5 +93766,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8680bb00-6c58-11ef-ae25-0000a1aceff4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Georgia teen suspect and his father appear in court on charges in shooting that left four dead at high school",
+            "ios": {
+                "alert": {
+                    "body": "Georgia teen suspect and his father appear in court on charges in shooting that left four dead at high school",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/09/06/colt-gray-arraignment-georgia-shooting-suspect/",
+                        "datetime": "2024-09-06T14:01:33.802000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66db0b3de1abbe3500000003",
+                        "targetTopic": "us",
+                        "text": "The suspect, 14, faces four counts of felony murder in connection with the shooting. He was brought into Barrow County Superior Court shortly after 8:30 a.m. through a side door, dressed in a green shirt, his long blond hair shaggy, and shackled at his wrists and feet. His father appeared in court shortly after his son. The father is being held on four counts of involuntary manslaughter, two counts of second-degree murder and eight counts of cruelty to children in connection with the deadly shooting."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
