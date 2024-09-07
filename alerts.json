@@ -94354,5 +94354,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "95dac1b0-6d69-11ef-b60d-0000a1ace278",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Aryna Sabalenka of Belarus wins the U.S. Open, defeating American Jessica Pegula for her third Grand Slam singles title",
+            "ios": {
+                "alert": {
+                    "body": "Aryna Sabalenka of Belarus wins the U.S. Open, defeating American Jessica Pegula for her third Grand Slam singles title",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/07/us-open-women-final-aryna-sabalenka-jessica-pegula/",
+                        "datetime": "2024-09-07T22:36:12.231000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66dcd55ce1abbe350000000b",
+                        "targetTopic": "sports",
+                        "text": "Sabalenka, 26, made up for her loss to American Coco Gauff in last year's U.S. Open final with Saturday's victory over the No. 6 seed Pegula. The second-seeded Sabalenka captured her second Grand Slam title of the year after winning the Australian Open in January."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
