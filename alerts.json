@@ -94158,5 +94158,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ba6fb260-6d23-11ef-9808-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The plan was to move migrants to a small town. Then came anger, fear and a fight over the meaning of shelter.",
+            "ios": {
+                "alert": {
+                    "body": "The plan was to move migrants to a small town. Then came anger, fear and a fight over the meaning of shelter.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2024/migrant-shelter-norfolk-massachusetts-immigration-debate/",
+                        "datetime": "2024-09-07T14:16:08.788000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66dc602810b1a33500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "As dozens of migrant families slept on the floor of Boston\u2019s airport, the state decided to open a shelter in a town of 11,000 people. Inside one small corner of the nation\u2019s immigration crisis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
