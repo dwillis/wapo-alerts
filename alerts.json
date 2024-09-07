@@ -94305,5 +94305,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c693f571-6d63-11ef-a214-00000a1ace10",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mother of Georgia suspect is said to have called school minutes before shooting, warning of \u2018extreme emergency\u2019 involving her son",
+            "ios": {
+                "alert": {
+                    "body": "Mother of Georgia suspect is said to have called school minutes before shooting, warning of \u2018extreme emergency\u2019 involving her son",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/09/07/georgia-school-shooter-mother-warning/",
+                        "datetime": "2024-09-07T21:54:36.940000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66dccb9ce1abbe350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Text messages and a phone log reviewed by The Washington Post, along with exclusive interviews with a relative of the suspect, provide the strongest indications yet that school officials were alerted to concerns about him on the morning of the shooting and may have been looking for him in the minutes before he allegedly killed four people and injured nine with an AR-15-style rifle."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
