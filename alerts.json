@@ -94256,5 +94256,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9c62fdd0-6d4c-11ef-9fec-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "An au pair, a husband\u2019s affair and a double homicide",
+            "ios": {
+                "alert": {
+                    "body": "An au pair, a husband\u2019s affair and a double homicide",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/crime-law/2024/09/04/herndon-au-pair-affair-trial/",
+                        "datetime": "2024-09-07T19:08:47.754000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66dca4bfe1abbe3500000009",
+                        "targetTopic": "editors_picks",
+                        "text": "Juliana Peres Magalh\u00e3es, an au pair from Brazil, is charged with second-degree murder in a killing that took place in the main bedroom of Christine and Brendan Banfield\u2019s Virginia home, where Magalh\u00e3es took care of their young daughter. After the fatal shooting, she moved into that bedroom with Brendan, as the two were in a romantic relationship."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
