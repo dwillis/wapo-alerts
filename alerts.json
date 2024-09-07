@@ -94060,5 +94060,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "24adf780-6cc6-11ef-a3b5-0000a1ace015",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Taylor Fritz advances to U.S. Open final, will be first American man in Grand Slam singles final in 15 years",
+            "ios": {
+                "alert": {
+                    "body": "Taylor Fritz advances to U.S. Open final, will be first American man in Grand Slam singles final in 15 years",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/06/frances-tiafoe-taylor-fritz-us-open-semifinals/",
+                        "datetime": "2024-09-07T03:06:14.326000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66dbc32610b1a33500000002",
+                        "targetTopic": "sports",
+                        "text": "The No. 12-ranked Fritz defeated fellow American Frances Tiafoe, ranked 20th, in the first all-American semifinal in a men\u2019s Grand Slam event since 2005. The last time an American man made a Grand Slam final was 2009, when Andy Roddick lost at Wimbledon to Roger Federer. Fritz will face top-ranked Jannik Sinner, who ousted Britain\u2019s Jack Draper in three sets, in Sunday\u2019s final."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
