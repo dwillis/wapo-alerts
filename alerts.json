@@ -94600,5 +94600,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "37a4d760-6e00-11ef-89ed-00000a1ace72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kendrick Lamar will headline the 2025 Super Bowl halftime show in New Orleans",
+            "ios": {
+                "alert": {
+                    "body": "Kendrick Lamar will headline the 2025 Super Bowl halftime show in New Orleans",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/music/2024/09/08/kendrick-lamar-halftime-super-bowl-lix/",
+                        "datetime": "2024-09-08T16:34:28.126000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ddd2149e58df3500000006",
+                        "targetTopic": "entertainment",
+                        "text": "The rapper revealed the plan Sunday in a video posted to YouTube. This will be Lamar\u2019s second Super Bowl performance, after his 2022 set with Dr. Dre."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "922127c0-6dfb-11ef-8aa5-00000a1acec5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+            "ios": {
+                "alert": {
+                    "body": "Still need to finish this weekend\u2019s On the Record? We\u2019ve got you.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-09-08T16:01:12.444000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ddca489e58df3500000005",
+                        "targetTopic": "news_quiz",
+                        "text": "Play now to finish out your score for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
