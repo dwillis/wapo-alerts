@@ -94452,5 +94452,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "22d28cd0-6def-11ef-bffc-00000a1ace03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Washington Commanders begin their season today. This is your ultimate game-day guide.",
+            "ios": {
+                "alert": {
+                    "body": "The Washington Commanders begin their season today. This is your ultimate game-day guide.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/06/washington-commanders-tampa-bay-buccaneers-preview-odds-stats/",
+                        "datetime": "2024-09-08T14:32:11.782000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ddb56b9e58df3500000003",
+                        "targetTopic": "local",
+                        "text": "As the Commanders open their season on the road, we've got everything you need to watch from home: the key matchup, stats to know, trivia and even food recs. Here\u2019s a helpful guide for the 4:25 p.m. Eastern game between the Commanders and Tampa Bay Buccaneers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "478782a1-6deb-11ef-a32d-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Boeing reaches tentative deal with machinists union in effort to avoid costly strike",
+            "ios": {
+                "alert": {
+                    "body": "Boeing reaches tentative deal with machinists union in effort to avoid costly strike",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2024/09/08/boeing-agreement-machinists-union-strike/",
+                        "datetime": "2024-09-08T14:04:35.415000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ddaef39e58df3500000002",
+                        "targetTopic": "business",
+                        "text": "The agreement increases pay by 25 percent over four years and commits Boeing to build its next new aircraft in Washington state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
