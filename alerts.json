@@ -94698,5 +94698,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eb221430-6e21-11ef-b36d-0000a1aceff2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jannik Sinner of Italy wins the U.S. Open, defeating American Taylor Fritz for his second Grand Slam singles title of the year",
+            "ios": {
+                "alert": {
+                    "body": "Jannik Sinner of Italy wins the U.S. Open, defeating American Taylor Fritz for his second Grand Slam singles title of the year",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/08/jannik-sinner-us-open-champion-taylor-fritz/",
+                        "datetime": "2024-09-08T20:35:42.703000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66de0a9ee1abbe350000000c",
+                        "targetTopic": "sports",
+                        "text": "The top-ranked men\u2019s tennis player in the world, Sinner beat the 12th-seeded Fritz in Sunday\u2019s championship match in New York. Sinner, 23, also won the Australian Open in January."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
