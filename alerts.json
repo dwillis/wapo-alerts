@@ -94747,5 +94747,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "334a19e0-6e2e-11ef-8991-00000a1ace92",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Army is fighting to find recruits in a mistrustful, divided nation",
+            "ios": {
+                "alert": {
+                    "body": "The Army is fighting to find recruits in a mistrustful, divided nation",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/08/30/army-recruitment-numbers-low/",
+                        "datetime": "2024-09-08T22:03:37.724000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66de1f39e1abbe350000000d",
+                        "targetTopic": "us",
+                        "text": "Recruiters are contending with a confounding array of political, social and economic crises that have made it harder than ever to find citizens willing to serve. At a recruiting station on the Jersey Shore, Sgt. 1st Class Dane Beaston and his colleagues aren\u2019t just selling a job. They\u2019re selling America."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
