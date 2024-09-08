@@ -94551,5 +94551,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c1f92dd0-6df6-11ef-b534-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Doctors thought her constantly running nose was due to allergies or a virus. It signaled something more serious.",
+            "ios": {
+                "alert": {
+                    "body": "Doctors thought her constantly running nose was due to allergies or a virus. It signaled something more serious.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/09/07/runny-nose-brain-csf-diagnosis/",
+                        "datetime": "2024-09-08T15:26:44.989000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ddc2349e58df3500000004",
+                        "targetTopic": "editors_picks",
+                        "text": "Treatments prescribed to Shemika Rodriguez hadn\u2019t helped. After three months, her episodic drip turned into a constant flow that made her feel like she was drowning when she lay down. But she came to suspect she knew the cause. Eight years earlier, one of her relatives had been diagnosed with a similar problem that had an unfortunate ending."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
