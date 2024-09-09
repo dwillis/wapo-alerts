@@ -95238,5 +95238,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f848f390-6ef8-11ef-b4cd-00000a1acedf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Trump shooting pitted Democrats and Republicans in this county against each other in a way one historian called \u2018frightening\u2019",
+            "ios": {
+                "alert": {
+                    "body": "The Trump shooting pitted Democrats and Republicans in this county against each other in a way one historian called \u2018frightening\u2019",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/09/09/butler-trump-assassination-attempt-republicans-democrats/",
+                        "datetime": "2024-09-09T22:15:06.573000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66df736ae1abbe3500000015",
+                        "targetTopic": "editors_picks",
+                        "text": "Long-simmering tensions in Pennsylvania\u2019s Butler County have yet to cool nearly two months after former president Donald Trump was shot. Angry billboards still flash around the city. The word \u201cfight\u201d is graffitied on streets. Democrats and Republicans are trying to ensure their candidate wins enough votes to capture a key battleground state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
