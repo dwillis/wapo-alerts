@@ -94943,5 +94943,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5bed1ae0-6ebb-11ef-8456-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A bullied teen found fame as the leader of a global online group that preys on vulnerable children",
+            "ios": {
+                "alert": {
+                    "body": "A bullied teen found fame as the leader of a global online group that preys on vulnerable children",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/09/09/social-media-bullied-teen-found-fame-among-child-predators-worldwide/",
+                        "datetime": "2024-09-09T14:54:04.921000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66df0c0ce1abbe3500000010",
+                        "targetTopic": "editors_picks",
+                        "text": "Bradley Cadenhead was an outcast in his community in rural Texas. On the social media platform Discord, he reinvented himself at age 15 and became what authorities describe as a notorious predator of the internet age."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
