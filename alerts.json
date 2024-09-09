@@ -94894,5 +94894,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e14173f0-6eaf-11ef-a14f-0000a1ace980",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It is \u2018overwhelming\u2019 how cute the answer to today\u2019s On the Record is",
+            "ios": {
+                "alert": {
+                    "body": "It is \u2018overwhelming\u2019 how cute the answer to today\u2019s On the Record is",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-09-09T13:31:54.598000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66def8cae1abbe350000000f",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Monday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
