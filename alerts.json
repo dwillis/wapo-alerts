@@ -95041,5 +95041,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "318ea370-6ecc-11ef-91a0-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trial for man accused of murdering four Idaho college students will change locations, judge rules",
+            "ios": {
+                "alert": {
+                    "body": "Trial for man accused of murdering four Idaho college students will change locations, judge rules",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/crime-law/2024/09/09/bryan-kohberger-stabbing-case-moved/",
+                        "datetime": "2024-09-09T16:54:35.250000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66df284be1abbe3500000013",
+                        "targetTopic": "us",
+                        "text": "Bryan Kohberger\u2019s quadruple-murder trial will switch venues after Judge John Judge said the potential juror pool in Latah County, where the University of Idaho is located, is tainted by intense media coverage of the killings. A new location was not immediately announced."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bc421ef0-6ec4-11ef-9bd0-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is sister\u2019s therapist ripping her off in treatment \u2018forever\u2019?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is sister\u2019s therapist ripping her off in treatment \u2018forever\u2019?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/09/carolyn-hax-sister-ripoff-therapist/",
+                        "datetime": "2024-09-09T16:01:11.989000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66df1bc7e1abbe3500000012",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Is sister\u2019s therapist ripping her off in treatment \u2018forever\u2019?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
