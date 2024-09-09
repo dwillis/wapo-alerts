@@ -94796,5 +94796,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a7de2ff0-6e9a-11ef-9eb1-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris vs. Trump. Georgia suspect. California wildfire. Child predator. NFL Week 1. U.S. Open. New iPhones. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris vs. Trump. Georgia suspect. California wildfire. Child predator. NFL Week 1. U.S. Open. New iPhones. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/09/09/what-to-know-for-september-9/?noredirect=1",
+                        "datetime": "2024-09-09T10:59:58.916000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "66ded52ee1abbe350000000e",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
