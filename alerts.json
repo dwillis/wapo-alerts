@@ -95139,5 +95139,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a9cdd5e0-6ee5-11ef-9d5b-00000a1ace82",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s everything Apple unveiled at its September product event, from the iPhone 16 to AirPods with a hearing aid",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s everything Apple unveiled at its September product event, from the iPhone 16 to AirPods with a hearing aid",
+                    "title": "Technology Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/09/09/apple-event-recap-iphone-16-watch-series-10-airpods/",
+                        "datetime": "2024-09-09T19:56:54.386000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66df530610b1a33500000006",
+                        "targetTopic": "technology",
+                        "text": "AI-forward iPhones, sleeker Apple Watches and AirPods that double as an FDA-approved hearing device: Here\u2019s what you need to know."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
