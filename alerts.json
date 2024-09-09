@@ -94845,5 +94845,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "19580c20-6ea3-11ef-a860-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "More Black voters say they are certain to vote now that Harris has replaced Biden as the Democratic nominee, Post-Ipsos poll finds",
+            "ios": {
+                "alert": {
+                    "body": "More Black voters say they are certain to vote now that Harris has replaced Biden as the Democratic nominee, Post-Ipsos poll finds",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/09/harris-trump-biden-black-americans/",
+                        "datetime": "2024-09-09T12:00:25.012000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66dee3599e58df3500000007",
+                        "targetTopic": "politics",
+                        "text": "Among Black registered voters, 82 percent say they will \u201cdefinitely\u201d or \u201cprobably\u201d vote for Vice President Kamala Harris in the contest against former president Donald Trump, up from 74 percent who said they would support President Joe Biden in April. The poll finds increased engagement among the critical Democratic constituency, which is concentrated among younger Black Americans, especially younger women, who were less enthusiastic about voting this spring."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
