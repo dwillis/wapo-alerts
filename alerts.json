@@ -94992,5 +94992,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "387e15c0-6ec3-11ef-b816-00000a1ace7b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Catherine, Princess of Wales, says she has completed chemotherapy and will return to a few public engagements",
+            "ios": {
+                "alert": {
+                    "body": "Catherine, Princess of Wales, says she has completed chemotherapy and will return to a few public engagements",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/09/princess-kate-chemotherapy-cancer-video/",
+                        "datetime": "2024-09-09T15:50:21.244000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66df193de1abbe3500000011",
+                        "targetTopic": "breaking-news",
+                        "text": "\u201cThe cancer journey is complex, scary and unpredictable for everyone, especially those closest to you. With humility, it also brings you face to face with your own vulnerabilities in a way you have never considered before, and with that, a new perspective on everything,\u201d Catherine said in a statement on X. She first revealed her cancer diagnosis in March."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
