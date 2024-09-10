@@ -95287,5 +95287,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "03e7ecc1-6f07-11ef-9406-0000a1ace075",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Tommy Tuberville blocks Army general\u2019s promotion, citing secrecy around hospitalization of Defense Secretary Lloyd Austin",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Tommy Tuberville blocks Army general\u2019s promotion, citing secrecy around hospitalization of Defense Secretary Lloyd Austin",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/09/tommy-tuberville-ronald-clark-lloyd-austin/",
+                        "datetime": "2024-09-09T23:55:38.893000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66df8afae1abbe3500000017",
+                        "targetTopic": "politics",
+                        "text": "Tuberville (R-Ala.) has frozen the nomination of Lt. Gen. Ronald P. Clark to become the head of all U.S. Army forces in the Pacific, citing frustration with the general\u2019s silence months ago when Defense Secretary Lloyd Austin was hospitalized for days without informing the White House or Congress."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a1ca99e1-6eff-11ef-8283-0000a1acebdc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can you spot the famous presidential debate one-liner? Take our quiz.",
+            "ios": {
+                "alert": {
+                    "body": "Can you spot the famous presidential debate one-liner? Take our quiz.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2024/quiz-presidential-debates/",
+                        "datetime": "2024-09-09T23:02:47.742000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66df7e97e1abbe3500000016",
+                        "targetTopic": "politics",
+                        "text": "While you're waiting for Tuesday\u2019s debate, try filling in some of the most memorable one-liners from years past."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
