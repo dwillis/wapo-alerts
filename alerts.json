@@ -95532,5 +95532,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0812f201-6f79-11ef-95c1-00000a1ace33",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Know your debate cities in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Know your debate cities in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-09-10T13:31:48.637000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e04a44f794593500000002",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Tuesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e3ac7910-6f76-11ef-b2c0-0000a1ace8d9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In rare rebuke, Blinken demands \u2018fundamental changes\u2019 to Israeli operations in West Bank after killing of American activist",
+            "ios": {
+                "alert": {
+                    "body": "In rare rebuke, Blinken demands \u2018fundamental changes\u2019 to Israeli operations in West Bank after killing of American activist",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/10/israel-idf-operations-blinken-response-american-death/",
+                        "datetime": "2024-09-10T13:16:28.549000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e046acf794593500000001",
+                        "targetTopic": "breaking-news",
+                        "text": "Secretary of State Antony Blinken\u2019s comments were the strongest yet from a U.S. official after 26-year-old Aysenur Eygi was fatally shot Friday at a protest in the West Bank. The Israel Defense Forces said Tuesday it was \u201chighly likely\u201d she had been shot \u201cunintentionally\u201d by one of its soldiers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
