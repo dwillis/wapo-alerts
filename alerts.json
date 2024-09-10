@@ -95974,5 +95974,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5cfef2a0-6fc4-11ef-b092-0000a1acec34",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mauricio Pochettino hired as U.S. men\u2019s national soccer team coach, taking the helm ahead of the 2026 World Cup",
+            "ios": {
+                "alert": {
+                    "body": "Mauricio Pochettino hired as U.S. men\u2019s national soccer team coach, taking the helm ahead of the 2026 World Cup",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/10/mauricio-pochettino-usmnt-coach/",
+                        "datetime": "2024-09-10T22:31:03.327000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e0c8a79e58df350000000b",
+                        "targetTopic": "sports",
+                        "text": "Pochettino's r\u00e9sum\u00e9 includes stints as boss at Southampton, Tottenham Hotspur, Paris Saint-Germain and, most recently, Chelsea. The 52-year-old Argentine arrives at a crucial moment for the U.S. men, a young group that wilted under the bright lights of Copa Am\u00e9rica this summer. The 2026 World Cup is set to be staged primarily at U.S. stadiums, along with some venues in Mexico and Canada."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
