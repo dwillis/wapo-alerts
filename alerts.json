@@ -95925,5 +95925,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5fbc3ee0-6fb9-11ef-9ea8-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Donald Trump faces risks heightened by gender when he debates Kamala Harris tonight, analysts say",
+            "ios": {
+                "alert": {
+                    "body": "Donald Trump faces risks heightened by gender when he debates Kamala Harris tonight, analysts say",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/10/trump-harris-debate-gender/",
+                        "datetime": "2024-09-10T21:12:23.505000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e0b6379e58df350000000a",
+                        "targetTopic": "politics",
+                        "text": "Experts say that Trump could face a penalty for coming across as overly aggressive and that Harris, a Black woman, faces competing pressures to look tough but also project fraught attributes such as \u201clikability.\u201d The 90-minute debate, hosted by ABC News, is scheduled to start at 9 p.m. Eastern."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
