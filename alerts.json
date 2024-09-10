@@ -95483,5 +95483,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e6a50420-6f6c-11ef-9fec-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Blinken says Iran's move to send short-range ballistic missiles to Russia will trigger sanctions",
+            "ios": {
+                "alert": {
+                    "body": "Blinken says Iran's move to send short-range ballistic missiles to Russia will trigger sanctions",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/10/blinken-russia-iran-ukraine-missiles/",
+                        "datetime": "2024-09-10T12:04:58.558000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e035ea9e58df3500000008",
+                        "targetTopic": "world",
+                        "text": "Iran has denied the accusations, which come as Ukraine is demanding its allies lift restrictions on donated weapons to strike deep inside Russia. Secretary of State Antony Blinken is set to visit Kyiv on Wednesday in a rare visit by a high level U.S. official to Ukraine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
