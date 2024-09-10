@@ -95630,5 +95630,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "64fef3c1-6f7d-11ef-b9a2-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Body-cam footage of Tyreek Hill\u2019s detainment shows rapid escalation between police and the Miami Dolphins wide receiver",
+            "ios": {
+                "alert": {
+                    "body": "Body-cam footage of Tyreek Hill\u2019s detainment shows rapid escalation between police and the Miami Dolphins wide receiver",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/09/tyreek-hill-body-cam-dolphins-miami-dade-police/",
+                        "datetime": "2024-09-10T14:03:02.484000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e05196f794593500000003",
+                        "targetTopic": "sports",
+                        "text": "In a portion of the footage, an officer is shown pulling a car over and telling Hill, the driver, to roll his window back down. After the officer repeats the request, the situation gets more tense as Hill is pulled from his car and placed in handcuffs, face down on the street. In a strongly worded statement, the Dolphins said the footage showed \u201cthere are some officers who mistake their responsibility and commitment to serve with misguided power.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
