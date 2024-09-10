@@ -95385,5 +95385,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "67f12af0-6f2b-11ef-a0d1-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gaza officials say at least 40 people killed in humanitarian area after Israel conducts airstrike it says targeted Hamas",
+            "ios": {
+                "alert": {
+                    "body": "Gaza officials say at least 40 people killed in humanitarian area after Israel conducts airstrike it says targeted Hamas",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/10/israel-strike-gaza-mawasi-khan-younis-deaths/",
+                        "datetime": "2024-09-10T04:16:08.713000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66dfc808e1abbe3500000018",
+                        "targetTopic": "world",
+                        "text": "A Gaza Civil Defense spokesperson told The Post at least 60 people were also injured in Mawasi, near Khan Younis. The Israeli military said the operation targeted a Hamas command and control center hidden there."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
