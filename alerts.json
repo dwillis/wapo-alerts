@@ -95679,5 +95679,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "929c8741-6f85-11ef-9fec-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris leads Trump among Virginia voters, Post-Schar School poll finds, with a margin suggesting the state is a long shot for Trump",
+            "ios": {
+                "alert": {
+                    "body": "Harris leads Trump among Virginia voters, Post-Schar School poll finds, with a margin suggesting the state is a long shot for Trump",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/09/10/virginia-poll-results-harris-trump/",
+                        "datetime": "2024-09-10T15:01:35.038000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e05f4ff794593500000004",
+                        "targetTopic": "local",
+                        "text": "Vice President Kamala Harris leads former president Donald Trump among likely Virginia voters by eight percentage points, powered by an 18-point advantage among women and by a sense of unity among Democrats, according to a Washington Post-Schar School poll."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
