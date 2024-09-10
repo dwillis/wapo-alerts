@@ -95728,5 +95728,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bd382130-6f94-11ef-8769-0000a1aced2b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018We only get one chance to get it right\u2019: Casey Cep takes us inside the highest-rated organization in the country",
+            "ios": {
+                "alert": {
+                    "body": "\u2018We only get one chance to get it right\u2019: Casey Cep takes us inside the highest-rated organization in the country",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/casey-cep-ronald-walters-the-sentinel-who-is-government/",
+                        "datetime": "2024-09-10T16:50:08.925000Z",
+                        "imageURL": "https://www.washingtonpost.com/opinions/interactive/2024/casey-cep-ronald-walters-the-sentinel-who-is-government/",
+                        "pushID": "66e078c09e58df3500000009",
+                        "targetTopic": "opinions",
+                        "text": "There was no room for a parachute and nowhere to hide from the Devil."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d050fdf0-6f8f-11ef-ac51-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Elon Musk\u2019s misleading election claims reach millions and alarm election officials, who are fielding new voter demands",
+            "ios": {
+                "alert": {
+                    "body": "Elon Musk\u2019s misleading election claims reach millions and alarm election officials, who are fielding new voter demands",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/10/elon-musk-illegal-immigrant-voting-misinformation/",
+                        "datetime": "2024-09-10T16:14:53.388000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e0707df794593500000006",
+                        "targetTopic": "politics",
+                        "text": "The X billionaire\u2019s false posts about noncitizen voting spur officials to fact-check him, lead to requests to purge voter rolls, and add to worries about threats, election officials say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e12847c0-6f8d-11ef-9e4a-00000a1ace89",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Dying father begs daughter to reconcile with her abusive twin",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Dying father begs daughter to reconcile with her abusive twin",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/10/carolyn-hax-dying-dad-reconcile-twin/",
+                        "datetime": "2024-09-10T16:01:02.758000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e06d3ef794593500000005",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Dying father begs daughter to reconcile with her abusive twin"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
