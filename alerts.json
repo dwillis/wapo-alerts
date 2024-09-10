@@ -95875,5 +95875,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3a2ee2e0-6f9b-11ef-bf6f-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Methane emissions rising at fastest rate in recorded history, scientists say, on pace with projected worst-case climate scenarios",
+            "ios": {
+                "alert": {
+                    "body": "Methane emissions rising at fastest rate in recorded history, scientists say, on pace with projected worst-case climate scenarios",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/09/10/methane-emissions-increase-climate/",
+                        "datetime": "2024-09-10T17:36:35.510000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e083a30555473500000001",
+                        "targetTopic": "climate",
+                        "text": "Because methane traps about 30 times as much heat as carbon dioxide over a 100-year time frame, the accelerating emissions will make it nearly impossible for the world to meet its climate goals, according to researchers from the Global Carbon Project."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
