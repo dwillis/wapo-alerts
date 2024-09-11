@@ -96269,5 +96269,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e21b57b0-6ff8-11ef-9858-00000a1ace1b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Analysis: Kamala Harris kept Donald Trump on defense, and other takeaways from their first presidential debate",
+            "ios": {
+                "alert": {
+                    "body": "Analysis: Kamala Harris kept Donald Trump on defense, and other takeaways from their first presidential debate",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/11/presidential-debate-takeaways/",
+                        "datetime": "2024-09-11T04:47:00.428000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e120c49e58df3500000011",
+                        "targetTopic": "editors_picks",
+                        "text": "The former president issued his characteristic falsehoods and focused on undocumented immigrants. The vice president drove the abortion-rights argument and turned the spotlight on Trump\u2019s character traits."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
