@@ -96612,5 +96612,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "751e2200-7048-11ef-b762-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fact checker: No, immigrants are not eating pets. We analyzed 55 questionable claims from the Trump-Harris debate.",
+            "ios": {
+                "alert": {
+                    "body": "Fact checker: No, immigrants are not eating pets. We analyzed 55 questionable claims from the Trump-Harris debate.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/11/fact-check-presidential-debate-harris-trump/",
+                        "datetime": "2024-09-11T14:16:37.359000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e1a645e1abbe350000001c",
+                        "targetTopic": "politics",
+                        "text": "In their first and perhaps only debate of the 2024 election, a defensive former president Donald Trump relied on many of his favorite falsehoods to combat attacks from Vice President Kamala Harris. Harris stretched the truth on occasion but was no match against Trump in the falsehood department. Here\u2019s a roundup of 55 claims that caught our interest."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
