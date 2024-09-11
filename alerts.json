@@ -96367,5 +96367,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7584ee60-702d-11ef-9a80-0000a1ace747",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Who won the Harris-Trump debate? We asked swing-state voters.",
+            "ios": {
+                "alert": {
+                    "body": "Who won the Harris-Trump debate? We asked swing-state voters.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/elections/interactive/2024/presidential-debate-voter-poll/",
+                        "datetime": "2024-09-11T11:03:21.617000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e178f910b1a33500000009",
+                        "targetTopic": "editors_picks",
+                        "text": "The Washington Post asked a group of uncommitted, swing-state voters in real time about their reactions to Tuesday\u2019s debate. They thought Harris performed better, regardless of how they plan to vote in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fddf5a81-702c-11ef-9bc9-00000a1ace78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris vs. Trump. Taylor Swift endorsement. Hurricane Francine. Wildfires. Plane collision. Listeria outbreak. SNL. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris vs. Trump. Taylor Swift endorsement. Hurricane Francine. Wildfires. Plane collision. Listeria outbreak. SNL. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/09/11/what-to-know-for-september-11/?noredirect=1",
+                        "datetime": "2024-09-11T11:00:00.872000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/09-11-2024/t_e257fe86781b4b73aa255cb5b86c8922_name_Harris1.jpg&w=1440",
+                        "pushID": "66e1783010b1a33500000008",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
