@@ -96759,5 +96759,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff8dba10-7069-11ef-9fe2-00000a1ace90",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Happening now: Will Taylor Swift\u2019s endorsement of Kamala Harris make a difference? Post reporters answer your 2024 questions.",
+            "ios": {
+                "alert": {
+                    "body": "Happening now: Will Taylor Swift\u2019s endorsement of Kamala Harris make a difference? Post reporters answer your 2024 questions.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/09/11/questions-answers-trump-harris-debate-philadelphia/",
+                        "datetime": "2024-09-11T18:16:42.999000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e1de8ae1abbe350000001f",
+                        "targetTopic": "politics",
+                        "text": "White House reporters Cleve Wootson and Matt Viser are answering your questions after Tuesday\u2019s debate between Vice President Kamala Harris and former president Donald Trump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
