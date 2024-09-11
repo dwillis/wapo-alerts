@@ -96710,5 +96710,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fcab7c50-7056-11ef-b455-00000a1ace87",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: In-law snooped in confidential files. Spouse has \u2018no response.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: In-law snooped in confidential files. Spouse has \u2018no response.\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/11/carolyn-hax-in-law-snooped-confidential-files/",
+                        "datetime": "2024-09-11T16:00:37.763000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e1bea5e1abbe350000001e",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: In-law snooped in confidential files. Spouse has \u2018no response.\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
