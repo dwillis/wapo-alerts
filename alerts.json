@@ -96023,5 +96023,153 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0d268050-6fdc-11ef-99a9-0000a1ace3d6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Wow! A handshake!\u2019: Follow along as 10 Post columnists discuss the presidential debate",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Wow! A handshake!\u2019: Follow along as 10 Post columnists discuss the presidential debate",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/09/10/live-commentary-trump-harris-debate-opinions/",
+                        "datetime": "2024-09-11T01:20:37.334000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e0f06510b1a33500000007",
+                        "targetTopic": "opinions",
+                        "text": "Columnists and writers Ruth Marcus, Perry Bacon Jr., Ramesh Ponnuru, Kate Cohen, Jason Willick, Jim Geraghty, Megan McArdle, E.J. Dionne Jr., Alexandra Petri and Shadi Hamid offer real-time commentary during the presidential debate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "13f5a720-6fd8-11ef-92c6-000a1ace3598",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris and Trump will face off in their first 2024 presidential debate. Follow our coverage for live analysis.",
+            "ios": {
+                "alert": {
+                    "body": "Harris and Trump will face off in their first 2024 presidential debate. Follow our coverage for live analysis.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/09/10/presidential-debate-live-updates/",
+                        "datetime": "2024-09-11T00:52:10.753000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e0e9ba9e58df350000000d",
+                        "targetTopic": "breaking-news",
+                        "text": "Tonight\u2019s highly anticipated debate, which holds high stakes for both candidates, is being hosted by ABC News in Philadelphia."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2f732250-6fd0-11ef-b4ff-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Two years before listeria outbreak, inspectors at a Boar\u2019s Head plant flagged deficiencies that could pose \u2018an imminent threat\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Two years before listeria outbreak, inspectors at a Boar\u2019s Head plant flagged deficiencies that could pose \u2018an imminent threat\u2019",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2024/09/10/boars-head-listeria-outbreak-inspection/",
+                        "datetime": "2024-09-10T23:55:40.868000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e0dc7c9e58df350000000c",
+                        "targetTopic": "health",
+                        "text": "Citations detailed rusted equipment, condensation dripping on the floor and green mold on the wall nearly two years before a deadly nationwide listeria outbreak, according to government inspection reports released by the U.S. Department of Agriculture. Despite repeated violations, the plant in southern Virginia continued to operate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
