@@ -96514,5 +96514,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e3f92350-7043-11ef-9406-0000a1ace075",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Frankie Beverly dies at 77. The singer-songwriter was the frontman for Maze, one of R&B's most enduring and energetic bands.",
+            "ios": {
+                "alert": {
+                    "body": "Frankie Beverly dies at 77. The singer-songwriter was the frontman for Maze, one of R&B's most enduring and energetic bands.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2024/09/11/frankie-beverly-maze-dead/",
+                        "datetime": "2024-09-11T13:43:55.887000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e19e9b0555473500000002",
+                        "targetTopic": "entertainment",
+                        "text": "Beverly, who also produced and played guitar, was the founder and driving force behind Maze, which Ebony magazine once dubbed \u201cBlack America\u2019s favorite band.\u201d Beginning in the late 1970s, they developed a reputation as an energetic live act and rose to the top of the R&B chart with songs including \u201cBefore I Let Go,\u201d a cookout staple that was later covered by Beyonc\u00e9."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1bdd11c0-7042-11ef-a590-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Choosing \u2018the right\u2019 rapper in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Choosing \u2018the right\u2019 rapper in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2024-09-11T13:31:10.665000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e19b9ee1abbe350000001b",
+                        "targetTopic": "news_quiz",
+                        "text": "Answer now to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
