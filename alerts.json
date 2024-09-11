@@ -96318,5 +96318,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9c454360-700f-11ef-9475-00000a1ace06",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mexico approves radical overhaul of its judicial system, paving way for voters to elect judges",
+            "ios": {
+                "alert": {
+                    "body": "Mexico approves radical overhaul of its judicial system, paving way for voters to elect judges",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/11/mexico-senate-judicial-reform-protests/",
+                        "datetime": "2024-09-11T07:29:41.753000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e146e5e1abbe350000001a",
+                        "targetTopic": "world",
+                        "text": "The contentious Senate vote on Wednesday is a crucial step in transforming the judicial system, allowing citizens to pick nearly all judges, even those on the Supreme Court. The amendment passed amid heavy demonstrations. Lawmakers had to move their session to a nearby building after protesters burst into the chamber during the debate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
