@@ -96661,5 +96661,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4b4d8c50-7051-11ef-9b89-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dining chat: Just because I\u2019m fat doesn\u2019t mean I don\u2019t deserve good service. Food critic Tom Sietsema is taking your questions now.",
+            "ios": {
+                "alert": {
+                    "body": "Dining chat: Just because I\u2019m fat doesn\u2019t mean I don\u2019t deserve good service. Food critic Tom Sietsema is taking your questions now.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2024/09/11/tom-sietsema-live-chat/",
+                        "datetime": "2024-09-11T15:19:52.695000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e1b518e1abbe350000001d",
+                        "targetTopic": "food",
+                        "text": "Dining chat: Just because I\u2019m fat doesn\u2019t mean I don\u2019t deserve good service. Food critic Tom Sietsema is taking your questions now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
