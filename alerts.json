@@ -96220,5 +96220,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "833e86a0-6fed-11ef-9ed5-00000a1aceb3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Taylor Swift endorses Kamala Harris for president immediately after the debate",
+            "ios": {
+                "alert": {
+                    "body": "Taylor Swift endorses Kamala Harris for president immediately after the debate",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/09/10/presidential-debate-live-updates/",
+                        "datetime": "2024-09-11T03:25:36.884000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e10db09e58df350000000f",
+                        "targetTopic": "politics",
+                        "text": "Swift made the announcement Tuesday evening in an Instagram post that published minutes after the debate between Harris and Donald Trump ended.\n\"Recently I was made aware that AI of \u2018me\u2019 falsely endorsing Donald Trump\u2019s presidential run was posted to his site. It really conjured up my fears around AI, and the dangers of spreading misinformation,\" she said. \"The simplest way to combat misinformation is with the truth.\n\n\"I will be casting my vote for Kamala Harris and Tim Walz in the 2024 Presidential Election,\" Swift added in the post caption that was signed \"Taylor Swift Childless Cat Lady.\""
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
