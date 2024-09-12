@@ -97495,5 +97495,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0e04c9b0-714d-11ef-b563-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What kind of commander in chief would Harris be? David Ignatius interviewed current and former officials to find out.",
+            "ios": {
+                "alert": {
+                    "body": "What kind of commander in chief would Harris be? David Ignatius interviewed current and former officials to find out.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/09/12/harris-commander-predictions-colleagues/",
+                        "datetime": "2024-09-12T21:22:02.808000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e35b7a9e58df3500000012",
+                        "targetTopic": "opinions",
+                        "text": "What kind of commander would Harris be? Here\u2019s what colleagues expect."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
