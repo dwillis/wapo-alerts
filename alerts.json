@@ -97102,5 +97102,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c997850-7110-11ef-b949-0000a1ace26f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran is turning to Hells Angels and other criminal gangs to target exiled dissidents, journalists and human rights activists",
+            "ios": {
+                "alert": {
+                    "body": "Iran is turning to Hells Angels and other criminal gangs to target exiled dissidents, journalists and human rights activists",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/12/iran-criminal-gangs-target-dissidents/",
+                        "datetime": "2024-09-12T14:05:48.240000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e2f53c0555473500000008",
+                        "targetTopic": "special_report",
+                        "text": "Security officials said the use of criminal proxies by Iran and other governments has compounded the difficulty of protecting those who have sought refuge in the United States and Europe. Plots are handed off, often through encrypted channels, to criminal networks deeply embedded in Western society, a Washington Post investigation found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
