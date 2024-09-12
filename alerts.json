@@ -97298,5 +97298,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d86bfc30-712c-11ef-a301-00000a1acec1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. Council member Trayon White Sr. pleads not guilty through his attorney to a federal bribery charge",
+            "ios": {
+                "alert": {
+                    "body": "D.C. Council member Trayon White Sr. pleads not guilty through his attorney to a federal bribery charge",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/09/12/trayon-white-dc-bribery-case-court/",
+                        "datetime": "2024-09-12T17:31:29.247000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e32571055547350000000c",
+                        "targetTopic": "local",
+                        "text": "The Democratic Ward 8 council member, who is running for reelection in November, is accused of agreeing to accept $156,000 in bribes in exchange for pressing two city agencies to extend contracts to help an associate, who was working as an informant for the FBI."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
