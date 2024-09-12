@@ -97544,5 +97544,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "661a5240-7153-11ef-a6f2-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Congress asked to consider the rare step of impeaching former U.S. judge who left bench over alleged sexual misconduct",
+            "ios": {
+                "alert": {
+                    "body": "Congress asked to consider the rare step of impeaching former U.S. judge who left bench over alleged sexual misconduct",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/12/alaska-judge-kindred-impeachment-sexual-workplace-misconduct/",
+                        "datetime": "2024-09-12T22:07:27.694000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e3661fe1abbe3500000021",
+                        "targetTopic": "politics",
+                        "text": "Federal judiciary leaders have asked Congress to consider impeaching a federal judge in Alaska who resigned this summer after an investigation found he created a hostile work environment in his chambers and engaged in an inappropriate sexual relationship with a former law clerk, a spokesperson for House Speaker Mike Johnson (R-La.) confirmed. The request follows years of calls for the judiciary to do more in response to misconduct allegations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
