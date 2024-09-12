@@ -96955,5 +96955,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "83e3af50-70f5-11ef-a2b5-00000a1acef7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "First spacewalk by private citizen takes place as Historic SpaceX Polaris Dawn mission is underway",
+            "ios": {
+                "alert": {
+                    "body": "First spacewalk by private citizen takes place as Historic SpaceX Polaris Dawn mission is underway",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2024/09/12/spacex-polaris-dawn-spacewalk-astronauts/",
+                        "datetime": "2024-09-12T10:55:25.091000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e2c89d0555473500000006",
+                        "targetTopic": "breaking-news",
+                        "text": "Led by billionaire Jared Isaacman, the spacewalk is intended to test SpaceX\u2019s sleek new spacesuit design."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
