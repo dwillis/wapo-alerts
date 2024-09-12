@@ -97347,5 +97347,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "25be4f20-7131-11ef-9406-0000a1ace075",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nearly every state ban on food waste appears to be failing \u2014 except one, a new study shows",
+            "ios": {
+                "alert": {
+                    "body": "Nearly every state ban on food waste appears to be failing \u2014 except one, a new study shows",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/09/12/food-waste-bans-massachusetts/",
+                        "datetime": "2024-09-12T18:02:16.991000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e32ca8055547350000000d",
+                        "targetTopic": "climate",
+                        "text": "A study published Thursday in the journal Science identified Massachusetts for reducing the amount of food that gets tossed in the trash. But its more troubling findings in four other states \u2014 California, Connecticut, Rhode Island and Vermont \u2014 reveal how one of the most seemingly straightforward ways to tackle climate change is, in practice, a tough problem to solve."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
