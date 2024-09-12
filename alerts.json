@@ -97200,5 +97200,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "19102881-7126-11ef-999d-0000a1ace661",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New York City Police Commissioner Edward Caban resigns amid corruption investigation",
+            "ios": {
+                "alert": {
+                    "body": "New York City Police Commissioner Edward Caban resigns amid corruption investigation",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/12/nypd-commissioner-resigns-amid-corruption-probe/",
+                        "datetime": "2024-09-12T16:43:11.217000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e31a1f055547350000000b",
+                        "targetTopic": "breaking-news",
+                        "text": "Caban announced his resignation about a week after his electronics were seized in an ongoing federal investigation into potential corruption. Several other city officials with close ties to Mayor Eric Adams had their phones confiscated for review last week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e0baded1-7120-11ef-93ff-00000a1ace56",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Husband has reshaped his social life around a close female friend",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Husband has reshaped his social life around a close female friend",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/12/carolyn-hax-husband-female-friend-social-life/",
+                        "datetime": "2024-09-12T16:05:49.193000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e3115d055547350000000a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Husband has reshaped his social life around a close female friend"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
