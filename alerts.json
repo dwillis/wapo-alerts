@@ -97397,5 +97397,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "28a75160-7149-11ef-9bc9-00000a1ace78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Criminal charges are coming in the alleged Iranian hack-and-leak attack on Trump\u2019s campaign, people familiar say",
+            "ios": {
+                "alert": {
+                    "body": "Criminal charges are coming in the alleged Iranian hack-and-leak attack on Trump\u2019s campaign, people familiar say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/12/iran-hack-trump-campaign-charges/",
+                        "datetime": "2024-09-12T20:54:09.775000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e354f1e1abbe3500000020",
+                        "targetTopic": "breaking-news",
+                        "text": "Federal authorities are preparing to file criminal charges over Iran\u2019s alleged hack-and-leak attack against Donald Trump\u2019s presidential campaign, according to people familiar with the matter.\nThe FBI investigation has focused on an online persona named \u201cRobert\u201d who contacted American reporters, these people said, speaking on the condition of anonymity to describe details of an ongoing investigation. Investigators have determined that the person or persons posing as Robert was acting on behalf of the Iranian government and offering data files stolen from Trump advisers\u2019 email accounts to news organizations. Criminal charges could be filed in a matter of days, the people said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "74e99810-7146-11ef-a36d-00000a1ace82",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Georgia judge dismisses three more counts in election interference case, including two against Donald Trump",
+            "ios": {
+                "alert": {
+                    "body": "Georgia judge dismisses three more counts in election interference case, including two against Donald Trump",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/12/trump-georgia-case-charges-dismissed/",
+                        "datetime": "2024-09-12T20:34:49.206000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e35069055547350000000e",
+                        "targetTopic": "politics",
+                        "text": "The former president now faces eight charges instead of the original 13 in the Atlanta area. He is still accused of criminally conspiring to try to overturn the 2020 presidential election results in the battleground state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
