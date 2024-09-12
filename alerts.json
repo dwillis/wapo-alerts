@@ -97151,5 +97151,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f18b4f00-7117-11ef-902d-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harvey Weinstein is indicted on new charges, AP reports, months after his 2020 rape conviction was overturned",
+            "ios": {
+                "alert": {
+                    "body": "Harvey Weinstein is indicted on new charges, AP reports, months after his 2020 rape conviction was overturned",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/09/12/harvey-weinstein-indicted-new-charges-new-york/",
+                        "datetime": "2024-09-12T15:01:51.962000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e3025f0555473500000009",
+                        "targetTopic": "breaking-news",
+                        "text": "The disgraced Hollywood producer\u2019s 2020 rape conviction was overturned in April by the New York Court of Appeals, shaking up a case that helped launch the #MeToo movement. He was taken to a hospital for emergency heart surgery on Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
