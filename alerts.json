@@ -97593,5 +97593,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db1bb8a0-7189-11ef-9b69-0000a1ace3bd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Boeing union workers vote to go on strike starting Friday morning, rejecting contract with 25 percent pay raises over four years",
+            "ios": {
+                "alert": {
+                    "body": "Boeing union workers vote to go on strike starting Friday morning, rejecting contract with 25 percent pay raises over four years",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/09/13/boeing-union-contract-strike/",
+                        "datetime": "2024-09-13T04:37:16.933000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e3c17c055547350000000f",
+                        "targetTopic": "business",
+                        "text": "Some 96 percent of those who voted in the International Association of Machinists and Aerospace Workers District 751 decided to approve a strike, rejecting a contract negotiated with Boeing last weekend. The workers will stop working in plants in Washington, as well as some in Oregon and California."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
