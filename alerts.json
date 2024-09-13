@@ -97643,5 +97643,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "53cbc490-71bf-11ef-b4ca-000a1ace6310",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Harris vs. Trump. Campaign hack. Abortion ban. Boeing strike. Food waste. Eiffel Tower. Mysterious rumble. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Harris vs. Trump. Campaign hack. Abortion ban. Boeing strike. Food waste. Eiffel Tower. Mysterious rumble. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/09/13/what-to-know-for-september-13/?noredirect=1",
+                        "datetime": "2024-09-13T11:00:02.759000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "66e41b32aa44253500000001",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
