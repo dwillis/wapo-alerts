@@ -97692,5 +97692,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "396599e0-71d4-11ef-bbf8-00000a1ace07",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/news-quiz/",
+                        "datetime": "2024-09-13T13:29:37.856000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e43e416d679c3500000001",
+                        "targetTopic": "news_quiz",
+                        "text": "10 questions, plus a bonus wager! It\u2019s the weekend edition of On the Record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
