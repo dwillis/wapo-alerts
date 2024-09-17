@@ -99065,5 +99065,152 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ac70e411-7514-11ef-8c51-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At this \u2018Disneyland for nerds\u2019, the search is on for life on other planets. Dave Eggers takes us on a tour.",
+            "ios": {
+                "alert": {
+                    "body": "At this \u2018Disneyland for nerds\u2019, the search is on for life on other planets. Dave Eggers takes us on a tour.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2024/dave-eggers-jet-propulsion-laboratory-nasa-who-is-government/",
+                        "datetime": "2024-09-17T16:48:32.142000Z",
+                        "imageURL": "https://www.washingtonpost.com/opinions/interactive/2024/dave-eggers-jet-propulsion-laboratory-nasa-who-is-government/",
+                        "pushID": "66e9b2e07f0bb93500000001",
+                        "targetTopic": "opinions",
+                        "text": "Dave Eggers on NASA\u2019s Jet Propulsion Lab"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "523bf690-7511-11ef-9953-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Arizona election official to ask court to block nearly 100,000 voters with missing citizenship records from voting in state races",
+            "ios": {
+                "alert": {
+                    "body": "Arizona election official to ask court to block nearly 100,000 voters with missing citizenship records from voting in state races",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2024/09/17/arizona-noncitizen-voters/",
+                        "datetime": "2024-09-17T16:24:32.381000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e9ad4074000c350000000b",
+                        "targetTopic": "politics",
+                        "text": "A key election official in Arizona\u2019s Maricopa County plans to ask the state\u2019s highest court to prohibit nearly 100,000 longtime residents from voting in state and local races this fall after discovering the state does not have records that they proved their citizenship."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fba9f960-750d-11ef-9406-0000a1ace075",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Apologize to adult children for failing them \u2018so completely\u2019?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Apologize to adult children for failing them \u2018so completely\u2019?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/17/carolyn-hax-mom-apology-grown-kids/",
+                        "datetime": "2024-09-17T16:00:38.645000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e9a7a674000c350000000a",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Apologize to adult children for failing them \u2018so completely\u2019?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
