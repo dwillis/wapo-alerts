@@ -98722,5 +98722,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "656ccac0-74a1-11ef-9a87-000a1ace6486",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sean \u2018Diddy\u2019 Combs arrested in New York after federal indictment",
+            "ios": {
+                "alert": {
+                    "body": "Sean \u2018Diddy\u2019 Combs arrested in New York after federal indictment",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/09/16/diddy-arrested-sean-combs-new-york-indictment/",
+                        "datetime": "2024-09-17T03:03:20.885000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e8f17874000c3500000006",
+                        "targetTopic": "us",
+                        "text": "The U.S. Attorney for the Southern District of New York said in a statement that Combs was arrested Monday evening, based on a sealed indictment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
