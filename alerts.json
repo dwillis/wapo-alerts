@@ -98918,5 +98918,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d6e72940-7503-11ef-9b7b-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pagers carried by Hezbollah members explode across Lebanon, leaving a \u2018large number of people\u2019 injured, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Pagers carried by Hezbollah members explode across Lebanon, leaving a \u2018large number of people\u2019 injured, officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/17/lebanon-pagers-exploding-hezbollah/",
+                        "datetime": "2024-09-17T14:48:01.959000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e996a18e3ac1350000000b",
+                        "targetTopic": "world",
+                        "text": "A voice message circulated to members of the militant group urged them to throw away their devices, while health officials reported chaotic scenes at hospitals across the country as ambulances poured in. It was unclear what caused the blasts, which came as tensions between Israel and Hezbollah have soared after months of cross-border attacks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e016cac0-74fe-11ef-8f52-0000a1ace661",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sean \u2018Diddy\u2019 Combs indicted on racketeering and sex-trafficking charges",
+            "ios": {
+                "alert": {
+                    "body": "Sean \u2018Diddy\u2019 Combs indicted on racketeering and sex-trafficking charges",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2024/09/16/diddy-arrested-sean-combs-new-york-indictment/",
+                        "datetime": "2024-09-17T14:12:29.930000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e98e4d8e3ac1350000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "The hip-hop impresario was arrested on a federal indictment in New York on Monday, according to the U.S. attorney\u2019s office for the Southern District of New York."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
