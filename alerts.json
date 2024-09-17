@@ -98771,5 +98771,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2179cb51-74d9-11ef-b50a-000a1acef879",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "French man accused of recruiting dozens to rape his wife tells court: \u2018I am a rapist\u2019",
+            "ios": {
+                "alert": {
+                    "body": "French man accused of recruiting dozens to rape his wife tells court: \u2018I am a rapist\u2019",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/17/france-rape-trial-dominique-pelicot-testifies-husband-wife/",
+                        "datetime": "2024-09-17T09:42:18.723000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e94efa74000c3500000007",
+                        "targetTopic": "world",
+                        "text": "Dominique P\u00e9licot, 71, testified that he and \u201ceveryone else in this room\u201d are rapists, contradicting earlier claims from others charged in the mass rape trial that they did not know the woman had not consented. Investigators said the alleged victim was raped while drugged and unconscious by at least 72 people; they have identified and charged 51 suspects."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
