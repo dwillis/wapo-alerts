@@ -98673,5 +98673,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d490ea60-7499-11ef-b21d-0000a1acedff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Shots fired and \u2018rather quick golf carts\u2019: Donald Trump talks to Marc Thiessen about the West Palm Beach gunman",
+            "ios": {
+                "alert": {
+                    "body": "Shots fired and \u2018rather quick golf carts\u2019: Donald Trump talks to Marc Thiessen about the West Palm Beach gunman",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/09/16/donald-trump-assassination-attempt-mar-a-lago-secret-service/",
+                        "datetime": "2024-09-17T02:09:11.385000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e8e4c7aa44253500000009",
+                        "targetTopic": "opinions",
+                        "text": "The former president talks about the chaotic moments following the apparent second attempt on his life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
