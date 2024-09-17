@@ -1,18 +1,21 @@
 import json
-import requests
+import subprocess
 
 url = "https://www.washingtonpost.com/prism/api/alerts"
-
-r = requests.get(url)
-alerts = r.json()
-
 local_file_path = 'alerts.json'
 
-def fetch_new_alerts(url):
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()
-    else:
+def fetch_new_alerts_with_curl(url):
+    # Use curl to download the JSON data with SSL verification disabled
+    try:
+        result = subprocess.run(
+            ['curl', url],
+            check=True,
+            capture_output=True,
+            text=True
+        )
+        return json.loads(result.stdout)
+    except subprocess.CalledProcessError as e:
+        print(f"Error fetching alerts: {e}")
         return []
 
 def load_existing_alerts(file_path):
@@ -32,10 +35,10 @@ def save_alerts_to_file(alerts, file_path):
         json.dump(alerts, file, indent=4)
 
 def update_alerts(url, local_file_path):
-    new_alerts = fetch_new_alerts(url)
+    new_alerts = fetch_new_alerts_with_curl(url)
     existing_alerts = load_existing_alerts(local_file_path)
     updated_alerts = add_new_alerts(existing_alerts, new_alerts)
     save_alerts_to_file(updated_alerts, local_file_path)
 
-# Update the alerts
+# Run the update function
 update_alerts(url, local_file_path)
