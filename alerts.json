@@ -99212,5 +99212,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7451a840-7540-11ef-b879-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pager explosions in Lebanon possibly involved sabotage of the devices before they were delivered, experts say",
+            "ios": {
+                "alert": {
+                    "body": "Pager explosions in Lebanon possibly involved sabotage of the devices before they were delivered, experts say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/17/lebanon-pagers-exploding-hezbollah/",
+                        "datetime": "2024-09-17T22:01:55.864000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e9fc537f0bb93500000002",
+                        "targetTopic": "breaking-news",
+                        "text": "The suspected attack, which experts described as unprecedented in scope and apparent sophistication, appeared to be the latest salvo in the nearly year-long conflict between Israel and Hezbollah tied to the war in Gaza."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
