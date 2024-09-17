@@ -98820,5 +98820,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fe0da500-74e3-11ef-ab4f-0000a1ace167",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump incident. Secret Service. Sean \u201cDiddy\u201d Combs. Heavy rain. Food chemicals. \u201cMom brain.\u201d Harvest moon. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump incident. Secret Service. Sean \u201cDiddy\u201d Combs. Heavy rain. Food chemicals. \u201cMom brain.\u201d Harvest moon. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/09/17/what-to-know-for-september-17/?noredirect=1",
+                        "datetime": "2024-09-17T11:00:03.722000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "66e9613374000c3500000008",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
