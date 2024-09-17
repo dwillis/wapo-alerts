@@ -99016,5 +99016,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb886470-7509-11ef-8ff5-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Voter registration deadlines are coming up fast. Here\u2019s how to check your status.",
+            "ios": {
+                "alert": {
+                    "body": "Voter registration deadlines are coming up fast. Here\u2019s how to check your status.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/09/13/check-voter-registration-deadline/",
+                        "datetime": "2024-09-17T15:32:00.434000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66e9a0f074000c3500000009",
+                        "targetTopic": "politics",
+                        "text": "Even if you voted in a previous election, you\u2019re not necessarily registered for this one, and the window to register closes early next month in some states. If you live in a place that doesn\u2019t allow registration on Election Day on Nov. 5, you should make sure your registration is up to date before your jurisdiction\u2019s deadline passes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
