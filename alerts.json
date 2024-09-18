@@ -99702,5 +99702,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "13d98661-75e8-11ef-ba85-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal Reserve cuts interest rates by a half-point, opting for a more aggressive move amid worries the job market is slowing",
+            "ios": {
+                "alert": {
+                    "body": "Federal Reserve cuts interest rates by a half-point, opting for a more aggressive move amid worries the job market is slowing",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/09/18/fed-meeting-interest-rate-cut-decision-live-fomc/",
+                        "datetime": "2024-09-18T18:01:49.495000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eb158daa4425350000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "The rate cut marks the first time since 2020 that officials have lowered borrowing costs, signaling a major shift in the central bank\u2019s fight against post-pandemic inflation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
