@@ -99800,5 +99800,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4189a490-75fd-11ef-8873-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "More hurricanes are lingering for days, a new study found. Here are the places most at risk.",
+            "ios": {
+                "alert": {
+                    "body": "More hurricanes are lingering for days, a new study found. Here are the places most at risk.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/weather/2024/09/18/hurricanes-stalling-storms-rain-flooding-coastlines/",
+                        "datetime": "2024-09-18T20:33:25.440000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eb3915aa4425350000000e",
+                        "targetTopic": "climate",
+                        "text": "The new research, published in the Journal of Applied Meteorology and Climatology, underlines growing risks that slow-moving tropical storms, even weaker ones, can unleash outsized impacts when they batter communities with uninterrupted downpours and unrelenting winds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
