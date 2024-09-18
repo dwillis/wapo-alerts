@@ -99359,5 +99359,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0bd6c491-75cb-11ef-b1fd-0000a1ace53c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dali owner knew of problems before cargo ship hit Baltimore bridge, U.S. alleges in a court filing",
+            "ios": {
+                "alert": {
+                    "body": "Dali owner knew of problems before cargo ship hit Baltimore bridge, U.S. alleges in a court filing",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2024/09/18/dali-ship-problems-baltimore-key-bridge-collapse-doj/",
+                        "datetime": "2024-09-18T14:34:00.659000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eae4d81c6e313500000002",
+                        "targetTopic": "local",
+                        "text": "The ship that hit the Francis Scott Key Bridge, killing six, had known issues that should have been fixed or reported before it set sail, the Justice Department said in a new court filing. Justice Department attorneys said the United States incurred more than $100 million in costs related to the collapse, and they believe the ship\u2019s owner should have to pay."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
