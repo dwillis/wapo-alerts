@@ -99261,5 +99261,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1dea6fb0-75ad-11ef-9bc9-00000a1ace78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Exploding pagers. Election violence. Sean Combs. Interest rates. Titan hearing. Instagram teens. Baby hippo. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Exploding pagers. Election violence. Sean Combs. Interest rates. Titan hearing. Instagram teens. Baby hippo. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2024/09/18/what-to-know-for-september-18/?noredirect=1",
+                        "datetime": "2024-09-18T10:59:46.073000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "66eab2a27f0bb93500000003",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes with these 7 stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
