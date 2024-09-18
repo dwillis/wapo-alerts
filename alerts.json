@@ -99408,5 +99408,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a5a86300-75d3-11ef-a63d-00000a1ace4d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prominent NBA reporter Adrian Wojnarowski, known for his viral scoops, announces he is retiring from ESPN",
+            "ios": {
+                "alert": {
+                    "body": "Prominent NBA reporter Adrian Wojnarowski, known for his viral scoops, announces he is retiring from ESPN",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/18/adrian-wojnarowski-woj-retires-from-espn/",
+                        "datetime": "2024-09-18T15:35:34.658000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eaf3461c6e313500000004",
+                        "targetTopic": "sports",
+                        "text": "\u201cI understand the commitment required in my role and it\u2019s an investment that I\u2019m no longer driven to make,\u201d Wojnarowski, 55, said in a post on X. He has agreed to become the general manager of the St. Bonaventure men\u2019s basketball program."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "321f5911-75cf-11ef-a4fc-00000a1ace86",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "More deadly blasts, apparently linked to electronic devices, hit Lebanon a day after a pager attack targeted Hezbollah",
+            "ios": {
+                "alert": {
+                    "body": "More deadly blasts, apparently linked to electronic devices, hit Lebanon a day after a pager attack targeted Hezbollah",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/18/hezbollah-israel-pager-attack-lebanon-explosions/",
+                        "datetime": "2024-09-18T15:03:42.871000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eaebce1c6e313500000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The new explosions, at least one of which occurred at a funeral held by Hezbollah in Beirut\u2019s suburbs, killed at least one person and injured more than 100 people, according to Lebanon\u2019s Ministry of Public Health. They come a day after a suspected Israeli attack on Hezbollah\u2019s communications network caused thousands of the group\u2019s electronic pagers to explode, killing 12 people and injuring nearly 3,000."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
