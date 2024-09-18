@@ -99751,5 +99751,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "956acce1-75f0-11ef-b3df-0000a1ace808",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Teamsters decline to endorse a presidential candidate for the first time since 1996, a blow to Democrats",
+            "ios": {
+                "alert": {
+                    "body": "Teamsters decline to endorse a presidential candidate for the first time since 1996, a blow to Democrats",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/09/18/teamsters-endorsement-election/",
+                        "datetime": "2024-09-18T19:02:42.795000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eb23d2aa4425350000000d",
+                        "targetTopic": "politics",
+                        "text": "The International Brotherhood of Teamsters executive board voted to sit this election out, coinciding with new inroads Teamsters President Sean O\u2019Brien has forged with the Republican Party. The powerful union has endorsed Democrats for president going back to the 1990s."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
