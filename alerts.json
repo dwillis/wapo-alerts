@@ -99949,5 +99949,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5c9d6d30-7610-11ef-b4bd-0000a1ace26b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House fails to pass Speaker Mike Johnson\u2019s government funding plan as Sept. 30 shutdown deadline nears",
+            "ios": {
+                "alert": {
+                    "body": "House fails to pass Speaker Mike Johnson\u2019s government funding plan as Sept. 30 shutdown deadline nears",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/09/18/house-bill-government-shutdown-funding/",
+                        "datetime": "2024-09-18T22:50:11.394000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eb5923aa44253500000011",
+                        "targetTopic": "politics",
+                        "text": "Lawmakers want to extend operations at current spending levels but have yet to agree on how."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
