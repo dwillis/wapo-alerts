@@ -99850,5 +99850,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1bb745f0-7603-11ef-8473-00000a1ace1f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Despite more than two centuries of Haitian vilification, this moment feels particularly dangerous, author Edwidge Danticat writes",
+            "ios": {
+                "alert": {
+                    "body": "Despite more than two centuries of Haitian vilification, this moment feels particularly dangerous, author Edwidge Danticat writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/09/18/haitian-americans-slander-distraction/",
+                        "datetime": "2024-09-18T21:15:19.063000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eb42e7aa44253500000010",
+                        "targetTopic": "opinions",
+                        "text": "This country should make no room for hate, the author writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5993ad70-7601-11ef-baf8-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What the Fed\u2019s half-point rate cut means for consumers, businesses and investors",
+            "ios": {
+                "alert": {
+                    "body": "What the Fed\u2019s half-point rate cut means for consumers, businesses and investors",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2024/09/18/fed-interest-rate-cut-mortgage-car-loans/",
+                        "datetime": "2024-09-18T21:02:43.859000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eb3ff3aa4425350000000f",
+                        "targetTopic": "business",
+                        "text": "The Federal Reserve lowered rates for the first time in four years, a decision that will affect hiring, inflation, the housing market, stocks and borrowing costs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
