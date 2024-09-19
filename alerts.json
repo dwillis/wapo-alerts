@@ -99998,5 +99998,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "00ecc610-7616-11ef-af6f-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A journey from N.C. to Ukraine to suspect in apparent Trump assassination attempt",
+            "ios": {
+                "alert": {
+                    "body": "A journey from N.C. to Ukraine to suspect in apparent Trump assassination attempt",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/09/18/ryan-routh-trump-suspect/",
+                        "datetime": "2024-09-18T23:30:34.579000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eb629aaa44253500000013",
+                        "targetTopic": "politics",
+                        "text": "Ryan Routh\u2019s long and strange journey from running a roofing company to being the suspect in what the FBI has called an apparent assassination attempt in Florida left friends and acquaintances mystified. He could be odd, many of them said, and had a history of mostly minor run-ins with police, but wasn\u2019t threatening. Still, in recent years, there were hints of a kind of unraveling, particularly since he went to Ukraine in 2022. While Routh saw himself engaged in a Manichaean battle of good evil, others found his activities there counterproductive and disturbing \u2014 so much so that they flagged him to U.S. government agencies, they said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
