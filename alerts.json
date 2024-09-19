@@ -100341,5 +100341,104 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "44adedc0-76a7-11ef-9e67-00000a1ace39",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Covid was linked again to Wuhan market animals in a peer-reviewed paper. It\u2019s unlikely to end debate over the pandemic\u2019s origin.",
+            "ios": {
+                "alert": {
+                    "body": "Covid was linked again to Wuhan market animals in a peer-reviewed paper. It\u2019s unlikely to end debate over the pandemic\u2019s origin.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/science/2024/09/19/covid-origin-wuhan-market/",
+                        "datetime": "2024-09-19T16:50:25.043000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ec56517f0bb93500000009",
+                        "targetTopic": "health",
+                        "text": "The new paper, which appears in the journal Cell, expands on findings from an informal 2023 report on the subject."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5d779e20-76a0-11ef-a2fe-00000a1ace0f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Are post-breakup conversations with ex-boyfriend a bad idea?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Are post-breakup conversations with ex-boyfriend a bad idea?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2024/09/19/carolyn-hax-post-breakup-conversations-bad-idea/",
+                        "datetime": "2024-09-19T16:01:00.401000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ec4abc7f0bb93500000008",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Are post-breakup conversations with ex-boyfriend a bad idea?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
