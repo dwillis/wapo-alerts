@@ -100440,5 +100440,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "668ed070-76ad-11ef-a88e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My friend just divorced a truly bad man. How do I help her move on? Our Well+Being editor is taking your questions about divorce.",
+            "ios": {
+                "alert": {
+                    "body": "My friend just divorced a truly bad man. How do I help her move on? Our Well+Being editor is taking your questions about divorce.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2024/09/12/tara-parker-pope-advice-divorce/",
+                        "datetime": "2024-09-19T17:34:19.138000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ec609b7f0bb9350000000a",
+                        "targetTopic": "advice",
+                        "text": "My friend just divorced a truly bad man. How do I help her move on? Our Well+Being editor is taking your questions about divorce."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
