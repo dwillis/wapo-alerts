@@ -100243,5 +100243,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e183b431-769e-11ef-ac09-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "special_report"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jordan Chiles\u2019s coach appealed Olympic score within required time, a Post analysis finds \u2014 contradicting ruling that revoked medal",
+            "ios": {
+                "alert": {
+                    "body": "Jordan Chiles\u2019s coach appealed Olympic score within required time, a Post analysis finds \u2014 contradicting ruling that revoked medal",
+                    "title": "Special Report"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:special_report",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2024/09/19/jordan-chiles-olympics-medal-appeal/",
+                        "datetime": "2024-09-19T15:50:22.938000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ec483e7f0bb93500000007",
+                        "targetTopic": "special_report",
+                        "text": "The Post\u2019s review of audio and dozens of videos shows that the Court of Arbitration for Sport ruled against Chiles based on time markers that don\u2019t precisely match the sport\u2019s protocol for inquiries. Chiles is now suing in Swiss court to reclaim the bronze medal she was awarded last month at the Paris Games."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7ff30991-769a-11ef-97f8-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alaska man charged with threatening to torture and assassinate six of the nine Supreme Court justices",
+            "ios": {
+                "alert": {
+                    "body": "Alaska man charged with threatening to torture and assassinate six of the nine Supreme Court justices",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2024/09/19/supreme-court-threats-alaska-arrest/",
+                        "datetime": "2024-09-19T15:19:01.219000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ec40e57f0bb93500000006",
+                        "targetTopic": "us",
+                        "text": "Panos Anastasiou, 76, was arrested after allegedly threatening six Supreme Court justices and their relatives, the Justice Department announced Thursday. Attorney General Merrick Garland said Anastasiou \u201cmade repeated, heinous threats to murder and torture Supreme Court Justices and their families to retaliate against them for decisions he disagreed with.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
