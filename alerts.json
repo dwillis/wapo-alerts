@@ -100538,5 +100538,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "17ed8820-76d1-11ef-9ba9-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Our leaders have turned their backs on us\u2019: In Springfield, Eugene Robinson hears stories about strain, promise \u2014 and race",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Our leaders have turned their backs on us\u2019: In Springfield, Eugene Robinson hears stories about strain, promise \u2014 and race",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2024/09/19/springfield-haitians-trump-race/",
+                        "datetime": "2024-09-19T21:49:49.054000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ec9c7d7f0bb9350000000b",
+                        "targetTopic": "opinions",
+                        "text": "In Springfield, I heard stories about strain, promise \u2014 and race"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
