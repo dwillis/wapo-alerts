@@ -100194,5 +100194,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42cee7d0-7697-11ef-b6d0-00000a1ace75",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hezbollah leader says device attacks are an \u2018act of war\u2019 against Lebanon, as Israeli warplanes fly over Beirut",
+            "ios": {
+                "alert": {
+                    "body": "Hezbollah leader says device attacks are an \u2018act of war\u2019 against Lebanon, as Israeli warplanes fly over Beirut",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2024/09/19/israel-lebanon-attack-explosions-hezbollah/",
+                        "datetime": "2024-09-19T14:55:50.155000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ec3b767f0bb93500000005",
+                        "targetTopic": "breaking-news",
+                        "text": "In his first remarks since thousands of electronic devices exploded across the country, Hasan Nasrallah said that Hezbollah suffered \u201ca major blow,\u201d but that his forces would not stop attacking Israel as long as the war in Gaza continued."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
