@@ -100489,5 +100489,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ab1b0960-76c7-11ef-9a14-0000a1ace727",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "N.C. Republican nominee vows to continue campaign for governor as CNN report says he called himself \u2018Black NAZI\u2019 on porn site",
+            "ios": {
+                "alert": {
+                    "body": "N.C. Republican nominee vows to continue campaign for governor as CNN report says he called himself \u2018Black NAZI\u2019 on porn site",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2024/09/19/mark-robinson-north-carolina-governor/",
+                        "datetime": "2024-09-19T20:42:21.050000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ec8cad1c6e313500000007",
+                        "targetTopic": "politics",
+                        "text": "CNN reported that Mark Robinson, who has a history of incendiary remarks, also voiced support for bringing back slavery. Robinson denied making the comments and insisted he would stay in the race against Democrat Josh Stein in a battleground state key to the presidential race."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
