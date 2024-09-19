@@ -100587,5 +100587,55 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5bdf1ba0-76d3-11ef-aff8-00000a1ace31",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Scientists have captured Earth\u2019s climate over the past 485 million years. Here\u2019s the surprising place we stand now.",
+            "ios": {
+                "alert": {
+                    "body": "Scientists have captured Earth\u2019s climate over the past 485 million years. Here\u2019s the surprising place we stand now.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2024/09/19/earth-temperature-global-warming-planet/",
+                        "datetime": "2024-09-19T22:06:02.048000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66eca04a1c6e313500000008",
+                        "targetTopic": "climate",
+                        "text": "An effort to understand Earth\u2019s past climates uncovered a history of wild temperature shifts and offered a warning on the consequences of human-caused warming."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
