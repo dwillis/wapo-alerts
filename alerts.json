@@ -100686,5 +100686,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d37aa2c0-76e6-11ef-afae-0000a1ace38b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kentucky judge shot and killed in his chambers by local sheriff following argument, state officials say",
+            "ios": {
+                "alert": {
+                    "body": "Kentucky judge shot and killed in his chambers by local sheriff following argument, state officials say",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2024/09/19/kentucky-judge-shot-killed-kevin-mullins/",
+                        "datetime": "2024-09-20T00:25:22.792000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ecc0f21c6e31350000000a",
+                        "targetTopic": "us",
+                        "text": "Letcher County District Judge Kevin Mullins, 54, was fatally shot Thursday afternoon following an argument with the county sheriff, Shawn Stines, according to local officials. State police said Stines, 43, is in custody and has been charged with one count of murder in the first degree."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
