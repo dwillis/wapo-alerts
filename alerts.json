@@ -100637,5 +100637,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "754789c0-76dc-11ef-ab77-000a1ace47bc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dodgers slugger Shohei Ohtani becomes first player in MLB history with 50 home runs and 50 stolen bases in the same season",
+            "ios": {
+                "alert": {
+                    "body": "Dodgers slugger Shohei Ohtani becomes first player in MLB history with 50 home runs and 50 stolen bases in the same season",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "content-available": true,
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2024/09/19/shohei-ohtani-50-homers-50-steals/",
+                        "datetime": "2024-09-19T23:11:10.095000Z",
+                        "imageURL": "https://www.washingtonpost.com/pb/resources/img/twp-3000x1568.jpg",
+                        "pushID": "66ecaf8e1c6e313500000009",
+                        "targetTopic": "sports",
+                        "text": "Baseball\u2019s biggest star became the founding member of the 50-50 club in his first season with the Dodgers, the latest breathtaking accomplishment in a historic career."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
