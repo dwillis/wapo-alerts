@@ -23,6 +23,9 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      - name: Ensure browsers are installed
+        run: python -m playwright install --with-deps
+
       - name: Run script
         run: python get_alerts.py
 
