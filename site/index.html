@@ -369,6 +369,7 @@
 
             document.getElementById('filtered-count').textContent = filteredAlerts.length;
             displayAlerts();
+            updateChart();
         }
 
         function displayAlerts() {
@@ -395,26 +396,53 @@
             `).join('');
         }
 
-        function createChart() {
-            const ctx = document.getElementById('alertsChart').getContext('2d');
+        function createChart(topic = '') {
+            const container = document.querySelector('.chart-container');
+            const ctx = document.getElementById('alertsChart');
+
+            // Calculate 30 days ago from today
+            const now = new Date();
+            const thirtyDaysAgo = new Date(now);
+            thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+
+            // Filter alerts by topic (if specified) and date range
+            let chartAlerts = allAlerts.filter(alert => {
+                const matchesTopic = !topic || alert.topic === topic;
+                const isInRange = alert.datetime >= thirtyDaysAgo;
+                return matchesTopic && isInRange;
+            });
+
+            // Check if there are any alerts in the past 30 days
+            if (chartAlerts.length === 0) {
+                container.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 1.3em; color: #999;">No alerts in the past 30 days</div>';
+                chart = null;
+                return;
+            }
+
+            // Restore canvas if it was replaced with message
+            if (!ctx.tagName || ctx.tagName !== 'CANVAS') {
+                container.innerHTML = '<canvas id="alertsChart"></canvas>';
+            }
 
             // Group alerts by day
             const alertsByDay = {};
-            allAlerts.forEach(alert => {
+            chartAlerts.forEach(alert => {
                 const day = alert.datetime.toISOString().split('T')[0];
                 alertsByDay[day] = (alertsByDay[day] || 0) + 1;
             });
 
-            // Get last 30 days
-            const days = Object.keys(alertsByDay).sort().slice(-30);
+            // Get all days and sort them
+            const days = Object.keys(alertsByDay).sort();
             const counts = days.map(day => alertsByDay[day]);
 
-            chart = new Chart(ctx, {
+            const topicLabel = topic ? topic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : 'All Topics';
+
+            chart = new Chart(document.getElementById('alertsChart').getContext('2d'), {
                 type: 'line',
                 data: {
                     labels: days.map(d => new Date(d).toLocaleDateString()),
                     datasets: [{
-                        label: 'Alerts Per Day',
+                        label: `Alerts Per Day - ${topicLabel}`,
                         data: counts,
                         borderColor: '#667eea',
                         backgroundColor: 'rgba(102, 126, 234, 0.1)',
@@ -470,6 +498,20 @@
                     }
                 }
             });
+        }
+
+        function updateChart() {
+            // Destroy existing chart if it exists
+            if (chart) {
+                chart.destroy();
+                chart = null;
+            }
+
+            // Get selected topic
+            const selectedTopic = document.getElementById('filter-topic').value;
+
+            // Create new chart with topic filter
+            createChart(selectedTopic);
         }
 
         function formatDate(date) {
