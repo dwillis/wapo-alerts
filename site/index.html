@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📬 Post Ping Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', cursive, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: bounce 1s ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        h1 {
+            font-size: 4em;
+            color: #fff;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .ping {
+            display: inline-block;
+            animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+        }
+
+        @keyframes ping {
+            75%, 100% {
+                transform: scale(1.1);
+                opacity: 0;
+            }
+        }
+
+        .subtitle {
+            color: #fff;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        input[type="text"], select {
+            padding: 12px;
+            border: 3px solid #667eea;
+            border-radius: 15px;
+            font-size: 1em;
+            font-family: inherit;
+            transition: all 0.3s;
+        }
+
+        input[type="text"]:focus, select:focus {
+            outline: none;
+            border-color: #764ba2;
+            transform: scale(1.02);
+            box-shadow: 0 0 15px rgba(118, 75, 162, 0.3);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px) rotate(1deg);
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            height: 400px;
+        }
+
+        .alerts-container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .alert-item {
+            padding: 20px;
+            border-left: 5px solid #667eea;
+            background: linear-gradient(to right, #f8f9ff, white);
+            margin-bottom: 15px;
+            border-radius: 10px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .alert-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .alert-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .alert-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .alert-topic {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+        }
+
+        .alert-time {
+            font-style: italic;
+        }
+
+        .alert-text {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            font-size: 1.5em;
+            color: white;
+        }
+
+        .emoji {
+            font-size: 1.5em;
+            display: inline-block;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📬 Post Ping</h1>
+            <div class="subtitle">✨ Your whimsical Washington Post alerts dashboard ✨</div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="total-alerts">-</div>
+                <div class="stat-label">Total Alerts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="last-24h">-</div>
+                <div class="stat-label">Last 24 Hours</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="filtered-count">-</div>
+                <div class="stat-label">Showing</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="topic-count">-</div>
+                <div class="stat-label">Topics</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="filter-group">
+                <label for="search-title">🔍 Search by Title</label>
+                <input type="text" id="search-title" placeholder="Type to search alerts...">
+            </div>
+            <div class="filter-group">
+                <label for="filter-topic">🏷️ Filter by Topic</label>
+                <select id="filter-topic">
+                    <option value="">All Topics</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="alertsChart"></canvas>
+        </div>
+
+        <div class="alerts-container">
+            <h2 style="margin-bottom: 20px; color: #667eea;">📋 Recent Alerts</h2>
+            <div id="alerts-list" class="loading">
+                <span class="emoji">⏳</span> Loading alerts...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allAlerts = [];
+        let filteredAlerts = [];
+        let chart = null;
+
+        // Load alerts data
+        async function loadAlerts() {
+            try {
+                const response = await fetch('../alerts.json');
+                const data = await response.json();
+
+                // Process alerts
+                allAlerts = data.map(alert => {
+                    const custom = alert.notification?.ios?.extra?.custom || {};
+                    return {
+                        id: alert.airshipId,
+                        title: alert.notification?.ios?.alert?.title || 'No Title',
+                        body: alert.notification?.ios?.alert?.body || '',
+                        text: custom.text || '',
+                        topic: custom.targetTopic || 'unknown',
+                        datetime: custom.datetime ? new Date(custom.datetime) : null,
+                        url: custom.contentURL || ''
+                    };
+                }).filter(alert => alert.datetime); // Filter out alerts without dates
+
+                // Sort by date descending
+                allAlerts.sort((a, b) => b.datetime - a.datetime);
+
+                initializeDashboard();
+            } catch (error) {
+                document.getElementById('alerts-list').innerHTML =
+                    '<div class="no-results">😢 Failed to load alerts. Please try again later.</div>';
+                console.error('Error loading alerts:', error);
+            }
+        }
+
+        function initializeDashboard() {
+            populateTopicFilter();
+            updateStats();
+            createChart();
+            filterAlerts();
+
+            // Set up event listeners
+            document.getElementById('search-title').addEventListener('input', filterAlerts);
+            document.getElementById('filter-topic').addEventListener('change', filterAlerts);
+        }
+
+        function populateTopicFilter() {
+            const topics = [...new Set(allAlerts.map(a => a.topic))].sort();
+            const select = document.getElementById('filter-topic');
+
+            topics.forEach(topic => {
+                const option = document.createElement('option');
+                option.value = topic;
+                option.textContent = topic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                select.appendChild(option);
+            });
+
+            document.getElementById('topic-count').textContent = topics.length;
+        }
+
+        function updateStats() {
+            const now = new Date();
+            const twentyFourHoursAgo = new Date(now - 24 * 60 * 60 * 1000);
+            const last24h = allAlerts.filter(a => a.datetime >= twentyFourHoursAgo);
+
+            document.getElementById('total-alerts').textContent = allAlerts.length.toLocaleString();
+            document.getElementById('last-24h').textContent = last24h.length;
+        }
+
+        function filterAlerts() {
+            const searchText = document.getElementById('search-title').value.toLowerCase();
+            const selectedTopic = document.getElementById('filter-topic').value;
+
+            filteredAlerts = allAlerts.filter(alert => {
+                const matchesSearch = !searchText ||
+                    alert.title.toLowerCase().includes(searchText) ||
+                    alert.body.toLowerCase().includes(searchText) ||
+                    alert.text.toLowerCase().includes(searchText);
+
+                const matchesTopic = !selectedTopic || alert.topic === selectedTopic;
+
+                return matchesSearch && matchesTopic;
+            });
+
+            document.getElementById('filtered-count').textContent = filteredAlerts.length;
+            displayAlerts();
+        }
+
+        function displayAlerts() {
+            const container = document.getElementById('alerts-list');
+
+            if (filteredAlerts.length === 0) {
+                container.innerHTML = '<div class="no-results">🔍 No alerts found matching your filters.</div>';
+                return;
+            }
+
+            // Show first 50 alerts
+            const alertsToShow = filteredAlerts.slice(0, 50);
+
+            container.innerHTML = alertsToShow.map(alert => `
+                <div class="alert-item" onclick="window.open('${alert.url}', '_blank')">
+                    <div class="alert-title">${escapeHtml(alert.title)}</div>
+                    <div class="alert-meta">
+                        <span class="alert-topic">${escapeHtml(alert.topic.replace(/_/g, ' '))}</span>
+                        <span class="alert-time">${formatDate(alert.datetime)}</span>
+                    </div>
+                    <div class="alert-text">${escapeHtml(alert.body)}</div>
+                    ${alert.text ? `<div class="alert-text" style="margin-top: 10px; font-style: italic;">${escapeHtml(alert.text)}</div>` : ''}
+                </div>
+            `).join('');
+        }
+
+        function createChart() {
+            const ctx = document.getElementById('alertsChart').getContext('2d');
+
+            // Group alerts by day
+            const alertsByDay = {};
+            allAlerts.forEach(alert => {
+                const day = alert.datetime.toISOString().split('T')[0];
+                alertsByDay[day] = (alertsByDay[day] || 0) + 1;
+            });
+
+            // Get last 30 days
+            const days = Object.keys(alertsByDay).sort().slice(-30);
+            const counts = days.map(day => alertsByDay[day]);
+
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: days.map(d => new Date(d).toLocaleDateString()),
+                    datasets: [{
+                        label: 'Alerts Per Day',
+                        data: counts,
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        borderWidth: 3,
+                        tension: 0.4,
+                        fill: true,
+                        pointRadius: 5,
+                        pointHoverRadius: 8,
+                        pointBackgroundColor: '#667eea',
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            labels: {
+                                font: {
+                                    size: 14,
+                                    family: "'Comic Sans MS', 'Trebuchet MS', cursive"
+                                }
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: '📊 Alert Trend (Last 30 Days)',
+                            font: {
+                                size: 18,
+                                family: "'Comic Sans MS', 'Trebuchet MS', cursive"
+                            },
+                            color: '#667eea'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                font: {
+                                    family: "'Comic Sans MS', 'Trebuchet MS', cursive"
+                                }
+                            }
+                        },
+                        x: {
+                            ticks: {
+                                font: {
+                                    family: "'Comic Sans MS', 'Trebuchet MS', cursive"
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function formatDate(date) {
+            const now = new Date();
+            const diff = now - date;
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+
+            if (hours < 1) return 'Just now';
+            if (hours < 24) return `${hours}h ago`;
+            if (hours < 48) return 'Yesterday';
+
+            return date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Initialize
+        loadAlerts();
+    </script>
+</body>
+</html>
