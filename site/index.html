@@ -398,7 +398,6 @@
 
         function createChart(topic = '') {
             const container = document.querySelector('.chart-container');
-            const ctx = document.getElementById('alertsChart');
 
             // Calculate 30 days ago from today
             const now = new Date();
@@ -419,9 +418,11 @@
                 return;
             }
 
-            // Restore canvas if it was replaced with message
-            if (!ctx.tagName || ctx.tagName !== 'CANVAS') {
+            // Ensure canvas element exists (restore it if it was replaced with message)
+            let canvasElement = document.getElementById('alertsChart');
+            if (!canvasElement || canvasElement.tagName !== 'CANVAS') {
                 container.innerHTML = '<canvas id="alertsChart"></canvas>';
+                canvasElement = document.getElementById('alertsChart');
             }
 
             // Group alerts by day
@@ -437,7 +438,7 @@
 
             const topicLabel = topic ? topic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) : 'All Topics';
 
-            chart = new Chart(document.getElementById('alertsChart').getContext('2d'), {
+            chart = new Chart(canvasElement.getContext('2d'), {
                 type: 'line',
                 data: {
                     labels: days.map(d => new Date(d).toLocaleDateString()),
