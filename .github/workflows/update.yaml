@@ -35,6 +35,9 @@ jobs:
       - name: Run RSS
         run: python make_rss.py
 
+      - name: Sync alerts.json to site directory
+        run: cp alerts.json site/alerts.json
+
       - name: "Commit and push if it changed"
         run: |-
             git config user.name "Automated"
