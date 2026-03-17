@@ -35,6 +35,11 @@ jobs:
       - name: Run RSS
         run: python make_rss.py
 
+      - name: Run analysis
+        run: python analyze_alerts.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
       - name: Sync alerts.json to site directory
         run: cp alerts.json site/alerts.json
 

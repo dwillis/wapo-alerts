@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 Post Ping Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', cursive, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container { max-width: 1400px; margin: 0 auto; }
+
+        header { text-align: center; margin-bottom: 30px; }
+
+        h1 {
+            font-size: 3.5em;
+            color: #fff;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+            margin-bottom: 8px;
+        }
+
+        .subtitle { color: #fff; font-size: 1.1em; opacity: 0.9; margin-bottom: 16px; }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 10px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 1em;
+            transition: background 0.2s;
+        }
+
+        .nav-links a:hover { background: rgba(255,255,255,0.35); }
+        .nav-links a.active { background: rgba(255,255,255,0.45); font-weight: bold; }
+
+        .section {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 28px;
+            overflow: hidden;
+        }
+
+        .section summary {
+            padding: 22px 28px;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #667eea;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            user-select: none;
+        }
+
+        .section summary::-webkit-details-marker { display: none; }
+
+        .section summary::after {
+            content: "▼";
+            margin-left: auto;
+            font-size: 0.8em;
+            transition: transform 0.2s;
+        }
+
+        .section[open] summary::after { transform: rotate(180deg); }
+
+        .section-body { padding: 0 28px 28px; }
+
+        .loading-msg {
+            text-align: center;
+            padding: 40px;
+            color: #aaa;
+            font-size: 1.1em;
+        }
+
+        /* --- Week picker / digest --- */
+        .week-controls {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        select, input[type="range"] {
+            padding: 10px 14px;
+            border: 3px solid #667eea;
+            border-radius: 14px;
+            font-family: inherit;
+            font-size: 1em;
+            outline: none;
+        }
+
+        select:focus { border-color: #764ba2; }
+
+        .story-cards { display: grid; gap: 16px; }
+
+        .story-card {
+            border-left: 5px solid #667eea;
+            background: linear-gradient(to right, #f8f9ff, white);
+            padding: 16px 20px;
+            border-radius: 10px;
+        }
+
+        .story-headline { font-size: 1.1em; font-weight: bold; color: #333; margin-bottom: 6px; }
+
+        .story-summary { color: #555; line-height: 1.6; font-size: 0.95em; }
+
+        .topic-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.78em;
+            margin: 4px 3px 0 0;
+        }
+
+        .week-theme {
+            margin-top: 18px;
+            padding: 14px 18px;
+            background: #f0f2ff;
+            border-radius: 12px;
+            font-style: italic;
+            color: #555;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        .cross-topic-section { margin-top: 16px; }
+
+        .cross-topic-item {
+            display: inline-block;
+            background: #764ba2;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 14px;
+            margin: 4px;
+            font-size: 0.88em;
+        }
+
+        /* --- Heatmap --- */
+        .heatmap-controls { margin-bottom: 16px; display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+
+        .heatmap-grid {
+            display: grid;
+            grid-template-columns: 60px repeat(24, 1fr);
+            gap: 2px;
+            font-size: 0.7em;
+        }
+
+        .heatmap-row-label {
+            display: flex;
+            align-items: center;
+            color: #666;
+            font-weight: bold;
+            padding-right: 6px;
+        }
+
+        .heatmap-hour-label {
+            text-align: center;
+            color: #999;
+            padding: 2px 0;
+        }
+
+        .heatmap-cell {
+            height: 26px;
+            border-radius: 4px;
+            position: relative;
+            cursor: default;
+            transition: transform 0.1s;
+        }
+
+        .heatmap-cell:hover { transform: scale(1.2); z-index: 1; }
+
+        .heatmap-cell:hover::after {
+            content: attr(data-tip);
+            position: absolute;
+            top: -28px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 6px;
+            white-space: nowrap;
+            font-size: 0.85em;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .heatmap-legend {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 12px;
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .legend-gradient {
+            width: 120px;
+            height: 14px;
+            border-radius: 6px;
+            background: linear-gradient(to right, #e8ecff, #0d1b7a);
+        }
+
+        /* --- Word cloud --- */
+        .topic-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 18px;
+        }
+
+        .topic-tab {
+            padding: 6px 16px;
+            border: 2px solid #667eea;
+            border-radius: 16px;
+            background: white;
+            color: #667eea;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.9em;
+            transition: all 0.2s;
+        }
+
+        .topic-tab.active, .topic-tab:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        #wcloud-canvas {
+            display: block;
+            margin: 0 auto;
+            border-radius: 14px;
+            background: #f8f9ff;
+        }
+
+        .wcloud-notice {
+            text-align: center;
+            padding: 60px 20px;
+            color: #aaa;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+
+        /* --- Entity timeline --- */
+        .entity-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-bottom: 18px;
+            align-items: flex-start;
+        }
+
+        .entity-search-wrap { position: relative; }
+
+        #entity-search {
+            padding: 10px 14px;
+            border: 3px solid #667eea;
+            border-radius: 14px;
+            font-family: inherit;
+            font-size: 1em;
+            width: 240px;
+        }
+
+        .entity-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            max-height: 220px;
+            overflow-y: auto;
+            z-index: 100;
+            width: 240px;
+            display: none;
+        }
+
+        .entity-dropdown.open { display: block; }
+
+        .entity-dropdown-item {
+            padding: 8px 14px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .entity-dropdown-item:hover { background: #f0f2ff; }
+
+        .selected-entities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .entity-chip {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 16px;
+            font-size: 0.88em;
+        }
+
+        .entity-chip button {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 1.1em;
+            padding: 0;
+            line-height: 1;
+        }
+
+        .race-controls {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 8px 20px;
+            border: none;
+            border-radius: 14px;
+            background: #667eea;
+            color: white;
+            font-family: inherit;
+            font-size: 0.95em;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .btn:hover { background: #764ba2; }
+
+        .btn.secondary { background: #aaa; }
+
+        #race-chart-wrap { display: none; }
+        #race-week-label {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .chart-wrap { position: relative; height: 340px; }
+
+        /* --- Waves --- */
+        .waves-timeline {
+            position: relative;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .waves-inner {
+            position: relative;
+            height: 60px;
+            min-width: 100%;
+        }
+
+        .wave-block {
+            position: absolute;
+            top: 8px;
+            height: 44px;
+            border-radius: 8px;
+            min-width: 12px;
+            cursor: pointer;
+            opacity: 0.85;
+            transition: opacity 0.2s, transform 0.1s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.75em;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        .wave-block:hover { opacity: 1; transform: scaleY(1.08); }
+
+        .wave-details {
+            background: #f8f9ff;
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 14px;
+            display: none;
+        }
+
+        .wave-details.open { display: block; }
+
+        .wave-alert-item {
+            padding: 8px 12px;
+            border-left: 3px solid #667eea;
+            background: white;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+
+        .wave-alert-dt { color: #aaa; font-size: 0.85em; margin-top: 3px; }
+
+        .waves-axis {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75em;
+            color: #999;
+            margin-top: 4px;
+        }
+
+        /* --- Vocab stats --- */
+        .vocab-bars { display: grid; gap: 10px; }
+
+        .vocab-row {
+            display: grid;
+            grid-template-columns: 160px 1fr 80px;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .vocab-label {
+            font-size: 0.9em;
+            color: #444;
+            text-align: right;
+            cursor: pointer;
+            text-decoration: underline dotted;
+        }
+
+        .vocab-label:hover { color: #667eea; }
+
+        .vocab-bar-wrap { background: #eee; border-radius: 8px; height: 20px; overflow: hidden; }
+
+        .vocab-bar {
+            height: 100%;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            border-radius: 8px;
+            transition: width 0.6s ease;
+        }
+
+        .vocab-ttr { font-size: 0.85em; color: #888; }
+
+        /* --- Misc --- */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2em; }
+            .heatmap-grid { font-size: 0.55em; }
+            .vocab-row { grid-template-columns: 120px 1fr 60px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>📊 Post Ping Analysis</h1>
+        <div class="subtitle">Deep dive into Washington Post alert patterns</div>
+        <div class="nav-links">
+            <a href="index.html">📬 Alerts Dashboard</a>
+            <a href="analysis.html" class="active">📊 Analysis</a>
+        </div>
+    </header>
+
+    <!-- Section 1: Weekly AI Digest -->
+    <details class="section" open>
+        <summary>🤖 Weekly AI Digest</summary>
+        <div class="section-body" id="digest-section">
+            <div class="loading-msg">Loading digest data...</div>
+        </div>
+    </details>
+
+    <!-- Section 2: Temporal Heatmap -->
+    <details class="section" open>
+        <summary>🗓️ Temporal Heatmap</summary>
+        <div class="section-body" id="heatmap-section">
+            <div class="loading-msg">Loading heatmap data...</div>
+        </div>
+    </details>
+
+    <!-- Section 3: Word Clouds -->
+    <details class="section" open>
+        <summary>☁️ Topic Word Clouds</summary>
+        <div class="section-body" id="wcloud-section">
+            <div class="loading-msg">Loading TF-IDF data...</div>
+        </div>
+    </details>
+
+    <!-- Section 4: Entity Timeline -->
+    <details class="section" open>
+        <summary>👤 Entity Mention Timeline</summary>
+        <div class="section-body" id="entity-section">
+            <div class="loading-msg">Loading entity data...</div>
+        </div>
+    </details>
+
+    <!-- Section 5: News Waves -->
+    <details class="section" open>
+        <summary>🌊 News Waves</summary>
+        <div class="section-body" id="waves-section">
+            <div class="loading-msg">Loading wave data...</div>
+        </div>
+    </details>
+
+    <!-- Section 6: Vocabulary Stats -->
+    <details class="section" open>
+        <summary>📖 Vocabulary Diversity</summary>
+        <div class="section-body" id="vocab-section">
+            <div class="loading-msg">Loading vocabulary data...</div>
+        </div>
+    </details>
+</div>
+
+<script>
+// ---------------------------------------------------------------------------
+// Global data holders
+// ---------------------------------------------------------------------------
+let META = null, TFIDF = null, ENTITIES = null, DIGESTS = null;
+let entityChart = null, raceChart = null;
+let raceInterval = null, raceWeekIdx = 0;
+
+const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+const TOPIC_COLORS = {
+    'breaking-news': '#e53e3e',
+    'politics': '#3182ce',
+    'world': '#2f855a',
+    'business': '#d69e2e',
+    'technology': '#805ad5',
+    'health': '#dd6b20',
+    'sports': '#38a169',
+    'entertainment': '#d53f8c',
+    'advice': '#718096',
+    'editors_picks': '#667eea',
+    'the7_briefs': '#4a5568',
+    'opinions': '#975a16',
+    'news_quiz': '#a0aec0',
+    'default': '#667eea',
+};
+
+function topicColor(t) { return TOPIC_COLORS[t] || TOPIC_COLORS.default; }
+
+function fmtTopic(t) {
+    return (t || 'unknown').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function escHtml(s) {
+    const d = document.createElement('div');
+    d.textContent = s || '';
+    return d.innerHTML;
+}
+
+// ---------------------------------------------------------------------------
+// Data loading
+// ---------------------------------------------------------------------------
+async function loadAll() {
+    try {
+        const [meta, tfidf, entities, digests] = await Promise.all([
+            fetch('analysis_meta.json').then(r => r.json()),
+            fetch('analysis_tfidf.json').then(r => r.json()),
+            fetch('analysis_entities.json').then(r => r.json()),
+            fetch('analysis_digests.json').then(r => r.json()),
+        ]);
+        META = meta; TFIDF = tfidf; ENTITIES = entities; DIGESTS = digests;
+        renderDigest();
+        renderHeatmap();
+        renderWordCloud();
+        renderEntityTimeline();
+        renderWaves();
+        renderVocabStats();
+    } catch (e) {
+        console.error('Failed to load analysis data:', e);
+        document.querySelectorAll('.loading-msg').forEach(el => {
+            el.textContent = '⚠️ Could not load analysis data. Run analyze_alerts.py first.';
+        });
+    }
+}
+
+// ---------------------------------------------------------------------------
+// Section 1: Weekly Digest
+// ---------------------------------------------------------------------------
+function renderDigest() {
+    const weeks = DIGESTS.weeks || {};
+    const weekKeys = Object.keys(weeks).sort().reverse();
+    const el = document.getElementById('digest-section');
+
+    if (weekKeys.length === 0) {
+        el.innerHTML = '<div class="loading-msg">No digest data yet. Add ANTHROPIC_API_KEY to generate digests.</div>';
+        return;
+    }
+
+    el.innerHTML = `
+        <div class="week-controls">
+            <label style="font-weight:bold;color:#667eea;">Week:</label>
+            <select id="week-select">${weekKeys.map(w =>
+                `<option value="${w}">${w}</option>`).join('')}</select>
+        </div>
+        <div id="digest-body"></div>
+    `;
+
+    document.getElementById('week-select').addEventListener('change', renderDigestBody);
+    renderDigestBody();
+}
+
+function renderDigestBody() {
+    const key = document.getElementById('week-select').value;
+    const d = (DIGESTS.weeks || {})[key];
+    const el = document.getElementById('digest-body');
+    if (!d || d.error) {
+        el.innerHTML = '<div class="loading-msg">No digest available for this week.</div>';
+        return;
+    }
+
+    const stories = (d.top_stories || []).map(s => `
+        <div class="story-card">
+            <div class="story-headline">${escHtml(s.headline)}</div>
+            <div class="story-summary">${escHtml(s.summary)}</div>
+            <div style="margin-top:8px">${(s.topics||[]).map(t =>
+                `<span class="topic-badge" style="background:${topicColor(t)}">${fmtTopic(t)}</span>`
+            ).join('')}
+            ${s.alert_count ? `<span style="color:#aaa;font-size:0.82em;margin-left:8px">${s.alert_count} alerts</span>` : ''}
+            </div>
+        </div>
+    `).join('');
+
+    const cross = (d.cross_topic_stories || []).length > 0 ? `
+        <div class="cross-topic-section">
+            <strong style="color:#667eea">Cross-topic stories:</strong><br>
+            ${d.cross_topic_stories.map(c =>
+                `<span class="cross-topic-item">${escHtml(c.story)} [${(c.topics||[]).join(', ')}]</span>`
+            ).join('')}
+        </div>
+    ` : '';
+
+    el.innerHTML = `
+        <div style="color:#aaa;font-size:0.85em;margin-bottom:12px">
+            ${d.week_start || ''} – ${d.week_end || ''} &nbsp;·&nbsp; ${d.alert_count || 0} alerts
+        </div>
+        <div class="story-cards">${stories}</div>
+        ${d.week_theme ? `<div class="week-theme">💡 ${escHtml(d.week_theme)}</div>` : ''}
+        ${cross}
+        ${d.notable_entities && d.notable_entities.length ?
+            `<div style="margin-top:14px;font-size:0.9em;color:#666">
+                <strong>Notable entities:</strong> ${d.notable_entities.map(escHtml).join(', ')}
+            </div>` : ''}
+    `;
+}
+
+// ---------------------------------------------------------------------------
+// Section 2: Temporal Heatmap
+// ---------------------------------------------------------------------------
+function renderHeatmap() {
+    const el = document.getElementById('heatmap-section');
+    const heatmap = META.heatmap;
+    const topics = Object.keys(heatmap.by_topic).sort();
+
+    el.innerHTML = `
+        <div class="heatmap-controls">
+            <label style="font-weight:bold;color:#667eea;">Topic:</label>
+            <select id="heatmap-topic">
+                <option value="">All Topics</option>
+                ${topics.map(t => `<option value="${t}">${fmtTopic(t)}</option>`).join('')}
+            </select>
+        </div>
+        <div id="heatmap-grid-wrap"></div>
+        <div class="heatmap-legend">
+            <span>Low</span>
+            <div class="legend-gradient"></div>
+            <span>High</span>
+        </div>
+    `;
+
+    document.getElementById('heatmap-topic').addEventListener('change', function() {
+        drawHeatmapGrid(this.value ? heatmap.by_topic[this.value] : heatmap.overall);
+    });
+    drawHeatmapGrid(heatmap.overall);
+}
+
+function drawHeatmapGrid(matrix) {
+    const wrap = document.getElementById('heatmap-grid-wrap');
+    // Find max value for normalization
+    let maxVal = 1;
+    for (const row of matrix) for (const v of row) if (v > maxVal) maxVal = v;
+
+    let html = '<div class="heatmap-grid">';
+    // Header row: hour labels
+    html += '<div></div>';
+    for (let h = 0; h < 24; h++) {
+        html += `<div class="heatmap-hour-label">${h}</div>`;
+    }
+    // Data rows
+    for (let d = 0; d < 7; d++) {
+        html += `<div class="heatmap-row-label">${DAYS[d]}</div>`;
+        for (let h = 0; h < 24; h++) {
+            const v = matrix[d][h];
+            const intensity = v / maxVal;
+            const lightness = Math.round(100 - intensity * 75);
+            const bg = `hsl(240, 60%, ${lightness}%)`;
+            const textColor = intensity > 0.5 ? '#fff' : '#333';
+            html += `<div class="heatmap-cell" style="background:${bg};color:${textColor}"
+                data-tip="${DAYS[d]} ${h}:00 — ${v} alerts" data-v="${v}">
+                ${v > 0 ? '' : ''}
+            </div>`;
+        }
+    }
+    html += '</div>';
+    wrap.innerHTML = html;
+}
+
+// ---------------------------------------------------------------------------
+// Section 3: Word Cloud (Canvas)
+// ---------------------------------------------------------------------------
+let currentTopic = null;
+
+function renderWordCloud() {
+    const el = document.getElementById('wcloud-section');
+    const topics = Object.keys(TFIDF.by_topic).sort();
+
+    const tabs = topics.map(t =>
+        `<button class="topic-tab" data-topic="${t}">${fmtTopic(t)}</button>`
+    ).join('');
+
+    el.innerHTML = `
+        <div class="topic-tabs" id="wcloud-tabs">${tabs}</div>
+        <div id="wcloud-display"></div>
+    `;
+
+    document.getElementById('wcloud-tabs').addEventListener('click', e => {
+        const btn = e.target.closest('.topic-tab');
+        if (!btn) return;
+        document.querySelectorAll('.topic-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        drawWordCloud(btn.dataset.topic);
+    });
+
+    // Pick first non-formulaic topic
+    const firstReal = topics.find(t => {
+        const d = TFIDF.by_topic[t];
+        return !d.formulaic && !d.too_few_alerts && d.terms && d.terms.length > 0;
+    }) || topics[0];
+    const firstBtn = el.querySelector(`[data-topic="${firstReal}"]`);
+    if (firstBtn) { firstBtn.classList.add('active'); drawWordCloud(firstReal); }
+}
+
+function drawWordCloud(topic) {
+    currentTopic = topic;
+    const display = document.getElementById('wcloud-display');
+    const info = TFIDF.by_topic[topic];
+
+    if (!info) { display.innerHTML = '<div class="wcloud-notice">No data for this topic.</div>'; return; }
+    if (info.formulaic) {
+        display.innerHTML = '<div class="wcloud-notice">This topic uses formulaic text and doesn\'t produce meaningful word clouds.</div>';
+        return;
+    }
+    if (info.too_few_alerts) {
+        display.innerHTML = '<div class="wcloud-notice">Too few alerts in this topic for a meaningful word cloud.</div>';
+        return;
+    }
+
+    const terms = (info.terms || []).slice(0, 40);
+    if (terms.length === 0) { display.innerHTML = '<div class="wcloud-notice">No terms available.</div>'; return; }
+
+    const W = Math.min(display.clientWidth || 700, 900);
+    const H = 340;
+    display.innerHTML = `<canvas id="wcloud-canvas" width="${W}" height="${H}"></canvas>`;
+
+    const canvas = document.getElementById('wcloud-canvas');
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, W, H);
+
+    const maxScore = terms[0].score || 1;
+    const minScore = terms[terms.length - 1].score || 0;
+    const scoreRange = maxScore - minScore || 1;
+
+    const color = topicColor(topic);
+    const placed = [];  // {x, y, w, h}
+
+    const cx = W / 2, cy = H / 2;
+    let angle = 0, radius = 0;
+
+    for (const term of terms) {
+        const norm = (term.score - minScore) / scoreRange;
+        const fontSize = Math.round(12 + norm * 36);
+        ctx.font = `bold ${fontSize}px 'Comic Sans MS', cursive`;
+        const metrics = ctx.measureText(term.word);
+        const tw = metrics.width + 4;
+        const th = fontSize + 4;
+
+        let placed_ok = false;
+        for (let attempt = 0; attempt < 600; attempt++) {
+            const x = cx + radius * Math.cos(angle) - tw / 2;
+            const y = cy + radius * Math.sin(angle) + th / 4;
+            if (x < 0 || y - th < 0 || x + tw > W || y > H) {
+                angle += 0.4; radius += 0.6; continue;
+            }
+            const box = {x, y: y - th, w: tw, h: th};
+            const overlap = placed.some(p =>
+                box.x < p.x + p.w && box.x + box.w > p.x &&
+                box.y < p.y + p.h && box.y + box.h > p.y
+            );
+            if (!overlap) {
+                placed.push(box);
+                const alpha = 0.55 + norm * 0.45;
+                ctx.fillStyle = hexToRgba(color, alpha);
+                ctx.fillText(term.word, x, y);
+                placed_ok = true;
+                break;
+            }
+            angle += 0.35; radius += 0.5;
+        }
+        if (!placed_ok) { angle += 0.35; radius += 0.5; }
+    }
+}
+
+function hexToRgba(hex, alpha) {
+    const r = parseInt(hex.slice(1, 3), 16);
+    const g = parseInt(hex.slice(3, 5), 16);
+    const b = parseInt(hex.slice(5, 7), 16);
+    return `rgba(${r},${g},${b},${alpha})`;
+}
+
+// ---------------------------------------------------------------------------
+// Section 4: Entity Timeline
+// ---------------------------------------------------------------------------
+const DEFAULT_ENTITIES = ['Donald Trump', 'Elon Musk'];
+
+function renderEntityTimeline() {
+    const el = document.getElementById('entity-section');
+    const allEntities = ENTITIES.top_entities.map(e => e.name);
+
+    el.innerHTML = `
+        <div class="entity-controls">
+            <div class="entity-search-wrap">
+                <input type="text" id="entity-search" placeholder="Search entity..." autocomplete="off">
+                <div class="entity-dropdown" id="entity-dropdown"></div>
+            </div>
+            <div class="selected-entities" id="selected-entities"></div>
+        </div>
+        <div class="race-controls">
+            <button class="btn" id="race-toggle">▶ Bar Chart Race</button>
+            <label style="font-size:0.9em;color:#666">Speed:
+                <input type="range" id="race-speed" min="50" max="500" value="200" style="vertical-align:middle;padding:0;border:none;width:100px">
+            </label>
+        </div>
+        <div class="chart-wrap">
+            <canvas id="entity-chart"></canvas>
+        </div>
+        <div id="race-chart-wrap">
+            <div id="race-week-label"></div>
+            <div style="position:relative;height:300px"><canvas id="race-chart"></canvas></div>
+        </div>
+    `;
+
+    // Entity search
+    const searchEl = document.getElementById('entity-search');
+    const dropdownEl = document.getElementById('entity-dropdown');
+
+    searchEl.addEventListener('input', () => {
+        const q = searchEl.value.toLowerCase();
+        const matches = q ? allEntities.filter(n => n.toLowerCase().includes(q)).slice(0, 20) : [];
+        if (matches.length === 0) { dropdownEl.classList.remove('open'); return; }
+        dropdownEl.innerHTML = matches.map(n => `<div class="entity-dropdown-item">${escHtml(n)}</div>`).join('');
+        dropdownEl.classList.add('open');
+        dropdownEl.querySelectorAll('.entity-dropdown-item').forEach((item, i) => {
+            item.addEventListener('click', () => {
+                addEntity(matches[i]);
+                searchEl.value = '';
+                dropdownEl.classList.remove('open');
+            });
+        });
+    });
+
+    document.addEventListener('click', e => {
+        if (!e.target.closest('.entity-search-wrap')) dropdownEl.classList.remove('open');
+    });
+
+    // Race button
+    document.getElementById('race-toggle').addEventListener('click', toggleRace);
+
+    // Default selection
+    let defaultPicked = 0;
+    for (const name of DEFAULT_ENTITIES) {
+        if (allEntities.includes(name)) { addEntity(name); defaultPicked++; }
+        if (defaultPicked >= 2) break;
+    }
+    if (defaultPicked === 0 && allEntities.length > 0) addEntity(allEntities[0]);
+}
+
+let selectedEntities = [];
+
+function addEntity(name) {
+    if (selectedEntities.includes(name) || selectedEntities.length >= 5) return;
+    selectedEntities.push(name);
+    renderSelectedChips();
+    updateEntityChart();
+}
+
+function removeEntity(name) {
+    selectedEntities = selectedEntities.filter(n => n !== name);
+    renderSelectedChips();
+    updateEntityChart();
+}
+
+function renderSelectedChips() {
+    const el = document.getElementById('selected-entities');
+    if (!el) return;
+    el.innerHTML = selectedEntities.map(name => `
+        <div class="entity-chip">
+            ${escHtml(name)}
+            <button onclick="removeEntity('${name.replace(/'/g, "\\'")}')" title="Remove">×</button>
+        </div>
+    `).join('');
+}
+
+function updateEntityChart() {
+    const weeks = ENTITIES.weeks_ordered;
+    const canvas = document.getElementById('entity-chart');
+    if (!canvas) return;
+
+    if (entityChart) { entityChart.destroy(); entityChart = null; }
+
+    const CHART_COLORS = ['#e53e3e','#3182ce','#2f855a','#d69e2e','#805ad5'];
+    const datasets = selectedEntities.map((name, i) => {
+        const info = ENTITIES.top_entities.find(e => e.name === name);
+        const data = weeks.map(w => (info && info.by_week[w]) || 0);
+        return {
+            label: name,
+            data,
+            borderColor: CHART_COLORS[i % CHART_COLORS.length],
+            backgroundColor: CHART_COLORS[i % CHART_COLORS.length] + '22',
+            borderWidth: 2,
+            tension: 0.3,
+            fill: false,
+            pointRadius: 2,
+        };
+    });
+
+    // Thin out labels: show every 4th week
+    const labels = weeks.map((w, i) => i % 4 === 0 ? w : '');
+
+    entityChart = new Chart(canvas.getContext('2d'), {
+        type: 'line',
+        data: { labels, datasets },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { labels: { font: { family: "'Comic Sans MS', cursive" } } },
+            },
+            scales: {
+                x: { ticks: { font: { family: "'Comic Sans MS', cursive" }, maxRotation: 45 } },
+                y: { beginAtZero: true, ticks: { font: { family: "'Comic Sans MS', cursive" } } },
+            },
+        },
+    });
+}
+
+function toggleRace() {
+    const wrap = document.getElementById('race-chart-wrap');
+    const btn  = document.getElementById('race-toggle');
+    if (raceInterval) {
+        clearInterval(raceInterval);
+        raceInterval = null;
+        btn.textContent = '▶ Bar Chart Race';
+        wrap.style.display = 'none';
+        return;
+    }
+    wrap.style.display = 'block';
+    btn.textContent = '⏹ Stop Race';
+    raceWeekIdx = 0;
+    startRace();
+}
+
+function startRace() {
+    const weeks = ENTITIES.weeks_ordered;
+    const canvas = document.getElementById('race-chart');
+    if (!canvas) return;
+    if (raceChart) { raceChart.destroy(); raceChart = null; }
+
+    const CHART_COLORS = ['#e53e3e','#3182ce','#2f855a','#d69e2e','#805ad5','#dd6b20','#38a169','#d53f8c','#718096','#667eea'];
+
+    function step() {
+        if (raceWeekIdx >= weeks.length) {
+            clearInterval(raceInterval); raceInterval = null;
+            document.getElementById('race-toggle').textContent = '▶ Bar Chart Race';
+            return;
+        }
+        const week = weeks[raceWeekIdx];
+        document.getElementById('race-week-label').textContent = `Week: ${week}`;
+        // Top 10 entities for this week
+        const ranked = ENTITIES.top_entities
+            .map(e => ({ name: e.name, count: e.by_week[week] || 0 }))
+            .sort((a, b) => b.count - a.count)
+            .slice(0, 10);
+
+        if (raceChart) raceChart.destroy();
+        raceChart = new Chart(canvas.getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels: ranked.map(r => r.name),
+                datasets: [{
+                    data: ranked.map(r => r.count),
+                    backgroundColor: ranked.map((_, i) => CHART_COLORS[i % CHART_COLORS.length]),
+                }],
+            },
+            options: {
+                indexAxis: 'y',
+                animation: { duration: 200 },
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    title: {
+                        display: true,
+                        text: `Top Entities — ${week}`,
+                        font: { family: "'Comic Sans MS', cursive", size: 14 },
+                        color: '#667eea',
+                    },
+                },
+                scales: {
+                    x: { beginAtZero: true, ticks: { font: { family: "'Comic Sans MS', cursive" } } },
+                    y: { ticks: { font: { family: "'Comic Sans MS', cursive", size: 11 } } },
+                },
+            },
+        });
+        raceWeekIdx++;
+    }
+
+    const speed = parseInt(document.getElementById('race-speed').value);
+    step();
+    raceInterval = setInterval(step, speed);
+}
+
+// ---------------------------------------------------------------------------
+// Section 5: News Waves
+// ---------------------------------------------------------------------------
+function renderWaves() {
+    const el = document.getElementById('waves-section');
+    const waves = META.waves || [];
+
+    if (waves.length === 0) {
+        el.innerHTML = '<div class="loading-msg">No news waves detected.</div>';
+        return;
+    }
+
+    // Date range for positioning
+    const allStarts = waves.map(w => new Date(w.start).getTime());
+    const allEnds   = waves.map(w => new Date(w.end).getTime());
+    const minT = Math.min(...allStarts);
+    const maxT = Math.max(...allEnds);
+    const span = maxT - minT || 1;
+
+    function waveColor(keywords) {
+        const kws = keywords.join(' ').toLowerCase();
+        if (kws.includes('trump') || kws.includes('president')) return '#e53e3e';
+        if (kws.includes('israel') || kws.includes('gaza') || kws.includes('ukraine')) return '#d69e2e';
+        if (kws.includes('court') || kws.includes('supreme') || kws.includes('judge')) return '#3182ce';
+        if (kws.includes('storm') || kws.includes('hurricane') || kws.includes('earth')) return '#2f855a';
+        return '#764ba2';
+    }
+
+    const blocks = waves.map((w, i) => {
+        const left = ((new Date(w.start).getTime() - minT) / span * 96).toFixed(2);
+        const widthPct = Math.max(0.4, ((new Date(w.end).getTime() - new Date(w.start).getTime()) / span * 96)).toFixed(2);
+        const color = waveColor(w.keywords);
+        const label = w.count >= 3 ? w.count : '';
+        return `<div class="wave-block" style="left:${left}%;width:${widthPct}%;background:${color}"
+            data-idx="${i}" onclick="toggleWaveDetails(${i})" title="${w.keywords.join(', ')}">${label}</div>`;
+    }).join('');
+
+    const details = waves.map((w, i) => `
+        <div class="wave-details" id="wave-detail-${i}">
+            <strong>Wave ${i + 1}:</strong> ${w.start.slice(0,16)} – ${w.end.slice(0,16)}
+            &nbsp;·&nbsp; ${w.count} alerts
+            &nbsp;·&nbsp; Keywords: <em>${w.keywords.join(', ')}</em>
+            <div style="margin-top:12px">
+                ${w.alerts.map(a =>
+                    `<div class="wave-alert-item">
+                        ${escHtml(a.body)}
+                        <div class="wave-alert-dt">${a.dt.slice(0,16)}</div>
+                    </div>`
+                ).join('')}
+            </div>
+        </div>
+    `).join('');
+
+    // Axis labels
+    const axisLeft  = new Date(minT).toLocaleDateString();
+    const axisRight = new Date(maxT).toLocaleDateString();
+
+    el.innerHTML = `
+        <p style="color:#666;font-size:0.9em;margin-bottom:12px">
+            ${waves.length} news waves detected — clusters of 3+ breaking-news alerts within 6 hours sharing common keywords. Click a block to expand.
+        </p>
+        <div class="waves-timeline">
+            <div class="waves-inner">${blocks}</div>
+        </div>
+        <div class="waves-axis"><span>${axisLeft}</span><span>${axisRight}</span></div>
+        <div id="wave-details-container">${details}</div>
+    `;
+}
+
+let openWave = null;
+
+function toggleWaveDetails(idx) {
+    if (openWave !== null && openWave !== idx) {
+        const prev = document.getElementById(`wave-detail-${openWave}`);
+        if (prev) prev.classList.remove('open');
+    }
+    const el = document.getElementById(`wave-detail-${idx}`);
+    if (!el) return;
+    const isOpen = el.classList.contains('open');
+    el.classList.toggle('open');
+    openWave = isOpen ? null : idx;
+}
+
+// ---------------------------------------------------------------------------
+// Section 6: Vocabulary Stats
+// ---------------------------------------------------------------------------
+function renderVocabStats() {
+    const el = document.getElementById('vocab-section');
+    const byTopic = (META.vocab || {}).by_topic || {};
+
+    const sorted = Object.entries(byTopic)
+        .sort((a, b) => b[1].ttr - a[1].ttr);
+
+    const maxTTR = sorted.length ? sorted[0][1].ttr : 1;
+
+    const rows = sorted.map(([topic, stats]) => `
+        <div class="vocab-row">
+            <div class="vocab-label" onclick="jumpToWordCloud('${topic}')" title="View word cloud">
+                ${fmtTopic(topic)}
+            </div>
+            <div class="vocab-bar-wrap">
+                <div class="vocab-bar" style="width:${(stats.ttr / maxTTR * 100).toFixed(1)}%"></div>
+            </div>
+            <div class="vocab-ttr">TTR ${stats.ttr.toFixed(3)}</div>
+        </div>
+    `).join('');
+
+    el.innerHTML = `
+        <p style="color:#666;font-size:0.9em;margin-bottom:16px">
+            Type-Token Ratio (TTR) measures vocabulary diversity — higher = more varied language. Click a topic name to view its word cloud.
+        </p>
+        <div class="vocab-bars">${rows}</div>
+    `;
+}
+
+function jumpToWordCloud(topic) {
+    // Open word cloud section if closed
+    const section = document.getElementById('wcloud-section').closest('details');
+    if (section) section.open = true;
+    // Activate tab
+    const btn = document.querySelector(`#wcloud-tabs [data-topic="${topic}"]`);
+    if (btn) {
+        document.querySelectorAll('.topic-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        drawWordCloud(topic);
+        btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+}
+
+// ---------------------------------------------------------------------------
+// Init
+// ---------------------------------------------------------------------------
+loadAll();
+</script>
+</body>
+</html>
