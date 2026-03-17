@@ -12,10 +12,10 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 try:
-    import anthropic
-    CLAUDE_AVAILABLE = True
+    import llm
+    LLM_AVAILABLE = True
 except ImportError:
-    CLAUDE_AVAILABLE = False
+    LLM_AVAILABLE = False
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -545,7 +545,7 @@ def compute_publishing_patterns(alerts: list[dict]) -> dict:
 # Claude API functions
 # ---------------------------------------------------------------------------
 
-def call_weekly_digest(client, week_label: str, week_alerts: list[dict]) -> dict:
+def call_weekly_digest(week_label: str, week_alerts: list[dict]) -> dict:
     """Call Claude to produce a structured digest for one week."""
     alert_lines = "\n".join(
         f"- [{a['topic']}] {a['body']}"
@@ -555,34 +555,30 @@ def call_weekly_digest(client, week_label: str, week_alerts: list[dict]) -> dict
     if not alert_lines:
         return {"error": True, "reason": "no_content"}
 
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=900,
+    model = llm.get_model("claude-haiku-4-5")
+    response = model.prompt(
+        (
+            f"Analyze Washington Post SMS alerts from {week_label}.\n\n"
+            f"Alerts:\n{alert_lines}\n\n"
+            "Return this exact JSON structure:\n"
+            '{\n'
+            '  "top_stories": [\n'
+            '    {"headline": "str", "summary": "2-3 sentences", "topics": ["str"], "alert_count": int}\n'
+            '  ],\n'
+            '  "week_theme": "One sentence characterizing this week\'s news",\n'
+            '  "notable_entities": ["name"],\n'
+            '  "cross_topic_stories": [{"story": "str", "topics": ["str"]}]\n'
+            '}\n'
+            "top_stories must have exactly 5 items (or fewer if fewer distinct stories exist). "
+            "notable_entities: top 5 people/orgs mentioned."
+        ),
         system=(
             "You are a news analyst. Respond ONLY with valid JSON. "
             "No markdown fences, no explanation, no preamble."
         ),
-        messages=[{
-            "role": "user",
-            "content": (
-                f"Analyze Washington Post SMS alerts from {week_label}.\n\n"
-                f"Alerts:\n{alert_lines}\n\n"
-                "Return this exact JSON structure:\n"
-                '{\n'
-                '  "top_stories": [\n'
-                '    {"headline": "str", "summary": "2-3 sentences", "topics": ["str"], "alert_count": int}\n'
-                '  ],\n'
-                '  "week_theme": "One sentence characterizing this week\'s news",\n'
-                '  "notable_entities": ["name"],\n'
-                '  "cross_topic_stories": [{"story": "str", "topics": ["str"]}]\n'
-                '}\n'
-                "top_stories must have exactly 5 items (or fewer if fewer distinct stories exist). "
-                "notable_entities: top 5 people/orgs mentioned."
-            ),
-        }],
     )
 
-    raw = response.content[0].text.strip()
+    raw = response.text().strip()
     # Strip accidental markdown fences
     raw = re.sub(r"^```json?\s*|\s*```$", "", raw, flags=re.DOTALL)
     try:
@@ -592,26 +588,22 @@ def call_weekly_digest(client, week_label: str, week_alerts: list[dict]) -> dict
         return {"error": True, "reason": "parse_failed", "raw": raw[:300]}
 
 
-def call_urgency_batch(client, batch: list[dict]) -> dict:
+def call_urgency_batch(batch: list[dict]) -> dict:
     """Score a batch of alerts for urgency via Claude."""
     lines = "\n".join(f"{a['id']}: {a['body']}" for a in batch)
 
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=500,
+    model = llm.get_model("claude-haiku-4-5")
+    response = model.prompt(
+        (
+            "Rate each alert's urgency (1=routine evergreen, "
+            "10=immediate breaking life-safety news).\n"
+            'Return JSON: {"alert_id": {"score": int, "reason": "word"}}\n\n'
+            f"Alerts:\n{lines}"
+        ),
         system="Rate news alert urgency 1-10. Respond ONLY with JSON.",
-        messages=[{
-            "role": "user",
-            "content": (
-                "Rate each alert's urgency (1=routine evergreen, "
-                "10=immediate breaking life-safety news).\n"
-                'Return JSON: {"alert_id": {"score": int, "reason": "word"}}\n\n'
-                f"Alerts:\n{lines}"
-            ),
-        }],
     )
 
-    raw = response.content[0].text.strip()
+    raw = response.text().strip()
     raw = re.sub(r"^```json?\s*|\s*```$", "", raw, flags=re.DOTALL)
     try:
         return json.loads(raw)
@@ -619,7 +611,7 @@ def call_urgency_batch(client, batch: list[dict]) -> dict:
         return {}
 
 
-def compute_weekly_digests(client, alerts: list[dict], cache: dict) -> dict:
+def compute_weekly_digests(alerts: list[dict], cache: dict) -> dict:
     """Produce Claude digests for each ISO week, using cache to skip old completed weeks."""
     if "digests" not in cache:
         cache["digests"] = {}
@@ -639,7 +631,7 @@ def compute_weekly_digests(client, alerts: list[dict], cache: dict) -> dict:
         week_alerts = weekly[week_key]
         print(f"  Generating digest for {week_key} ({len(week_alerts)} alerts)...")
         try:
-            result = call_weekly_digest(client, week_key, week_alerts)
+            result = call_weekly_digest(week_key, week_alerts)
             # Add metadata
             year_s, week_s = week_key.split("-W")
             week_start = datetime.strptime(f"{year_s}-W{week_s}-1", "%G-W%V-%w")
@@ -655,7 +647,7 @@ def compute_weekly_digests(client, alerts: list[dict], cache: dict) -> dict:
     return cache["digests"]
 
 
-def compute_claude_urgency_subset(client, alerts: list[dict], cache: dict) -> dict:
+def compute_claude_urgency_subset(alerts: list[dict], cache: dict) -> dict:
     """Score a subset of breaking-news alerts via Claude."""
     if "urgency" not in cache:
         cache["urgency"] = {}
@@ -673,7 +665,7 @@ def compute_claude_urgency_subset(client, alerts: list[dict], cache: dict) -> di
         batch = candidates[i:i + 30]
         print(f"  Scoring urgency for batch of {len(batch)} alerts...")
         try:
-            results = call_urgency_batch(client, batch)
+            results = call_urgency_batch(batch)
             for alert_id, data in results.items():
                 cache["urgency"][alert_id] = {
                     "score":  data.get("score", 5),
@@ -731,11 +723,10 @@ def main() -> None:
 
     # --- Claude passes (conditional) ---
     digests: dict = cache.get("digests", {})
-    if CLAUDE_AVAILABLE and os.getenv("ANTHROPIC_API_KEY"):
+    if LLM_AVAILABLE and os.getenv("ANTHROPIC_API_KEY"):
         print("Running Claude analysis...")
-        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-        digests = compute_weekly_digests(client, alerts, cache)
-        claude_urgency = compute_claude_urgency_subset(client, alerts, cache)
+        digests = compute_weekly_digests(alerts, cache)
+        claude_urgency = compute_claude_urgency_subset(alerts, cache)
         urgency.update(claude_urgency)
         cache["last_run"] = datetime.now(timezone.utc).isoformat()
         save_cache(cache)
