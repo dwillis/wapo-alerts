@@ -30,10 +30,11 @@ jobs:
       - name: Run RSS
         run: uv run python make_rss.py
 
+      - name: Set llm anthropic key
+        run: uv run llm keys set anthropic --value "${{ secrets.ANTHROPIC_API_KEY }}"
+
       - name: Run analysis
         run: uv run python analyze_alerts.py
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Sync alerts.json to site directory
         run: cp alerts.json site/alerts.json

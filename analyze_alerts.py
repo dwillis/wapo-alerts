@@ -723,7 +723,7 @@ def main() -> None:
 
     # --- Claude passes (conditional) ---
     digests: dict = cache.get("digests", {})
-    if LLM_AVAILABLE and os.getenv("ANTHROPIC_API_KEY"):
+    if LLM_AVAILABLE and llm.get_key("anthropic"):
         print("Running Claude analysis...")
         digests = compute_weekly_digests(alerts, cache)
         claude_urgency = compute_claude_urgency_subset(alerts, cache)
