@@ -14,6 +14,12 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v4
 
+      - name: Install dependencies
+        run: uv pip install -r requirements.txt --system
+
+      - name: Install Playwright browsers
+        run: playwright install --with-deps firefox
+
       - name: Write cookies file
         run: echo '${{ secrets.COOKIES_JSON }}' > cookies.json
 
