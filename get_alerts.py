@@ -6,18 +6,48 @@ from playwright.sync_api import sync_playwright
 url = "https://www.washingtonpost.com/prism/api/alerts"
 local_file_path = 'alerts.json'
 
+COOKIES_FILE = 'cookies.json'
 
 def fetch_new_alerts_with_playwright(url):
     with sync_playwright() as p:
-        browser = p.firefox.launch(headless=True)  # Use headless=False for debugging
-        page = browser.new_page()
-        page.goto(url)
+        browser = p.firefox.launch(headless=True)
+        context = browser.new_context(
+            user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0',
+            extra_http_headers={
+                'Accept': 'application/json, text/plain, */*',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Referer': 'https://www.washingtonpost.com/',
+                'Origin': 'https://www.washingtonpost.com',
+            }
+        )
 
-        # Wait for a specific element if necessary, or delay for content loading
-        # page.wait_for_selector("selector-to-wait-for")
+        # Load cookies from file if available
+        try:
+            with open(COOKIES_FILE, 'r') as f:
+                cookies = json.load(f)
+            # Normalize sameSite values to what Playwright expects
+            same_site_map = {
+                'no_restriction': 'None',
+                'lax': 'Lax',
+                'strict': 'Strict',
+                'unspecified': 'None',
+            }
+            allowed_fields = {'name', 'value', 'domain', 'path', 'expires', 'httpOnly', 'secure', 'sameSite', 'url'}
+            normalized = []
+            for cookie in cookies:
+                raw = cookie.get('sameSite') or ''
+                c = {k: v for k, v in cookie.items() if k in allowed_fields}
+                c['sameSite'] = same_site_map.get(raw.lower(), 'None')
+                normalized.append(c)
+            context.add_cookies(normalized)
+            print(f"Loaded {len(cookies)} cookies from {COOKIES_FILE}")
+        except FileNotFoundError:
+            print(f"No {COOKIES_FILE} found; proceeding without cookies")
 
-        content = page.content()  # Get the full page content
-        json_data = page.evaluate("() => JSON.parse(document.body.innerText)")  # Adjust as needed
+        page = context.new_page()
+        page.goto(url, wait_until='networkidle')
+
+        json_data = page.evaluate("() => JSON.parse(document.body.innerText)")
         browser.close()
 
         return json_data
