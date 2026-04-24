@@ -15,7 +15,7 @@ jobs:
         uses: astral-sh/setup-uv@v4
 
       - name: Install dependencies
-        run: uv pip install -r requirements.txt --system
+        run: pip install -r requirements.txt
 
       - name: Install Playwright browsers
         run: playwright install --with-deps firefox
@@ -24,7 +24,7 @@ jobs:
         run: echo '${{ secrets.COOKIES_JSON }}' > cookies.json
 
       - name: Run get_alerts.py
-        run: uv run python get_alerts.py
+        run: python get_alerts.py
 
       - name: Commit updated alerts
         run: |
