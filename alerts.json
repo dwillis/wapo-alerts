@@ -416703,5 +416703,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ee9e6940-87b7-11f1-b11b-00000a1acedf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "5 truths about retirement that retirees wish they\u2019d known sooner",
+            "ios": {
+                "alert": {
+                    "body": "5 truths about retirement that retirees wish they\u2019d known sooner",
+                    "title": "Shifting into Retired Life"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/07/24/5-truths-about-retirement-that-retirees-wish-theyd-known-sooner/",
+                        "datetime": "2026-07-24T23:32:27.295000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a63f60bfd12a83700000078",
+                        "targetTopic": "editors_picks",
+                        "text": "There\u2019s no universal way to retire, but these firsthand insights may help you navigate post-professional life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
