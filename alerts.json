@@ -416559,5 +416559,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff9b2521-87a4-11f1-a409-0000a1ace3b6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My father was Baptist minister Jesse Jackson. Yet he blessed my conversion.",
+            "ios": {
+                "alert": {
+                    "body": "My father was Baptist minister Jesse Jackson. Yet he blessed my conversion.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/24/jesse-jackson-was-my-father-he-blessed-my-embrace-judaism/",
+                        "datetime": "2026-07-24T21:16:55.438000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a63d647ecddb03600000074",
+                        "targetTopic": "opinions",
+                        "text": "My father was Baptist minister Jesse Jackson. Yet he blessed my conversion."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
