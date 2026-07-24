@@ -416607,5 +416607,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db98e810-87a9-11f1-a5a7-000a1ace3930",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump orders that warnings of \u2018inaccurate\u2019 exhibits be posted near National Museum of American History, escalating Smithsonian fight",
+            "ios": {
+                "alert": {
+                    "body": "Trump orders that warnings of \u2018inaccurate\u2019 exhibits be posted near National Museum of American History, escalating Smithsonian fight",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/07/24/trump-orders-warning-signs-near-smithsonian-escalating-fight-over-history/",
+                        "datetime": "2026-07-24T21:51:42.503000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a63de6eeaeba83700000066",
+                        "targetTopic": "breaking-news",
+                        "text": "The White House said in a statement that the Smithsonian generally and its American history museum in particular have veered \u201ctoward extreme political activism, rooted in Marxism, to divide, dispirit, and discourage Americans.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
