@@ -416078,5 +416078,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4ae22510-8764-11f1-a5a7-000a1ace3930",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wager your points and finish off the week with today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Wager your points and finish off the week with today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-07-24T13:33:44.462000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6369b8fd12a83700000074",
+                        "targetTopic": "news_quiz",
+                        "text": "Take today\u2019s news quiz and complete your point total for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ce3074f1-8758-11f1-8778-00000a1ace0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "CDC links four more states to cyclosporiasis outbreak traced to shredded iceberg lettuce from a supplier in Mexico",
+            "ios": {
+                "alert": {
+                    "body": "CDC links four more states to cyclosporiasis outbreak traced to shredded iceberg lettuce from a supplier in Mexico",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/07/24/cdc-expands-largest-known-us-cyclospora-outbreak-9-states/",
+                        "datetime": "2026-07-24T12:11:30.753000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a635672ecddb03600000072",
+                        "targetTopic": "breaking-news",
+                        "text": "The newly linked states \u2014 Illinois, Kansas, Oklahoma and Pennsylvania \u2014 join Indiana, Kentucky, Michigan, Ohio and West Virginia, according to two individuals familiar with the investigation. Shredded iceberg lettuce served at Taco Bell restaurants in those states has been traced to Taylor Farms de Mexico.\n\nCyclospora infections have been reported in at least 41 states this year, but investigators are still working to determine whether more are part of the nine-state outbreak."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "dce24181-8768-11f1-b676-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Knives are out for Vance in the GOP. His allies say it\u2019s a coordinated \u2018op.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Knives are out for Vance in the GOP. His allies say it\u2019s a coordinated \u2018op.\u2019",
+                    "title": "Online Attacks"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/24/knives-are-out-vance-gop-his-allies-say-its-coordinated-op/",
+                        "datetime": "2026-07-24T14:06:27.252000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a637163ecddb03600000073",
+                        "targetTopic": "editors_picks",
+                        "text": "As JD Vance prepares to make a decision about his 2028 plans, the vice president is facing a barrage of online attacks from within his party, criticism his allies say appears to be part of a coordinated attempt to poison the well for him politically."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
