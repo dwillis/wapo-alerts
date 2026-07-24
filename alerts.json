@@ -416415,5 +416415,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbed8901-8788-11f1-b676-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE officer linked to Maine shooting was deemed not credible in court last year",
+            "ios": {
+                "alert": {
+                    "body": "ICE officer linked to Maine shooting was deemed not credible in court last year",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/07/24/ice-officer-linked-maine-shooting-was-deemed-not-credible-court-last-year/",
+                        "datetime": "2026-07-24T17:55:02.803000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a63a6f6eaeba83700000065",
+                        "targetTopic": "us",
+                        "text": "State and local officials are rebutting David Brouillette\u2019s claims in court about losing his driver\u2019s license and being employed as a local officer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "047b5df7-8785-11f1-b5fe-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats recommend South Carolina vote first in 2028 presidential primary",
+            "ios": {
+                "alert": {
+                    "body": "Democrats recommend South Carolina vote first in 2028 presidential primary",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/24/democrats-pick-south-carolina-first-state-2028-presidential-primary/",
+                        "datetime": "2026-07-24T17:27:59.755000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a63a09ffd12a83700000076",
+                        "targetTopic": "politics",
+                        "text": "The panel\u2019s votes early Friday were preliminary and subject to change as the proposed calendar takes shape. Its recommendations will go to the full DNC for approval next month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
