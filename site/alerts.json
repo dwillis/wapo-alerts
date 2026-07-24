@@ -416030,5 +416030,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ca2642e1-874e-11f1-93ec-00000a1ace53",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New tariffs. Saudi deal. Vance attacks. Police shooting. Cyclospora outbreak. Heat dome. In-flight preachers. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "New tariffs. Saudi deal. Vance attacks. Police shooting. Cyclospora outbreak. Heat dome. In-flight preachers. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/07/24/7-things-know-thursday-july-24/?noredirect=1",
+                        "datetime": "2026-07-24T10:59:49.053000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6a6345a5eaeba83700000063",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
