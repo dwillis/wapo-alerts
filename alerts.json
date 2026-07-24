@@ -416655,5 +416655,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2a412381-87ad-11f1-9709-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Paramount says it will delay Warner Bros. merger until next summer",
+            "ios": {
+                "alert": {
+                    "body": "Paramount says it will delay Warner Bros. merger until next summer",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/07/24/paramount-says-it-will-delay-warner-bros-merger-until-next-summer/",
+                        "datetime": "2026-07-24T22:15:22.983000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a63e3faecddb03600000075",
+                        "targetTopic": "breaking-news",
+                        "text": "The move comes days after a federal judge temporarily paused the deal in response to a challenge by 12 attorneys general."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
