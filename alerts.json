@@ -416511,5 +416511,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dd025000-8791-11f1-88f6-00000a1aceff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal agency seeks to interview Afghan immigrants, alarming refugee groups",
+            "ios": {
+                "alert": {
+                    "body": "Federal agency seeks to interview Afghan immigrants, alarming refugee groups",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/07/24/us-agency-seeks-interview-afghan-immigrants-alarming-refugee-groups/",
+                        "datetime": "2026-07-24T18:59:56.961000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a63b62cfd12a83700000077",
+                        "targetTopic": "breaking-news",
+                        "text": "The Office of Refugee Resettlement aims to compile detailed information about 800 Afghans, including whether they are legally in the country. Refugee groups worry the data could be used for future immigration enforcement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
