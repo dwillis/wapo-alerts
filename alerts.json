@@ -417136,5 +417136,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5df1b9b0-8875-11f1-b45a-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nearly 500 readers shared stories of deathbed visions. Here are 10.",
+            "ios": {
+                "alert": {
+                    "body": "Nearly 500 readers shared stories of deathbed visions. Here are 10.",
+                    "title": "Memorable Experiences"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/07/25/we-asked-readers-share-their-stories-deathbed-visions-here-are-10-vivid-accounts/",
+                        "datetime": "2026-07-25T22:08:28.973000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6533dcfd12a8370000007c",
+                        "targetTopic": "editors_picks",
+                        "text": "The end-of-life experiences that brought comfort to the dying and solace to their caregivers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
