@@ -417087,5 +417087,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "17471e80-8864-11f1-bf18-00000a1acedd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It\u2019s normal to forget some things, but here\u2019s when to see a doctor",
+            "ios": {
+                "alert": {
+                    "body": "It\u2019s normal to forget some things, but here\u2019s when to see a doctor",
+                    "title": "Changes in Memory"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/07/25/it-normal-forget-some-things-heres-when-see-doctor/",
+                        "datetime": "2026-07-25T20:04:49.041000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6516e1fd12a8370000007b",
+                        "targetTopic": "health",
+                        "text": "We all have our moments, but how can you tell if your mini memory lapses are par for the course or a sign of a bigger issue?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
