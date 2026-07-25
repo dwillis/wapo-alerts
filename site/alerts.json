@@ -416847,5 +416847,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "69361d21-883e-11f1-a14f-00000a1acebd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats pick Troy Jackson as new Senate candidate in Maine in aftermath of Platner debacle",
+            "ios": {
+                "alert": {
+                    "body": "Democrats pick Troy Jackson as new Senate candidate in Maine in aftermath of Platner debacle",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/25/democrats-pick-new-senate-candidate-maine-aftermath-platner-debacle/",
+                        "datetime": "2026-07-25T15:35:05.617000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a64d7a9eaeba83700000067",
+                        "targetTopic": "breaking-news",
+                        "text": "Jackson, a 58-year-old logger and former Maine Senate leader, won his party's nomination by commandeering the progressive movement that fueled Graham Platner's rise. He will face off against GOP Sen. Susan Collins in November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
