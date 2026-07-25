@@ -416991,5 +416991,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "58cf6710-884e-11f1-bb72-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Post reporter reflects on the second-weirdest White House correspondents\u2019 dinner she\u2019s attended",
+            "ios": {
+                "alert": {
+                    "body": "A Post reporter reflects on the second-weirdest White House correspondents\u2019 dinner she\u2019s attended",
+                    "title": "A Surreal Evening"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/07/25/second-weirdest-white-house-correspondents-dinner-ive-ever-attended/",
+                        "datetime": "2026-07-25T17:29:10.062000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a64f266fd12a8370000007a",
+                        "targetTopic": "editors_picks",
+                        "text": "Trump criticized journalists, politicians and even his own speechwriters at the rescheduled dinner at the Waldorf Astoria."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
