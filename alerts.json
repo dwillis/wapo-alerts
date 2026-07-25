@@ -417039,5 +417039,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "964d3a30-8854-11f1-a76a-0000a1ace96f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Brazil denies visas to U.S. delegation aiming to impugn election system, officials say",
+            "ios": {
+                "alert": {
+                    "body": "Brazil denies visas to U.S. delegation aiming to impugn election system, officials say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/07/24/us-sending-envoys-question-brazilian-electoral-system-officials-say/",
+                        "datetime": "2026-07-25T18:13:50.177000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a64fcdeeaeba83700000069",
+                        "targetTopic": "world",
+                        "text": "The U.S. delegation had planned to visit the Brazilian capital and cast doubt on the integrity of the voting system before a presidential election this fall, officials said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
