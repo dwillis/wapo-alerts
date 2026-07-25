@@ -416751,5 +416751,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2f5bc6a3-8824-11f1-b934-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s insult-laden speech to White House correspondents\u2019 dinner draws mostly stunned silence",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s insult-laden speech to White House correspondents\u2019 dinner draws mostly stunned silence",
+                    "title": "Press Dinner Redo"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/24/trump-returns-correspondents-dinner-after-shooting-disrupted-april-event/",
+                        "datetime": "2026-07-25T12:27:21.623000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a64aba9fd12a83700000079",
+                        "targetTopic": "breaking-news",
+                        "text": "The president addressed a smaller, heavily secured gathering as his administration intensifies its legal and rhetorical attacks on journalists."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
