@@ -416895,5 +416895,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7e5e3bc0-8842-11f1-bf5e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Husband uses spouse like a Google search bar",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Husband uses spouse like a Google search bar",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/07/25/carolyn-hax-husband-uses-spouse-like-google-search-bar/",
+                        "datetime": "2026-07-25T16:04:19.099000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a64de83ecddb03600000076",
+                        "targetTopic": "advice",
+                        "text": "No question is too big, too small or too much of a time suck for this husband to ask the increasingly annoyed letter writer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "453bd9e2-8844-11f1-b86b-00000a1ace08",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I was a diplomat in Iran. Two rules explain its actions.",
+            "ios": {
+                "alert": {
+                    "body": "I was a diplomat in Iran. Two rules explain its actions.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/24/counter-iranian-attacks-west-must-understand-regime-politics/",
+                        "datetime": "2026-07-25T16:17:02.239000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a64e17eeaeba83700000068",
+                        "targetTopic": "opinions",
+                        "text": "Western countries assume Iran\u2019s actions are aimed at them. But something else is going on, writes Matthew Gould, a former British ambassador to Israel and former deputy ambassador to Iran."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
