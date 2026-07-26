@@ -417184,5 +417184,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fe7ce160-88f8-11f1-a0a4-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After Trump\u2019s order, West Point curbed faculty speech. One professor said no.",
+            "ios": {
+                "alert": {
+                    "body": "After Trump\u2019s order, West Point curbed faculty speech. One professor said no.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/07/26/west-point-professors-lawsuit-tests-militarys-tolerance-internal-criticism/",
+                        "datetime": "2026-07-26T13:50:42.393000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6610b2fd12a8370000007d",
+                        "targetTopic": "editors_picks",
+                        "text": "Tim Bakken argues that the Pentagon\u2019s attempt to stifle what teachers can say and write makes the military more susceptible to bad decisions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6141ca70-88f6-11f1-b7fc-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Crossword and a coffee: Solve the Sunday puzzle now",
+            "ios": {
+                "alert": {
+                    "body": "Crossword and a coffee: Solve the Sunday puzzle now",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/crossword/",
+                        "datetime": "2026-07-26T13:31:59.650000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a660c4feaeba8370000006a",
+                        "targetTopic": "news_quiz",
+                        "text": "Play The Post's daily crossword puzzles online for free."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
