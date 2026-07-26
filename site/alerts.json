@@ -417472,5 +417472,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3122aca1-8924-11f1-8879-00000a1ace16",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Suspect in deadly attack on Berlin Pride parade killed in police operation, authorities say",
+            "ios": {
+                "alert": {
+                    "body": "Suspect in deadly attack on Berlin Pride parade killed in police operation, authorities say",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/07/26/berlin-pride-attack-investigated-terrorism-with-suspect-large/",
+                        "datetime": "2026-07-26T18:59:55.781000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a66592becddb03600000078",
+                        "targetTopic": "world",
+                        "text": "Police said the suspect was found Sunday at a garden in the Berlin suburb of Spandau and was armed with a \u201cstabbing weapon.\u201d Officers opened fire and fatally wounded him."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
