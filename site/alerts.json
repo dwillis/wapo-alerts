@@ -417568,5 +417568,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e9424203-893d-11f1-a407-00000a1ace34",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Old-fashioned snobbery is out. Microsnobberies are in.",
+            "ios": {
+                "alert": {
+                    "body": "Old-fashioned snobbery is out. Microsnobberies are in.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/26/snobbery-social-media-age-has-new-even-more-divisive-look/",
+                        "datetime": "2026-07-26T22:04:01.989000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6684513c9ccb3600000070",
+                        "targetTopic": "opinions",
+                        "text": "Now you\u2019re judged on your children\u2019s lunch boxes and whether your olive oil has a story, Victoria Wolff writes"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
