@@ -417280,5 +417280,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6d95bff0-88fd-11f1-b7fc-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Brazilian President Luiz In\u00e1cio Lula da Silva to Trump: \u2018No one will defeat us through lies\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Brazilian President Luiz In\u00e1cio Lula da Silva to Trump: \u2018No one will defeat us through lies\u2019",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/26/lula-says-trumps-brazil-tariffs-are-strategic-mistake/",
+                        "datetime": "2026-07-26T14:22:26.738000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a661822fd12a8370000007e",
+                        "targetTopic": "opinions",
+                        "text": "U.S. tariffs on Brazil are a strategic mistake, he writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
