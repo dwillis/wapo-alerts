@@ -417520,5 +417520,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8a97aae5-893a-11f1-ab5d-00000a1ace60",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Illness has transformed Biden\u2019s post-presidential life",
+            "ios": {
+                "alert": {
+                    "body": "Illness has transformed Biden\u2019s post-presidential life",
+                    "title": "A Shrinking World"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/26/illness-has-transformed-biden-post-presidential-life/",
+                        "datetime": "2026-07-26T21:39:54.797000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a667eaaecddb03600000079",
+                        "targetTopic": "editors_picks",
+                        "text": "Cancer treatment has sharply limited Joe Biden\u2019s life since he left the White House 18 months ago even as his upcoming memoir threatens to reopen debates over his health and presidency."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
