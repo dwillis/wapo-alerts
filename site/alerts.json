@@ -417424,5 +417424,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "38311240-8913-11f1-9753-00000a1ace02",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republicans see \u2018scary\u2019 lack of enthusiasm among core voters ahead of midterms",
+            "ios": {
+                "alert": {
+                    "body": "Republicans see \u2018scary\u2019 lack of enthusiasm among core voters ahead of midterms",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/26/republican-enthusiasm-problem-hits-even-core-voters/",
+                        "datetime": "2026-07-26T16:58:26.144000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a663cb2eaeba8370000006b",
+                        "targetTopic": "politics",
+                        "text": "Pollsters and GOP groups are raising the alarm about an unmotivated base in an election year that would be tough for Republicans no matter what, given President Donald Trump\u2019s low approval ratings."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
