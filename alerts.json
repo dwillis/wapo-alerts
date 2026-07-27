@@ -417664,5 +417664,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bfe99d32-89cf-11f1-b1e6-00000a1ace0c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says deadly boat strikes have nearly ended drug trafficking to the U.S. by sea. The Pentagon and DEA disagree.",
+            "ios": {
+                "alert": {
+                    "body": "Trump says deadly boat strikes have nearly ended drug trafficking to the U.S. by sea. The Pentagon and DEA disagree.",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/07/27/operation-southern-spear-has-not-slowed-cocaine-entering-us/",
+                        "datetime": "2026-07-27T15:27:59.234000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6778ffecddb0360000007a",
+                        "targetTopic": "breaking-news",
+                        "text": "The Trump administration\u2019s military strikes on alleged drug trafficking boats off Central and South America have not reduced the amount of cocaine entering the United States, officials report."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b982cfc3-89c0-11f1-b116-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "John Fetterman: Now I see the truth about the filibuster",
+            "ios": {
+                "alert": {
+                    "body": "John Fetterman: Now I see the truth about the filibuster",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/27/john-fetterman-why-i-changed-my-mind-about-filibuster/",
+                        "datetime": "2026-07-27T13:40:26.097000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a675fcafd12a83700000080",
+                        "targetTopic": "opinions",
+                        "text": "The 60-vote Senate rule forces compromise. Democrats were wrong to attack it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9980e970-89be-11f1-b116-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A preliminary recommendation in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A preliminary recommendation in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-07-27T13:25:13.389000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a675c393c9ccb3600000072",
+                        "targetTopic": "news_quiz",
+                        "text": "A preliminary recommendation in today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6bb56b50-89ba-11f1-afeb-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside the unsubstantiated allegation that led Pete Buttigieg to be separated from his kids",
+            "ios": {
+                "alert": {
+                    "body": "Inside the unsubstantiated allegation that led Pete Buttigieg to be separated from his kids",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/27/source-bogus-buttigieg-allegation-appeared-mentally-unstable-records-show/",
+                        "datetime": "2026-07-27T12:55:18.562000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a675536fd12a8370000007f",
+                        "targetTopic": "editors_picks",
+                        "text": "The Michigan attorney general\u2019s office is investigating how the accusation that prompted the ex-Cabinet secretary\u2019s separation from his 4-year-old twins was handled."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
