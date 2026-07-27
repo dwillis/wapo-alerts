@@ -418144,5 +418144,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5cc57d0-8a0a-11f1-adf5-00000a1ace04",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I\u2019m a doctor. Here\u2019s why I wear sunblock indoors.",
+            "ios": {
+                "alert": {
+                    "body": "I\u2019m a doctor. Here\u2019s why I wear sunblock indoors.",
+                    "title": "Save Your Skin"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/07/27/doctor-heres-why-i-wear-sunblock-indoors/",
+                        "datetime": "2026-07-27T22:30:02.521000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a67dbeaeaeba8370000006e",
+                        "targetTopic": "editors_picks",
+                        "text": "Columnist Trisha Pasricha also shares four tips for buying an effective sunscreen."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
