@@ -417856,5 +417856,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "56c92190-89d4-11f1-9071-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Tell in-law with memory issues she forgot her grandkids\u2019 birthdays?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Tell in-law with memory issues she forgot her grandkids\u2019 birthdays?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/07/27/carolyn-hax-tell-in-law-with-memory-issues-she-forgot-kids-birthdays/",
+                        "datetime": "2026-07-27T16:00:50.392000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6780b2fd12a83700000081",
+                        "targetTopic": "advice",
+                        "text": "Mother-in-law shows signs of memory issues. Letter writer asks whether the kind thing is not to mention the events she forgets."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
