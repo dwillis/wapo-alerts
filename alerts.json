@@ -417616,5 +417616,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "55b7a3a0-89aa-11f1-baa0-0000a1ace08d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pete Buttigieg. Berlin attack. Biden\u2019s health. Boat strikes. Smoke forecast. Financial stress. \u2018Gen Alpha melody.\u2019 Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Pete Buttigieg. Berlin attack. Biden\u2019s health. Boat strikes. Smoke forecast. Financial stress. \u2018Gen Alpha melody.\u2019 Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/07/27/7-things-know-monday-july-27/?noredirect=1",
+                        "datetime": "2026-07-27T11:00:09.581000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6a673a393c9ccb3600000071",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
