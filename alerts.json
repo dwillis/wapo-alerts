@@ -418048,5 +418048,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "62f37ac2-89f6-11f1-8f1e-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration asks Supreme Court to allow major restrictions on mail-in voting for November\u2019s midterm elections",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration asks Supreme Court to allow major restrictions on mail-in voting for November\u2019s midterm elections",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/27/trump-administration-asks-supreme-court-allow-new-limits-mail-ballots/",
+                        "datetime": "2026-07-27T20:04:33.704000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a67b9d1eaeba8370000006d",
+                        "targetTopic": "breaking-news",
+                        "text": "The appeal to the high court is part of a push by Trump and his allies to put fresh limits on voting ahead of the pivotal elections where control of both the House and Senate is at stake."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9204ffb0-89f5-11f1-9906-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018The Odyssey\u2019 shows how online rage finds a home",
+            "ios": {
+                "alert": {
+                    "body": "\u2018The Odyssey\u2019 shows how online rage finds a home",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/26/christopher-nolan-odyssey-shows-cost-online-rage/",
+                        "datetime": "2026-07-27T19:58:43.163000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a67b873ecddb0360000007c",
+                        "targetTopic": "opinions",
+                        "text": "Righteous fury distracts from the things that really matter, Megan McArdle writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
