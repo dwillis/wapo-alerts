@@ -417904,5 +417904,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dc56c630-89e0-11f1-b4c5-0000a1ace653",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mitch McConnell is not yet medically cleared to leave rehab, Capitol physician says, over six weeks after senator was hospitalized",
+            "ios": {
+                "alert": {
+                    "body": "Mitch McConnell is not yet medically cleared to leave rehab, Capitol physician says, over six weeks after senator was hospitalized",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/27/mcconnell-not-medically-cleared-leave-rehab-yet-capitol-physician-says/",
+                        "datetime": "2026-07-27T17:30:28.364000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6795b4ecddb0360000007b",
+                        "targetTopic": "politics",
+                        "text": "The former Republican Senate leader, 84, was hospitalized June 14 after suffering a fall at home and has not said when he will return to work."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
