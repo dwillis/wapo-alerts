@@ -418624,5 +418624,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9e76c510-8aba-11f1-97ad-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump hails Lindsey Graham as \u2018one of the great figures in Senate history\u2019 in funeral address",
+            "ios": {
+                "alert": {
+                    "body": "Trump hails Lindsey Graham as \u2018one of the great figures in Senate history\u2019 in funeral address",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/28/lawmakers-mourn-lindsey-graham-ahead-his-funeral-washington-national-cathedral/",
+                        "datetime": "2026-07-28T19:29:14.876000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a69030a3c9ccb3600000075",
+                        "targetTopic": "politics",
+                        "text": "In his speech, President Donald Trump described the late Republican senator from South Carolina as \u201ca tough cookie\u201d who was at the center of seemingly everything that happened in Washington for decades."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
