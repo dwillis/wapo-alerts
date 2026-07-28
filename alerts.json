@@ -418672,5 +418672,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "669cb2f3-8ac2-11f1-a4c6-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Yale\u2019s trustees face a decision with profound consequences",
+            "ios": {
+                "alert": {
+                    "body": "Yale\u2019s trustees face a decision with profound consequences",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/28/yale-trustees-history-is-watching-you/",
+                        "datetime": "2026-07-28T20:24:57.106000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a691019eaeba83700000071",
+                        "targetTopic": "opinions",
+                        "text": "A lesson from Hungary: Boards don't capitulate to authoritarians. The people on them do."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
