@@ -418432,5 +418432,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9a552db1-8aa0-11f1-921a-0000a1ace953",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nearly 450,000 asylum seekers could be sent straight to deportation proceedings under new Trump administration rule",
+            "ios": {
+                "alert": {
+                    "body": "Nearly 450,000 asylum seekers could be sent straight to deportation proceedings under new Trump administration rule",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/07/28/asylum-seekers-could-be-sent-directly-deportation-under-new-federal-rule/",
+                        "datetime": "2026-07-28T16:23:00.959000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a68d764fd12a83700000085",
+                        "targetTopic": "breaking-news",
+                        "text": "Under the rule, which took effect immediately, attorneys say it is possible that asylum seekers could be deported without a hearing. The measure was designed to reduce the 1.4 million asylum cases pending in U.S. Citizenship and Immigration Services by nearly a third."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "026f23e3-8a9e-11f1-921a-0000a1ace953",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Grandson who snubbed him is now pushing him to meet great-grandbaby",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Grandson who snubbed him is now pushing him to meet great-grandbaby",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/07/28/carolyn-hax-grandson-who-snubbed-him-now-pushing-him-meet-his-baby/",
+                        "datetime": "2026-07-28T16:04:27.198000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a68d30bfd12a83700000084",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Grandson who snubbed him is now pushing him to meet great-grandbaby"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
