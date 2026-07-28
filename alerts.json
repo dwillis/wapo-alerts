@@ -418720,5 +418720,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "72a714f1-8acc-11f1-80a4-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Teen who killed four people in 2024 shooting at Georgia high school is sentenced to life without parole",
+            "ios": {
+                "alert": {
+                    "body": "Teen who killed four people in 2024 shooting at Georgia high school is sentenced to life without parole",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/07/28/teenage-school-shooter-georgia-is-sentenced-life-without-parole/",
+                        "datetime": "2026-07-28T21:36:52.198000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6920f43c9ccb3600000076",
+                        "targetTopic": "breaking-news",
+                        "text": "The judge\u2019s decision comes nearly two years after the teenager entered Apalachee High School, about 45 miles northeast of Atlanta, with an AR-15 rifle and fatally shot two 14-year-old students and two teachers. Now 16, he pleaded guilty Friday to 55 charges related to the massacre, including multiple counts of felony murder."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
