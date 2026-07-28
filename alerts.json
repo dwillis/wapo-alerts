@@ -418192,5 +418192,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1f039853-8a1d-11f1-81cc-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fauci\u2019s diary reveals his thoughts on a \u2018rambling\u2019 Trump and his own fame",
+            "ios": {
+                "alert": {
+                    "body": "Fauci\u2019s diary reveals his thoughts on a \u2018rambling\u2019 Trump and his own fame",
+                    "title": "Pandemic Recollections"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://washingtonpost.com/health/2026/07/27/faucis-diary-released-revealing-his-thoughts-fame-rambling-trump/",
+                        "datetime": "2026-07-28T00:41:50.102000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a67face3c9ccb3600000073",
+                        "targetTopic": "breaking-news",
+                        "text": "The entries, released by Sen. Rand Paul (R-Ky.), show an internal battle between the National Institutes of Health scientist and the Trump administration over how to handle the coronavirus outbreak."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
