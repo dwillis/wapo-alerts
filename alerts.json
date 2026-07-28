@@ -418528,5 +418528,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "feea8571-8aa7-11f1-b495-0000a1ace967",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Whom will Democrats nominate in 2028? The scales just tilted.",
+            "ios": {
+                "alert": {
+                    "body": "Whom will Democrats nominate in 2028? The scales just tilted.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/28/dnc-proposes-2028-primary-schedule-that-could-hurt-socialists/",
+                        "datetime": "2026-07-28T17:15:56.168000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a68e3ccecddb0360000007e",
+                        "targetTopic": "opinions",
+                        "text": "The DNC\u2019s primary schedule is set to favor the establishment. South Carolina leads the way."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
