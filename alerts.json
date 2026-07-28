@@ -418576,5 +418576,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4505c800-8ab0-11f1-9ce8-00000a1acef6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Florida kills former police officer by lethal injection in first of back-to-back executions",
+            "ios": {
+                "alert": {
+                    "body": "Florida kills former police officer by lethal injection in first of back-to-back executions",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/07/28/florida-executions-including-that-an-80-year-old-cement-state-role-top-death-penalty-state/",
+                        "datetime": "2026-07-28T18:15:09.789000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a68f1adeaeba83700000070",
+                        "targetTopic": "us",
+                        "text": "James Aren Duckett, a former Florida police officer, was convicted of raping and murdering an 11-year-old in 1988. The state is also scheduled to execute Dominick Anthony Occhicone Jr., who was convicted of killing his ex-girlfriend\u2019s parents in 1987."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
