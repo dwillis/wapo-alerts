@@ -418768,5 +418768,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c677ffe0-8adb-11f1-86d0-000a1ace9d62",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate confirms Jay Clayton as director of national intelligence",
+            "ios": {
+                "alert": {
+                    "body": "Senate confirms Jay Clayton as director of national intelligence",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/07/28/senate-confirms-jay-clayton-new-intelligence-czar/",
+                        "datetime": "2026-07-28T23:26:35.411000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a693aabeaeba83700000072",
+                        "targetTopic": "breaking-news",
+                        "text": "The confirmation of Clayton ends the tenure of Bill Pulte, a housing official and Trump loyalist, who held the role for more than a month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2e031900-8ad8-11f1-bddc-0000a1ace791",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How your next stove could save you money and upgrade the electric grid, according to our columnist Michael J. Coren",
+            "ios": {
+                "alert": {
+                    "body": "How your next stove could save you money and upgrade the electric grid, according to our columnist Michael J. Coren",
+                    "title": "Battery-Powered Kitchens"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/07/28/stove-with-batteries-inside-can-transform-your-kitchen-energy-bill/",
+                        "datetime": "2026-07-28T23:00:51.014000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6934a33c9ccb3600000077",
+                        "targetTopic": "editors_picks",
+                        "text": "A new generation of home appliances promises to cut energy bills and make the electric grid cleaner."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
