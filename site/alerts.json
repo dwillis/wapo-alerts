@@ -418240,5 +418240,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7966ac00-8a73-11f1-bc76-00000a1ace08",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mail-in voting. Trump\u2019s mortality. Fauci\u2019s diary. Russian dissent. School drones. Your next stove. Happy hour. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Mail-in voting. Trump\u2019s mortality. Fauci\u2019s diary. Russian dissent. School drones. Your next stove. Happy hour. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/07/28/7-things-know-tuesday-july-28/?noredirect=1",
+                        "datetime": "2026-07-28T10:59:58.398000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6a688baeecddb0360000007d",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
