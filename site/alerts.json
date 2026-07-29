@@ -419200,5 +419200,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "33c2b411-8b62-11f1-ad97-00000a1aced8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump asks Supreme Court to overturn $83 million verdict in E. Jean Carroll case",
+            "ios": {
+                "alert": {
+                    "body": "Trump asks Supreme Court to overturn $83 million verdict in E. Jean Carroll case",
+                    "title": "Another Appeal"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/28/trump-asks-supreme-court-overturn-83-million-verdict-e-jean-carroll-case/",
+                        "datetime": "2026-07-29T15:28:51.258000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6a1c33ecddb03600000082",
+                        "targetTopic": "politics",
+                        "text": "Separately, the Justice Department petitioned the high court Tuesday to allow the federal government to replace Trump as the defendant in the case."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
