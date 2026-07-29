@@ -419152,5 +419152,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8acbde10-8b5a-11f1-8540-00000a1ace9d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump set to unveil Dulles overhaul that includes eliminating the boxy \u2018people mover\u2019 shuttles",
+            "ios": {
+                "alert": {
+                    "body": "Trump set to unveil Dulles overhaul that includes eliminating the boxy \u2018people mover\u2019 shuttles",
+                    "title": "Airport Makeover"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/28/trump-set-unveil-dulles-makeover-after-months-personal-edits/",
+                        "datetime": "2026-07-29T14:34:01.362000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6a0f59eaeba83700000074",
+                        "targetTopic": "breaking-news",
+                        "text": "The plan also includes building new terminals, according to two people who spoke on the condition of anonymity to preview the announcement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
