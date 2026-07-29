@@ -418864,5 +418864,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "227f7df0-8af4-11f1-8fe2-0000a1acec59",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Saudi Arabia joins U.S. in striking Iranian proxies in Iraq, underscoring risk of wider war",
+            "ios": {
+                "alert": {
+                    "body": "Saudi Arabia joins U.S. in striking Iranian proxies in Iraq, underscoring risk of wider war",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/",
+                        "datetime": "2026-07-29T02:20:57.671000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a696389eaeba83700000073",
+                        "targetTopic": "breaking-news",
+                        "text": "U.S. Central Command said the two countries hit \u201cmultiple terrorist logistics and weapons sites across eastern Iraq\u201d in response to more than 30 drone attacks directed by Iran\u2019s Islamic Revolutionary Guard Corps in recent days."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
