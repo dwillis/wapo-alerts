@@ -418960,5 +418960,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b264f2f2-8b54-11f1-817e-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My family farm has prairie potholes. In swooped the feds.",
+            "ios": {
+                "alert": {
+                    "body": "My family farm has prairie potholes. In swooped the feds.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/29/government-easements-are-putting-prairie-potholes-over-farmers/",
+                        "datetime": "2026-07-29T13:52:10.790000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6a058afd12a83700000086",
+                        "targetTopic": "opinions",
+                        "text": "The government is twisting a 60-year-old deal to take control of my land."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "db2d3c30-8b52-11f1-8c6f-00000a1ace4d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump threatens to hit Iran \u2018hard\u2019 following missile attack on U.S. assets",
+            "ios": {
+                "alert": {
+                    "body": "Trump threatens to hit Iran \u2018hard\u2019 following missile attack on U.S. assets",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/",
+                        "datetime": "2026-07-29T13:39:00.198000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6a0274ecddb03600000081",
+                        "targetTopic": "world",
+                        "text": "The threat followed what officials described as U.S. and Saudi joint strikes targeting Iranian-backed forces in Iraq overnight, in what appeared to be Riyadh\u2019s entry into the conflict between Washington and Tehran."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "41cc35b1-8b51-11f1-bbb6-00000a1acec8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This senator is at the center of today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This senator is at the center of today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-07-29T13:27:33.439000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a69ffc5ecddb03600000080",
+                        "targetTopic": "news_quiz",
+                        "text": "This senator is at the center of today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "999d8a50-8b4c-11f1-8008-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Anthony Fauci to invoke Fifth Amendment in hearing before Senate GOP on covid-19 pandemic",
+            "ios": {
+                "alert": {
+                    "body": "Anthony Fauci to invoke Fifth Amendment in hearing before Senate GOP on covid-19 pandemic",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/29/fauci-set-face-rand-paul-senate-gop-after-release-his-covid-diary/",
+                        "datetime": "2026-07-29T12:54:13.208000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a69f7f5ecddb0360000007f",
+                        "targetTopic": "breaking-news",
+                        "text": "The former infectious-disease official said that it \u201cpains me\u201d to now invoke his constitutional right against self-incrimination, according to prepared testimony shared with The Washington Post. He alleged that Sen. Rand Paul (R-Kentucky) was wrongly seeking to trap him in a misstep that could lead to perjury charges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
