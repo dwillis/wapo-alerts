@@ -419968,5 +419968,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "53f010f0-8c45-11f1-b1d5-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE is expanding its arrests at airports to new targets, lawyers and advocates say",
+            "ios": {
+                "alert": {
+                    "body": "ICE is expanding its arrests at airports to new targets, lawyers and advocates say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/07/30/ice-is-expanding-its-arrests-airports-new-targets-lawyers-say/",
+                        "datetime": "2026-07-30T18:34:41.037000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6b99413c9ccb360000007d",
+                        "targetTopic": "breaking-news",
+                        "text": "Immigration and Customs Enforcement has begun apprehending foreign nationals who overstayed their visas as they prepare to board or step off domestic flights in the D.C. area, six immigration attorneys told The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
