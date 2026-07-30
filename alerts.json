@@ -420112,5 +420112,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5cf40431-8c64-11f1-bda5-000a1aceb217",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why some relationships flourish and others flop, according to scientists",
+            "ios": {
+                "alert": {
+                    "body": "Why some relationships flourish and others flop, according to scientists",
+                    "title": "4 Types of Attachment"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://washingtonpost.com/health/2026/07/30/scientists-say-this-is-reason-some-relationships-flourish-others-flop/",
+                        "datetime": "2026-07-30T22:16:50.598000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6bcd523c9ccb360000007f",
+                        "targetTopic": "editors_picks",
+                        "text": "How attachment styles influence our interactions with others \u2014 and how to change them."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
