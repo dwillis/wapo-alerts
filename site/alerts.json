@@ -419824,5 +419824,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bde7ffa0-8c26-11f1-a051-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A shrinking weapons stockpile is testing the Pentagon\u2019s sweeping new strategy",
+            "ios": {
+                "alert": {
+                    "body": "A shrinking weapons stockpile is testing the Pentagon\u2019s sweeping new strategy",
+                    "title": "Restocking the Arsenal"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/07/30/shrinking-weapons-stockpile-is-testing-pentagons-sweeping-new-strategy/",
+                        "datetime": "2026-07-30T14:55:44.455000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6b65f0eaeba8370000007a",
+                        "targetTopic": "editors_picks",
+                        "text": "The Defense Department is betting on Silicon Valley start-ups to replenish stockpiles amid the Iran war. Now the firms must prove they can manufacture at military scale."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6be20755-8c30-11f1-a36b-00000a1ace4b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump suggests he could withdraw Blanche\u2019s attorney general nomination until GOP holdouts leave Senate",
+            "ios": {
+                "alert": {
+                    "body": "Trump suggests he could withdraw Blanche\u2019s attorney general nomination until GOP holdouts leave Senate",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/07/30/republicans-struggle-way-forward-blanche-ag-nomination/",
+                        "datetime": "2026-07-30T16:05:01.764000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6b762deaeba8370000007b",
+                        "targetTopic": "breaking-news",
+                        "text": "President Donald Trump targeted John Cornyn (Texas) and Thom Tillis (North Carolina), Republicans whose terms end next year, after it became clear the two were not prepared to vote for Todd Blanche\u2019s nomination to become attorney general."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
