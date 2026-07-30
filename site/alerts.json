@@ -419680,5 +419680,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c19c7d20-8c1b-11f1-9e65-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Invoking the Fifth Amendment in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Invoking the Fifth Amendment in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-07-30T13:37:06.162000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6b53823c9ccb360000007b",
+                        "targetTopic": "news_quiz",
+                        "text": "Invoking the Fifth Amendment in today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bb847251-8c14-11f1-9eda-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. economy slowed to a 1.5 percent pace in second quarter",
+            "ios": {
+                "alert": {
+                    "body": "U.S. economy slowed to a 1.5 percent pace in second quarter",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/07/30/economy-slowed-second-quarter-while-inflation-improved/",
+                        "datetime": "2026-07-30T12:46:49.469000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6b47b9ecddb03600000085",
+                        "targetTopic": "breaking-news",
+                        "text": "Growth overall came in below economists\u2019 expectations, which were at roughly 2 percent."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4ee209a6-8c1e-11f1-9eda-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Will Maine uproot Susan Collins? I went to a potato festival to find out.",
+            "ios": {
+                "alert": {
+                    "body": "Will Maine uproot Susan Collins? I went to a potato festival to find out.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/30/susan-collins-faces-populist-test-maine-senate-race/",
+                        "datetime": "2026-07-30T13:55:22.226000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6b57ca3c9ccb360000007c",
+                        "targetTopic": "opinions",
+                        "text": "The Senate race pits seniority against a working-class playbook."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

@@ -419776,5 +419776,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4ee209a6-8c1e-11f1-9eda-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Will Maine uproot Susan Collins? I went to a potato festival to find out.",
+            "ios": {
+                "alert": {
+                    "body": "Will Maine uproot Susan Collins? I went to a potato festival to find out.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/30/susan-collins-faces-populist-test-maine-senate-race/",
+                        "datetime": "2026-07-30T13:55:22.226000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6b57ca3c9ccb360000007c",
+                        "targetTopic": "opinions",
+                        "text": "The Senate race pits seniority against a working-class playbook."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
