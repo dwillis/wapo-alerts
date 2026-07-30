@@ -420064,5 +420064,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c610cff1-8c57-11f1-a7f5-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jimothy, Seattle\u2019s viral raccoon, belongs to a great American tradition",
+            "ios": {
+                "alert": {
+                    "body": "Jimothy, Seattle\u2019s viral raccoon, belongs to a great American tradition",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/30/seattle-raccoon-jimothy-goes-viral/",
+                        "datetime": "2026-07-30T20:46:43.400000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6bb833fd12a83700000087",
+                        "targetTopic": "opinions",
+                        "text": "Jimothy, Seattle\u2019s viral raccoon, belongs to a great American tradition"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
