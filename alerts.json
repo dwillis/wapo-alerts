@@ -419584,5 +419584,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "efff0a90-8bb0-11f1-a5cc-00000a1aceb6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate committee postpones vote on Todd Blanche\u2019s nomination for attorney general amid pushback from two GOP holdouts",
+            "ios": {
+                "alert": {
+                    "body": "Senate committee postpones vote on Todd Blanche\u2019s nomination for attorney general amid pushback from two GOP holdouts",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/07/29/blanches-ag-nomination-doubt-critical-republican-remains-unsatisfied/",
+                        "datetime": "2026-07-30T00:52:27.815000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6aa04beaeba83700000079",
+                        "targetTopic": "breaking-news",
+                        "text": "The two Republican senators threatened to withhold their support for the nomination. The postponement was a high-profile setback for the president, and a further indication that congressional Republicans are becoming more willing to stand up to him on key matters."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
