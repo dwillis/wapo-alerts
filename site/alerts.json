@@ -419968,5 +419968,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "53f010f0-8c45-11f1-b1d5-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE is expanding its arrests at airports to new targets, lawyers and advocates say",
+            "ios": {
+                "alert": {
+                    "body": "ICE is expanding its arrests at airports to new targets, lawyers and advocates say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/07/30/ice-is-expanding-its-arrests-airports-new-targets-lawyers-say/",
+                        "datetime": "2026-07-30T18:34:41.037000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6b99413c9ccb360000007d",
+                        "targetTopic": "breaking-news",
+                        "text": "Immigration and Customs Enforcement has begun apprehending foreign nationals who overstayed their visas as they prepare to board or step off domestic flights in the D.C. area, six immigration attorneys told The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b8a8a0c2-8c4f-11f1-8d2e-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "6 simple swaps that cut my family\u2019s exposure to microplastics in food",
+            "ios": {
+                "alert": {
+                    "body": "6 simple swaps that cut my family\u2019s exposure to microplastics in food",
+                    "title": "Particles Everywhere"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/07/30/how-i-reduced-my-exposure-microplastics-food/",
+                        "datetime": "2026-07-30T19:49:04.983000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6baab03c9ccb360000007e",
+                        "targetTopic": "editors_picks",
+                        "text": "Scientists have found that small changes \u2014 such as cutting down on plastic food containers and canned foods \u2014 can help."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
