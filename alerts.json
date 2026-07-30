@@ -419632,5 +419632,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cdf2c2c0-8c05-11f1-8d72-00000a1ace77",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. strikes. Fauci pile-on. Attorney general. 2028 contenders. Dulles makeover. Microplastics. Attachment theory. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. strikes. Fauci pile-on. Attorney general. 2028 contenders. Dulles makeover. Microplastics. Attachment theory. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/07/30/7-things-know-thursday-july-30/?noredirect=1",
+                        "datetime": "2026-07-30T10:59:57.977000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6a6b2eadecddb03600000084",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
