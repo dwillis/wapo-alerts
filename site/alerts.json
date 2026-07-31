@@ -420640,5 +420640,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a0137760-8d26-11f1-897f-00000a1acefd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At typically tranquil Camp David, Trump publicly lashes out at political enemies",
+            "ios": {
+                "alert": {
+                    "body": "At typically tranquil Camp David, Trump publicly lashes out at political enemies",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/31/trump-criticizes-cornyn-walz-iranian-leaders-unusual-camp-david-meeting/",
+                        "datetime": "2026-07-31T21:27:25.481000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6d133d3c9ccb3600000081",
+                        "targetTopic": "politics",
+                        "text": "The president criticized a GOP senator, Democratic governor and Iranian leaders at what he said was the first televised Cabinet meeting from the retreat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
