@@ -420208,5 +420208,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f8edc640-8cce-11f1-a259-00000a1ace8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gaza talks. Rogue AI. Todd Blanche. Mass layoffs. Heat record. Doomscrolling. Taco Bell. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Gaza talks. Rogue AI. Todd Blanche. Mass layoffs. Heat record. Doomscrolling. Taco Bell. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/07/31/7-things-know-friday-july-31/?noredirect=1",
+                        "datetime": "2026-07-31T10:59:58.905000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6a6c802eeaeba8370000007c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
