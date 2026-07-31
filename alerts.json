@@ -420304,5 +420304,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "caba3be0-8ce8-11f1-b79b-0000a1acec15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s Iran strategy is working. His vice president\u2019s isn\u2019t.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s Iran strategy is working. His vice president\u2019s isn\u2019t.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/30/donald-trump-should-take-iran-war-advice-those-who-have-delivered/",
+                        "datetime": "2026-07-31T14:04:48.240000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6cab80eaeba8370000007d",
+                        "targetTopic": "opinions",
+                        "text": "Lucy, the football and the mullahs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a15eec55-8ce8-11f1-98e5-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new Colorado River plan requires water cuts for three states. Deeper cuts are still possible.",
+            "ios": {
+                "alert": {
+                    "body": "A new Colorado River plan requires water cuts for three states. Deeper cuts are still possible.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/07/31/federal-plan-colorado-river-falls-short-what-needed-experts-say/",
+                        "datetime": "2026-07-31T14:03:38.919000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6cab3afd12a83700000088",
+                        "targetTopic": "breaking-news",
+                        "text": "Arizona, California and Nevada will be required to curb their use of the water from the river by about 20 percent over the next two years, according to three officials."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "70cea8e0-8ce4-11f1-a02f-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wager your points and finish off the week with today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Wager your points and finish off the week with today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-07-31T13:33:39.472000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6ca433ecddb03600000089",
+                        "targetTopic": "news_quiz",
+                        "text": "Wager your points and finish off the week with today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
