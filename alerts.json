@@ -420256,5 +420256,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "97f3e2c1-8cdd-11f1-8789-00000a1ace47",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Migrants overrun a Spanish outpost, stirring outrage from White House and Europe's right",
+            "ios": {
+                "alert": {
+                    "body": "Migrants overrun a Spanish outpost, stirring outrage from White House and Europe's right",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/07/31/migrants-overrun-spanish-outpost-stirring-white-house-outrage/",
+                        "datetime": "2026-07-31T12:44:38.679000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6c98b6ecddb03600000088",
+                        "targetTopic": "breaking-news",
+                        "text": "Widely circulated video showed thousands of Moroccans storming into a Spanish outpost in North Africa. The White House condemned Spain as weak on immigration."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
