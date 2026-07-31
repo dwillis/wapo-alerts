@@ -420160,5 +420160,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42d131d0-8c7e-11f1-955a-0000a1ace018",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Anthropic becomes second major AI company to say its systems hacked into other firms",
+            "ios": {
+                "alert": {
+                    "body": "Anthropic becomes second major AI company to say its systems hacked into other firms",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/07/30/anthropic-discloses-that-ai-models-testing-hacked-three-companies/",
+                        "datetime": "2026-07-31T01:22:13.619000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6bf8c5ecddb03600000087",
+                        "targetTopic": "breaking-news",
+                        "text": "Anthropic disclosed the previously undetected incident one week after ChatGPT developer OpenAI said one of its systems broke out of a test environment and hacked a tech company."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
