@@ -420688,5 +420688,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "38672100-8d32-11f1-86cb-00000a1aceb5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prosecutors drop Reflecting Pool damage charge against former Olympian, suggest contractor made installation errors",
+            "ios": {
+                "alert": {
+                    "body": "Prosecutors drop Reflecting Pool damage charge against former Olympian, suggest contractor made installation errors",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/07/31/prosecutors-drop-reflecting-pool-damage-charge-against-former-olympian/",
+                        "datetime": "2026-07-31T22:50:25.598000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6d26b1fd12a8370000008b",
+                        "targetTopic": "breaking-news",
+                        "text": "Trump has claimed that vandals deliberately damaged the pool, but prosecutors say internal documents suggest the peeling was due to rushed installation by a contractor."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
