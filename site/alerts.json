@@ -420496,5 +420496,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "728abc82-8cff-11f1-932c-0000a1ace5bd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: Grandma\u2019s summer reading challenge excludes dyslexic grandson",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: Grandma\u2019s summer reading challenge excludes dyslexic grandson",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/07/31/carolyn-hax-live-chat/",
+                        "datetime": "2026-07-31T16:46:58.802000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6cd182ecddb0360000008a",
+                        "targetTopic": "advice",
+                        "text": "Advice columnist Carolyn Hax answers your questions about the strange train we call life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
