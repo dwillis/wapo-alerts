@@ -420448,5 +420448,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "97453c20-8cf1-11f1-a927-0000a1ace009",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What\u2019s the best iced coffee? We reviewed 10 top-selling bottles to find a winner.",
+            "ios": {
+                "alert": {
+                    "body": "What\u2019s the best iced coffee? We reviewed 10 top-selling bottles to find a winner.",
+                    "title": "The Tastiest Brew"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/07/31/whats-best-iced-coffee-we-tried-10-top-selling-bottles-find-winner/",
+                        "datetime": "2026-07-31T15:07:47.407000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6cba433c9ccb3600000080",
+                        "targetTopic": "editors_picks",
+                        "text": "There are plenty of watery, wan options. Finding the most flavorful brew came down to the wire."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
