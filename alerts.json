@@ -420592,5 +420592,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "559d70c0-8d1f-11f1-aaa6-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump appears to order the government to lie on behalf of tariffs",
+            "ios": {
+                "alert": {
+                    "body": "Trump appears to order the government to lie on behalf of tariffs",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/31/trump-new-tariff-plan-forces-government-certify-falsehood/",
+                        "datetime": "2026-07-31T20:35:14.137000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6d0702fd12a8370000008a",
+                        "targetTopic": "opinions",
+                        "text": "The president moves to subvert the Supreme Court \u2014 and the truth."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
