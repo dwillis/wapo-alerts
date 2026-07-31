@@ -420544,5 +420544,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0e04a500-8d0e-11f1-b79b-0000a1acec15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Airports, nursing homes and schools brace for disruption without Haitian workers",
+            "ios": {
+                "alert": {
+                    "body": "Airports, nursing homes and schools brace for disruption without Haitian workers",
+                    "title": "Legal Status Nears End"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/07/31/mass-layoffs-hit-haitian-workers-airports-nursing-homes-schools-protected-status-ends/",
+                        "datetime": "2026-07-31T18:31:32.596000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6cea04fd12a83700000089",
+                        "targetTopic": "us",
+                        "text": "The Trump administration and courts are at odds over whether about 350,000 Haitians have officially lost humanitarian protections, but employers are already letting workers go."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
