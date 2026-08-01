@@ -420736,5 +420736,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c8740ea0-8da7-11f1-871a-0000a1ace5f8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel from missile attacks, as Iran war strains resources",
+            "ios": {
+                "alert": {
+                    "body": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel from missile attacks, as Iran war strains resources",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/",
+                        "datetime": "2026-08-01T12:51:58.387000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6debeefd12a8370000008c",
+                        "targetTopic": "breaking-news",
+                        "text": "A shortage of Navy destroyers, used to defend against Iranian ballistic missile attacks, will force the head of U.S. European Command to prioritize the U.S. homeland instead, officials said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "04d65510-8dad-11f1-847d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How many guesses will Keyword take you today? Try to beat the average now.",
+            "ios": {
+                "alert": {
+                    "body": "How many guesses will Keyword take you today? Try to beat the average now.",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/keyword/",
+                        "datetime": "2026-08-01T13:29:27.165000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6df4b73c9ccb3600000082",
+                        "targetTopic": "news_quiz",
+                        "text": "How many guesses will Keyword take you today? Try to beat the average now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
