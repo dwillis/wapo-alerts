@@ -421024,5 +421024,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "80bea370-8df4-11f1-a6b9-000a1ace2505",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The last day of a factory in Trump country, as its work moves to China",
+            "ios": {
+                "alert": {
+                    "body": "The last day of a factory in Trump country, as its work moves to China",
+                    "title": "The Final Shift"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/01/conn-selmer-factory-closes-ohio-despite-trumps-manufacturing-push/",
+                        "datetime": "2026-08-01T22:01:09.278000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6e6ca53c9ccb3600000084",
+                        "targetTopic": "editors_picks",
+                        "text": "For generations, this Ohio factory was a way of life. At a time when President Donald Trump said the U.S. was in the midst of a manufacturing renaissance, the 150 people who still worked at the plant were losing their jobs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
