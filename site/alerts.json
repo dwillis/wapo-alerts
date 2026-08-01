@@ -420976,5 +420976,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "87bceb30-8ddd-11f1-b600-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Impostor scams have defrauded Americans of $1.8 billion this year. Here\u2019s how to spot one, our columnist Michelle Singletary explains.",
+            "ios": {
+                "alert": {
+                    "body": "Impostor scams have defrauded Americans of $1.8 billion this year. Here\u2019s how to spot one, our columnist Michelle Singletary explains.",
+                    "title": "Identifying Red Flags"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/01/how-spot-imposter-scams/",
+                        "datetime": "2026-08-01T19:16:42.648000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6e461a3c9ccb3600000083",
+                        "targetTopic": "editors_picks",
+                        "text": "When a fellow church member nearly transferred $50,000 to a stranger, I knew I had to act fast."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
