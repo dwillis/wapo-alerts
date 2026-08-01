@@ -421072,5 +421072,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6c971c30-8e01-11f1-b449-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A teen was missing for years. She was found more than 700 miles from home.",
+            "ios": {
+                "alert": {
+                    "body": "A teen was missing for years. She was found more than 700 miles from home.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/01/missing-milwaukee-teen-found-virginia-four-year-later/",
+                        "datetime": "2026-08-01T23:33:38.905000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6e8252eaeba8370000007f",
+                        "targetTopic": "us",
+                        "text": "Owen Lars Anderson, a 37-year-old man from Blacksburg, Virginia, has been charged in the case."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
