@@ -420880,5 +420880,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8d4eee30-8dc5-11f1-a0cc-0000a1aceb31",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A trove of WWII love letters held a mystery. A Post reader helped unlock it.",
+            "ios": {
+                "alert": {
+                    "body": "A trove of WWII love letters held a mystery. A Post reader helped unlock it.",
+                    "title": "A Lifetime Romance"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/01/trove-wwii-love-letters-held-mystery-post-reader-helped-unlock-it/",
+                        "datetime": "2026-08-01T16:25:04.024000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6e1de0ecddb0360000008b",
+                        "targetTopic": "editors_picks",
+                        "text": "Hundreds of wartime letters from a man to his wife showed up at an office in 2022. Little was known of the life they lived \u2014 until now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
