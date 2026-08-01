@@ -420832,5 +420832,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "01dac420-8db4-11f1-9196-00000a1acebc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he will \u2018push hard\u2019 for $1.8B payout fund, keep Blanche as acting attorney general if GOP senators block nomination",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he will \u2018push hard\u2019 for $1.8B payout fund, keep Blanche as acting attorney general if GOP senators block nomination",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/01/trump-says-he-will-push-hard-payout-fund-keep-blanche-acting-ag/",
+                        "datetime": "2026-08-01T14:19:28.643000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6e0070eaeba8370000007e",
+                        "targetTopic": "breaking-news",
+                        "text": "The president blamed two GOP senators for resisting Todd Blanche, his pick to run the Justice Department, suggesting he would resurrect his controversial \u201canti-weaponization\u201d fund in response."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
