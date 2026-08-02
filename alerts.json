@@ -421264,5 +421264,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4335b810-8e83-11f1-b415-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The intense pressure facing Anthony Fauci, as Republican lawmakers push for his jailing",
+            "ios": {
+                "alert": {
+                    "body": "The intense pressure facing Anthony Fauci, as Republican lawmakers push for his jailing",
+                    "title": "In the Hot Seat"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/02/faucis-critics-have-power-theyre-coming-after-his-pandemic-record/",
+                        "datetime": "2026-08-02T15:03:04.072000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6f5c28ecddb0360000008f",
+                        "targetTopic": "editors_picks",
+                        "text": "The 85-year-old doctor, once the head of the government\u2019s pandemic response, faces mounting congressional threats and legal risks. GOP lawmakers say newly obtained records raise fresh questions about Fauci\u2019s conduct, but some of the central allegations have been investigated before."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
