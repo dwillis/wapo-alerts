@@ -421552,5 +421552,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5be01aa0-8ebe-11f1-9c9c-00000a1acef8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Melatonin vs. magnesium: Which is better for your sleep?",
+            "ios": {
+                "alert": {
+                    "body": "Melatonin vs. magnesium: Which is better for your sleep?",
+                    "title": "Beating Bedtime Blues"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/02/melatonin-vs-magnesium-which-is-better-your-sleep/",
+                        "datetime": "2026-08-02T22:06:05.800000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6fbf4deaeba83700000081",
+                        "targetTopic": "editors_picks",
+                        "text": "What to know about the supplements that people often use to help with falling asleep, jet lag, muscle tension and more."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
