@@ -421312,5 +421312,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4435a240-8e8b-11f1-9be8-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: In 20-year marriage, are thoughtless habits here to stay?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: In 20-year marriage, are thoughtless habits here to stay?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/02/carolyn-hax-20-year-marriage-are-thoughtless-habits-here-stay/",
+                        "datetime": "2026-08-02T16:00:21.782000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6f69953c9ccb3600000085",
+                        "targetTopic": "advice",
+                        "text": "Theirs is a loving relationship, yet reminders about his frustrating habits don\u2019t work on this letter writer\u2019s husband."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
