@@ -421360,5 +421360,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "65caa020-8e97-11f1-91d8-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Bernie Moreno says Rep. Max Miller, his ex-son-in-law, shouldn\u2019t serve in Congress amid abuse allegations",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Bernie Moreno says Rep. Max Miller, his ex-son-in-law, shouldn\u2019t serve in Congress amid abuse allegations",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/02/sen-bernie-moreno-says-former-son-in-law-rep-max-miller-is-danger/",
+                        "datetime": "2026-08-02T17:27:12.047000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a6f7df03c9ccb3600000086",
+                        "targetTopic": "breaking-news",
+                        "text": "Emily Moreno, the daughter of the Republican senator, has accused her ex-husband of domestic abuse. The senator\u2019s comments came after Miller (R-Ohio), in a lengthy live-streamed video, denied the allegations and said he would not drop his reelection bid."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
