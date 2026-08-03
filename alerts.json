@@ -421937,5 +421937,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0d511600-8f8b-11f1-af19-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Todd Blanche\u2019s weaponization walk-back",
+            "ios": {
+                "alert": {
+                    "body": "Todd Blanche\u2019s weaponization walk-back",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/03/todd-blanche-walk-back-wins-votes-congress-could-stop-payout-funds/",
+                        "datetime": "2026-08-03T22:31:20.858000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7116b8fd12a83700000091",
+                        "targetTopic": "opinions",
+                        "text": "The acting attorney general formally rescinds a bad idea to win Senate confirmation, the Editorial Board writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
