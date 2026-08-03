@@ -421744,5 +421744,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a54cfe21-8f53-11f1-8ba6-000a1aceb3c2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Two cyclospora-related deaths reported in Michigan",
+            "ios": {
+                "alert": {
+                    "body": "Two cyclospora-related deaths reported in Michigan",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/03/two-cyclospora-related-deaths-reported-michigan/",
+                        "datetime": "2026-08-03T15:54:43.958000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a70b9c3fd12a83700000090",
+                        "targetTopic": "health",
+                        "text": "The people who died had \u201csignificant underlying health conditions\u201d that may have been affected by the illness caused by the microscopic parasite, state health officials said. Cyclosporiasis is not usually life-threatening."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a5b60080-8f50-11f1-a90f-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Two key GOP senators offer support for Blanche's nomination for attorney general after he spikes Trump's payout fund",
+            "ios": {
+                "alert": {
+                    "body": "Two key GOP senators offer support for Blanche's nomination for attorney general after he spikes Trump's payout fund",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/02/blanche-formally-rescinds-plan-weaponization-fund-deal-advance-ag-nomination/",
+                        "datetime": "2026-08-03T15:33:16.205000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a70b4bceaeba83700000083",
+                        "targetTopic": "breaking-news",
+                        "text": "Sens. John Cornyn and Thom Tillis, who had been withholding their votes over President Donald Trump's controversial deal with the IRS, issued a statement Monday saying they will now support Todd Blanche\u2019s confirmation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
