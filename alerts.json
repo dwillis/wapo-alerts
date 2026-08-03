@@ -421985,5 +421985,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dda3fb10-8f90-11f1-a430-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ariana Grande is extremely thin. But, columnist Monica Hesse asks, is it any of our business?",
+            "ios": {
+                "alert": {
+                    "body": "Ariana Grande is extremely thin. But, columnist Monica Hesse asks, is it any of our business?",
+                    "title": "Under Public Scrutiny"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2026/08/03/ariana-grande-is-extremely-thin-is-it-any-our-business/",
+                        "datetime": "2026-08-03T23:12:57.825000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a712079ecddb03600000092",
+                        "targetTopic": "editors_picks",
+                        "text": "The singer\u2019s body is her own business; how it affects us and how we react to it is ours. The way you see her body may impact the way you think about your own body, and so there\u2019s a push and pull between \u201cleave Ariana alone\u201d and \u201cwhat in God\u2019s name is going on here?\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
