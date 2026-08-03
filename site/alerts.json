@@ -421841,5 +421841,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "185aa241-8f73-11f1-8525-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My company\u2019s drones hit Russia \u2014 and showed what the Pentagon doesn\u2019t know",
+            "ios": {
+                "alert": {
+                    "body": "My company\u2019s drones hit Russia \u2014 and showed what the Pentagon doesn\u2019t know",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/03/ukraine-shows-war-how-build-modern-defense-industry/",
+                        "datetime": "2026-08-03T19:39:51.406000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a70ee87ecddb03600000091",
+                        "targetTopic": "opinions",
+                        "text": "Modern war rewards speed and redundancy, not perfect weapons from a single supplier."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "15ec9a60-8f71-11f1-a537-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House Ethics Committee seeks censure of Rep. Chuck Edwards over \u2018inappropriate conduct\u2019 toward female staff",
+            "ios": {
+                "alert": {
+                    "body": "House Ethics Committee seeks censure of Rep. Chuck Edwards over \u2018inappropriate conduct\u2019 toward female staff",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/03/house-panel-seeks-censure-rep-chuck-edwards-treatment-female-staff/",
+                        "datetime": "2026-08-03T19:25:28.397000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a70eb283c9ccb3600000088",
+                        "targetTopic": "politics",
+                        "text": "Attorneys for the North Carolina Republican, who has denied wrongdoing, accused the panel of reaching a rushed judgment and said its recommended penalty is \u201cextraordinarily harsh.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
