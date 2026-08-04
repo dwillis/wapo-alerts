@@ -422321,5 +422321,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "25f760a0-9018-11f1-99f6-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate committee advances Todd Blanche\u2019s attorney general nomination after standoff over Trump fund",
+            "ios": {
+                "alert": {
+                    "body": "Senate committee advances Todd Blanche\u2019s attorney general nomination after standoff over Trump fund",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/04/committee-expected-send-blanche-full-senate-after-he-ends-trump-payout-fund/",
+                        "datetime": "2026-08-04T15:21:21.187000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7203713c9ccb360000008b",
+                        "targetTopic": "politics",
+                        "text": "The Judiciary Committee sent his nomination to the full Senate after he agreed in writing to rescind the president\u2019s payout fund."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
