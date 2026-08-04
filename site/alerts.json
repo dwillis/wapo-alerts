@@ -422177,5 +422177,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "84a2c370-900d-11f1-8b89-000a1ace1c14",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What ruined the Reflecting Pool? Jeanine Pirro had a choice.",
+            "ios": {
+                "alert": {
+                    "body": "What ruined the Reflecting Pool? Jeanine Pirro had a choice.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/04/trump-attack-jeanine-pirro-over-reflecting-pool-was-unjustified/",
+                        "datetime": "2026-08-04T14:05:15.603000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a71f19b3c9ccb360000008a",
+                        "targetTopic": "opinions",
+                        "text": "Despite Trump\u2019s claims, there was no evidence of vandalism."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f0c02400-900b-11f1-8835-0000a1ace901",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s National Guard deployment in D.C. set to cost additional $1.4 billion",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s National Guard deployment in D.C. set to cost additional $1.4 billion",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/04/trumps-national-guard-deployment-dc-cost-additional-14-billion/",
+                        "datetime": "2026-08-04T13:53:58.002000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a71eef63c9ccb3600000089",
+                        "targetTopic": "local",
+                        "text": "The estimate, provided to Democratic Sen. Elizabeth Warren, covers the period from Oct. 1, 2026, through the end of the president\u2019s term."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "55f597e0-9009-11f1-9a7c-00000a1aced0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This food chain opens in Mexico in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This food chain opens in Mexico in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz/",
+                        "datetime": "2026-08-04T13:35:19.058000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a71ea97fd12a83700000093",
+                        "targetTopic": "news_quiz",
+                        "text": "A quotable news quiz."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
