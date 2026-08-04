@@ -422081,5 +422081,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "95c94a40-9001-11f1-8a2a-00000a1aceb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How predatory trade schools drained $300 million from the GI Bill and failed veterans",
+            "ios": {
+                "alert": {
+                    "body": "How predatory trade schools drained $300 million from the GI Bill and failed veterans",
+                    "title": "Investigation"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2026/08/04/gi-bill-schools-charged-huge-sums-train-vets-how-grow-grass-make-fake-rocks/",
+                        "datetime": "2026-08-04T12:39:50.373000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a71dd96fd12a83700000092",
+                        "targetTopic": "editors_picks",
+                        "text": "A Post investigation found that institutions defrauded taxpayers and Veterans Affairs while cheating thousands out of career training. Some schools offered courses on how to grow grass and make fake rocks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9ecfa7f0-8ff3-11f1-9c79-00000a1ace39",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Todd Blanche. Iran talks. Reflecting Pool. Primaries. Cyclospora deaths. Alcohol effects. Crow friends. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Todd Blanche. Iran talks. Reflecting Pool. Primaries. Cyclospora deaths. Alcohol effects. Crow friends. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/04/7-things-know-tuesday-august-4/?noredirect=1",
+                        "datetime": "2026-08-04T10:59:52.600000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6a71c628ecddb03600000094",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
