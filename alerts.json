@@ -422033,5 +422033,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e5e35b40-8fae-11f1-a13f-00000a1ace95",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Trump\u2019s claims of vandalism at the renovated Reflecting Pool crumbled",
+            "ios": {
+                "alert": {
+                    "body": "How Trump\u2019s claims of vandalism at the renovated Reflecting Pool crumbled",
+                    "title": "Plagued by Problems"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://washingtonpost.com/politics/2026/08/03/trump-made-reflecting-pool-test-his-power-it-backfired/",
+                        "datetime": "2026-08-04T02:47:56.589000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7152dcecddb03600000093",
+                        "targetTopic": "breaking-news",
+                        "text": "The president is furious at one of his most ardent supporters, Jeanine Pirro, the U.S. attorney for the nation\u2019s capital, for dropping vandalism charges against four people in recent days. But government records \u201cstrongly suggest that a rushed and botched installation by AIC, the primary contractor,\u201d led to the visible damage in the pool\u2019s new liner, Pirro and one of her deputies wrote in a court filing. Pirro accused the Interior Department of withholding relevant documents that would have scuttled the investigation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
