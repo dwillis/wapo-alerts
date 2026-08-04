@@ -422609,5 +422609,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "42982120-9047-11f1-af5f-00000a1ace42",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Is America becoming more religious? Look at the data.",
+            "ios": {
+                "alert": {
+                    "body": "Is America becoming more religious? Look at the data.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/07/31/positive-views-religion-arent-same-religious-commitment/",
+                        "datetime": "2026-08-04T20:58:35.636000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a72527bfd12a83700000094",
+                        "targetTopic": "opinions",
+                        "text": "Being pro-religion is easy. Real devotion isn\u2019t."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
