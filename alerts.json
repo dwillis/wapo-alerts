@@ -422657,5 +422657,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "504bd842-904f-11f1-8a2a-00000a1aceb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alcohol changes your brain. Here\u2019s what happens when you stop drinking, our columnist Richard Sima explains.",
+            "ios": {
+                "alert": {
+                    "body": "Alcohol changes your brain. Here\u2019s what happens when you stop drinking, our columnist Richard Sima explains.",
+                    "title": "Effects of Cutting Back"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/04/heres-what-happens-your-brain-when-you-stop-drinking-alcohol/",
+                        "datetime": "2026-08-04T21:56:14.462000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a725ffeecddb03600000096",
+                        "targetTopic": "editors_picks",
+                        "text": "Though even relatively low levels of drinking can cause harm, the brain can recover to an extent if you stop or cut back, evidence shows."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
