@@ -422513,5 +422513,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "629faec4-9033-11f1-b9c7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "CDC expands largest known cyclosporiasis outbreak to 15 states",
+            "ios": {
+                "alert": {
+                    "body": "CDC expands largest known cyclosporiasis outbreak to 15 states",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/04/cdc-expands-largest-known-cyclospora-outbreak-15-states/",
+                        "datetime": "2026-08-04T18:36:19.416000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a723123ecddb03600000095",
+                        "targetTopic": "breaking-news",
+                        "text": "Six states are being added to an outbreak linked to lettuce from central Mexico, according to three individuals familiar with the investigation. Missouri, where cases jumped dramatically in the past week, is among them, while information was not immediately available about the five other states."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "751996f2-902f-11f1-bb6e-0000a1ace36c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Post reporter befriended her neighborhood crow \u2013 and shares how you can, too",
+            "ios": {
+                "alert": {
+                    "body": "A Post reporter befriended her neighborhood crow \u2013 and shares how you can, too",
+                    "title": "Bonding With Corvids"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/04/i-befriended-my-neighborhood-crow-you-can-too/",
+                        "datetime": "2026-08-04T18:08:12.434000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a722a8c3c9ccb360000008c",
+                        "targetTopic": "editors_picks",
+                        "text": "Reflections \u2014 and expert tips \u2014 on building bonds with corvids."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
