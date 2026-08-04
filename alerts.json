@@ -422369,5 +422369,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "48fa14c0-9023-11f1-97aa-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Max Miller, accused of domestic violence, seeks ethics investigation to clear his name",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Max Miller, accused of domestic violence, seeks ethics investigation to clear his name",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/04/rep-max-miller-accused-abuse-seeks-ethics-investigation-clear-his-name/",
+                        "datetime": "2026-08-04T16:41:04.354000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a721620eaeba83700000086",
+                        "targetTopic": "politics",
+                        "text": "The Ohio Republican, who has been in the House since 2023, has said he will not drop his reelection bid."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cbc717f0-901d-11f1-a2a3-00000a1ace98",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Daughter who eloped still wants help paying for a reception",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Daughter who eloped still wants help paying for a reception",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/04/carolyn-hax-daughter-who-eloped-still-wants-help-paying-reception/",
+                        "datetime": "2026-08-04T16:01:46.899000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a720ceaeaeba83700000085",
+                        "targetTopic": "advice",
+                        "text": "Couple had reasons to elope, but letter writer still has pain at her exclusion that planning a party won\u2019t ease."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "147d8350-901c-11f1-a0f4-00000a1ace7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump orders changes to new helipad after weeks of around-the-clock work",
+            "ios": {
+                "alert": {
+                    "body": "Trump orders changes to new helipad after weeks of around-the-clock work",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/04/trump-orders-changes-new-helipad-after-weeks-around-the-clock-work/",
+                        "datetime": "2026-08-04T15:49:29.828000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a720a09eaeba83700000084",
+                        "targetTopic": "politics",
+                        "text": "Contractors have removed the granite seal that had begun to take shape in recent days, after the president complained about the slope of the White House lawn."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
