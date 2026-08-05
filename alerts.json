@@ -422897,5 +422897,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbb64ed0-90bc-11f1-a3a0-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Primary results. White House helipad. Judge threats. Spokane fires. Cyclospriasis. Super agers. Toxic crushes. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Primary results. White House helipad. Judge threats. Spokane fires. Cyclospriasis. Super agers. Toxic crushes. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/05/7-things-know-wednesday-august-5/?noredirect=1",
+                        "datetime": "2026-08-05T10:59:56.739000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6a7317aceaeba8370000008a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
