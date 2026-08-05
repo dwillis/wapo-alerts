@@ -423377,5 +423377,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f85966d0-90f2-11f1-a6fb-0000a1ace1d7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Abdul El-Sayed won Michigan\u2019s contentious Senate Democratic primary",
+            "ios": {
+                "alert": {
+                    "body": "How Abdul El-Sayed won Michigan\u2019s contentious Senate Democratic primary",
+                    "title": "Inside an Upset"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/05/how-el-sayed-won-contentious-michigan-senate-democratic-primary/",
+                        "datetime": "2026-08-05T17:27:44.498000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7372903c9ccb360000008e",
+                        "targetTopic": "politics",
+                        "text": "When the left-wing candidate entered the race in 2025, he was an underdog who was best known for losing the 2018 primary for governor to Gretchen Whitmer by 22 points. He overcame a massive spending disadvantage and opposition from party leaders to win Tuesday\u2019s primary on a message of drastically changing the political system."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "dbb2df80-90fb-11f1-af66-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Social media is fueling limerence, an intense form of romantic obsession",
+            "ios": {
+                "alert": {
+                    "body": "Social media is fueling limerence, an intense form of romantic obsession",
+                    "title": "Online Infatuation"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/05/how-social-media-feeds-intense-romantic-obsession-limerence/",
+                        "datetime": "2026-08-05T18:31:21.632000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a738179fd12a83700000097",
+                        "targetTopic": "editors_picks",
+                        "text": "These episodes of profound infatuation \u2014 characterized by frequent thoughts about a love interest, moods dependent on their actions and vivid fantasy \u2014 have appeared in art and literature throughout history. But the digital world is primed to feed them."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
