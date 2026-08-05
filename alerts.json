@@ -423714,5 +423714,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "61822ff2-9127-11f1-942e-00000a1ace84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump, Hegseth clashed at Camp David over shortages of long-range guided missiles and other critical munitions",
+            "ios": {
+                "alert": {
+                    "body": "Trump, Hegseth clashed at Camp David over shortages of long-range guided missiles and other critical munitions",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/05/trump-hegseth-clashed-camp-david-over-iran-missile-depletion-concerns/",
+                        "datetime": "2026-08-05T23:42:54.738000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73ca7eeaeba83700000090",
+                        "targetTopic": "breaking-news",
+                        "text": "While expressing frustration over the Iran war, the president demanded to know why he hadn't been notified that the weaponry was running drastically low, according to two people familiar with the conversation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
