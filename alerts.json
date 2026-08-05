@@ -423666,5 +423666,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5f9e1565-9121-11f1-8747-00000a1ace13",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michigan Senate primary shows Democratic establishment has lost its grip, columnist Karen Tumulty writes",
+            "ios": {
+                "alert": {
+                    "body": "Michigan Senate primary shows Democratic establishment has lost its grip, columnist Karen Tumulty writes",
+                    "title": "Editors\u2019 Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/05/michigan-senate-primary-shows-democratic-establishment-has-lost-its-grip/",
+                        "datetime": "2026-08-05T22:59:54.579000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73c06a3c9ccb3600000090",
+                        "targetTopic": "editors_picks",
+                        "text": "The upset highlighted how out of touch the power brokers are with the party\u2019s surging left wing as they try to retake control of the Senate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
