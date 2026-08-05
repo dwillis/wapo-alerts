@@ -423233,5 +423233,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b961c1c0-90e8-11f1-8167-00000a1ace38",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Temporary protected status for Haitians officially ends, putting thousands out of work and in limbo",
+            "ios": {
+                "alert": {
+                    "body": "Temporary protected status for Haitians officially ends, putting thousands out of work and in limbo",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/08/05/tps-haitians-officially-ends-putting-thousands-out-work-limbo/",
+                        "datetime": "2026-08-05T16:14:23.730000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73615f3c9ccb360000008d",
+                        "targetTopic": "breaking-news",
+                        "text": "A federal judge on Wednesday took the final step in allowing the Trump administration to terminate temporary protected status for 350,000 Haitians, meaning many are likely to lose their jobs and be at risk of deportation back to a country the United States says remains dangerous."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0805a9b0-90e7-11f1-a3a0-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Playing music is my life. Must I quit that? Carolyn Hax readers give advice.",
+            "ios": {
+                "alert": {
+                    "body": "Playing music is my life. Must I quit that? Carolyn Hax readers give advice.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/05/playing-music-is-my-life-must-i-quit-that-hax-readers-give-advice/",
+                        "datetime": "2026-08-05T16:02:16.791000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a735e88ecddb03600000099",
+                        "targetTopic": "advice",
+                        "text": "Playing music is my life. Must I quit that? Carolyn Hax readers give advice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "033f08a0-90e1-11f1-a6c6-00000a1ace2d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I was turned away from a restaurant for dining alone. Is that normal? Our food critic answers questions.",
+            "ios": {
+                "alert": {
+                    "body": "I was turned away from a restaurant for dining alone. Is that normal? Our food critic answers questions.",
+                    "title": "Dining Chat"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/08/05/ask-elazar-sontag-your-dining-questions/",
+                        "datetime": "2026-08-05T15:19:11.850000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73546fecddb03600000098",
+                        "targetTopic": "food",
+                        "text": "I was turned away from a restaurant for dining alone. Is that normal? Our food critic answers questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
