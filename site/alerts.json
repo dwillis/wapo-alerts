@@ -422753,5 +422753,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0af656e0-906c-11f1-8b89-000a1ace1c14",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kansans vote no on electing state Supreme Court justices, a GOP-backed measure that could have shaped rulings on abortion, voting",
+            "ios": {
+                "alert": {
+                    "body": "Kansans vote no on electing state Supreme Court justices, a GOP-backed measure that could have shaped rulings on abortion, voting",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/04/2026-kansas-constitutional-amendment-1-election-results-live-updates/",
+                        "datetime": "2026-08-05T01:21:53.636000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a729031fd12a83700000095",
+                        "targetTopic": "breaking-news",
+                        "text": "The ballot measure asked voters whether Kansas should directly elect its justices or appoint them, using a merit-based system adopted decades ago after a political scandal. The fight reflects the growing importance of state courts since the U.S. Supreme Court ended the federal constitutional right to abortion and put claims of partisan gerrymandering beyond the reach of federal judges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2cd764d0-906b-11f1-b7dc-0000a1acef5c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Wesley Bell ends Cori Bush\u2019s comeback bid, beating former lawmaker in Missouri Democratic primary for second time in two years",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Wesley Bell ends Cori Bush\u2019s comeback bid, beating former lawmaker in Missouri Democratic primary for second time in two years",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/04/missouri-house-district-1-primary-election-results-2026-live-updates-bell-faces-bush/",
+                        "datetime": "2026-08-05T01:15:41.004000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a728ebdeaeba83700000088",
+                        "targetTopic": "politics",
+                        "text": "Bush, who represented the St. Louis-area district from 2021 to 2025, was supported by the Democratic Socialists of America, Sen. Bernie Sanders (I-Vermont) and Justice Democrats, an organization that backs left-wing candidates."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ae834d50-9075-11f1-8412-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michigan\u2019s gubernatorial race will pit Trump-backed Rep. John James against Jocelyn Benson, the state\u2019s top election official",
+            "ios": {
+                "alert": {
+                    "body": "Michigan\u2019s gubernatorial race will pit Trump-backed Rep. John James against Jocelyn Benson, the state\u2019s top election official",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/results/2026/08/04/michigan-governor-primary-election-results-2026-live-updates/",
+                        "datetime": "2026-08-05T02:30:53.543000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a72a05deaeba83700000089",
+                        "targetTopic": "politics",
+                        "text": "Michigan Gov. Gretchen Whitmer (D) was term-limited after two gubernatorial wins in the battleground state, which Donald Trump won in 2024."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

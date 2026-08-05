@@ -422849,5 +422849,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ae834d50-9075-11f1-8412-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michigan\u2019s gubernatorial race will pit Trump-backed Rep. John James against Jocelyn Benson, the state\u2019s top election official",
+            "ios": {
+                "alert": {
+                    "body": "Michigan\u2019s gubernatorial race will pit Trump-backed Rep. John James against Jocelyn Benson, the state\u2019s top election official",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/results/2026/08/04/michigan-governor-primary-election-results-2026-live-updates/",
+                        "datetime": "2026-08-05T02:30:53.543000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a72a05deaeba83700000089",
+                        "targetTopic": "politics",
+                        "text": "Michigan Gov. Gretchen Whitmer (D) was term-limited after two gubernatorial wins in the battleground state, which Donald Trump won in 2024."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
