@@ -423570,5 +423570,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0adbb7d3-910d-11f1-af66-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What El-Sayed\u2019s win proves about the Democratic Party",
+            "ios": {
+                "alert": {
+                    "body": "What El-Sayed\u2019s win proves about the Democratic Party",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/05/michigan-abdul-el-sayed-shows-democratic-insurgency-is-here-stay/",
+                        "datetime": "2026-08-05T20:34:22.459000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a739e4efd12a83700000098",
+                        "targetTopic": "opinions",
+                        "text": "What El-Sayed\u2019s win proves about the Democratic Party"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
