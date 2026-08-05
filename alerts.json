@@ -423618,5 +423618,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0bd0cfc0-9119-11f1-a6c6-00000a1ace2d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why \u2018super movers\u2019 have healthier brains \u2014 and how to be one",
+            "ios": {
+                "alert": {
+                    "body": "Why \u2018super movers\u2019 have healthier brains \u2014 and how to be one",
+                    "title": "Fitness and Cognition"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/05/why-super-movers-have-healthier-brains-how-be-one/",
+                        "datetime": "2026-08-05T22:00:18.025000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73b272eaeba8370000008f",
+                        "targetTopic": "editors_picks",
+                        "text": "Defined as people who are able to walk significantly faster than most of their aging peers, they are about half as likely to experience cognitive decline, a study found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
