@@ -422705,5 +422705,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fedd0821-905e-11f1-8b89-000a1ace1c14",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Polls are about to close in Michigan, home to a contentious Democratic primary for a battleground Senate seat. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Polls are about to close in Michigan, home to a contentious Democratic primary for a battleground Senate seat. Follow our coverage.",
+                    "title": "Live Updates"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/04/elections-live-updates-michigan-missouri-kansas-virginia-washington-hold-primaries/",
+                        "datetime": "2026-08-04T23:48:29.814000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a727a4deaeba83700000087",
+                        "targetTopic": "breaking-news",
+                        "text": "The Senate race between liberal favorite Abdul El-Sayed and more-moderate Rep. Haley Stevens has reflected broader tensions within the Democratic Party. Primary elections are also being held in Virginia, Kansas, Missouri and Washington state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
