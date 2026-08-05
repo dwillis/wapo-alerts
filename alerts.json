@@ -423473,5 +423473,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dba135d5-9107-11f1-8512-0000a1acec0f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate confirms CDC director after debate over whether she would defy RFK Jr.",
+            "ios": {
+                "alert": {
+                    "body": "Senate confirms CDC director after debate over whether she would defy RFK Jr.",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/05/senate-confirms-cdc-director-after-debate-over-whether-she-would-defy-rfk-jr/",
+                        "datetime": "2026-08-05T19:57:15.681000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73959b3c9ccb360000008f",
+                        "targetTopic": "health",
+                        "text": "Erica Schwartz, a physician and retired Navy rear admiral who served as deputy U.S. surgeon general during President Donald Trump\u2019s first term, will take over as the Centers for Disease Control and Prevention\u2019s permanent director nearly a year after Trump fired Susan Monarez."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "85b1ba31-9104-11f1-aa42-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This federal judge ruled against Trump. Then the threats began.",
+            "ios": {
+                "alert": {
+                    "body": "This federal judge ruled against Trump. Then the threats began.",
+                    "title": "Attacks on the Judiciary"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/08/05/federal-judge-opens-up-about-threats-he-has-experienced-under-trump/",
+                        "datetime": "2026-08-05T19:33:22.992000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a739002ecddb0360000009a",
+                        "targetTopic": "politics",
+                        "text": "U.S. District Judge John McConnell worked in relative obscurity for nearly all his 15 years on the federal bench. Starting early last year, he faced a wave of intimidation that was unlike anything he had ever experienced and that signaled a new era for federal judges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
