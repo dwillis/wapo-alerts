@@ -422945,5 +422945,293 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "55ef0e80-90d5-11f1-ac3c-00000a1aceb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Populist candidate Abdul El-Sayed defeats centrist Rep. Haley Stevens in Michigan\u2019s contentious Democratic Senate primary",
+            "ios": {
+                "alert": {
+                    "body": "Populist candidate Abdul El-Sayed defeats centrist Rep. Haley Stevens in Michigan\u2019s contentious Democratic Senate primary",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/04/michigan-senate-primary-election-live-results-2026-abdul-el-sayed-faces-haley-stevens/",
+                        "datetime": "2026-08-05T13:55:36.614000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7340d8eaeba8370000008c",
+                        "targetTopic": "breaking-news",
+                        "text": "The race had pitted the Democratic Party\u2019s establishment against its insurgent flank, with notable Democrats in the state endorsing Stevens in the lead-up to the primary and El-Sayed getting a boost from left-wing lawmakers, including Sen. Bernie Sanders (I-Vermont)."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8c2c2030-90d2-11f1-a3a0-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JD Vance: The president is fighting a fraud crisis. Now Congress can help.",
+            "ios": {
+                "alert": {
+                    "body": "JD Vance: The president is fighting a fraud crisis. Now Congress can help.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/05/jd-vance-fraud-medicaid-medicare-snap-must-be-stopped/",
+                        "datetime": "2026-08-05T13:35:39.079000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a733c2bfd12a83700000096",
+                        "targetTopic": "opinions",
+                        "text": "A whole-of-government approach is necessary to fight the exploitation of Americans\u2019 generosity."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3ba2852b-90d0-11f1-a3a0-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A step back from public life in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A step back from public life in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-05T13:19:04.929000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a733848ecddb03600000097",
+                        "targetTopic": "news_quiz",
+                        "text": "A step back from public life in today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7a42aea0-90ca-11f1-9131-00000a1ace1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Chuck Edwards drops reelection bid following House censure recommendation",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Chuck Edwards drops reelection bid following House censure recommendation",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/05/rep-chuck-edwards-drops-reelection-bid-following-house-censure-recommendation/",
+                        "datetime": "2026-08-05T12:37:53.042000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a732ea1eaeba8370000008b",
+                        "targetTopic": "politics",
+                        "text": "An Ethics Committee report detailed \u201cpersistent unprofessional and inappropriate conduct\u201d by the North Carolina Republican toward two young female staffers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9cf4e2b0-90de-11f1-b126-00000a1ace7b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Arrested at the Reflecting Pool, a woman details the case\u2019s \u2018heartbreaking\u2019 toll, speaking publicly for the first time",
+            "ios": {
+                "alert": {
+                    "body": "Arrested at the Reflecting Pool, a woman details the case\u2019s \u2018heartbreaking\u2019 toll, speaking publicly for the first time",
+                    "title": "Vandalism Charges Dropped"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/04/woman-recounts-reflecting-pool-arrest-says-she-was-humiliated/",
+                        "datetime": "2026-08-05T15:02:00.779000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a735068eaeba8370000008e",
+                        "targetTopic": "us",
+                        "text": "In an interview, Sophie Dennison-Gibby said that shortly after she plucked peeling liner from the water, an officer approached. \u201cI wish you hadn\u2019t done that. Now I\u2019m going to arrest you,\u201d she recalled him telling her."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f301f971-90d6-11f1-ac3c-00000a1aceb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Left-wing candidates win House Democratic primaries in two Michigan battlegrounds, continuing insurgents\u2019 winning streak",
+            "ios": {
+                "alert": {
+                    "body": "Left-wing candidates win House Democratic primaries in two Michigan battlegrounds, continuing insurgents\u2019 winning streak",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/04/michigan-house-primary-election-results-2026-live-updates/",
+                        "datetime": "2026-08-05T14:07:09.587000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73438deaeba8370000008d",
+                        "targetTopic": "politics",
+                        "text": "Donavan McKinney and William Lawrence had mounted challenges for House seats that posed a threat to the Democratic establishment in the battleground state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
