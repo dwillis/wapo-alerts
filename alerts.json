@@ -423762,5 +423762,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "da7287c0-9131-11f1-942e-00000a1ace84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. moves to decertify transplant group that tried to collect organs from living patients",
+            "ios": {
+                "alert": {
+                    "body": "U.S. moves to decertify transplant group that tried to collect organs from living patients",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/05/us-decertifies-transplant-group-that-tried-collect-organs-living-patients/",
+                        "datetime": "2026-08-06T00:57:52.587000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73dc10fd12a83700000099",
+                        "targetTopic": "us",
+                        "text": "The investigation included the case of a Kentucky man who was brought to the operating table for organ recovery despite thrashing, crying and shaking his head."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
