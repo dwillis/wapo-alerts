@@ -423858,5 +423858,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f6064540-9185-11f1-95ac-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump vs. Hegseth. 2028 contenders. Fauci\u2019s phone. Michigan election. Sun surface. Better skin. Captcha quiz. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump vs. Hegseth. 2028 contenders. Fauci\u2019s phone. Michigan election. Sun surface. Better skin. Captcha quiz. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/06/7-things-know-thursday-august-6/?noredirect=1",
+                        "datetime": "2026-08-06T10:59:56.615000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6a74692ceaeba83700000091",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
