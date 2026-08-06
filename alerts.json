@@ -423810,5 +423810,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ba97b3a0-913e-11f1-91f4-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new type of flu shot is coming after FDA approves mRNA-based vaccine",
+            "ios": {
+                "alert": {
+                    "body": "A new type of flu shot is coming after FDA approves mRNA-based vaccine",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/05/new-type-flu-shot-is-coming-after-fda-approves-mrna-based-vaccine/",
+                        "datetime": "2026-08-06T02:30:02.501000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a73f1aaecddb0360000009b",
+                        "targetTopic": "breaking-news",
+                        "text": "Moderna said the new shot, which was approved after controversy and despite Health Secretary Robert F. Kennedy Jr.\u2019s skepticism, will probably be available at some retailers in the coming weeks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
