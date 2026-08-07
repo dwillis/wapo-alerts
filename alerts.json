@@ -425155,5 +425155,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cc029620-9295-11f1-996b-00000a1ace0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President Trump renews effort to fire Federal Reserve governor Lisa Cook after Supreme Court ruling",
+            "ios": {
+                "alert": {
+                    "body": "President Trump renews effort to fire Federal Reserve governor Lisa Cook after Supreme Court ruling",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/07/white-house-revives-bid-remove-fed-lisa-cook-over-mortgage-claims/",
+                        "datetime": "2026-08-07T19:25:49.195000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a76313decddb0360000009f",
+                        "targetTopic": "politics",
+                        "text": "The Supreme Court in June thwarted an earlier attempt by Trump to oust Cook, asserting the Federal Reserve's status as an independent agency."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
