@@ -424579,5 +424579,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8243f6e1-9205-11f1-9129-00000a1aceb4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Andy Ogles, a vocal Trump ally, loses Tennessee primary to Charlie Hatcher",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Andy Ogles, a vocal Trump ally, loses Tennessee primary to Charlie Hatcher",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/06/tennessee-house-primary-election-live-results-andy-ogles-faces-charlie-hatcher/",
+                        "datetime": "2026-08-07T02:12:57.980000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a753f293c9ccb3600000095",
+                        "targetTopic": "politics",
+                        "text": "Ogles had faced increased scrutiny over campaign finance decisions and other issues. Hatcher, a former state agriculture commissioner, received a boost this week with a late endorsement from Tennessee\u2019s Republican governor, Bill Lee."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6a8bd400-9200-11f1-b227-00000a1ace32",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Marsha Blackburn, a longtime Trump ally, wins the GOP nomination for Tennessee governor",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Marsha Blackburn, a longtime Trump ally, wins the GOP nomination for Tennessee governor",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/06/tennessee-governor-primary-election-live-results-blackburn-rose-face-off/",
+                        "datetime": "2026-08-07T01:36:30.631000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a75369e3c9ccb3600000094",
+                        "targetTopic": "politics",
+                        "text": "Blackburn\u2019s victory capped a heated primary fight against Rep. John Rose. The Republican nominee will be favored to win the general election in the heavily red state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
