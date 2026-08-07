@@ -424819,5 +424819,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e866eeb0-9268-11f1-a360-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The contempt vote against Fauci was a stunt, the Editorial Board writes",
+            "ios": {
+                "alert": {
+                    "body": "The contempt vote against Fauci was a stunt, the Editorial Board writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/06/anthony-fauci-is-not-contempt/",
+                        "datetime": "2026-08-07T14:04:29.532000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a75e5ed3c9ccb3600000096",
+                        "targetTopic": "opinions",
+                        "text": "Congress could learn many lessons from the pandemic response, but Thursday\u2019s vote doesn\u2019t help."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
