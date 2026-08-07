@@ -425251,5 +425251,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "75c5c000-92a1-11f1-8747-00000a1ace13",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "John Fetterman\u2019s warning to the Democratic Party",
+            "ios": {
+                "alert": {
+                    "body": "John Fetterman\u2019s warning to the Democratic Party",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/07/make-it-make-sense-john-fettermans-warning-democratic-party/",
+                        "datetime": "2026-08-07T20:49:18.528000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7644ce3c9ccb360000009a",
+                        "targetTopic": "opinions",
+                        "text": "The latest from \u201cMake It Make Sense\u201d on the Pennsylvania senator\u2019s views."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
