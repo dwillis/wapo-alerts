@@ -425107,5 +425107,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f366ee20-9289-11f1-ab98-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate approves tough Russia sanctions bill after a year and a half of negotiations, a win for Ukraine supporters",
+            "ios": {
+                "alert": {
+                    "body": "Senate approves tough Russia sanctions bill after a year and a half of negotiations, a win for Ukraine supporters",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/07/senate-approves-tough-russia-sanctions-bill/",
+                        "datetime": "2026-08-07T18:01:01.269000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a761d5d3c9ccb3600000098",
+                        "targetTopic": "politics",
+                        "text": "The bill, which passed 86-11, now heads to the House, where lawmakers have already left Washington for the August recess. Supporters of the measure argue the bill could cripple the Kremlin\u2019s main source of revenue and limit its ability to wage its war in Ukraine, now in its fifth year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
