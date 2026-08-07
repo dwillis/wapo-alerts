@@ -424675,5 +424675,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2e339480-924f-11f1-90c3-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Birthright citizenship. Anthony Fauci. Tariff refunds. Vaccine order. Wildfires. Dementia risk. Cooking with RFK Jr. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Birthright citizenship. Anthony Fauci. Tariff refunds. Vaccine order. Wildfires. Dementia risk. Cooking with RFK Jr. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/07/7-things-know-friday-august-7/?noredirect=1",
+                        "datetime": "2026-08-07T11:00:19.696000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6a75bac3eaeba83700000096",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
