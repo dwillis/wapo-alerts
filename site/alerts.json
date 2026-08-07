@@ -425299,5 +425299,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5ef3e0a0-92ab-11f1-a3d9-00000a1ace73",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "One photo changed \u2018Odyssey\u2019 actress Samantha Morton\u2019s life",
+            "ios": {
+                "alert": {
+                    "body": "One photo changed \u2018Odyssey\u2019 actress Samantha Morton\u2019s life",
+                    "title": "Close to Home"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/07/one-photo-changed-odyssey-actress-samantha-mortons-life/",
+                        "datetime": "2026-08-07T22:00:15.067000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a76556ffd12a837000000a1",
+                        "targetTopic": "editors_picks",
+                        "text": "The British actress\u2019s understanding of art, and herself, was altered by an unexpected encounter with an intimately familiar image."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
