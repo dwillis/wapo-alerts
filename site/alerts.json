@@ -424531,5 +424531,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0a21e960-91ec-11f1-96cc-0000a1ace082",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New science overturns the conventional wisdom about brain games",
+            "ios": {
+                "alert": {
+                    "body": "New science overturns the conventional wisdom about brain games",
+                    "title": "Workouts for the Mind"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/06/new-science-brain-workouts-beyond-sudoku-crosswords/",
+                        "datetime": "2026-08-06T23:10:39.030000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a75146feaeba83700000095",
+                        "targetTopic": "editors_picks",
+                        "text": "Emerging evidence suggests that only certain types of training produce meaningful benefits, and those benefits may differ between men and women."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
