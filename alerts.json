@@ -425059,5 +425059,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d22f8a80-9286-11f1-b827-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he\u2019ll bring ballroom fight to Supreme Court after lower court halts work",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he\u2019ll bring ballroom fight to Supreme Court after lower court halts work",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/07/trump-likely-needs-congresss-approval-ballroom-court-says/",
+                        "datetime": "2026-08-07T17:38:37.057000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a76181d3c9ccb3600000097",
+                        "targetTopic": "breaking-news",
+                        "text": "An appeals court ruled earlier Friday that construction must stop until Congress authorizes the project. The ballroom is among the president\u2019s top priorities for this term."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
