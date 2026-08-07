@@ -425011,5 +425011,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "73563be0-927b-11f1-ba0d-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: His post-retirement hobby? \u2018Improving\u2019 his kids\u2019 homes unasked.",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: His post-retirement hobby? \u2018Improving\u2019 his kids\u2019 homes unasked.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/07/carolyn-hax-his-retirement-hobby-improving-his-kids-homes-unasked/",
+                        "datetime": "2026-08-07T16:17:13.562000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a760509fd12a837000000a0",
+                        "targetTopic": "advice",
+                        "text": "Out-of-sorts workaholic scoffs at post-retirement advice \u2014 and instead starts projects at his grown kids\u2019 homes without consent."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
