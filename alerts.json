@@ -425203,5 +425203,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c69c5be3-929e-11f1-8df3-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Avoiding these 3 risk factors might buy you 13 more dementia-free years",
+            "ios": {
+                "alert": {
+                    "body": "Avoiding these 3 risk factors might buy you 13 more dementia-free years",
+                    "title": "Keeping Brains Healthy"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/07/avoiding-these-risk-factors-might-delay-dementia-by-13-years/",
+                        "datetime": "2026-08-07T20:30:05.620000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a76404d3c9ccb3600000099",
+                        "targetTopic": "editors_picks",
+                        "text": "New research finds that people who steer clear of key cardiovascular hazards at midlife live much longer before developing dementia."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
