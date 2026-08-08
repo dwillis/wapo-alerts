@@ -425780,5 +425780,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7481d4a0-936d-11f1-ae71-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon presses defense firms to build weapons as Iran war depletes stocks",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon presses defense firms to build weapons as Iran war depletes stocks",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/08/08/pentagon-presses-defense-firms-build-weapons-iran-war-depletes-stocks/",
+                        "datetime": "2026-08-08T21:09:33.697000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a779b0deaeba8370000009c",
+                        "targetTopic": "breaking-news",
+                        "text": "The directive to industry from Deputy Defense Secretary Steve Feinberg comes amid tensions over a critical U.S. munitions shortage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
