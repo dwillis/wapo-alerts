@@ -425539,5 +425539,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a8af98b0-9346-11f1-8377-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This couple\u2019s love of skating \u2014 and each other \u2014 outlived the mall rink where they met",
+            "ios": {
+                "alert": {
+                    "body": "This couple\u2019s love of skating \u2014 and each other \u2014 outlived the mall rink where they met",
+                    "title": "6 Decades on the Ice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/08/08/mall-rink-where-they-fell-love-skated-nearly-60-years-is-closing/",
+                        "datetime": "2026-08-08T16:31:50.852000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7759f6eaeba8370000009b",
+                        "targetTopic": "editors_picks",
+                        "text": "Jerry and Tally Leonard have thrilled shoppers and open-skate crowds for decades at the Lloyd Center in Portland, Oregon. Now, they\u2019re not sure how they will fill the void."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
