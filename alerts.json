@@ -425828,5 +425828,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "02a68770-9379-11f1-9a1c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Anthony Bourdain movie gets his origin story wrong in crucial ways, our food reporter writes",
+            "ios": {
+                "alert": {
+                    "body": "The Anthony Bourdain movie gets his origin story wrong in crucial ways, our food reporter writes",
+                    "title": "Left Unsaid"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/08/08/what-anthony-bourdain-biopic-misses-about-his-life-legacy/",
+                        "datetime": "2026-08-08T22:32:16.669000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a77ae703c9ccb360000009c",
+                        "targetTopic": "editors_picks",
+                        "text": "\u201cTony\u201d wants viewers to see Anthony Bourdain\u2019s time as a teenage cook in Provincetown, Massachusetts, as a hopeful spark, not the beginning of a descent."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
