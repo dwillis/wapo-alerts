@@ -425347,5 +425347,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1f487d82-9305-11f1-a56d-00000a1aced0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate narrowly approves Blanche as AG, capping tough confirmation fight",
+            "ios": {
+                "alert": {
+                    "body": "Senate narrowly approves Blanche as AG, capping tough confirmation fight",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/08/senate-narrowly-approves-todd-blanche-ag-capping-tough-confirmation-fight/",
+                        "datetime": "2026-08-08T08:42:42.998000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a76ec02eaeba8370000009a",
+                        "targetTopic": "breaking-news",
+                        "text": "The vote grants President Donald Trump\u2019s former criminal defense lawyer a full stint as the head of the Justice Department, which has been rocked by vacancies and controversies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
