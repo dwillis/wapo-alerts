@@ -425587,5 +425587,150 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0b8980a0-9355-11f1-9d6b-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The heart-related blood test you may not have gotten \u2014 but should, according to medical experts",
+            "ios": {
+                "alert": {
+                    "body": "The heart-related blood test you may not have gotten \u2014 but should, according to medical experts",
+                    "title": "Gauging Your Risk"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/08/what-lipoproteina-test-can-tell-you-about-your-heart-health/",
+                        "datetime": "2026-08-08T18:14:49.711000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a777219fd12a837000000a4",
+                        "targetTopic": "health",
+                        "text": "Lipoprotein(a) isn\u2019t part of a standard lipid panel and is largely driven by genetics. Here\u2019s why it\u2019s important to get your level checked."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d970a490-9354-11f1-bd06-0000a1ace6d6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Paul Simon\u2019s joyful \u2018Graceland\u2019 is turning 40. Does it deserve an asterisk?",
+            "ios": {
+                "alert": {
+                    "body": "Paul Simon\u2019s joyful \u2018Graceland\u2019 is turning 40. Does it deserve an asterisk?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/05/graceland-40-paul-simons-masterwork-is-better-controversy/",
+                        "datetime": "2026-08-08T18:13:25.576000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7771c5fd12a837000000a3",
+                        "targetTopic": "opinions",
+                        "text": "Paul Simon\u2019s joyful \u2018Graceland\u2019 is turning 40. Does it deserve an asterisk?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b320cf00-934e-11f1-898b-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Maryland state park partially closed after rabid beavers attack visitors",
+            "ios": {
+                "alert": {
+                    "body": "Maryland state park partially closed after rabid beavers attack visitors",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/08/beavers-attack-two-visitors-cunningham-falls-state-park-maryland/",
+                        "datetime": "2026-08-08T17:29:24.299000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a776774fd12a837000000a2",
+                        "targetTopic": "local",
+                        "text": "A 13-year-old boy was attacked July 26 while swimming in the lake at Cunningham Falls State Park in Frederick County, according to the Maryland Department of Natural Resources. More than a week later, another beaver bit a 19-year-old man fishing from the park\u2019s shoreline on Wednesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
