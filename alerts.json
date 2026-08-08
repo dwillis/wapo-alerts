@@ -425491,5 +425491,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "060bff91-9337-11f1-93d7-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jeanine Pirro, Trump\u2019s longtime champion, is on the outs over Reflecting Pool move",
+            "ios": {
+                "alert": {
+                    "body": "Jeanine Pirro, Trump\u2019s longtime champion, is on the outs over Reflecting Pool move",
+                    "title": "A Rare Break"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/08/pirro-trumps-longtime-champion-is-outs-over-reflecting-pool-move/",
+                        "datetime": "2026-08-08T14:39:55.578000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a773fbbecddb036000000a1",
+                        "targetTopic": "breaking-news",
+                        "text": "D.C.\u2019s top prosecutor spent a year navigating the president\u2019s demands. Now she finds her job at risk amid a rare break with him over cases of alleged vandalism."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
