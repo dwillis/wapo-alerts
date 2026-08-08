@@ -425732,5 +425732,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "159f2540-9364-11f1-aa8d-0000a1aced20",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Unemployment improved \u2014 because thousands of workers disappeared. Where did they go?",
+            "ios": {
+                "alert": {
+                    "body": "Unemployment improved \u2014 because thousands of workers disappeared. Where did they go?",
+                    "title": "Behind the Numbers"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/08/us-economy-lost-jobs-unemployment-improved-due-workers-leaving-labor-force/",
+                        "datetime": "2026-08-08T20:02:29.023000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a778b55ecddb036000000a2",
+                        "targetTopic": "politics",
+                        "text": "The percentage of American workers ages 25 to 54 declined this year, and that\u2019s not a good sign for the economy, experts say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
