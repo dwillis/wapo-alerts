@@ -426020,5 +426020,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8e599960-9405-11f1-80de-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside school investigations frozen under Trump: Racial slurs, sexual harassment and more",
+            "ios": {
+                "alert": {
+                    "body": "Inside school investigations frozen under Trump: Racial slurs, sexual harassment and more",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/education/2026/08/09/inside-investigations-frozen-under-trump-racial-slurs-sexual-harassment-more/",
+                        "datetime": "2026-08-09T15:18:20.591000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a789a3cecddb036000000a5",
+                        "targetTopic": "editors_picks",
+                        "text": "The Education Department was in talks with dozens of districts at the end of the Biden administration. The cases have stalled since President Donald Trump took office."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
