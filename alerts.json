@@ -426309,5 +426309,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "048cad87-9432-11f1-81ef-0000a1aced11",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What an officer said to a suicidal man to talk him off a bridge\u2019s edge",
+            "ios": {
+                "alert": {
+                    "body": "What an officer said to a suicidal man to talk him off a bridge\u2019s edge",
+                    "title": "Connection in a Crisis"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2026/08/09/what-this-officer-said-suicidal-man-talk-him-off-bridge/",
+                        "datetime": "2026-08-09T20:36:36.731000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a78e4d4ecddb036000000a7",
+                        "targetTopic": "editors_picks",
+                        "text": "After a 45-minute conversation, Lt. Mike Hotz extended his hand, hoping the man would step toward him and shake it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
