@@ -426212,5 +426212,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "322e8260-941c-11f1-9fea-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As attorney general, Blanche faces pressure from Trump, skeptical courts and low staff morale",
+            "ios": {
+                "alert": {
+                    "body": "As attorney general, Blanche faces pressure from Trump, skeptical courts and low staff morale",
+                    "title": "Challenges Ahead"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/09/todd-blanches-next-challenges-trumps-attorney-general/",
+                        "datetime": "2026-08-09T18:00:24.313000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a78c038ecddb036000000a6",
+                        "targetTopic": "politics",
+                        "text": "A bruising confirmation battle is now behind Todd Blanche, but what comes next may be harder still."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
