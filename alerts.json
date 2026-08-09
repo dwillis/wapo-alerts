@@ -426260,5 +426260,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c25240e0-9424-11f1-9ceb-00000a1ace8b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s how cyclospora could be getting into our food, according to a public health microbiologist",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s how cyclospora could be getting into our food, according to a public health microbiologist",
+                    "title": "Origins of an Outbreak"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/09/microbiologist-explains-how-cyclospora-could-be-getting-into-our-food/",
+                        "datetime": "2026-08-09T19:01:42.187000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a78ce963c9ccb36000000a0",
+                        "targetTopic": "health",
+                        "text": "Researchers and public health officials are pointing to sewage contamination in the food supply as one of the most plausible theories for the current outbreak."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
