@@ -425876,5 +425876,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "491d4f55-93b4-11f1-b45d-00000a1ace48",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Ed Case of Hawaii fends off younger challenger from the left in Democratic primary",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Ed Case of Hawaii fends off younger challenger from the left in Democratic primary",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/08/hawaii-house-primary-election-results-live-ed-case-faces-younger-challenger/",
+                        "datetime": "2026-08-09T05:36:34.600000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7811e2fd12a837000000a5",
+                        "targetTopic": "politics",
+                        "text": "Case, 73, overcame a lively challenge from 42 year-old Jarrett Keohokalole, who campaigned on a message of generational change and criticized Case\u2019s conservative voting record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
