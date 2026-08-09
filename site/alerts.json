@@ -426357,5 +426357,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "badaca21-943e-11f1-8dc6-0000a1ace06f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Are you making these common protein mistakes? Take our quiz.",
+            "ios": {
+                "alert": {
+                    "body": "Are you making these common protein mistakes? Take our quiz.",
+                    "title": "Test Your Knowledge"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/interactive/2026/08/09/are-you-making-these-common-protein-mistakes-take-our-quiz/",
+                        "datetime": "2026-08-09T22:07:36.552000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a78fa28fd12a837000000a6",
+                        "targetTopic": "editors_picks",
+                        "text": "It\u2019s safe to say this nutrient has never been more talked about, or more misunderstood. All the hype might make it even more challenging to know what your body actually needs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
