@@ -426164,5 +426164,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7ec80312-9414-11f1-934f-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. customs officers want your password? It\u2019s an insidious trap.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. customs officers want your password? It\u2019s an insidious trap.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/07/phone-searches-airports-set-dangerous-privacy-precedent/",
+                        "datetime": "2026-08-09T17:05:16.799000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a78b34c3c9ccb360000009f",
+                        "targetTopic": "opinions",
+                        "text": "U.S. customs officers want your password? It\u2019s an insidious trap."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
