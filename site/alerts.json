@@ -426453,5 +426453,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb444e41-94c2-11f1-997a-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 1930s brought America to its knees. The 2030s could knock it flat.",
+            "ios": {
+                "alert": {
+                    "body": "The 1930s brought America to its knees. The 2030s could knock it flat.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/08/10/when-americas-budget-will-break-disastrously/",
+                        "datetime": "2026-08-10T13:54:18.159000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a79d80a3c9ccb36000000a2",
+                        "targetTopic": "opinions",
+                        "text": "When America\u2019s budget will break, disastrously."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "aa593241-94c0-11f1-b1a2-0000a1ace165",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This river is the star of today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This river is the star of today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-10T13:37:43.460000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a79d427ecddb036000000a8",
+                        "targetTopic": "news_quiz",
+                        "text": "A daily news quiz from The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4e9b7a81-94c0-11f1-b1b1-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What will El Ni\u00f1o bring where you live? Maps show its projected impacts.",
+            "ios": {
+                "alert": {
+                    "body": "What will El Ni\u00f1o bring where you live? Maps show its projected impacts.",
+                    "title": "Extreme Weather"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2026/track-how-extreme-this-years-el-nino-could-get/",
+                        "datetime": "2026-08-10T13:35:09.519000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a79d38deaeba8370000009d",
+                        "targetTopic": "editors_picks",
+                        "text": "A key zone of the Pacific Ocean is already at record warmth. See how rising sea temperatures could affect global weather."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
