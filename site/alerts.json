@@ -426789,5 +426789,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "40a1cad0-94e6-11f1-a26b-00000a1ace31",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration order would upend nation\u2019s childhood vaccine schedule",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration order would upend nation\u2019s childhood vaccine schedule",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/10/trump-administration-order-would-upend-nations-childhood-vaccine-schedule/",
+                        "datetime": "2026-08-10T18:06:46.926000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7a1336fd12a837000000a7",
+                        "targetTopic": "breaking-news",
+                        "text": "The president has pushed to narrow which vaccines are administered to children and split shots into multiple appointments."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
