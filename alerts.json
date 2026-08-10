@@ -426982,5 +426982,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "736fee51-9500-11f1-afbf-0000a1acedb6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Universities are fighting AI cheating. But there\u2019s a deeper problem.",
+            "ios": {
+                "alert": {
+                    "body": "Universities are fighting AI cheating. But there\u2019s a deeper problem.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://washingtonpost.com/opinions/2026/08/09/university-fight-against-ai-cheating-doesnt-go-far-enough/",
+                        "datetime": "2026-08-10T21:14:19.096000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7a3f2bfd12a837000000a9",
+                        "targetTopic": "opinions",
+                        "text": "Universities are fighting AI cheating. But there\u2019s a deeper problem."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
