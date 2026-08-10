@@ -427030,5 +427030,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b473daf0-9506-11f1-bd2f-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I\u2019m a doctor who treats brain fog. Here are 6 causes people overlook.",
+            "ios": {
+                "alert": {
+                    "body": "I\u2019m a doctor who treats brain fog. Here are 6 causes people overlook.",
+                    "title": "In a Haze?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/10/i-treat-brain-fog-here-are-5-surprising-causes-many-people-overlook/",
+                        "datetime": "2026-08-10T21:59:05.182000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7a49a9ecddb036000000ad",
+                        "targetTopic": "editors_picks",
+                        "text": "Columnist Trisha Pasricha writes that brain fog has become an important part of the conversation for many conditions, including perimenopause and hypothyroidism. Here\u2019s what the data shows may help people struggling with it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
