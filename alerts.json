@@ -426837,5 +426837,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a5ceaf00-94ea-11f1-ad2b-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump nominates loyalist to office that would oversee Reflecting Pool investigation",
+            "ios": {
+                "alert": {
+                    "body": "Trump nominates loyalist to office that would oversee Reflecting Pool investigation",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/10/trump-nominates-loyalist-office-that-would-oversee-reflecting-pool-review/",
+                        "datetime": "2026-08-10T18:38:14.688000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7a1a96eaeba8370000009e",
+                        "targetTopic": "politics",
+                        "text": "Dennis Kirk, a Project 2025 author who had worked for then-Director of National Intelligence Tulsi Gabbard, may now run the Interior Department\u2019s inspector general office."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
