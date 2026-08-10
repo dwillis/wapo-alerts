@@ -427078,5 +427078,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9ca229b0-950e-11f1-b62c-00000a1ace30",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Contradicting public statements, Trump took secret flight from Turkey amid Iranian threat",
+            "ios": {
+                "alert": {
+                    "body": "Contradicting public statements, Trump took secret flight from Turkey amid Iranian threat",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://washingtonpost.com/national-security/2026/08/10/trump-flew-secrecy-amid-iran-threat-air-force-one-became-decoy/",
+                        "datetime": "2026-08-10T22:55:41.159000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7a56edecddb036000000ae",
+                        "targetTopic": "breaking-news",
+                        "text": "The White House said the president was aboard Air Force One as he left a NATO summit. Instead, his departure included an elaborate ruse that concealed his travel."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
