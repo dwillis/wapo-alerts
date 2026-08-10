@@ -426885,5 +426885,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "453bf5f0-94f2-11f1-8bdf-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Death toll rising after 7.4-magnitude earthquake in Colombia, with at least 111 people killed",
+            "ios": {
+                "alert": {
+                    "body": "Death toll rising after 7.4-magnitude earthquake in Colombia, with at least 111 people killed",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/10/74-magnitude-earthquake-colombia-kills-least-20/",
+                        "datetime": "2026-08-10T19:32:48.533000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7a2760fd12a837000000a8",
+                        "targetTopic": "breaking-news",
+                        "text": "Rescue workers were searching for survivors in the rubble of fallen buildings in several cities. Colombian President Abelardo de la Espriella said 61 buildings collapsed and 52 schools, 18 health centers, 17 community centers and six airports were affected."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
