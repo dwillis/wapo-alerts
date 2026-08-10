@@ -426597,5 +426597,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "acb5b780-94ce-11f1-b523-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "RFK Jr. is targeting a decades-old loophole that allows food companies to use certain chemicals without first notifying regulators",
+            "ios": {
+                "alert": {
+                    "body": "RFK Jr. is targeting a decades-old loophole that allows food companies to use certain chemicals without first notifying regulators",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/10/rfk-jr-slated-unveil-plan-targeting-loophole-that-allows-chemicals-food-supply/",
+                        "datetime": "2026-08-10T15:18:00.361000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a79eba8ecddb036000000a9",
+                        "targetTopic": "us",
+                        "text": "The designation known as \u201cgenerally recognized as safe\u201d allows companies to self-certify the safety of certain food chemicals or substances without strict government oversight."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
