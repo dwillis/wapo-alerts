@@ -426933,5 +426933,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1bad2430-94fb-11f1-9079-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "AI models are breaking out of their cages. Their creators are scrambling.",
+            "ios": {
+                "alert": {
+                    "body": "AI models are breaking out of their cages. Their creators are scrambling.",
+                    "title": "Hacking Spree"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/08/10/openai-anthropic-under-pressure-explain-ai-hacking-sprees/",
+                        "datetime": "2026-08-10T20:36:04.241000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7a3634ecddb036000000ac",
+                        "targetTopic": "business",
+                        "text": "New details of how ChatGPT maker OpenAI failed to notice that its models had launched a hacking spree raise questions about the industry\u2019s approach to safety. Lawmakers on both sides of the aisle and state law enforcement officials across the country have called for new scrutiny and regulation of the industry."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
