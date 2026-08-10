@@ -426693,5 +426693,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f173ed00-94d4-11f1-b523-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Does \u2018I want to see other people\u2019 mean it\u2019s a cheat accompli?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Does \u2018I want to see other people\u2019 mean it\u2019s a cheat accompli?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/10/carolyn-hax-does-i-want-see-other-people-cheat-accompli/",
+                        "datetime": "2026-08-10T16:02:52.690000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a79f62cecddb036000000aa",
+                        "targetTopic": "advice",
+                        "text": "She lobbed cheating accusations at letter writer constantly. As she leaves to date others, it sure sounds like she was projecting."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

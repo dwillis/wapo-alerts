@@ -426645,5 +426645,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3a69eee1-94d2-11f1-83ac-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "7.4-magnitude earthquake in Colombia kills at least 20 and destroys buildings in multiple cities",
+            "ios": {
+                "alert": {
+                    "body": "7.4-magnitude earthquake in Colombia kills at least 20 and destroys buildings in multiple cities",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/10/74-magnitude-earthquake-colombia-kills-least-20/",
+                        "datetime": "2026-08-10T15:43:26.507000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a79f19e3c9ccb36000000a3",
+                        "targetTopic": "breaking-news",
+                        "text": "The temblor, which struck Colombia\u2019s Pacific coast shortly after 8:30 a.m., also shook Ecuador. There was no tsunami threat, Colombia\u2019s General Maritime Directorate said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f173ed00-94d4-11f1-b523-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Does \u2018I want to see other people\u2019 mean it\u2019s a cheat accompli?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Does \u2018I want to see other people\u2019 mean it\u2019s a cheat accompli?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/10/carolyn-hax-does-i-want-see-other-people-cheat-accompli/",
+                        "datetime": "2026-08-10T16:02:52.690000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a79f62cecddb036000000aa",
+                        "targetTopic": "advice",
+                        "text": "She lobbed cheating accusations at letter writer constantly. As she leaves to date others, it sure sounds like she was projecting."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
