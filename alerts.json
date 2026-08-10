@@ -426741,5 +426741,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e5668a80-94da-11f1-9839-00000a1ace03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Water systems are ripe for cyberattacks, experts warn after suspected Iranian hacks",
+            "ios": {
+                "alert": {
+                    "body": "Water systems are ripe for cyberattacks, experts warn after suspected Iranian hacks",
+                    "title": "New Cyber Threat"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/10/us-water-systems-are-low-hanging-fruit-cyberattacks-experts-warn-after-suspected-iranian-hacks/",
+                        "datetime": "2026-08-10T16:45:29.361000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7a0029ecddb036000000ab",
+                        "targetTopic": "editors_picks",
+                        "text": "Lawmakers are calling for protections after incidents in 12 states. An EPA rule that Republicans fought would \u201cremove most of the low-hanging fruit,\u201d a cybersecurity expert said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
