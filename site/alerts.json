@@ -427366,5 +427366,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6cf25bf0-959e-11f1-965d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Coping through visits with radically different in-laws",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Coping through visits with radically different in-laws",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/11/carolyn-hax-coping-through-visits-with-radically-different-in-laws/",
+                        "datetime": "2026-08-11T16:05:08.673000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7b4834fd12a837000000ad",
+                        "targetTopic": "advice",
+                        "text": "Husband says to skip visits to grating in-laws, but letter writer would rather find a way to stay cool."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
