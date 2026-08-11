@@ -427655,5 +427655,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6ace7ed1-95d0-11f1-bc74-0000a1ace193",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Today\u2019s tweens have less independence, costing parents more in babysitting",
+            "ios": {
+                "alert": {
+                    "body": "Today\u2019s tweens have less independence, costing parents more in babysitting",
+                    "title": "Differing Generations"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/11/todays-tweens-have-less-independence-costing-parents-more-babysitting/",
+                        "datetime": "2026-08-11T22:02:59.888000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7b9c13eaeba837000000a0",
+                        "targetTopic": "editors_picks",
+                        "text": "While some youngsters are working as babysitters, others are still being babysat. The changing norms are costing parents."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
