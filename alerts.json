@@ -427558,5 +427558,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "52d17270-95c5-11f1-965d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What does Trump\u2019s executive order on vaccines mean for my kids?",
+            "ios": {
+                "alert": {
+                    "body": "What does Trump\u2019s executive order on vaccines mean for my kids?",
+                    "title": "Directive\u2019s Impact"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/11/what-does-trumps-executive-order-vaccines-mean-my-kids/",
+                        "datetime": "2026-08-11T20:43:35.192000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7b8977fd12a837000000ae",
+                        "targetTopic": "health",
+                        "text": "Federal vaccine recommendations have not changed yet, and a legal battle is likely."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b8f9bfe0-95c4-11f1-ac69-00000a1ace41",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Embarrassing\u2019: Five writers on which Trump appointee has surprised them most",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Embarrassing\u2019: Five writers on which Trump appointee has surprised them most",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/11/five-post-opinions-writers-which-trump-appointee-surprised-them-most/",
+                        "datetime": "2026-08-11T20:39:17.102000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7b88753c9ccb36000000a7",
+                        "targetTopic": "opinions",
+                        "text": "Post Opinions writers share which appointees have defied expectations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
