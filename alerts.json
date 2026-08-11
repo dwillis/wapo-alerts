@@ -427318,5 +427318,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4fc9bf41-959a-11f1-8b19-0000a1aced4f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s secret flight echoes Clinton\u2019s Pakistan plane swap, with one key difference",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s secret flight echoes Clinton\u2019s Pakistan plane swap, with one key difference",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/11/trumps-plane-ruse-echoes-clintons-pakistan-swap-with-one-key-difference/",
+                        "datetime": "2026-08-11T15:35:41.689000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7b414dfd12a837000000ac",
+                        "targetTopic": "breaking-news",
+                        "text": "Bill Clinton\u2019s White House used a similar plane-change maneuver in 2000. But unlike President Donald Trump\u2019s recent flight, the press corps then was briefed on the operation and its dangers to journalists and the president."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
