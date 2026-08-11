@@ -427126,5 +427126,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ca4f7a60-9573-11f1-8b19-0000a1aced4f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s secret flight. Vaccines. Fauci texts. Earthquake. Meteor shower. Sensitive dogs. Dorm maids. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s secret flight. Vaccines. Fauci texts. Earthquake. Meteor shower. Sensitive dogs. Dorm maids. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/11/7-things-know-tuesday-august-11/?noredirect=1",
+                        "datetime": "2026-08-11T10:59:56.880000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6a7b00ac3c9ccb36000000a4",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
