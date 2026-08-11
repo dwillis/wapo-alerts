@@ -427414,5 +427414,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5dc1911-95ac-11f1-a78d-00000a1ace82",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A year after D.C. takeover, Trump says crime has plummeted. It\u2019s not that simple.",
+            "ios": {
+                "alert": {
+                    "body": "A year after D.C. takeover, Trump says crime has plummeted. It\u2019s not that simple.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/11/trump-says-hes-made-dc-safer-truth-is-more-complicated/",
+                        "datetime": "2026-08-11T17:47:23.920000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7b602b3c9ccb36000000a5",
+                        "targetTopic": "breaking-news",
+                        "text": "The Post\u2019s analysis of thousands of arrest records found the president's remarks overstate the federal intervention\u2019s impact."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
