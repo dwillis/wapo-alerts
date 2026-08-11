@@ -427462,5 +427462,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6511e700-95b4-11f1-b541-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House Democrats ask for records in dropped Reflecting Pool case against ex-Olympian",
+            "ios": {
+                "alert": {
+                    "body": "House Democrats ask for records in dropped Reflecting Pool case against ex-Olympian",
+                    "title": "Seeking Clarity"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/11/house-democrats-seek-records-dropped-reflecting-pool-case-against-ex-olympian/",
+                        "datetime": "2026-08-11T18:42:23.854000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7b6d0f3c9ccb36000000a6",
+                        "targetTopic": "politics",
+                        "text": "Rep. Jamie Raskin of Maryland sent a letter to the Justice and Interior departments pressing for more information on the felony prosecution of David Hearn."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
