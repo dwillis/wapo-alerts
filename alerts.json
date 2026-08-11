@@ -427270,5 +427270,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c94bd1c2-958e-11f1-ab3e-00000a1ace18",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Biden\u2019s sad cancer news explains uncomfortable realities for Democrats",
+            "ios": {
+                "alert": {
+                    "body": "Biden\u2019s sad cancer news explains uncomfortable realities for Democrats",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/11/biden-debacle-is-still-hurting-democrats/",
+                        "datetime": "2026-08-11T14:13:11.657000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7b2df7ecddb036000000af",
+                        "targetTopic": "opinions",
+                        "text": "The failures of 2024 still resonate \u2014 not least in the rise of socialism."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
