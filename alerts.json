@@ -428087,5 +428087,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "316f6800-9654-11f1-8655-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pirro, in rare move, convenes special grand jury in Washington",
+            "ios": {
+                "alert": {
+                    "body": "Pirro, in rare move, convenes special grand jury in Washington",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/12/pirro-convenes-unusual-grand-jury-dc-that-can-focus-single-case-issue-report/",
+                        "datetime": "2026-08-12T13:46:17.217000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c7929ecddb036000000b6",
+                        "targetTopic": "breaking-news",
+                        "text": "Unlike typical grand juries, those designated as special focus on a single case or related cases and can issue a report following their investigation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "310a1680-9654-11f1-bcd4-00000a1acebb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Putin just showed the world how afraid he is of his own people",
+            "ios": {
+                "alert": {
+                    "body": "Putin just showed the world how afraid he is of his own people",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/12/putin-just-showed-world-how-afraid-he-is-his-own-people/",
+                        "datetime": "2026-08-12T13:46:16.540000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c7928eaeba837000000a4",
+                        "targetTopic": "opinions",
+                        "text": "Barring the only anti-war party from the ballot shows the hollowness of Kremlin propaganda."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2900d0c1-9652-11f1-8655-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new podcast about books in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "A new podcast about books in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-12T13:31:44.104000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c75c0eaeba837000000a3",
+                        "targetTopic": "news_quiz",
+                        "text": "A new podcast about books in today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "250f52a0-964f-11f1-8655-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Primary night takeaways: A Democratic upset, a generational clash and a mixed result for Trump\u2019s candidates",
+            "ios": {
+                "alert": {
+                    "body": "Primary night takeaways: A Democratic upset, a generational clash and a mixed result for Trump\u2019s candidates",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://washingtonpost.com/politics/2026/08/12/takeaways-primaries-south-carolina-wisconsin-minnesota-connecticut/",
+                        "datetime": "2026-08-12T13:10:08.911000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c70b0ecddb036000000b5",
+                        "targetTopic": "politics",
+                        "text": "Democrats fought over age and ideology, while Republicans tested the value of President Donald Trump\u2019s endorsement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
