@@ -428615,5 +428615,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ae3aa71-968d-11f1-9c09-00000a1acecb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nick Reiner pleads not guilty to murder charges in killings of his father, Rob Reiner, and mother, Michele Singer Reiner",
+            "ios": {
+                "alert": {
+                    "body": "Nick Reiner pleads not guilty to murder charges in killings of his father, Rob Reiner, and mother, Michele Singer Reiner",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/08/12/nick-reiner-pleads-not-guilty-murder-charges-following-indictment/",
+                        "datetime": "2026-08-12T20:34:34.420000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7cd8da3c9ccb36000000a9",
+                        "targetTopic": "us",
+                        "text": "He was indicted last month by a grand jury, with details unsealed Wednesday. His parents were found dead in December."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
