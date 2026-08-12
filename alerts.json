@@ -428327,5 +428327,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1d8bb5a0-9663-11f1-b748-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Record-breaking $12.5 billion deal for Lakers comes just months after previous sale",
+            "ios": {
+                "alert": {
+                    "body": "Record-breaking $12.5 billion deal for Lakers comes just months after previous sale",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/08/12/record-breaking-125-billion-deal-lakers-comes-just-months-after-previous-sale/",
+                        "datetime": "2026-08-12T15:33:06.315000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c9232fd12a837000000b0",
+                        "targetTopic": "sports",
+                        "text": "The Los Angeles basketball team has been sold to a group led by Josh Kushner and Bob Iger, according to ESPN."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8f6fa9d0-9661-11f1-b5a3-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What do I do about a shrieking child in a restaurant? Our food critic is answering questions.",
+            "ios": {
+                "alert": {
+                    "body": "What do I do about a shrieking child in a restaurant? Our food critic is answering questions.",
+                    "title": "Dining Chat"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/08/12/ask-elazar-sontag-your-dining-questions/",
+                        "datetime": "2026-08-12T15:21:58.436000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c8f96ecddb036000000b7",
+                        "targetTopic": "food",
+                        "text": "Washington Post food critic Elazar Sontag entertains your restaurant questions, rants and raves."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
