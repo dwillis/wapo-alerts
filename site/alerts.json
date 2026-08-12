@@ -427991,5 +427991,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f6108d00-963c-11f1-abe2-0000a1ace75d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Primary results. Trump flight. White House construction. Big Bend. Wildfire bets. Cancer risk. Summer hits. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Primary results. Trump flight. White House construction. Big Bend. Wildfire bets. Cancer risk. Summer hits. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/12/7-things-know-wednesday-august-12/?noredirect=1",
+                        "datetime": "2026-08-12T10:59:59.208000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6a7c522fecddb036000000b3",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
