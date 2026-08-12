@@ -428759,5 +428759,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3d2a2090-96a4-11f1-8d32-00000a1ace4f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "CIA had \u2018low confidence\u2019 in Iranian threat before Trump switched planes in Turkey",
+            "ios": {
+                "alert": {
+                    "body": "CIA had \u2018low confidence\u2019 in Iranian threat before Trump switched planes in Turkey",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://washingtonpost.com/national-security/2026/08/12/cia-had-low-confidence-iranian-threat-before-trump-switched-planes-turkey/",
+                        "datetime": "2026-08-12T23:19:16.662000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7cff74eaeba837000000a6",
+                        "targetTopic": "breaking-news",
+                        "text": "U.S. intelligence officials were skeptical of the threat, which had been relayed by the Israeli government, current and former U.S. officials familiar with the intelligence said. CIA analysts did not view the intelligence as compelling and relayed that skepticism to Trump administration officials, one of the officials said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
