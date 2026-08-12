@@ -428567,5 +428567,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6f5bec90-9688-11f1-8f98-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House press secretary Karoline Leavitt to leave administration",
+            "ios": {
+                "alert": {
+                    "body": "White House press secretary Karoline Leavitt to leave administration",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/12/white-house-press-secretary-karoline-leavitt-leave-administration/",
+                        "datetime": "2026-08-12T20:00:14.905000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7cd0cefd12a837000000b1",
+                        "targetTopic": "politics",
+                        "text": "Leavitt will continue to serve as an outside adviser to President Donald Trump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
