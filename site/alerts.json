@@ -428423,5 +428423,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "599a2c30-9667-11f1-94a5-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We moved in together. Cue the prying into our future. Hax readers give advice.",
+            "ios": {
+                "alert": {
+                    "body": "We moved in together. Cue the prying into our future. Hax readers give advice.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/12/moving-together-starts-marriage-noise-hax-readers-give-advice/",
+                        "datetime": "2026-08-12T16:03:25.072000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c994decddb036000000b8",
+                        "targetTopic": "advice",
+                        "text": "Constant pointed questions about marriage and kids make it hard for the letter writer to hear her inner voice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
