@@ -428711,5 +428711,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "67adf620-969a-11f1-a07f-00000a1ace49",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "3 minutes of this activity may cut the risk of 13 cancers, study finds",
+            "ios": {
+                "alert": {
+                    "body": "3 minutes of this activity may cut the risk of 13 cancers, study finds",
+                    "title": "Finding Time to Move"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/12/3-minutes-vigorous-activity-may-cut-risk-13-cancers-study-finds/",
+                        "datetime": "2026-08-12T22:08:53.009000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7ceef53c9ccb36000000ab",
+                        "targetTopic": "editors_picks",
+                        "text": "The research offers a new look at how simply sitting less and moving more may affect cancer risk."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
