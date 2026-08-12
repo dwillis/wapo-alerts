@@ -427799,5 +427799,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9fca4c30-95f4-11f1-96b4-0000a1ace0c7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michael Alfonso wins Wisconsin GOP primary for House seat once held by his father-in-law, Transportation Secretary Sean Duffy",
+            "ios": {
+                "alert": {
+                    "body": "Michael Alfonso wins Wisconsin GOP primary for House seat once held by his father-in-law, Transportation Secretary Sean Duffy",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/11/wisconsin-house/",
+                        "datetime": "2026-08-12T02:22:10.707000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7bd8d23c9ccb36000000a8",
+                        "targetTopic": "politics",
+                        "text": "President Donald Trump backed Alfonso, holding a telephone town hall for the 26-year-old and branding him a \u201cMAGA warrior.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e1845880-95f1-11f1-8f3b-0000a1ace582",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. John B. Larson loses bid for 15th term in Connecticut, becoming latest Democratic incumbent to fall to younger opponent",
+            "ios": {
+                "alert": {
+                    "body": "Rep. John B. Larson loses bid for 15th term in Connecticut, becoming latest Democratic incumbent to fall to younger opponent",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/11/connecticut-house-district-1-primary-election-results-live-bronin-faces-larson/",
+                        "datetime": "2026-08-12T02:02:32.502000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7bd438eaeba837000000a1",
+                        "targetTopic": "politics",
+                        "text": "The 78-year-old Larson is the latest lawmaker to lose reelection this year as Democratic primary voters across the country choose younger candidates while ousting five House incumbents over the age of 65. The winner, former Hartford mayor Luke Bronin, received the state party\u2019s endorsement over Larson in an upset at the May convention."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
