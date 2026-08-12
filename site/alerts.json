@@ -428471,5 +428471,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a6b10220-967e-11f1-a7ee-00000a1ace30",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How mainstream Democrats pulled off a big upset against a democratic socialist",
+            "ios": {
+                "alert": {
+                    "body": "How mainstream Democrats pulled off a big upset against a democratic socialist",
+                    "title": "Breaking a Winning Streak"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/12/how-david-crowley-upset-francesca-hong-wisconsins-primary-governor/",
+                        "datetime": "2026-08-12T18:50:12.833000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7cc064eaeba837000000a5",
+                        "targetTopic": "politics",
+                        "text": "Francesca Hong, the overwhelming favorite in Wisconsin\u2019s primary for governor, failed to run up her margins among the types of voters who have broken for other democratic socialists."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bd588a42-9681-11f1-8ed5-00000a1ace9b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "National Symphony Orchestra has suffered severe financial hit under Trump\u2019s Kennedy Center, records show",
+            "ios": {
+                "alert": {
+                    "body": "National Symphony Orchestra has suffered severe financial hit under Trump\u2019s Kennedy Center, records show",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/12/trumps-kennedy-center-takeover-pushes-national-symphony-orchestra-into-crisis/",
+                        "datetime": "2026-08-12T19:12:19.206000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7cc593ecddb036000000b9",
+                        "targetTopic": "breaking-news",
+                        "text": "Individual donors and audience members have walked away from the orchestra, documents show, costing the Kennedy Center millions in additional losses."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
