@@ -427703,5 +427703,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "737e5510-95e3-11f1-8ed5-00000a1ace9b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Darline Graham advances to a GOP runoff in the race to replace her late brother, Lindsey Graham, in the Senate",
+            "ios": {
+                "alert": {
+                    "body": "Darline Graham advances to a GOP runoff in the race to replace her late brother, Lindsey Graham, in the Senate",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/11/south-carolina-gop-senate-special-primary/",
+                        "datetime": "2026-08-12T00:19:14.943000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7bbc02ecddb036000000b0",
+                        "targetTopic": "breaking-news",
+                        "text": "The whirlwind race, taking place exactly a month after Lindsey Graham unexpectedly died, drew a crowded field of Republican challengers in South Carolina, despite President Donald Trump endorsing Darline Graham."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
