@@ -427943,5 +427943,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "45b12340-9621-11f1-a33e-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democratic socialist Francesca Hong loses Wisconsin governor\u2019s primary despite leading in polls, a setback for the surging movement",
+            "ios": {
+                "alert": {
+                    "body": "Democratic socialist Francesca Hong loses Wisconsin governor\u2019s primary despite leading in polls, a setback for the surging movement",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/11/wisconsin-governor-primary-election-results-live-francesca-hong-david-crowley-run/",
+                        "datetime": "2026-08-12T07:41:46.900000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c23baecddb036000000b2",
+                        "targetTopic": "breaking-news",
+                        "text": "Hong, a state lawmaker and former restaurant owner, narrowly lost to Milwaukee County Executive David Crowley after an unexpectedly close primary. She had promised to put a hold on building data centers, impose higher taxes on millionaires and set up public grocery stores."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
