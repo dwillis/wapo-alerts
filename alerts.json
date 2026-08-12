@@ -427751,5 +427751,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1f01c960-95eb-11f1-b549-00000a1aced6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Ralph Norman to face Darline Graham in Republican runoff for the Senate seat held by the late Lindsey Graham",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Ralph Norman to face Darline Graham in Republican runoff for the Senate seat held by the late Lindsey Graham",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/11/south-carolina-gop-senate-special-primary/",
+                        "datetime": "2026-08-12T01:14:09.173000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7bc8e1ecddb036000000b1",
+                        "targetTopic": "politics",
+                        "text": "Norman and Graham will now go head-to-head in the Aug. 25 runoff. Many conservative activists in South Carolina have said they disagreed with President Donald Trump\u2019s decision to endorse Darline Graham, citing her lack of experience or voting record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
