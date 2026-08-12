@@ -428663,5 +428663,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7e7cda30-968e-11f1-8d27-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "AOC may never get a better shot at being president than this, Henry Olsen writes",
+            "ios": {
+                "alert": {
+                    "body": "AOC may never get a better shot at being president than this, Henry Olsen writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/12/aoc-president-2028-she-may-never-have-better-chance/",
+                        "datetime": "2026-08-12T20:43:37.326000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7cdaf93c9ccb36000000aa",
+                        "targetTopic": "opinions",
+                        "text": "AOC may never get a better shot at being president than this, Henry Olsen writes"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
