@@ -427895,5 +427895,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c4aedfb0-95ff-11f1-965d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "State Rep. Lisa Demuth defeats Trump-endorsed Mike Lindell in Minnesota gubernatorial primary. She will face Sen. Amy Klobuchar.",
+            "ios": {
+                "alert": {
+                    "body": "State Rep. Lisa Demuth defeats Trump-endorsed Mike Lindell in Minnesota gubernatorial primary. She will face Sen. Amy Klobuchar.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/results/2026/08/11/minnesota-governor-primary-election-results-2026-live-updates/",
+                        "datetime": "2026-08-12T03:41:57.051000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7beb85eaeba837000000a2",
+                        "targetTopic": "politics",
+                        "text": "Minnesota Gov. Tim Walz (D) set the governor\u2019s race abuzz when he announced in January that he would not seek a third term in the wake of a welfare-fraud investigation in the state that has drawn the national spotlight."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
