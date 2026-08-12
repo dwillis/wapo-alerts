@@ -428039,5 +428039,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b1ef58d0-964c-11f1-be2d-0000a1ace531",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Annual inflation cooled slightly in July despite renewed Iran conflict",
+            "ios": {
+                "alert": {
+                    "body": "Annual inflation cooled slightly in July despite renewed Iran conflict",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/12/annual-inflation-cooled-slightly-july-despite-renewed-iran-conflict/",
+                        "datetime": "2026-08-12T12:52:36.846000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7c6c94ecddb036000000b4",
+                        "targetTopic": "breaking-news",
+                        "text": "The Labor Department\u2019s consumer price index rose at a 3.4 percent annual pace for the year ending in July, ticking down from 3.5 percent in June, as energy prices held roughly level and housing prices rose only moderately."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
