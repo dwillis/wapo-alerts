@@ -428807,5 +428807,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1e532740-9706-11f1-bb1f-00000a1ace42",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump flight. 2028 contenders. AI in Congress. ICE encounter. Drug prices. El Ni\u00f1o. Next eclipse. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump flight. 2028 contenders. AI in Congress. ICE encounter. Drug prices. El Ni\u00f1o. Next eclipse. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/13/7-things-know-thursday-august-13/?noredirect=1",
+                        "datetime": "2026-08-13T10:59:55.629000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6a7da3ab3c9ccb36000000ac",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
