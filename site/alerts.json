@@ -429191,5 +429191,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "98b31700-9744-11f1-87d6-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration\u2019s antisemitism lawsuit against Harvard is dismissed",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration\u2019s antisemitism lawsuit against Harvard is dismissed",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2026/08/13/trump-administrations-antisemitism-lawsuit-against-harvard-is-dismissed/",
+                        "datetime": "2026-08-13T18:27:09.690000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7e0c7deaeba837000000a7",
+                        "targetTopic": "us",
+                        "text": "The lawsuit, filed by the Justice Department in March, said students were blocked from school buildings in 2023 and 2024 by protesters and forced to wear baseball caps to hide their yarmulkes, a traditional head covering worn by many observant Jewish men. A federal judge ruled the incidents were \u201ctoo isolated and episodic\u201d to support the claim that Harvard is not complying with federal law."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
