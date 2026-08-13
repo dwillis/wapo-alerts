@@ -429239,5 +429239,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "73bbe0b0-974b-11f1-a95d-0000a1aceb83",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "With poor conditions reported aboard USS Abraham Lincoln, senators demand answers from Hegseth",
+            "ios": {
+                "alert": {
+                    "body": "With poor conditions reported aboard USS Abraham Lincoln, senators demand answers from Hegseth",
+                    "title": "Trouble at Sea"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/13/poor-conditions-are-reported-uss-abraham-lincoln-democrats-demand-answers/",
+                        "datetime": "2026-08-13T19:16:14.189000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7e17feeaeba837000000a8",
+                        "targetTopic": "us",
+                        "text": "Sailors\u2019 families told the Military Times that two men tried to jump overboard as crews endure food shortages, broken toilets and water contamination on the aircraft carrier, which has been deployed since November."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
