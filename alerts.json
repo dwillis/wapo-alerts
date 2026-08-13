@@ -429432,5 +429432,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cc315a31-976a-11f1-a222-00000a1acedc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The American Dream comes down to OnlyFans, dodgeball and reality TV, columnist Monica Hesse writes",
+            "ios": {
+                "alert": {
+                    "body": "The American Dream comes down to OnlyFans, dodgeball and reality TV, columnist Monica Hesse writes",
+                    "title": "On the Small Screen"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/13/tv-american-dream-comes-down-dodgeball-onlyfans/",
+                        "datetime": "2026-08-13T23:00:36.925000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7e4c94fd12a837000000b6",
+                        "targetTopic": "editors_picks",
+                        "text": "Life, liberty and the pursuit of solvency take a side hustle, as seen on the small screen."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
