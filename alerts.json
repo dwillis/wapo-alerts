@@ -428855,5 +428855,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "94f18ce3-971d-11f1-bdbf-0000a1ace856",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Wisconsin city spent millions on a grocery store. It didn\u2019t go well.",
+            "ios": {
+                "alert": {
+                    "body": "A Wisconsin city spent millions on a grocery store. It didn\u2019t go well.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/13/madison-wis-spent-millions-grocery-it-ended-up-not-needing/",
+                        "datetime": "2026-08-13T13:47:52.985000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7dcb08ecddb036000000bc",
+                        "targetTopic": "opinions",
+                        "text": "Madison spent millions to build a supermarket across the street from another one."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "50c1e981-971c-11f1-bccb-0000a1ace1f9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This state is the focus of today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This state is the focus of today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-13T13:38:49.131000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7dc8e9ecddb036000000bb",
+                        "targetTopic": "news_quiz",
+                        "text": "This state is the focus of today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "07d3c920-971a-11f1-8068-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sizing up the 2028 Democratic presidential contenders",
+            "ios": {
+                "alert": {
+                    "body": "Sizing up the 2028 Democratic presidential contenders",
+                    "title": "Looking Ahead"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/13/sizing-up-2028-democratic-presidential-contenders/",
+                        "datetime": "2026-08-13T13:22:27.783000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7dc513ecddb036000000ba",
+                        "targetTopic": "breaking-news",
+                        "text": "There\u2019s a long list, but some are getting more traction than others."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
