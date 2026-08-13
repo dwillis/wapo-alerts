@@ -429143,5 +429143,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "838df080-973e-11f1-9acb-00000a1ace99",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kennedy Center board reapproves Trump\u2019s plan to close for renovations",
+            "ios": {
+                "alert": {
+                    "body": "Kennedy Center board reapproves Trump\u2019s plan to close for renovations",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/13/kennedy-center-board-reapproves-trumps-plan-close-renovations/",
+                        "datetime": "2026-08-13T17:43:37.251000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7e0249fd12a837000000b4",
+                        "targetTopic": "breaking-news",
+                        "text": "The board of trustees, led by President Donald Trump, once more voted to shutter the building, after a judge ordered them to more carefully weigh the decision."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
