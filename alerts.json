@@ -429095,5 +429095,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7bc963a1-9736-11f1-aefc-00000a1acef7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Covert CIA program said to be behind mysterious attacks on Gal\u00e1pagos boats",
+            "ios": {
+                "alert": {
+                    "body": "Covert CIA program said to be behind mysterious attacks on Gal\u00e1pagos boats",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/08/13/covert-cia-program-said-be-behind-mysterious-attacks-galpagos-boats/",
+                        "datetime": "2026-08-13T16:46:08.247000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7df4d0fd12a837000000b3",
+                        "targetTopic": "breaking-news",
+                        "text": "A surveillance plane flew from El Salvador toward the fishing boats before drones attacked, flight data shows."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
