@@ -429047,5 +429047,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "96d574d0-972d-11f1-b010-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. military has lost about a quarter of its Reaper drone fleet as Iran war depletes arsenal",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. military has lost about a quarter of its Reaper drone fleet as Iran war depletes arsenal",
+                    "title": "Vulnerable Aircraft"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/13/us-military-has-lost-roughly-25-its-reaper-drones-iran-war-depletes-arsenal/",
+                        "datetime": "2026-08-13T15:42:28.123000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7de5e43c9ccb36000000ad",
+                        "targetTopic": "us",
+                        "text": "The aircraft, which cost up to $50 million each, have seen heavy use around the Strait of Hormuz \u2014 but they are relatively easy targets for Iran and its proxies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
