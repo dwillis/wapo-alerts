@@ -428999,5 +428999,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "62f44060-9723-11f1-81f0-00000a1acef0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Chatbots are doing the work of Congress with little oversight",
+            "ios": {
+                "alert": {
+                    "body": "Chatbots are doing the work of Congress with little oversight",
+                    "title": "AI on Capitol Hill"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/13/chatbots-are-doing-work-congress-with-little-oversight/",
+                        "datetime": "2026-08-13T14:29:26.149000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7dd4c6fd12a837000000b2",
+                        "targetTopic": "politics",
+                        "text": "From writing speeches to sorting constituent mail, artificial intelligence is spreading through the House and the Senate faster than the rules governing its use. Lawmakers face a key question: How much of their responsibilities are they willing to hand over?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
