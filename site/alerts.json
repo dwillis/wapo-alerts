@@ -429384,5 +429384,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cacfef10-9762-11f1-a222-00000a1acedc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This national youth sports organization is failing to protect children from sexual abuse",
+            "ios": {
+                "alert": {
+                    "body": "This national youth sports organization is failing to protect children from sexual abuse",
+                    "title": "AAU\u2019s Broken Pledges"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/08/13/how-aau-is-failing-protect-young-athletes-sexual-abuse/",
+                        "datetime": "2026-08-13T22:03:18.609000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7e3f26eaeba837000000a9",
+                        "targetTopic": "us",
+                        "text": "Over a decade after the Amateur Athletic Union promised to implement \u201chistoric child protection measures,\u201d it hasn\u2019t done so, leaving hundreds of thousands of athletes at risk."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
