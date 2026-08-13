@@ -429287,5 +429287,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a806d371-9755-11f1-98f2-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How 10 minutes of drawing can reset your nervous system",
+            "ios": {
+                "alert": {
+                    "body": "How 10 minutes of drawing can reset your nervous system",
+                    "title": "A Doodling Break"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/13/how-10-minutes-drawing-can-reset-your-nervous-system/",
+                        "datetime": "2026-08-13T20:29:16.863000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7e291cfd12a837000000b5",
+                        "targetTopic": "health",
+                        "text": "Experts break down the science behind why putting pencil to paper can have such a calming effect."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c261c9d0-975c-11f1-b7f4-00000a1ace70",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Jason Arday scandal isn\u2019t as simple as DEI gone wrong",
+            "ios": {
+                "alert": {
+                    "body": "The Jason Arday scandal isn\u2019t as simple as DEI gone wrong",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/13/jason-arday-scandal-cambridge-is-not-so-simple/",
+                        "datetime": "2026-08-13T21:20:07.534000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7e35073c9ccb36000000ae",
+                        "targetTopic": "opinions",
+                        "text": "The Jason Arday scandal isn\u2019t as simple as DEI gone wrong"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

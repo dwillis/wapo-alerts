@@ -429336,5 +429336,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c261c9d0-975c-11f1-b7f4-00000a1ace70",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Jason Arday scandal isn\u2019t as simple as DEI gone wrong",
+            "ios": {
+                "alert": {
+                    "body": "The Jason Arday scandal isn\u2019t as simple as DEI gone wrong",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/13/jason-arday-scandal-cambridge-is-not-so-simple/",
+                        "datetime": "2026-08-13T21:20:07.534000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7e35073c9ccb36000000ae",
+                        "targetTopic": "opinions",
+                        "text": "The Jason Arday scandal isn\u2019t as simple as DEI gone wrong"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
