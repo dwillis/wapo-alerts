@@ -429816,5 +429816,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e2ea6080-9807-11f1-9cb2-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Food and Drug Administration inspectors travel to Mexico nearly a month after linking Taylor Farms to cyclospora outbreak",
+            "ios": {
+                "alert": {
+                    "body": "Food and Drug Administration inspectors travel to Mexico nearly a month after linking Taylor Farms to cyclospora outbreak",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/14/fda-mexico-month-after-linking-taylor-farms-cyclospora-outbreak/",
+                        "datetime": "2026-08-14T17:45:06.076000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f54223c9ccb36000000b2",
+                        "targetTopic": "breaking-news",
+                        "text": "Given the scale of the outbreak, food-safety experts and some former top FDA officials said the agency should have gone to Mexico sooner after officials publicly connected the company\u2019s shredded lettuce to an outbreak that has sickened nearly 10,000 people."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
