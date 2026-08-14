@@ -429624,5 +429624,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5643220-97ea-11f1-9729-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump official who oversees U.S. Forest Service asked for more aircraft to fight a small fire near his Idaho ranch",
+            "ios": {
+                "alert": {
+                    "body": "Trump official who oversees U.S. Forest Service asked for more aircraft to fight a small fire near his Idaho ranch",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/08/14/top-trump-official-asked-more-resources-fight-small-fire-near-his-idaho-ranch/",
+                        "datetime": "2026-08-14T14:16:14.258000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f232e3c9ccb36000000b1",
+                        "targetTopic": "breaking-news",
+                        "text": "Michael Boren asked for more resources to contain a seven-acre blaze last month, officials said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bf3c8f60-97e8-11f1-9ec1-00000a1ace98",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s attack on a think tank is an affront to the First Amendment",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s attack on a think tank is an affront to the First Amendment",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/14/trump-legal-threat-against-cap-risks-chilling-think-tank-research/",
+                        "datetime": "2026-08-14T14:02:11.839000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f1fe3fd12a837000000b8",
+                        "targetTopic": "opinions",
+                        "text": "Think tanks help make America exceptional."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
