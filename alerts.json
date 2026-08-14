@@ -429720,5 +429720,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "95da1a41-97f0-11f1-a7c3-00000a1ace9d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Department to file charges against woman accused of vandalizing WWII Memorial",
+            "ios": {
+                "alert": {
+                    "body": "Justice Department to file charges against woman accused of vandalizing WWII Memorial",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/14/doj-file-charges-against-woman-accused-vandalizing-wwii-memorial/",
+                        "datetime": "2026-08-14T14:58:18.314000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f2d0aecddb036000000bd",
+                        "targetTopic": "local",
+                        "text": "The move comes shortly after U.S. Attorney Jeanine Pirro dropped charges against four people accused of vandalizing the Reflecting Pool."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
