@@ -429960,5 +429960,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c3225e0-9820-11f1-8a22-0000a1ace84b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why Kansas might elect its first Democratic senator in nearly 100 years",
+            "ios": {
+                "alert": {
+                    "body": "Why Kansas might elect its first Democratic senator in nearly 100 years",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/14/adam-hamilton-is-running-senate-would-kansas-elect-democrat/",
+                        "datetime": "2026-08-14T20:38:30.108000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f7cc63c9ccb36000000b3",
+                        "targetTopic": "opinions",
+                        "text": "Why Kansas might elect its first Democratic senator in nearly 100 years"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
