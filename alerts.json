@@ -429528,5 +429528,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d13b5eb0-97e5-11f1-98f2-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump officials ask Supreme Court to let White House ballroom construction continue",
+            "ios": {
+                "alert": {
+                    "body": "Trump officials ask Supreme Court to let White House ballroom construction continue",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/14/white-house-ballroom-trump-asks-supreme-court-let-work-go/",
+                        "datetime": "2026-08-14T13:41:13.523000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f1af9fd12a837000000b7",
+                        "targetTopic": "breaking-news",
+                        "text": "The appeal escalates the legal fight over the controversial project to the nation\u2019s highest court."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a9802000-97e4-11f1-8a5b-0000a1ace34f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wager your points and finish off the week with today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Wager your points and finish off the week with today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-14T13:32:57.352000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f19093c9ccb36000000b0",
+                        "targetTopic": "news_quiz",
+                        "text": "Wager your points and finish off the week with today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
