@@ -429480,5 +429480,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "48672620-97cf-11f1-9182-00000a1ace22",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Aircraft carrier. 2028 contenders. Kennedy Center. Fire response. War memorial. Brain aging. Lost Picasso. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Aircraft carrier. 2028 contenders. Kennedy Center. Fire response. War memorial. Brain aging. Lost Picasso. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/14/7-things-know-friday-august-14/?noredirect=1",
+                        "datetime": "2026-08-14T10:59:55.041000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6a7ef52b3c9ccb36000000af",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
