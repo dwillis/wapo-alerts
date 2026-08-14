@@ -429912,5 +429912,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2d994910-981d-11f1-b52b-0000a1ace47d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My encounter with Carlos the Jackal, 50 years after he became the world\u2019s first celebrity terrorist",
+            "ios": {
+                "alert": {
+                    "body": "My encounter with Carlos the Jackal, 50 years after he became the world\u2019s first celebrity terrorist",
+                    "title": "\u2018I am the Famous Carlos\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/14/my-encounter-with-carlos-jackal-worlds-first-celebrity-terrorist/",
+                        "datetime": "2026-08-14T20:17:30.826000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f77daeaeba837000000ab",
+                        "targetTopic": "editors_picks",
+                        "text": "His audacious and brutal hostage-taking at OPEC headquarters ushered in a new form of terrorism. Fifty years later, what has he \u2014 and the world \u2014 learned?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
