@@ -429864,5 +429864,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4586c713-9812-11f1-b3f9-00000a1ace3d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sizing up the 2028 Republican presidential contenders",
+            "ios": {
+                "alert": {
+                    "body": "Sizing up the 2028 Republican presidential contenders",
+                    "title": "The Early Field"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/14/sizing-up-2028-republican-presidential-contenders/",
+                        "datetime": "2026-08-14T18:59:26.499000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f658efd12a837000000b9",
+                        "targetTopic": "breaking-news",
+                        "text": "Can anyone win by distancing themselves from President Donald Trump?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
