@@ -429912,5 +429912,150 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2d994910-981d-11f1-b52b-0000a1ace47d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My encounter with Carlos the Jackal, 50 years after he became the world\u2019s first celebrity terrorist",
+            "ios": {
+                "alert": {
+                    "body": "My encounter with Carlos the Jackal, 50 years after he became the world\u2019s first celebrity terrorist",
+                    "title": "\u2018I am the Famous Carlos\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/14/my-encounter-with-carlos-jackal-worlds-first-celebrity-terrorist/",
+                        "datetime": "2026-08-14T20:17:30.826000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f77daeaeba837000000ab",
+                        "targetTopic": "editors_picks",
+                        "text": "His audacious and brutal hostage-taking at OPEC headquarters ushered in a new form of terrorism. Fifty years later, what has he \u2014 and the world \u2014 learned?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1c3225e0-9820-11f1-8a22-0000a1ace84b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why Kansas might elect its first Democratic senator in nearly 100 years",
+            "ios": {
+                "alert": {
+                    "body": "Why Kansas might elect its first Democratic senator in nearly 100 years",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/14/adam-hamilton-is-running-senate-would-kansas-elect-democrat/",
+                        "datetime": "2026-08-14T20:38:30.108000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f7cc63c9ccb36000000b3",
+                        "targetTopic": "opinions",
+                        "text": "Why Kansas might elect its first Democratic senator in nearly 100 years"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9ee8d230-982b-11f1-9cda-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Many treatments promise relief from tinnitus. Here\u2019s what actually helps.",
+            "ios": {
+                "alert": {
+                    "body": "Many treatments promise relief from tinnitus. Here\u2019s what actually helps.",
+                    "title": "Reducing Discomfort"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/14/many-treatments-promise-relief-tinnitus-heres-what-actually-helps/",
+                        "datetime": "2026-08-14T22:00:53.828000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f9015ecddb036000000be",
+                        "targetTopic": "health",
+                        "text": "Tinnitus, often described as ringing in the ears, can cause profound distress. While there\u2019s no proven cure, there are a few things you can try and reduce its impact."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

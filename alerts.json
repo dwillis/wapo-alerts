@@ -430008,5 +430008,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9ee8d230-982b-11f1-9cda-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Many treatments promise relief from tinnitus. Here\u2019s what actually helps.",
+            "ios": {
+                "alert": {
+                    "body": "Many treatments promise relief from tinnitus. Here\u2019s what actually helps.",
+                    "title": "Reducing Discomfort"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/14/many-treatments-promise-relief-tinnitus-heres-what-actually-helps/",
+                        "datetime": "2026-08-14T22:00:53.828000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a7f9015ecddb036000000be",
+                        "targetTopic": "health",
+                        "text": "Tinnitus, often described as ringing in the ears, can cause profound distress. While there\u2019s no proven cure, there are a few things you can try and reduce its impact."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
