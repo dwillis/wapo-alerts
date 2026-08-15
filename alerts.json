@@ -430153,5 +430153,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "26c83c51-98b7-11f1-98f2-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Her childhood photo was turned into thousands of explicit AI images. Now she\u2019s going to court.",
+            "ios": {
+                "alert": {
+                    "body": "Her childhood photo was turned into thousands of explicit AI images. Now she\u2019s going to court.",
+                    "title": "A New Form of Sex Abuse"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/08/15/woman-alleges-grok-made-thousands-sexual-abuse-images-childhood-snap/",
+                        "datetime": "2026-08-15T14:39:41.847000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a807a2deaeba837000000ad",
+                        "targetTopic": "editors_picks",
+                        "text": "A Wyoming woman alleges in a federal lawsuit that her stepfather used the Grok chatbot to transform a childhood photo into child sexual abuse material."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
