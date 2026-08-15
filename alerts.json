@@ -430393,5 +430393,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3074ae20-98e2-11f1-88d8-00000a1ace52",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats approve 2028 primary calendar that puts South Carolina first",
+            "ios": {
+                "alert": {
+                    "body": "Democrats approve 2028 primary calendar that puts South Carolina first",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/15/democrats-approve-2028-primary-calendar-that-puts-south-carolina-first/",
+                        "datetime": "2026-08-15T19:47:46.492000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a80c262ecddb036000000c0",
+                        "targetTopic": "politics",
+                        "text": "South Carolina would hold its primary on Jan. 22, 2028, under the Democratic National Committee\u2019s plan. Nevada would follow on Feb. 1. The plan aims to give a bigger voice to Black and Latino voters."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
