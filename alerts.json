@@ -430201,5 +430201,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "97109600-98c2-11f1-a10c-0000a1acefd8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Wife\u2019s meetup with old flame gives him a \u2018bad feeling\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Wife\u2019s meetup with old flame gives him a \u2018bad feeling\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/15/carolyn-hax-wifes-meetup-with-old-flame-gives-him-bad-feeling/",
+                        "datetime": "2026-08-15T16:01:34.692000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a808d5e3c9ccb36000000b4",
+                        "targetTopic": "advice",
+                        "text": "Their love triangle ended 20 years ago, but his wife\u2019s old flame is back for her advice about \u201cstarting a business.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
