@@ -430249,5 +430249,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "28f89690-98c7-11f1-9a75-0000a1ace80d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They were on the plane when Trump secretly left. Here\u2019s what they noticed.",
+            "ios": {
+                "alert": {
+                    "body": "They were on the plane when Trump secretly left. Here\u2019s what they noticed.",
+                    "title": "On Air Force One"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/15/trump-secretly-switched-planes-journalists-left-aboard-say-they-deserved-warning/",
+                        "datetime": "2026-08-15T16:34:17.462000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a809509eaeba837000000ae",
+                        "targetTopic": "editors_picks",
+                        "text": "Journalists traveling with the president did not know he switched planes in Turkey due to a perceived threat from Iran. Some said they noticed irregularities about the flight \u2014 many of which made sense only in retrospect."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5f7d6a31-98c5-11f1-b552-00000a1ace35",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Michigan swaps first-semester freshman grades for participation trophies",
+            "ios": {
+                "alert": {
+                    "body": "Michigan swaps first-semester freshman grades for participation trophies",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/14/university-michigan-new-grading-policy-freshmen-deserves-an-f/",
+                        "datetime": "2026-08-15T16:21:29.971000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a809209ecddb036000000bf",
+                        "targetTopic": "opinions",
+                        "text": "Imagine the new hide-the-grades policy in a Wolverines practice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
