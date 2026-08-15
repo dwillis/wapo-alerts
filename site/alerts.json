@@ -430057,5 +430057,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1e4f57c0-98a8-11f1-b069-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Navy weighs major warship redesign to match Trump\u2019s preferences",
+            "ios": {
+                "alert": {
+                    "body": "Navy weighs major warship redesign to match Trump\u2019s preferences",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/15/navy-weighs-major-warship-redesign-match-trumps-preferences/",
+                        "datetime": "2026-08-15T12:52:05.043000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8060f5fd12a837000000ba",
+                        "targetTopic": "breaking-news",
+                        "text": "The president wants the new fleet of aircraft carriers to more resemble those from World War II. The change could cost billions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
