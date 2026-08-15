@@ -430345,5 +430345,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "94ff8b21-98d4-11f1-a434-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats abandon deep-red state Senate races, boosting independents",
+            "ios": {
+                "alert": {
+                    "body": "Democrats abandon deep-red state Senate races, boosting independents",
+                    "title": "A New Strategy"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/15/why-democrats-are-dropping-out-senate-races-deep-red-states/",
+                        "datetime": "2026-08-15T18:10:22.208000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a80ab8eeaeba837000000af",
+                        "targetTopic": "politics",
+                        "text": "The Democratic Senate nominees in Nebraska, Idaho and South Dakota \u2014 all heavily Republican states \u2014 withdrew from the ballot after their primaries, clearing the field for independent candidates. Some Democrats hope that these moderate independents will draw enough crossover support from Republicans and centrist voters who would never back a Democrat to make the races competitive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
