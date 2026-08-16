@@ -430681,5 +430681,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ae1efc0-998d-11f1-95ec-0000a1ace453",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The USS Abraham Lincoln shows the cost of endless war. I know it well.",
+            "ios": {
+                "alert": {
+                    "body": "The USS Abraham Lincoln shows the cost of endless war. I know it well.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/16/why-uss-abraham-lincoln-crew-has-reached-breaking-point/",
+                        "datetime": "2026-08-16T16:12:07.740000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a81e157ecddb036000000c3",
+                        "targetTopic": "opinions",
+                        "text": "Extended deployment tests the limits of the crew."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
