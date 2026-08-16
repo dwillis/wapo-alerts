@@ -430681,5 +430681,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ae1efc0-998d-11f1-95ec-0000a1ace453",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The USS Abraham Lincoln shows the cost of endless war. I know it well.",
+            "ios": {
+                "alert": {
+                    "body": "The USS Abraham Lincoln shows the cost of endless war. I know it well.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/16/why-uss-abraham-lincoln-crew-has-reached-breaking-point/",
+                        "datetime": "2026-08-16T16:12:07.740000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a81e157ecddb036000000c3",
+                        "targetTopic": "opinions",
+                        "text": "Extended deployment tests the limits of the crew."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1c77ce30-9990-11f1-b552-00000a1ace35",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate hopeful James Talarico touts his faith. Texas Republicans call it blasphemy.",
+            "ios": {
+                "alert": {
+                    "body": "Senate hopeful James Talarico touts his faith. Texas Republicans call it blasphemy.",
+                    "title": "In the Bible Belt"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/16/senate-hopeful-talarico-touts-his-faith-texas-republicans-call-it-blasphemy/",
+                        "datetime": "2026-08-16T16:32:45.393000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a81e62decddb036000000c4",
+                        "targetTopic": "editors_picks",
+                        "text": "The Democratic nominee is leaning into his background in a progressive Presbyterian seminary to win over faith-based voters in Texas, the Bible Belt\u2019s largest state, but evangelical Republicans aren\u2019t sold."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
