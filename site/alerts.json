@@ -430873,5 +430873,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9e15b480-99bc-11f1-944c-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The most common cancer is easy to miss. Here\u2019s what to look for.",
+            "ios": {
+                "alert": {
+                    "body": "The most common cancer is easy to miss. Here\u2019s what to look for.",
+                    "title": "Spot the Risk"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/16/most-common-cancer-is-easy-miss-heres-what-look/",
+                        "datetime": "2026-08-16T21:51:20.664000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8230d8fd12a837000000bb",
+                        "targetTopic": "editors_picks",
+                        "text": "Basal cell carcinoma is easy for untrained eyes to miss, often mistaken for dry skin or a pimple on the mend. While very rarely life-threatening, it can grow deep into the skin, which is why experts said early detection is important for the best recovery."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
