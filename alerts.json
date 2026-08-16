@@ -430585,5 +430585,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0335bb80-9981-11f1-b47f-00000a1ace37",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Angry at the Supreme Court, liberals push a slew of plans for overhauling it",
+            "ios": {
+                "alert": {
+                    "body": "Angry at the Supreme Court, liberals push a slew of plans for overhauling it",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/16/democrats-are-proposing-adding-supreme-court-justices-limiting-their-terms/",
+                        "datetime": "2026-08-16T14:44:40.556000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a81ccd8eaeba837000000b0",
+                        "targetTopic": "politics",
+                        "text": "As the midterms near, Democrats are proposing adding more justices and limiting their terms, among other measures, amid growing frustration with the court\u2019s rightward turn."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
