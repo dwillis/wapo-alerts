@@ -430633,5 +430633,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9cefa150-998b-11f1-a58e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Wait, the one not glued to football all Thanksgiving was rude?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Wait, the one not glued to football all Thanksgiving was rude?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/16/carolyn-hax-one-not-glued-football-all-thanksgiving-was-rude/",
+                        "datetime": "2026-08-16T16:00:33.368000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a81dea13c9ccb36000000b6",
+                        "targetTopic": "advice",
+                        "text": "Stepson and wife made a TV-football marathon part of their visit and were upset at letter writer\u2019s preference to read a book."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
