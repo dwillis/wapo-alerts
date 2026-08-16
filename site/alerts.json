@@ -430777,5 +430777,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "66ab3770-99a0-11f1-a01f-00000a1ace00",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tommy John, whose elbow surgery transformed baseball, dies at 83",
+            "ios": {
+                "alert": {
+                    "body": "Tommy John, whose elbow surgery transformed baseball, dies at 83",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/08/16/tommy-john-whose-elbow-surgery-transformed-baseball-dies-83/",
+                        "datetime": "2026-08-16T18:29:21.820000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a820181ecddb036000000c5",
+                        "targetTopic": "breaking-news",
+                        "text": "The lefty made four all-star teams while pitching for the White Sox, Dodgers and Yankees. An innovative procedure extended his career to 26 seasons."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
