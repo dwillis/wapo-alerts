@@ -430921,5 +430921,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "570e2d70-99c5-11f1-944c-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump directs Pentagon to scale back joint exercises with South Korea, citing his \u2018very good relationship\u2019 with Kim Jong Un",
+            "ios": {
+                "alert": {
+                    "body": "Trump directs Pentagon to scale back joint exercises with South Korea, citing his \u2018very good relationship\u2019 with Kim Jong Un",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/16/trump-reduces-military-exercises-with-south-korea-citing-good-ties-with-kim-jong-un/",
+                        "datetime": "2026-08-16T22:53:46.914000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a823f7afd12a837000000bc",
+                        "targetTopic": "breaking-news",
+                        "text": "The president said he told Defense Secretary Pete Hegseth to \u201csubstantially reduce\u201d joint military exercises with South Korea in the future. On Friday, North Korea had called the latest military drills, set to start Monday, a war rehearsal and threatened to take action against the countries."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
