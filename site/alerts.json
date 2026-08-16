@@ -430825,5 +430825,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d17cf240-99ab-11f1-a58e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Summer\u2019s most popular books, in three charts",
+            "ios": {
+                "alert": {
+                    "body": "Summer\u2019s most popular books, in three charts",
+                    "title": "Have You Read This One?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/16/books-diehard-readers-are-picking-up-this-summer/",
+                        "datetime": "2026-08-16T19:51:05.477000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8214a9ecddb036000000c6",
+                        "targetTopic": "entertainment",
+                        "text": "There\u2019s still time to bring a book to the beach, and the folks sharing on Goodreads have loads of ideas."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
