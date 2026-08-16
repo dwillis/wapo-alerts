@@ -430489,5 +430489,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4cd48180-9973-11f1-99b0-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A mother has spent years caring for her special-needs child. The toll came quietly.",
+            "ios": {
+                "alert": {
+                    "body": "A mother has spent years caring for her special-needs child. The toll came quietly.",
+                    "title": "What No One Saw"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/16/she-spent-years-caring-her-child-with-disabilities-toll-mounted-quietly/",
+                        "datetime": "2026-08-16T13:06:31.096000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a81b5d7ecddb036000000c2",
+                        "targetTopic": "editors_picks",
+                        "text": "As a teenager, she was an Oakland Raiders cheerleader. Now, like millions of Americans, she spends her days as a caregiver."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
