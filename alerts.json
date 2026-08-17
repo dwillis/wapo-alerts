@@ -431353,5 +431353,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3c591270-9a69-11f1-98f2-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Actress Hayden Panettiere was in cardiac arrest before she died, coroner\u2019s office in South Carolina says",
+            "ios": {
+                "alert": {
+                    "body": "Actress Hayden Panettiere was in cardiac arrest before she died, coroner\u2019s office in South Carolina says",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/08/17/hayden-panettiere-former-child-actress-who-starred-heroes-dies-36/",
+                        "datetime": "2026-08-17T18:26:59.583000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a835273eaeba837000000b2",
+                        "targetTopic": "us",
+                        "text": "The star of the TV shows \u201cHeroes\u201d and \u201cNashville,\u201d who was 36, released a memoir in May that detailed her life growing up in the public eye, and her struggles with postpartum depression, substance abuse and domestic abuse."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
