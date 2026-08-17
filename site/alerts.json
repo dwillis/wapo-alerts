@@ -431305,5 +431305,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8bf241c0-9a65-11f1-b4f1-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court is asked to hear case on Texas law requiring Ten Commandments in schools, potentially setting up landmark clash",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court is asked to hear case on Texas law requiring Ten Commandments in schools, potentially setting up landmark clash",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/17/supreme-court-asked-hear-case-texas-law-requiring-ten-commandments-schools/",
+                        "datetime": "2026-08-17T18:00:35.188000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a834c433c9ccb36000000b9",
+                        "targetTopic": "politics",
+                        "text": "The justices are expected to decide in coming months whether to take up the case, which is being closely watched as conservatives in Texas and elsewhere work to expand religious rights in public spaces and opponents battle them in court."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
