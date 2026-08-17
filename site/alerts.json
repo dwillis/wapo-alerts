@@ -431017,5 +431017,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c9f533f0-9a2a-11f1-aa52-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s ballroom. Military drills. Todd Blanche. Hayden Panettiere. Exploding cars. Skin cancer. Summer books. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s ballroom. Military drills. Todd Blanche. Hayden Panettiere. Exploding cars. Skin cancer. Summer books. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/17/7-things-know-monday-august-17/?noredirect=1",
+                        "datetime": "2026-08-17T10:59:58.920000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6a82e9aeeaeba837000000b1",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
