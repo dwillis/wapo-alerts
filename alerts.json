@@ -431257,5 +431257,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "709bb183-9a57-11f1-9eda-0000a1ace7d1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House races to prepare for new strains of deadly viruses after cutting biosecurity experts",
+            "ios": {
+                "alert": {
+                    "body": "White House races to prepare for new strains of deadly viruses after cutting biosecurity experts",
+                    "title": "Fears of AI Bioweapons"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/08/17/trump-aims-rebuild-defenses-against-bioweapons-ai-fears-rise/",
+                        "datetime": "2026-08-17T16:19:36.398000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a833498fd12a837000000be",
+                        "targetTopic": "politics",
+                        "text": "The Trump administration\u2019s biodefense team has dwindled, and its new safeguards have been delayed \u2014 all amid growing concern over AI-enabled pathogens."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
