@@ -431497,5 +431497,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4a645710-9a7f-11f1-9084-0000a1ace9d4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House Ethics Committee opens sexual misconduct investigation into Democrat Jimmy Gomez amid reckoning over lawmakers\u2019 behavior",
+            "ios": {
+                "alert": {
+                    "body": "House Ethics Committee opens sexual misconduct investigation into Democrat Jimmy Gomez amid reckoning over lawmakers\u2019 behavior",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/17/house-ethics-committee-is-investigating-rep-jimmy-gomez-over-sexual-misconduct-allegations/",
+                        "datetime": "2026-08-17T21:04:52.054000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8377743c9ccb36000000bb",
+                        "targetTopic": "politics",
+                        "text": "Gomez, a California congressman seeking a sixth term, said that he had \u201cmade personal mistakes outside my marriage\u201d and that he will cooperate with the investigation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0de0fea0-9a7b-11f1-b4d2-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here we go again. Another spectacularly dubious Trump golf triumph.",
+            "ios": {
+                "alert": {
+                    "body": "Here we go again. Another spectacularly dubious Trump golf triumph.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/08/17/trump-golf-wins-revive-doubts-about-his-tales-club-championships/",
+                        "datetime": "2026-08-17T20:34:32.580000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8370583c9ccb36000000ba",
+                        "targetTopic": "opinions",
+                        "text": "Here we go again. Another spectacularly dubious Trump golf triumph."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
