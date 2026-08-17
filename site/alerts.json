@@ -431065,5 +431065,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a07e67f0-9a3c-11f1-abc8-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Recalls surge for millions of vehicles as parked cars are bursting into flames",
+            "ios": {
+                "alert": {
+                    "body": "Recalls surge for millions of vehicles as parked cars are bursting into flames",
+                    "title": "A Distinctive Danger"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/17/they-were-told-park-outside-then-their-cars-burst-into-flames/",
+                        "datetime": "2026-08-17T13:07:40.317000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a83079c3c9ccb36000000b7",
+                        "targetTopic": "editors_picks",
+                        "text": "Modern vehicles don\u2019t need to be moving \u2014 or even turned on \u2014 to catch fire. That\u2019s fueling lots of safety recalls and tough choices."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
