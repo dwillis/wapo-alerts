@@ -431113,5 +431113,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "22885322-9a40-11f1-bd11-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Count BinFace makes an appearance in today\u2019s on the Record",
+            "ios": {
+                "alert": {
+                    "body": "Count BinFace makes an appearance in today\u2019s on the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-17T13:32:46.988000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a830d7eecddb036000000c7",
+                        "targetTopic": "news_quiz",
+                        "text": "Count BinFace makes an appearance in today\u2019s on the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f6161f40-9a42-11f1-a8fe-0000a1aced3f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How the national debt got this bad",
+            "ios": {
+                "alert": {
+                    "body": "How the national debt got this bad",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/08/17/2030s-will-bring-fiscal-cliff-heres-how-it-got-so-steep/",
+                        "datetime": "2026-08-17T13:53:00.878000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a83123cecddb036000000c8",
+                        "targetTopic": "opinions",
+                        "text": "The 2030s will bring a fiscal cliff."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
