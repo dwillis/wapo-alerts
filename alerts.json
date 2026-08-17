@@ -431113,5 +431113,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "22885322-9a40-11f1-bd11-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Count BinFace makes an appearance in today\u2019s on the Record",
+            "ios": {
+                "alert": {
+                    "body": "Count BinFace makes an appearance in today\u2019s on the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-17T13:32:46.988000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a830d7eecddb036000000c7",
+                        "targetTopic": "news_quiz",
+                        "text": "Count BinFace makes an appearance in today\u2019s on the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
