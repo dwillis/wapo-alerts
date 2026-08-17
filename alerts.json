@@ -431209,5 +431209,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f5461fe5-9a54-11f1-9c21-00000a1ace30",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: \u2018Why do you hate me?\u2019 stands out among mom\u2019s erratic accusations",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: \u2018Why do you hate me?\u2019 stands out among mom\u2019s erratic accusations",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/17/carolyn-hax-why-do-you-hate-me-stands-out-among-moms-erratic-accusations/",
+                        "datetime": "2026-08-17T16:01:50.497000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a83306e3c9ccb36000000b8",
+                        "targetTopic": "advice",
+                        "text": "Mother has called out the letter writer for ignoring her, being a bad parent and seeing in-laws more, but seems to be escalating."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
