@@ -431449,5 +431449,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4d629200-9a76-11f1-9bbe-00000a1ace52",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kindergarten vaccine exemptions jump to another record high, CDC reports, as Trump and RFK Jr. seek overhaul of immunizations",
+            "ios": {
+                "alert": {
+                    "body": "Kindergarten vaccine exemptions jump to another record high, CDC reports, as Trump and RFK Jr. seek overhaul of immunizations",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/17/kindergarten-vaccine-exemptions-jump-another-record-high/",
+                        "datetime": "2026-08-17T20:00:31.657000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a83685fecddb036000000c9",
+                        "targetTopic": "us",
+                        "text": "The increase in the share of kindergartners with exemptions extends a years-long erosion of childhood immunization rates, and comes as the U.S. battles its worst measles resurgence in 35 years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
