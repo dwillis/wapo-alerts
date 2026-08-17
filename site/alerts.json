@@ -430969,5 +430969,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c57b4960-99ce-11f1-a01f-00000a1ace00",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says White House needs \u2018military complex\u2019 as courts block his ballroom",
+            "ios": {
+                "alert": {
+                    "body": "Trump says White House needs \u2018military complex\u2019 as courts block his ballroom",
+                    "title": "Invoking National Security"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/16/trump-says-white-house-needs-military-complex-courts-block-his-ballroom/",
+                        "datetime": "2026-08-17T00:01:17.710000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a824f4dfd12a837000000bd",
+                        "targetTopic": "politics",
+                        "text": "When the president first unveiled his plan for the new East Wing addition, he said it was needed to host VIP guests. More recently, after facing legal setbacks over the proposal, he is calling it a \u201cdesperately needed National Security structure.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
