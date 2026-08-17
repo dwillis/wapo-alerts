@@ -431593,5 +431593,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2833a8e0-9a88-11f1-b2bf-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How to avoid 3 types of foot problems that are common with age, according to a podiatrist",
+            "ios": {
+                "alert": {
+                    "body": "How to avoid 3 types of foot problems that are common with age, according to a podiatrist",
+                    "title": "Preventing Pain"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/17/how-avoid-3-foot-issues-common-with-age-according-podiatrist/",
+                        "datetime": "2026-08-17T22:08:20.258000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a838654fd12a837000000c0",
+                        "targetTopic": "editors_picks",
+                        "text": "A few simple, consistent adjustments to your daily routine and a thoughtful approach to shoes can go a long way."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
