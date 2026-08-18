@@ -432025,5 +432025,245 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2843ae30-9b27-11f1-9bee-00000a1ace62",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russians pull billions from banks, fearing Kremlin will seize deposits for war",
+            "ios": {
+                "alert": {
+                    "body": "Russians pull billions from banks, fearing Kremlin will seize deposits for war",
+                    "title": "Cash Outflow"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/18/russians-pull-cash-banks-fearing-kremlin-will-seize-deposits-war/",
+                        "datetime": "2026-08-18T17:06:30.349000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a849116fd12a837000000c4",
+                        "targetTopic": "world",
+                        "text": "Russians are withdrawing billions, causing liquidity problems for banks and undermining the Kremlin\u2019s ability to issue bonds to finance the fight in Ukraine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "70c45900-9b24-11f1-b227-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Divorced mom wants more help with visiting costs. Okay to say no?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Divorced mom wants more help with visiting costs. Okay to say no?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/18/carolyn-hax-divorcing-mom-now-wants-more-help-with-her-visiting-costs/",
+                        "datetime": "2026-08-18T16:47:03.473000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a848c87fd12a837000000c3",
+                        "targetTopic": "advice",
+                        "text": "After her divorce, mom is \u201cmore desperate\u201d for the letter writer to cover her travel costs, but it\u2019s stressing family finances."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "10ab3890-9b33-11f1-a1a9-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump seeks to open millions of acres of near-pristine national forests to roads",
+            "ios": {
+                "alert": {
+                    "body": "Trump seeks to open millions of acres of near-pristine national forests to roads",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/08/18/trump-seeks-open-millions-acres-national-forests-roads/",
+                        "datetime": "2026-08-18T18:31:44.689000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84a5103c9ccb36000000be",
+                        "targetTopic": "breaking-news",
+                        "text": "The Trump administration proposed a repeal of the 2001 roadless rule, raising concerns among environmentalists that already-threatened woodlands could be further fragmented."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c0550660-9b2c-11f1-be09-0000a1acef67",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pennsylvania Gov. Josh Shapiro set to order new limits on data center development, reversing some of his past policies",
+            "ios": {
+                "alert": {
+                    "body": "Pennsylvania Gov. Josh Shapiro set to order new limits on data center development, reversing some of his past policies",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/08/18/pennsylvania-gov-josh-shapiro-set-order-new-limits-data-center-development/",
+                        "datetime": "2026-08-18T17:46:32.915000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a849a78ecddb036000000cd",
+                        "targetTopic": "us",
+                        "text": "The Democratic governor plans to block the development of such facilities in the state unless they meet certain restrictions on electricity and water usage and receive approval from local authorities."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c413bb11-9b37-11f1-ba08-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Minnesota sues Texas Gov. Greg Abbott, demanding extradition of ICE agent charged with shooting immigrant",
+            "ios": {
+                "alert": {
+                    "body": "Minnesota sues Texas Gov. Greg Abbott, demanding extradition of ICE agent charged with shooting immigrant",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/08/18/minnesota-sues-texas-gov-greg-abbott-demanding-former-ice-agents-extradition/",
+                        "datetime": "2026-08-18T19:05:23.703000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84acf3eaeba837000000b4",
+                        "targetTopic": "us",
+                        "text": "Christian Castro, 52, is facing five counts over the January incident, one of three that month in which federal officers fired at people in Minneapolis during Operation Metro Surge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
