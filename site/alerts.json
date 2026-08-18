@@ -431737,5 +431737,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b371c4d0-9b07-11f1-adaa-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ABC sues FCC, claiming First Amendment violations, escalating months-long feud",
+            "ios": {
+                "alert": {
+                    "body": "ABC sues FCC, claiming First Amendment violations, escalating months-long feud",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/18/abc-sues-fcc-claiming-first-amendment-violations-escalating-months-long-feud/",
+                        "datetime": "2026-08-18T13:21:19.834000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a845c4fecddb036000000cb",
+                        "targetTopic": "breaking-news",
+                        "text": "The lawsuit dials up a battle that has involved Jimmy Kimmel, \u201cThe View\u201d and diversity policies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7f0ac4f1-9b05-11f1-a846-00000a1ace40",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Backlash in Michigan complicates Democrats\u2019 road to retaking the Senate",
+            "ios": {
+                "alert": {
+                    "body": "Backlash in Michigan complicates Democrats\u2019 road to retaking the Senate",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/18/democrats-road-retaking-senate-complicated-by-michigan/",
+                        "datetime": "2026-08-18T13:05:33.031000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84589decddb036000000ca",
+                        "targetTopic": "politics",
+                        "text": "Candidate Abdul El-Sayed\u2019s blistering criticism of Israel during the primary alarmed many Jewish voters in Michigan. His challenges run deep enough that three Democratic donors are hosting a fundraiser for his Republican opponent, according to an invitation obtained by The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
