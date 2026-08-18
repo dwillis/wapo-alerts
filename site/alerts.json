@@ -431929,5 +431929,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ab6d0330-9b16-11f1-9346-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "National Symphony Orchestra announces season outside the Kennedy Center",
+            "ios": {
+                "alert": {
+                    "body": "National Symphony Orchestra announces season outside the Kennedy Center",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/18/national-symphony-orchestra-announces-season-outside-kennedy-center/",
+                        "datetime": "2026-08-18T15:08:28.946000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84756cecddb036000000cc",
+                        "targetTopic": "us",
+                        "text": "The centerpiece orchestra announced its classical season months later than usual, at venues away from its longtime home."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
