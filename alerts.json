@@ -432217,5 +432217,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c413bb11-9b37-11f1-ba08-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Minnesota sues Texas Gov. Greg Abbott, demanding extradition of ICE agent charged with shooting immigrant",
+            "ios": {
+                "alert": {
+                    "body": "Minnesota sues Texas Gov. Greg Abbott, demanding extradition of ICE agent charged with shooting immigrant",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/08/18/minnesota-sues-texas-gov-greg-abbott-demanding-former-ice-agents-extradition/",
+                        "datetime": "2026-08-18T19:05:23.703000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84acf3eaeba837000000b4",
+                        "targetTopic": "us",
+                        "text": "Christian Castro, 52, is facing five counts over the January incident, one of three that month in which federal officers fired at people in Minneapolis during Operation Metro Surge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
