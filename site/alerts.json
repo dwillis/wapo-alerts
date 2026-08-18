@@ -432361,5 +432361,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47dde750-9b50-11f1-9d20-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "See which native plants will thrive in your garden",
+            "ios": {
+                "alert": {
+                    "body": "See which native plants will thrive in your garden",
+                    "title": "Nurturing Nature"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2026/08/18/which-native-plants-should-you-add-your-yard-look-up-your-state/",
+                        "datetime": "2026-08-18T22:00:52.641000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84d614ecddb036000000ce",
+                        "targetTopic": "editors_picks",
+                        "text": "Use our tool to get recommendations for your state and find species that will help butterflies, bees and birds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
