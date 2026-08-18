@@ -431641,5 +431641,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "818875f0-9a93-11f1-8379-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge rules Trump administration can\u2019t alter plan to move FBI headquarters to Maryland",
+            "ios": {
+                "alert": {
+                    "body": "Judge rules Trump administration can\u2019t alter plan to move FBI headquarters to Maryland",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://washingtonpost.com/national-security/2026/08/17/trump-administration-cant-scrap-plan-move-fbi-headquarters-md-judge-rules/",
+                        "datetime": "2026-08-17T23:29:34.496000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a83995efd12a837000000c1",
+                        "targetTopic": "local",
+                        "text": "The federal judge said it was improper for the Justice Department to usurp the U.S. General Services Administration\u2019s Biden-era decision to relocate the agency to Maryland. The administration wants to move the bureau to the Ronald Reagan Building and International Trade Center in Northwest Washington."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
