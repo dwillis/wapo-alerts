@@ -431689,5 +431689,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f392a340-9af3-11f1-8ce4-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran talks. Trump case. Power outage. Musk fans. Vaccine rates. Reading benefits. Thriving plants. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Iran talks. Trump case. Power outage. Musk fans. Vaccine rates. Reading benefits. Thriving plants. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/18/7-things-know-tuesday-august-18/?noredirect=1",
+                        "datetime": "2026-08-18T10:59:57.562000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6a843b2dfd12a837000000c2",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
