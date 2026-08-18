@@ -432121,5 +432121,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "10ab3890-9b33-11f1-a1a9-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump seeks to open millions of acres of near-pristine national forests to roads",
+            "ios": {
+                "alert": {
+                    "body": "Trump seeks to open millions of acres of near-pristine national forests to roads",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/08/18/trump-seeks-open-millions-acres-national-forests-roads/",
+                        "datetime": "2026-08-18T18:31:44.689000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84a5103c9ccb36000000be",
+                        "targetTopic": "breaking-news",
+                        "text": "The Trump administration proposed a repeal of the 2001 roadless rule, raising concerns among environmentalists that already-threatened woodlands could be further fragmented."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c0550660-9b2c-11f1-be09-0000a1acef67",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pennsylvania Gov. Josh Shapiro set to order new limits on data center development, reversing some of his past policies",
+            "ios": {
+                "alert": {
+                    "body": "Pennsylvania Gov. Josh Shapiro set to order new limits on data center development, reversing some of his past policies",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/08/18/pennsylvania-gov-josh-shapiro-set-order-new-limits-data-center-development/",
+                        "datetime": "2026-08-18T17:46:32.915000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a849a78ecddb036000000cd",
+                        "targetTopic": "us",
+                        "text": "The Democratic governor plans to block the development of such facilities in the state unless they meet certain restrictions on electricity and water usage and receive approval from local authorities."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
