@@ -432265,5 +432265,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6635a110-9b47-11f1-a071-00000a1acec1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Our troops are exhausted. The answer isn\u2019t to buy a key chain.",
+            "ios": {
+                "alert": {
+                    "body": "Our troops are exhausted. The answer isn\u2019t to buy a key chain.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/18/long-navy-deployments-are-wearing-sailors-down/",
+                        "datetime": "2026-08-18T20:57:18.090000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84c72eeaeba837000000b6",
+                        "targetTopic": "opinions",
+                        "text": "Buying \u201cSupport our troops\u201d T-shirts is swell, but our soldiers and sailors need real relief."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "10d67e90-9b44-11f1-95ff-00000a1ace33",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Politics drove antisemitism probes against Ivy League schools, Justice Dept. whistleblower says",
+            "ios": {
+                "alert": {
+                    "body": "Politics drove antisemitism probes against Ivy League schools, Justice Dept. whistleblower says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/education/2026/08/18/politics-behind-probes-antisemitism-ivy-league-schools-whistleblower-says/",
+                        "datetime": "2026-08-18T20:33:26.316000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84c196eaeba837000000b5",
+                        "targetTopic": "breaking-news",
+                        "text": "A former Justice Department attorney cast doubt on claims of systemic antisemitism at Brown, Harvard and Columbia."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
