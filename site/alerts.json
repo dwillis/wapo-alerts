@@ -431977,5 +431977,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3bd03fe0-9b18-11f1-9bee-00000a1ace62",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon weighing a smaller post-war U.S. military presence in Persian Gulf as Iran conflict takes major toll on bases",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon weighing a smaller post-war U.S. military presence in Persian Gulf as Iran conflict takes major toll on bases",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/18/pentagon-evaluating-smaller-us-military-presence-persian-gulf-after-iran-war/",
+                        "datetime": "2026-08-18T15:19:40.688000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84780c3c9ccb36000000bd",
+                        "targetTopic": "breaking-news",
+                        "text": "The analysis, according to interviews with officials and other people familiar with the matter, was not yet a formal review and will include whether to rebuild facilities battered by Iranian strikes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
