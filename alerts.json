@@ -432025,5 +432025,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2843ae30-9b27-11f1-9bee-00000a1ace62",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russians pull billions from banks, fearing Kremlin will seize deposits for war",
+            "ios": {
+                "alert": {
+                    "body": "Russians pull billions from banks, fearing Kremlin will seize deposits for war",
+                    "title": "Cash Outflow"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/18/russians-pull-cash-banks-fearing-kremlin-will-seize-deposits-war/",
+                        "datetime": "2026-08-18T17:06:30.349000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a849116fd12a837000000c4",
+                        "targetTopic": "world",
+                        "text": "Russians are withdrawing billions, causing liquidity problems for banks and undermining the Kremlin\u2019s ability to issue bonds to finance the fight in Ukraine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "70c45900-9b24-11f1-b227-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Divorced mom wants more help with visiting costs. Okay to say no?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Divorced mom wants more help with visiting costs. Okay to say no?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/18/carolyn-hax-divorcing-mom-now-wants-more-help-with-her-visiting-costs/",
+                        "datetime": "2026-08-18T16:47:03.473000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a848c87fd12a837000000c3",
+                        "targetTopic": "advice",
+                        "text": "After her divorce, mom is \u201cmore desperate\u201d for the letter writer to cover her travel costs, but it\u2019s stressing family finances."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
