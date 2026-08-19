@@ -432987,5 +432987,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ec5e20b0-9c04-11f1-8b59-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The biggest changes Kennedy Center leaders are planning for the arts building",
+            "ios": {
+                "alert": {
+                    "body": "The biggest changes Kennedy Center leaders are planning for the arts building",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/19/biggest-changes-kennedy-center-leaders-are-planning-arts-building/",
+                        "datetime": "2026-08-19T19:33:57.965000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8605253c9ccb36000000c1",
+                        "targetTopic": "us",
+                        "text": "Overhauls of performance halls and behind-the-scenes infrastructure are part of more than $250 million in renovations, according to a plan presented last week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
