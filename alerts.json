@@ -433131,5 +433131,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "33d9e731-9c19-11f1-9ba6-000a1ace4b7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Once banished to trailer parks, manufactured homes are moving to suburbia",
+            "ios": {
+                "alert": {
+                    "body": "Once banished to trailer parks, manufactured homes are moving to suburbia",
+                    "title": "Subdivision Shift"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/19/manufactured-homes-once-banished-trailer-parks-are-moving-suburbia/",
+                        "datetime": "2026-08-19T21:59:07.952000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a86272becddb036000000d1",
+                        "targetTopic": "editors_picks",
+                        "text": "Long stigmatized and banned by many towns and cities, factory-built housing is being reconsidered in some places because of soaring home prices."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
