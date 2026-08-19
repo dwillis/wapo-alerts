@@ -433035,5 +433035,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d31d6ec1-9c0f-11f1-b49f-0000a1acecb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rethinking the haphazard marijuana social experiment",
+            "ios": {
+                "alert": {
+                    "body": "Rethinking the haphazard marijuana social experiment",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/19/marijuana-legalization-is-being-reconsidered-use-spreads/",
+                        "datetime": "2026-08-19T20:52:00.186000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a861770fd12a837000000c9",
+                        "targetTopic": "opinions",
+                        "text": "Rethinking the haphazard marijuana social experiment"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c2e4a120-9c0c-11f1-a416-0000a1ace87d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prosecutors claim former FBI director James Comey tried to boost book sales with seashell message that they say threatened Trump",
+            "ios": {
+                "alert": {
+                    "body": "Prosecutors claim former FBI director James Comey tried to boost book sales with seashell message that they say threatened Trump",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/19/doj-rejects-claim-that-its-prosecution-comey-is-vindictive/",
+                        "datetime": "2026-08-19T20:30:04.526000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a86124cecddb036000000d0",
+                        "targetTopic": "us",
+                        "text": "The Justice Department\u2019s motion comes in response to Comey\u2019s effort to have charges against him dismissed as vindictive prosecution."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
