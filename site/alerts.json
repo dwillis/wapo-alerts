@@ -432794,5 +432794,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b73fd300-9be7-11f1-87fd-0000a1acedb1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ever since 40, my birthday depresses me. Carolyn Hax readers give advice.",
+            "ios": {
+                "alert": {
+                    "body": "Ever since 40, my birthday depresses me. Carolyn Hax readers give advice.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/19/ever-since-40-my-birthday-depresses-me-hax-readers-give-advice/",
+                        "datetime": "2026-08-19T16:04:53.581000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a85d425eaeba837000000bb",
+                        "targetTopic": "advice",
+                        "text": "Ever since 40, my birthday depresses me. Carolyn Hax readers give advice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ed2ce561-9be3-11f1-bf57-00000a1ace84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Do I have to tip at a counter-service restaurant? Ask your dining questions.",
+            "ios": {
+                "alert": {
+                    "body": "Do I have to tip at a counter-service restaurant? Ask your dining questions.",
+                    "title": "Food"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/08/19/ask-elazar-sontag-your-dining-questions/",
+                        "datetime": "2026-08-19T15:37:45.999000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a85cdc9ecddb036000000cf",
+                        "targetTopic": "food",
+                        "text": "Do I have to tip at a counter-service restaurant? Ask your dining questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
