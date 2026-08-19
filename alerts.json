@@ -432649,5 +432649,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0cae99d1-9bd3-11f1-8129-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This network is the star of today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This network is the star of today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-19T13:36:57.453000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a85b1793c9ccb36000000bf",
+                        "targetTopic": "news_quiz",
+                        "text": "Play to earn your Wednesday points."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
