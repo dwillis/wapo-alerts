@@ -432505,5 +432505,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bea1e640-9b7b-11f1-adaa-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he will pause 50% tariffs on Canada for three days, pending the finalization of a deal",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he will pause 50% tariffs on Canada for three days, pending the finalization of a deal",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/18/trump-says-he-has-paused-50-canadian-tariffs-touting-last-minute-deal/",
+                        "datetime": "2026-08-19T03:12:00.283000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a851f00fd12a837000000c5",
+                        "targetTopic": "breaking-news",
+                        "text": "The steep levies, announced last month, were set to take effect at 12:01 a.m. Wednesday. Just hours before the deadline, the president said that a deal between the two sides was close."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
