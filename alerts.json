@@ -432890,5 +432890,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b56a3660-9bec-11f1-87fd-0000a1acedb1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Board overseeing Dulles Airport approves $15.5 billion to fund Trump renovation",
+            "ios": {
+                "alert": {
+                    "body": "Board overseeing Dulles Airport approves $15.5 billion to fund Trump renovation",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/19/mwaa-approves-155-billion-dulles-airport-renovation-proposed-by-trump/",
+                        "datetime": "2026-08-19T16:40:37.990000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a85dc85fd12a837000000c8",
+                        "targetTopic": "us",
+                        "text": "Last month, President Donald Trump announced a sweeping multibillion-dollar plan to overhaul Dulles International Airport, including doing away with the \u201cpeople movers.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
