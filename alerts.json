@@ -432697,5 +432697,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bfd10812-9bd6-11f1-a74b-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Skin cancer vaccine shows promise of preventing melanoma from recurring",
+            "ios": {
+                "alert": {
+                    "body": "Skin cancer vaccine shows promise of preventing melanoma from recurring",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/19/cancer-treatment-could-face-landmark-moment-with-promising-vaccine/",
+                        "datetime": "2026-08-19T14:03:26.516000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a85b7aefd12a837000000c7",
+                        "targetTopic": "health",
+                        "text": "An experimental drug that uses messenger RNA to deliver a vaccine customized to a patient\u2019s tumors effectively prevented skin cancer recurrence in a large-scale clinical trial, according to new results announced by drugmakers Moderna and Merck."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
