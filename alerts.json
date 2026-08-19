@@ -432746,5 +432746,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9f89bab1-9bdc-11f1-8202-00000a1ace93",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This little fish anchors the East Coast food web. A fight over it is brewing.",
+            "ios": {
+                "alert": {
+                    "body": "This little fish anchors the East Coast food web. A fight over it is brewing.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/19/fight-save-tiny-fish-powering-atlantic-coast/",
+                        "datetime": "2026-08-19T14:45:29.281000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a85c189eaeba837000000ba",
+                        "targetTopic": "opinions",
+                        "text": "Years of half measures and regulatory delays leave Atlantic menhaden potentially at risk."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
