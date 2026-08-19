@@ -432409,5 +432409,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "acd0ee70-9b62-11f1-89e2-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republican Rep. Cory Mills, who faces allegations of sexual misconduct and domestic abuse, loses his primary in Florida",
+            "ios": {
+                "alert": {
+                    "body": "Republican Rep. Cory Mills, who faces allegations of sexual misconduct and domestic abuse, loses his primary in Florida",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/18/rep-cory-mills-is-running-his-florida-primary-under-an-ethical-cloud/",
+                        "datetime": "2026-08-19T00:12:33.035000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84f4f1eaeba837000000b8",
+                        "targetTopic": "breaking-news",
+                        "text": "The congressman lost to former news anchor Ryan Elijah in a GOP primary that tested voters\u2019 tolerance of serious controversy. Several prominent Florida Republicans had declined to endorse Mills."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "83b85f20-9b60-11f1-adaa-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Reps. Debbie Wasserman Schultz and Jared Moskowitz fend off Democratic primary challengers in redrawn Florida districts",
+            "ios": {
+                "alert": {
+                    "body": "Reps. Debbie Wasserman Schultz and Jared Moskowitz fend off Democratic primary challengers in redrawn Florida districts",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/18/florida-us-house-primary-results-live-wasserman-schultz-oliver-larkin-more-run/",
+                        "datetime": "2026-08-18T23:57:05.063000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a84f151eaeba837000000b7",
+                        "targetTopic": "politics",
+                        "text": "Wasserman Schultz, a White 11-term lawmaker whose district was cut into pieces by GOP redistricting, faced criticism for running in a neighboring district where Black people make up a plurality of residents. Moskowitz, a moderate, was challenged from the left by democratic socialist Oliver Larkin."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
