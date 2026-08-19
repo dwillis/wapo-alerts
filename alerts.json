@@ -432938,5 +432938,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dbef25b0-9bf2-11f1-b095-00000a1ace82",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The bond market is sounding an alarm. Here\u2019s what it means.",
+            "ios": {
+                "alert": {
+                    "body": "The bond market is sounding an alarm. Here\u2019s what it means.",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/19/bond-market-quake-is-bad-news-governments-businesses-consumers/",
+                        "datetime": "2026-08-19T17:24:39.627000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a85e6d73c9ccb36000000c0",
+                        "targetTopic": "business",
+                        "text": "Long-term Treasury yields rose to their highest point since 2007, creating another headwind for the economy and lifting borrowing costs for consumers and businesses."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
