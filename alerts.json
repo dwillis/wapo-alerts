@@ -432601,5 +432601,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "74d78520-9bc5-11f1-a161-000a1aceb32b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Key takeaways and surprises from the Florida, Wyoming and Alaska primaries",
+            "ios": {
+                "alert": {
+                    "body": "Key takeaways and surprises from the Florida, Wyoming and Alaska primaries",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/19/takeaways-surprises-florida-wyoming-alaska-primaries/",
+                        "datetime": "2026-08-19T11:59:39.266000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a859aabfd12a837000000c6",
+                        "targetTopic": "politics",
+                        "text": "Scandal in Washington toppled a GOP incumbent in Florida."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
