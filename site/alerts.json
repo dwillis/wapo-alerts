@@ -433323,5 +433323,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ed4c71b0-9c9b-11f1-b8e0-000a1ace3424",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This comedian is the star of today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This comedian is the star of today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-20T13:34:53.670000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a87027dfd12a837000000cc",
+                        "targetTopic": "news_quiz",
+                        "text": "This comedian is the star of today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b9df36f0-9ca0-11f1-bee0-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My office is reviving the most important metric for federal workers",
+            "ios": {
+                "alert": {
+                    "body": "My office is reviving the most important metric for federal workers",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/20/opm-chief-how-trump-administration-evaluates-government-workers/",
+                        "datetime": "2026-08-20T14:09:14.846000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a870a8aeaeba837000000bc",
+                        "targetTopic": "opinions",
+                        "text": "Rewarding excellence and punishing underperformance should not be so difficult."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
