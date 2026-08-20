@@ -433564,5 +433564,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "05530710-9cbf-11f1-9a6c-00000a1ace32",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal law enforcement officials seize Eric Swalwell\u2019s devices, search home as part of sexual assault inquiry",
+            "ios": {
+                "alert": {
+                    "body": "Federal law enforcement officials seize Eric Swalwell\u2019s devices, search home as part of sexual assault inquiry",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/20/feds-seize-eric-swalwells-devices-search-home-part-sexual-assault-inquiry/",
+                        "datetime": "2026-08-20T17:46:06.306000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a873d5eeaeba837000000bd",
+                        "targetTopic": "politics",
+                        "text": "The former Democratic congressman, once considered a leading candidate in the California governor\u2019s race, resigned after the allegations surfaced in the spring."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
