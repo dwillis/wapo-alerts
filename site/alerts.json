@@ -433708,5 +433708,150 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "654ed780-9cdc-11f1-8fd0-00000a1aced8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prince Harry\u2019s news hit like a thunderclap in Britain. Why now?",
+            "ios": {
+                "alert": {
+                    "body": "Prince Harry\u2019s news hit like a thunderclap in Britain. Why now?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/20/prince-harry-meghan-markle-return-britain-what-it-means/",
+                        "datetime": "2026-08-20T21:16:22.821000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a876ea6ecddb036000000d4",
+                        "targetTopic": "opinions",
+                        "text": "Prince Harry\u2019s news hit like a thunderclap in Britain. Why now?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5560a010-9cdc-11f1-8e6a-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why one highway exploded this summer \u2014 and why many more are at risk",
+            "ios": {
+                "alert": {
+                    "body": "Why one highway exploded this summer \u2014 and why many more are at risk",
+                    "title": "A Breaking Point"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/20/why-its-been-tough-summer-americas-roads-rails/",
+                        "datetime": "2026-08-20T21:15:56.058000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a876e8cecddb036000000d3",
+                        "targetTopic": "climate",
+                        "text": "Hotter summers are wreaking havoc across transportation infrastructure. One solution: Paint everything white."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2c1ec7c0-9ce3-11f1-866c-0000a1ace09d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This coach is banned from working with kids. Why is he still coaching?",
+            "ios": {
+                "alert": {
+                    "body": "This coach is banned from working with kids. Why is he still coaching?",
+                    "title": "Young Athlete Safety"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/08/20/despite-safesport-ban-girls-volleyball-coach-ryan-richardson-still-works-with-kids/",
+                        "datetime": "2026-08-20T22:04:53.342000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a877a05eaeba837000000be",
+                        "targetTopic": "editors_picks",
+                        "text": "An oversight group found girls\u2019 volleyball coach Ryan Richardson engaged in sexual misconduct with a minor, but sports organizations have failed to keep him off the sidelines."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
