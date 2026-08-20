@@ -433612,5 +433612,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "af1770d1-9cc7-11f1-bee0-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What to know if you\u2019re going to Trump\u2019s Grand Prix race in D.C. this weekend",
+            "ios": {
+                "alert": {
+                    "body": "What to know if you\u2019re going to Trump\u2019s Grand Prix race in D.C. this weekend",
+                    "title": "Hitting the Road"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/20/freedom-250-grand-prix-what-know-if-you-attending-race/",
+                        "datetime": "2026-08-20T18:48:07.171000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a874be7fd12a837000000cf",
+                        "targetTopic": "local",
+                        "text": "The Freedom 250 IndyCar race, much hyped by the president, has taken over downtown Washington. Extensive road closures, a three-hour halt on flights at Reagan National Airport and heightened security are expected."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
