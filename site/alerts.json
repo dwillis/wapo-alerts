@@ -433660,5 +433660,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3b1e13b0-9cd5-11f1-8ec1-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump increasingly lashing out at allies as victory in Iran war proves elusive",
+            "ios": {
+                "alert": {
+                    "body": "Trump increasingly lashing out at allies as victory in Iran war proves elusive",
+                    "title": "Global Tensions"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/20/frustrated-by-stalled-iran-war-trump-threatens-oman-other-gulf-allies/",
+                        "datetime": "2026-08-20T20:25:05.563000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8762a13c9ccb36000000c3",
+                        "targetTopic": "breaking-news",
+                        "text": "Unable to force Tehran\u2019s surrender, President Donald Trump appears to be taking his frustration out on Oman and other U.S. partners in greater measure."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
