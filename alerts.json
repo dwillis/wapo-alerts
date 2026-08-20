@@ -433853,5 +433853,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aa2d3b00-9ce9-11f1-9ac3-0000a1acef45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Progressive Aisha Wahab wins House runoff to replace Eric Swalwell in California contest shaped by pro-Israel group\u2019s spending",
+            "ios": {
+                "alert": {
+                    "body": "Progressive Aisha Wahab wins House runoff to replace Eric Swalwell in California contest shaped by pro-Israel group\u2019s spending",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/08/18/california-us-house-special-runoff-election-results-live-wahab-faces-hernandez/",
+                        "datetime": "2026-08-20T22:51:21.729000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8784e9ecddb036000000d5",
+                        "targetTopic": "breaking-news",
+                        "text": "The American Israel Public Affairs Committee\u2019s super PAC poured nearly $2.5 million into the race in a bid to boost Wahab\u2019s opponent, fellow Democrat Melissa Hernandez. Wahab, a state senator, will serve the rest of Swalwell\u2019s term after he resigned amid a sexual assault allegation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
