@@ -433179,5 +433179,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db9d61c0-9c2a-11f1-9dc2-00000a1ace22",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prince Harry and Meghan Markle are expected to move back to Britain, six years after leaving the country",
+            "ios": {
+                "alert": {
+                    "body": "Prince Harry and Meghan Markle are expected to move back to Britain, six years after leaving the country",
+                    "title": "Royal Return"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://washingtonpost.com/world/2026/08/19/prince-harry-meghan-markle-will-reportedly-return-uk-after-six-years-us/",
+                        "datetime": "2026-08-20T00:05:30.852000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8644caecddb036000000d2",
+                        "targetTopic": "entertainment",
+                        "text": "According to the BBC and other outlets, Harry and Meghan are establishing a private, non-royal residence outside London. Their children, Prince Archie, 7, and Princess Lilibet, 5, are enrolled to begin at a British school in September."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
