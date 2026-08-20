@@ -433515,5 +433515,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "478286f0-9cbb-11f1-81be-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Drinking tea is linked to a longer life, plus 4 other health benefits",
+            "ios": {
+                "alert": {
+                    "body": "Drinking tea is linked to a longer life, plus 4 other health benefits",
+                    "title": "\u2018Nature\u2019s Gift\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/20/5-science-backed-health-benefits-tea-longevity-brain-health/",
+                        "datetime": "2026-08-20T17:19:19.286000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a873717fd12a837000000ce",
+                        "targetTopic": "health",
+                        "text": "In one analysis, researchers described tea as \u201cNature\u2019s gift for promoting human health.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
