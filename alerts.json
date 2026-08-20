@@ -433419,5 +433419,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7d954ef0-9ca5-11f1-a64e-00000a1aceb2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon\u2019s shakeup at Stars and Stripes risks eroding independence of military newspaper, Democrats say",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon\u2019s shakeup at Stars and Stripes risks eroding independence of military newspaper, Democrats say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/20/democrats-sound-alarm-about-new-leader-uniform-stars-stripes/",
+                        "datetime": "2026-08-20T14:43:21.136000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a871289fd12a837000000cd",
+                        "targetTopic": "breaking-news",
+                        "text": "The longtime Stars and Stripes publisher announced he was stepping away in an email to staff that included a parting shot at the Defense Department. Weeks earlier, an active-duty Navy captain was placed in leadership at the military newspaper, an atypical appointment that staffers, board members and Democratic lawmakers say risks further eroding the publication\u2019s independence from the government."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
