@@ -433467,5 +433467,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a85f81b2-9cae-11f1-a533-0000a1ace853",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump wants a ballroom in Ireland. One man is having a ball fighting it.",
+            "ios": {
+                "alert": {
+                    "body": "Trump wants a ballroom in Ireland. One man is having a ball fighting it.",
+                    "title": "A Nemesis Across the Pond"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/20/trump-wants-ballroom-ireland-one-man-is-having-ball-fighting-it/",
+                        "datetime": "2026-08-20T15:48:58.453000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8721ea3c9ccb36000000c2",
+                        "targetTopic": "editors_picks",
+                        "text": "The tiny village of Doonbeg was all in favor of the plan, but concerns about an endangered snail \u2014 and \u201cserial objector\u201d Liam Madden \u2014 could derail the project."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
