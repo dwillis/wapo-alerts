@@ -434045,5 +434045,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d4d7d100-9d64-11f1-bccf-0000a1ace086",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wager your points and finish off the week with today\u2019s On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "Wager your points and finish off the week with today\u2019s On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-21T13:33:01.515000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a88538d3c9ccb36000000c4",
+                        "targetTopic": "news_quiz",
+                        "text": "Take today\u2019s news quiz and complete your point total for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
