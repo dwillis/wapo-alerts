@@ -434429,5 +434429,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "77117630-9d9f-11f1-9c52-00000a1aced7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ken Paxton isn\u2019t the only Texas Republican in trouble",
+            "ios": {
+                "alert": {
+                    "body": "Ken Paxton isn\u2019t the only Texas Republican in trouble",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/21/texas-republicans-paxton-abbott-patrick-face-trouble-midterms/",
+                        "datetime": "2026-08-21T20:32:44.439000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a88b5eceaeba837000000c1",
+                        "targetTopic": "opinions",
+                        "text": "Ken Paxton isn\u2019t the only Texas Republican in trouble"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
