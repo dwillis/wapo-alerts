@@ -434477,5 +434477,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "60a38160-9dac-11f1-a979-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How a failed project could help solve the world\u2019s biggest energy need",
+            "ios": {
+                "alert": {
+                    "body": "How a failed project could help solve the world\u2019s biggest energy need",
+                    "title": "Powering Data Centers"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/21/how-ai-energy-crisis-revived-failed-nuclear-project/",
+                        "datetime": "2026-08-21T22:05:10.270000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a88cb96eaeba837000000c2",
+                        "targetTopic": "editors_picks",
+                        "text": "Former SpaceX engineers think a long-dormant nuclear reactor experiment is key to meeting the power needs of data centers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
