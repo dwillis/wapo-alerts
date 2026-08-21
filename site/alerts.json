@@ -434381,5 +434381,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "875a3fd1-9d96-11f1-bd05-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "They\u2019re friends. They\u2019re both 109. Here are their longevity secrets.",
+            "ios": {
+                "alert": {
+                    "body": "They\u2019re friends. They\u2019re both 109. Here are their longevity secrets.",
+                    "title": "An Eight-Decade Bond"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2026/08/21/these-109-year-old-friends-say-this-is-secret-their-longevity/",
+                        "datetime": "2026-08-21T19:28:46.264000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a88a6eefd12a837000000d2",
+                        "targetTopic": "local",
+                        "text": "Velma Long and Dorothy Boggess were born in 1917 and became friends at age 23, during World War II."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
