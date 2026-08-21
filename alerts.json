@@ -434093,5 +434093,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "209b9f41-9d6a-11f1-b211-00000a1ace1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Neighbors say Gordon Ramsay\u2019s burger joint is stinking up their pricey condos",
+            "ios": {
+                "alert": {
+                    "body": "Neighbors say Gordon Ramsay\u2019s burger joint is stinking up their pricey condos",
+                    "title": "Greasy Odors"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/21/neighbors-say-gordon-ramsays-burger-joint-is-stinking-up-their-pricey-condos/",
+                        "datetime": "2026-08-21T14:10:56.063000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a885c70eaeba837000000c0",
+                        "targetTopic": "us",
+                        "text": "Residents of the building in Washington\u2019s high-end Penn Quarter neighborhood blame the restaurant for greasy odors and poor air quality in their homes. The eatery says it\u2019s not the source of the problems."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "18a61a80-9d66-11f1-a59b-00000a1ace92",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Amid an August of mounting danger, a frivolous, oblivious president",
+            "ios": {
+                "alert": {
+                    "body": "Amid an August of mounting danger, a frivolous, oblivious president",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/21/trump-south-korea-iran-us-navy-moves-show-frivolous-approach/",
+                        "datetime": "2026-08-21T13:42:04.755000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8855ac3c9ccb36000000c5",
+                        "targetTopic": "opinions",
+                        "text": "Now the polymathic Trump is dabbling in naval architecture."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
