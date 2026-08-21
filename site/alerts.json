@@ -434237,5 +434237,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "76f24de0-9d7d-11f1-982d-00000a1ace31",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: Mother-in-law questions my daughter about her weight",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: Mother-in-law questions my daughter about her weight",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/21/carolyn-hax-live-chat/",
+                        "datetime": "2026-08-21T16:29:21.362000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a887ce13c9ccb36000000c7",
+                        "targetTopic": "advice",
+                        "text": "Advice columnist Carolyn Hax answers your questions about the strange train we call life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
