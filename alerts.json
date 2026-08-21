@@ -434189,5 +434189,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3c2eff81-9d7a-11f1-9449-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Five reasons no one saw Prince Harry\u2019s return to the U.K. coming",
+            "ios": {
+                "alert": {
+                    "body": "Five reasons no one saw Prince Harry\u2019s return to the U.K. coming",
+                    "title": "Royal Plot Twist"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/21/5-reasons-prince-harry-return-uk-is-surprise/",
+                        "datetime": "2026-08-21T16:06:14.287000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8877763c9ccb36000000c6",
+                        "targetTopic": "world",
+                        "text": "California seemed less like exile and more like a fairy-tale ending for a prince who\u2019d found his L.A. princess. Here\u2019s why their move is such a surprise."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
