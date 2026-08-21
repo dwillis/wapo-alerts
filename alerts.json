@@ -433901,5 +433901,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "43ec0600-9cf8-11f1-8ec1-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE begins deporting Haitians who recently lost temporary protected status back to homeland",
+            "ios": {
+                "alert": {
+                    "body": "ICE begins deporting Haitians who recently lost temporary protected status back to homeland",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/08/20/ice-begins-deporting-haitians-who-lost-tps-back-homeland/",
+                        "datetime": "2026-08-21T00:35:52.692000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a879d68fd12a837000000d0",
+                        "targetTopic": "us",
+                        "text": "Community leaders said a removal flight on Thursday carried 170 people ranging in age from 19 to 71 and included people who were detained in recent weeks. The U.S. Supreme Court cleared the way for the Trump administration to end humanitarian protections for Haitians in June."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
