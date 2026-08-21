@@ -434285,5 +434285,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8b7c1331-9d8d-11f1-b211-00000a1ace1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court allows work on White House ballroom to continue in brief stay",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court allows work on White House ballroom to continue in brief stay",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/21/supreme-court-says-trump-can-continue-ballroom-work-it-weighs-case/",
+                        "datetime": "2026-08-21T18:24:27.765000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8897db3c9ccb36000000c8",
+                        "targetTopic": "breaking-news",
+                        "text": "The administrative stay gives the court more time to weigh an emergency appeal by the Trump administration in a lawsuit challenging the project."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9315d8d1-9d90-11f1-b6ce-0000a1aced78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon fires Stars and Stripes leaders who criticized Defense Department\u2019s interference",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon fires Stars and Stripes leaders who criticized Defense Department\u2019s interference",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/21/pentagon-fires-stars-stripes-leaders-who-criticized-dods-interference/",
+                        "datetime": "2026-08-21T18:46:09.015000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a889cf13c9ccb36000000c9",
+                        "targetTopic": "politics",
+                        "text": "The Defense Department earlier this year railed against the publication, which has long enjoyed editorial independence, as \u201cwoke.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
