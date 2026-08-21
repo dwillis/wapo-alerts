@@ -433997,5 +433997,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a0b865a1-9d5b-11f1-9a82-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside the police investigation into how Rep. Max Miller\u2019s daughter got hurt",
+            "ios": {
+                "alert": {
+                    "body": "Inside the police investigation into how Rep. Max Miller\u2019s daughter got hurt",
+                    "title": "Examining Evidence"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/08/21/inside-police-investigation-how-rep-max-millers-daughter-got-hurt/",
+                        "datetime": "2026-08-21T12:27:08.574000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a88441cfd12a837000000d1",
+                        "targetTopic": "breaking-news",
+                        "text": "Video recordings and documents detail how investigators pursued the case, and the possibility of abuse, for months but failed to identify a perpetrator."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
