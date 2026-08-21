@@ -433949,5 +433949,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7285e1f0-9d4f-11f1-8ad0-000a1ace105b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Max Miller. Trump posts. Candidate ads. CIA exodus. Energy crisis. Dementia risk. Supermodel Caf\u00e9. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Max Miller. Trump posts. Candidate ads. CIA exodus. Energy crisis. Dementia risk. Supermodel Caf\u00e9. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/21/7-things-know-friday-august-21/?noredirect=1",
+                        "datetime": "2026-08-21T10:59:57.062000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6a882fadeaeba837000000bf",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
