@@ -434717,5 +434717,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3c3081e0-9e45-11f1-8593-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Canada's leader announces retaliatory tariffs against U.S. after potential trade deal collapses",
+            "ios": {
+                "alert": {
+                    "body": "Canada's leader announces retaliatory tariffs against U.S. after potential trade deal collapses",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/22/new-50-percent-tariffs-canada-go-into-effect-after-deal-with-us-falls-through/",
+                        "datetime": "2026-08-22T16:19:22.167000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a89cc0aecddb036000000d9",
+                        "targetTopic": "breaking-news",
+                        "text": "Prime Minister Mark Carney, referring to President Donald Trump's new 50 percent tariffs that went into effect early Saturday as as \"a miscalculation,\" said the Canadian levies on U.S. goods will take effect Sept. 8."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
