@@ -434573,5 +434573,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "51b53b11-9e2b-11f1-aae9-0000a1ace811",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How one billionaire\u2019s crusade against homelessness became Trump\u2019s playbook",
+            "ios": {
+                "alert": {
+                    "body": "How one billionaire\u2019s crusade against homelessness became Trump\u2019s playbook",
+                    "title": "Exerting Influence"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/08/22/how-palantir-co-founders-once-fringe-crusade-spread-across-trumps-america/",
+                        "datetime": "2026-08-22T13:13:51.358000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a89a08f3c9ccb36000000ca",
+                        "targetTopic": "editors_picks",
+                        "text": "Long before Silicon Valley embraced Trump, Joe Lonsdale wanted to remake government and shift the nation\u2019s approach to homelessness. Now, his friends in the White House are listening."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
