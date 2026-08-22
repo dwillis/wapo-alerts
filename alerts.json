@@ -434911,5 +434911,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d377ba31-9e74-11f1-b12d-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "She\u2019s a Trump acolyte. He\u2019s a \u2018gringo Sandinista.\u2019 Meet the Harps.",
+            "ios": {
+                "alert": {
+                    "body": "She\u2019s a Trump acolyte. He\u2019s a \u2018gringo Sandinista.\u2019 Meet the Harps.",
+                    "title": "Sibling Split"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/22/shes-trump-acolyte-hes-gringo-sandinista-meet-harps/",
+                        "datetime": "2026-08-22T22:00:02.191000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8a1be2ecddb036000000da",
+                        "targetTopic": "editors_picks",
+                        "text": "On social media, Preston Harp, the estranged brother of presidential aide Natalie Harp, shows an affinity for leftist, revolutionary politics in Latin America."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
