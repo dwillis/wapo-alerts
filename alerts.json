@@ -434765,5 +434765,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4cf5d711-9e53-11f1-8f0a-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why some couples are combining a European vacation with their IVF treatments",
+            "ios": {
+                "alert": {
+                    "body": "Why some couples are combining a European vacation with their IVF treatments",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/22/why-some-couples-are-combining-european-vacation-with-their-ivf-treatments/",
+                        "datetime": "2026-08-22T18:00:03.235000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a89e3a3fd12a837000000d3",
+                        "targetTopic": "health",
+                        "text": "A growing number of Americans are looking abroad, particularly to Greece and Spain, to escape the high cost of fertility treatments at home."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
