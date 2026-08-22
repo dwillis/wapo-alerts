@@ -434669,5 +434669,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "28dbc7e0-9e3a-11f1-99e2-00000a1aceb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cottage cheese vs. Greek yogurt: Which is healthier?",
+            "ios": {
+                "alert": {
+                    "body": "Cottage cheese vs. Greek yogurt: Which is healthier?",
+                    "title": "Protein Craze"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/22/cottage-cheese-vs-greek-yogurt-which-is-healthier/",
+                        "datetime": "2026-08-22T15:00:05.140000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a89b975ecddb036000000d8",
+                        "targetTopic": "editors_picks",
+                        "text": "Both are protein-rich stalwarts of the dairy aisle. But dietitians say there are a couple of distinctions to keep in mind."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
