@@ -434525,5 +434525,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ce20b080-9de0-11f1-a6e2-00000a1ace03",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trade talks between U.S. and Canada fall apart, leaving 50 percent tariffs to take effect on long list of Canadian goods",
+            "ios": {
+                "alert": {
+                    "body": "Trade talks between U.S. and Canada fall apart, leaving 50 percent tariffs to take effect on long list of Canadian goods",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/22/new-50-percent-tariffs-canada-go-into-effect-after-deal-with-us-falls-through/",
+                        "datetime": "2026-08-22T04:20:27.803000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a89238becddb036000000d6",
+                        "targetTopic": "breaking-news",
+                        "text": "Negotiators from the two countries had worked for weeks to reach a deal to avoid the tariffs, which President Donald Trump announced last month. A potential deal between the two sides fell apart late Friday, with Canada saying it would retaliate against the new levies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
