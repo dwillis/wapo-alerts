@@ -434814,5 +434814,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "10d50471-9e64-11f1-a6d5-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After decades of free spending, Washington is facing some unpalatable choices",
+            "ios": {
+                "alert": {
+                    "body": "After decades of free spending, Washington is facing some unpalatable choices",
+                    "title": "$40 Trillion Debt"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/22/debt-surpasses-40-trillion-bill-washington-spending-comes-due/",
+                        "datetime": "2026-08-22T20:00:03.768000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a89ffc3fd12a837000000d4",
+                        "targetTopic": "business",
+                        "text": "As the national debt surpasses $40 trillion, lawmakers may soon be compelled to make some long-deferred choices that will leave few Americans unscathed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c5ee76d0-9e5e-11f1-ac60-0000a1ace6b4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I gave up my Saturdays for this college course. Its value is undebatable.",
+            "ios": {
+                "alert": {
+                    "body": "I gave up my Saturdays for this college course. Its value is undebatable.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/20/college-students-take-my-advice-debate-is-essential/",
+                        "datetime": "2026-08-22T19:22:10.554000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a89f6e23c9ccb36000000cc",
+                        "targetTopic": "opinions",
+                        "text": "I gave up my Saturdays for this college course. Its value is undebatable."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
