@@ -435008,5 +435008,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "947aa330-9ef4-11f1-9590-00000a1ace1b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S.-Canada breakdown shows limits of Trump\u2019s aggressive trade strategy",
+            "ios": {
+                "alert": {
+                    "body": "U.S.-Canada breakdown shows limits of Trump\u2019s aggressive trade strategy",
+                    "title": "A Major Policy in Flux"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/23/us-canada-breakdown-shows-limits-trumps-aggressive-trade-strategy/",
+                        "datetime": "2026-08-23T13:14:32.119000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8af238eaeba837000000c4",
+                        "targetTopic": "editors_picks",
+                        "text": "As Prime Minister Mark Carney walks away from talks and 50 percent U.S. tariffs take hold, \u201cit\u2019s a big setback for Trump\u2019s trade policy,\u201d one analyst said, noting that other countries unhappy with trade deals are probably watching closely."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
