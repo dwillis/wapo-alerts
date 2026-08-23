@@ -435152,5 +435152,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a8778640-9f0e-11f1-9a7a-00000a1ace6d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Doctors say Trump\u2019s weight poses a significant health risk",
+            "ios": {
+                "alert": {
+                    "body": "Doctors say Trump\u2019s weight poses a significant health risk",
+                    "title": "The President\u2019s Health"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/23/doctors-say-trump-weight-poses-significant-health-risk/",
+                        "datetime": "2026-08-23T16:21:12.671000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8b1df8eaeba837000000c6",
+                        "targetTopic": "editors_picks",
+                        "text": "President Donald Trump has gained about 20 pounds since his campaign, according to his statements and those of aides. His weight is a risk factor, medical experts have said, acknowledging that many Americans struggle with similar challenges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
