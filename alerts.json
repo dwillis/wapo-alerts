@@ -435104,5 +435104,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "026ce170-9f0c-11f1-8877-000a1ace144b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Did the only chance to make peace die with estranged sister?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Did the only chance to make peace die with estranged sister?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/23/carolyn-hax-did-only-chance-make-peace-die-with-estranged-sister/",
+                        "datetime": "2026-08-23T16:02:15.007000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8b1987eaeba837000000c5",
+                        "targetTopic": "advice",
+                        "text": "Letter writer finds even the relationship with other siblings hard to manage after sister\u2019s untimely death."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
