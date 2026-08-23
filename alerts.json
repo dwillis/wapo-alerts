@@ -435200,5 +435200,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4839dbf1-9f1f-11f1-9625-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "IndyCar drivers roar through D.C. streets after Trump waves green flag to start race along National Mall",
+            "ios": {
+                "alert": {
+                    "body": "IndyCar drivers roar through D.C. streets after Trump waves green flag to start race along National Mall",
+                    "title": "Freedom 250 Grand Prix"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/23/grand-prix-race-kick-off-dc-streets-trump-hosted-250th-celebration/",
+                        "datetime": "2026-08-23T18:20:12.471000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8b39dcecddb036000000db",
+                        "targetTopic": "breaking-news",
+                        "text": "The Freedom 250 Grand Prix, which has drawn upward of 150,000 spectators, is the culmination of events President Donald Trump launched to mark the country\u2019s birthday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
