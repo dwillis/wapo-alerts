@@ -434959,5 +434959,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bb049170-9e7f-11f1-8969-0000a1ace555",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s new tariffs on Canada will hit whisky, goose down jackets, hockey sticks and more",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s new tariffs on Canada will hit whisky, goose down jackets, hockey sticks and more",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/22/trumps-new-tariffs-canada-will-hit-everything-whisky-hockey-sticks/",
+                        "datetime": "2026-08-22T23:18:05.714000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8a2e2deaeba837000000c3",
+                        "targetTopic": "business",
+                        "text": "An array of imports are subject to the new 50 percent tariffs. Canadian Prime Minister Mark Carney has called them \u201ca miscalculation\u201d and vowed to match them \u201cdollar for dollar.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
