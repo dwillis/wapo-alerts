@@ -435248,5 +435248,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "be4c12b0-9f2c-11f1-8e5c-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My Staten Island commute was torture. Then came the Ferry Posse.",
+            "ios": {
+                "alert": {
+                    "body": "My Staten Island commute was torture. Then came the Ferry Posse.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/23/how-staten-island-ferry-made-my-day/",
+                        "datetime": "2026-08-23T19:56:34.186000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8b5072eaeba837000000c7",
+                        "targetTopic": "opinions",
+                        "text": "My Staten Island commute was torture. Then came the Ferry Posse."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
