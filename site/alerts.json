@@ -435296,5 +435296,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "55546f40-9f46-11f1-9a7a-00000a1ace6d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Secret White House bunker undercuts Trump\u2019s ballroom lawsuit, former officials say",
+            "ios": {
+                "alert": {
+                    "body": "Secret White House bunker undercuts Trump\u2019s ballroom lawsuit, former officials say",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/23/secret-white-house-bunker-undercuts-trumps-ballroom-lawsuit-ex-officials-say/",
+                        "datetime": "2026-08-23T22:59:45.007000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8b7b61fd12a837000000d6",
+                        "targetTopic": "breaking-news",
+                        "text": "The nuclear-proof facility was built more than a decade ago, according to three former officials, who added that it can shelter the president and his top aides in a national security emergency. The president has claimed that the White House needs a massive new ballroom because it would provide him and future presidents with a secure, hardened facility."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
