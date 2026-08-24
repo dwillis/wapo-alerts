@@ -435826,5 +435826,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "75644b20-9fff-11f1-9664-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s bullying has backfired",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s bullying has backfired",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/24/trumps-attempts-intimidate-home-abroad-have-backfired/",
+                        "datetime": "2026-08-24T21:04:55.643000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8cb1f7fd12a837000000d9",
+                        "targetTopic": "opinions",
+                        "text": "Trump\u2019s bullying has backfired"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ce4c5c62-9ff9-11f1-a5e2-00000a1ace0c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A rare blue tree frog is drawing loads of spectators to a Virginia park",
+            "ios": {
+                "alert": {
+                    "body": "A rare blue tree frog is drawing loads of spectators to a Virginia park",
+                    "title": "No Ordinary Amphibian"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/24/rare-blue-tree-frog-is-drawing-loads-spectators-virginia-park/",
+                        "datetime": "2026-08-24T20:24:27.754000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8ca87bfd12a837000000d8",
+                        "targetTopic": "local",
+                        "text": "Nature enthusiasts are flocking to Huntley Meadows Park in Alexandria to catch a glimpse of the unusual amphibian. Green tree frogs are commonly found in some parts of the country, but experts said seeing one that is blue is rare. Finding one that appears entirely blue is rarer still."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
