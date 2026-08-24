@@ -435584,5 +435584,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4b1c6ac0-9fd5-11f1-8adb-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Cousin, not his victim, gets family\u2019s support in abuse case",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Cousin, not his victim, gets family\u2019s support in abuse case",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/24/carolyn-hax-uncle-not-his-victim-gets-family-support-abuse-case/",
+                        "datetime": "2026-08-24T16:03:05.766000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8c6b39fd12a837000000d7",
+                        "targetTopic": "advice",
+                        "text": "Family blames cousin\u2019s conviction on a vindictive ex, but the letter writer\u2019s history with him suggests a different story."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "65eb6430-9fd2-11f1-8888-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration proposes charging employers $103,000 per H-1B visa for skilled foreign workers after legal setback",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration proposes charging employers $103,000 per H-1B visa for skilled foreign workers after legal setback",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/08/24/trump-administration-proposes-103000-fee-h-1b-visas-after-legal-setback/",
+                        "datetime": "2026-08-24T15:42:22.365000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8c665eeaeba837000000cb",
+                        "targetTopic": "business",
+                        "text": "President Donald Trump says the program to hire skilled foreign workers has been used to take jobs away from Americans. A judge struck down a previous attempt at a similar fee."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
