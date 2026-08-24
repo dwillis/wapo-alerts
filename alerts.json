@@ -435344,5 +435344,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "306e6b72-9f57-11f1-bcdc-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What it was like to go through a clinical trial that could revolutionize cancer treatment",
+            "ios": {
+                "alert": {
+                    "body": "What it was like to go through a clinical trial that could revolutionize cancer treatment",
+                    "title": "A Promising Vaccine"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/23/meet-two-patients-who-tested-one-cancers-most-promising-breakthroughs/",
+                        "datetime": "2026-08-24T01:00:24.532000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8b97a8ecddb036000000dc",
+                        "targetTopic": "editors_picks",
+                        "text": "Scientists said the drug trial of the mRNA vaccine for melanoma could be the beginning of a transformation in care."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
