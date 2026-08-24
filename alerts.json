@@ -435681,5 +435681,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bb3c7490-9fe3-11f1-b5f4-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. unveils sweeping campaign of sanctions and pressure against Iran, aiming to sever country\u2019s remaining links to global economy",
+            "ios": {
+                "alert": {
+                    "body": "U.S. unveils sweeping campaign of sanctions and pressure against Iran, aiming to sever country\u2019s remaining links to global economy",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/24/bessent-unveil-economic-d-day-sanctions-against-iran/",
+                        "datetime": "2026-08-24T17:46:26.775000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8c8372ecddb036000000dd",
+                        "targetTopic": "breaking-news",
+                        "text": "President Donald Trump is contacting other world leaders to demand that they support the U.S. in seeking the \u201ceconomic asphyxiation of this regime,\u201d according to Treasury Secretary Scott Bessent. He would not identify the leaders contacted or provide a deadline for action."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
