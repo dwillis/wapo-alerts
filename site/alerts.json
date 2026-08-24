@@ -435729,5 +435729,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "14ae9f91-9fed-11f1-b5e1-00000a1ace15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nevada files first legal challenge to federal plan requiring 3 states to reduce Colorado River water use",
+            "ios": {
+                "alert": {
+                    "body": "Nevada files first legal challenge to federal plan requiring 3 states to reduce Colorado River water use",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/08/24/nevada-sues-over-federally-mandated-reduction-colorado-river-water-use/",
+                        "datetime": "2026-08-24T18:53:22.375000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8c93223c9ccb36000000ce",
+                        "targetTopic": "breaking-news",
+                        "text": "The lawsuit said the plan to stabilize the dwindling river does not consider the economic effects of the potential cuts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
