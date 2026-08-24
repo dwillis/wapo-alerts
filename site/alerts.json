@@ -435777,5 +435777,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3598f070-9ff7-11f1-a979-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Leaked diplomatic memo shows U.S. doubling down on opposing plastic limits, pushing for loophole on national security grounds",
+            "ios": {
+                "alert": {
+                    "body": "Leaked diplomatic memo shows U.S. doubling down on opposing plastic limits, pushing for loophole on national security grounds",
+                    "title": "Global Treaty Talks"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/08/24/leaked-memo-shows-how-us-aims-weaken-global-limits-plastic-pollution/",
+                        "datetime": "2026-08-24T20:05:52.649000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8ca4203c9ccb36000000cf",
+                        "targetTopic": "climate",
+                        "text": "The memo, circulated by U.S. diplomats and reviewed by The Washington Post, comes as negotiations over a plastics treaty reach a critical point."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
