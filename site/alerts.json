@@ -435488,5 +435488,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ec803e70-9fc4-11f1-b617-00000a1ace35",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "To get the national debt under control, start with the retirement state",
+            "ios": {
+                "alert": {
+                    "body": "To get the national debt under control, start with the retirement state",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/08/24/social-security-medicare-insolvency-is-coming-here-are-solutions/",
+                        "datetime": "2026-08-24T14:05:55.148000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8c4fc3eaeba837000000ca",
+                        "targetTopic": "opinions",
+                        "text": "Social Security and Medicare will be \u201cinsolvent\u201d in the 2030s."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1544b720-9fc3-11f1-b8d0-00000a1ace28",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kick off your week with today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "Kick off your week with today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "http://washingtonpost.com/news-quiz",
+                        "datetime": "2026-08-24T13:52:44.541000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8c4caceaeba837000000c9",
+                        "targetTopic": "news_quiz",
+                        "text": "Kick off your week with today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
