@@ -435392,5 +435392,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb7e6f60-9faa-11f1-a9fb-00000a1ace04",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trade war. White House bunker. Trump\u2019s weight. Leaked memo. Measles. Flood risk. American culture list. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trade war. White House bunker. Trump\u2019s weight. Leaked memo. Measles. Flood risk. American culture list. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/24/monday-briefing-canada-us-trade-war-flood-risk-your-state-cost-fighting-measles-more/?noredirect=1",
+                        "datetime": "2026-08-24T11:00:13.450000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6a8c243d3c9ccb36000000cd",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
