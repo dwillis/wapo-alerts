@@ -435440,5 +435440,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db841da0-9fbd-11f1-ac60-0000a1ace6b4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Some Texas conservatives are breaking rank and pledging to vote Democrat",
+            "ios": {
+                "alert": {
+                    "body": "Some Texas conservatives are breaking rank and pledging to vote Democrat",
+                    "title": "Lone Star Rebellion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/08/24/some-texas-conservatives-are-planning-vote-democrat/",
+                        "datetime": "2026-08-24T13:15:20.221000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8c43e8eaeba837000000c8",
+                        "targetTopic": "politics",
+                        "text": "Republicans who are angry at Gov. Greg Abbott\u2019s refusal to block data centers are giving his Democratic challenger hope for an upset."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
