@@ -436498,5 +436498,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d0773e80-a0b0-11f1-adde-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dolly Parton dies at 80. The country singer became a cultural icon and unexpected feminist heroine.",
+            "ios": {
+                "alert": {
+                    "body": "Dolly Parton dies at 80. The country singer became a cultural icon and unexpected feminist heroine.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/08/25/dolly-parton-country-music-singer-cultural-icon-dies-80/",
+                        "datetime": "2026-08-25T18:14:29.419000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8ddb853c9ccb36000000d3",
+                        "targetTopic": "breaking-news",
+                        "text": "With her rhinestones and blond bouffant, she carved out a singular place in American life as a musician, movie star, philanthropist and inspiration to working women."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "348ebc10-a0aa-11f1-bdc1-00000a1ace57",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FEMA workers violated law when they skipped homes with Trump signs during 2024 hurricane response, watchdog says",
+            "ios": {
+                "alert": {
+                    "body": "FEMA workers violated law when they skipped homes with Trump signs during 2024 hurricane response, watchdog says",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/08/25/fema-crew-broke-law-by-skipping-homes-with-trump-signs-federal-watchdog-says/",
+                        "datetime": "2026-08-25T17:27:10.782000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8dd06e3c9ccb36000000d2",
+                        "targetTopic": "politics",
+                        "text": "A crew leader told staff to avoid such homes over safety concerns after Hurricane Milton and, according to notes obtained by the Department of Homeland Security inspector general, those workers bypassed 11 homes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
