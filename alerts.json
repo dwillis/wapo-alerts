@@ -436642,5 +436642,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "55e6e8f2-a0bf-11f1-a583-0000a1ace38f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "technology",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Which phrases most sound like AI-generated text? Take this test to see if you can beat an AI writing detector.",
+            "ios": {
+                "alert": {
+                    "body": "Which phrases most sound like AI-generated text? Take this test to see if you can beat an AI writing detector.",
+                    "title": "Human vs. Machine"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:technology",
+                        "contentURL": "https://www.washingtonpost.com/technology/interactive/2026/08/25/ai-detectors-like-pangram-are-everywhere-arent-always-accurate/",
+                        "datetime": "2026-08-25T19:58:26.187000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8df3e2fd12a837000000e0",
+                        "targetTopic": "technology",
+                        "text": "Click on the phrases in this story to swap them out and see how the detector\u2019s response changes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
