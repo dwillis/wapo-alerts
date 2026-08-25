@@ -436258,5 +436258,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5249cc30-a097-11f1-a8e8-00000a1aced8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he\u2019s \u2018the affordability president.\u2019 Sure he is.",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he\u2019s \u2018the affordability president.\u2019 Sure he is.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/25/trumps-new-tariffs-canada-do-not-say-affordability-president/",
+                        "datetime": "2026-08-25T15:12:00.221000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8db0c0fd12a837000000de",
+                        "targetTopic": "opinions",
+                        "text": "The president keeps coming up with new ways to make goods more expensive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fa38efd0-a096-11f1-a075-00000a1ace27",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Two measles-related deaths reported in Pennsylvania, the first in the state in 35 years and first in U.S. this year",
+            "ios": {
+                "alert": {
+                    "body": "Two measles-related deaths reported in Pennsylvania, the first in the state in 35 years and first in U.S. this year",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/25/2-measles-related-deaths-reported-pennsylvania-states-first-35-years/",
+                        "datetime": "2026-08-25T15:09:32.530000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8db02cecddb036000000e0",
+                        "targetTopic": "us",
+                        "text": "Both people were unvaccinated. Their deaths came as the country registers the most measles cases in any year since 1991."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9ff74d91-a092-11f1-9991-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "State Department to revoke tourist, business visas for those who claimed asylum",
+            "ios": {
+                "alert": {
+                    "body": "State Department to revoke tourist, business visas for those who claimed asylum",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/08/25/state-dept-revoke-tourist-business-visas-those-who-claimed-asylum/",
+                        "datetime": "2026-08-25T14:38:23.111000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8da8dffd12a837000000dd",
+                        "targetTopic": "breaking-news",
+                        "text": "The move is expected to apply to those granted B1 and B2 visas between 2016 and 2026 who have since sought asylum, marking the latest effort by the Trump administration to curb migration to the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
