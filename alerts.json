@@ -436594,5 +436594,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2847a490-a0b3-11f1-994f-0000a1acec83",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dolly Parton: Gifted in song and storytelling, she got the rainbow",
+            "ios": {
+                "alert": {
+                    "body": "Dolly Parton: Gifted in song and storytelling, she got the rainbow",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/25/dolly-parton-savvy-business-with-steely-pride-gift-song/",
+                        "datetime": "2026-08-25T18:31:15.734000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8ddf73fd12a837000000df",
+                        "targetTopic": "opinions",
+                        "text": "The music superstar grew up steeped in the ethic of self-reliance."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
