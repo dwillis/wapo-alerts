@@ -436402,5 +436402,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0eff90b3-a09f-11f1-8ff8-0000a1ace0f4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How to get an ex back after she abruptly decides to break up?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How to get an ex back after she abruptly decides to break up?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/25/carolyn-hax-how-get-an-ex-back-after-she-abruptly-breaks-up/",
+                        "datetime": "2026-08-25T16:07:23.275000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8dbdbb3c9ccb36000000d1",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How to get an ex back after she abruptly decides to break up?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "71ebbb60-a09d-11f1-8334-00000a1ace9c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Canada issues retaliatory tariffs of up to 50 percent on U.S. imports",
+            "ios": {
+                "alert": {
+                    "body": "Canada issues retaliatory tariffs of up to 50 percent on U.S. imports",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/25/canada-issues-retaliatory-tariffs-up-50-percent-us-imports/",
+                        "datetime": "2026-08-25T15:55:50.327000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8dbb06ecddb036000000e1",
+                        "targetTopic": "breaking-news",
+                        "text": "The new tariffs, to take effect Sept. 8, come after U.S. tariffs against Canada were implemented after the collapse of trade talks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
