@@ -436162,5 +436162,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3fcab910-a089-11f1-bfc5-0000a1aced20",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This beverage is the star of today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "This beverage is the star of today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-25T13:31:16.267000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8d99243c9ccb36000000d0",
+                        "targetTopic": "news_quiz",
+                        "text": "This beverage is the star of today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c7b21810-a088-11f1-b299-00000a1ace41",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says U.S. could rename Lake Ontario as Lake America as Canada trade fight escalates",
+            "ios": {
+                "alert": {
+                    "body": "Trump says U.S. could rename Lake Ontario as Lake America as Canada trade fight escalates",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/25/trump-says-us-could-rename-lake-ontario-amid-canada-trade-war/",
+                        "datetime": "2026-08-25T13:27:54.806000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8d985aecddb036000000df",
+                        "targetTopic": "us",
+                        "text": "The president cited his tariff fight in a social media post, saying the United States doesn\u2019t expect to be \u201cdoing much business with Ontario any longer.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
