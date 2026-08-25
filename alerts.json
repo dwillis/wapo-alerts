@@ -436018,5 +436018,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "dca6c3b0-a015-11f1-b518-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The most influential works of American culture, according to Post readers",
+            "ios": {
+                "alert": {
+                    "body": "The most influential works of American culture, according to Post readers",
+                    "title": "Vox Populi"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/23/most-influential-works-american-culture-according-readers/",
+                        "datetime": "2026-08-24T23:45:17.720000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8cd78dfd12a837000000db",
+                        "targetTopic": "us",
+                        "text": "Hundreds of readers weighed in on The Washington Post\u2019s list of 25 such works, chafing at some of the omissions \u2014 Elvis Presley and the iPhone, among them \u2014 and offering alternatives that they view as defining the American experiment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
