@@ -436114,5 +436114,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6f08b0c0-a07e-11f1-925d-00000a1ace25",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kennedy Center finances deteriorated sharply after Trump name change",
+            "ios": {
+                "alert": {
+                    "body": "Kennedy Center finances deteriorated sharply after Trump name change",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/25/kennedy-center-revenue-plunged-after-trumps-name-went-building/",
+                        "datetime": "2026-08-25T12:13:51.099000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8d86fffd12a837000000dc",
+                        "targetTopic": "breaking-news",
+                        "text": "Budget and meeting documents obtained by The Post show ticket revenue and fundraising plummeted even as leaders publicly touted a financial turnaround."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
