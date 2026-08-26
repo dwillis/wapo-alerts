@@ -436787,5 +436787,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e60ae0a2-a0ea-11f1-bdc1-00000a1ace57",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Darline Graham of South Carolina, with Trump's backing, wins GOP nomination to run for a full term",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Darline Graham of South Carolina, with Trump's backing, wins GOP nomination to run for a full term",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/elections/results/2026/08/25/south-carolina-senate-special-runoff-results-live-darline-graham-faces-ralph-norman/",
+                        "datetime": "2026-08-26T01:10:16.428000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8e3cf83c9ccb36000000d4",
+                        "targetTopic": "breaking-news",
+                        "text": "Graham defeated Rep. Ralph Norman, a conservative firebrand whose campaign showed signs of momentum despite President Donald Trump\u2019s support for Graham. The state\u2019s governor appointed her to temporarily fill the Senate seat of her brother, Lindsey Graham, after his death last month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
