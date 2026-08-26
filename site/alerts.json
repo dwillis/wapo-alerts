@@ -436835,5 +436835,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "49178070-a13d-11f1-b2b0-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Canada tariffs. Dolly Parton. Primaries. Moscow visit. MAGA-MAHA rift. Bill Gates. Dark matter. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Canada tariffs. Dolly Parton. Primaries. Moscow visit. MAGA-MAHA rift. Bill Gates. Dark matter. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/26/7-things-know-wednesday-august-26/?noredirect=1",
+                        "datetime": "2026-08-26T11:00:01.246000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6a8ec7313c9ccb36000000d5",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
