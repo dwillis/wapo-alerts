@@ -436883,5 +436883,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4dbf1910-a149-11f1-81ef-00000a1acef1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Takeaways from the latest primaries as Trump reverses a losing streak",
+            "ios": {
+                "alert": {
+                    "body": "Takeaways from the latest primaries as Trump reverses a losing streak",
+                    "title": "Election 2026"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/26/trumps-endorsement-helps-darline-graham-win-south-carolina/",
+                        "datetime": "2026-08-26T12:26:03.091000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8edb5beaeba837000000cd",
+                        "targetTopic": "editors_picks",
+                        "text": "Victories for Sen. Darline Graham in South Carolina and Mike Mazzei in Oklahoma showed the president\u2019s backing still carries clout."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
