@@ -437268,5 +437268,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "23583500-a18d-11f1-8e57-0000a1aceb28",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republicans in America\u2019s reddest state just sent their party a message",
+            "ios": {
+                "alert": {
+                    "body": "Republicans in America\u2019s reddest state just sent their party a message",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/26/freedom-caucus-drubbed-wyoming-republican-primary/",
+                        "datetime": "2026-08-26T20:31:37.653000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8f4d29eaeba837000000d3",
+                        "targetTopic": "opinions",
+                        "text": "Republicans in America\u2019s reddest state just sent their party a message"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "24ee5ad1-a18c-11f1-a481-000a1ace3bff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Before Hegseth fired him, top general was advised to drop Kid Rock probe",
+            "ios": {
+                "alert": {
+                    "body": "Before Hegseth fired him, top general was advised to drop Kid Rock probe",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/26/before-hegseth-fired-him-top-general-was-advised-drop-kid-rock-investigation/",
+                        "datetime": "2026-08-26T20:24:30.872000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8f4b7eeaeba837000000d2",
+                        "targetTopic": "editors_picks",
+                        "text": "Gen. Randy George appeared troubled by the encounter with Gen. Chris LaNeve, the Army\u2019s No. 2 officer now favored for the service\u2019s top job, people familiar with the matter told The Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
