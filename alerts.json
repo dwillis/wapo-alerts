@@ -436739,5 +436739,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b4b34071-a0e4-11f1-b518-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dolly Parton had a deep and wide fan base. Here\u2019s what we loved most about her.",
+            "ios": {
+                "alert": {
+                    "body": "Dolly Parton had a deep and wide fan base. Here\u2019s what we loved most about her.",
+                    "title": "A Cultural Icon"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/25/what-we-loved-most-about-dolly-parton/",
+                        "datetime": "2026-08-26T00:25:56.626000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8e3294fd12a837000000e2",
+                        "targetTopic": "editors_picks",
+                        "text": "Parton made her mark as a musician, actress, philanthropist, fashion icon and dreamer. And through it all she made our lives better and our world brighter."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
