@@ -436979,5 +436979,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9a1ecda0-a158-11f1-aea0-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This tiny sticker on your car is a big waste of time and money",
+            "ios": {
+                "alert": {
+                    "body": "This tiny sticker on your car is a big waste of time and money",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/26/scrap-dmv-car-registration-sticker-cut-costly-red-tape/",
+                        "datetime": "2026-08-26T14:15:33.666000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8ef5053c9ccb36000000d6",
+                        "targetTopic": "opinions",
+                        "text": "States are ditching auto decals to save millions and cut red tape."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "250351f1-a156-11f1-a649-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Meta will pay up to $18 billion to settle a lawsuit that alleged its social media products harmed children and teens",
+            "ios": {
+                "alert": {
+                    "body": "Meta will pay up to $18 billion to settle a lawsuit that alleged its social media products harmed children and teens",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/08/26/meta-pay-up-18b-settle-lawsuit-alleging-social-media-harm-children/",
+                        "datetime": "2026-08-26T13:57:58.194000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8ef0e6eaeba837000000cf",
+                        "targetTopic": "breaking-news",
+                        "text": "A coalition of state attorneys general had sued Meta, which owns Facebook and Instagram, over its policies. The agreement includes an initial $12.7 billion payment from Meta to fund youth online safety initiatives, with another $5.3 billion payment if certain conditions are met."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
