@@ -437123,5 +437123,150 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fed41530-a17a-11f1-85de-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bill Gates was an AI optimist. Now he\u2019s scared of what could go wrong.",
+            "ios": {
+                "alert": {
+                    "body": "Bill Gates was an AI optimist. Now he\u2019s scared of what could go wrong.",
+                    "title": "Sounding The Alarm"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/08/26/bill-gates-says-he-worried-ai-will-harm-workers-kids-society/",
+                        "datetime": "2026-08-26T18:21:45.466000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8f2eb9eaeba837000000d1",
+                        "targetTopic": "editors_picks",
+                        "text": "In an essay, the Microsoft co-founder sounds the alarm about artificial intelligence\u2019s risks to safety and security, jobs and children\u2019s well-being."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7acf6fa0-a170-11f1-a23c-00000a1ace30",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FDA approves pancreatic cancer drug that in trials extended patients\u2019 lives",
+            "ios": {
+                "alert": {
+                    "body": "FDA approves pancreatic cancer drug that in trials extended patients\u2019 lives",
+                    "title": "Expanded Access"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/26/fda-approves-landmark-pancreatic-cancer-drug-daraxonrasib/",
+                        "datetime": "2026-08-26T17:06:29.016000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8f1d15ecddb036000000e3",
+                        "targetTopic": "health",
+                        "text": "Revolution Medicines\u2019 drug, known as Rasonque or daraxonrasib, nearly doubled patients\u2019 average survival times in treating one of the deadliest cancers, the agency said. The Food and Drug Administration had expanded access for daraxonrasib in May as it underwent review, stating that the drug met a critical need in treating pancreatic cancer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e5bd26a0-a16a-11f1-8c9b-00000a1acef5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tim Curry, a British actor who found cult stardom in \u2018The Rocky Horror Picture Show,\u2019 dies at 80",
+            "ios": {
+                "alert": {
+                    "body": "Tim Curry, a British actor who found cult stardom in \u2018The Rocky Horror Picture Show,\u2019 dies at 80",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/08/26/tim-curry-who-found-cult-stardom-rocky-horror-picture-show-dies-80/",
+                        "datetime": "2026-08-26T16:26:31.452000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8f13b7eaeba837000000d0",
+                        "targetTopic": "breaking-news",
+                        "text": "Mr. Curry also appeared in the movies \u201cClue\u201d and \u201cHome Alone 2,\u201d and he received Tony nominations for his stage work. His death was confirmed to the Associated Press by Marcia Hurwitz, his agent and manager, who did not cite a cause."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
