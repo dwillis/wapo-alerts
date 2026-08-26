@@ -437075,5 +437075,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f2f777c0-a161-11f1-a688-00000a1ace45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least 75 dead, hundreds missing in flash floods on Nepal-China border",
+            "ios": {
+                "alert": {
+                    "body": "At least 75 dead, hundreds missing in flash floods on Nepal-China border",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/26/least-22-dead-hundreds-missing-flash-floods-nepal-china-border/",
+                        "datetime": "2026-08-26T15:22:28.114000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8f04b4ecddb036000000e2",
+                        "targetTopic": "world",
+                        "text": "An avalanche caused the Bhotekoshi River to overflow, sending waves of water and mud that swept buildings and people away."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
