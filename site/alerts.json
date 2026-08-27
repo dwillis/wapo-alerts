@@ -437460,5 +437460,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c6b452d0-a217-11f1-9c2e-00000a1ace19",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A former Mike Collins staffer posted KKK and Nazi images. Some Republicans see a pattern.",
+            "ios": {
+                "alert": {
+                    "body": "A former Mike Collins staffer posted KKK and Nazi images. Some Republicans see a pattern.",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/27/mike-collinss-former-staffer-posted-kkk-nazi-imagery/",
+                        "datetime": "2026-08-27T13:04:02.264000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9035c2ecddb036000000e6",
+                        "targetTopic": "breaking-news",
+                        "text": "Rep. Mike Collins (R-Georgia) is challenging Sen. Jon Ossoff (D). The former Collins staffer posted a swastika and shared an image of himself in what appear to be KKK robes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "703aef10-a206-11f1-b84b-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Deadly floods. Meta changes. Senate candidate. Cancer drug. Tim Curry. ChatGPT secrets. Unsent love letters. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Deadly floods. Meta changes. Senate candidate. Cancer drug. Tim Curry. ChatGPT secrets. Unsent love letters. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/27/7-things-know-thursday-august-27/?noredirect=1",
+                        "datetime": "2026-08-27T10:59:55.733000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6a9018abecddb036000000e5",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e44fcba0-a1c5-11f1-97d8-000a1ace8307",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Yayoi Kusama dies at 97. The pop-culture fixture created art that evoked hallucinatory wonder.",
+            "ios": {
+                "alert": {
+                    "body": "Yayoi Kusama dies at 97. The pop-culture fixture created art that evoked hallucinatory wonder.",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/08/26/yayoi-kusama-whose-art-evoked-hallucinatory-wonder-dies-97/",
+                        "datetime": "2026-08-27T03:17:53.276000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a8fac61fd12a837000000e4",
+                        "targetTopic": "entertainment",
+                        "text": "The Japanese artist found global recognition late in life through her polka-dot paintings and mirrored, Instagram-friendly \u201cinfinity rooms,\u201d with her hypnotic, unconventional works propelling her from near-obscurity to a place in the world\u2019s most prominent museums."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
