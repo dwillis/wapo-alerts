@@ -437652,5 +437652,630 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "401f75c1-a26b-11f1-81d1-00000a1aceb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Melting ice probably triggered Nepal disaster, a warning for the future",
+            "ios": {
+                "alert": {
+                    "body": "Melting ice probably triggered Nepal disaster, a warning for the future",
+                    "title": "A Glacier\u2019s Collapse"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/08/27/collapsing-glacier-likely-triggered-deadly-nepal-floods/",
+                        "datetime": "2026-08-27T23:01:34.234000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a90c1ce3c9ccb36000000d9",
+                        "targetTopic": "editors_picks",
+                        "text": "Before-and-after satellite images show a glacier shrinking and a river swelling."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3d92d441-a267-11f1-8678-00000a1ace51",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "South Carolina turns into a historic Senate race",
+            "ios": {
+                "alert": {
+                    "body": "South Carolina turns into a historic Senate race",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/27/darline-graham-rises-set-up-historic-south-carolina-senate-race/",
+                        "datetime": "2026-08-27T22:32:52.011000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a90bb14fd12a837000000ea",
+                        "targetTopic": "opinions",
+                        "text": "South Carolina turns into a historic Senate race"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e91087c0-a264-11f1-86c9-00000a1ace07",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FDA approves updated coronavirus vaccines for higher-risk Americans, including older adults and people with an underlying condition",
+            "ios": {
+                "alert": {
+                    "body": "FDA approves updated coronavirus vaccines for higher-risk Americans, including older adults and people with an underlying condition",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/27/fda-just-approved-updated-covid-shots-heres-what-know-cases-rise/",
+                        "datetime": "2026-08-27T22:16:11.200000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a90b72bfd12a837000000e9",
+                        "targetTopic": "health",
+                        "text": "The shots from vaccine manufacturers have an updated formulation aimed at better targeting the coronavirus variants circulating around the country. The companies said they expect the vaccines to be available in the coming days."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "99c276c1-a25e-11f1-8e83-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Putin sees U.S. as weakened by Iran war, intelligence reports say",
+            "ios": {
+                "alert": {
+                    "body": "Putin sees U.S. as weakened by Iran war, intelligence reports say",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/27/putin-sees-us-weakened-by-iran-war-intelligence-reports-say/",
+                        "datetime": "2026-08-27T21:31:01.171000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a90ac95eaeba837000000d5",
+                        "targetTopic": "breaking-news",
+                        "text": "The classified assessment of the Kremlin\u2019s thinking preceded CIA Director John Ratcliffe\u2019s secret trip to Moscow this week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "089e7460-a258-11f1-8e9b-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stars and Stripes employees sue Pentagon over firings at military newspaper",
+            "ios": {
+                "alert": {
+                    "body": "Stars and Stripes employees sue Pentagon over firings at military newspaper",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/27/lawsuit-says-pentagon-breached-1st-amendment-stars-stripes-firings/",
+                        "datetime": "2026-08-27T20:44:00.700000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a90a190eaeba837000000d4",
+                        "targetTopic": "politics",
+                        "text": "The publication\u2019s publisher, its editor in chief and a reporter allege that the government violated their First Amendment rights to free speech."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5033dc31-a252-11f1-b868-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House construction was a factor in safety incident with Trump\u2019s Marine One helicopter, NTSB finds",
+            "ios": {
+                "alert": {
+                    "body": "White House construction was a factor in safety incident with Trump\u2019s Marine One helicopter, NTSB finds",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/27/white-house-construction-was-factor-marine-one-safety-incident-ntsb-finds/",
+                        "datetime": "2026-08-27T20:03:03.842000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9097f7fd12a837000000e8",
+                        "targetTopic": "breaking-news",
+                        "text": "The president\u2019s helicopter took off from a temporary location due to White House construction earlier this month, leading to communication problems and a safety incident with Reagan National Airport, according to a preliminary report."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0f592371-a241-11f1-a72a-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump signs order renaming Lake Ontario as Lake America",
+            "ios": {
+                "alert": {
+                    "body": "Trump signs order renaming Lake Ontario as Lake America",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/27/trump-signs-order-changing-name-lake-ontario/",
+                        "datetime": "2026-08-27T17:59:33.596000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a907b05ecddb036000000e9",
+                        "targetTopic": "breaking-news",
+                        "text": "The order requires that the U.S. Interior Department update geographic information systems to change the name of the lake, located between New York and Canada. The president said he\u2019s making the change because \u201cCanada has been ripping us off for a long time on trade, very sadly.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0abdc630-a23d-11f1-81d1-00000a1aceb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "$900 million from a canceled wind deal will benefit a Trump donor",
+            "ios": {
+                "alert": {
+                    "body": "$900 million from a canceled wind deal will benefit a Trump donor",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/27/how-wind-projects-got-replaced-by-900-million-payday-trump-donors-firm/",
+                        "datetime": "2026-08-27T17:30:47.878000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9074473c9ccb36000000d8",
+                        "targetTopic": "breaking-news",
+                        "text": "The Trump administration\u2019s latest deal to abandon offshore wind projects and boost investment in fossil fuels is set to deliver a windfall to a private equity fund run by one of President Donald Trump\u2019s major donors."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a2b9fed0-a239-11f1-abf2-00000a1ace0d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What the disloyal leaks about Iran prove about Trump",
+            "ios": {
+                "alert": {
+                    "body": "What the disloyal leaks about Iran prove about Trump",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/27/iran-trump-took-an-enemy-its-word-if-only-past-leaders-had/",
+                        "datetime": "2026-08-27T17:06:24.794000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a906e90ecddb036000000e8",
+                        "targetTopic": "opinions",
+                        "text": "Trump did what past leaders should have: Take an enemy at its word."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "38bc0330-a238-11f1-ac2a-0000a1acec15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. has never had a steakhouse as over-the-top \u2014 and fun \u2014 as this, food critic Elazar Sontag writes",
+            "ios": {
+                "alert": {
+                    "body": "D.C. has never had a steakhouse as over-the-top \u2014 and fun \u2014 as this, food critic Elazar Sontag writes",
+                    "title": "Serving Up Whimsy"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/08/27/with-beef-sommelier-this-steakhouse-has-officially-reached-peak-meat/",
+                        "datetime": "2026-08-27T16:56:17.520000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a906c31ecddb036000000e7",
+                        "targetTopic": "local",
+                        "text": "At Ox & Olive, chef Ryan Ratino\u2019s new Georgetown steakhouse, you\u2019ll find some of the best steak in D.C. And a whole lot more beef."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a1af1821-a231-11f1-ab36-0000a1acec3b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pirro\u2019s special grand jury is investigating D.C. schools and city oversight of youth",
+            "ios": {
+                "alert": {
+                    "body": "Pirro\u2019s special grand jury is investigating D.C. schools and city oversight of youth",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/27/pirros-special-grand-jury-probing-dc-schools-city-oversight-youth/",
+                        "datetime": "2026-08-27T16:09:07.101000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a906123fd12a837000000e7",
+                        "targetTopic": "breaking-news",
+                        "text": "The unusual investigation appears to have a broad scope. Prosecutors have contacted D.C. Public Schools personnel to question them about truancy and graduation rates."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "698b1f00-a229-11f1-9ba6-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE agent charged in shooting of immigrant is released from Texas jail amid Minnesota extradition fight",
+            "ios": {
+                "alert": {
+                    "body": "ICE agent charged in shooting of immigrant is released from Texas jail amid Minnesota extradition fight",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/08/27/ice-agent-wanted-shooting-immigrant-minneapolis-is-released/",
+                        "datetime": "2026-08-27T15:10:17.000000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a905359fd12a837000000e6",
+                        "targetTopic": "us",
+                        "text": "Christian Castro is accused of shooting and injuring a Venezuelan immigrant in Minneapolis, and then lying about the circumstances of the shooting."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5066e5d0-a220-11f1-b7d2-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ratko Mladic, Bosnian Serb commander found guilty of genocide, dies at 84",
+            "ios": {
+                "alert": {
+                    "body": "Ratko Mladic, Bosnian Serb commander found guilty of genocide, dies at 84",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/08/27/ratko-mladic-bosnian-serb-commander-found-guilty-genocide-dies-84/",
+                        "datetime": "2026-08-27T14:05:09.185000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a904415fd12a837000000e5",
+                        "targetTopic": "world",
+                        "text": "He was serving a life sentence for his role in the Bosnian War, when he led forces that pounded Sarajevo and carried out the Srebrenica massacre, Europe\u2019s biggest atrocity since World War II."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
