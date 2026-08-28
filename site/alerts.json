@@ -438277,5 +438277,535 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d6a20570-a311-11f1-9d9b-0000a1ace751",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The White House says its ballroom is 65 percent complete. Its documents suggest otherwise.",
+            "ios": {
+                "alert": {
+                    "body": "The White House says its ballroom is 65 percent complete. Its documents suggest otherwise.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/08/28/white-house-says-its-ballroom-is-65-complete-its-documents-suggest-otherwise/",
+                        "datetime": "2026-08-28T18:54:03.219000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a91d94beaeba837000000d7",
+                        "targetTopic": "breaking-news",
+                        "text": "The claim, made in government filings to the Supreme Court, is contradicted by budget and other records."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bea34730-a30d-11f1-9a09-00000a1ace23",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration considering deal to give up part of Yosemite National Park to private developer",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration considering deal to give up part of Yosemite National Park to private developer",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/08/28/trump-administration-considering-deal-give-up-part-yosemite-national-park/",
+                        "datetime": "2026-08-28T18:24:44.956000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a91d26cecddb036000000ee",
+                        "targetTopic": "climate",
+                        "text": "Under the potential deal, according to the National Parks Conservation Association and others, the federal government would exchange land that is part of Yosemite for property that directly borders the park held by Kingsbarn Realty Capital, a real estate investor."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "06723cf0-a305-11f1-93fb-0000a1aceb15",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: Parents suddenly got rich, and it feels like everyone went nuts",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: Parents suddenly got rich, and it feels like everyone went nuts",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/28/carolyn-hax-live-chat/",
+                        "datetime": "2026-08-28T17:22:19.991000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a91c3cb3c9ccb36000000dc",
+                        "targetTopic": "advice",
+                        "text": "Advice columnist Carolyn Hax answers your questions about the strange train we call life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6ed745e1-a302-11f1-91d8-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Woman is indicted on two charges over World War II Memorial vandalism",
+            "ios": {
+                "alert": {
+                    "body": "Woman is indicted on two charges over World War II Memorial vandalism",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/08/28/melissa-farris-suspect-wwii-memorial-vandalism-indicted-two-charges/",
+                        "datetime": "2026-08-28T17:03:46.666000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a91bf723c9ccb36000000db",
+                        "targetTopic": "local",
+                        "text": "A federal grand jury indicted Melissa Farris, 41, who this month live-streamed herself dumping soap and spray-painting the monument."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "013f81b0-a301-11f1-91d8-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump seeks vast, potentially costly U.S. stake in Venezuelan oil industry",
+            "ios": {
+                "alert": {
+                    "body": "Trump seeks vast, potentially costly U.S. stake in Venezuelan oil industry",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/28/trump-seeks-vast-potentially-costly-us-stake-venezuelan-oil-industry/",
+                        "datetime": "2026-08-28T16:53:33.195000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a91bd0d3c9ccb36000000da",
+                        "targetTopic": "breaking-news",
+                        "text": "The Trump administration is negotiating a long-term stake in a vast share of Venezuela\u2019s oil fields, according to three people close to the discussions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "67a50360-a2f9-11f1-956f-0000a1ace857",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trees are coming down by the dozen as Trump\u2019s D.C. golf makeover nears",
+            "ios": {
+                "alert": {
+                    "body": "Trees are coming down by the dozen as Trump\u2019s D.C. golf makeover nears",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/08/28/east-potomac-golf-tree-removal-begins-ahead-trump-project/",
+                        "datetime": "2026-08-28T15:59:09.101000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a91b04decddb036000000ed",
+                        "targetTopic": "politics",
+                        "text": "The president\u2019s promised overhaul of the East Potomac course has not officially begun, but the tree removal has already been taking place for weeks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "85e943e2-a2ea-11f1-9e03-00000a1ace32",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fed chair Warsh says he's concerned about inflation but offers scant clarity on next move, in much-anticipated Jackson Hole speech",
+            "ios": {
+                "alert": {
+                    "body": "Fed chair Warsh says he's concerned about inflation but offers scant clarity on next move, in much-anticipated Jackson Hole speech",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/08/28/fed-chair-warsh-speaks-jackson-hole-conference/",
+                        "datetime": "2026-08-28T14:12:37.399000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a919755ecddb036000000ec",
+                        "targetTopic": "business",
+                        "text": "Kevin Warsh doubled down on his controversial strategy of providing investors less explicit \u201cforward guidance\u201d about whether the Fed would raise interest rates."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "134bd5a0-a2ea-11f1-ad49-000a1ace68b6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The rich don\u2019t need that retirement check",
+            "ios": {
+                "alert": {
+                    "body": "The rich don\u2019t need that retirement check",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/28/federal-retirement-benefits-go-rich/",
+                        "datetime": "2026-08-28T14:09:25.142000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a919695eaeba837000000d6",
+                        "targetTopic": "opinions",
+                        "text": "Most retirement benefits go to the rich. Congress can solve the problem."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "afc882c0-a2e5-11f1-8efc-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wager your points and finish off the week with today\u2019s On the Record.",
+            "ios": {
+                "alert": {
+                    "body": "Wager your points and finish off the week with today\u2019s On the Record.",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-28T13:38:00.191000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a918f38ecddb036000000eb",
+                        "targetTopic": "news_quiz",
+                        "text": "Take today\u2019s news quiz and complete your point total for the week."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7e968ba1-a2e2-11f1-91d8-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Measles\u2019 role in child\u2019s death ignites fight between RFK Jr. and Pennsylvania governor",
+            "ios": {
+                "alert": {
+                    "body": "Measles\u2019 role in child\u2019s death ignites fight between RFK Jr. and Pennsylvania governor",
+                    "title": "Vaccine Debate"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/28/measles-death-pennsylvania-disputed-rfk-jr-josh-shapiro-feud/",
+                        "datetime": "2026-08-28T13:15:09.172000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9189ddecddb036000000ea",
+                        "targetTopic": "editors_picks",
+                        "text": "A county coroner said that the pathologist who examined a newborn who tested positive for measles did not believe the virus played a role in the baby\u2019s death."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9c950d60-a2cf-11f1-b407-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran war. Lake Ontario. Lindsay Clancy. Measles outbreak. ICE arrests. Exploding cars. GTA VI. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Iran war. Lake Ontario. Lindsay Clancy. Measles outbreak. ICE arrests. Exploding cars. GTA VI. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/28/7-things-know-friday-august-28/?noredirect=1",
+                        "datetime": "2026-08-28T10:59:58.978000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6a916a2efd12a837000000eb",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes. "
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
