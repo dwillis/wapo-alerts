@@ -438807,5 +438807,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e1456091-a31f-11f1-978f-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s push to rename Lake Ontario raises a troubling question",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s push to rename Lake Ontario raises a troubling question",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/28/lake-ontario-will-outlast-trump-his-lake-america/",
+                        "datetime": "2026-08-28T20:34:34.056000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a91f0daeaeba837000000d9",
+                        "targetTopic": "opinions",
+                        "text": "Trump\u2019s push to rename Lake Ontario raises a troubling question"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "42fe9411-a31f-11f1-8f08-0000a1acef4b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "British far-right provocateur Milo Yiannopoulos detained by ICE",
+            "ios": {
+                "alert": {
+                    "body": "British far-right provocateur Milo Yiannopoulos detained by ICE",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/08/28/british-far-right-provocateur-milo-yiannopoulos-detained-by-ice/",
+                        "datetime": "2026-08-28T20:30:08.379000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a91efd0eaeba837000000d8",
+                        "targetTopic": "politics",
+                        "text": "The Trump supporter turned critic is awaiting deportation after being arrested in Louisiana."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
