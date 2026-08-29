@@ -439383,5 +439383,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "25b11d51-a3f7-11f1-89eb-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The common heart attack symptom many women ignore",
+            "ios": {
+                "alert": {
+                    "body": "The common heart attack symptom many women ignore",
+                    "title": "A Subtle Symptom"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/29/common-heart-attack-symptom-many-women-ignore/",
+                        "datetime": "2026-08-29T22:15:30.642000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a935a02ecddb036000000f5",
+                        "targetTopic": "editors_picks",
+                        "text": "Experts explain a typical red flag \u2014 which can fly under the radar for weeks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "23af1eb0-a3ea-11f1-9730-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What our columnist learned about medically assisted death after his sister's terminal cancer diagnosis",
+            "ios": {
+                "alert": {
+                    "body": "What our columnist learned about medically assisted death after his sister's terminal cancer diagnosis",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/29/i-lost-my-sister-cancer-heres-what-i-learned-about-medically-assisted-death/",
+                        "datetime": "2026-08-29T20:42:23.717000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a93442fecddb036000000f4",
+                        "targetTopic": "health",
+                        "text": "As a journalist, Steven Petrow had previously written about medical aid in dying, or MAID. As a brother, his questions felt more urgent and personal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
