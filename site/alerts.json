@@ -439335,5 +439335,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9fd62bc0-a3d9-11f1-8b9c-0000a1ace489",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gov. Greg Abbott (R) blocks funding in Texas for Flock cameras as bipartisan backlash brews",
+            "ios": {
+                "alert": {
+                    "body": "Gov. Greg Abbott (R) blocks funding in Texas for Flock cameras as bipartisan backlash brews",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/29/flock-cameras-stir-bipartisan-fury-gov-greg-abbott-blocks-them-texas/",
+                        "datetime": "2026-08-29T18:44:10.508000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a93287a3c9ccb36000000de",
+                        "targetTopic": "us",
+                        "text": "The automated license plate readers aren\u2019t popular with the public. Politicians are catching on."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
