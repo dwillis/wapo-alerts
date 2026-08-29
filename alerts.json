@@ -439095,5 +439095,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3de517d0-a3b8-11f1-8092-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump lauded low prices at Freedom Fuel. A supplier says some gas wasn\u2019t paid for.",
+            "ios": {
+                "alert": {
+                    "body": "Trump lauded low prices at Freedom Fuel. A supplier says some gas wasn\u2019t paid for.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/08/29/trump-lauded-low-prices-freedom-fuel-supplier-says-some-gas-wasnt-paid/",
+                        "datetime": "2026-08-29T14:45:12.930000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a92f078fd12a837000000ec",
+                        "targetTopic": "breaking-news",
+                        "text": "A chain of gas stations that lowered prices last month in response to President Donald Trump\u2019s call for cheaper fuel sparked a mystery over how it was able to sell at such a discount. A new lawsuit offers a possible answer: A fuel supplier alleges that it was not paid for gas that was ultimately delivered to stations in the Freedom Fuel Network."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
