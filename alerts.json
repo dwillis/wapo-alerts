@@ -438999,5 +438999,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f6e860d0-a3ad-11f1-83a2-0000a1ace9c3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How many guesses will Keyword take you today? Try to beat the average now.",
+            "ios": {
+                "alert": {
+                    "body": "How many guesses will Keyword take you today? Try to beat the average now.",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/keyword/",
+                        "datetime": "2026-08-29T13:31:38.866000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a92df3aecddb036000000f0",
+                        "targetTopic": "news_quiz",
+                        "text": "https://www.washingtonpost.com/games/keyword/"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "deb4c500-a3ab-11f1-8b78-00000a1ace47",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Native tribe is fighting back as Trump\u2019s tariffs threaten its livelihood",
+            "ios": {
+                "alert": {
+                    "body": "A Native tribe is fighting back as Trump\u2019s tariffs threaten its livelihood",
+                    "title": "Trade War Impact"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/interactive/2026/08/29/native-tribes-way-life-was-threatened-by-canada-tariffs-more-are-coming/",
+                        "datetime": "2026-08-29T13:16:39.233000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a92dbb7eaeba837000000db",
+                        "targetTopic": "editors_picks",
+                        "text": "Ranchers, taxi drivers and campsite owners on the Blackfeet reservation have endured two years of financial losses. They worry a new trade war will make things even worse."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
