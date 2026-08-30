@@ -439961,5 +439961,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "49c9d210-a4c2-11f1-b9c6-00000a1ace13",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What should you do to fall asleep faster? Take our quiz.",
+            "ios": {
+                "alert": {
+                    "body": "What should you do to fall asleep faster? Take our quiz.",
+                    "title": "Test Your Knowledge"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/interactive/2026/08/30/what-should-i-do-fall-asleep-faster-take-our-quiz/",
+                        "datetime": "2026-08-30T22:29:38.958000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a94aed2eaeba837000000df",
+                        "targetTopic": "editors_picks",
+                        "text": "Test your knowledge to find out whether you\u2019re setting yourself up for better sleep \u2014 or making common mistakes that can keep you awake."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
