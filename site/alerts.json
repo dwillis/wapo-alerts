@@ -439720,5 +439720,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47cccd90-a496-11f1-a654-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Venezuela vowed not to \u2018hand over\u2019 its oil. Trump aims to grab a windfall.",
+            "ios": {
+                "alert": {
+                    "body": "Venezuela vowed not to \u2018hand over\u2019 its oil. Trump aims to grab a windfall.",
+                    "title": "Long-Term Deal"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/30/venezuela-vowed-not-hand-over-its-oil-trump-aims-grab-windfall/",
+                        "datetime": "2026-08-30T17:14:37.816000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9464fdfd12a837000000ee",
+                        "targetTopic": "politics",
+                        "text": "The deal cements the United States\u2019 long-term dominance over Venezuela, which has become a neo-colony since the U.S. military\u2019s capture of then-President Nicol\u00e1s Maduro in January."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6ef3e061-a488-11f1-b656-00000a1ace75",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The screenings and other habits doctors recommend as early-onset cancers rise",
+            "ios": {
+                "alert": {
+                    "body": "The screenings and other habits doctors recommend as early-onset cancers rise",
+                    "title": "Managing Risk"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/31/some-cancers-are-being-detected-too-late-heres-what-experts-advise/",
+                        "datetime": "2026-08-30T15:35:30.584000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a944dc2ecddb036000000f7",
+                        "targetTopic": "health",
+                        "text": "Some cancers can\u2019t be screened for or are hard to detect, but there are many factors that can help manage risk."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
