@@ -439817,5 +439817,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c24957c0-a4ad-11f1-b9c6-00000a1ace13",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: As friends become complainers, 30-something sees them \u2018out of duty\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: As friends become complainers, 30-something sees them \u2018out of duty\u2019",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/30/carolyn-hax-wheres-fun-30-something-keeps-friends-out-duty/",
+                        "datetime": "2026-08-30T20:02:41.766000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a948c61eaeba837000000de",
+                        "targetTopic": "advice",
+                        "text": "As female friends bore her with grievances, a letter writer wonders if spending less time with people is a move she\u2019ll regret."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3a491330-a4a6-11f1-946e-00000a1ace4f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dispute offers new details on settlement that followed notorious killing in D.C\u2019s Dupont Circle neighborhood",
+            "ios": {
+                "alert": {
+                    "body": "Dispute offers new details on settlement that followed notorious killing in D.C\u2019s Dupont Circle neighborhood",
+                    "title": "Unsolved for 20 Years"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/08/30/20-years-later-new-dispute-emerges-over-notorious-dupont-circle-killing/",
+                        "datetime": "2026-08-30T19:08:47.034000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a947fbfeaeba837000000dd",
+                        "targetTopic": "editors_picks",
+                        "text": "The estate of Robert Wone says former defendants in a wrongful-death suit have failed to make agreed payments that help fund a scholarship in his name."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "db116730-a4b6-11f1-837e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon secretly installs military influencers in civilian roles",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon secretly installs military influencers in civilian roles",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/30/pentagon-secretly-installs-military-influencers-civilian-roles/",
+                        "datetime": "2026-08-30T21:07:48.765000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a949ba4fd12a837000000ef",
+                        "targetTopic": "breaking-news",
+                        "text": "Conservative veterans with large social media followings have been hired by the Defense Department and are amplifying Pete Hegseth\u2019s culture-war fights."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

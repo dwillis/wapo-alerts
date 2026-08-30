@@ -439913,5 +439913,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db116730-a4b6-11f1-837e-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon secretly installs military influencers in civilian roles",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon secretly installs military influencers in civilian roles",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/30/pentagon-secretly-installs-military-influencers-civilian-roles/",
+                        "datetime": "2026-08-30T21:07:48.765000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a949ba4fd12a837000000ef",
+                        "targetTopic": "breaking-news",
+                        "text": "Conservative veterans with large social media followings have been hired by the Defense Department and are amplifying Pete Hegseth\u2019s culture-war fights."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
