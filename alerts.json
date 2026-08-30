@@ -439528,5 +439528,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "65024d40-a473-11f1-8fb9-00000a1ace60",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Military leaders warn Hegseth against extending Iran war operations",
+            "ios": {
+                "alert": {
+                    "body": "Military leaders warn Hegseth against extending Iran war operations",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/08/30/military-leaders-warn-hegseth-against-extending-iran-war-operations/",
+                        "datetime": "2026-08-30T13:04:54.453000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a942a76eaeba837000000dc",
+                        "targetTopic": "breaking-news",
+                        "text": "Several U.S. military leaders have advised Defense Secretary Pete Hegseth that prolonging large-scale operations is unsustainable and risks weakening their ability to confront threats elsewhere, including the U.S. homeland, according to people familiar with a recent classified assessment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
