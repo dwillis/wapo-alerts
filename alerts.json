@@ -439576,5 +439576,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8c6a6841-a487-11f1-9288-0000a1ace825",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The symbolism of Trump\u2019s White House ballroom is all too apt",
+            "ios": {
+                "alert": {
+                    "body": "The symbolism of Trump\u2019s White House ballroom is all too apt",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/30/trumps-ballroom-rise-executive-power-over-congressional-power/",
+                        "datetime": "2026-08-30T15:29:10.512000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a944c463c9ccb36000000e0",
+                        "targetTopic": "opinions",
+                        "text": "There\u2019s a certain grim candor about the president\u2019s palatial ambitions for the executive mansion."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "20e3b880-a480-11f1-9dcf-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s ambassador to Italy is flaunting his wealth, and it\u2019s dividing Italians",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s ambassador to Italy is flaunting his wealth, and it\u2019s dividing Italians",
+                    "title": "Superyacht Diplomacy"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/08/30/trumps-ambassador-italy-conducts-love-boat-diplomacy-his-megayacht/",
+                        "datetime": "2026-08-30T14:36:03.606000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a943fd33c9ccb36000000df",
+                        "targetTopic": "editors_picks",
+                        "text": "With a net worth of $11.1 billion, Tilman Fertitta, a great-grandson of Sicilian immigrants, is one of the wealthiest people ever to be a U.S. ambassador."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5ee04470-a479-11f1-a208-00000a1ace21",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Crossword and a coffee: Solve the Sunday puzzle now",
+            "ios": {
+                "alert": {
+                    "body": "Crossword and a coffee: Solve the Sunday puzzle now",
+                    "title": "Games"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/crossword/",
+                        "datetime": "2026-08-30T13:47:41.033000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a94347dfd12a837000000ed",
+                        "targetTopic": "news_quiz",
+                        "text": "Crossword and a coffee: Solve the Sunday puzzle now"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
