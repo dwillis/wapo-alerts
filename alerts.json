@@ -440394,5 +440394,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5f92cbb0-a562-11f1-83ef-0000a1ace8f4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After Grand Canyon flash flooding, a second body is found as authorities continue search and recovery efforts",
+            "ios": {
+                "alert": {
+                    "body": "After Grand Canyon flash flooding, a second body is found as authorities continue search and recovery efforts",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/08/31/two-bodies-recovered-after-grand-canyon-flash-flood/",
+                        "datetime": "2026-08-31T17:35:34.874000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95bb663c9ccb36000000e2",
+                        "targetTopic": "breaking-news",
+                        "text": "The National Park Service said earlier that about 15 people were unaccounted for and may be missing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
