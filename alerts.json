@@ -440586,5 +440586,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d40c9b40-a587-11f1-83ef-0000a1ace8f4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Smithsonian board votes to put American Latino museum in 145-year-old building on National Mall instead of constructing new one",
+            "ios": {
+                "alert": {
+                    "body": "Smithsonian board votes to put American Latino museum in 145-year-old building on National Mall instead of constructing new one",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/08/31/smithsonian-chooses-arts-industries-latino-museum-amid-site-debate/",
+                        "datetime": "2026-08-31T22:03:41.827000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95fa3dfd12a837000000f6",
+                        "targetTopic": "local",
+                        "text": "The decision gives the Smithsonian a path forward that does not depend on Congress approving one of the undeveloped sites the institution previously selected for the museum."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "27d1f2a0-a585-11f1-92e7-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New CDC director delays adding Pennsylvania deaths to measles data",
+            "ios": {
+                "alert": {
+                    "body": "New CDC director delays adding Pennsylvania deaths to measles data",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/08/31/new-cdc-director-delays-adding-pennsylvania-deaths-measles-data/",
+                        "datetime": "2026-08-31T21:44:33.761000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95f5c13c9ccb36000000e4",
+                        "targetTopic": "politics",
+                        "text": "The deaths have been at the heart of a bitter political dispute between Health Secretary Robert\u00a0F. Kennedy Jr. and Gov. Josh Shapiro (D)."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
