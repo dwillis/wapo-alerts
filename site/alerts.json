@@ -440394,5 +440394,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5f92cbb0-a562-11f1-83ef-0000a1ace8f4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After Grand Canyon flash flooding, a second body is found as authorities continue search and recovery efforts",
+            "ios": {
+                "alert": {
+                    "body": "After Grand Canyon flash flooding, a second body is found as authorities continue search and recovery efforts",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/08/31/two-bodies-recovered-after-grand-canyon-flash-flood/",
+                        "datetime": "2026-08-31T17:35:34.874000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95bb663c9ccb36000000e2",
+                        "targetTopic": "breaking-news",
+                        "text": "The National Park Service said earlier that about 15 people were unaccounted for and may be missing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0d284000-a57e-11f1-83ef-0000a1ace8f4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The multifaceted stupidity of Trump\u2019s Canadian trade war",
+            "ios": {
+                "alert": {
+                    "body": "The multifaceted stupidity of Trump\u2019s Canadian trade war",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/31/trump-canadian-trade-war-art-stupid-deal/",
+                        "datetime": "2026-08-31T20:53:42.656000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95e9d6ecddb036000000f9",
+                        "targetTopic": "opinions",
+                        "text": "Trump\u2019s tariffs are costing American households an average of $1,100 a year, Ramesh Ponnuru writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b0037070-a578-11f1-a3af-00000a1acecb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court clears way for White House ballroom construction to continue for now",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court clears way for White House ballroom construction to continue for now",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/08/31/supreme-court-clears-way-work-white-house-ballroom-now/",
+                        "datetime": "2026-08-31T20:15:18.825000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95e0d63c9ccb36000000e3",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision hands President Donald Trump a major political victory in his controversial bid to oversee the largest addition to the executive mansion in decades."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0ceaee11-a56c-11f1-b121-00000a1ace47",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Your boss, tech companies and police can read your chatbot conversations. Here\u2019s what to know about where your AI transcripts go.",
+            "ios": {
+                "alert": {
+                    "body": "Your boss, tech companies and police can read your chatbot conversations. Here\u2019s what to know about where your AI transcripts go.",
+                    "title": "Protecting Your Privacy"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/08/29/your-chatbot-discussions-are-not-private-you-may-think/",
+                        "datetime": "2026-08-31T18:44:51.328000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95cba3fd12a837000000f5",
+                        "targetTopic": "us",
+                        "text": "Americans ask AI chatbots about almost everything, but they might not realize that other people could see their conversations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
