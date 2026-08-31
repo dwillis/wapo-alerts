@@ -440057,5 +440057,342 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "adcfdc80-a555-11f1-8379-00000a1ace24",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Is it okay to tell friends to skip ex\u2019s wedding?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Is it okay to tell friends to skip ex\u2019s wedding?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/08/31/carolyn-hax-is-it-okay-tell-friends-skip-exs-wedding/",
+                        "datetime": "2026-08-31T16:04:42.884000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95a61afd12a837000000f4",
+                        "targetTopic": "advice",
+                        "text": "After their devastating breakup, the letter writer now would be \u201csad, mad and anxious\u201d if friends attended the ex\u2019s wedding."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ac9c33f0-a554-11f1-b408-0000a1ace324",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lionel Messi announces his retirement from Argentina\u2019s national team. The soccer great won the World Cup with the team in 2022.",
+            "ios": {
+                "alert": {
+                    "body": "Lionel Messi announces his retirement from Argentina\u2019s national team. The soccer great won the World Cup with the team in 2022.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/08/31/soccer-great-lionel-messi-announces-retirement-argentinas-national-team/",
+                        "datetime": "2026-08-31T15:57:31.324000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95a46bfd12a837000000f3",
+                        "targetTopic": "breaking-news",
+                        "text": "Messi\u2019s announcement follows Argentina\u2019s loss to Spain in the World Cup final in July. He is still expected to play in Major League Soccer, with his Inter Miami contract running through the end of the 2028 season."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0c2fa140-a554-11f1-8708-0000a1ace6c2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s your bill, America. Plus interest.",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s your bill, America. Plus interest.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/08/31/why-americas-interest-payments-are-suddenly-spiking/",
+                        "datetime": "2026-08-31T15:53:02.175000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a95a35efd12a837000000f2",
+                        "targetTopic": "opinions",
+                        "text": "Half the income tax you pay could go toward debt service in 2036."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7b82ae31-a54e-11f1-9834-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I\u2019m an oncologist. Every man should know this about prostate cancer.",
+            "ios": {
+                "alert": {
+                    "body": "I\u2019m an oncologist. Every man should know this about prostate cancer.",
+                    "title": "When To Screen"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/08/31/what-men-need-know-about-psa-screening-prostate-cancer/",
+                        "datetime": "2026-08-31T15:13:11.952000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a959a07fd12a837000000f1",
+                        "targetTopic": "editors_picks",
+                        "text": "Regular prostate cancer screening is not recommended for all men. Columnist Mikkael Sekeres explains why."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d7bb1c90-a540-11f1-920c-00000a1ace9d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "An artist\u2019s famous pattern in today\u2019s On the Record",
+            "ios": {
+                "alert": {
+                    "body": "An artist\u2019s famous pattern in today\u2019s On the Record",
+                    "title": "News Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/news-quiz/",
+                        "datetime": "2026-08-31T13:35:33.688000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9583253c9ccb36000000e1",
+                        "targetTopic": "news_quiz",
+                        "text": "An artist\u2019s famous pattern in today\u2019s On the Record"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f30157f0-a534-11f1-9b56-000a1aceb1bd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least 1 dead in Grand Canyon flooding. Here\u2019s what fueled the intense rainfall.",
+            "ios": {
+                "alert": {
+                    "body": "At least 1 dead in Grand Canyon flooding. Here\u2019s what fueled the intense rainfall.",
+                    "title": "Climate"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/08/31/these-forces-drove-deadly-grand-canyon-flash-flooding/",
+                        "datetime": "2026-08-31T12:10:25.510000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a956f31eaeba837000000e0",
+                        "targetTopic": "climate",
+                        "text": "Monsoon season, a record-breaking El Ni\u00f1o and a marine heat wave in the Pacific Ocean have combined to load the atmosphere with moisture."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1cc7a9e0-a52b-11f1-9267-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran strikes. Pentagon influencers. Midterms. Grand Canyon. Heat records. Chatbot privacy. Benefits of being single. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Iran strikes. Pentagon influencers. Midterms. Grand Canyon. Heat records. Chatbot privacy. Benefits of being single. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/08/31/7-things-know-monday-august-31/?noredirect=1",
+                        "datetime": "2026-08-31T11:00:00.670000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6a955eb0fd12a837000000f0",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
