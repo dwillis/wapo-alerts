@@ -441210,5 +441210,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0efa5b20-a632-11f1-9bb3-0000a1acef48",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House passes bill to avert a government shutdown ahead of midterm elections, sending measure to Trump\u2019s desk",
+            "ios": {
+                "alert": {
+                    "body": "House passes bill to avert a government shutdown ahead of midterm elections, sending measure to Trump\u2019s desk",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/01/house-passes-bill-avert-government-shutdown-ahead-midterm-elections/",
+                        "datetime": "2026-09-01T18:22:15.178000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9717d7fd12a837000000f9",
+                        "targetTopic": "politics",
+                        "text": "The stopgap measure would fund the government through Dec. 11, a couple of months beyond the start of the fiscal year in October."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
