@@ -441306,5 +441306,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4f8291a0-a644-11f1-b313-00000a1ace2b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I solo-hiked 138 miles at 74. The payoff was profound.",
+            "ios": {
+                "alert": {
+                    "body": "I solo-hiked 138 miles at 74. The payoff was profound.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/01/need-digital-detox-try-hiking-this-adirondack-trail/",
+                        "datetime": "2026-09-01T20:32:54.364000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a973676ecddb036000000ff",
+                        "targetTopic": "opinions",
+                        "text": "Trekking the Adirondacks felt akin to tapping the fountain of youth."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
