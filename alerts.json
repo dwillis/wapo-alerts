@@ -441114,5 +441114,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1bd543a0-a628-11f1-b294-00000a1aced2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As more universities and colleges surpass a $100,000-per-year price tag, here\u2019s the true cost",
+            "ios": {
+                "alert": {
+                    "body": "As more universities and colleges surpass a $100,000-per-year price tag, here\u2019s the true cost",
+                    "title": "College Sticker Shock"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/education/2026/09/01/more-colleges-surpass-100k-price-tag-heres-how-you-can-afford-it/",
+                        "datetime": "2026-09-01T17:11:01.591000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a970725ecddb036000000fd",
+                        "targetTopic": "editors_picks",
+                        "text": "Fifteen schools now charge six figures per year for the total cost of attendance; others are on the verge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b4160e10-a61e-11f1-9959-00000a1ace02",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Friends were pushing favors. Was accepting them a mistake?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Friends were pushing favors. Was accepting them a mistake?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/01/carolyn-hax-friends-were-pushing-favors-was-accepting-them-mistake/",
+                        "datetime": "2026-09-01T16:03:42.209000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a96f75eecddb036000000fc",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Friends were pushing favors. Was accepting them a mistake?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
