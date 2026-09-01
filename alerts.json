@@ -441354,5 +441354,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "99ab08f0-a655-11f1-a49a-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House votes overwhelmingly to censure Rep. Chuck Edwards of North Carolina over conduct with female staffers",
+            "ios": {
+                "alert": {
+                    "body": "House votes overwhelmingly to censure Rep. Chuck Edwards of North Carolina over conduct with female staffers",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/01/house-vote-rep-chuck-edwards-censure-over-unprofessional-conduct-toward-female-staffers/",
+                        "datetime": "2026-09-01T22:36:40.104000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a975378fd12a837000000fa",
+                        "targetTopic": "politics",
+                        "text": "The House Ethics Committee found last month that he had engaged in \u201cpersistent unprofessional and inappropriate conduct\u201d toward two female staffers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cfa5cc61-a650-11f1-b294-00000a1aced2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Is it okay to use a little bit of cannabis? Our columnist Richard Sima asked scientists.",
+            "ios": {
+                "alert": {
+                    "body": "Is it okay to use a little bit of cannabis? Our columnist Richard Sima asked scientists.",
+                    "title": "How Much is Too Much?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/01/we-asked-scientists-is-it-okay-use-little-bit-cannabis/",
+                        "datetime": "2026-09-01T22:02:23.271000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a974b6f3c9ccb36000000e8",
+                        "targetTopic": "editors_picks",
+                        "text": "Here\u2019s what to know about the latest research on cannabis and health risks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
