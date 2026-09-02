@@ -441834,5 +441834,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fd95b7a0-a6f2-11f1-9546-000a1ace34c9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fall vaccine guide: What to know about covid, flu and RSV shots this year",
+            "ios": {
+                "alert": {
+                    "body": "Fall vaccine guide: What to know about covid, flu and RSV shots this year",
+                    "title": "Medical Expertise"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/02/fall-vaccine-guide-what-know-about-covid-flu-rsv-shots-this-year/",
+                        "datetime": "2026-09-02T17:23:18.729000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a985b86ecddb03600000101",
+                        "targetTopic": "health",
+                        "text": "Influenza, covid-19 and RSV are expected to send hundreds of thousands of Americans to the hospital this fall."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "421a9d61-a6e8-11f1-96f7-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We had to move to a small town, but I hate it. Hax readers give advice.",
+            "ios": {
+                "alert": {
+                    "body": "We had to move to a small town, but I hate it. Hax readers give advice.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/02/we-had-move-small-town-i-hate-it-hax-readers-give-advice/",
+                        "datetime": "2026-09-02T16:06:29.319000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9849853c9ccb36000000ea",
+                        "targetTopic": "advice",
+                        "text": "Husband\u2019s accident forced them to move near his parents. Can the letter writer find happiness there?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
