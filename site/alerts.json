@@ -441450,5 +441450,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7e970ee0-a666-11f1-b294-00000a1aced2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Ed Markey, 80, fends off primary challenger who sought to make Massachusetts\u2019s Democratic primary about age",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Ed Markey, 80, fends off primary challenger who sought to make Massachusetts\u2019s Democratic primary about age",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/09/01/massachusetts-us-senate-primary-results-live-ed-markey-faces-seth-moulton/",
+                        "datetime": "2026-09-02T00:37:36.073000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a976fd0fd12a837000000fb",
+                        "targetTopic": "politics",
+                        "text": "Markey\u2019s opponent, Rep. Seth Moulton, 47, had argued that the Democratic Party needs \u201ca new generation of leadership.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "90fe8b10-a663-11f1-908f-00000a1ace08",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Utah judge rules that man accused of killing Charlie Kirk can stand trial for murder charges that could carry the death penalty",
+            "ios": {
+                "alert": {
+                    "body": "Utah judge rules that man accused of killing Charlie Kirk can stand trial for murder charges that could carry the death penalty",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/01/tyler-robinson-accused-killing-charlie-kirk-faces-potential-death-penalty/",
+                        "datetime": "2026-09-02T00:16:38.651000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a976ae6eaeba837000000e3",
+                        "targetTopic": "us",
+                        "text": "Tyler James Robinson, 23, is charged with killing Kirk while the conservative activist addressed students at Utah Valley University last September. The case shocked the country and deepened fears of political violence."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
