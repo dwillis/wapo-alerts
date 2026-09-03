@@ -442411,5 +442411,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "88183800-a7af-11f1-839e-000a1ace393c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "climate",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why Trump is planting controversial genetically modified trees near the White House",
+            "ios": {
+                "alert": {
+                    "body": "Why Trump is planting controversial genetically modified trees near the White House",
+                    "title": "A Deregulation Debate"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:climate",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/09/03/why-trump-is-planting-controversial-genetically-modified-trees-near-white-house/",
+                        "datetime": "2026-09-03T15:52:56.604000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9997d8fd12a83700000100",
+                        "targetTopic": "climate",
+                        "text": "A pair of modified American chestnut trees in President\u2019s Park has renewed a fierce scientific debate over how to restore the once iconic species. Proponents hailed the planting as a step forward in public acceptance of genetic engineering, but skeptics said it could have irresponsibly introduced a transgenic gene into the wild with unknown consequences."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
