@@ -442267,5 +442267,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d70ca000-a7a4-11f1-bfa2-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration seeks to strip private schools\u2019 tax-exempt status if they consider race",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration seeks to strip private schools\u2019 tax-exempt status if they consider race",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/education/2026/09/03/trump-administration-aims-strip-schools-tax-exemption-if-they-consider-race/",
+                        "datetime": "2026-09-03T14:36:24.509000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9985e8eaeba837000000e7",
+                        "targetTopic": "breaking-news",
+                        "text": "The Treasury Department and IRS proposal could affect as many as 18,000 secondary schools, colleges and universities, furthering the administration\u2019s intense pressure on institutions that have sought diversity in their classrooms."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "af86a980-a7a0-11f1-b221-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I\u2019m on Ozempic. The shaming is real.",
+            "ios": {
+                "alert": {
+                    "body": "I\u2019m on Ozempic. The shaming is real.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/03/ozempic-glp-1-weight-loss-stigma-gets-pushback/",
+                        "datetime": "2026-09-03T14:06:40.300000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a997ef03c9ccb36000000ed",
+                        "targetTopic": "opinions",
+                        "text": "GLP-1s are miracle drugs for weight loss. You can keep your willpower and diet-and-exercise advice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ccec4d00-a795-11f1-8c22-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republicans fear Trump will keep super PAC money and not spend on the midterms",
+            "ios": {
+                "alert": {
+                    "body": "Republicans fear Trump will keep super PAC money and not spend on the midterms",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/03/trumps-super-pac-has-not-spent-key-midterm-races-gop-fears-he-never-will/",
+                        "datetime": "2026-09-03T12:48:45.060000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a996cad3c9ccb36000000ec",
+                        "targetTopic": "politics",
+                        "text": "Trump\u2019s political advisers have been assuring anxious allies that MAGA Inc., the president\u2019s super PAC that had more than $400 million on hand as of July 31, will come to the rescue during the peak campaign season after Labor Day. But Republicans are increasingly skeptical, and suspicious that Trump \u2014 who must personally approve the spending \u2014 has other ideas."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
