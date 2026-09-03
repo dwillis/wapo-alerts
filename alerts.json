@@ -442796,5 +442796,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3980ae80-a7e5-11f1-ba33-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We asked nutrition experts what they eat for dessert. Here\u2019s their list.",
+            "ios": {
+                "alert": {
+                    "body": "We asked nutrition experts what they eat for dessert. Here\u2019s their list.",
+                    "title": "Something Sweet"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/03/we-asked-nutrition-experts-what-they-eat-dessert-heres-their-list/",
+                        "datetime": "2026-09-03T22:17:17.373000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a99f1edecddb03600000106",
+                        "targetTopic": "editors_picks",
+                        "text": "Health experts say it\u2019s fine to indulge from time to time. In fact, the occasional treat can even be good for you."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
