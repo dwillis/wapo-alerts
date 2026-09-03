@@ -442171,5 +442171,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9a67dbb0-a786-11f1-a939-00000a1aced6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Classified files. Secret Service. Trump funds. Data centers. Fall vaccines. Healthy desserts. Gen Z stare. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Classified files. Secret Service. Trump funds. Data centers. Fall vaccines. Healthy desserts. Gen Z stare. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/03/7-things-know-thursday-september-3/?noredirect=1",
+                        "datetime": "2026-09-03T10:59:57.940000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6a99532decddb03600000104",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ae569421-a783-11f1-9355-00000a1ace17",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gloria Steinem, lodestar of the modern women\u2019s movement, dies at 92",
+            "ios": {
+                "alert": {
+                    "body": "Gloria Steinem, lodestar of the modern women\u2019s movement, dies at 92",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/09/03/gloria-steinem-lodestar-modern-womens-movement-dies-92/",
+                        "datetime": "2026-09-03T10:39:02.917000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a994e46ecddb03600000103",
+                        "targetTopic": "breaking-news",
+                        "text": "The activist, who helped sustain the women\u2019s movement through the second half of the 20th century and into the 21st, died Sept. 2 at her home in New York City. She was 92."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
