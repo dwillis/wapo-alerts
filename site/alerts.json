@@ -442844,5 +442844,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "692c1260-a7f8-11f1-b131-0000a1ace5d6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Missouri Supreme Court rejects state\u2019s redrawn congressional map that favors Republicans",
+            "ios": {
+                "alert": {
+                    "body": "Missouri Supreme Court rejects state\u2019s redrawn congressional map that favors Republicans",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://washingtonpost.com/politics/2026/09/03/court-throws-out-missouri-congressional-map-helping-democrats-keep-seat/",
+                        "datetime": "2026-09-04T00:34:38.004000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9a121efd12a83700000103",
+                        "targetTopic": "politics",
+                        "text": "The court\u2019s decision will likely keep one seat in the Democrats\u2019 column as Republicans fight to hang on to a razor-thin majority in the House. The court, in a unanimous ruling, also approved putting a referendum on the November ballot that will allow voters to decide whether to use the GOP-favored map in future elections."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
