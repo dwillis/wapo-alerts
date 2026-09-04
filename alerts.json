@@ -442892,5 +442892,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3e6ec830-a800-11f1-9ae4-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Secret Service has a wish list for White House fortifications. Trump has a response: Yes.",
+            "ios": {
+                "alert": {
+                    "body": "The Secret Service has a wish list for White House fortifications. Trump has a response: Yes.",
+                    "title": "Security Priorities"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/03/trump-backs-secret-service-push-fortify-white-house-complex/",
+                        "datetime": "2026-09-04T01:30:42.286000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9a1f42ecddb03600000107",
+                        "targetTopic": "politics",
+                        "text": "Officials publicly presented plans Thursday to permanently fence Lafayette Square, the public park across the street from the White House. Some preservationists and civic leaders are concerned about the lack of public access."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
