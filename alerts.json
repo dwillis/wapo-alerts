@@ -443516,5 +443516,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "107e7400-a8ac-11f1-8803-0000a1ace9b6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump moves to allow ranchers and hunters to kill protected gray wolves",
+            "ios": {
+                "alert": {
+                    "body": "Trump moves to allow ranchers and hunters to kill protected gray wolves",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/04/trump-moves-allow-ranchers-hunters-kill-gray-wolves/",
+                        "datetime": "2026-09-04T22:00:38.640000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9b3f86fd12a83700000106",
+                        "targetTopic": "politics",
+                        "text": "The wolves have been listed under the Endangered Species Act, even as ranchers say they threaten their herds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
