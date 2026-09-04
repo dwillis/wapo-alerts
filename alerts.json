@@ -442940,5 +442940,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c57ad400-a84f-11f1-8094-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump plane. Triumphal arch. Maria Bartiromo. Clancy trial. Mortgage advice. Dementia signs. Fall movies. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump plane. Triumphal arch. Maria Bartiromo. Clancy trial. Mortgage advice. Dementia signs. Fall movies. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/04/7-things-know-friday-september-4/?noredirect=1",
+                        "datetime": "2026-09-04T10:59:59.097000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6a9aa4af3c9ccb36000000ef",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
