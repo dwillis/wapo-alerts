@@ -443372,5 +443372,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e52241d0-a89f-11f1-b52a-00000a1acefd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hegseth chose loyalty over leadership \u2014 and has crippled the military",
+            "ios": {
+                "alert": {
+                    "body": "Hegseth chose loyalty over leadership \u2014 and has crippled the military",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/08/31/hegseths-purges-pentagon-leaders-threaten-national-security/",
+                        "datetime": "2026-09-04T20:33:31.775000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9b2b1beaeba837000000f1",
+                        "targetTopic": "opinions",
+                        "text": "The Iran quagmire wouldn\u2019t have happened under Trump\u2019s first-term military leaders, Max Boot writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2bc4b390-a899-11f1-8b43-00000a1ace81",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "County coroner confirms infant died of measles in Pennsylvania",
+            "ios": {
+                "alert": {
+                    "body": "County coroner confirms infant died of measles in Pennsylvania",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/04/infant-died-measles-pennsylvania-coroner-confirms/",
+                        "datetime": "2026-09-04T19:45:23.940000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9b1fd3eaeba837000000f0",
+                        "targetTopic": "us",
+                        "text": "The Lancaster County coroner said he did not know if this death is one of the two disputed by federal health officials."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "35addde0-a890-11f1-bc91-00000a1ace77",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Massachusetts court denies appeal from Lindsay Clancy\u2019s defense that sought to avoid a mistrial",
+            "ios": {
+                "alert": {
+                    "body": "Massachusetts court denies appeal from Lindsay Clancy\u2019s defense that sought to avoid a mistrial",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/04/judge-lindsay-clancy-trial-declines-remove-juror-deliberations-continue/",
+                        "datetime": "2026-09-04T18:41:15.113000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9b10cbeaeba837000000ef",
+                        "targetTopic": "breaking-news",
+                        "text": "The debate over the mistrial centered on the actions of a lone juror who Clancy\u2019s defense argued was not following orders from the judge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
