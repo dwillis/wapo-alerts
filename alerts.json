@@ -443324,5 +443324,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "653c9400-a88d-11f1-8076-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s huge Venezuela deal began with a call and a bet on an oilman",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s huge Venezuela deal began with a call and a bet on an oilman",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/04/trumps-huge-venezuela-deal-began-with-call-bet-an-oilman/",
+                        "datetime": "2026-09-04T18:21:06.349000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9b0c12eaeba837000000ee",
+                        "targetTopic": "breaking-news",
+                        "text": "Alejandro Betancourt was warned that taking on the U.S. government as a business partner would have costs, but America\u2019s backing already is providing benefits."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

@@ -443180,5 +443180,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2c75cb30-a885-11f1-b52a-0000a1ace6b7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 10 most anticipated movies of the fall",
+            "ios": {
+                "alert": {
+                    "body": "The 10 most anticipated movies of the fall",
+                    "title": "A Menagerie of Films"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2026/09/03/best-movies-see-this-fall/",
+                        "datetime": "2026-09-04T17:22:15.166000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9afe47eaeba837000000ed",
+                        "targetTopic": "editors_picks",
+                        "text": "Audiences can catch a \"Social Network\" follow-up, a \"Hunger Games\" prequel and a transformed Tom Cruise on the big screen."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3d7f13c0-a87e-11f1-90c5-0000a1ace959",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My sister-in-law is excited about her wedding. Why is family spoiling it? Carolyn Hax is giving advice.",
+            "ios": {
+                "alert": {
+                    "body": "My sister-in-law is excited about her wedding. Why is family spoiling it? Carolyn Hax is giving advice.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/04/carolyn-hax-live-chat/",
+                        "datetime": "2026-09-04T16:32:37.243000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9af2a5ecddb03600000109",
+                        "targetTopic": "advice",
+                        "text": "Our advice columnist answers your questions about the strange train we call life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2ebdc7c0-a877-11f1-8d3c-0000a1ace791",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge declares mistrial in the case of Lindsay Clancy, who is being tried over the strangulation deaths of her three children",
+            "ios": {
+                "alert": {
+                    "body": "Judge declares mistrial in the case of Lindsay Clancy, who is being tried over the strangulation deaths of her three children",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/04/judge-lindsay-clancy-trial-declines-remove-juror-deliberations-continue/",
+                        "datetime": "2026-09-04T15:42:06.056000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9ae6cefd12a83700000105",
+                        "targetTopic": "breaking-news",
+                        "text": "Jurors were unable to come to an agreement about whether or not to accept her insanity plea."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "653c9400-a88d-11f1-8076-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s huge Venezuela deal began with a call and a bet on an oilman",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s huge Venezuela deal began with a call and a bet on an oilman",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/04/trumps-huge-venezuela-deal-began-with-call-bet-an-oilman/",
+                        "datetime": "2026-09-04T18:21:06.349000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9b0c12eaeba837000000ee",
+                        "targetTopic": "breaking-news",
+                        "text": "Alejandro Betancourt was warned that taking on the U.S. government as a business partner would have costs, but America\u2019s backing already is providing benefits."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
