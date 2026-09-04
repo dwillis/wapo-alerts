@@ -442988,5 +442988,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7cad9100-a86c-11f1-aeaf-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Storm in D.C. area overnight downs trees and knocks out power",
+            "ios": {
+                "alert": {
+                    "body": "Storm in D.C. area overnight downs trees and knocks out power",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/09/04/downed-trees-power-outages-dc-region-after-storm/",
+                        "datetime": "2026-09-04T14:25:32.321000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9ad4dc3c9ccb36000000f0",
+                        "targetTopic": "local",
+                        "text": "Prince George\u2019s County Public Schools said all its schools would be closed because a large number of buildings were without power."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b920dd80-a868-11f1-b6db-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Supreme Court refuses to stop Trump\u2019s destruction",
+            "ios": {
+                "alert": {
+                    "body": "The Supreme Court refuses to stop Trump\u2019s destruction",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/04/white-house-ballroom-trump-wants-is-pure-destruction/",
+                        "datetime": "2026-09-04T13:58:35.794000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9ace8bfd12a83700000104",
+                        "targetTopic": "opinions",
+                        "text": "The justices dismissed aesthetic pain to protect the president\u2019s ballroom."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "93dfcdf1-a864-11f1-ab73-00000a1ace10",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former labor secretary misused funds and drank on the job, report finds",
+            "ios": {
+                "alert": {
+                    "body": "Former labor secretary misused funds and drank on the job, report finds",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/04/lori-chavez-deremer-former-labor-secretary-drank-job-misused-funds-report-finds/",
+                        "datetime": "2026-09-04T13:28:55.098000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9ac797eaeba837000000ec",
+                        "targetTopic": "politics",
+                        "text": "Lori Chavez-DeRemer, who resigned in April, oversaw a \u201ctoxic, intimidating and humiliating\u201d work environment at the Department of Labor, a federal watchdog said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "15d886a0-a85e-11f1-aa8c-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. economy added 162,000 jobs in August, beating expectations",
+            "ios": {
+                "alert": {
+                    "body": "U.S. economy added 162,000 jobs in August, beating expectations",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/04/us-economy-added-162000-jobs-august-beating-expectations/",
+                        "datetime": "2026-09-04T12:42:26.855000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9abcb2ecddb03600000108",
+                        "targetTopic": "breaking-news",
+                        "text": "The unemployment rate held steady at 4.1 percent, a low level consistent with a healthy labor market, according to Labor Department data released Friday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
