@@ -443996,5 +443996,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a205cc00-a976-11f1-bfa2-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The mystery behind an audio clip that helped upend a Senate race",
+            "ios": {
+                "alert": {
+                    "body": "The mystery behind an audio clip that helped upend a Senate race",
+                    "title": "Discerning What\u2019s Real"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/05/mystery-behind-an-audio-clip-that-helped-upend-senate-race/",
+                        "datetime": "2026-09-05T22:10:41.140000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c9361fd12a83700000109",
+                        "targetTopic": "editors_picks",
+                        "text": "Artificial intelligence tools increasingly allow political actors to fool voters \u2014 and help candidates cast doubt on reality."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
