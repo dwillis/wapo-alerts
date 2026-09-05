@@ -443564,5 +443564,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "563eef92-a8b8-11f1-90d4-000a1acec277",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The dementia that often strikes in midlife \u2014 and the signs people miss",
+            "ios": {
+                "alert": {
+                    "body": "The dementia that often strikes in midlife \u2014 and the signs people miss",
+                    "title": "An Overlooked Disease"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/04/frontotemporal-dementia-often-starts-midlife-signs-are-easy-miss/",
+                        "datetime": "2026-09-04T23:28:29.528000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9b541d3c9ccb36000000f1",
+                        "targetTopic": "editors_picks",
+                        "text": "Initial symptoms of frontotemporal dementia (FTD) are easy to miss, since they can look more like a psychiatric condition than a neurodegenerative one."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
