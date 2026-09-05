@@ -443660,5 +443660,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1ed86384-a933-11f1-89a3-000a1aceb657",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What happens to Lindsay Clancy now? Here's what to know about the case after a judge declared a mistrial.",
+            "ios": {
+                "alert": {
+                    "body": "What happens to Lindsay Clancy now? Here's what to know about the case after a judge declared a mistrial.",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/04/whats-next-lindsay-clancy-case/",
+                        "datetime": "2026-09-05T14:07:24.736000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c221cecddb0360000010b",
+                        "targetTopic": "us",
+                        "text": "The jury could not reach a verdict in the murder trial of the Massachusetts mother who admitted to killing her three children."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "120bdd71-a93e-11f1-8bd2-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. says it hit 3 Iranian oil tankers, including one near Kharg Island, after attempted attacks on Navy ships",
+            "ios": {
+                "alert": {
+                    "body": "U.S. says it hit 3 Iranian oil tankers, including one near Kharg Island, after attempted attacks on Navy ships",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/05/us-says-it-hit-3-iranian-oil-tankers-including-one-near-kharg-island/",
+                        "datetime": "2026-09-05T15:25:47.693000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c347b3c9ccb36000000f2",
+                        "targetTopic": "breaking-news",
+                        "text": "U.S. Central Command said its strikes disabled an oil carrier off the coast of Kharg Island, which is the country\u2019s main oil terminal, after Iran launched missiles toward two U.S. Navy warships."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
