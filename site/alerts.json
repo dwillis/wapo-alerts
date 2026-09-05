@@ -443756,5 +443756,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "771f0900-a94b-11f1-ad02-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Daughter is mad she isn\u2019t acting like a \u2018real\u2019 mother of the bride",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Daughter is mad she isn\u2019t acting like a \u2018real\u2019 mother of the bride",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/05/carolyn-hax-laid-back-mom-angers-daughter-whos-wedding-mode/",
+                        "datetime": "2026-09-05T17:01:40.802000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c4af43c9ccb36000000f3",
+                        "targetTopic": "advice",
+                        "text": "Her daughter is upset that she\u2019s not more excited about her upcoming wedding \u2014 but that\u2019s just not the letter writer\u2019s style."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f5dd9360-a946-11f1-b2c6-00000a1ace18",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.N. backed a map that shows Africa true to size. The U.S. was sole objector.",
+            "ios": {
+                "alert": {
+                    "body": "The U.N. backed a map that shows Africa true to size. The U.S. was sole objector.",
+                    "title": "Changing Perception"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/05/un-endorses-map-change-represent-africa-more-accurately/",
+                        "datetime": "2026-09-05T16:29:25.948000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c4365ecddb0360000010c",
+                        "targetTopic": "world",
+                        "text": "The U.N. resolution encourages the use of an \u201cEqual Earth\u201d map. The U.S. described it as a \u201cradical ideological project.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d14cff60-a953-11f1-8725-0000a1ace7b4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Her back hurt, then she couldn\u2019t button her pants. The cause was alarming.",
+            "ios": {
+                "alert": {
+                    "body": "Her back hurt, then she couldn\u2019t button her pants. The cause was alarming.",
+                    "title": "Medical Mysteries"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/05/her-back-hurt-then-she-couldnt-button-her-pants-cause-was-alarming/",
+                        "datetime": "2026-09-05T18:01:28.074000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c58f8fd12a83700000107",
+                        "targetTopic": "editors_picks",
+                        "text": "At first, doctors told her she didn\u2019t have anything to worry about. But after treatment, her pain continued."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
