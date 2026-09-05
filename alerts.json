@@ -443612,5 +443612,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5d4e3af1-a928-11f1-8b23-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trove of documents reveals alleged chemical weapons stockpile in Sudan",
+            "ios": {
+                "alert": {
+                    "body": "Trove of documents reveals alleged chemical weapons stockpile in Sudan",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/05/trove-documents-reveals-alleged-chemical-weapons-stockpile-sudan/",
+                        "datetime": "2026-09-05T12:50:25.076000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c1011ecddb0360000010a",
+                        "targetTopic": "breaking-news",
+                        "text": "A text message to a military officer involved in airstrikes included video of an apparent victim with charred skin, with the words: \u201cYour cooking.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
