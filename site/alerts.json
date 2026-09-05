@@ -443900,5 +443900,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "514c8150-a967-11f1-bf46-0000a1ace939",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How one smart man lives without a phone",
+            "ios": {
+                "alert": {
+                    "body": "How one smart man lives without a phone",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/04/smartphones-are-indispensable-or-are-they/",
+                        "datetime": "2026-09-05T20:21:03.139000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c79afecddb0360000010d",
+                        "targetTopic": "opinions",
+                        "text": "How one smart man lives without a phone"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9fe7ac21-a964-11f1-b723-0000a1ace10c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "She\u2019s a country-pop star and a billionaire\u2019s daughter. Cue the critics.",
+            "ios": {
+                "alert": {
+                    "body": "She\u2019s a country-pop star and a billionaire\u2019s daughter. Cue the critics.",
+                    "title": "An Internet Pile-On"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/05/stella-leftys-song-blew-up-tiktok-sparked-an-internet-pile-on/",
+                        "datetime": "2026-09-05T20:01:46.491000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9c752afd12a83700000108",
+                        "targetTopic": "editors_picks",
+                        "text": "Stella Lefty is a breakout star with the hit \u201cBoston\u201d \u2014 and has also sparked some of the most intense online vitriol in recent memory."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
