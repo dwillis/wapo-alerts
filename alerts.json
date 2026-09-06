@@ -444527,5 +444527,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b9aa1480-aa46-11f1-b534-0000a1ace5b2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "She lost her sight. Her billionaire father, Bill Ackman, bet on a daring new treatment.",
+            "ios": {
+                "alert": {
+                    "body": "She lost her sight. Her billionaire father, Bill Ackman, bet on a daring new treatment.",
+                    "title": "A Novel Cell Therapy"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/09/06/she-lost-her-sight-her-billionaire-father-bet-daring-new-treatment/",
+                        "datetime": "2026-09-06T23:00:16.092000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9df080ecddb0360000010f",
+                        "targetTopic": "editors_picks",
+                        "text": "In a first, cell parts were transferred from the leg of Bill Ackman\u2019s 26-year-old daughter to her eyes to help restore her vision."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
