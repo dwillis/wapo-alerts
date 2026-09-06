@@ -444383,5 +444383,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3d150dc0-aa33-11f1-a43d-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Amazon cargo plane crashes after veering off runway at Miami airport, hitting multiple vehicles",
+            "ios": {
+                "alert": {
+                    "body": "Amazon cargo plane crashes after veering off runway at Miami airport, hitting multiple vehicles",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/06/amazon-cargo-plane-crashes-after-veering-off-runway-miami-airport/",
+                        "datetime": "2026-09-06T20:40:46.678000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9dcfce3c9ccb36000000f6",
+                        "targetTopic": "breaking-news",
+                        "text": "Miami-Dade Fire and Rescue workers who arrived at the scene found heavy flames and smoke coming from the aircraft, a spokesperson for the rescue squad said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2ac45310-aa24-11f1-a43d-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Could your txtspk be a turnoff? Find out with our quiz.",
+            "ios": {
+                "alert": {
+                    "body": "Could your txtspk be a turnoff? Find out with our quiz.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/09/06/social-media-text-slang-can-be-turnoff-this-quiz-shows-how/",
+                        "datetime": "2026-09-06T18:52:53.496000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9db685ecddb0360000010e",
+                        "targetTopic": "opinions",
+                        "text": "Could your txtspk be a turnoff? Find out with our quiz."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
