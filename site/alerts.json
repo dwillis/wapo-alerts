@@ -444286,5 +444286,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9d2b3e70-aa18-11f1-a41a-00000a1acec9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Your dish sponge can be gross. Try this instead.",
+            "ios": {
+                "alert": {
+                    "body": "Your dish sponge can be gross. Try this instead.",
+                    "title": "A Cleaner Kitchen"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/06/your-dish-sponge-can-be-gross-try-this-instead/",
+                        "datetime": "2026-09-06T17:30:11.449000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9da3233c9ccb36000000f5",
+                        "targetTopic": "health",
+                        "text": "Food safety experts say using a dish brush and cloth can help keep your kitchen cleaner."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "04020541-aa21-11f1-b799-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Deadly Iran wedding strike likely due to U.S. bomb missing a nearby target",
+            "ios": {
+                "alert": {
+                    "body": "Deadly Iran wedding strike likely due to U.S. bomb missing a nearby target",
+                    "title": "Under Investigation"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/06/deadly-iran-wedding-strike-likely-due-us-weapon-missing-nearby-target/",
+                        "datetime": "2026-09-06T18:30:19.893000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9db13bfd12a8370000010c",
+                        "targetTopic": "breaking-news",
+                        "text": "Six weapons dropped by Navy jets targeted a communications complex in the coastal town of Kuhestak last week. One missed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
