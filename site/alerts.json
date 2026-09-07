@@ -445007,5 +445007,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d2b6fd70-ab05-11f1-a003-0000a1ace062",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This is the true cause of \u2018gut feelings\u2019 \u2014 and when you can trust them",
+            "ios": {
+                "alert": {
+                    "body": "This is the true cause of \u2018gut feelings\u2019 \u2014 and when you can trust them",
+                    "title": "What Your Body Is Saying"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/07/true-cause-gut-feelings-when-you-can-trust-them/",
+                        "datetime": "2026-09-07T21:48:11.997000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9f311beaeba837000000f7",
+                        "targetTopic": "editors_picks",
+                        "text": "Studies have shown that the sensation isn\u2019t necessarily an oracle, physician Trisha Pasricha explains."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
