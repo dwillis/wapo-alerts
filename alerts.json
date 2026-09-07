@@ -444959,5 +444959,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ad97260-aaf3-11f1-ab57-0000a1acedd6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration strips language criticizing Confederate statue that was at Arlington National Cemetery",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration strips language criticizing Confederate statue that was at Arlington National Cemetery",
+                    "title": "Civil War Portrayal"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/07/trump-officials-remove-sign-arlington-cemetery-that-criticized-confederate-statue/",
+                        "datetime": "2026-09-07T19:35:06.242000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9f11ea3c9ccb36000000f9",
+                        "targetTopic": "breaking-news",
+                        "text": "A new sign at Arlington National Cemetery omits wording that said the memorial \u201cmythologized\u201d the Confederacy and gave \u201csanitized\u201d depictions of slavery."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
