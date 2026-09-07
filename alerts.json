@@ -444623,5 +444623,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "304ac5a0-aac2-11f1-8ed1-0000a1ace558",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The biggest threat to U.S. national security comes from within",
+            "ios": {
+                "alert": {
+                    "body": "The biggest threat to U.S. national security comes from within",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/09/07/deficit-is-biggest-threat-us-national-security/",
+                        "datetime": "2026-09-07T13:44:03.161000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9ebfa3eaeba837000000f6",
+                        "targetTopic": "opinions",
+                        "text": "Can the U.S. afford a major war? Not with this deficit."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4743a0e0-aaab-11f1-9333-00000a1aceb2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Amazon cargo plane crash. Mail ballots. Living costs quiz. Immigration. Free child care. Gut feelings. Early Emmys. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Amazon cargo plane crash. Mail ballots. Living costs quiz. Immigration. Free child care. Gut feelings. Early Emmys. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/07/7-things-know-monday-september-7/?noredirect=1",
+                        "datetime": "2026-09-07T11:00:03.362000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6a9e9933eaeba837000000f5",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
