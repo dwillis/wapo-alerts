@@ -444719,5 +444719,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4582ec00-aad5-11f1-b0e8-00000a1acec2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Grandparents\u2019 child care includes way too much TV",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Grandparents\u2019 child care includes way too much TV",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/07/carolyn-hax-grandparents-childcare-includes-way-too-much-tv/",
+                        "datetime": "2026-09-07T16:00:39.249000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9edfa7ecddb03600000110",
+                        "targetTopic": "advice",
+                        "text": "It\u2019s time to pay for professional child care, but letter writer doesn\u2019t want to offend parents by firing them."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9b90d0a1-aace-11f1-aafe-00000a1aced7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump pledged to lower prices in eight areas. Have they risen or fallen?",
+            "ios": {
+                "alert": {
+                    "body": "Trump pledged to lower prices in eight areas. Have they risen or fallen?",
+                    "title": "Cost-of-Living Quiz"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2026/09/07/trump-pledged-lower-prices-eight-areas-how-has-he-done/",
+                        "datetime": "2026-09-07T15:12:57.057000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9ed479fd12a8370000010e",
+                        "targetTopic": "editors_picks",
+                        "text": "Test your knowledge and see which campaign promises the president has achieved."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
