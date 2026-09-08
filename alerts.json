@@ -445199,5 +445199,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d26c9aa0-ab8c-11f1-aaf8-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.K. bans import of goods from West Bank settlements in starkest break yet with Israel; numerous European countries pledge support",
+            "ios": {
+                "alert": {
+                    "body": "U.K. bans import of goods from West Bank settlements in starkest break yet with Israel; numerous European countries pledge support",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/08/uk-bar-imports-west-bank-growing-rift-with-israel/",
+                        "datetime": "2026-09-08T13:54:33.581000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa01399fd12a83700000111",
+                        "targetTopic": "breaking-news",
+                        "text": "The boycott prompted warnings from the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d96c8e10-ab8b-11f1-8447-0000a1ace044",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018He needs to go\u2019: What drives the chaos in Pete Hegseth\u2019s Defense Department",
+            "ios": {
+                "alert": {
+                    "body": "\u2018He needs to go\u2019: What drives the chaos in Pete Hegseth\u2019s Defense Department",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/08/post-opinions-writers-chaos-pete-hegseths-defense-department/",
+                        "datetime": "2026-09-08T13:47:35.845000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa011f7fd12a83700000110",
+                        "targetTopic": "opinions",
+                        "text": "Hegseth is remaking the Pentagon in his own image."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cb329420-ab7c-11f1-ac87-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Canadian countertariffs on $20 billion worth of U.S. imports take effect amid escalating trade war between the countries",
+            "ios": {
+                "alert": {
+                    "body": "Canadian countertariffs on $20 billion worth of U.S. imports take effect amid escalating trade war between the countries",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/08/trump-threatens-ban-bombardier-jet-sales-canadas-tariffs-take-effect/",
+                        "datetime": "2026-09-08T11:59:49.508000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9ff8b53c9ccb36000000fa",
+                        "targetTopic": "world",
+                        "text": "The levies apply to a vast range of products, including steel and aluminum, dairy and electronics."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
