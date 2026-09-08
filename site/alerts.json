@@ -445343,5 +445343,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8b4263d1-abaa-11f1-b291-0000a1ace694",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Grab your Discmans out of storage. CDs are back, baby.",
+            "ios": {
+                "alert": {
+                    "body": "Grab your Discmans out of storage. CDs are back, baby.",
+                    "title": "Press Play"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/08/grab-your-discmans-out-storage-cds-are-back-baby/",
+                        "datetime": "2026-09-08T17:27:18.988000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa04576fd12a83700000112",
+                        "targetTopic": "editors_picks",
+                        "text": "Collectors and K-pop enthusiasts are driving a growth in sales that is outpacing vinyl\u2019s."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "94b8fd91-ab9e-11f1-a33c-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Smithsonian chief Lonnie G. Bunch III to retire as Trump fights to reshape institution",
+            "ios": {
+                "alert": {
+                    "body": "Smithsonian chief Lonnie G. Bunch III to retire as Trump fights to reshape institution",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/art/2026/09/08/smithsonian-chief-bunch-retiring-trump-fights-reshape-institution/",
+                        "datetime": "2026-09-08T16:01:41.002000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa03165ecddb03600000112",
+                        "targetTopic": "breaking-news",
+                        "text": "Bunch, the Smithsonian\u2019s first Black secretary, said President Donald Trump\u2019s pressure played no role in his decision and vowed to defend the institution\u2019s independence until he leaves."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
