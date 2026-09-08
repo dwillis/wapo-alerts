@@ -445439,5 +445439,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "86b66ce1-abc7-11f1-b714-0000a1ace604",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The surprising science of how focusing your attention may fight inflammation",
+            "ios": {
+                "alert": {
+                    "body": "The surprising science of how focusing your attention may fight inflammation",
+                    "title": "Immune Response"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/08/focusing-your-attention-may-help-your-brain-fight-inflammation-study-suggests/",
+                        "datetime": "2026-09-08T20:54:46.865000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa07616fd12a83700000113",
+                        "targetTopic": "health",
+                        "text": "Researchers found that people who distracted themselves from an itch actually had worse inflammation than those who didn\u2019t."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "74a9a292-abc4-11f1-a2ef-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How to survive Trump? Jerome Powell mastered four rules.",
+            "ios": {
+                "alert": {
+                    "body": "How to survive Trump? Jerome Powell mastered four rules.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/08/former-fed-chair-jerome-powells-four-rules-surviving-trump/",
+                        "datetime": "2026-09-08T20:32:47.947000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa070ef3c9ccb36000000fb",
+                        "targetTopic": "opinions",
+                        "text": "Kevin Warsh inherits the fight his predecessor won. The Fed\u2019s independence depends on how he continues it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
