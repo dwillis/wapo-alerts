@@ -445536,5 +445536,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "36bbf070-abdb-11f1-a0f1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Schools should stop banning peanuts. Here\u2019s what really keeps kids safe, columnist Michael J. Coren writes.",
+            "ios": {
+                "alert": {
+                    "body": "Schools should stop banning peanuts. Here\u2019s what really keeps kids safe, columnist Michael J. Coren writes.",
+                    "title": "Navigating Allergens"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/08/why-schools-should-stop-banning-peanuts/",
+                        "datetime": "2026-09-08T23:15:42.596000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa0971efd12a83700000114",
+                        "targetTopic": "editors_picks",
+                        "text": "Everyone wants to keep kids with food allergies safe, but the evidence suggests bans don\u2019t do that. There\u2019s a better way."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8d65b500-abd6-11f1-89f1-00000a1ace42",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge rules West Point policy restricting professors\u2019 speech is unconstitutional",
+            "ios": {
+                "alert": {
+                    "body": "Judge rules West Point policy restricting professors\u2019 speech is unconstitutional",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://washingtonpost.com/nation/2026/09/08/judge-rules-west-point-policy-restricting-professors-speech-is-unconstitutional/",
+                        "datetime": "2026-09-08T22:42:20.451000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa08f4cecddb03600000114",
+                        "targetTopic": "us",
+                        "text": "U.S. District Judge Cathy Seibel sided with Tim Bakken, a law professor who sued the academy over the restrictions, which limit what its faculty say and write in public. Seibel \u201cpermanently enjoined\u201d West Point from enforcing its speech rules. The military academy had sought to bar professors from publishing papers, speaking at conferences or even appearing on podcasts without seeking approval from higher-ups."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "dacc5770-abd3-11f1-b956-000a1acef977",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kavanaugh blocks Missouri congressional map that favors Republicans",
+            "ios": {
+                "alert": {
+                    "body": "Kavanaugh blocks Missouri congressional map that favors Republicans",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/08/supreme-court-blocks-missouri-congressional-map-favoring-gop/",
+                        "datetime": "2026-09-08T22:23:01.772000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa08ac5ecddb03600000113",
+                        "targetTopic": "breaking-news",
+                        "text": "Justice Brett M. Kavanaugh let stand a lower court order blocking the congressional map that had been designed to give Republicans an additional seat in the U.S. House of Representatives in November\u2019s midterm elections. The decision is a rare loss for Republicans in a nationwide redistricting war that has played out in state legislatures, federal courts and the Supreme Court over the past year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
