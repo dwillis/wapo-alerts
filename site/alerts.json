@@ -445055,5 +445055,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "92fb3020-ab1e-11f1-a08d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As Social Security fund runs dry, some Republicans say it\u2019s time to raise taxes",
+            "ios": {
+                "alert": {
+                    "body": "As Social Security fund runs dry, some Republicans say it\u2019s time to raise taxes",
+                    "title": "Confronting a Shortfall"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/08/social-security-fund-runs-dry-some-republicans-say-its-time-raise-taxes/",
+                        "datetime": "2026-09-08T00:45:22.372000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9f5aa2eaeba837000000f9",
+                        "targetTopic": "editors_picks",
+                        "text": "Sen. Bernie Moreno (R-Ohio) joined Sen. Elizabeth Warren (D-Massachusetts) in proposing to raise the payroll tax cap so people with higher incomes pay more into the program. The GOP concession on taxes comes as lawmakers begin to confront a Social Security shortfall so large and so imminent that the party\u2019s traditional demand for curtailing benefits is unlikely to suffice. In just six years, millions of Social Security recipients will absorb a 22 percent cut in benefits unless lawmakers provide an immediate infusion of nearly $500 billion."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "128b45e0-ab1b-11f1-958c-00000a1ace89",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kennedy Center\u2019s ousted chairman buys dismantled sculpture",
+            "ios": {
+                "alert": {
+                    "body": "Kennedy Center\u2019s ousted chairman buys dismantled sculpture",
+                    "title": "New Home for \u2018Blue\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/07/kennedy-centers-dismantled-blue-sculpture-purchased-by-david-rubenstein/",
+                        "datetime": "2026-09-08T00:20:18.562000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6a9f54c2eaeba837000000f8",
+                        "targetTopic": "us",
+                        "text": "David Rubenstein, who was removed by President Donald Trump in 2025, acquired the artwork for more than $2 million. It will eventually be displayed in the Sculpture Garden of the National Gallery of Art."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
