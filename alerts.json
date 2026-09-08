@@ -445151,5 +445151,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a933b410-ab74-11f1-b956-000a1acef977",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ballroom ruling. Army resignation. Mail ballots. Tupac Shakur. College costs. Cannabis use. Foliage map. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Ballroom ruling. Army resignation. Mail ballots. Tupac Shakur. College costs. Cannabis use. Foliage map. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/08/7-things-know-day-date/?noredirect=1",
+                        "datetime": "2026-09-08T11:01:36.433000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6a9feb10fd12a8370000010f",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
