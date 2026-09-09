@@ -445776,5 +445776,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a5ab0ca0-abef-11f1-8a37-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump gave $45,000 cash gifts to Natalie Harp, the assistant who rarely leaves his side, and two other close aides",
+            "ios": {
+                "alert": {
+                    "body": "Trump gave $45,000 cash gifts to Natalie Harp, the assistant who rarely leaves his side, and two other close aides",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/08/trump-gave-45000-cash-gifts-natalie-harp-two-other-close-aides/",
+                        "datetime": "2026-09-09T01:41:58.582000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa0b9663c9ccb36000000fc",
+                        "targetTopic": "breaking-news",
+                        "text": "Harp, the president\u2019s 35-year-old executive assistant, has come under increased scrutiny since The Washington Post reported last month that she was just one of a handful of close staffers who accompanied the president on a catering truck that transported him to a secret plane to depart Turkey. The president also gave $45,000 to Margo Martin, a 31-year-old communications adviser who films his daily activities for social media, and Chamberlain Harris, a 26-year-old White House aide who was appointed to the Commission of Fine Arts, which has oversight of the president\u2019s ballroom and other Washington-area construction projects."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
