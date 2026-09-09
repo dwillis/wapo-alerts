@@ -446161,5 +446161,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f64c2e71-ac8d-11f1-8397-00000a1ace19",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dead malls dot America. Why not get rid of them?",
+            "ios": {
+                "alert": {
+                    "body": "Dead malls dot America. Why not get rid of them?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/08/why-dead-malls-still-litter-american-suburbia/",
+                        "datetime": "2026-09-09T20:35:14.415000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa1c302ecddb03600000116",
+                        "targetTopic": "opinions",
+                        "text": "Dead malls dot America. Why not get rid of them?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
