@@ -446305,5 +446305,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "93e5e582-aca3-11f1-8553-00000a1aceb6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Plane carrying Volodymyr Zelensky was nearly hit this week by a drone in Moldova, Norway\u2019s prime minister says",
+            "ios": {
+                "alert": {
+                    "body": "Plane carrying Volodymyr Zelensky was nearly hit this week by a drone in Moldova, Norway\u2019s prime minister says",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/09/plane-carrying-zelensky-threatened-by-drone-moldova-norways-premier-says/",
+                        "datetime": "2026-09-09T23:09:58.262000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa1e7463c9ccb3600000101",
+                        "targetTopic": "world",
+                        "text": "The Ukrainian president was on his way to the funeral of Norway\u2019s King Harald. It was unclear who launched the drone or how close it came to Zelensky\u2019s aircraft."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
