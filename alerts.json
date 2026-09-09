@@ -445824,5 +445824,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b49c7670-ac50-11f1-bfe2-0000a1aced80",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump is remodeling the White House. The group set up to protect it has stayed quiet.",
+            "ios": {
+                "alert": {
+                    "body": "Trump is remodeling the White House. The group set up to protect it has stayed quiet.",
+                    "title": "Silent Steward"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/09/trump-remakes-white-house-historical-association-stays-quiet/",
+                        "datetime": "2026-09-09T13:16:44.868000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa15c3ceaeba837000000fa",
+                        "targetTopic": "politics",
+                        "text": "The White House Historical Association, a nonprofit set up by Jacqueline Kennedy to preserve the building\u2019s character, has declined to criticize the president\u2019s changes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9d37fa30-ac3d-11f1-bc3d-00000a1ace48",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S.-Iran war. Cash gifts. Trade war. New Hampshire primaries. Smithsonian resignation. Exercise hack. South Park. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "U.S.-Iran war. Cash gifts. Trade war. New Hampshire primaries. Smithsonian resignation. Exercise hack. South Park. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/09/7-things-know-wednesday-september-8/?noredirect=1",
+                        "datetime": "2026-09-09T11:00:05.076000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6aa13c35fd12a83700000116",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
