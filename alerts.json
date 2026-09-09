@@ -445680,5 +445680,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "08e3aaa0-abe3-11f1-a0f1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump escalates trade war with bans on Canadian imports including alcohol, motorcycles",
+            "ios": {
+                "alert": {
+                    "body": "Trump escalates trade war with bans on Canadian imports including alcohol, motorcycles",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/08/us-announces-ban-certain-canadian-imports-dairy-alcohol-other-products/",
+                        "datetime": "2026-09-09T00:11:41.606000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa0a43decddb03600000115",
+                        "targetTopic": "breaking-news",
+                        "text": "The U.S. and Canada have been embroiled in escalating trade tensions for more than a year, after the president imposed widespread tariffs on countries around the world. The bans are scheduled to take effect Sept. 29."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "11ed29b1-abe2-11f1-b3ba-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "John Sununu (R) and Rep. Chris Pappas (D) win New Hampshire primaries, setting up contest for Senate seat that GOP hopes to flip",
+            "ios": {
+                "alert": {
+                    "body": "John Sununu (R) and Rep. Chris Pappas (D) win New Hampshire primaries, setting up contest for Senate seat that GOP hopes to flip",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/09/08/new-hampshire-us-senate-primary-results-live-brown-pappas-sununu-run/",
+                        "datetime": "2026-09-09T00:04:47.269000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa0a29ffd12a83700000115",
+                        "targetTopic": "politics",
+                        "text": "The race to succeed Democratic Sen. Jeanne Shaheen, who is not running for reelection, is expected to be competitive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
