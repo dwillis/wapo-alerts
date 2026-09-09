@@ -446112,5 +446112,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9dca5a10-ac88-11f1-a2fa-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Three minutes of intense exercise may beat 90 minutes of moderate workout, study finds",
+            "ios": {
+                "alert": {
+                    "body": "Three minutes of intense exercise may beat 90 minutes of moderate workout, study finds",
+                    "title": "Brief Bursts"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/09/3-minutes-vs-90-minutes-which-workout-is-better-your-health/",
+                        "datetime": "2026-09-09T19:56:58.459000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa1ba0a3c9ccb36000000ff",
+                        "targetTopic": "health",
+                        "text": "A new study found that a brief but hard workout floods our blood with molecules linked to better health."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
