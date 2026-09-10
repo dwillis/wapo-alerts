@@ -446353,5 +446353,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "adf33440-acae-11f1-a0b8-00000a1ace9c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rhode Island Gov. Dan McKee falls in primary. The Democrat is the first sitting U.S. governor to lose renomination since 2018.",
+            "ios": {
+                "alert": {
+                    "body": "Rhode Island Gov. Dan McKee falls in primary. The Democrat is the first sitting U.S. governor to lose renomination since 2018.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/results/2026/09/09/rhode-island-governor-primary-results-live-daniel-mckee-faces-helena-foulkes/",
+                        "datetime": "2026-09-10T00:29:26.335000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa1f9e6eaeba837000000fb",
+                        "targetTopic": "politics",
+                        "text": "McKee lost to former CVS executive Helena Foulkes, who will be heavily favored to win the general election in the blue state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
