@@ -446929,5 +446929,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "91962f71-ad6f-11f1-85c3-00000a1aced3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Charlie Kirk\u2019s killing a year ago reshaped these six lives. They tell us how.",
+            "ios": {
+                "alert": {
+                    "body": "Charlie Kirk\u2019s killing a year ago reshaped these six lives. They tell us how.",
+                    "title": "Shooting Aftermath"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/10/how-charlie-kirk-shooting-changed-their-lives/",
+                        "datetime": "2026-09-10T23:30:11.629000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa33d833c9ccb3600000106",
+                        "targetTopic": "editors_picks",
+                        "text": "The killing of the 31-year-old founder of Turning Point USA affected people regardless of their political affiliation. Many mourned Kirk as a hero and started new chapters of his group. But more than 600 people were suspended, investigated or fired for their comments on a man whose views on gender, race and sexuality they detested."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
