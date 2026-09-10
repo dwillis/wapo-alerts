@@ -446593,5 +446593,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fcedef80-ad40-11f1-99bd-00000a1ace33",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal officials poised to declare end of U.S.\u2019s largest known cyclosporiasis outbreak",
+            "ios": {
+                "alert": {
+                    "body": "Federal officials poised to declare end of U.S.\u2019s largest known cyclosporiasis outbreak",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/10/federal-officials-poised-declare-end-uss-largest-known-cyclosporiasis-outbreak/",
+                        "datetime": "2026-09-10T17:56:45.483000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa2ef5dfd12a83700000119",
+                        "targetTopic": "breaking-news",
+                        "text": "Thousands of people became sick after eating shredded iceberg lettuce sourced from central Mexico."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "aad60591-ad39-11f1-a293-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "For years, they warned AI could kill all humans. Now people are listening.",
+            "ios": {
+                "alert": {
+                    "body": "For years, they warned AI could kill all humans. Now people are listening.",
+                    "title": "Alarm Over \u2018Agents\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/09/10/years-they-warned-ai-could-kill-all-humans-now-people-are-listening/",
+                        "datetime": "2026-09-10T17:04:21.140000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa2e3153c9ccb3600000105",
+                        "targetTopic": "editors_picks",
+                        "text": "A doomsaying community once on the periphery of the tech industry has gained influence, as AI \u201cagents\u201d perform amazing and alarming feats."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "22894eb0-ad32-11f1-b8ee-000a1ace54d9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This Laotian restaurant is a strip mall gem hiding in plain sight, our critic writes in his review",
+            "ios": {
+                "alert": {
+                    "body": "This Laotian restaurant is a strip mall gem hiding in plain sight, our critic writes in his review",
+                    "title": "Southeast Asian Feast"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/09/10/eat-lao-restaurant-review-strip-mall-gem-hidden-plain-sight/",
+                        "datetime": "2026-09-10T16:10:26.026000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa2d6723c9ccb3600000104",
+                        "targetTopic": "local",
+                        "text": "Sampling platters are fit for feasting at Eat A Lao in Rockville."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4585e620-ad2e-11f1-973a-0000a1acefd7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "America has thousands of miles of corridors. Why not put them to extra use?",
+            "ios": {
+                "alert": {
+                    "body": "America has thousands of miles of corridors. Why not put them to extra use?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/10/trump-dot-use-highway-rail-corridors-power-other-utilities/",
+                        "datetime": "2026-09-10T15:42:46.800000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa2cff6eaeba837000000fd",
+                        "targetTopic": "opinions",
+                        "text": "An initiative from the U.S. Transportation Department can transform them into multiuse arteries."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
