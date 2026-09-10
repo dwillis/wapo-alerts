@@ -446497,5 +446497,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2eaccbe1-ad19-11f1-bc98-00000a1ace6d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What to know about Trump\u2019s proposed $5,000 payouts",
+            "ios": {
+                "alert": {
+                    "body": "What to know about Trump\u2019s proposed $5,000 payouts",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/10/what-know-about-trumps-promised-5000-payouts/",
+                        "datetime": "2026-09-10T13:11:49.049000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa2ac95eaeba837000000fc",
+                        "targetTopic": "politics",
+                        "text": "President Donald Trump has pledged a $5,000 dividend to every American adult if Republicans retain control of Congress in November\u2019s midterm elections, prompting questions about how the benefit would work, whether it is legal and where the funds would come from."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
