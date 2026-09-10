@@ -446353,5 +446353,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "adf33440-acae-11f1-a0b8-00000a1ace9c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rhode Island Gov. Dan McKee falls in primary. The Democrat is the first sitting U.S. governor to lose renomination since 2018.",
+            "ios": {
+                "alert": {
+                    "body": "Rhode Island Gov. Dan McKee falls in primary. The Democrat is the first sitting U.S. governor to lose renomination since 2018.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/results/2026/09/09/rhode-island-governor-primary-results-live-daniel-mckee-faces-helena-foulkes/",
+                        "datetime": "2026-09-10T00:29:26.335000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa1f9e6eaeba837000000fb",
+                        "targetTopic": "politics",
+                        "text": "McKee lost to former CVS executive Helena Foulkes, who will be heavily favored to win the general election in the blue state."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ea124ca1-acb2-11f1-9085-0000a1acecf3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. John Fetterman (D) appears by video at Republican midterm convention, says he\u2019ll work with Trump",
+            "ios": {
+                "alert": {
+                    "body": "Sen. John Fetterman (D) appears by video at Republican midterm convention, says he\u2019ll work with Trump",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/09/fetterman-appears-by-video-gop-convention-says-hell-work-with-trump/",
+                        "datetime": "2026-09-10T00:59:45.283000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa201013c9ccb3600000102",
+                        "targetTopic": "politics",
+                        "text": "The Pennsylvania senator described himself during his remarks as a \u201ccommon-sense Democrat\u201d who rejected socialism. His recent appearances on Fox News and pointed criticism of Democrats have helped make him popular within the GOP."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
