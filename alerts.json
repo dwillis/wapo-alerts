@@ -446545,5 +446545,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8e33df50-ad27-11f1-8d25-0000a1acef77",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court again blocks new Missouri congressional map favoring GOP",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court again blocks new Missouri congressional map favoring GOP",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/10/supreme-court-again-blocks-new-missouri-congressional-map-favoring-gop/",
+                        "datetime": "2026-09-10T14:54:42.212000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa2c4b2ecddb03600000118",
+                        "targetTopic": "breaking-news",
+                        "text": "The ruling is the latest twist in an intense legal drama that has plunged the state into electoral chaos."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
