@@ -446881,5 +446881,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a8ab39b0-ad62-11f1-a30f-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The truth about how much protein your body can absorb in one meal",
+            "ios": {
+                "alert": {
+                    "body": "The truth about how much protein your body can absorb in one meal",
+                    "title": "A Myth With Muscle"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/10/truth-about-how-much-protein-your-body-can-absorb-one-meal/",
+                        "datetime": "2026-09-10T21:57:46.903000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa327daecddb0360000011a",
+                        "targetTopic": "editors_picks",
+                        "text": "Conventional wisdom says you can use only 30 grams of protein at once. Scientists say that\u2019s a myth."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
