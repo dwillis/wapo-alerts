@@ -446785,5 +446785,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "32f6a491-ad5b-11f1-8d25-0000a1acef77",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This slogan infuriates Beijing. Judges have turned it into a crime.",
+            "ios": {
+                "alert": {
+                    "body": "This slogan infuriates Beijing. Judges have turned it into a crime.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/10/hong-kong-courts-turn-tiananmen-square-vigil-into-crime/",
+                        "datetime": "2026-09-10T21:04:23.061000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa31b57eaeba837000000fe",
+                        "targetTopic": "opinions",
+                        "text": "This slogan infuriates Beijing. Judges have turned it into a crime."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "67872dd0-ad4f-11f1-a293-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "After 9/11, the U.S. built an anti-terror apparatus. Trump is using it at home.",
+            "ios": {
+                "alert": {
+                    "body": "After 9/11, the U.S. built an anti-terror apparatus. Trump is using it at home.",
+                    "title": "Inward Focus"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/10/trump-has-turned-post-911-security-state-inward-domestic-targets/",
+                        "datetime": "2026-09-10T19:39:57.278000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa3078decddb03600000119",
+                        "targetTopic": "us",
+                        "text": "Waning attention to international terrorism and other threats has former officials worried."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
