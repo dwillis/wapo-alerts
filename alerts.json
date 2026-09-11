@@ -447025,5 +447025,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "10b29d61-add0-11f1-ac12-00000a1acefc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JD Vance. RFK Jr and military jets. Resignation. 25 years since 9/11. Jimmy Kimmel. Dementia signs. Revenge dress. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "JD Vance. RFK Jr and military jets. Resignation. 25 years since 9/11. Jimmy Kimmel. Dementia signs. Revenge dress. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/11/7-things-know-friday-sept-11/?noredirect=1",
+                        "datetime": "2026-09-11T11:00:56.678000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6aa3df68eaeba83700000100",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
