@@ -447265,5 +447265,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "58ecb391-ae20-11f1-b0d8-00000a1ace74",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 9/11 trial that never happened",
+            "ios": {
+                "alert": {
+                    "body": "The 9/11 trial that never happened",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/09/911-attack-terror-suspects-should-have-faced-trial-federal-courts/",
+                        "datetime": "2026-09-11T20:35:37.581000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa46619eaeba83700000102",
+                        "targetTopic": "opinions",
+                        "text": "President Obama\u2019s wavering and Congress\u2019s fear killed the court case Americans deserved to hear."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "dabe4720-ae17-11f1-a7e7-0000a1ace66b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ohio Republican Senate campaign staffer used Nazi soldiers as profile photo",
+            "ios": {
+                "alert": {
+                    "body": "Ohio Republican Senate campaign staffer used Nazi soldiers as profile photo",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/11/ohio-senate-campaign-staffer-used-nazi-soldiers-profile-photo/",
+                        "datetime": "2026-09-11T19:34:49.928000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa457d9ecddb0360000011c",
+                        "targetTopic": "breaking-news",
+                        "text": "Sen. Jon Husted\u2019s campaign, after being contacted by The Post, said it would part ways with the political director."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
