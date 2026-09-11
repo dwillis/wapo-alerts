@@ -446977,5 +446977,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d07fcac0-ad79-11f1-a457-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House gives RFK Jr. access to military aircraft as he campaigns for GOP in midterms",
+            "ios": {
+                "alert": {
+                    "body": "White House gives RFK Jr. access to military aircraft as he campaigns for GOP in midterms",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/10/rfk-jr-uses-military-aircraft-he-campaigns-gop-midterms/",
+                        "datetime": "2026-09-11T00:43:32.250000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa34eb4eaeba837000000ff",
+                        "targetTopic": "breaking-news",
+                        "text": "The White House, as well as lawyers for the Department of Health and Human Services, signed off on the plan to let the health secretary use military jets, five people said. Several people also said the use of military aircraft has been infrequent, given the additional costs incurred from their use, and that there are protocols in place to determine whether to use a government plane."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
