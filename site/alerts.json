@@ -447217,5 +447217,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b9033cf0-ae06-11f1-ac12-00000a1acefc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The architect of 9/11 built the world we inhabit today, columnist Philip Kennicott writes",
+            "ios": {
+                "alert": {
+                    "body": "The architect of 9/11 built the world we inhabit today, columnist Philip Kennicott writes",
+                    "title": "Designed for Security"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/11/architect-911-built-world-we-inhabit-today/",
+                        "datetime": "2026-09-11T17:32:11.879000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa43b1becddb0360000011b",
+                        "targetTopic": "editors_picks",
+                        "text": "The changes to our urban design, architecture and everyday life are so profound we can hardly see them."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
