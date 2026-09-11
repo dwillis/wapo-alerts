@@ -447073,5 +447073,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "48e16d20-adf2-11f1-b8a5-0000a1ace018",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Condoleezza Rice: \u2018Sept. 11 tested us, but it did not break us\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Condoleezza Rice: \u2018Sept. 11 tested us, but it did not break us\u2019",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/11/condoleezza-rice-remembers-sept-11-speech-pentagon/",
+                        "datetime": "2026-09-11T15:05:53.811000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa418d13c9ccb3600000107",
+                        "targetTopic": "opinions",
+                        "text": "Condoleezza Rice: \u2018Sept. 11 tested us, but it did not break us\u2019"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0bca1541-adf2-11f1-a3b8-0000a1ace354",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "4 takeaways from the GOP midterm convention",
+            "ios": {
+                "alert": {
+                    "body": "4 takeaways from the GOP midterm convention",
+                    "title": "Campaign Pitch"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/11/4-takeaways-gop-midterm-convention/",
+                        "datetime": "2026-09-11T15:04:11.317000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa4186beaeba83700000101",
+                        "targetTopic": "politics",
+                        "text": "Trump got his big show. Vance took the baton. \u201cCommon sense\u201d was the refrain. No bad vibes allowed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "692a7091-adde-11f1-87a2-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inflation remained stubbornly higher in August",
+            "ios": {
+                "alert": {
+                    "body": "Inflation remained stubbornly higher in August",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/11/inflation-remained-stubbornly-higher-august-met-expectations/",
+                        "datetime": "2026-09-11T12:43:38.046000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa3f77afd12a8370000011a",
+                        "targetTopic": "breaking-news",
+                        "text": "The Labor Department\u2019s consumer price index held steady last month, rising as expected for the year ending in August."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
