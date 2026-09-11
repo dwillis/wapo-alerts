@@ -447361,5 +447361,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "19a90f60-ae2c-11f1-b8cb-00000a1ace07",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration blocks $25 million in funding for projects in national parks",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration blocks $25 million in funding for projects in national parks",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/09/11/trump-administration-blocks-25-million-funding-national-parks/",
+                        "datetime": "2026-09-11T21:59:45.397000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa479d13c9ccb3600000108",
+                        "targetTopic": "us",
+                        "text": "The Interior Department did not give approval to more than 130 partnership agreements covering activities such as tending to sled dogs and preventing damage to burial mounds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
