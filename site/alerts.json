@@ -447697,5 +447697,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e5ce12e0-aed9-11f1-973a-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These are the Trump investigations Democrats plan if they win in November",
+            "ios": {
+                "alert": {
+                    "body": "These are the Trump investigations Democrats plan if they win in November",
+                    "title": "Early Preparations"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/12/house-democrats-plan-sweeping-trump-investigations-if-they-win-november/",
+                        "datetime": "2026-09-12T18:43:50.853000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa59d66fd12a8370000011d",
+                        "targetTopic": "editors_picks",
+                        "text": "Democrats hope to retake control of the House, and to use that power to probe Trump\u2019s business ventures, legal maneuvers and policies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
