@@ -447745,5 +447745,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "470ae870-aeef-11f1-a2a4-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal judge rules Trump administration broke the law with plan to cut FEMA by 50 percent",
+            "ios": {
+                "alert": {
+                    "body": "Federal judge rules Trump administration broke the law with plan to cut FEMA by 50 percent",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/12/federal-judge-rules-trump-plan-cut-fema-by-50-percent-was-illegal/",
+                        "datetime": "2026-09-12T21:16:53.415000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa5c145ecddb0360000011e",
+                        "targetTopic": "politics",
+                        "text": "The judge said the plan, put together by DHS, appeared as if it was \u201cpulled from thin air\u201d and would impede FEMA\u2019s ability to fulfill its legally mandated duty to respond to disasters."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
