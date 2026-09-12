@@ -447793,5 +447793,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e67e1ea0-aefd-11f1-bf18-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "He was cleaning his garage. Then he found a file marked in red block letters: \u2018SECRET.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "He was cleaning his garage. Then he found a file marked in red block letters: \u2018SECRET.\u2019",
+                    "title": "Discovered Documents"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2026/09/12/newly-discovered-pow-records-world-war-ii-recovered-by-national-archives/",
+                        "datetime": "2026-09-12T23:01:33.890000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa5d9cd3c9ccb360000010a",
+                        "targetTopic": "editors_picks",
+                        "text": "Inside the file were nearly 300 pages of handwritten, first-person accounts by American prisoners of war who had been held in German captivity during World War II. Jason Hurdle\u2019s discovery in his centuries-old home in New York state has since been handed over to the National Archives."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
