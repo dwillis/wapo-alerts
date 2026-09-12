@@ -447649,5 +447649,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2ee35d90-aecc-11f1-a3f6-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Park Service works to fortify sea wall key to East Potomac golf project",
+            "ios": {
+                "alert": {
+                    "body": "Park Service works to fortify sea wall key to East Potomac golf project",
+                    "title": "A Formidable Obstacle"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/09/12/park-service-works-fortify-sea-wall-key-east-potomac-golf-project/",
+                        "datetime": "2026-09-12T17:05:40.492000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa58664eaeba83700000104",
+                        "targetTopic": "local",
+                        "text": "Rebuilding the sea wall could add hundreds of millions of dollars to the project\u2019s cost and push a completion date years down the road."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
