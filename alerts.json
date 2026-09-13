@@ -448033,5 +448033,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d20225a1-af95-11f1-adb6-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pennsylvania woman dies of measles-related complications, coroner says, as disease fuels political firestorm",
+            "ios": {
+                "alert": {
+                    "body": "Pennsylvania woman dies of measles-related complications, coroner says, as disease fuels political firestorm",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/13/pennsylvania-woman-dies-measles-related-complications-local-coroner-says/",
+                        "datetime": "2026-09-13T17:09:03.026000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa6d8af3c9ccb360000010c",
+                        "targetTopic": "us",
+                        "text": "The 40-year-old woman, who was from Jefferson County, was unvaccinated, according to the coroner."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
