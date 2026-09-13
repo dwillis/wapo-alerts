@@ -448129,5 +448129,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "39c4dca1-afaa-11f1-98a2-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The new threat election officials fear: Trump\u2019s federal government",
+            "ios": {
+                "alert": {
+                    "body": "The new threat election officials fear: Trump\u2019s federal government",
+                    "title": "Protecting the Polls"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/13/new-threat-election-officials-fear-trumps-federal-government/",
+                        "datetime": "2026-09-13T19:35:06.979000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa6faeaeaeba83700000106",
+                        "targetTopic": "editors_picks",
+                        "text": "With seven weeks until Election Day, officials are preparing for seized ballots, ICE agents at the polls and a postal system that could reject ballots by the batch."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
