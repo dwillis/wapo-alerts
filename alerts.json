@@ -448081,5 +448081,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "22d73d10-afa2-11f1-8a90-00000a1ace2c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "National Security Agency launches most extensive restructuring in at least a decade",
+            "ios": {
+                "alert": {
+                    "body": "National Security Agency launches most extensive restructuring in at least a decade",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/13/national-security-agency-launches-historic-restructuring/",
+                        "datetime": "2026-09-13T18:37:12.566000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa6ed58ecddb0360000011f",
+                        "targetTopic": "breaking-news",
+                        "text": "The initiative calls for the creation of five new organizations inside the spy agency, with focuses on AI, China, cybersecurity, combat support or warfighting, and global intelligence."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
