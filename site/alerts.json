@@ -447841,5 +447841,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d51ee510-af8c-11f1-9904-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Can\u2019t afford the bachelorette, so she\u2019s fired from the bridal party",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Can\u2019t afford the bachelorette, so she\u2019s fired from the bridal party",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/13/carolyn-hax-cant-afford-bachelorette-gets-fired-bridal-party/",
+                        "datetime": "2026-09-13T16:04:42.728000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa6c99afd12a8370000011f",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Can\u2019t afford the bachelorette, so she\u2019s fired from the bridal party"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "94134890-af8c-11f1-8f60-00000a1ace14",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A hike through the woods feels natural. It\u2019s anything but.",
+            "ios": {
+                "alert": {
+                    "body": "A hike through the woods feels natural. It\u2019s anything but.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/13/like-hiking-thank-industrialization/",
+                        "datetime": "2026-09-13T16:02:53.607000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa6c92d3c9ccb360000010b",
+                        "targetTopic": "opinions",
+                        "text": "The industrial revolution provided the impetus, the income and the time to do it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7404a2f0-af88-11f1-9797-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump dismisses AI leaders\u2019 calls to slow down development, citing Chinese competition",
+            "ios": {
+                "alert": {
+                    "body": "Trump dismisses AI leaders\u2019 calls to slow down development, citing Chinese competition",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/13/trump-rejects-calls-so-slow-ai-development-citing-chinese-competition/",
+                        "datetime": "2026-09-13T15:33:21.863000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa6c241eaeba83700000105",
+                        "targetTopic": "breaking-news",
+                        "text": "Democrats are increasingly attacking the administration\u2019s hands-off approach to AI regulation as midterm elections approach."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "04264b21-af7c-11f1-adb6-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "For Canadians seeking to rebuke Trump, grocery shopping has become a matter of patriotic duty",
+            "ios": {
+                "alert": {
+                    "body": "For Canadians seeking to rebuke Trump, grocery shopping has become a matter of patriotic duty",
+                    "title": "Bye, America"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/13/canadians-boycott-us-its-products-amid-trump-threats/",
+                        "datetime": "2026-09-13T14:04:20.182000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa6ad64fd12a8370000011e",
+                        "targetTopic": "editors_picks",
+                        "text": "Across the country, Canadians are going to increasing lengths to disentangle themselves from their southern neighbor, using their travel and shopping decisions to register their discontent with the Trump administration\u2019s trade policies and aggressive rhetoric."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
