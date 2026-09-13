@@ -448177,5 +448177,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a5650a00-afc0-11f1-b2e4-0000a1ace170",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kennedy Center could close as early as Tuesday, warns of bankruptcy, documents show",
+            "ios": {
+                "alert": {
+                    "body": "Kennedy Center could close as early as Tuesday, warns of bankruptcy, documents show",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/13/kennedy-center-could-close-early-tuesday-warns-bankruptcy-documents-show/",
+                        "datetime": "2026-09-13T22:15:36.337000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa720883c9ccb360000010d",
+                        "targetTopic": "breaking-news",
+                        "text": "The center\u2019s leaders, who were installed by President Donald Trump, argue that putting the president\u2019s name on its facade \u2014 and thus ensuring his fundraising efforts \u2014 may be the only way to avoid imminent and \u201ccertain fiscal collapse,\u201d according to documents obtained by The Washington Post. Center officials are also recommending that the board close its main building immediately, warning that remaining open would endanger lives. Board approval, which seems likely, means the center could close as early as Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
