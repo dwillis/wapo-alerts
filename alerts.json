@@ -448369,5 +448369,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "75a2ec91-b02b-11f1-8873-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump backs AI. Measles. Midterm campaigns. NSA restructure. A swim to safety. Skin care tips. Solar at night. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump backs AI. Measles. Midterm campaigns. NSA restructure. A swim to safety. Skin care tips. Solar at night. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/14/7-things-know-monday-september-14/?noredirect=1",
+                        "datetime": "2026-09-14T11:00:12.520000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6aa7d3bceaeba83700000108",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
