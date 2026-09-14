@@ -448705,5 +448705,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "697d4781-b07b-11f1-9c7a-0000a1ace346",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Safety net spending has surged. Where\u2019s the money going?",
+            "ios": {
+                "alert": {
+                    "body": "Safety net spending has surged. Where\u2019s the money going?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/09/14/safety-net-spending-has-surged-wheres-money-going/",
+                        "datetime": "2026-09-14T20:32:31.928000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa859dfecddb03600000120",
+                        "targetTopic": "opinions",
+                        "text": "Federal anti-poverty spending comes out to $35,000 a year for every person in poverty, the Editorial Board writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
