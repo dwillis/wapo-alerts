@@ -448417,5 +448417,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c8554720-b045-11f1-99fb-0000a1ace63d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Christian legal movement has become dangerously politicized, a pioneer of the cause warns",
+            "ios": {
+                "alert": {
+                    "body": "The Christian legal movement has become dangerously politicized, a pioneer of the cause warns",
+                    "title": "Religious Liberty"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/religion/2026/09/14/why-lawyer-who-launched-christian-legal-movement-believes-its-gone-astray/",
+                        "datetime": "2026-09-14T14:08:37.812000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa7ffe53c9ccb360000010f",
+                        "targetTopic": "editors_picks",
+                        "text": "John Whitehead launched a Christian religious liberty law firm in 1982. That movement is now on a winning streak at the Supreme Court, but Whitehead says it has wrongly elevated the rights of conservative Christians over those of religious minorities."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "305493f1-b044-11f1-b368-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A report exposed a crisis in academia. The response was telling.",
+            "ios": {
+                "alert": {
+                    "body": "A report exposed a crisis in academia. The response was telling.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/14/ideology-activism-replace-rigor-academic-research/",
+                        "datetime": "2026-09-14T13:57:13.624000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa7fd393c9ccb360000010e",
+                        "targetTopic": "opinions",
+                        "text": "Universities risk losing public trust when political dogma outweighs truth."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
