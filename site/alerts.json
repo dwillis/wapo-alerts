@@ -448225,5 +448225,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c2a8f910-afd3-11f1-8a90-00000a1ace2c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "sports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Offensive struggles doom Commanders as they fall to Eagles after a debatable no-call",
+            "ios": {
+                "alert": {
+                    "body": "Offensive struggles doom Commanders as they fall to Eagles after a debatable no-call",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:sports",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/09/13/outmatched-offense-questionable-no-call-send-commanders-season-opening-loss/",
+                        "datetime": "2026-09-14T00:32:26.071000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa7409afd12a83700000121",
+                        "targetTopic": "sports",
+                        "text": "Philadelphia scored on a 43-yard touchdown in the fourth quarter in which multiple players on the left side of the Eagles\u2019 formation appeared to move right before the snap. The uncalled false start will understandably draw the ire of many Commanders fans. However, Washington\u2019s offense was held in check for most of the game by a swarming Eagles defense."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "70b57fb0-afcf-11f1-9363-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "5 things dermatologists want you to stop doing to your skin",
+            "ios": {
+                "alert": {
+                    "body": "5 things dermatologists want you to stop doing to your skin",
+                    "title": "Skin Care 101"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://washingtonpost.com/wellness/2026/09/13/5-things-dermatologists-want-you-stop-doing-your-skin/",
+                        "datetime": "2026-09-14T00:01:30.590000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa7395afd12a83700000120",
+                        "targetTopic": "editors_picks",
+                        "text": "Covering your face in too many salves and serums, taking scalding hot showers and popping zits are just some of the items on the don\u2019t-do list."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0422c710-afdc-11f1-b4b0-0000a1ace354",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The engrossing \u2018Musk\u2019 documentary is almost four hours long \u2014 and has drawn the tech titan\u2019s ire",
+            "ios": {
+                "alert": {
+                    "body": "The engrossing \u2018Musk\u2019 documentary is almost four hours long \u2014 and has drawn the tech titan\u2019s ire",
+                    "title": "What It Shows"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2026/09/13/elon-musk-documentary-is-already-causing-stir-here-are-five-takeaways/",
+                        "datetime": "2026-09-14T01:31:31.877000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa74e73eaeba83700000107",
+                        "targetTopic": "editors_picks",
+                        "text": "Alex Gibney\u2019s documentary, which spans from Elon Musk\u2019s early Silicon Valley days through his Department of Government Efficiency (DOGE) dalliances and Twitter acquisition to his ascent to becoming the world\u2019s first trillionaire, paints Musk as an emotionally unstable grifter with more power and influence than perhaps any other human who has ever lived.\u00a0 Musk has accused the filmmaker of compiling a \u201chit list\u201d against him."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

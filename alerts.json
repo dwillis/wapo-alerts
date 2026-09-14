@@ -448321,5 +448321,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0422c710-afdc-11f1-b4b0-0000a1ace354",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The engrossing \u2018Musk\u2019 documentary is almost four hours long \u2014 and has drawn the tech titan\u2019s ire",
+            "ios": {
+                "alert": {
+                    "body": "The engrossing \u2018Musk\u2019 documentary is almost four hours long \u2014 and has drawn the tech titan\u2019s ire",
+                    "title": "What It Shows"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2026/09/13/elon-musk-documentary-is-already-causing-stir-here-are-five-takeaways/",
+                        "datetime": "2026-09-14T01:31:31.877000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa74e73eaeba83700000107",
+                        "targetTopic": "editors_picks",
+                        "text": "Alex Gibney\u2019s documentary, which spans from Elon Musk\u2019s early Silicon Valley days through his Department of Government Efficiency (DOGE) dalliances and Twitter acquisition to his ascent to becoming the world\u2019s first trillionaire, paints Musk as an emotionally unstable grifter with more power and influence than perhaps any other human who has ever lived.\u00a0 Musk has accused the filmmaker of compiling a \u201chit list\u201d against him."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
