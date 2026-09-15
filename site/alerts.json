@@ -448945,5 +448945,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1ff01c00-b0fd-11f1-a4ef-0000a1ace61c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The best moments \u2014 and biggest shocks \u2014 of the 2026 Emmy Awards",
+            "ios": {
+                "alert": {
+                    "body": "The best moments \u2014 and biggest shocks \u2014 of the 2026 Emmy Awards",
+                    "title": "And the Winner Is ..."
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/tv/2026/09/15/best-moments-biggest-shocks-2026-emmy-awards/",
+                        "datetime": "2026-09-15T12:01:03.093000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa9337ffd12a83700000125",
+                        "targetTopic": "editors_picks",
+                        "text": "The night belonged to \u201cWidow\u2019s Bay\u201d and \u201cThe Pitt.\u201d Oh, and Taylor Swift was there (kind of)."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "04b06061-b0f5-11f1-b8a9-00000a1acef7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mail voting. Mitch McConnell. Donald Trump Jr. Alligator Alcatraz. Space weapons. Dementia risk. Emmy outfits. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Mail voting. Mitch McConnell. Donald Trump Jr. Alligator Alcatraz. Space weapons. Dementia risk. Emmy outfits. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/15/7-things-know-tuesday-sept-15/?noredirect=1",
+                        "datetime": "2026-09-15T11:03:01.222000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6aa925e5eaeba8370000010b",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
