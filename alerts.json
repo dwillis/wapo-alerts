@@ -449377,5 +449377,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5add62f0-b134-11f1-88c6-00000a1acecf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kennedy Center board votes to close the performing arts venue",
+            "ios": {
+                "alert": {
+                    "body": "Kennedy Center board votes to close the performing arts venue",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/15/judge-bars-kennedy-center-adding-trumps-name-building/",
+                        "datetime": "2026-09-15T18:36:24.263000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aa99028eaeba8370000010c",
+                        "targetTopic": "breaking-news",
+                        "text": "Administrators had warned that an immediate closure was necessary to avoid endangering people\u2019s lives, days after a section of ceiling plaster collapsed in the center\u2019s Grand Foyer. Hours earlier Tuesday, a judge had blocked efforts to add President Donald Trump\u2019s name to the venue building again."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
