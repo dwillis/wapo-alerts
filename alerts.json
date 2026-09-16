@@ -450145,5 +450145,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "64146db3-b20f-11f1-82de-00000a1ace08",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Murky Senate polls reveal the trouble Republicans are in",
+            "ios": {
+                "alert": {
+                    "body": "Murky Senate polls reveal the trouble Republicans are in",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/16/midterms-senate-polls-lifting-democrats-come-with-an-asterisk/",
+                        "datetime": "2026-09-16T20:44:19.522000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaaffa3eaeba83700000110",
+                        "targetTopic": "opinions",
+                        "text": "Murky Senate polls reveal the trouble Republicans are in"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
