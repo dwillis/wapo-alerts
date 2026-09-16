@@ -449617,5 +449617,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c464ed40-b1bd-11f1-a100-0000a1ace8bb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "News plane crash. Kennedy Center. Kash Patel. Iran war costs. Ed Sheeran\u2019s tour. Cheap workout. Burger prices. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "News plane crash. Kennedy Center. Kash Patel. Iran war costs. Ed Sheeran\u2019s tour. Cheap workout. Burger prices. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/16/7-things-know-wednesday-sept-16/?noredirect=1",
+                        "datetime": "2026-09-16T11:00:01.961000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6aaa76b1eaeba8370000010d",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
