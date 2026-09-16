@@ -450193,5 +450193,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "126fb2c1-b21a-11f1-8385-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "6 resistance band exercises for healthy aging and better mobility",
+            "ios": {
+                "alert": {
+                    "body": "6 resistance band exercises for healthy aging and better mobility",
+                    "title": "A Joint-Friendly Workout"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/interactive/2026/09/16/6-resistance-band-exercises-an-easy-workout-you-can-do-anywhere/",
+                        "datetime": "2026-09-16T22:00:46.956000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aab118e3c9ccb3600000119",
+                        "targetTopic": "editors_picks",
+                        "text": "The simple, joint-friendly workout can build strength as effectively as gym equipment \u2014 and the bands fit right in your bag."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8655c741-b212-11f1-b523-0000a1ace1d0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Afghan man convicted of terrorism is sentenced to 20 years in prison for role in 2021 Kabul airport bombing",
+            "ios": {
+                "alert": {
+                    "body": "Afghan man convicted of terrorism is sentenced to 20 years in prison for role in 2021 Kabul airport bombing",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/16/afghan-terrorist-gets-20-years-role-deadly-2021-attack-kabul-airport/",
+                        "datetime": "2026-09-16T21:06:45.321000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aab04e5fd12a8370000012a",
+                        "targetTopic": "us",
+                        "text": "Mohammad Sharifullah was the only person convicted in connection with the attack at Kabul airport\u2019s Abbey Gate during the U.S. withdrawal from Afghanistan. The jury convicted Sharifullah of helping ISIS leaders that day but did not find that the prosecution had sufficiently proved that the man\u2019s role in the attack directly resulted in the deaths of 13 U.S. service members."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
