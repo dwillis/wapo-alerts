@@ -450289,5 +450289,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aa431360-b226-11f1-945a-00000a1ace31",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What the Fed\u2019s rate hike means for your mortgage, car loan and credit cards",
+            "ios": {
+                "alert": {
+                    "body": "What the Fed\u2019s rate hike means for your mortgage, car loan and credit cards",
+                    "title": "Effect on Consumers"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/16/heres-what-fed-rate-hike-means-your-mortgage-car-loan-credit-cards/",
+                        "datetime": "2026-09-16T23:30:55.632000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aab26affd12a8370000012b",
+                        "targetTopic": "editors_picks",
+                        "text": "The Federal Reserve raised rates in an effort to fight stubborn inflation, but that won\u2019t mean the mortgage rate you\u2019ve been eyeing will suddenly shoot up."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
