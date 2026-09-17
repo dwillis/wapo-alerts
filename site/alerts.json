@@ -450337,5 +450337,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eeb7c9e0-b286-11f1-99ca-0000a1acefdc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Interest rate hike. Measles cases. Kennedy Center closes. Michigan poll. AI dangers. Microplastics. Probiotics. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Interest rate hike. Measles cases. Kennedy Center closes. Michigan poll. AI dangers. Microplastics. Probiotics. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/17/7-things-know-thursday-sept-17/?noredirect=1",
+                        "datetime": "2026-09-17T11:00:02.165000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6aabc832ecddb0360000012a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
