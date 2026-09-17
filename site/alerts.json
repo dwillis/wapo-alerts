@@ -450721,5 +450721,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4886ba40-b2e5-11f1-86e5-00000a1ace7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why probiotics don\u2019t usually help your gut \u2014 and what to do instead",
+            "ios": {
+                "alert": {
+                    "body": "Why probiotics don\u2019t usually help your gut \u2014 and what to do instead",
+                    "title": "Microbiome Management"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/17/probiotics-are-wildly-popular-theres-better-way-help-your-gut/",
+                        "datetime": "2026-09-17T22:15:25.582000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac667d3c9ccb360000011c",
+                        "targetTopic": "editors_picks",
+                        "text": "Probiotics use has climbed in recent years. But fiber-rich plants, not supplements, are the best fuel for your gut microbiome, writes columnist Anahad O\u2019Connor."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ecb510e0-b2da-11f1-a18d-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Canada\u2019s great European misadventure",
+            "ios": {
+                "alert": {
+                    "body": "Canada\u2019s great European misadventure",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/16/canada-mark-carney-foolishly-realigns-with-stagnant-europe/",
+                        "datetime": "2026-09-17T21:01:16.431000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac551ceaeba83700000113",
+                        "targetTopic": "opinions",
+                        "text": "Canada\u2019s great European misadventure"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
