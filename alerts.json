@@ -450385,5 +450385,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d5fe6e60-b2a7-11f1-b1dc-00000a1ace49",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Former youth minister Jeff Taylor is indicted on sex abuse charges after FBI probe",
+            "ios": {
+                "alert": {
+                    "body": "Former youth minister Jeff Taylor is indicted on sex abuse charges after FBI probe",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/09/17/former-youth-minister-indicted-sex-abuse-charges-after-fbi-probe/",
+                        "datetime": "2026-09-17T14:55:34.053000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aabff663c9ccb360000011a",
+                        "targetTopic": "us",
+                        "text": "Taylor worked at one of the most prominent churches in Northern Virginia, Falls Church Episcopal, in the 1990s and early 2000s. He has been arrested and charged with coercing and trying to coerce three minors into sexual activity, according to a federal grand jury indictment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0fbabff1-b29e-11f1-99ca-0000a1acefdc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump wants U.S. citizens? So give them to him.",
+            "ios": {
+                "alert": {
+                    "body": "Trump wants U.S. citizens? So give them to him.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/17/how-democrats-can-counter-trumps-proposed-2030-census-changes/",
+                        "datetime": "2026-09-17T13:45:36.034000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aabef00fd12a8370000012c",
+                        "targetTopic": "opinions",
+                        "text": "Democrats need a pro-citizenship approach to counter Trump\u2019s census plan."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a0f33d10-b296-11f1-ab2a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Gas prices are about to take a big jump, analysts say, with the worst still to come",
+            "ios": {
+                "alert": {
+                    "body": "Gas prices are about to take a big jump, analysts say, with the worst still to come",
+                    "title": "Pipeline Disruption"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/16/analysts-predict-gas-price-jump-long-disruption-damaged-pipeline/",
+                        "datetime": "2026-09-17T12:52:23.697000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aabe287eaeba83700000111",
+                        "targetTopic": "breaking-news",
+                        "text": "The forecast of economic impacts beyond November\u2019s midterms contrast with the Trump administration\u2019s optimistic messaging."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
