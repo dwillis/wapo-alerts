@@ -450529,5 +450529,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c3734a50-b2ba-11f1-a795-0000a1ace0d0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump withdraws his nominee to lead ICE amid mounting signs Lance Schroyer would face resistance in Senate",
+            "ios": {
+                "alert": {
+                    "body": "Trump withdraws his nominee to lead ICE amid mounting signs Lance Schroyer would face resistance in Senate",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/09/17/trump-withdraws-his-nominee-lead-ice/",
+                        "datetime": "2026-09-17T17:11:03.464000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac1f27ecddb0360000012b",
+                        "targetTopic": "breaking-news",
+                        "text": "The Senate has not confirmed an ICE director in over a decade. Trump selected Schroyer, a former Oklahoma Highway Patrol major and Marine, for the role less than three months ago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fab6b400-b2ad-11f1-a1fc-00000a1ace5c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Photo of Trump with printout appearing to refer to potential Kennedy Center demolition is cited as evidence in new court filing",
+            "ios": {
+                "alert": {
+                    "body": "Photo of Trump with printout appearing to refer to potential Kennedy Center demolition is cited as evidence in new court filing",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/17/photo-trump-shows-printout-that-seems-refer-kennedy-center-demolition/",
+                        "datetime": "2026-09-17T15:39:32.631000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac09b4fd12a8370000012d",
+                        "targetTopic": "breaking-news",
+                        "text": "The image surfaced hours after the president warned that the performing arts venue could eventually be \u201cripped down\u201d without his intervention. Lawyers for Rep. Joyce Beatty (D-Ohio), a Kennedy Center trustee challenging Trump\u2019s transformation of the institution, filed a copy in federal court Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
