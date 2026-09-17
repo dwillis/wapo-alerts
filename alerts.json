@@ -450625,5 +450625,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8dc72270-b2c7-11f1-99be-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A baby died in his care. He has spent years trying to clear his name.",
+            "ios": {
+                "alert": {
+                    "body": "A baby died in his care. He has spent years trying to clear his name.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/09/14/man-convicted-death-3-month-old-seeks-new-trial/",
+                        "datetime": "2026-09-17T18:42:36.808000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac349ceaeba83700000112",
+                        "targetTopic": "editors_picks",
+                        "text": "A judge is weighing Curtis Ryan Morris\u2019s case years after his conviction in the 2012 death of a 3-month-old infant in his care. His legal team says the jury never saw key evidence."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
