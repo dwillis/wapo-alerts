@@ -450625,5 +450625,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8dc72270-b2c7-11f1-99be-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A baby died in his care. He has spent years trying to clear his name.",
+            "ios": {
+                "alert": {
+                    "body": "A baby died in his care. He has spent years trying to clear his name.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/09/14/man-convicted-death-3-month-old-seeks-new-trial/",
+                        "datetime": "2026-09-17T18:42:36.808000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac349ceaeba83700000112",
+                        "targetTopic": "editors_picks",
+                        "text": "A judge is weighing Curtis Ryan Morris\u2019s case years after his conviction in the 2012 death of a 3-month-old infant in his care. His legal team says the jury never saw key evidence."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4282cd51-b2d6-11f1-999a-00000a1ace2b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Kennedy Center is empty and in peril. Its community is in anguish, writes columnist Philip Kennicott.",
+            "ios": {
+                "alert": {
+                    "body": "The Kennedy Center is empty and in peril. Its community is in anguish, writes columnist Philip Kennicott.",
+                    "title": "A Crushing Closure"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/17/kennedy-center-is-empty-peril-its-community-is-anguish/",
+                        "datetime": "2026-09-17T20:27:53.003000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac4d493c9ccb360000011b",
+                        "targetTopic": "editors_picks",
+                        "text": "The fiasco of this week\u2019s closure reveals the truth of President Donald Trump\u2019s motivations \u2014 and what the arts community stands to lose."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
