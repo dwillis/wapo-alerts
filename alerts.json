@@ -451347,5 +451347,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5845b301-b3a3-11f1-81f6-0000a1ace937",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The nativist provocateur who keeps pushing the Texas GOP further right",
+            "ios": {
+                "alert": {
+                    "body": "The nativist provocateur who keeps pushing the Texas GOP further right",
+                    "title": "A Spreading Message"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/18/nativist-provocateur-who-keeps-pushing-texas-gop-further-right/",
+                        "datetime": "2026-09-18T20:55:56.336000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aada55cfd12a83700000131",
+                        "targetTopic": "editors_picks",
+                        "text": "Republican leaders criticized a recent post by Bo French attacking South Asian UT students. But many in the party have felt compelled to embrace parts of his ideology."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f1a9cf20-b396-11f1-b571-00000a1ace55",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he\u2019s banning CNN, MS NOW and Politico from the White House for reporting \u2018fake news\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he\u2019s banning CNN, MS NOW and Politico from the White House for reporting \u2018fake news\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/18/trump-says-hes-banning-cnn-ms-now-politico-white-house/",
+                        "datetime": "2026-09-18T19:27:10.177000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aad908e3c9ccb3600000120",
+                        "targetTopic": "breaking-news",
+                        "text": "The president has consistently feuded with news organizations and at times tried to ban them and their journalists from the White House."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
