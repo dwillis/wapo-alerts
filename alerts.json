@@ -450914,5 +450914,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2174e2e2-b350-11f1-a97f-00000a1ace02",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "AI copyright. Vaccines speech. Confident Democrats. Kennedy Center. Quick degrees. Drug side effects. Tom Cruise. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "AI copyright. Vaccines speech. Confident Democrats. Kennedy Center. Quick degrees. Drug side effects. Tom Cruise. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/18/7-things-know-friday-sept-18/?noredirect=1",
+                        "datetime": "2026-09-18T11:00:16.133000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6aad19c0ecddb0360000012c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
