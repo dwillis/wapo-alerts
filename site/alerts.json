@@ -450817,5 +450817,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5b811f40-b2f0-11f1-9759-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Anthropic says its chatbot Claude is taking over the work of building its own successor",
+            "ios": {
+                "alert": {
+                    "body": "Anthropic says its chatbot Claude is taking over the work of building its own successor",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/09/17/anthropic-says-its-chatbot-claude-is-taking-over-work-building-its-own-successor/",
+                        "datetime": "2026-09-17T23:34:41.895000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac79113c9ccb360000011d",
+                        "targetTopic": "breaking-news",
+                        "text": "The company said Claude leads 26 percent of its research and development, an indicator of progress toward AI that builds itself without human help."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8eb679c0-b2ee-11f1-900e-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Robert F. Kennedy Jr. says Americans worried about vaccines have a \u2018friend at the White House\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Robert F. Kennedy Jr. says Americans worried about vaccines have a \u2018friend at the White House\u2019",
+                    "title": "Health Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/17/rfk-jr-give-keynote-speech-conference-anti-vaccine-group-he-founded/",
+                        "datetime": "2026-09-17T23:21:48.741000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aac760cfd12a8370000012e",
+                        "targetTopic": "health",
+                        "text": "The health secretary\u2019s remarks before the anti-vaccine group he founded came in the midst of the nation\u2019s worst measles outbreak in 35 years and included claims that medical experts say are misleading."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
