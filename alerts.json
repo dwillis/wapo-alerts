@@ -450962,5 +450962,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a7196050-b35b-11f1-8ed0-00000a1ace55",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Warren Buffett, 96, steps down as chairman of Berkshire Hathaway",
+            "ios": {
+                "alert": {
+                    "body": "Warren Buffett, 96, steps down as chairman of Berkshire Hathaway",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/18/warren-buffett-steps-down-chairman-berkshire-hathaway/",
+                        "datetime": "2026-09-18T12:22:44.869000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aad2d14ecddb0360000012d",
+                        "targetTopic": "business",
+                        "text": "Buffet will remain on the board, becoming chairman emeritus, while son Howard Buffett takes over as chair."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
