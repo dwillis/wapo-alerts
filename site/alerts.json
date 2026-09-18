@@ -451443,5 +451443,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "57938af0-b3ac-11f1-92f5-0000a1acef74",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fresh layoffs begin at Kennedy Center as closure continues",
+            "ios": {
+                "alert": {
+                    "body": "Fresh layoffs begin at Kennedy Center as closure continues",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/18/fresh-layoffs-begin-kennedy-center-closure-continues/",
+                        "datetime": "2026-09-18T22:00:20.700000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aadb474ecddb03600000130",
+                        "targetTopic": "breaking-news",
+                        "text": "The cuts come as the center\u2019s main building remains closed during a widening legal battle over President Donald Trump\u2019s transformation of the national cultural institution."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "32ba87d2-b3af-11f1-9dc8-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says U.S. will defend Greenland as part of \u2018permanent\u2019 security deal with Denmark",
+            "ios": {
+                "alert": {
+                    "body": "Trump says U.S. will defend Greenland as part of \u2018permanent\u2019 security deal with Denmark",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/18/trump-announces-deal-over-greenland-that-stops-short-us-control/",
+                        "datetime": "2026-09-18T22:20:47.327000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aadb93ffd12a83700000132",
+                        "targetTopic": "breaking-news",
+                        "text": "The agreement, which Danish officials said is not final, stops far short of Trump's often-stated goal of taking possession of the territory."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
