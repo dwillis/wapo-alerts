@@ -451011,5 +451011,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4a4e0e80-b36e-11f1-9cbe-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "America needs to destroy what really sustains the Iranian regime",
+            "ios": {
+                "alert": {
+                    "body": "America needs to destroy what really sustains the Iranian regime",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/18/how-crack-iranian-resilience-target-mercenaries/",
+                        "datetime": "2026-09-18T14:36:09.616000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aad4c59fd12a8370000012f",
+                        "targetTopic": "opinions",
+                        "text": "The ruling ideologues won\u2019t concede anything until they lose their power of coercion."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "61a41530-b368-11f1-beb3-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Daring Russian plots, including strike endangering former CIA director David Petraeus overseas, are testing Washington\u2019s restraint",
+            "ios": {
+                "alert": {
+                    "body": "Daring Russian plots, including strike endangering former CIA director David Petraeus overseas, are testing Washington\u2019s restraint",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/18/wave-russian-strikes-plots-raises-fears-conflict-spiraling/",
+                        "datetime": "2026-09-18T13:53:51.805000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aad426f3c9ccb360000011e",
+                        "targetTopic": "breaking-news",
+                        "text": "In a matter of weeks, Russia has been linked to a series of provocative attacks and plots that \u2014 had any one of them turned deadly \u2014 carried the potential to trigger a dangerous escalation in the war in Ukraine and the West\u2019s broader conflict with Moscow, according to security officials and experts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
