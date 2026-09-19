@@ -451683,5 +451683,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c3cb12b0-b438-11f1-837d-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "CNN, MS NOW say journalists blocked from White House after Trump announces ban on three outlets",
+            "ios": {
+                "alert": {
+                    "body": "CNN, MS NOW say journalists blocked from White House after Trump announces ban on three outlets",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/19/ms-now-says-journalists-blocked-white-house-after-trump-announces-ban/",
+                        "datetime": "2026-09-19T14:45:31.645000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaea00beaeba83700000115",
+                        "targetTopic": "breaking-news",
+                        "text": "President Donald Trump said Friday he would block MS NOW, CNN and Politico from White House grounds. News outlets and press advocacy groups condemned the move and said it was a violation of the First Amendment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
