@@ -451635,5 +451635,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "55d88cb0-b429-11f1-a142-000a1ace5f67",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Secret contracts reveal undisclosed terms in Trump\u2019s drug-pricing deals",
+            "ios": {
+                "alert": {
+                    "body": "Secret contracts reveal undisclosed terms in Trump\u2019s drug-pricing deals",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/19/secret-contracts-reveal-undisclosed-terms-trumps-drug-pricing-deals/",
+                        "datetime": "2026-09-19T12:55:04.815000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aae8628fd12a83700000133",
+                        "targetTopic": "breaking-news",
+                        "text": "The Trump administration\u2019s confidential deals with pharmaceutical companies to lower U.S. drug prices include inducements to raise drug prices overseas and promise protection from President Donald Trump\u2019s tariffs, according to documents shared with The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
