@@ -451731,5 +451731,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2c5d4420-b44c-11f1-9171-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At this show, the acrobats are amazing. And they're cats.",
+            "ios": {
+                "alert": {
+                    "body": "At this show, the acrobats are amazing. And they're cats.",
+                    "title": "Feline Divas"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/2026/09/19/these-rescue-cats-perform-astonishing-tricks-when-they-feel-like-it/",
+                        "datetime": "2026-09-19T17:04:27.652000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaec09bfd12a83700000135",
+                        "targetTopic": "editors_picks",
+                        "text": "The Amazing Acro-Cats, on tour through December, are coming to a litter box near you."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "94db6210-b443-11f1-ae34-00000a1ace72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Does she have to share pregnancy experience with her cheating ex?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Does she have to share pregnancy experience with her cheating ex?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/19/carolyn-hax-must-she-share-pregnancy-experience-with-her-cheating-ex/",
+                        "datetime": "2026-09-19T16:02:57.480000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaeb231fd12a83700000134",
+                        "targetTopic": "advice",
+                        "text": "She plans to co-parent with her ex. He wants to be involved with her pregnancy, too, and asked to \u201ccome over and rub my belly.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "691edbe0-b441-11f1-a601-0000a1acebb8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Behind Trump\u2019s public confidence, his private view of midterms is sobering",
+            "ios": {
+                "alert": {
+                    "body": "Behind Trump\u2019s public confidence, his private view of midterms is sobering",
+                    "title": "A Shifting Outlook"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/18/trump-has-increasingly-accepted-grim-news-gop-plight-advisers-say/",
+                        "datetime": "2026-09-19T15:47:25.141000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaeae8d3c9ccb3600000123",
+                        "targetTopic": "breaking-news",
+                        "text": "The president has been hearing blunt news from advisers about the GOP\u2019s chances in the midterm elections and has signaled he understands that he has contributed to the poor political environment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "19a7c240-b43f-11f1-beb1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I put a chatbot to work on my grandmother\u2019s Bergen-Belsen mystery",
+            "ios": {
+                "alert": {
+                    "body": "I put a chatbot to work on my grandmother\u2019s Bergen-Belsen mystery",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/16/anthropics-claude-solved-my-grandmothers-bergen-belsen-mystery/",
+                        "datetime": "2026-09-19T15:30:52.839000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaeaaac3c9ccb3600000122",
+                        "targetTopic": "opinions",
+                        "text": "Family lore said she wrote an article about her concentration camp experience soon after liberation, Daniella Greenbaum Davis writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
