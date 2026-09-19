@@ -452115,5 +452115,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a01dc610-b482-11f1-9c66-0000a1ace06f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How the surging cost of going out is changing American life",
+            "ios": {
+                "alert": {
+                    "body": "How the surging cost of going out is changing American life",
+                    "title": "Any Plans Tonight?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/20/concerts-sports-games-restaurants-its-expensive-go-out-nowadays/",
+                        "datetime": "2026-09-19T23:34:14.665000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaf1bf6fd12a83700000137",
+                        "targetTopic": "editors_picks",
+                        "text": "With the cost of concerts, sports games and restaurants far outpacing inflation, more people are staying home."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
