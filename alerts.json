@@ -451923,5 +451923,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "96f00082-b45f-11f1-8e98-00000a1acedb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he will form \u2018AI Force\u2019 and tap official responsible for the technology, but rejects calls for constraints",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he will form \u2018AI Force\u2019 and tap official responsible for the technology, but rejects calls for constraints",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/19/trump-form-ai-force-name-ai-czar-rejects-calls-constraints/",
+                        "datetime": "2026-09-19T19:23:26.892000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaee12eecddb03600000132",
+                        "targetTopic": "breaking-news",
+                        "text": "Some lawmakers and industry leaders have called for moving more slowly on the technology."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "35ff7fc0-b456-11f1-82a8-0000a1ace57d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House budget chief pushes for scrutiny of NIH grants in Oval Office clash",
+            "ios": {
+                "alert": {
+                    "body": "White House budget chief pushes for scrutiny of NIH grants in Oval Office clash",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/18/vought-pushes-scrutiny-nih-grants-oval-office-clash/",
+                        "datetime": "2026-09-19T18:16:18.670000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaed172fd12a83700000136",
+                        "targetTopic": "politics",
+                        "text": "Russell Vought argued the agency has been funding \u201cwoke\u201d priorities and suggested the president create a commission to review grants from the National Institutes of Health."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
