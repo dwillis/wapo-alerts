@@ -451587,5 +451587,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "be0014e0-b3cd-11f1-9f14-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hundreds of Kennedy Center supporters rally outside the shuttered arts institution, chanting \u2018Hands off!\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Hundreds of Kennedy Center supporters rally outside the shuttered arts institution, chanting \u2018Hands off!\u2019",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/09/18/hundreds-kennedy-center-supporters-rally-its-defense/",
+                        "datetime": "2026-09-19T01:59:25.882000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aadec7d3c9ccb3600000121",
+                        "targetTopic": "local",
+                        "text": "The vigil, which had been in the works for months, took on fresh urgency at the end of a week that saw the doors to the marble building locked shut, while President Donald Trump indicated the structure could be \u201cripped down\u201d if his name isn\u2019t added to the institution."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
