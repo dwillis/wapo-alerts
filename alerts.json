@@ -452500,5 +452500,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3e35df31-b538-11f1-906e-000a1aced34b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Scientists heard a knock at the door. It was a pelican in need of help.",
+            "ios": {
+                "alert": {
+                    "body": "Scientists heard a knock at the door. It was a pelican in need of help.",
+                    "title": "Bird Finds Biologists"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2026/09/20/scientists-heard-knock-door-it-was-pelican-need-help/",
+                        "datetime": "2026-09-20T21:14:18.791000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab04caafd12a8370000013a",
+                        "targetTopic": "editors_picks",
+                        "text": "A recent quiet morning at a Florida marine research facility was interrupted by the tapping of an injured bird. To a researcher\u2019s shock, the animal seemed to have arrived at the facility on its own."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9f4d2a30-b533-11f1-90dc-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "There\u2019s a world war raging. You might be standing on the front lines.",
+            "ios": {
+                "alert": {
+                    "body": "There\u2019s a world war raging. You might be standing on the front lines.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/20/argentine-ant-wars-cast-surprising-light-human-conflict/",
+                        "datetime": "2026-09-20T20:41:14.210000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab044eaeaeba83700000119",
+                        "targetTopic": "opinions",
+                        "text": "Argentine ants have been fighting a global war for decades \u2014 and the logic looks uncannily human, Mark W. Moffett writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
