@@ -452596,5 +452596,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "003ed180-b53f-11f1-82a3-000a1ace6d1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE agent shoots, wounds man in Austin, city officials say",
+            "ios": {
+                "alert": {
+                    "body": "ICE agent shoots, wounds man in Austin, city officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/20/ice-agent-shoots-wounds-man-austin-city-officials-say/",
+                        "datetime": "2026-09-20T22:02:41.309000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab058013c9ccb3600000127",
+                        "targetTopic": "breaking-news",
+                        "text": "The man is in \u201cstable but serious condition\u201d after being shot in the torso, and was transported to a local trauma center, an Austin official said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
