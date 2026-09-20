@@ -452404,5 +452404,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "066abcd2-b522-11f1-83f4-0000a1ace53f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 13-year-old girl traversing the globe as a pro pickleball player",
+            "ios": {
+                "alert": {
+                    "body": "The 13-year-old girl traversing the globe as a pro pickleball player",
+                    "title": "A Prodigy With a Paddle"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/09/20/13-year-old-girl-traversing-globe-pickleball-paycheck/",
+                        "datetime": "2026-09-20T18:35:16.270000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab027643c9ccb3600000125",
+                        "targetTopic": "editors_picks",
+                        "text": "Trades! Visas! Middle school! There\u2019s no rest for pickleball sensation Elsie Hendershot."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
