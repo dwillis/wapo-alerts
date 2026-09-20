@@ -452259,5 +452259,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4ca107a0-b50d-11f1-9e44-000a1aced852",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Wife has tall orders for the spouse who does all the cooking",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Wife has tall orders for the spouse who does all the cooking",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/20/carolyn-hax-wife-has-tall-orders-spouse-who-does-all-cooking/",
+                        "datetime": "2026-09-20T16:06:54.669000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab0049efd12a83700000139",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Wife has tall orders for the spouse who does all the cooking"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "dc155f30-b508-11f1-950d-00000a1ace1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump and sons invest heavily in the AI economy as he resists calls for a slowdown of development",
+            "ios": {
+                "alert": {
+                    "body": "Trump and sons invest heavily in the AI economy as he resists calls for a slowdown of development",
+                    "title": "Personal Stakes"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/20/trump-family-large-ai-related-investments-create-possible-conflicts/",
+                        "datetime": "2026-09-20T15:35:07.817000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aaffd2b3c9ccb3600000124",
+                        "targetTopic": "politics",
+                        "text": "The Trump family\u2019s expanding web of investments illustrates how the president\u2019s personal wealth and his family\u2019s increasingly technology-focused ventures overlap with one of the most consequential policy debates confronting his administration: how aggressively the government should respond to rapid advances in artificial intelligence."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
