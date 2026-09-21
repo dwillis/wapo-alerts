@@ -452692,5 +452692,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bcb7e311-b5b2-11f1-a1b0-00000a1ace89",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "CNN, MS NOW, Politico to sue after Trump bans outlets from White House",
+            "ios": {
+                "alert": {
+                    "body": "CNN, MS NOW, Politico to sue after Trump bans outlets from White House",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/21/cnn-ms-now-politico-sue-over-white-house-bans/",
+                        "datetime": "2026-09-21T11:51:09.679000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab11a2d3c9ccb3600000128",
+                        "targetTopic": "politics",
+                        "text": "The suit, expected to be filed Monday, alleges violations of the news organizations\u2019 First Amendment free press rights and Fifth Amendment due process rights."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "99d9f831-b5ab-11f1-ab96-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Isolated Trump. Triumphal arch. Deportation deals. Midterm ads. End times. El Ni\u00f1o. 100k jobs. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Isolated Trump. Triumphal arch. Deportation deals. Midterm ads. End times. El Ni\u00f1o. 100k jobs. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/21/7-things-know-monday-september-21/?noredirect=1",
+                        "datetime": "2026-09-21T11:00:04.506000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6ab10e34ecddb03600000134",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
