@@ -452788,5 +452788,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8d892210-b5c7-11f1-a29d-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A $1.2 trillion state allowance is stunting America\u2019s growth",
+            "ios": {
+                "alert": {
+                    "body": "A $1.2 trillion state allowance is stunting America\u2019s growth",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/09/21/how-us-government-became-states-piggy-bank/",
+                        "datetime": "2026-09-21T14:20:09.879000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab13d193c9ccb360000012a",
+                        "targetTopic": "opinions",
+                        "text": "The U.S. government has become states\u2019 piggy bank."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d4a80f70-b5c3-11f1-8a50-00000a1acecf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Major TV networks to halt shared video coverage of Trump over CNN ban",
+            "ios": {
+                "alert": {
+                    "body": "Major TV networks to halt shared video coverage of Trump over CNN ban",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/21/cnn-ms-now-politico-sue-over-white-house-bans/",
+                        "datetime": "2026-09-21T13:53:31.301000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab136db3c9ccb3600000129",
+                        "targetTopic": "politics",
+                        "text": "According to a memo obtained by The Washington Post, major television networks will halt pool coverage of the president in response to the White House\u2019s ban of CNN, which was barred alongside MS NOW and Politico in recent days."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ff9dcec1-b5bb-11f1-bfa2-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside Trump\u2019s secret deals paying foreign governments to take unwanted deportees",
+            "ios": {
+                "alert": {
+                    "body": "Inside Trump\u2019s secret deals paying foreign governments to take unwanted deportees",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2026/09/21/how-trump-turned-refugee-bureau-into-410-million-deportation-operation/",
+                        "datetime": "2026-09-21T12:57:27.364000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab129b7ecddb03600000135",
+                        "targetTopic": "breaking-news",
+                        "text": "The U.S. has pledged at least $410 million to expel migrants to at least 31 countries where they have no previous connection, internal records show."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
