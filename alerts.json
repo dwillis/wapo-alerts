@@ -453173,5 +453173,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eac1f791-b608-11f1-9ebf-0000a1ace285",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Joe Manchin: What could make Congress wake up",
+            "ios": {
+                "alert": {
+                    "body": "Joe Manchin: What could make Congress wake up",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/21/joe-manchin-independent-candidates-could-improve-us-politics/",
+                        "datetime": "2026-09-21T22:08:03.578000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab1aac33c9ccb360000012d",
+                        "targetTopic": "opinions",
+                        "text": "Americans should consider voting independent in November. Here\u2019s why, the former senator writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "53c03dd1-b607-11f1-9c66-0000a1ace06f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "George Lucas\u2019s colossal pet project could mark the end of the art museum as we know it, writes columnist Philip Kennicott",
+            "ios": {
+                "alert": {
+                    "body": "George Lucas\u2019s colossal pet project could mark the end of the art museum as we know it, writes columnist Philip Kennicott",
+                    "title": "A Magnificent Mess"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/art/2026/09/21/is-george-lucass-new-museum-end-art-museum-we-know-it/",
+                        "datetime": "2026-09-21T21:56:40.781000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab1a818eaeba8370000011c",
+                        "targetTopic": "editors_picks",
+                        "text": "The Star Wars creator\u2019s museum of \u201cnarrative art\u201d in Los Angeles, which opens Tuesday, scrambles all the old categories and ideals."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
