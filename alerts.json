@@ -452644,5 +452644,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "65000520-b54f-11f1-8962-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A melanoma vaccine was hailed as a breakthrough. Which cancers are next?",
+            "ios": {
+                "alert": {
+                    "body": "A melanoma vaccine was hailed as a breakthrough. Which cancers are next?",
+                    "title": "Transformative Treatments"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/19/melanoma-vaccine-was-hailed-breakthrough-which-cancers-are-next/",
+                        "datetime": "2026-09-21T00:00:02.188000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab07382eaeba8370000011a",
+                        "targetTopic": "editors_picks",
+                        "text": "The reported success of an experimental drug that uses messenger RNA to deliver personalized skin cancer vaccines could herald a wave of new treatments that harness the potent technology for a range of cancers, researchers say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
