@@ -453125,5 +453125,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c99b2d30-b5ee-11f1-bc54-00000a1ace48",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Quarterback Jayden Daniels is injured again. Where do the Commanders go from here?",
+            "ios": {
+                "alert": {
+                    "body": "Quarterback Jayden Daniels is injured again. Where do the Commanders go from here?",
+                    "title": "Commanders Quandary"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/09/21/jayden-daniels-is-injured-again-where-do-commanders-go-here/",
+                        "datetime": "2026-09-21T19:01:01.056000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab17eed3c9ccb360000012c",
+                        "targetTopic": "local",
+                        "text": "With Daniels sidelined for the foreseeable future, Washington\u2019s defense is under increased pressure to step up."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
