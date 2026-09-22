@@ -453701,5 +453701,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb8b87b0-b6b4-11f1-aa0d-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We got a sneak peek at fall\u2019s best movies. Here are 8 worth seeing.",
+            "ios": {
+                "alert": {
+                    "body": "We got a sneak peek at fall\u2019s best movies. Here are 8 worth seeing.",
+                    "title": "Coming Soon"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2026/09/21/we-got-sneak-peek-falls-best-movies-here-are-8-worth-seeing/",
+                        "datetime": "2026-09-22T18:39:45.144000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab2cb71fd12a83700000140",
+                        "targetTopic": "editors_picks",
+                        "text": "Our favorite films out of the Toronto International Film Festival were energetic, heartfelt and often gut-wrenchingly funny."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
