@@ -453749,5 +453749,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8abc12f1-b6c5-11f1-8c2c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republicans start making moves to challenge JD Vance for 2028 nomination",
+            "ios": {
+                "alert": {
+                    "body": "Republicans start making moves to challenge JD Vance for 2028 nomination",
+                    "title": "Early Posturing"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/22/republicans-start-making-moves-take-jd-vance-2028-nomination/",
+                        "datetime": "2026-09-22T20:38:17.398000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab2e739eaeba8370000011f",
+                        "targetTopic": "politics",
+                        "text": "A fractious GOP presidential contest could force the vice president to reckon with President Donald Trump\u2019s unpopular policies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e43db2d0-b6c4-11f1-9b33-00000a1ace91",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JD Vance might as well admit it: The GOP failed",
+            "ios": {
+                "alert": {
+                    "body": "JD Vance might as well admit it: The GOP failed",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/22/vance-midterms-plea-second-chance-means-gop-has-failed/",
+                        "datetime": "2026-09-22T20:33:38.072000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab2e622eaeba8370000011e",
+                        "targetTopic": "opinions",
+                        "text": "Trumpism is exhausted, and if there\u2019s going to be a \u201cVance-ism,\u201d the clock is ticking."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
