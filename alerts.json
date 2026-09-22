@@ -453317,5 +453317,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c143e5b1-b674-11f1-9b29-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Media ban. GOP presidential race. Trump arch. Deportee database. Covid shots. Hungry bears. Fall movies. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Media ban. GOP presidential race. Trump arch. Deportee database. Covid shots. Hungry bears. Fall movies. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/22/7-things-know-tuesday-september-22/?noredirect=1",
+                        "datetime": "2026-09-22T10:59:59.652000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6ab25faffd12a8370000013c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
