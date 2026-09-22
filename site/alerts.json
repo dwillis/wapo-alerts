@@ -453269,5 +453269,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f12a2f20-b618-11f1-b912-0000a1ace57c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE erasing immigrants with final deportation orders from its detainee locator database",
+            "ios": {
+                "alert": {
+                    "body": "ICE erasing immigrants with final deportation orders from its detainee locator database",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/09/21/immigrants-with-final-deportation-orders-disappear-ice-detainee-locator/",
+                        "datetime": "2026-09-22T00:02:46.305000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab1c5a6eaeba8370000011d",
+                        "targetTopic": "us",
+                        "text": "The policy change, which took effect Sept. 15, leaves families and attorneys in the dark as they try to find out where someone has been taken. The new policy also bars immigration officers from sharing information about a detainee\u2019s location with their attorneys or relatives by phone, according to two former Homeland Security officials briefed on the change."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
