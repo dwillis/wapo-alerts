@@ -454517,5 +454517,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "52b387a0-b79a-11f1-bd9f-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We\u2019ve been rewriting Lizzie Borden\u2019s motive for 130 years, columnist Monica Hesse writes",
+            "ios": {
+                "alert": {
+                    "body": "We\u2019ve been rewriting Lizzie Borden\u2019s motive for 130 years, columnist Monica Hesse writes",
+                    "title": "A Long Line of Lore"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/23/every-generation-gives-lizzie-borden-new-reason-kill/",
+                        "datetime": "2026-09-23T22:01:26.211000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab44c36fd12a83700000144",
+                        "targetTopic": "editors_picks",
+                        "text": "Ryan Murphy floats the \u201chot maid\u201d theory for the 1892 ax murders in the new season of \u201cMonster\u201d on Netflix."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
