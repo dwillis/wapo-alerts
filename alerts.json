@@ -454277,5 +454277,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6218b490-b77c-11f1-8326-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FBI jobs website remains offline after hacking group\u2019s claim that it stole thousands of bureau\u2019s personnel records",
+            "ios": {
+                "alert": {
+                    "body": "FBI jobs website remains offline after hacking group\u2019s claim that it stole thousands of bureau\u2019s personnel records",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/23/hacking-group-claims-have-stolen-thousands-fbi-employee-records/",
+                        "datetime": "2026-09-23T18:27:07.135000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab419fbecddb0360000013c",
+                        "targetTopic": "breaking-news",
+                        "text": "The bureau did not confirm the extent of the breach but said it is working to identify whether the hackers had compromised a third-party system used to administer the jobsite or breached actual FBI systems."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
