@@ -453893,5 +453893,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "50307cf0-b6ef-11f1-9242-000a1ace82b7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE officer who shot Venezuelan man in Texas was new recruit not using his body camera",
+            "ios": {
+                "alert": {
+                    "body": "ICE officer who shot Venezuelan man in Texas was new recruit not using his body camera",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/09/22/man-shot-detained-by-ice-is-hospitalized-partial-paralysis-lawyer-says/",
+                        "datetime": "2026-09-23T01:37:18.026000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab32d4eeaeba83700000121",
+                        "targetTopic": "breaking-news",
+                        "text": "The officer had previously worked at another federal law enforcement agency and joined Immigration and Customs Enforcement during last year\u2019s hiring spree, two former Department of Homeland Security officials said. The Venezuelan man was shot after ICE officers attempted to make a traffic stop in Austin on Sunday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
