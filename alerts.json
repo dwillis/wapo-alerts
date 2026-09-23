@@ -453941,5 +453941,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e5ed7ab0-b73d-11f1-851c-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump threat. Ballroom clash. ACA cuts. 2028 contenders. Nor\u2019easter. Eye changes. Painting reunion. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump threat. Ballroom clash. ACA cuts. 2028 contenders. Nor\u2019easter. Eye changes. Painting reunion. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/23/7-things-know-wednesday-september-23/?noredirect=1",
+                        "datetime": "2026-09-23T10:59:49.848000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6ab3b125eaeba83700000122",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
