@@ -454421,5 +454421,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b9cfa7c0-b795-11f1-adb9-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The White House cited anonymous quotes in defending its Politico ban. It was the source.",
+            "ios": {
+                "alert": {
+                    "body": "The White House cited anonymous quotes in defending its Politico ban. It was the source.",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/23/white-house-cited-anonymous-quotes-politico-ban-it-was-source/",
+                        "datetime": "2026-09-23T21:28:31.704000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab4447ffd12a83700000143",
+                        "targetTopic": "breaking-news",
+                        "text": "In a letter submitted in court, the White House critiqued a report based on a press call it conducted, in which reporters were told not to name the speaker."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5c85d920-b792-11f1-8064-00000a1acecf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Senate is in play. These 10 seats are most likely to flip.",
+            "ios": {
+                "alert": {
+                    "body": "The Senate is in play. These 10 seats are most likely to flip.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/23/10-senate-seats-most-likely-flip-midterms/",
+                        "datetime": "2026-09-23T21:04:26.603000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab43edaeaeba83700000125",
+                        "targetTopic": "opinions",
+                        "text": "The Senate is in play. These 10 seats are most likely to flip."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
