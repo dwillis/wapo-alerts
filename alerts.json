@@ -453989,5 +453989,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a0844710-b756-11f1-bdbd-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "David Ignatius: The twilight of an autocratic age",
+            "ios": {
+                "alert": {
+                    "body": "David Ignatius: The twilight of an autocratic age",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/22/xi-trump-putin-may-seem-immovable-their-time-is-passing/",
+                        "datetime": "2026-09-23T13:56:50.970000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab3daa2ecddb0360000013a",
+                        "targetTopic": "opinions",
+                        "text": "These autocrats may seem immovable. But their time is passing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8ea27e01-b74b-11f1-953a-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018I am the code\u2019: Trump clashed with White House ballroom architect over safety issues",
+            "ios": {
+                "alert": {
+                    "body": "\u2018I am the code\u2019: Trump clashed with White House ballroom architect over safety issues",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/09/23/i-am-code-trump-clashed-with-ballroom-architect-over-safety-issues/",
+                        "datetime": "2026-09-23T12:37:36.460000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab3c8103c9ccb360000012f",
+                        "targetTopic": "breaking-news",
+                        "text": "The first architect withdrew from the project last October after warning repeatedly that President Donald Trump was insisting on a preliminary design that did not provide adequate emergency exit routes or fire-containment measures, according to two people who spoke on condition of anonymity to describe the private discussions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
