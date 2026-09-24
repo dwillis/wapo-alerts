@@ -454949,5 +454949,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e9c067e0-b83e-11f1-9ab4-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "California sheriff must return seized ballots, state Supreme Court rules",
+            "ios": {
+                "alert": {
+                    "body": "California sheriff must return seized ballots, state Supreme Court rules",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/24/california-supreme-court-rules-sheriff-must-return-seized-ballots/",
+                        "datetime": "2026-09-24T17:39:36.955000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab56058ecddb0360000013f",
+                        "targetTopic": "breaking-news",
+                        "text": "The court ruled unanimously that Chad Bianco lacked the authority to review the ballots based on a thin allegation of fraud stemming from a vote last year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
