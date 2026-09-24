@@ -454565,5 +454565,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "689d1d50-b7a5-11f1-aec8-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Prosecutors charge five Indianapolis police officers who are accused of misusing access to Flock license-plate-reader cameras",
+            "ios": {
+                "alert": {
+                    "body": "Prosecutors charge five Indianapolis police officers who are accused of misusing access to Flock license-plate-reader cameras",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/09/23/five-indianapolis-officers-charged-following-posts-reporting-flock-misuse/",
+                        "datetime": "2026-09-23T23:20:47.404000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab45ecf3c9ccb3600000131",
+                        "targetTopic": "us",
+                        "text": "The action comes weeks after outreach from The Washington Post highlighted thousands of questionable Flock searches, leading the city to suspend one officer and conduct an audit of its system. Court records show that the five officers were all charged Wednesday with fraud and official misconduct."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
