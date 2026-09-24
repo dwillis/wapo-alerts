@@ -454757,5 +454757,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d04275f0-b835-11f1-bc18-00000a1ace73",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "CNN and MS NOW journalists regain access to White House",
+            "ios": {
+                "alert": {
+                    "body": "CNN and MS NOW journalists regain access to White House",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/24/judge-blocks-trumps-white-house-ban-cnn-politico-ms-now/",
+                        "datetime": "2026-09-24T16:34:28.817000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab55114fd12a83700000146",
+                        "targetTopic": "breaking-news",
+                        "text": "Journalists from CNN, MS NOW and Politico had been blocked from the White House earlier Thursday by the U.S. Secret Service, despite a federal judge\u2019s early-morning ruling that their access to the grounds be restored. Politico has not yet said if it was allowed back into the White House."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "14d485a0-b82c-11f1-ad94-00000a1acef8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "CNN, Politico and MS NOW request emergency court hearing as White House continues to deny them access",
+            "ios": {
+                "alert": {
+                    "body": "CNN, Politico and MS NOW request emergency court hearing as White House continues to deny them access",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/24/judge-blocks-trumps-white-house-ban-cnn-politico-ms-now/",
+                        "datetime": "2026-09-24T15:24:48.936000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab540c0eaeba83700000127",
+                        "targetTopic": "breaking-news",
+                        "text": "Some journalists from the news organizations were blocked from accessing the White House on Thursday despite a federal judge\u2019s early-morning ruling ordering the Trump administration to restore their credentials. The judge gave the government until 12:30 p.m. to respond to the media outlets\u2019 court filing alleging noncompliance with the order."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2bbf2050-b826-11f1-8256-00000a1aced7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump dismantled U.S. climate policy. But his war on Iran is inadvertently cutting emissions.",
+            "ios": {
+                "alert": {
+                    "body": "Trump dismantled U.S. climate policy. But his war on Iran is inadvertently cutting emissions.",
+                    "title": "Fossil Fuel Consumption"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/24/how-trump-is-unintentionally-helping-worlds-climate/",
+                        "datetime": "2026-09-24T14:42:30.317000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab536d63c9ccb3600000132",
+                        "targetTopic": "editors_picks",
+                        "text": "While President Donald Trump remains a climate-change denier, the U.S. war with Iran has triggered an unforeseen benefit in the fight against global warming, leading to a plunge in the consumption of oil and gas around the world as fighting disrupts production and transportation."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "39b51191-b823-11f1-8fcb-00000a1aceb4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bond markets are a canary. Trump isn\u2019t listening.",
+            "ios": {
+                "alert": {
+                    "body": "Bond markets are a canary. Trump isn\u2019t listening.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/24/britains-high-bond-yields-are-warning-america/",
+                        "datetime": "2026-09-24T14:21:25.360000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab531e5fd12a83700000145",
+                        "targetTopic": "opinions",
+                        "text": "Fiscal mismanagement could expose the United States to bond vigilantes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
