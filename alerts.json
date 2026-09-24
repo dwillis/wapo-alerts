@@ -454997,5 +454997,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "948904c0-b853-11f1-ad94-00000a1acef8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "One of America\u2019s most important restaurants is closing. It feels personal, food critic Elazar Sontag writes.",
+            "ios": {
+                "alert": {
+                    "body": "One of America\u2019s most important restaurants is closing. It feels personal, food critic Elazar Sontag writes.",
+                    "title": "Ode to an Oasis"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/09/24/lil-deb-oasis-our-food-critic-found-sense-purpose-that-shaped-his-life/",
+                        "datetime": "2026-09-24T20:07:33.494000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab58305ecddb03600000141",
+                        "targetTopic": "editors_picks",
+                        "text": "At Lil\u2019 Deb\u2019s Oasis in Hudson, New York, he found queer community and a sense of purpose that shaped his life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7966b1a0-b84a-11f1-9b2f-00000a1aced3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate narrowly rejects measure to block Trump from ordering more strikes on Iran",
+            "ios": {
+                "alert": {
+                    "body": "Senate narrowly rejects measure to block Trump from ordering more strikes on Iran",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/24/senate-rejects-measure-block-trump-ordering-more-strikes-iran/",
+                        "datetime": "2026-09-24T19:02:22.593000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab573befd12a83700000147",
+                        "targetTopic": "politics",
+                        "text": "Four Republicans joined Democrats in voting for it, while one Democrat opposed it. The administration ignored passage of a similar resolution in June, arguing that it lacks the force of law."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "aeffc280-b844-11f1-bf49-000a1aceb360",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump-backed Nevada Republican exaggerated Bronze Star award in two campaigns",
+            "ios": {
+                "alert": {
+                    "body": "Trump-backed Nevada Republican exaggerated Bronze Star award in two campaigns",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/24/trump-backed-nevada-republican-exaggerated-bronze-star-award-two-campaigns/",
+                        "datetime": "2026-09-24T18:20:55.491000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab56a07ecddb03600000140",
+                        "targetTopic": "politics",
+                        "text": "David Flippo, a Republican congressional candidate in Nevada, inflated his military record multiple times in recent years by claiming he received a Bronze Star \u201cfor valor\u201d during his two-decade Air Force career. Flippo received a Bronze Star in 2004 for his service, but not the Bronze Star with valor, a much rarer distinction that recognizes heroism in direct combat with an enemy. Experts on military awards say such exaggerations are tantamount to lying."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
