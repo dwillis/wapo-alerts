@@ -454613,5 +454613,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c509f7a0-b7e3-11f1-b769-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge orders White House to restore access to CNN, Politico, MS NOW after Trump ban",
+            "ios": {
+                "alert": {
+                    "body": "Judge orders White House to restore access to CNN, Politico, MS NOW after Trump ban",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/24/judge-blocks-trumps-white-house-ban-cnn-politico-ms-now/",
+                        "datetime": "2026-09-24T06:47:11.278000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab4c76fecddb0360000013d",
+                        "targetTopic": "breaking-news",
+                        "text": "U.S. District Judge Timothy Kelly issued a 14-day restraining order while the outlets\u2019 legal challenge proceeds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
