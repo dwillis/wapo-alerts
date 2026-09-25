@@ -455189,5 +455189,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbb75e02-b881-11f1-a6d6-0000a1ace56f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Ketanji Brown Jackson calls Supreme Court\u2019s frequent use of emergency docket \u201cproblematic,\u201d urges restraint",
+            "ios": {
+                "alert": {
+                    "body": "Justice Ketanji Brown Jackson calls Supreme Court\u2019s frequent use of emergency docket \u201cproblematic,\u201d urges restraint",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/24/justice-ketanji-brown-jackson-criticizes-supreme-courts-use-emergency-docket/",
+                        "datetime": "2026-09-25T01:38:22.883000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab5d08efd12a83700000149",
+                        "targetTopic": "politics",
+                        "text": "Speaking at the University of the District of Columbia, Jackson said the court has used the docket too often to issue decisions that have allowed the Trump administration to move forward while challenges play out in lower court. The emergency docket has been criticized by legal experts who say justices can make consequential decisions while offering little or no explanation for their reasoning."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
