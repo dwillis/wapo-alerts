@@ -455333,5 +455333,294 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b13b4670-b8fb-11f1-904b-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court rules Trump administration can use Social Security data to identify noncitizen voters in the midterms",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court rules Trump administration can use Social Security data to identify noncitizen voters in the midterms",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/25/government-can-use-social-security-data-identify-noncitizen-voters-supreme-court-rules/",
+                        "datetime": "2026-09-25T16:10:57.149000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab69d11eaeba83700000129",
+                        "targetTopic": "breaking-news",
+                        "text": "President Donald Trump wants to let states use a federal database that includes voters\u2019 personal information to check for noncitizens on election rolls. Following the emergency ruling, the fight over the procedure\u2019s legality will continue in the lower courts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "26e2f630-b8f6-11f1-b3b9-0000a1acef27",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A nor\u2019easter is strengthening near the East Coast. These cities will be hit hard.",
+            "ios": {
+                "alert": {
+                    "body": "A nor\u2019easter is strengthening near the East Coast. These cities will be hit hard.",
+                    "title": "A Powerful Storm"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/09/25/noreaster-is-strengthening-near-east-coast-these-cities-will-be-hit-hard/",
+                        "datetime": "2026-09-25T15:31:17.498000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab693c5fd12a8370000014b",
+                        "targetTopic": "us",
+                        "text": "A stretch from New Jersey to Massachusetts could face significant coastal impacts beginning Friday night, with the storm moving northward and potentially pushing ashore Sunday. Rain and strong winds are expected all the way from the Carolinas to Maine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fa58eb02-b8ec-11f1-99c0-000a1ace20db",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Red floor-skimming gown vs. black brocade trousers: First ladies dressed for different roles at U.S.-China dinner, columnist writes",
+            "ios": {
+                "alert": {
+                    "body": "Red floor-skimming gown vs. black brocade trousers: First ladies dressed for different roles at U.S.-China dinner, columnist writes",
+                    "title": "State Dinner Fashion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/fashion/2026/09/24/first-ladies-melania-trump-peng-liyuan-dress-different-roles-state-dinner/",
+                        "datetime": "2026-09-25T14:25:37.394000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab68461ecddb03600000142",
+                        "targetTopic": "editors_picks",
+                        "text": "One side emphasizing modernity and experimentation, the other hanging on to the world we already know, Ashley Fetters Maloy writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "89107b10-b910-11f1-b0fa-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The surprise winners from record-high diesel prices",
+            "ios": {
+                "alert": {
+                    "body": "The surprise winners from record-high diesel prices",
+                    "title": "An Indirect Boost"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2026/09/25/surprise-winners-record-high-diesel-prices/",
+                        "datetime": "2026-09-25T18:40:09.199000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6c009eaeba8370000012a",
+                        "targetTopic": "business",
+                        "text": "It isn\u2019t just big oil companies that are benefiting from the highest diesel prices ever seen."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6f1968e0-b904-11f1-82c4-00000a1ace06",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. intelligence finds Saudis have not ruled out developing nuclear weapons",
+            "ios": {
+                "alert": {
+                    "body": "U.S. intelligence finds Saudis have not ruled out developing nuclear weapons",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/25/saudis-have-not-ruled-out-developing-nuclear-weapons-us-intelligence-assesses/",
+                        "datetime": "2026-09-25T17:13:31.665000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6abbbfd12a8370000014c",
+                        "targetTopic": "breaking-news",
+                        "text": "The findings come as lawmakers already have raised concerns about President Donald Trump\u2019s agreement to assist Saudi Arabia with establishing a civilian nuclear program, which some worry could eventually lead to an arms race in the volatile Middle East."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ee70cd50-b8fe-11f1-b3b9-0000a1acef27",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax chat: New grandbaby\u2019s other grandma makes snide comments about me",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax chat: New grandbaby\u2019s other grandma makes snide comments about me",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/25/carolyn-hax-live-chat/",
+                        "datetime": "2026-09-25T16:34:08.328000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6a280ecddb03600000143",
+                        "targetTopic": "advice",
+                        "text": "New grandbaby\u2019s other grandma makes snide comments about me"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
