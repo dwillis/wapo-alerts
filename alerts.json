@@ -455622,5 +455622,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d583b470-b91b-11f1-b191-00000a1ace26",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon quietly adds dozens to tally of troops wounded amid Iran war",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon quietly adds dozens to tally of troops wounded amid Iran war",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/25/pentagon-quietly-adds-dozens-tally-troops-wounded-amid-iran-war/",
+                        "datetime": "2026-09-25T20:01:01.910000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6d2fdecddb03600000145",
+                        "targetTopic": "breaking-news",
+                        "text": "With the addition of 29 U.S. sailors and eight Marines, the total number of personnel wounded since the start of hostilities has risen to 861, a Defense Department database shows."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "efb6ea70-b915-11f1-ba05-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "New Jersey Lt. Gov. Dale Caldwell resigns after report detailing sexual harassment, ethics violations",
+            "ios": {
+                "alert": {
+                    "body": "New Jersey Lt. Gov. Dale Caldwell resigns after report detailing sexual harassment, ethics violations",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/24/new-jersey-gov-sherrill-calls-her-lieutenant-governor-resign/",
+                        "datetime": "2026-09-25T19:18:48.920000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6c918ecddb03600000144",
+                        "targetTopic": "politics",
+                        "text": "Gov. Mikie Sherrill, who had called on Caldwell to step down, said she would move \u201cswiftly and thoughtfully\u201d to choose a new lieutenant governor."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
