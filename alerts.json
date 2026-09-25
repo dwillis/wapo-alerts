@@ -455766,5 +455766,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "421c6b42-b935-11f1-970d-00000a1ace89",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House has not acted on RFK Jr.\u2019s push for proof that ultra-processed foods are safe",
+            "ios": {
+                "alert": {
+                    "body": "White House has not acted on RFK Jr.\u2019s push for proof that ultra-processed foods are safe",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/09/25/white-house-has-not-acted-rfk-jrs-push-proof-ultra-processed-foods-are-safe/",
+                        "datetime": "2026-09-25T23:03:01.503000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6fda5ecddb03600000147",
+                        "targetTopic": "politics",
+                        "text": "A draft letter obtained by The Post shows Kennedy\u2019s favorable response to a petition that food experts said could lead to significant changes for the industry."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d1e010c0-b92f-11f1-b191-00000a1ace26",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court again blocks Missouri congressional map favoring Republicans, ending legal fight that created major confusion",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court again blocks Missouri congressional map favoring Republicans, ending legal fight that created major confusion",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/25/supreme-court-blocks-missouri-congressional-map-favoring-gop-third-time/",
+                        "datetime": "2026-09-25T22:24:05.720000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6f485eaeba8370000012b",
+                        "targetTopic": "breaking-news",
+                        "text": "The justices on Friday said Missouri must instead use a map that will give Democrats a good shot at holding on to two of the state\u2019s eight House seats. It was the third time this month that the Supreme Court has ruled against the GOP congressional map."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7a4dba90-b92c-11f1-a48e-0000a1ace7cc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Want better coffee at home? Avoid these 5 common mistakes.",
+            "ios": {
+                "alert": {
+                    "body": "Want better coffee at home? Avoid these 5 common mistakes.",
+                    "title": "Improve Your Brew"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/09/25/5-common-coffee-mistakes-how-fix-them/",
+                        "datetime": "2026-09-25T22:00:10.340000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6eeeafd12a8370000014d",
+                        "targetTopic": "editors_picks",
+                        "text": "Changing these bad habits can help you extract the best flavors from your increasingly pricey coffee beans."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
