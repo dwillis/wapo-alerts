@@ -455237,5 +455237,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "41ec4e70-b8d0-11f1-b3b9-0000a1acef27",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "State dinner. Media ban. War powers. Nevada Republican. Nor\u2019easter. Flashes of lucidity. Bad coffee. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "State dinner. Media ban. War powers. Nevada Republican. Nor\u2019easter. Flashes of lucidity. Bad coffee. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/25/7-things-know-friday-september-25/?noredirect=1",
+                        "datetime": "2026-09-25T11:00:01.943000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6ab65431eaeba83700000128",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
