@@ -455285,5 +455285,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "95d4e670-b8e7-11f1-a6c2-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I\u2019m a Republican. This woman tried to do everything right \u2014 and was deported anyway.",
+            "ios": {
+                "alert": {
+                    "body": "I\u2019m a Republican. This woman tried to do everything right \u2014 and was deported anyway.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/25/this-migrant-followed-law-dhs-said-she-had-leave/",
+                        "datetime": "2026-09-25T13:47:01.264000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab67b55fd12a8370000014a",
+                        "targetTopic": "opinions",
+                        "text": "Can America still differentiate between those who endanger and those who strengthen it?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
