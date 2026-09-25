@@ -455718,5 +455718,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1b270f40-b921-11f1-9de8-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Supreme Court has a good chance to start fixing a bad law, George F. Will writes",
+            "ios": {
+                "alert": {
+                    "body": "The Supreme Court has a good chance to start fixing a bad law, George F. Will writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/23/indian-child-welfare-acts-identity-politics-stains-us-law/",
+                        "datetime": "2026-09-25T20:38:46.256000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab6dbd6ecddb03600000146",
+                        "targetTopic": "opinions",
+                        "text": "The Indian Child Welfare Act\u2019s main concern is identity politics, not children\u2019s welfare."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
