@@ -455910,5 +455910,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6dfcbe60-b93d-11f1-8ad2-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House blocks CNN from Trump\u2019s scheduled trip to Tennessee on Air Force One",
+            "ios": {
+                "alert": {
+                    "body": "White House blocks CNN from Trump\u2019s scheduled trip to Tennessee on Air Force One",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/25/white-house-blocks-cnn-trip-air-force-one/",
+                        "datetime": "2026-09-26T00:01:31.139000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab70b5b3c9ccb3600000133",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision puts the state of the rotational TV pool coverage of the president in jeopardy once again. CNN, along with MS NOW and Politico, was banned from White House grounds last week, but a federal judge temporarily restored access early Thursday. The five-network pool resumed coverage of Trump on Friday morning."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
