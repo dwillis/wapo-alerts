@@ -456054,5 +456054,245 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "89d30150-b9cc-11f1-b2f8-0000a1ace60f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The worst airports if you have a connecting flight",
+            "ios": {
+                "alert": {
+                    "body": "The worst airports if you have a connecting flight",
+                    "title": "Short Layover?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/2026/09/26/worst-airports-travel-connections/",
+                        "datetime": "2026-09-26T17:05:55.746000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab7fb73eaeba8370000012e",
+                        "targetTopic": "editors_picks",
+                        "text": "You may want to think twice before booking through these transport hubs if you have a short layover."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "31d28760-b9c6-11f1-a010-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tom Cruise\u2019s weirdness could derail his Oscars mission",
+            "ios": {
+                "alert": {
+                    "body": "Tom Cruise\u2019s weirdness could derail his Oscars mission",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/24/tom-cruise-wants-an-oscar-his-digger-press-tour-wont-help/",
+                        "datetime": "2026-09-26T16:20:31.235000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab7f0cfeaeba8370000012d",
+                        "targetTopic": "opinions",
+                        "text": "Twenty years after the Oprah couch, the actor is easing back into the interview circuit \u2014 awkwardly, Will Leitch writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3632bf20-b9c4-11f1-ae8c-0000a1aceb92",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Best friend\u2019s wife calls, wanting loan to pay secret debt",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Best friend\u2019s wife calls, wanting loan to pay secret debt",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/26/carolyn-hax-best-friends-wife-calls-wanting-loan-pay-secret-debt/",
+                        "datetime": "2026-09-26T16:06:19.609000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab7ed7bfd12a8370000014f",
+                        "targetTopic": "advice",
+                        "text": "Best friend\u2019s wife calls, wanting loan to pay secret debt"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "160b2860-b9c2-11f1-98e6-0000a1ace731",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he rejects Iran's proposal to reopen the Strait of Hormuz, restart peace talks",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he rejects Iran's proposal to reopen the Strait of Hormuz, restart peace talks",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/26/trump-rejects-iran-proposal-reopen-strait-hormuz-restart-peace-talks/",
+                        "datetime": "2026-09-26T15:51:06.538000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab7e9eaeaeba8370000012c",
+                        "targetTopic": "breaking-news",
+                        "text": "Tehran's proposal, delivered to U.S. officials through mediators, would reopen the waterway and recommence peace talks within seven days."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a0643cf0-b9bc-11f1-8860-00000a1ace10",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A major nor\u2019easter is battering the East Coast, with tens of thousands losing power",
+            "ios": {
+                "alert": {
+                    "body": "A major nor\u2019easter is battering the East Coast, with tens of thousands losing power",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/09/26/major-noreaster-is-battering-east-coast/",
+                        "datetime": "2026-09-26T15:12:01.746000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab7e0c13c9ccb3600000134",
+                        "targetTopic": "us",
+                        "text": "The waterlogged system could bring 6 inches of rain and 60 mph winds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
