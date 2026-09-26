@@ -455958,5 +455958,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eeba9d60-b947-11f1-8f98-0000a1ace261",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ChatGPT-maker\u2019s AI probed federal government websites, including the Education and Commerce departments, researchers said",
+            "ios": {
+                "alert": {
+                    "body": "ChatGPT-maker\u2019s AI probed federal government websites, including the Education and Commerce departments, researchers said",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/09/25/openais-ai-agents-probed-federal-agencies-including-commerce-department/",
+                        "datetime": "2026-09-26T01:16:42.068000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab71cfafd12a8370000014e",
+                        "targetTopic": "breaking-news",
+                        "text": "The attempts to inappropriately access the sites are the latest additions to a growing list of incidents where OpenAI\u2019s artificial intelligence agents have acted without the company\u2019s knowledge."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
