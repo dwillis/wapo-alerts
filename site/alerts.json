@@ -456438,5 +456438,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "51a450a0-ba02-11f1-944e-00000a1ace83",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dogs use a surprising method to understand human language, new study suggests",
+            "ios": {
+                "alert": {
+                    "body": "Dogs use a surprising method to understand human language, new study suggests",
+                    "title": "Talking to Pets"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2026/09/26/dogs-learn-words-same-way-babies-do-new-research-suggests/",
+                        "datetime": "2026-09-26T23:30:54.433000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab855aeeaeba83700000130",
+                        "targetTopic": "editors_picks",
+                        "text": "In a brain activity study, dogs seemed to listen for consonants to figure out when one word ends and another begins."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "59501570-b9f6-11f1-890f-0000a1ace6f4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A horror story unfolds as police examine pornographer\u2019s brutal trove",
+            "ios": {
+                "alert": {
+                    "body": "A horror story unfolds as police examine pornographer\u2019s brutal trove",
+                    "title": "Searching for Clues"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/09/26/police-search-house-filled-with-porn-clues-about-missing-women/",
+                        "datetime": "2026-09-26T22:05:13.339000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab841993c9ccb3600000135",
+                        "targetTopic": "editors_picks",
+                        "text": "A Philadelphia man created hundreds of thousands of degrading images of women, police say. At least five may have been dead when they were photographed or recorded."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
