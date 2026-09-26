@@ -456294,5 +456294,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3ef41700-b9d6-11f1-b6c5-0000a1acef4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S., Russia stripped human oversight from global AI weapons pact",
+            "ios": {
+                "alert": {
+                    "body": "U.S., Russia stripped human oversight from global AI weapons pact",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/09/26/how-us-russia-weakened-global-effort-regulate-killer-ai/",
+                        "datetime": "2026-09-26T18:15:25.181000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab80bbdecddb03600000149",
+                        "targetTopic": "us",
+                        "text": "The two nations weakened a range of safeguards in a landmark U.N. effort to try to regulate the use of lethal autonomous weaponry. The global negotiations this month marked the furthest progress yet toward a potential treaty."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
