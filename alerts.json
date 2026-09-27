@@ -456534,5 +456534,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "35bcaeb0-ba1a-11f1-8f0e-0000a1ace625",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration considers building baseball park in Grand Teton National Park that could host a Major League Baseball game",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration considers building baseball park in Grand Teton National Park that could host a Major League Baseball game",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/09/26/trump-officials-weigh-mlb-game-grand-teton-national-park/",
+                        "datetime": "2026-09-27T02:21:55.461000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab87dc3fd12a83700000150",
+                        "targetTopic": "breaking-news",
+                        "text": "MLB approached the administration about hosting a game at a national park, officials from the White House and the league said. A senior official with the National Park Service scouted multiple locations in Grand Teton, according to two additional people familiar with the matter."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
