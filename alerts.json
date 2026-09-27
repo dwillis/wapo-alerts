@@ -456967,5 +456967,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "62635340-bacb-11f1-8bed-00000a1ace47",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House expands taxpayer-paid ad campaign boosting Trump",
+            "ios": {
+                "alert": {
+                    "body": "White House expands taxpayer-paid ad campaign boosting Trump",
+                    "title": "On the Airwaves"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/27/white-house-expands-taxpayer-paid-ad-campaign-boosting-trump/",
+                        "datetime": "2026-09-27T23:30:11.368000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab9a703ecddb0360000014c",
+                        "targetTopic": "politics",
+                        "text": "The campaign borrows the president\u2019s political rhetoric as the White House defends the spots as public service announcements. The latest 30-second ad aired during \u201cSaturday Night Live,\u201d \u201cFox News Sunday,\u201d and several college and NFL football games this weekend, according to AdImpact, an ad-tracking firm."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3fba57e0-bac0-11f1-9a69-00000a1aceb5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ospreys are disappearing along the East Coast. Scientists think they know why.",
+            "ios": {
+                "alert": {
+                    "body": "Ospreys are disappearing along the East Coast. Scientists think they know why.",
+                    "title": "Recovery Comes Undone"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/09/27/ospreys-are-disappearing-along-east-coast-scientists-think-they-know-why/",
+                        "datetime": "2026-09-27T22:10:28.754000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab994543c9ccb3600000138",
+                        "targetTopic": "editors_picks",
+                        "text": "At the center of a widening crisis for one of the nation's great wildlife comebacks is a fish most Americans would hardly recognize."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
