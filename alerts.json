@@ -456870,5 +456870,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3cde3270-ba9e-11f1-8b13-0000a1ace784",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "She waited for hours and left untreated. The ER billed her anyway.",
+            "ios": {
+                "alert": {
+                    "body": "She waited for hours and left untreated. The ER billed her anyway.",
+                    "title": "What Counts as Care"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/27/she-waited-hours-left-untreated-er-billed-her-anyway/",
+                        "datetime": "2026-09-27T18:07:00.948000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab95b443c9ccb3600000137",
+                        "targetTopic": "health",
+                        "text": "The hospital said her visit began as soon as \u201ccare,\u201d which could mean registration and nursing assessment, was initiated."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
