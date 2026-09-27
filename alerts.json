@@ -456919,5 +456919,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b7f8d590-baae-11f1-bb3b-0000a1ace1f5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Soaring diesel prices roil the heart of MAGA country",
+            "ios": {
+                "alert": {
+                    "body": "Soaring diesel prices roil the heart of MAGA country",
+                    "title": "Voter Rage"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/27/soaring-diesel-costs-are-clobbering-maga-voters/",
+                        "datetime": "2026-09-27T20:04:59.547000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab976ebfd12a83700000152",
+                        "targetTopic": "politics",
+                        "text": "Pain at the pump for rural Republicans is shifting the political map."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
