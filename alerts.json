@@ -456582,5 +456582,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "03c59130-ba77-11f1-bd05-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "She became a star of the anti-feminist right. Then came the backlash.",
+            "ios": {
+                "alert": {
+                    "body": "She became a star of the anti-feminist right. Then came the backlash.",
+                    "title": "An Online Reckoning"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/09/27/she-helped-lead-far-right-internet-movement-then-it-turned-her/",
+                        "datetime": "2026-09-27T13:26:14.842000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab91976eaeba83700000131",
+                        "targetTopic": "breaking-news",
+                        "text": "Amy Dangerfield worked to become one of Nick Fuentes\u2019s model \u201cgroypettes,\u201d but a vicious fight left her grappling with the dark side of far-right fame."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
