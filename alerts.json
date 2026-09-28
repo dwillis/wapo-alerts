@@ -457544,5 +457544,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ecf362d0-bb74-11f1-af5a-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration touts savings for car buyers as it rolls back fuel economy standards. Analysts have doubts on price cuts.",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration touts savings for car buyers as it rolls back fuel economy standards. Analysts have doubts on price cuts.",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2026/09/28/trump-says-new-fuel-economy-rules-will-cut-car-prices-analysts-are-doubtful/",
+                        "datetime": "2026-09-28T19:43:48.739000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abac374eaeba83700000136",
+                        "targetTopic": "breaking-news",
+                        "text": "The Trump administration has pitched new rules as a way for people to save money \u2014 one potential solution to the affordability debate that has roiled the country in recent years amid high inflation and rising costs \u2014 though analysts have expressed skepticism about whether any savings would reach consumers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
