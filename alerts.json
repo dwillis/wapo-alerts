@@ -457159,5 +457159,390 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "351a2440-bb66-11f1-94cf-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I\u2019m a sports medicine doctor. Here\u2019s what I tell my patients about peptides.",
+            "ios": {
+                "alert": {
+                    "body": "I\u2019m a sports medicine doctor. Here\u2019s what I tell my patients about peptides.",
+                    "title": "An Expert Weighs In"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/09/28/sports-medicine-doctor-heres-what-i-want-you-know-about-peptides/",
+                        "datetime": "2026-09-28T17:58:27.366000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abaaac33c9ccb360000013a",
+                        "targetTopic": "health",
+                        "text": "Peptides may allow physicians to help patients in ways they previously could not, Jordan D. Metzl writes. But not all of these compounds are created equal."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a8f758c0-bb56-11f1-b6b5-00000a1acefb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: How can I convince others that my apologies and life turnaround are real?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: How can I convince others that my apologies and life turnaround are real?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/09/28/carolyn-hax-how-convince-others-that-major-life-turnaround-is-real/",
+                        "datetime": "2026-09-28T16:07:09.843000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aba90adfd12a83700000155",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: How can I convince others that my apologies and life turnaround are real?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6b69e680-bb56-11f1-9108-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Andrew Bailey, No. 2 at FBI, resigns in latest shake-up at bureau",
+            "ios": {
+                "alert": {
+                    "body": "Andrew Bailey, No. 2 at FBI, resigns in latest shake-up at bureau",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/28/andrew-bailey-no-2-fbi-resigns-latest-shake-up-bureau/",
+                        "datetime": "2026-09-28T16:05:26.577000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aba90463c9ccb3600000139",
+                        "targetTopic": "politics",
+                        "text": "Bailey, a conservative firebrand who is the former Missouri attorney general, was hired for the leadership role about a year ago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a5980fe0-bb50-11f1-8a36-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mistrial declared in bribery case of D.C. Council member Trayon White Sr.",
+            "ios": {
+                "alert": {
+                    "body": "Mistrial declared in bribery case of D.C. Council member Trayon White Sr.",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/09/28/mistrial-declared-bribery-case-dc-council-member-trayon-white-sr/",
+                        "datetime": "2026-09-28T15:24:07.050000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aba8697ecddb0360000014f",
+                        "targetTopic": "local",
+                        "text": "White (D-Ward 8) was charged with taking thousands of dollars in cash from a contractor who did work for the city."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0d8211e0-bb4d-11f1-8d59-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cornell says it supports prosecutors\u2019 decision to reopen investigation into alleged 2024 gang rape at fraternity",
+            "ios": {
+                "alert": {
+                    "body": "Cornell says it supports prosecutors\u2019 decision to reopen investigation into alleged 2024 gang rape at fraternity",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2026/09/28/cornell-rape-allegations-prompt-prosecutor-reopen-criminal-investigation/",
+                        "datetime": "2026-09-28T14:58:23.435000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aba808ffd12a83700000154",
+                        "targetTopic": "us",
+                        "text": "The Tompkins County district attorney said he has begun the process of pursuing criminal charges against seven alleged perpetrators. Cornell University said it had conducted a Title IX investigation into the alleged rape and issued sanctions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c53011d0-bb47-11f1-a104-00000a1ace94",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "When America\u2019s pot of debt will overflow",
+            "ios": {
+                "alert": {
+                    "body": "When America\u2019s pot of debt will overflow",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/interactive/2026/09/28/nations-success-depends-fiscal-space-america-is-almost-out/",
+                        "datetime": "2026-09-28T14:20:34.727000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aba77b2eaeba83700000135",
+                        "targetTopic": "opinions",
+                        "text": "A nation\u2019s success depends on fiscal space. The U.S. is almost out."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "479698c0-bb47-11f1-8daf-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Data centers are altering the landscape. One planned site is larger than Central Park.",
+            "ios": {
+                "alert": {
+                    "body": "Data centers are altering the landscape. One planned site is larger than Central Park.",
+                    "title": "Views of a Construction Boom"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/interactive/2026/09/28/satellite-images-show-scale-americas-data-center-build-out/",
+                        "datetime": "2026-09-28T14:17:04.021000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aba76e0fd12a83700000153",
+                        "targetTopic": "editors_picks",
+                        "text": "To meet the insatiable demand for computer processing to power AI, tech companies and their developers nationwide are building ever-larger data centers, packed with power-hungry equipment. Satellite imagery shows what was once farmland and desert taken over by massive buildings."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3824c8d0-bb3d-11f1-bb3b-00000a1ace62",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At every turn, Trump\u2019s ideas for aiding U.S. consumers run into resistance",
+            "ios": {
+                "alert": {
+                    "body": "At every turn, Trump\u2019s ideas for aiding U.S. consumers run into resistance",
+                    "title": "Persistent Inflation"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/09/28/every-turn-trumps-ideas-aiding-us-consumers-run-into-resistance/",
+                        "datetime": "2026-09-28T13:05:03.107000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aba65ffecddb0360000014e",
+                        "targetTopic": "breaking-news",
+                        "text": "From beef to diesel, White House efforts to bring down prices \u2014 the top concern among midterm voters \u2014 have failed so far to pan out."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
