@@ -457063,5 +457063,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cb59dae1-bad5-11f1-b252-0000a1ace474",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new movie asks whether Chris Hansen is the predator. He\u2019s sure of his answer.",
+            "ios": {
+                "alert": {
+                    "body": "A new movie asks whether Chris Hansen is the predator. He\u2019s sure of his answer.",
+                    "title": "\u2018Primetime\u2019 Depiction"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/27/primetime-asks-if-chris-hansen-is-predator-hes-sure-his-answer/",
+                        "datetime": "2026-09-28T00:44:42.408000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ab9b87aecddb0360000014d",
+                        "targetTopic": "editors_picks",
+                        "text": "\u201cPrimetime\u201d shows Hansen as overzealous. The cops on a recent sting in Louisiana are happy to have his help."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
