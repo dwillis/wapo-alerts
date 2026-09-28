@@ -457111,5 +457111,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c0a6c9e0-bb2b-11f1-85c2-00000a1ace1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rising prices. Trump ads. Senate control. Severe weather. Data centers. Peptide dangers. Dog language. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Rising prices. Trump ads. Senate control. Severe weather. Data centers. Peptide dangers. Dog language. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/28/7-things-know-monday-september-28/?noredirect=1",
+                        "datetime": "2026-09-28T11:00:01.089000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6aba48b1eaeba83700000134",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
