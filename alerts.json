@@ -457592,5 +457592,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5aaff8d1-bb91-11f1-b907-00000a1ace51",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why is Ringo Starr still performing at 86? Because he can.",
+            "ios": {
+                "alert": {
+                    "body": "Why is Ringo Starr still performing at 86? Because he can.",
+                    "title": "Lessons in Longevity"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/28/lessons-longevity-how-ringo-starr-keeps-playing-86/",
+                        "datetime": "2026-09-28T23:07:18.790000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abaf326fd12a83700000156",
+                        "targetTopic": "editors_picks",
+                        "text": "The drummer is onstage again, with death-defying energy and feel-good vibes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "173ba211-bb83-11f1-b0fc-00000a1ace97",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. test scores keep falling. But these states are getting it right.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. test scores keep falling. But these states are getting it right.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/28/these-states-show-how-reverse-decline-us-test-scores/",
+                        "datetime": "2026-09-28T21:25:12.591000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abadb38eaeba83700000137",
+                        "targetTopic": "opinions",
+                        "text": "A handful of states and the nation\u2019s capital offer a road map to improvement in student learning."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
