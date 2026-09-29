@@ -457688,5 +457688,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9dab7fa0-bbab-11f1-be60-00000a1ace47",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate passes sweeping bill on college sports to regulate transfer rules, payments to athletes",
+            "ios": {
+                "alert": {
+                    "body": "Senate passes sweeping bill on college sports to regulate transfer rules, payments to athletes",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/09/28/senate-passes-sweeping-college-sports-bill-heres-what-it-would-change/",
+                        "datetime": "2026-09-29T02:15:18.100000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abb1f36ecddb03600000151",
+                        "targetTopic": "breaking-news",
+                        "text": "The bill would establish national rules governing \u201cname, image and likeness\u201d payments to athletes, revenue sharing, transfers and eligibility. The legislation now heads to the House, where it will likely encounter resistance."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cba39893-bb9a-11f1-8264-00000a1aced3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "OpenAI cancels release of its next AI model, citing safety issues",
+            "ios": {
+                "alert": {
+                    "body": "OpenAI cancels release of its next AI model, citing safety issues",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/09/28/chatgpt-maker-openai-scraps-release-astra-61-model-over-safety/",
+                        "datetime": "2026-09-29T00:14:53.727000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abb02fdecddb03600000150",
+                        "targetTopic": "business",
+                        "text": "The artificial intelligence company said the model was found to take actions beyond the instructions it received and did not accurately communicate to human users what it did. The cancellation comes days after OpenAI said it would pause development of new highly capable AI models out of concern that the company doesn\u2019t have appropriate safeguards to keep the technology from behaving in unintended ways."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
