@@ -458457,5 +458457,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d91ea210-bcd7-11f1-ad13-0000a1ace432",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump can fire Hegseth. He can\u2019t easily undo the damage.",
+            "ios": {
+                "alert": {
+                    "body": "Trump can fire Hegseth. He can\u2019t easily undo the damage.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/30/trump-can-fire-hegseth-pentagon-will-still-struggle/",
+                        "datetime": "2026-09-30T14:04:26.880000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd16eaecddb03600000157",
+                        "targetTopic": "opinions",
+                        "text": "The Pentagon would have to rebuild expertise, trust and stability if the secretary is forced out."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "700396f0-bcd7-11f1-99da-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. withdraws forces in Iraq as balance of power shifts to Iran",
+            "ios": {
+                "alert": {
+                    "body": "U.S. withdraws forces in Iraq as balance of power shifts to Iran",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/29/us-withdraws-forces-iraq-balance-power-shifts-iran/",
+                        "datetime": "2026-09-30T14:01:30.449000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd163aecddb03600000156",
+                        "targetTopic": "breaking-news",
+                        "text": "The last remaining forces relocated to Jordan, the headquarters for the ongoing mission to fight Islamic State militants, U.S. officials said. More than two decades of American involvement in Iran resulted in the deaths of hundreds of thousands of Iraqi civilians and thousands of U.S. troops."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e22e62b1-bcd6-11f1-8eba-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pilot on Tel Aviv-bound flight tried to crash plane after cockpit stabbing, Netanyahu says",
+            "ios": {
+                "alert": {
+                    "body": "Pilot on Tel Aviv-bound flight tried to crash plane after cockpit stabbing, Netanyahu says",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/30/flydubai-flight-tel-aviv-diverted-saudi-arabia-after-onboard-altercation/",
+                        "datetime": "2026-09-30T13:57:32.405000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd154ceaeba83700000141",
+                        "targetTopic": "world",
+                        "text": "Israeli Prime Minister Benjamin Netanyahu said he had spoken to an Israeli passenger who, along with a crew member, \u201cmanaged to force their way into the cockpit, and together they subdued the pilot who had carried out the stabbing as he was trying to sabotage the plane\u2019s systems.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e7e8f720-bcd0-11f1-81ae-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Kennedy Center was solvent when Trump took over. Then its finances collapsed.",
+            "ios": {
+                "alert": {
+                    "body": "The Kennedy Center was solvent when Trump took over. Then its finances collapsed.",
+                    "title": "Scraping for Cash"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/09/30/kennedy-center-was-solvent-when-trump-took-over-then-its-finances-collapsed/",
+                        "datetime": "2026-09-30T13:14:45.164000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd0b45ecddb03600000155",
+                        "targetTopic": "breaking-news",
+                        "text": "The Post examined 15 years of the institution\u2019s financial records to see why it went south after the president took over."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
