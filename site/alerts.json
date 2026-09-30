@@ -458361,5 +458361,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2d434360-bcc8-11f1-b612-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Violent clash in cockpit and 18,000-foot nosedive raise terrorism fears as passenger jet headed for Israel makes emergency landing",
+            "ios": {
+                "alert": {
+                    "body": "Violent clash in cockpit and 18,000-foot nosedive raise terrorism fears as passenger jet headed for Israel makes emergency landing",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/09/30/flydubai-flight-tel-aviv-diverted-saudi-arabia-after-onboard-altercation/",
+                        "datetime": "2026-09-30T12:12:16.041000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abcfca0eaeba83700000140",
+                        "targetTopic": "breaking-news",
+                        "text": "Israeli officials said they were investigating the possibility of a serious security incident or terrorist attack, a person familiar with the matter said. \n\nIsraeli news outlets broadcast interviews with passengers describing a violent struggle inside the cockpit and photos of passengers with bloodied shirts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "15b35b40-bcbe-11f1-85ec-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jack Smith. Tel Aviv flight. Kennedy Center. AI safety. Lawmaker expenses. Male birth control. $60 rye bread. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Jack Smith. Tel Aviv flight. Kennedy Center. AI safety. Lawmaker expenses. Male birth control. $60 rye bread. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/09/30/7-things-know-wednesday-september-30/?noredirect=1",
+                        "datetime": "2026-09-30T11:00:01.483000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6abcebb13c9ccb360000013d",
+                        "targetTopic": "the7_briefs",
+                        "text": "Catch up in minutes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
