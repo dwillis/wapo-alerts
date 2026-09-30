@@ -459033,5 +459033,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "be291bc1-bd04-11f1-9418-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The House reimburses lawmakers for D.C. expenses. See who spent the most.",
+            "ios": {
+                "alert": {
+                    "body": "The House reimburses lawmakers for D.C. expenses. See who spent the most.",
+                    "title": "Rising Spending"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/09/30/house-members-expenses-surge-program-that-doesnt-require-receipts/",
+                        "datetime": "2026-09-30T19:25:48.984000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd623ceaeba83700000146",
+                        "targetTopic": "editors_picks",
+                        "text": "Taxpayers spent 21 percent more last year on the program, which helps cover the costs of food and lodging in Washington, a Post analysis found."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1dcf2f40-bd1b-11f1-87b2-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Defense Secretary Pete Hegseth details six new initiatives in fiery, partisan address to hundreds of U.S. troops",
+            "ios": {
+                "alert": {
+                    "body": "Defense Secretary Pete Hegseth details six new initiatives in fiery, partisan address to hundreds of U.S. troops",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/30/hegseth-map-out-forthcoming-moves-address-hundreds-troops/",
+                        "datetime": "2026-09-30T22:05:58.356000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd87c6eaeba83700000148",
+                        "targetTopic": "breaking-news",
+                        "text": "The Pentagon chief called for the establishment of a new headquarters focused on drone warfare and touted the recruitment of billionaire tech titans Elon Musk and Palmer Luckey to develop a next generation of weapons."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4dced3d1-bd11-11f1-8923-00000a1acefc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How many House seats will the Democrats win? The polls may already know.",
+            "ios": {
+                "alert": {
+                    "body": "How many House seats will the Democrats win? The polls may already know.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/30/how-many-house-seats-will-democrats-win-polls-may-already-know/",
+                        "datetime": "2026-09-30T20:55:43.941000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd774feaeba83700000147",
+                        "targetTopic": "opinions",
+                        "text": "How many House seats will the Democrats win? The polls may already know."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
