@@ -458313,5 +458313,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "90e5d2f0-bc5c-11f1-9286-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How to decide how long to keep your car and home appliances",
+            "ios": {
+                "alert": {
+                    "body": "How to decide how long to keep your car and home appliances",
+                    "title": "Fix it or Trash it?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/09/29/how-know-when-you-should-repair-something-when-you-should-trash-it/",
+                        "datetime": "2026-09-29T23:21:57.581000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abc4815ecddb03600000154",
+                        "targetTopic": "editors_picks",
+                        "text": "When should you retire a machine, and when should you keep it alive on duct tape and borrowed time? The answers are not what this columnist expected."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
