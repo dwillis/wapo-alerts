@@ -459177,5 +459177,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbd3be40-bd24-11f1-8923-00000a1acefc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court says Tennessee can move forward with the execution of Christa Pike in 1995 murder",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court says Tennessee can move forward with the execution of Christa Pike in 1995 murder",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/30/execution-tennessee-woman-blocked-by-federal-court-with-hours-spare/",
+                        "datetime": "2026-09-30T23:15:15.733000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd9803ecddb03600000159",
+                        "targetTopic": "breaking-news",
+                        "text": "Pike was scheduled to die Wednesday morning, but the U.S. Court of Appeals for the 6th Circuit imposed a last-minute stay. The Supreme Court\u2019s decision Wednesday evening appears to extinguish the last possible reprieve for Pike, who as an 18-year-old helped carry out a brutal murder of a fellow teen."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1b34c690-bd21-11f1-947e-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This $60 rye bread is everything that\u2019s right and wrong with New York, food critic Elazar Sontag writes",
+            "ios": {
+                "alert": {
+                    "body": "This $60 rye bread is everything that\u2019s right and wrong with New York, food critic Elazar Sontag writes",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/09/30/we-tried-infamous-60-rye-bread-lighting-up-internet/",
+                        "datetime": "2026-09-30T22:48:50.956000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abd91d2ecddb03600000158",
+                        "targetTopic": "editors_picks",
+                        "text": "In Austria, Martin Auer\u2019s loaves sell for roughly $16. Sontag sampled the spendy NYC version to find out whether the taste matches the price."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
