@@ -459609,5 +459609,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "725cc0f0-bdce-11f1-aef1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. and Amazon settle lawsuit over deliveries to majority-Black neighborhoods",
+            "ios": {
+                "alert": {
+                    "body": "D.C. and Amazon settle lawsuit over deliveries to majority-Black neighborhoods",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/01/dc-amazon-settle-lawsuit-over-deliveries-majority-black-neighborhoods/",
+                        "datetime": "2026-10-01T19:29:40.088000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abeb4a4fd12a83700000159",
+                        "targetTopic": "local",
+                        "text": "Amazon Prime customers who experienced slower deliveries because they lived in neighborhoods east of the Anacostia River, which are majority-Black, will receive millions of dollars in refunds after the company settled a lawsuit brought by D.C., the city attorney general\u2019s office said Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b347f340-bdc5-11f1-9c64-00000a1acec7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Christa Pike in critical condition after botched Tennessee execution, lawyers say",
+            "ios": {
+                "alert": {
+                    "body": "Christa Pike in critical condition after botched Tennessee execution, lawyers say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/01/tennessee-pledges-investigation-after-botching-second-execution-this-year/",
+                        "datetime": "2026-10-01T18:27:03.498000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abea5f7ecddb0360000015e",
+                        "targetTopic": "breaking-news",
+                        "text": "An attorney for Pike demanded that Gov. Bill Lee (R) commute her sentence after an attempt to execute her by lethal injection failed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
