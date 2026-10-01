@@ -459513,5 +459513,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b3795061-bdad-11f1-b94a-0000a1ace355",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge says U.S. can\u2019t prosecute ex-Olympian again in Reflecting Pool case",
+            "ios": {
+                "alert": {
+                    "body": "Judge says U.S. can\u2019t prosecute ex-Olympian again in Reflecting Pool case",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/01/judge-says-us-cant-prosecute-ex-olympian-again-reflecting-pool-case/",
+                        "datetime": "2026-10-01T15:35:15.960000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abe7db3eaeba83700000149",
+                        "targetTopic": "us",
+                        "text": "The case against David Hearn, whom the government accused of vandalism, has been dismissed with prejudice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "53720f71-bdaa-11f1-be74-00000a1acec6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ren\u00e9e Good\u2019s family sues Trump officials, saying fatal shooting in Minneapolis was \u2018not an accident\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Ren\u00e9e Good\u2019s family sues Trump officials, saying fatal shooting in Minneapolis was \u2018not an accident\u2019",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/10/01/rene-goods-family-sues-trump-officials-saying-death-was-not-an-accident/",
+                        "datetime": "2026-10-01T15:11:06.338000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abe780aecddb0360000015d",
+                        "targetTopic": "breaking-news",
+                        "text": "The death of the mother of three sparked protests and scrutiny over how federal officers are using force against both immigrants and protesters."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
