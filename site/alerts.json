@@ -459273,5 +459273,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "33c3fcd0-bd58-11f1-8814-00000a1ace97",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Christa Pike survived two doses of lethal injection, prompting Tennessee to halt her execution and begin emergency medical care",
+            "ios": {
+                "alert": {
+                    "body": "Christa Pike survived two doses of lethal injection, prompting Tennessee to halt her execution and begin emergency medical care",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/09/30/execution-tennessee-woman-blocked-by-federal-court-with-hours-spare/",
+                        "datetime": "2026-10-01T05:23:14.480000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abdee423c9ccb3600000141",
+                        "targetTopic": "us",
+                        "text": "Pike, who was convicted in a brutal 1995 killing, continued to breathe for nearly an hour after she was administered the drugs, her legal team said. Gov. Bill Lee said late Wednesday that he was halting all scheduled executions for the rest of 2026 and ordering a \u201ccomprehensive, third-party review to determine exactly what occurred.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
