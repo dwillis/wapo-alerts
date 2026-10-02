@@ -459849,5 +459849,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a1353080-bdf9-11f1-b281-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Major League Baseball drops proposal to build a ballpark in Wyoming\u2019s Grand Teton National Park",
+            "ios": {
+                "alert": {
+                    "body": "Major League Baseball drops proposal to build a ballpark in Wyoming\u2019s Grand Teton National Park",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/10/01/mlb-drops-proposal-host-baseball-game-grand-teton-national-park/",
+                        "datetime": "2026-10-02T00:38:47.054000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6abefd17fd12a8370000015a",
+                        "targetTopic": "breaking-news",
+                        "text": "League officials had approached the Trump administration about the viability of playing a game at the national park, and a National Park Service official had scouted potential locations. MLB Commissioner Rob Manfred said in a Thursday letter that \u201cit has become clear the local community does not want us to continue evaluating\" the park as a potential site."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
