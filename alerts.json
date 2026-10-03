@@ -461003,5 +461003,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0353b660-bf76-11f1-a31b-0000a1acec79",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A toddler\u2019s wobbly walk and hand tremors sent his parents on a medical journey",
+            "ios": {
+                "alert": {
+                    "body": "A toddler\u2019s wobbly walk and hand tremors sent his parents on a medical journey",
+                    "title": "Medical Mystery"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/03/toddlers-wobbly-walk-hand-tremors-send-parents-medical-journey/",
+                        "datetime": "2026-10-03T22:01:40.479000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac17b44e7c2763700000003",
+                        "targetTopic": "editors_picks",
+                        "text": "Doctors initially told the boy\u2019s parents not to worry. But they pressed for years until a rare diagnosis became clear."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
