@@ -460857,5 +460857,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6dbad3e0-bf52-11f1-8137-0000a1ace336",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "On the fence about buying an electric vehicle? Take our quiz.",
+            "ios": {
+                "alert": {
+                    "body": "On the fence about buying an electric vehicle? Take our quiz.",
+                    "title": "Car Choices"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2026/10/03/gas-prices-are-soaring-should-you-buy-an-electric-car-take-our-quiz/",
+                        "datetime": "2026-10-03T17:46:57.027000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac13f913de8ac3700000003",
+                        "targetTopic": "us",
+                        "text": "Whether your priority is environmental concerns or rising fuel costs, these questions could help you decide if an EV is right for you."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

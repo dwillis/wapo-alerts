@@ -460665,5 +460665,245 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f8a4d010-bf47-11f1-ad09-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Tennessee\u2019s prisons chief resigns after failed execution of Christa Pike, governor says",
+            "ios": {
+                "alert": {
+                    "body": "Tennessee\u2019s prisons chief resigns after failed execution of Christa Pike, governor says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/03/tennessee-prisons-chief-resigns-after-failed-christa-pike-execution-gov-says/",
+                        "datetime": "2026-10-03T16:32:05.714000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac12e054ea3c23700000001",
+                        "targetTopic": "breaking-news",
+                        "text": "The announcement from Gov. Bill Lee (R) comes days after Pike survived the attempted execution by lethal injection."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "73a1a210-bf44-11f1-925e-000a1ace6728",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Kid of the \u201980s can\u2019t understand sister\u2019s intense parenting style",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Kid of the \u201980s can\u2019t understand sister\u2019s intense parenting style",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/10/03/carolyn-hax-80s-kid-cant-understand-sisters-intense-parenting-style/",
+                        "datetime": "2026-10-03T16:06:54.068000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac1281ee7c2763700000002",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Kid of the \u201980s can\u2019t understand sister\u2019s intense parenting style"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "72e1ad70-bf44-11f1-9cfc-00000a1acec5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Wellness gurus love journaling. My marriage didn\u2019t.",
+            "ios": {
+                "alert": {
+                    "body": "Wellness gurus love journaling. My marriage didn\u2019t.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/09/29/katie-roiphe-journaling-why-it-may-be-bad-you/",
+                        "datetime": "2026-10-03T16:06:52.784000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac1281c2f95493700000003",
+                        "targetTopic": "opinions",
+                        "text": "Recording your thoughts and feelings is supposedly good for you. Here\u2019s why I stopped."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d2e6b000-bf3d-11f1-ad04-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cornell rape allegations reignite debate over laws on intoxication and consent",
+            "ios": {
+                "alert": {
+                    "body": "Cornell rape allegations reignite debate over laws on intoxication and consent",
+                    "title": "Statutes Under Scrutiny"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/03/cornell-rape-allegations-reignite-debate-over-laws-intoxication-consent/",
+                        "datetime": "2026-10-03T15:19:27.441000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac11cff2f95493700000002",
+                        "targetTopic": "us",
+                        "text": "About 20 states have statutes that can make it difficult to prosecute cases if accusers voluntarily drank or took drugs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6dbad3e0-bf52-11f1-8137-0000a1ace336",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "On the fence about buying an electric vehicle? Take our quiz.",
+            "ios": {
+                "alert": {
+                    "body": "On the fence about buying an electric vehicle? Take our quiz.",
+                    "title": "Car Choices"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/interactive/2026/10/03/gas-prices-are-soaring-should-you-buy-an-electric-car-take-our-quiz/",
+                        "datetime": "2026-10-03T17:46:57.027000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac13f913de8ac3700000003",
+                        "targetTopic": "us",
+                        "text": "Whether your priority is environmental concerns or rising fuel costs, these questions could help you decide if an EV is right for you."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
