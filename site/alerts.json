@@ -460473,5 +460473,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "85e92550-bea0-11f1-914d-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nick Saban and E. Gordon Gee: College sports is coming apart. This bill will bring it under control.",
+            "ios": {
+                "alert": {
+                    "body": "Nick Saban and E. Gordon Gee: College sports is coming apart. This bill will bring it under control.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/02/college-athletics-is-crisis-this-bill-will-help-fix-it/",
+                        "datetime": "2026-10-02T20:33:27.233000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac015172f95493700000001",
+                        "targetTopic": "opinions",
+                        "text": "The Senate just seized an opportunity to strengthen college athletics. The House should follow suit."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "76a0b7e0-bead-11f1-91b1-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "There\u2019s a simple way to become a better listener. Most of us don\u2019t do it.",
+            "ios": {
+                "alert": {
+                    "body": "There\u2019s a simple way to become a better listener. Most of us don\u2019t do it.",
+                    "title": "Reflective Listening"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2026/10/02/theres-simple-way-become-better-listener-most-us-dont-do-it/",
+                        "datetime": "2026-10-02T22:06:05.013000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac02acde7c2763700000001",
+                        "targetTopic": "editors_picks",
+                        "text": "It can be tempting to offer advice, solutions or silver linings when someone is struggling. Experts suggest a different strategy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
