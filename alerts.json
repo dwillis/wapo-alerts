@@ -460569,5 +460569,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "acc3e210-bf30-11f1-84a1-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "He threw away his American Dream. Then he rediscovered it in a dumpster.",
+            "ios": {
+                "alert": {
+                    "body": "He threw away his American Dream. Then he rediscovered it in a dumpster.",
+                    "title": "Foraging for Riches"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/04/he-lost-everything-then-he-found-riches-dumpster/",
+                        "datetime": "2026-10-03T13:45:19.789000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac106ef3de8ac3700000002",
+                        "targetTopic": "editors_picks",
+                        "text": "For one young man in Nashville, reselling what others throw away could be the way to find new purpose in his own life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a44a67a0-bf29-11f1-8a8e-00000a1ace53",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FlyDubai co-pilot used a crash ax to attack captain, attempted to take control of Israel-bound plane for 'terrorist act,' UAE says",
+            "ios": {
+                "alert": {
+                    "body": "FlyDubai co-pilot used a crash ax to attack captain, attempted to take control of Israel-bound plane for 'terrorist act,' UAE says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/03/flydubai-co-pilot-used-crash-ax-attack-captain-uae-says/",
+                        "datetime": "2026-10-03T12:54:59.252000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac0fb233de8ac3700000001",
+                        "targetTopic": "breaking-news",
+                        "text": "The co-pilot attempted to hijack Flight 1073 from Dubai to Tel Aviv by using an ax typically placed in the cockpit for emergency evacuations, UAE officials said in a statement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
