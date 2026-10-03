@@ -460905,5 +460905,103 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e0eb27c1-bf5c-11f1-997e-00000a1ace98",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Your wealthy BFF does not owe you a luxury lifestyle, financial columnist Michelle Singletary writes",
+            "ios": {
+                "alert": {
+                    "body": "Your wealthy BFF does not owe you a luxury lifestyle, financial columnist Michelle Singletary writes",
+                    "title": "Money and Friendship"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/03/lebron-jamess-wife-flies-first-class-without-her-best-friend/",
+                        "datetime": "2026-10-03T19:01:45.324000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac151193de8ac3700000004",
+                        "targetTopic": "business",
+                        "text": "This idea is at the center of a heated debate over a viral moment involving Savannah James, wife of NBA superstar LeBron James, and her friend, business partner and podcast co-host April McDaniel."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c10d50f0-bf6a-11f1-8367-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Does the Elizabeth Holmes film live up to the hype? Here are 5 takeaways.",
+            "ios": {
+                "alert": {
+                    "body": "Does the Elizabeth Holmes film live up to the hype? Here are 5 takeaways.",
+                    "title": "Highly Anticipated"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/10/03/5-takeaways-elizabeth-holmes-documentary-you-can-see-everything/",
+                        "datetime": "2026-10-03T20:41:04.842000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac168602f95493700000004",
+                        "targetTopic": "business",
+                        "text": "What to know about \u201cYou Can See Everything,\u201d the most-anticipated documentary of the decade."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
