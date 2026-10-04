@@ -461147,5 +461147,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "09069220-bffe-11f1-95eb-00000a1aced5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s opponents are planning efforts to reverse his changes to the presidency",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s opponents are planning efforts to reverse his changes to the presidency",
+                    "title": "As Midterms Approach"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/04/democrats-are-making-plans-clean-up-government-post-trump-era/",
+                        "datetime": "2026-10-04T14:15:21.463000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac25f794ea3c23700000003",
+                        "targetTopic": "editors_picks",
+                        "text": "As the midterms approach, Democrats are working to ensure his aggressive approach to executive power doesn\u2019t outlast him."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
