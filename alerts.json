@@ -461532,5 +461532,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "73948730-c04b-11f1-9d2a-00000a1ace58",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why you should think about getting your flu shot right now",
+            "ios": {
+                "alert": {
+                    "body": "Why you should think about getting your flu shot right now",
+                    "title": "Unusually Early Surge"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/04/why-you-should-think-about-getting-your-flu-shot-now/",
+                        "datetime": "2026-10-04T23:29:31.618000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac2e15be7c2763700000005",
+                        "targetTopic": "editors_picks",
+                        "text": "Flu is surging unusually early in some parts of the western United States, catching doctors by surprise."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
