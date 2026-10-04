@@ -461484,5 +461484,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1854a110-c042-11f1-9cfd-0000a1ace2c9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. removes Air Force bombers from U.K. base targeted in suspected terror plot",
+            "ios": {
+                "alert": {
+                    "body": "U.S. removes Air Force bombers from U.K. base targeted in suspected terror plot",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/04/us-military-removes-bombers-uk-base-targeted-suspected-terror-plot/",
+                        "datetime": "2026-10-04T22:22:33.042000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac2d1a94ea3c23700000007",
+                        "targetTopic": "breaking-news",
+                        "text": "Royal Air Force Fairford has been used by the United States for long-range bombing missions in its war against Iran."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
