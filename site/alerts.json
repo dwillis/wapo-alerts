@@ -461339,5 +461339,150 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6848c070-c024-11f1-8542-00000a1ace62",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The drugstore staple dermatologists swear by for dry, cracked skin",
+            "ios": {
+                "alert": {
+                    "body": "The drugstore staple dermatologists swear by for dry, cracked skin",
+                    "title": "Old-School Ingredient"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/04/drugstore-staple-dermatologists-swear-by-dry-cracked-skin/",
+                        "datetime": "2026-10-04T18:50:02.215000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac29fda4ea3c23700000005",
+                        "targetTopic": "health",
+                        "text": "Studies have shown that urea can help improve dry skin. But many people have not heard of it."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0ea45421-c016-11f1-b187-00000a1acecf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A U.S. shipwreck, laden with World War II munitions, is a time bomb near London",
+            "ios": {
+                "alert": {
+                    "body": "A U.S. shipwreck, laden with World War II munitions, is a time bomb near London",
+                    "title": "Preventing Catastrophe"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/04/us-shipwreck-laden-with-world-war-ii-munitions-is-time-bomb-near-london/",
+                        "datetime": "2026-10-04T17:07:18.917000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac287c64ea3c23700000004",
+                        "targetTopic": "world",
+                        "text": "A salvage crew has been working to stabilize the SS Richard Montgomery, which sank a few months after D-Day in 1944 with 1,500 tons of explosives in its holds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "60c4a7e0-c030-11f1-88a0-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "An election chief lost. Then he padlocked the ballots and called the FBI.",
+            "ios": {
+                "alert": {
+                    "body": "An election chief lost. Then he padlocked the ballots and called the FBI.",
+                    "title": "Distrust in the System"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/04/shasta-countys-election-chief-lost-then-he-locked-up-ballots/",
+                        "datetime": "2026-10-04T20:15:43.660000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac2b3ef4ea3c23700000006",
+                        "targetTopic": "editors_picks",
+                        "text": "Shasta County, California, where election doubts run so deep that some don\u2019t trust results even when their choice prevails, offers a glimpse of what happens when distrust in voting systems takes root."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
