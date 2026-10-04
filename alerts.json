@@ -461099,5 +461099,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c6c7d530-bfef-11f1-b491-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. Marine arrested on suspicion of killing woman in Japan, drawing official protest from Tokyo",
+            "ios": {
+                "alert": {
+                    "body": "U.S. Marine arrested on suspicion of killing woman in Japan, drawing official protest from Tokyo",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/04/us-marine-accused-murder-japan-drawing-official-protest-tokyo/",
+                        "datetime": "2026-10-04T12:33:17.378000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac2478d2f95493700000005",
+                        "targetTopic": "breaking-news",
+                        "text": "Devin Jacob Ballard is accused of killing and robbing Anna Yagi, police told Japan\u2019s public broadcaster. He denied the allegations, a spokesman said. The III Marine Expeditionary Force, based in Okinawa, said it was cooperating with authorities \u201cin response to allegations of serious criminal actions.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
