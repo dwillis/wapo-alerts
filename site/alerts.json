@@ -461580,5 +461580,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff4c3c30-c057-11f1-88a0-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Brazil\u2019s presidential election heads to a runoff: 5 takeaways on the Bolsonaro, Lula matchup",
+            "ios": {
+                "alert": {
+                    "body": "Brazil\u2019s presidential election heads to a runoff: 5 takeaways on the Bolsonaro, Lula matchup",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/04/bolsonaro-lula-head-runoff-5-takeaways-brazils-election/",
+                        "datetime": "2026-10-05T00:59:19.982000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac2f6672f95493700000007",
+                        "targetTopic": "world",
+                        "text": "Senator Fl\u00e1vio Bolsonaro and President Luiz In\u00e1cio Lula da Silva finished first and second in the election's opening round. At stake is whether Latin America\u2019s largest country continues the region\u2019s rightward shift, which has already brought Argentina, Colombia and other countries into closer cooperation with the Trump administration on narcotrafficking and other priorities, or remains South America\u2019s last major holdout."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
