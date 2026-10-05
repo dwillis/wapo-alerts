@@ -462012,5 +462012,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cf04fe80-c0e9-11f1-a33b-0000a1ace5d0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House blocks Politico from trip on Air Force One",
+            "ios": {
+                "alert": {
+                    "body": "White House blocks Politico from trip on Air Force One",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/05/white-house-blocks-politico-trip-air-force-one/",
+                        "datetime": "2026-10-05T18:23:05.474000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac3eb093de8ac3700000008",
+                        "targetTopic": "politics",
+                        "text": "The decision follows an attempted ban of the outlet from the White House grounds, and a similar move to block CNN from the presidential plane."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
