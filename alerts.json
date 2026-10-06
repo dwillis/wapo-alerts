@@ -462828,5 +462828,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "44876760-c1b2-11f1-a822-0000a1ace3dc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Will Texas turn blue? Here\u2019s what voters told me at a Buc-ee\u2019s.",
+            "ios": {
+                "alert": {
+                    "body": "Will Texas turn blue? Here\u2019s what voters told me at a Buc-ee\u2019s.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/06/talarico-leads-paxton-texas-turns-unexpectedly-competitive/",
+                        "datetime": "2026-10-06T18:18:01.988000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac53b594ea3c2370000000f",
+                        "targetTopic": "opinions",
+                        "text": "Talarico leads Paxton, while a Democrat has also made the governor\u2019s race competitive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
