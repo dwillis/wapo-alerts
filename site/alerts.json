@@ -462396,5 +462396,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "13a30060-c175-11f1-b784-000a1ace74b7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kamala Harris. Trump ads. Plague reports. Midterm analysis. Cornell protests. Brain waste. Thomas Jefferson. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Kamala Harris. Trump ads. Plague reports. Midterm analysis. Cornell protests. Brain waste. Thomas Jefferson. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/06/7-things-know-tuesday-october-6/?noredirect=1",
+                        "datetime": "2026-10-06T11:00:00.607000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6ac4d4b03de8ac370000000a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4ffef250-c187-11f1-9dfa-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Paramount closes $110B deal with Warner Bros. Discovery, creating media giant that includes HBO, CNN, CBS News",
+            "ios": {
+                "alert": {
+                    "body": "Paramount closes $110B deal with Warner Bros. Discovery, creating media giant that includes HBO, CNN, CBS News",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/06/paramount-closes-110b-deal-with-warner-bros-discovery-after-months-wrangling/",
+                        "datetime": "2026-10-06T13:10:32.899000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac4f3482f9549370000000c",
+                        "targetTopic": "breaking-news",
+                        "text": "The deal closes after months of bidding wars and legal wrangling. The new company, called Skydance, will be led by tech scion David Ellison and Ynon Kreiz, formerly the top executive at Mattel."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "deb09621-c182-11f1-adf7-00000a1ace55",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump approves firing squad execution for Fort Hood shooter",
+            "ios": {
+                "alert": {
+                    "body": "Trump approves firing squad execution for Fort Hood shooter",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/06/trump-orders-firing-squad-execution-fort-hood-shooter-nidal-hasan/",
+                        "datetime": "2026-10-06T12:38:44.708000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac4ebd42f9549370000000b",
+                        "targetTopic": "us",
+                        "text": "Nidal Hasan killed 13 people and wounded 32 in a shooting rampage at a military base in Texas in 2009. His execution would be the first by the U.S. military since 1961."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
