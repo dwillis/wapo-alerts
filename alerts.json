@@ -462300,5 +462300,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "46dfb2b1-c117-11f1-b8ce-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump reverses course, says he won\u2019t use taxpayer money for campaign-style ads",
+            "ios": {
+                "alert": {
+                    "body": "Trump reverses course, says he won\u2019t use taxpayer money for campaign-style ads",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/05/trump-reverses-course-says-he-wont-use-taxpayer-money-campaign-style-ads/",
+                        "datetime": "2026-10-05T23:48:33.918000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac43751e7c2763700000009",
+                        "targetTopic": "politics",
+                        "text": "The president has faced backlash from Democrats and even some Republicans about the commercials. The president argued that the television spots, which included one that closely resembled an ad for his 2024 presidential campaign, and another of him and Secretary of Defense Pete Hegseth advocating for the Iran war, were \u201ca rather standard thing to do.\u201d But he said he had \u201cdecided to do the Patriotic Ads, among others, and pay for them myself, and with money I raised for MAGA, Inc.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
