@@ -463116,5 +463116,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f092abb0-c1ed-11f1-91e1-00000a1acec1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Emails show how ICE scaled back instruction on the nation\u2019s immigration laws for deputized officers",
+            "ios": {
+                "alert": {
+                    "body": "Emails show how ICE scaled back instruction on the nation\u2019s immigration laws for deputized officers",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/10/06/emails-show-how-ice-trimmed-training-deputized-officers/",
+                        "datetime": "2026-10-07T01:25:10.954000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac59f76e7c276370000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "Police officers helping ICE arrest unauthorized immigrants were given a shortened training course, and instruction providing officers with real world scenarios they might encounter was eliminated altogether, according to emails reviewed by The Washington Post."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "210dacb0-c1e2-11f1-a88b-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A timeline of the Cornell University rape allegations",
+            "ios": {
+                "alert": {
+                    "body": "A timeline of the Cornell University rape allegations",
+                    "title": "\u2018I Felt Like Bait\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/education/interactive/2026/10/06/i-felt-like-bait-timeline-cornell-university-rape-allegations/",
+                        "datetime": "2026-10-07T00:00:38.297000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac58ba63de8ac370000000d",
+                        "targetTopic": "editors_picks",
+                        "text": "From the night in question in 2024 to the university\u2019s response and the student\u2019s lawsuit, these are the key dates."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
