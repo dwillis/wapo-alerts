@@ -463212,5 +463212,437 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b6f629a1-c264-11f1-a58d-000a1ace3561",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Is it OK to lie to get a restaurant reservation? Our food critic is answering your questions now.",
+            "ios": {
+                "alert": {
+                    "body": "Is it OK to lie to get a restaurant reservation? Our food critic is answering your questions now.",
+                    "title": "Live Chat"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/10/07/ask-elazar-sontag-your-dining-questions/",
+                        "datetime": "2026-10-07T15:35:24.348000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac666bc3de8ac370000000e",
+                        "targetTopic": "food",
+                        "text": "Is it OK to lie to get a restaurant reservation? Our food critic is answering your questions now."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a00942d0-c25b-11f1-8e24-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump wants to turn one of his golf courses into the new Camp David",
+            "ios": {
+                "alert": {
+                    "body": "Trump wants to turn one of his golf courses into the new Camp David",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/07/trump-wants-new-camp-david-his-own-golf-club/",
+                        "datetime": "2026-10-07T14:30:20.398000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac6577c4ea3c23700000012",
+                        "targetTopic": "breaking-news",
+                        "text": "The plan calls for the federal government to be granted part of the West Palm Beach property, with the rest maintained as a private course."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3d7dcf61-c255-11f1-a91c-0000a1acefb6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Republican senator who\u2019s fed up with presidential family sleaze",
+            "ios": {
+                "alert": {
+                    "body": "The Republican senator who\u2019s fed up with presidential family sleaze",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/07/sen-john-curtis-targets-donald-trump-jr-hunter-biden-sleaze/",
+                        "datetime": "2026-10-07T13:44:38.072000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac64cc62f9549370000000f",
+                        "targetTopic": "opinions",
+                        "text": "Sen. John Curtis urges hearings and subpoenas for Donald Trump Jr. and Hunter Biden."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4ad4b3c0-c24d-11f1-86b9-00000a1ace01",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Takeaways from the Maine Senate debate between Susan Collins and Troy Jackson",
+            "ios": {
+                "alert": {
+                    "body": "Takeaways from the Maine Senate debate between Susan Collins and Troy Jackson",
+                    "title": "Faceoff in Key Race"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/06/takeaways-maine-senate-debate-between-susan-collins-troy-jackson/",
+                        "datetime": "2026-10-07T12:47:44.501000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac63f70e7c2763700000010",
+                        "targetTopic": "politics",
+                        "text": "The first debate in a race for a critical U.S. Senate seat featured lots of talk about Trump, high prices and the war in Iran."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "40851361-c23e-11f1-a92d-0000a1ace69d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Christa Pike. Midterm ads. Presidential retreat. Lab death. Campus sex assaults. Heart disease. Cheaper flights. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Christa Pike. Midterm ads. Presidential retreat. Lab death. Campus sex assaults. Heart disease. Cheaper flights. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/07/7-things-know-wednesday-october-7/?noredirect=1",
+                        "datetime": "2026-10-07T11:00:04.727000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6ac62634e7c276370000000f",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8eb16aa4-c29a-11f1-93e5-0000a1ace568",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "For cheaper holiday travel, here\u2019s when to book and when to fly",
+            "ios": {
+                "alert": {
+                    "body": "For cheaper holiday travel, here\u2019s when to book and when to fly",
+                    "title": "Airfares Are Soaring"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/2026/10/07/best-time-book-cheaper-holiday-flights-according-data/",
+                        "datetime": "2026-10-07T22:00:49.565000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac6c1112f95493700000010",
+                        "targetTopic": "editors_picks",
+                        "text": "And other expert tips for saving money this unusually expensive winter season."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2c65edc1-c291-11f1-bc08-00000a1ace97",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Is society growing stupider? The clues are simple and repeated.",
+            "ios": {
+                "alert": {
+                    "body": "Is society growing stupider? The clues are simple and repeated.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/07/culture-is-getting-simpler-that-should-worry-you/",
+                        "datetime": "2026-10-07T20:53:39.273000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac6b1533de8ac370000000f",
+                        "targetTopic": "opinions",
+                        "text": "Is society growing stupider? The clues are simple and repeated."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5dfbe360-c27f-11f1-bacb-00000a1ace48",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Bronze bust of Robert F. Kennedy reported stolen from D.C. stadium site",
+            "ios": {
+                "alert": {
+                    "body": "Bronze bust of Robert F. Kennedy reported stolen from D.C. stadium site",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/07/bust-rfk-is-reported-stolen-old-robert-f-kennedy-stadium-site-dc/",
+                        "datetime": "2026-10-07T18:46:11.551000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac69373e7c2763700000011",
+                        "targetTopic": "local",
+                        "text": "The memorial sculpture, which was installed in front of the now-razed RFK Stadium in 1969, was reported missing to D.C. police on Oct. 1."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5c550e01-c27b-11f1-ac56-00000a1aced7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge orders Tennessee to preserve evidence in failed execution of Christa Pike",
+            "ios": {
+                "alert": {
+                    "body": "Judge orders Tennessee to preserve evidence in failed execution of Christa Pike",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/07/judge-orders-tennessee-preserve-evidence-failed-execution-christa-pike/",
+                        "datetime": "2026-10-07T18:17:30.739000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac68cba4ea3c23700000013",
+                        "targetTopic": "us",
+                        "text": "State prison officials were also ordered to grant Pike\u2019s attorneys greater access to her."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
