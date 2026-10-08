@@ -464220,5 +464220,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ac3d6020-c366-11f1-a7d5-000a1ace82bd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At 81, he\u2019s the most-cited nutrition expert. Here\u2019s what he eats in a day.",
+            "ios": {
+                "alert": {
+                    "body": "At 81, he\u2019s the most-cited nutrition expert. Here\u2019s what he eats in a day.",
+                    "title": "Going Strong"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/08/what-walter-willett-most-cited-nutrition-expert-eats-day/",
+                        "datetime": "2026-10-08T22:21:56.557000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac817844ea3c23700000016",
+                        "targetTopic": "editors_picks",
+                        "text": "Walter Willett\u2019s research has changed the way Americans eat, revealing how diet and other lifestyle choices can shape your risk of chronic illnesses."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
