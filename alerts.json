@@ -463644,5 +463644,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cd398d90-c2bb-11f1-98c2-000a1ace141f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "University of Maryland student missing since last week is found after extensive search",
+            "ios": {
+                "alert": {
+                    "body": "University of Maryland student missing since last week is found after extensive search",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/07/maryland-college-student-still-missing-after-extensive-multiday-search/",
+                        "datetime": "2026-10-08T01:58:47.989000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac6f8d74ea3c23700000014",
+                        "targetTopic": "local",
+                        "text": "The university\u2019s campus police alert said that Dilan Shaan Ashar has been reunited with family. The alert did not specify where or when the 22-year-old was found. Earlier this week, family members released an emotional plea to the public that spread across social media feeds throughout the D.C. region."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
