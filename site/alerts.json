@@ -464028,5 +464028,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "60e524f0-c361-11f1-a58e-00000a1ace6f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fort Hood shooter\u2019s execution by firing squad will be livestreamed, Defense Department says",
+            "ios": {
+                "alert": {
+                    "body": "Fort Hood shooter\u2019s execution by firing squad will be livestreamed, Defense Department says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/08/hegseth-wants-fort-hood-shooters-execution-by-firing-squad-be-public/",
+                        "datetime": "2026-10-08T21:44:02.552000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac80ea2e7c2763700000016",
+                        "targetTopic": "breaking-news",
+                        "text": "The announcement came after earlier comments Defense Secretary Pete Hegseth made indicating he wanted the execution of Nidal Malik Hasan to be public. Hasan is a former U.S. Army psychiatrist who opened fire on dozens of people at Fort Hood, Texas, in 2009, killing 13 people and injuring 32 others."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7e11f340-c358-11f1-9756-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "David Von Drehle: The shrinking God of Jim Bakker",
+            "ios": {
+                "alert": {
+                    "body": "David Von Drehle: The shrinking God of Jim Bakker",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/08/televangelist-jim-bakker-shrunken-down-version-god/",
+                        "datetime": "2026-10-08T20:40:26.158000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac7ffbae7c2763700000015",
+                        "targetTopic": "opinions",
+                        "text": "David Von Drehle: The shrinking God of Jim Bakker"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f0a59821-c345-11f1-a12d-0000a1acedff",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Manifest Bread sells stellar loaves. Its dinner menu is just as good, food critic Elazar Sontag writes in his review.",
+            "ios": {
+                "alert": {
+                    "body": "Manifest Bread sells stellar loaves. Its dinner menu is just as good, food critic Elazar Sontag writes in his review.",
+                    "title": "More to Offer"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/10/08/manifest-bread-review-one-dc-area-best-bakeries-has-more-offer/",
+                        "datetime": "2026-10-08T18:27:37.960000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac7e0994ea3c23700000015",
+                        "targetTopic": "local",
+                        "text": "The revered Riverdale Park, Maryland, bakery has expanded beyond bread."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2c3bc080-c341-11f1-bcf7-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why are fewer teens identifying as gay or bisexual? Researchers aren\u2019t sure.",
+            "ios": {
+                "alert": {
+                    "body": "Why are fewer teens identifying as gay or bisexual? Researchers aren\u2019t sure.",
+                    "title": "A Shift in Identity"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/08/number-teens-who-identify-themselves-gay-or-bisexual-free-fall/",
+                        "datetime": "2026-10-08T17:53:30.445000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac7d89ae7c2763700000014",
+                        "targetTopic": "us",
+                        "text": "The decline is particularly striking among ninth-grade girls, according to Jean Twenge, a professor of psychology at San Diego State University, who analyzed Centers for Disease Control and Prevention data."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
