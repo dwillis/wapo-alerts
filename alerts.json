@@ -464604,5 +464604,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bcded400-c400-11f1-aeeb-00000a1ace8d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why am I always the friend who takes the initiative to make plans? Our Say More columnists are giving advice.",
+            "ios": {
+                "alert": {
+                    "body": "Why am I always the friend who takes the initiative to make plans? Our Say More columnists are giving advice.",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/10/09/say-more-live-chat/",
+                        "datetime": "2026-10-09T16:44:46.951000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac919fee7c2763700000019",
+                        "targetTopic": "advice",
+                        "text": "Why am I always the friend who takes the initiative to make plans? Our Say More columnists are giving advice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b7053f80-c3fe-11f1-98b2-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mike Ditka, legendary Chicago Bears coach, dies at 86",
+            "ios": {
+                "alert": {
+                    "body": "Mike Ditka, legendary Chicago Bears coach, dies at 86",
+                    "title": "Sports Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/10/09/mike-ditka-legendary-coach-da-bears-dies-86/",
+                        "datetime": "2026-10-09T16:30:18.126000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac9169a3de8ac3700000013",
+                        "targetTopic": "us",
+                        "text": "He helped revolutionize the tight end position, but it was as a coach that he built his legacy, leading the 1985 Bears to the franchise\u2019s only Super Bowl victory."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8daee0b0-c3f8-11f1-9e7b-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats can ask and ask. I won\u2019t drop out of Montana\u2019s Senate race.",
+            "ios": {
+                "alert": {
+                    "body": "Democrats can ask and ask. I won\u2019t drop out of Montana\u2019s Senate race.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/09/montana-voters-should-choose-their-won-senate-candidate/",
+                        "datetime": "2026-10-09T15:46:11.840000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac90c432f95493700000015",
+                        "targetTopic": "opinions",
+                        "text": "The political establishment is trying to override the voters."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
