@@ -464748,5 +464748,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aee13841-c41c-11f1-8c38-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FlyDubai co-pilot planned 9/11-style attack on Israel\u2019s main airport, UAE says",
+            "ios": {
+                "alert": {
+                    "body": "FlyDubai co-pilot planned 9/11-style attack on Israel\u2019s main airport, UAE says",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/09/flydubai-co-pilot-planned-911-style-attack-israels-main-airport-uae-says/",
+                        "datetime": "2026-10-09T20:04:49.418000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac948e14ea3c2370000001b",
+                        "targetTopic": "world",
+                        "text": "Hamam al-Hammami, a 29-year-old Omani national, intended to cause \u201cthe greatest possible number of human casualties,\u201d the Emirati attorney general said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "75b1a610-c415-11f1-9257-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Conservative commentator Katie Zacharia chosen as new White House press secretary, according to administration officials",
+            "ios": {
+                "alert": {
+                    "body": "Conservative commentator Katie Zacharia chosen as new White House press secretary, according to administration officials",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/09/trump-taps-conservative-commentator-next-white-house-press-secretary/",
+                        "datetime": "2026-10-09T19:13:06.989000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac93cc2e7c276370000001a",
+                        "targetTopic": "breaking-news",
+                        "text": "Zacharia replaces Karoline Leavitt, who departed the White House in August after giving birth to her second child."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ddd2e4b0-c411-11f1-b6ff-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Vance says he's skeptical Fort Hood shooter\u2019s execution will actually be live-streamed and won't watch if it is",
+            "ios": {
+                "alert": {
+                    "body": "Vance says he's skeptical Fort Hood shooter\u2019s execution will actually be live-streamed and won't watch if it is",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/09/fcc-chief-defers-pentagon-whether-military-execution-could-air-tv/",
+                        "datetime": "2026-10-09T18:47:23.673000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac936bb4ea3c2370000001a",
+                        "targetTopic": "breaking-news",
+                        "text": "The vice president\u2019s comments mark the first time a top Trump official has signaled some unease with the Pentagon\u2019s decision to make the execution public."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
