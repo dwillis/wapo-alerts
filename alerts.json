@@ -464316,5 +464316,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f7f6a310-c397-11f1-a58e-00000a1ace6f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE officer fired at least seven rounds in shooting that wounded a man in a car on a crowded city street, New York officials say",
+            "ios": {
+                "alert": {
+                    "body": "ICE officer fired at least seven rounds in shooting that wounded a man in a car on a crowded city street, New York officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/10/08/ice-officer-shoots-wounds-man-new-york-city/",
+                        "datetime": "2026-10-09T04:14:48.973000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac86a384ea3c23700000018",
+                        "targetTopic": "breaking-news",
+                        "text": "New York Mayor Zohran Mamdani said a 5-year-old child was in the car at the time of the shooting. The Department of Homeland Security said an immigration officer fired his weapon during a \u201ctargeted enforcement operation\u201d while attempting to apprehend an undocumented Dominican man with a criminal history."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
