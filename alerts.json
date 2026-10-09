@@ -464268,5 +464268,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "48791d92-c36b-11f1-8526-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Virginia county sues to block President Donald Trump from building his 250-foot-tall triumphal arch",
+            "ios": {
+                "alert": {
+                    "body": "Virginia county sues to block President Donald Trump from building his 250-foot-tall triumphal arch",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/08/virginia-county-sues-block-trump-building-his-arch/",
+                        "datetime": "2026-10-08T22:54:56.559000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac81f404ea3c23700000017",
+                        "targetTopic": "breaking-news",
+                        "text": "Arlington County\u2019s all-Democratic board argues in a lawsuit filed in federal court in Virginia that the Trump administration failed to adequately evaluate potential environmental impacts of the project as required by federal law. The administration plans to build the arch on an island in the Potomac River that is officially part of D.C. but is within a few hundred yards of Arlington, a county of about 240,000 people that is home to several federal agencies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
