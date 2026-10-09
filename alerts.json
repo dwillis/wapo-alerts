@@ -464364,5 +464364,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "62ad1ca1-c3c2-11f1-bd35-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Navanethem \u2018Navi\u2019 Pillay, South African jurist, awarded Nobel Peace Prize",
+            "ios": {
+                "alert": {
+                    "body": "Navanethem \u2018Navi\u2019 Pillay, South African jurist, awarded Nobel Peace Prize",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/09/navi-pillay-wins-nobel-peace-prize/",
+                        "datetime": "2026-10-09T09:18:26.840000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac8b162e7c2763700000017",
+                        "targetTopic": "breaking-news",
+                        "text": "The Nobel committee recognized the jurist and former U.N. human rights chief for her work helping \u201cto strengthen the institutions of international law.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
