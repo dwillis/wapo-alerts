@@ -465564,5 +465564,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e0e6e621-c4fb-11f1-919a-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least 12 killed and hundreds injured in attack at Saudi Arabia\u2019s international airport in Riyadh, authorities say",
+            "ios": {
+                "alert": {
+                    "body": "At least 12 killed and hundreds injured in attack at Saudi Arabia\u2019s international airport in Riyadh, authorities say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/10/saudi-arabia-faces-new-level-peril-houthi-attacks-amid-wider-iran-war/",
+                        "datetime": "2026-10-10T22:42:31.078000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acabf574ea3c23700000022",
+                        "targetTopic": "breaking-news",
+                        "text": "Amid the wider Iran war, Yemen\u2019s Houthis are striking Saudi oil infrastructure, as compounding Middle East conflicts threaten to expand. The rebel group did not immediately claim responsibility for the attack, which authorities said killed one American."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
