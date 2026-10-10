@@ -465372,5 +465372,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2aaa4192-c4e2-11f1-b779-00000a1ace64",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Death toll rises to 4 after Hurricane Isaias roared ashore near Destin, Florida, and swept inland",
+            "ios": {
+                "alert": {
+                    "body": "Death toll rises to 4 after Hurricane Isaias roared ashore near Destin, Florida, and swept inland",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/10/10/isaias-makes-landfall-florida-leaving-hundreds-thousands-without-power/",
+                        "datetime": "2026-10-10T19:38:27.941000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aca94332f95493700000016",
+                        "targetTopic": "breaking-news",
+                        "text": "Ferocious winds were also driving power outages across Florida, Alabama and Georgia as of early Saturday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "04569410-c4df-11f1-80d2-0000a1ace6d5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The dads who are speaking up about the Cornell rape allegations",
+            "ios": {
+                "alert": {
+                    "body": "The dads who are speaking up about the Cornell rape allegations",
+                    "title": "Chats About Consent"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/10/10/after-cornell-these-dads-are-urging-other-dads-talk-their-sons/",
+                        "datetime": "2026-10-10T19:15:55.143000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aca8eeb4ea3c23700000021",
+                        "targetTopic": "editors_picks",
+                        "text": "On social media, fathers are modeling age-appropriate conversations they\u2019re having with their kids about consent."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
