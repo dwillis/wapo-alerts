@@ -465036,5 +465036,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e13c73b0-c44c-11f1-8372-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hurricane Isaias makes landfall in Florida as a high-end Category 2 storm",
+            "ios": {
+                "alert": {
+                    "body": "Hurricane Isaias makes landfall in Florida as a high-end Category 2 storm",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/10/09/hurricane-isaias-is-closing-these-cities-will-face-its-worst-impacts/",
+                        "datetime": "2026-10-10T01:49:49.680000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac999bde7c276370000001d",
+                        "targetTopic": "breaking-news",
+                        "text": "Isaias struck late Friday near Destin, as the National Hurricane Center warned of \u201clife threatening storm surge\u201d that was already affecting the Gulf Coast. The storm had strengthened early Friday to a Category 3 before downgrading slightly to a Category 2, with maximum sustained winds at 105 mph at the time its eye crossed the shore."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a6a27f42-c449-11f1-b0ed-00000a1ace16",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "More than 500 trees eyed for removal from East Potomac Golf Links, the D.C. course Trump is seeking to redesign",
+            "ios": {
+                "alert": {
+                    "body": "More than 500 trees eyed for removal from East Potomac Golf Links, the D.C. course Trump is seeking to redesign",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/10/09/more-than-500-trees-may-be-removed-dc-golf-course-trump-wants-redesign/",
+                        "datetime": "2026-10-10T01:26:42.769000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ac99452e7c276370000001c",
+                        "targetTopic": "local",
+                        "text": "The first phase begins Saturday and contains 169 trees marked for removal, according to a federal court filing. A second phase covering 90 trees would follow, and the National Park Service says as many as 529 could eventually come down. The disclosure was part of the government\u2019s response to an expanded lawsuit challenging President Donald Trump\u2019s proposed transformation of the century-old facility."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
