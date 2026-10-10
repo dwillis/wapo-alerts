@@ -465468,5 +465468,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "33709f50-c4f0-11f1-bb64-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The new welfare queen is Brad. Right-wing pundits are furious.",
+            "ios": {
+                "alert": {
+                    "body": "The new welfare queen is Brad. Right-wing pundits are furious.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/07/maga-pushback-white-male-welfare-villain-reveals-much-about-race/",
+                        "datetime": "2026-10-10T21:18:55.633000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acaabbf2f95493700000017",
+                        "targetTopic": "opinions",
+                        "text": "The new welfare queen is Brad. Right-wing pundits are furious."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e7c70540-c4e9-11f1-b6c6-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Montana Democrat who refuses to drop out may spoil party\u2019s Senate hopes",
+            "ios": {
+                "alert": {
+                    "body": "Montana Democrat who refuses to drop out may spoil party\u2019s Senate hopes",
+                    "title": "A Defiant Campaign"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/10/montana-democrat-who-refuses-drop-out-may-spoil-partys-senate-hopes/",
+                        "datetime": "2026-10-10T20:33:51.644000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acaa12fe7c276370000001e",
+                        "targetTopic": "politics",
+                        "text": "Candidate Alani Bankhead vigorously denies claims she is a Republican plant running to take votes away from a more popular independent."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
