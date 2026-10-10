@@ -465132,5 +465132,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a1345fb0-c4a8-11f1-8bfa-0000a1ace326",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hundreds of thousands without power across Florida, Alabama, Georgia after Isaias makes landfall",
+            "ios": {
+                "alert": {
+                    "body": "Hundreds of thousands without power across Florida, Alabama, Georgia after Isaias makes landfall",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/10/10/isaias-makes-landfall-florida-leaving-hundreds-thousands-without-power/",
+                        "datetime": "2026-10-10T12:46:35.981000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aca33ab4ea3c2370000001d",
+                        "targetTopic": "breaking-news",
+                        "text": "Storm surge warnings have ended after Isaias made landfall near Destin, Florida, but flash flooding risks remain as the storm moves across Alabama."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
