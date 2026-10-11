@@ -465852,5 +465852,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "44618400-c590-11f1-b89f-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fill the government with barbarians, you get barbaric government",
+            "ios": {
+                "alert": {
+                    "body": "Fill the government with barbarians, you get barbaric government",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/11/fill-government-with-barbarians-you-get-barbaric-government/",
+                        "datetime": "2026-10-11T16:24:43.546000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acbb84b2f9549370000001a",
+                        "targetTopic": "opinions",
+                        "text": "Fill the government with barbarians, you get barbaric government"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b29995f0-c588-11f1-ae7f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Trump aide Natalie Harp\u2019s family broke apart \u2014 and polarized",
+            "ios": {
+                "alert": {
+                    "body": "How Trump aide Natalie Harp\u2019s family broke apart \u2014 and polarized",
+                    "title": "A Fractured Bond"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/11/how-trump-aide-natalie-harps-family-broke-apart-polarized/",
+                        "datetime": "2026-10-11T15:30:32.387000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acbab984ea3c23700000024",
+                        "targetTopic": "editors_picks",
+                        "text": "After a tragedy involving their father, Harp\u2019s brother, Preston, split from the family and \u201cradicalized,\u201d moving to Nicaragua to dedicate himself to the Marxist-influenced Sandinista cause."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
