@@ -466045,5 +466045,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2adaf1a0-c5aa-11f1-90eb-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Ukraine uses precision drone strikes to hobble Russian oil refineries",
+            "ios": {
+                "alert": {
+                    "body": "How Ukraine uses precision drone strikes to hobble Russian oil refineries",
+                    "title": "A Strategic Disruption"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2026/10/11/how-ukraine-uses-precision-drone-strikes-hobble-russian-oil-refineries/",
+                        "datetime": "2026-10-11T19:30:07.538000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acbe3bfe7c2763700000022",
+                        "targetTopic": "world",
+                        "text": "Kyiv is targeting critical components that are hard for sanctions-hit Russia to repair. The strikes have crippled Russia\u2019s diesel production and are at the center of a new standoff between President Donald Trump and Ukraine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
