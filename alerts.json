@@ -466093,5 +466093,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9671ecb1-c5bf-11f1-8176-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A folk singer was found bloodied on his bus. His death wasn\u2019t the end of the story.",
+            "ios": {
+                "alert": {
+                    "body": "A folk singer was found bloodied on his bus. His death wasn\u2019t the end of the story.",
+                    "title": "An Unfinished Tale"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/10/11/folk-singer-was-found-bloodied-his-bus-his-death-wasnt-end-story/",
+                        "datetime": "2026-10-11T22:03:27.540000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acc07af4ea3c23700000026",
+                        "targetTopic": "editors_picks",
+                        "text": "As Todd Snider\u2019s last album arrives, questions surrounding his early demise \u2014 at age 59 \u2014 linger. The singer-songwriter\u2019s final days involved confusion, a canceled tour and a hospital visit."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1e8ead30-c5b7-11f1-b3e4-0000a1ace264",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "6 fall train rides perfect for leaf peeping",
+            "ios": {
+                "alert": {
+                    "body": "6 fall train rides perfect for leaf peeping",
+                    "title": "Autumn Escapes"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/travel/2026/10/11/6-us-train-rides-perfect-fall-foliage/",
+                        "datetime": "2026-10-11T21:02:50.404000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acbf97a3de8ac3700000016",
+                        "targetTopic": "us",
+                        "text": "Seeking an autumn escape that doesn\u2019t involve driving for hours or waking up early for a hike? We have some rail options that offer you a front-row seat to lush landscapes but without the hassles."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
