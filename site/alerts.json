@@ -466189,5 +466189,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "aa198c30-c5cb-11f1-a03a-00000a1ace9d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump could face a new threat in January: A Democratic Senate",
+            "ios": {
+                "alert": {
+                    "body": "Trump could face a new threat in January: A Democratic Senate",
+                    "title": "Growing GOP Alarm"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/12/trump-could-face-new-threat-january-democratic-senate/",
+                        "datetime": "2026-10-11T23:29:54.337000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acc1bf22f9549370000001b",
+                        "targetTopic": "politics",
+                        "text": "Republicans in the Senate are increasingly fearful of losing control of the chamber in the midterms. If that happens, they predict Democrats will not confirm the president\u2019s Supreme Court and Cabinet nominees."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
