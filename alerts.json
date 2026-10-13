@@ -466813,5 +466813,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0781e5a0-c69b-11f1-9f47-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Make the problem and the solution bigger\u2019: The plan to end the Ukraine war",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Make the problem and the solution bigger\u2019: The plan to end the Ukraine war",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/12/kushner-witkoff-ukraine-peace-plan-takes-shape-behind-scenes/",
+                        "datetime": "2026-10-13T00:14:16.895000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acd77d8e7c2763700000027",
+                        "targetTopic": "opinions",
+                        "text": "Trump\u2019s diesel-deal feud with Zelensky obscures a more important effort, David Ignatius writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3c72a891-c695-11f1-ab7d-0000a1ace04d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s midterm road show reveals GOP troubles \u2014 and his own priorities",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s midterm road show reveals GOP troubles \u2014 and his own priorities",
+                    "title": "Campaign Trips"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/12/trumps-midterm-roadshow-reveals-gop-troubles-his-own-priorities/",
+                        "datetime": "2026-10-12T23:32:48.838000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acd6e202f95493700000021",
+                        "targetTopic": "politics",
+                        "text": "Republicans need the president to mobilize voters, but his low approval ratings limit where he can help."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
