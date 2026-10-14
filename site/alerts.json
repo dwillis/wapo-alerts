@@ -467534,5 +467534,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eeeb9e40-c786-11f1-8176-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge extends White House access for CNN, MS NOW and Politico while lawsuit over media ban proceeds",
+            "ios": {
+                "alert": {
+                    "body": "Judge extends White House access for CNN, MS NOW and Politico while lawsuit over media ban proceeds",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/13/judge-deals-another-blow-trumps-white-house-media-bans/",
+                        "datetime": "2026-10-14T04:22:57.001000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acf03a1e7c276370000002b",
+                        "targetTopic": "politics",
+                        "text": "U.S. District Judge Timothy Kelly issued a preliminary injunction late Tuesday, supplanting a temporary restraining order he granted Sept. 24. The move allows the outlets to maintain regular access to White House grounds while litigation continues. President Donald Trump last month barred the organizations from the White House for reporting what he called \u201cfake news.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d4415060-c774-11f1-b647-0000a1ace7dc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Investigation of Rep. Ilhan Omar focuses on her birth date and decades-old immigration paperwork, people familiar said",
+            "ios": {
+                "alert": {
+                    "body": "Investigation of Rep. Ilhan Omar focuses on her birth date and decades-old immigration paperwork, people familiar said",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/13/rep-omar-investigation-focuses-birthdate-citizenship-papers-people-familiar-say/",
+                        "datetime": "2026-10-14T02:13:21.233000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acee5413de8ac370000001a",
+                        "targetTopic": "breaking-news",
+                        "text": "The Minnesota Democrat, who was born in Somalia and fled civil war there with her family before immigrating to the United States in 1995, has repeatedly rejected allegations that her documents used to secure legal status and U.S. citizenship contained falsehoods. Such claims have circulated in conservative media for years, and she dismissed them again this week as \u201cbaseless lies and smear campaigns.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
