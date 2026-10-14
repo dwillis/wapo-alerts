@@ -467870,5 +467870,150 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8b469eb0-c7e7-11f1-be28-0000a1ace272",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 40 best restaurants in the D.C. area",
+            "ios": {
+                "alert": {
+                    "body": "The 40 best restaurants in the D.C. area",
+                    "title": "Dining Guide"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/interactive/best-dc-restaurants/",
+                        "datetime": "2026-10-14T15:54:30.986000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acfa5b6e7c276370000002e",
+                        "targetTopic": "editors_picks",
+                        "text": "Our food critic\u2019s favorite restaurants of the year showcase the culinary abundance of the region."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e1eb3bb1-c7f9-11f1-a135-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The biggest mistake that people with knee pain make, according to an orthopedic surgeon",
+            "ios": {
+                "alert": {
+                    "body": "The biggest mistake that people with knee pain make, according to an orthopedic surgeon",
+                    "title": "Caring for Joints"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/13/heres-what-knee-arthritis-expert-does-every-day-protect-his-knees/",
+                        "datetime": "2026-10-14T18:05:47.143000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acfc47b4ea3c2370000002e",
+                        "targetTopic": "health",
+                        "text": "Surgeon Howard Luks has built his practice around the idea that our joints can remain strong and functional throughout life, with some basic care and feeding."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1db42622-c7f0-11f1-874f-0000a1ace802",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "An SNL host seemed shocked by women\u2019s fitness attire. Nobody tell him about the \u201980s, Ashley Fetters Maloy writes in a column.",
+            "ios": {
+                "alert": {
+                    "body": "An SNL host seemed shocked by women\u2019s fitness attire. Nobody tell him about the \u201980s, Ashley Fetters Maloy writes in a column.",
+                    "title": "Stretchy Gym Outfits"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/10/13/uh-oh-nobody-show-shane-gillis-aerobics-outfits-80s/",
+                        "datetime": "2026-10-14T16:55:52.616000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acfb4184ea3c2370000002d",
+                        "targetTopic": "entertainment",
+                        "text": "Skimpy, stretchy gym outfits have been around longer than comedian Shane Gillis has been alive."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
