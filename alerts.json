@@ -468015,5 +468015,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d40c88b0-c80c-11f1-a25c-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Nancy Mace accused these men of abuse. Now they face criminal charges.",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Nancy Mace accused these men of abuse. Now they face criminal charges.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/14/rep-nancy-mace-accused-these-men-abuse-now-they-face-criminal-charges/",
+                        "datetime": "2026-10-14T20:21:24.430000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acfe444e7c276370000002f",
+                        "targetTopic": "politics",
+                        "text": "South Carolina authorities said Wednesday they arrested three men whom Mace, in a speech in the U.S. House, had accused of wrongdoing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
