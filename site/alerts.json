@@ -468015,5 +468015,198 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d40c88b0-c80c-11f1-a25c-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Nancy Mace accused these men of abuse. Now they face criminal charges.",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Nancy Mace accused these men of abuse. Now they face criminal charges.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/14/rep-nancy-mace-accused-these-men-abuse-now-they-face-criminal-charges/",
+                        "datetime": "2026-10-14T20:21:24.430000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acfe444e7c276370000002f",
+                        "targetTopic": "politics",
+                        "text": "South Carolina authorities said Wednesday they arrested three men whom Mace, in a speech in the U.S. House, had accused of wrongdoing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b9789ea1-c81e-11f1-96b0-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I\u2019m a couples therapist. These are 3 words I never say to my partner.",
+            "ios": {
+                "alert": {
+                    "body": "I\u2019m a couples therapist. These are 3 words I never say to my partner.",
+                    "title": "Communicating Carefully"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/14/im-couples-therapist-these-are-3-words-i-never-say-my-partner/",
+                        "datetime": "2026-10-14T22:29:30.763000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad0024a4ea3c2370000002f",
+                        "targetTopic": "editors_picks",
+                        "text": "At least, I try not to. Here\u2019s what 30 years of marriage have taught me to say instead."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9fa6cae1-c816-11f1-b6ad-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The cover letter used to be a cornerstone of every job application. Not anymore.",
+            "ios": {
+                "alert": {
+                    "body": "The cover letter used to be a cornerstone of every job application. Not anymore.",
+                    "title": "Outdated Ritual?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/14/has-ai-made-cover-letter-obsolete/",
+                        "datetime": "2026-10-14T21:31:31.408000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acff4b3e7c2763700000031",
+                        "targetTopic": "business",
+                        "text": "Many job seekers are relying on AI to help with their applications. When anyone can submit a phenomenal cover letter, what's the point?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0b1eae90-c813-11f1-b0a0-00000a1ace5c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s rally schedule reveals more than any poll",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s rally schedule reveals more than any poll",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/14/trumps-midterms-rally-schedule-says-more-than-any-poll/",
+                        "datetime": "2026-10-14T21:05:53.731000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acfeeb1e7c2763700000030",
+                        "targetTopic": "opinions",
+                        "text": "Three weeks from Election Day, the president is spending his scarcest resource in red territory."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
