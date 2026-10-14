@@ -467390,5 +467390,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "87c9f620-c75a-11f1-afcd-00000a1ace1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sens. Susan Collins (R-Maine) and Jon Ossoff (D-Georgia) face their challengers in debates tonight. Follow our coverage.",
+            "ios": {
+                "alert": {
+                    "body": "Sens. Susan Collins (R-Maine) and Jon Ossoff (D-Georgia) face their challengers in debates tonight. Follow our coverage.",
+                    "title": "High-Stakes Races"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/13/live-updates-maine-georgia-hold-senate-debates-midterm-elections-near/",
+                        "datetime": "2026-10-13T23:05:05.969000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aceb9212f95493700000025",
+                        "targetTopic": "politics",
+                        "text": "Senate candidates in three critical competitive states are gathering for debates Tuesday night. We\u2019ll cover the one-hour Maine and Georgia debates live, and we\u2019ll also monitor the Iowa debate between Rep. Ashley Hinson (R) and state Rep. Josh Turek (D) later in the evening."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fcc91130-c751-11f1-9a82-00000a1acec7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What\u2019s the best way to reheat pizza? We tried 5 popular methods.",
+            "ios": {
+                "alert": {
+                    "body": "What\u2019s the best way to reheat pizza? We tried 5 popular methods.",
+                    "title": "Leftovers Debate"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/10/13/whats-best-way-reheat-pizza-we-tried-five-popular-methods/",
+                        "datetime": "2026-10-13T22:03:56.899000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aceaacc2f95493700000024",
+                        "targetTopic": "editors_picks",
+                        "text": "The best method, of course, is not always the fastest one."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a8a54a50-c74d-11f1-9c02-00000a1aced7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "OpenAI employee arrested by FBI after \u201csophisticated\u201d recording device was found in an executive conference room",
+            "ios": {
+                "alert": {
+                    "body": "OpenAI employee arrested by FBI after \u201csophisticated\u201d recording device was found in an executive conference room",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/10/13/fbi-arrests-openai-employee-allegedly-planting-bug-office/",
+                        "datetime": "2026-10-13T21:32:57.705000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6acea3894ea3c2370000002c",
+                        "targetTopic": "breaking-news",
+                        "text": "Abdulrahman Alfozan, a 35-year-old citizen of Saudi Arabia who has been working at OpenAI since July 2025, was arrested Oct. 9 and appeared in federal court Tuesday. OpenAI is one of a handful of companies at the cutting edge of developing highly capable artificial intelligence models."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
