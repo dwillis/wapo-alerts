@@ -468208,5 +468208,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ecb26be0-c89e-11f1-867f-00000a1ace4b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Secret documents obtained by The Post reveal major donors behind $330 million for Trump\u2019s ballroom",
+            "ios": {
+                "alert": {
+                    "body": "Secret documents obtained by The Post reveal major donors behind $330 million for Trump\u2019s ballroom",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/10/15/secret-documents-reveal-donors-behind-330-million-trumps-ballroom/",
+                        "datetime": "2026-10-15T13:47:12.317000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad0d9604ea3c23700000030",
+                        "targetTopic": "breaking-news",
+                        "text": "Tech giants Nvidia and Apple each committed $25 million, the top contribution amount, the documents show. Absent from the list is President Donald Trump himself, who has said that he is helping to pay for the project."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9286bd40-c887-11f1-b840-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ukraine. Trump rally. Execution live stream. Nancy Mace. Cornell student. AI and memory. Regrowing knees. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Ukraine. Trump rally. Execution live stream. Nancy Mace. Cornell student. AI and memory. Regrowing knees. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/15/7-things-know-thursday-october-15/?noredirect=1",
+                        "datetime": "2026-10-15T11:00:02.641000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6ad0b2322f95493700000029",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
