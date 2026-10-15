@@ -468352,5 +468352,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "268fdd63-c8be-11f1-bf8f-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lawsuit alleges jail repeatedly served inmates food containing mice and insects",
+            "ios": {
+                "alert": {
+                    "body": "Lawsuit alleges jail repeatedly served inmates food containing mice and insects",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/15/inmates-describe-eating-mice-bugs-food-served-aging-dc-jail/",
+                        "datetime": "2026-10-15T17:30:43.680000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad10dc3e7c2763700000032",
+                        "targetTopic": "local",
+                        "text": "The plaintiffs in a class-action lawsuit say D.C.\u2019s jail knew it was feeding them vermin and didn\u2019t do enough to fix the problem."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cd1056d0-c8b2-11f1-8e51-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It was meant to stop surprise medical bills. It cost Americans $17 billion instead.",
+            "ios": {
+                "alert": {
+                    "body": "It was meant to stop surprise medical bills. It cost Americans $17 billion instead.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/15/surprise-health-care-bills-are-banned-americans-still-pay/",
+                        "datetime": "2026-10-15T16:09:29.201000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad0fab93de8ac370000001c",
+                        "targetTopic": "opinions",
+                        "text": "If Congress wants to fix this problem in health care, it should reform the No Surprises Act."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7e6f99d0-c8cd-11f1-b133-0000a1acebd6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Department sues California officials over 20,000 alleged noncitizen voters",
+            "ios": {
+                "alert": {
+                    "body": "Justice Department sues California officials over 20,000 alleged noncitizen voters",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/15/justice-dept-sues-california-officials-over-20k-alleged-noncitizen-voters/",
+                        "datetime": "2026-10-15T19:20:33.687000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad127814ea3c23700000031",
+                        "targetTopic": "breaking-news",
+                        "text": "The Department of Justice sued the top election officials in California and Los Angeles County, claiming they were planning to count ballots from more than 20,000 alleged noncitizens in next month\u2019s midterm elections."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

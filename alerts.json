@@ -468448,5 +468448,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7e6f99d0-c8cd-11f1-b133-0000a1acebd6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Department sues California officials over 20,000 alleged noncitizen voters",
+            "ios": {
+                "alert": {
+                    "body": "Justice Department sues California officials over 20,000 alleged noncitizen voters",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/15/justice-dept-sues-california-officials-over-20k-alleged-noncitizen-voters/",
+                        "datetime": "2026-10-15T19:20:33.687000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad127814ea3c23700000031",
+                        "targetTopic": "breaking-news",
+                        "text": "The Department of Justice sued the top election officials in California and Los Angeles County, claiming they were planning to count ballots from more than 20,000 alleged noncitizens in next month\u2019s midterm elections."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
