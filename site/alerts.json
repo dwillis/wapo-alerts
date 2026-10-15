@@ -468496,5 +468496,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0f6c00e0-c8dd-11f1-9898-0000a1ace64b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House press secretary Katie Zacharia appears to confirm she didn\u2019t pass the bar",
+            "ios": {
+                "alert": {
+                    "body": "White House press secretary Katie Zacharia appears to confirm she didn\u2019t pass the bar",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/15/press-secretary-katie-zacharia-appears-confirm-she-didnt-pass-california-bar-exam/",
+                        "datetime": "2026-10-15T21:11:59.321000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad1419f2f9549370000002a",
+                        "targetTopic": "politics",
+                        "text": "The acknowledgment to a right-wing media outlet comes after days of uncertainty about the legal credentials of the newly appointed spokeswoman for President Donald Trump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "535de6b0-c8d8-11f1-a0b3-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Three weeks out, Trump\u2019s election meddling lies mostly in ruins",
+            "ios": {
+                "alert": {
+                    "body": "Three weeks out, Trump\u2019s election meddling lies mostly in ruins",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/15/trumps-midterms-election-meddling-lies-mostly-ruins/",
+                        "datetime": "2026-10-15T20:38:05.942000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad139ade7c2763700000033",
+                        "targetTopic": "opinions",
+                        "text": "Three weeks out, Trump\u2019s election meddling lies mostly in ruins"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e6375d12-c8e5-11f1-9898-0000a1ace64b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Multiple people, including children, injured in shooting at an Oregon elementary school",
+            "ios": {
+                "alert": {
+                    "body": "Multiple people, including children, injured in shooting at an Oregon elementary school",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/15/two-people-hospitalized-after-elementary-school-shooting-oregon/",
+                        "datetime": "2026-10-15T22:15:15.722000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad150733de8ac370000001d",
+                        "targetTopic": "breaking-news",
+                        "text": "Police in Bend said that the shooter is dead but that they \u201cdon\u2019t have confirmation who shot the suspect.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

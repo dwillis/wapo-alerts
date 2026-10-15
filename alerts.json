@@ -468592,5 +468592,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e6375d12-c8e5-11f1-9898-0000a1ace64b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Multiple people, including children, injured in shooting at an Oregon elementary school",
+            "ios": {
+                "alert": {
+                    "body": "Multiple people, including children, injured in shooting at an Oregon elementary school",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/15/two-people-hospitalized-after-elementary-school-shooting-oregon/",
+                        "datetime": "2026-10-15T22:15:15.722000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad150733de8ac370000001d",
+                        "targetTopic": "breaking-news",
+                        "text": "Police in Bend said that the shooter is dead but that they \u201cdon\u2019t have confirmation who shot the suspect.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
