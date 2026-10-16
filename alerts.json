@@ -468880,5 +468880,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3773be60-c98d-11f1-9e59-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Katie Zacharia is out as White House press secretary, five days into the job",
+            "ios": {
+                "alert": {
+                    "body": "Katie Zacharia is out as White House press secretary, five days into the job",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/16/trump-says-press-secretary-katie-zacharia-should-reconsider-her-role/",
+                        "datetime": "2026-10-16T18:12:57.993000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad26929e7c2763700000036",
+                        "targetTopic": "breaking-news",
+                        "text": "It was a rare and speedy retreat from a presidential appointment after a rough start to one of the highest-profile roles in the White House."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5310a870-c985-11f1-9a13-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ford CEO Jim Farley and Walter Isaacson: The skilled trades undergird the essential economy. Let\u2019s elevate them.",
+            "ios": {
+                "alert": {
+                    "body": "Ford CEO Jim Farley and Walter Isaacson: The skilled trades undergird the essential economy. Let\u2019s elevate them.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/16/how-skilled-trades-can-boost-economy-us-workers/",
+                        "datetime": "2026-10-16T17:16:28.302000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad25bec3de8ac370000001f",
+                        "targetTopic": "opinions",
+                        "text": "https://www.washingtonpost.com/opinions/2026/10/16/how-skilled-trades-can-boost-economy-us-workers/"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e510d3a0-c983-11f1-8b40-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Grandma keeps using AI on photos of my kids: Columnist Carolyn Hax is giving advice",
+            "ios": {
+                "alert": {
+                    "body": "Grandma keeps using AI on photos of my kids: Columnist Carolyn Hax is giving advice",
+                    "title": "Live Chat"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/10/16/carolyn-hax-live-chat/",
+                        "datetime": "2026-10-16T17:06:14.254000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad259864ea3c23700000034",
+                        "targetTopic": "editors_picks",
+                        "text": "Our advice columnist is answering your questions about the strange train we call life."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bed4a9f0-c979-11f1-9ec1-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Elizabeth Holmes documentary will have you questioning everything, columnist Monica Hesse writes",
+            "ios": {
+                "alert": {
+                    "body": "The Elizabeth Holmes documentary will have you questioning everything, columnist Monica Hesse writes",
+                    "title": "A Big Twist"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/10/16/elizabeth-holmes-documentary-will-break-your-brain/",
+                        "datetime": "2026-10-16T15:53:35.162000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad2487f4ea3c23700000033",
+                        "targetTopic": "editors_picks",
+                        "text": "\u201cYou Can See Everything\u201d is either a completely damning portrayal of a sociopath or a near total exoneration of a disgraced tech executive, and there is no middle ground, Hesse writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
