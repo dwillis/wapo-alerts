@@ -468688,5 +468688,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0b101010-c8f9-11f1-9fc1-00000a1ace3d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump officials scrutinized Rep. Ilhan Omar in 2019. They didn\u2019t find citizenship issues.",
+            "ios": {
+                "alert": {
+                    "body": "Trump officials scrutinized Rep. Ilhan Omar in 2019. They didn\u2019t find citizenship issues.",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/15/trump-officials-scrutinized-omar-2019-they-didnt-find-citizenship-issues/",
+                        "datetime": "2026-10-16T00:32:17.945000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad170913de8ac370000001e",
+                        "targetTopic": "breaking-news",
+                        "text": "The earlier review of Omar\u2019s immigration records looked at many of the same issues being investigated now. That review found no issue with her naturalization, an official familiar with the earlier effort said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
