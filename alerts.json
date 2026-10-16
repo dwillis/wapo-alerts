@@ -468640,5 +468640,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "caed6310-c8ef-11f1-915f-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Three children and an adult killed in shooting at Oregon elementary school, authorities say",
+            "ios": {
+                "alert": {
+                    "body": "Three children and an adult killed in shooting at Oregon elementary school, authorities say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/15/two-people-hospitalized-after-elementary-school-shooting-oregon/",
+                        "datetime": "2026-10-15T23:26:04.846000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad1610ce7c2763700000034",
+                        "targetTopic": "breaking-news",
+                        "text": "Police in Bend said the shooter is dead but that they \u201cdon\u2019t have confirmation who shot the suspect.\u201d Officials cautioned that the information was preliminary and could change."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
