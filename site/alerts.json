@@ -468736,5 +468736,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0a0c9111-c96d-11f1-99a0-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Power struggle erupts in Trump\u2019s White House as midterm losses loom",
+            "ios": {
+                "alert": {
+                    "body": "Power struggle erupts in Trump\u2019s White House as midterm losses loom",
+                    "title": "Bracing for Upheaval"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/16/trump-aides-brace-white-house-turmoil-midterm-losses-loom/",
+                        "datetime": "2026-10-16T14:22:37.895000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad2332de7c2763700000035",
+                        "targetTopic": "breaking-news",
+                        "text": "Top personnel are jockeying for position as some expect Chief of Staff Susie Wiles to step down after the elections."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a2b87d90-c95c-11f1-9a93-0000a1ace681",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Palestinians and Washington Post photographer attacked in West Bank",
+            "ios": {
+                "alert": {
+                    "body": "Palestinians and Washington Post photographer attacked in West Bank",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/16/palestinians-washington-post-photographer-attacked-west-bank/",
+                        "datetime": "2026-10-16T12:25:12.582000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad217a82f9549370000002b",
+                        "targetTopic": "world",
+                        "text": "Militant settlers attacked Palestinians trying to harvest olives and severely beat Heidi Levine, a veteran photographer.\n\nMatt Murray, executive editor of The Post, said in a statement, \"While we are relieved that Heidi has received medical care and is safe, we are outraged by this unwarranted attack on a journalist doing her job and urge a thorough investigation and follow-through from authorities.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "beda72f0-c950-11f1-b133-0000a1acebd6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "School shooting. White House unrest. Ballroom donors. Firing squad. Ilhan Omar. Knee relief. Being hopeful. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "School shooting. White House unrest. Ballroom donors. Firing squad. Ilhan Omar. Knee relief. Being hopeful. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/16/7-things-know-friday-october-16/?noredirect=1",
+                        "datetime": "2026-10-16T11:00:05.838000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6ad203b54ea3c23700000032",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
