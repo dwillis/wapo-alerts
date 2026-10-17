@@ -469601,5 +469601,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a1176520-ca77-11f1-9de9-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s election fraud task force is going after the people who investigated him",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s election fraud task force is going after the people who investigated him",
+                    "title": "Shifting Priorities"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/17/trumps-election-fraud-task-force-is-going-after-people-who-investigated-him/",
+                        "datetime": "2026-10-17T22:10:57.306000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad3f2714ea3c23700000035",
+                        "targetTopic": "editors_picks",
+                        "text": "President Donald Trump has made no secret of his demands to see charges against former officials."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
