@@ -469312,5 +469312,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a979e4b0-ca48-11f1-a609-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The mistake you\u2019re making in the morning that\u2019s wrecking your sleep at night",
+            "ios": {
+                "alert": {
+                    "body": "The mistake you\u2019re making in the morning that\u2019s wrecking your sleep at night",
+                    "title": "Waking Up Late?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/17/mistake-youre-making-morning-thats-wrecking-your-sleep-night/",
+                        "datetime": "2026-10-17T16:34:45.123000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad3a3a5e7c2763700000039",
+                        "targetTopic": "editors_picks",
+                        "text": "Consistency can make a huge difference in regulating your sleep-wake cycle and helping you feel well-rested."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b714b311-ca44-11f1-8991-00000a1ace45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Is it a lie if you believe it? This Elizabeth Holmes film is a mind-bender.",
+            "ios": {
+                "alert": {
+                    "body": "Is it a lie if you believe it? This Elizabeth Holmes film is a mind-bender.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/15/nathan-fielder-elizabeth-holmes-documentary-is-mind-bender/",
+                        "datetime": "2026-10-17T16:06:30.004000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad39d062f9549370000002f",
+                        "targetTopic": "opinions",
+                        "text": "Nathan Fielder\u2019s \u201cYou Can See Everything\u201d is a journey into the nature of truth, Will Leitch writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "639a3dd0-ca3b-11f1-be18-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Ilhan Omar\u2019s lawyers say authorities ignored judge\u2019s restrictions on home search",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Ilhan Omar\u2019s lawyers say authorities ignored judge\u2019s restrictions on home search",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/16/rep-ilhan-omars-lawyers-say-authorities-ignored-judges-restrictions-home-search/",
+                        "datetime": "2026-10-17T14:59:44.458000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad38d60e7c2763700000038",
+                        "targetTopic": "politics",
+                        "text": "In a letter obtained by The Washington Post, attorneys for the Minnesota Democrat condemned a Justice Department inquiry into her immigration history as a politically motivated attack."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
