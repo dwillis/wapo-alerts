@@ -469168,5 +469168,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "37299d92-c9af-11f1-8c70-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Amtrak is making some big changes. Here\u2019s what passengers can expect.",
+            "ios": {
+                "alert": {
+                    "body": "Amtrak is making some big changes. Here\u2019s what passengers can expect.",
+                    "title": "All Aboard"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/2026/10/16/amtrak-is-making-some-big-changes-heres-what-passengers-can-expect/",
+                        "datetime": "2026-10-16T22:16:20.355000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad2a2342f9549370000002d",
+                        "targetTopic": "editors_picks",
+                        "text": "Sleek new Airo trains are coming to the East, route options are being expanded again, and a new lounge is being built at Washington\u2019s Union Station."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
