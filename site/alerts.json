@@ -469456,5 +469456,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e76ad5e0-ca57-11f1-9ab5-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The new Democratic candidate: Progressive, anti-Trump and jacked",
+            "ios": {
+                "alert": {
+                    "body": "The new Democratic candidate: Progressive, anti-Trump and jacked",
+                    "title": "Embracing Masculinity"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/17/why-democrats-are-embracing-masculinity-2026-midterms/",
+                        "datetime": "2026-10-17T18:23:51.508000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad3bd37e7c276370000003a",
+                        "targetTopic": "politics",
+                        "text": "Candidates posting thirst traps, calling opponents betas and ripping bench presses: the strange new world of campaigning as a Democratic man."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
