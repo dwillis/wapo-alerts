@@ -469553,5 +469553,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ca482aa1-ca69-11f1-bf62-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Katie Zacharia\u2019s brief White House tenure speaks volumes",
+            "ios": {
+                "alert": {
+                    "body": "Katie Zacharia\u2019s brief White House tenure speaks volumes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/17/white-house-press-secretary-katie-zacharias-exit-speaks-volumes/",
+                        "datetime": "2026-10-17T20:31:53.607000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad3db39e7c276370000003b",
+                        "targetTopic": "opinions",
+                        "text": "The quick exit of an incoherent press secretary doesn't mean the White House suddenly values communication, Kate Andrews writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

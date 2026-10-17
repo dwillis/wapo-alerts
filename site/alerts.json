@@ -469504,5 +469504,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c4550590-ca65-11f1-adf2-0000a1acef7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A blood test for 50-plus cancers? One survivor is glad he took it.",
+            "ios": {
+                "alert": {
+                    "body": "A blood test for 50-plus cancers? One survivor is glad he took it.",
+                    "title": "Early Screening"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/17/galleri-blood-test-cancer-survivor-who-took-it-asks-if-you-should/",
+                        "datetime": "2026-10-17T20:03:05.579000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad3d4792f95493700000030",
+                        "targetTopic": "health",
+                        "text": "The FDA is expected to approve a new kind of blood test that may allow earlier diagnosis and less invasive, more effective treatment. But doctors warn of drawbacks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ca482aa1-ca69-11f1-bf62-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Katie Zacharia\u2019s brief White House tenure speaks volumes",
+            "ios": {
+                "alert": {
+                    "body": "Katie Zacharia\u2019s brief White House tenure speaks volumes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/17/white-house-press-secretary-katie-zacharias-exit-speaks-volumes/",
+                        "datetime": "2026-10-17T20:31:53.607000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad3db39e7c276370000003b",
+                        "targetTopic": "opinions",
+                        "text": "The quick exit of an incoherent press secretary doesn't mean the White House suddenly values communication, Kate Andrews writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
