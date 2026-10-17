@@ -469264,5 +469264,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bc3e24b0-ca36-11f1-9d85-00000a1ace21",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pope Leo leaves hospital after lung cancer operation",
+            "ios": {
+                "alert": {
+                    "body": "Pope Leo leaves hospital after lung cancer operation",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/17/pope-leo-be-discharged-after-lung-cancer-operation/",
+                        "datetime": "2026-10-17T14:26:25.708000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad385912f9549370000002e",
+                        "targetTopic": "breaking-news",
+                        "text": "The pope waved to the crowds as he left the hospital to return to the Vatican, appearing in public for the first time since his admission."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
