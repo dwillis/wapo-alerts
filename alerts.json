@@ -469216,5 +469216,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "35be2f40-c9c6-11f1-befd-0000a1ace144",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Teacher and alert father helped save lives in Oregon school shooting, police say",
+            "ios": {
+                "alert": {
+                    "body": "Teacher and alert father helped save lives in Oregon school shooting, police say",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2026/10/16/suspect-identified-oregon-school-shooting-that-killed-4-people-sources-say/",
+                        "datetime": "2026-10-17T01:00:56.393000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad2c8c83de8ac3700000020",
+                        "targetTopic": "us",
+                        "text": "A female teacher tackled the 16-year-old gunman who shot his way through security doors with a pump-action shotgun at Silver Rail Elementary School. The father of two students at the school, who minutes earlier had seen the teenager shoot into a nearby vehicle, then approached the pair with his own gun and killed the shooter. Bend Police Chief Michael Krantz said their quick thinking saved lives and was exemplary of \u201ctrue heroism.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
