@@ -470033,5 +470033,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6bb731c0-cb31-11f1-8a70-00000a1ace0c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Revolutionary\u2019: GLP-1s\u2019 most interesting side effects",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Revolutionary\u2019: GLP-1s\u2019 most interesting side effects",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/15/revolutionary-three-writers-share-glp-1s-most-interesting-side-effects/",
+                        "datetime": "2026-10-18T20:20:54.260000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad52a26e7c276370000003f",
+                        "targetTopic": "opinions",
+                        "text": "These drugs have a lot of promise. They could fix sleep apnea and ... American health insurance?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1549de20-cb2f-11f1-9dd5-000a1ace3b73",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why dental floss may be feeling a little different lately",
+            "ios": {
+                "alert": {
+                    "body": "Why dental floss may be feeling a little different lately",
+                    "title": "Chemical Concerns"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/18/dental-floss-cleans-up-its-act-ditches-potentially-harmful-chemicals/",
+                        "datetime": "2026-10-18T20:04:10.298000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad5263a3de8ac3700000022",
+                        "targetTopic": "health",
+                        "text": "Some manufacturers have been quietly moving away from a synthetic material that helped floss slip smoothly between teeth. Their decisions follow studies raising concerns about PFAS, or \u201cforever chemicals.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
