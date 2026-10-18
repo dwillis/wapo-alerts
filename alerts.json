@@ -470130,5 +470130,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f243bde1-cb3f-11f1-b7ef-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At 63, he\u2019s a top knee expert. Here\u2019s his exercise routine for strong knees.",
+            "ios": {
+                "alert": {
+                    "body": "At 63, he\u2019s a top knee expert. Here\u2019s his exercise routine for strong knees.",
+                    "title": "Moving Well"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/interactive/2026/10/14/7-exercises-an-orthopedic-surgeon-recommends-healthy-knees/",
+                        "datetime": "2026-10-18T22:04:52.997000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad542844ea3c23700000037",
+                        "targetTopic": "editors_picks",
+                        "text": "As an orthopedic surgeon, Howard Luks treats aching, aging knees. When he began worrying about his own, he decided to shore up his ability to move well."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
