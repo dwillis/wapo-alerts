@@ -469649,5 +469649,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "acef0c70-ca83-11f1-83e3-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A filmmaker spent years in an Elon Musk rabbit hole. Conclusion? \u2018Sociopathic.\u2019",
+            "ios": {
+                "alert": {
+                    "body": "A filmmaker spent years in an Elon Musk rabbit hole. Conclusion? \u2018Sociopathic.\u2019",
+                    "title": "Decoding a Tech Titan"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2026/10/16/this-filmmaker-spent-years-an-elon-musk-rabbit-hole-his-conclusion-sociopathic/",
+                        "datetime": "2026-10-17T23:37:11.274000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad406a72f95493700000031",
+                        "targetTopic": "editors_picks",
+                        "text": "As the tech titan\u2019s power grew, \u201che became more and more self-centered,\u201d said Alex Gibney, director of a mammoth new documentary that opened Friday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
