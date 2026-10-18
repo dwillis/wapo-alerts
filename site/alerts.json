@@ -469745,5 +469745,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "12fab870-caf7-11f1-811f-0000a1ace0d3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump's approval rating hits record low, handing Democrats a clear midterm edge, Post-ABC-Ipsos poll finds",
+            "ios": {
+                "alert": {
+                    "body": "Trump's approval rating hits record low, handing Democrats a clear midterm edge, Post-ABC-Ipsos poll finds",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/18/trump-approval-hits-record-low-handing-democrats-clear-midterm-edge/",
+                        "datetime": "2026-10-18T13:23:14.574000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad4c842e7c276370000003c",
+                        "targetTopic": "breaking-news",
+                        "text": "The president\u2019s approval among U.S. adults is at 33 percent, with 66 percent disapproving and just over half saying they disapprove strongly. In the competition for control of the House, Democrats hold an eight-point lead among registered and likely voters, an improvement since The Post\u2019s July poll."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
