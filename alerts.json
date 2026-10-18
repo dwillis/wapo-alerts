@@ -469985,5 +469985,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d352a3c0-cb1b-11f1-8283-00000a1ace2c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump endorses Netanyahu as Israeli leader fights for political survival in tight election",
+            "ios": {
+                "alert": {
+                    "body": "Trump endorses Netanyahu as Israeli leader fights for political survival in tight election",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/18/trump-backs-netanyahu-israeli-leader-fights-survival-tight-election/",
+                        "datetime": "2026-10-18T17:46:19.180000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad505eb2f95493700000033",
+                        "targetTopic": "world",
+                        "text": "Israeli Prime Minister Benjamin Netanyahu is locked in a contest that has largely centered on his handling of the Oct. 7, 2023, attack by Hamas and the protracted wars that have followed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
