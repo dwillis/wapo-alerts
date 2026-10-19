@@ -470226,5 +470226,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "70913de0-cbb2-11f1-a877-00000a1ace69",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli police arrest 10 in connection with West Bank beating of Post photographer and alleged assault on European diplomats",
+            "ios": {
+                "alert": {
+                    "body": "Israeli police arrest 10 in connection with West Bank beating of Post photographer and alleged assault on European diplomats",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/19/police-arrest-10-after-violent-west-bank-attacks-during-olive-harvest-israel-says/",
+                        "datetime": "2026-10-19T11:44:27.504000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad6029be7c2763700000040",
+                        "targetTopic": "world",
+                        "text": "In separate incidents on Friday and Saturday, photojournalist Heidi Levine and the diplomats reported being attacked by Israeli settlers who appeared to be attempting to disrupt the annual olive harvest by Palestinian residents of the occupied territory."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3d6775c1-cbac-11f1-b630-00000a1ace78",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House races. Trump vs. Zelensky. France riots. D.C. golf course. Mortgage pain. Vaccine benefits. Sunday scaries. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "House races. Trump vs. Zelensky. France riots. D.C. golf course. Mortgage pain. Vaccine benefits. Sunday scaries. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/19/7-things-know-monday-october-19/?noredirect=1",
+                        "datetime": "2026-10-19T11:00:04.601000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6ad5f8343de8ac3700000023",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
