@@ -470514,5 +470514,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d1a9a871-cbfc-11f1-a6d4-00000a1ace48",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My sister may have visited me after death. Turns out there\u2019s a term for it.",
+            "ios": {
+                "alert": {
+                    "body": "My sister may have visited me after death. Turns out there\u2019s a term for it.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/18/my-sister-showed-me-possibility-after-death-communications/",
+                        "datetime": "2026-10-19T20:36:53.083000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad67f652f95493700000039",
+                        "targetTopic": "opinions",
+                        "text": "After my sister\u2019s death, I found her again \u2014 in my yard."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "af0b3ac0-cbf9-11f1-a818-0000a1ace846",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Maya collapse was blamed on drought. The full story is more complicated.",
+            "ios": {
+                "alert": {
+                    "body": "The Maya collapse was blamed on drought. The full story is more complicated.",
+                    "title": "A Civilization\u2019s Disappearance"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/19/maya-collapse-was-blamed-drought-full-story-is-more-complicated/",
+                        "datetime": "2026-10-19T20:14:26.610000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad67a222f95493700000038",
+                        "targetTopic": "editors_picks",
+                        "text": "Researchers are still puzzling through what happened to the ancient civilization, which mysteriously dwindled. New answers have parallels in the present."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "505ed310-cbef-11f1-b4a8-0000a1acefd9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ann Hornaday, longtime Washington Post film critic, dies at 66",
+            "ios": {
+                "alert": {
+                    "body": "Ann Hornaday, longtime Washington Post film critic, dies at 66",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/10/19/ann-hornaday-longtime-washington-post-film-critic-dies-66/",
+                        "datetime": "2026-10-19T19:00:12.803000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad668bc2f95493700000037",
+                        "targetTopic": "us",
+                        "text": "The Pulitzer Prize finalist in criticism also wrote a book about how to watch movies. She brought a casual though knowledgeable approach to her reviews."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
