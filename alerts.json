@@ -470418,5 +470418,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2e1d56a0-cbe5-11f1-ab07-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Department says it will investigate whether D.C. jail conditions violate the Constitution",
+            "ios": {
+                "alert": {
+                    "body": "Justice Department says it will investigate whether D.C. jail conditions violate the Constitution",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/19/doj-announces-investigation-into-whether-dc-jail-conditions-violate-constitution/",
+                        "datetime": "2026-10-19T17:47:40.158000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad657bc2f95493700000036",
+                        "targetTopic": "local",
+                        "text": "The investigation comes days after The Washington Post reported that inmates had filed a class-action lawsuit against the city, alleging that the jail served inmates food containing mice and bugs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "864195f0-cbcf-11f1-8af7-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "State officials offered to store spent fuel. Then residents found out.",
+            "ios": {
+                "alert": {
+                    "body": "State officials offered to store spent fuel. Then residents found out.",
+                    "title": "Nuclear Waste"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/19/how-pitch-store-nuclear-waste-by-historic-battlefield-fell-apart/",
+                        "datetime": "2026-10-19T15:12:39.111000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad633672f95493700000035",
+                        "targetTopic": "us",
+                        "text": "Without consulting residents or local officials, West Virginia Gov. Patrick Morrisey\u2019s energy office submitted a detailed pitch to the Trump administration offering a quarry and three other sites for a potential \u201cNuclear Lifecycle Innovation Campus.\u201d The way things played out underscored how community anxiety around nuclear waste is not easily overcome."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
