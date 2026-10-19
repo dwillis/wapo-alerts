@@ -470322,5 +470322,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "07db4940-cbca-11f1-9add-00000a1aced9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Zelensky has figured out why Trump loves Putin",
+            "ios": {
+                "alert": {
+                    "body": "Zelensky has figured out why Trump loves Putin",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/19/putin-dupes-trump-again-zelensky-ukraine-pay-price/",
+                        "datetime": "2026-10-19T14:33:19.779000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad62a2f3de8ac3700000024",
+                        "targetTopic": "opinions",
+                        "text": "Why does the U.S. president have such an affinity for the despot in Moscow?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "45251510-cbc5-11f1-81dd-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Deep-red districts are now House battlegrounds. These are the races to watch.",
+            "ios": {
+                "alert": {
+                    "body": "Deep-red districts are now House battlegrounds. These are the races to watch.",
+                    "title": "Election Guide"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/19/guide-house-battleground-races-this-november/",
+                        "datetime": "2026-10-19T13:59:15.093000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad62233e7c2763700000041",
+                        "targetTopic": "breaking-news",
+                        "text": "As the Nov. 3 midterms draw closer, the political environment appears increasingly favorable for Democrats and grim for Republicans. Democrats need to net only three new House seats to win the majority."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
