@@ -470706,5 +470706,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8de6aac0-cc15-11f1-a17c-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court to hear case challenging admissions criteria for Maryland middle-school program",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court to hear case challenging admissions criteria for Maryland middle-school program",
+                    "title": ""
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/19/supreme-court-hear-case-challenging-admissions-criteria-middle-school-program/",
+                        "datetime": "2026-10-19T23:33:56.924000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad6a8e44ea3c23700000038",
+                        "targetTopic": "local",
+                        "text": "A group of parents contend the criteria to a selective magnet program in Montgomery County put Asian American students at a disadvantage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

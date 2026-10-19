@@ -470658,5 +470658,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7df85070-cc0e-11f1-b60c-0000a1ace976",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration delays transfer of Patriot missiles meant for Ukraine",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration delays transfer of Patriot missiles meant for Ukraine",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/19/amid-deteriorating-relations-washington-holds-up-patriots-kyiv/",
+                        "datetime": "2026-10-19T22:43:23.666000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad69d0be7c2763700000042",
+                        "targetTopic": "breaking-news",
+                        "text": "Delays in approving the transfers from partner countries coincide with a worsening rupture between President Donald Trump and Volodymyr Zelensky."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8de6aac0-cc15-11f1-a17c-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court to hear case challenging admissions criteria for Maryland middle-school program",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court to hear case challenging admissions criteria for Maryland middle-school program",
+                    "title": ""
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/19/supreme-court-hear-case-challenging-admissions-criteria-middle-school-program/",
+                        "datetime": "2026-10-19T23:33:56.924000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad6a8e44ea3c23700000038",
+                        "targetTopic": "local",
+                        "text": "A group of parents contend the criteria to a selective magnet program in Montgomery County put Asian American students at a disadvantage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
