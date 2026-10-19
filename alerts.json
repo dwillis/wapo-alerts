@@ -470178,5 +470178,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "69b030a2-cb51-11f1-b21a-0000a1ace5c7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s what your clutter says about you and the generation you\u2019re part of",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s what your clutter says about you and the generation you\u2019re part of",
+                    "title": "What\u2019s in Your Home?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/home/2026/10/18/hallmarks-boomers-gen-x-millennials-seen-their-clutter/",
+                        "datetime": "2026-10-19T00:09:54.794000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad55fd22f95493700000034",
+                        "targetTopic": "editors_picks",
+                        "text": "Experts say that the type of stuff you have at home \u2014 figurines, encyclopedias, old electronics, water bottles \u2014 reflects the culture of your formative years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
