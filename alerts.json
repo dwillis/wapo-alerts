@@ -470754,5 +470754,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3543eda0-cc20-11f1-baba-00000a1acef2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why anxiety can feel worse at night and what to do about it",
+            "ios": {
+                "alert": {
+                    "body": "Why anxiety can feel worse at night and what to do about it",
+                    "title": "Long Nights"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/19/if-your-anxiety-peaks-night-youre-not-alone-heres-what-do/",
+                        "datetime": "2026-10-20T00:50:12.524000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad6bac43de8ac3700000025",
+                        "targetTopic": "health",
+                        "text": "Here\u2019s why your mind tends to race right when you should be winding down for bed and how you can minimize the anxiety."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
