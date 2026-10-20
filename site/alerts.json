@@ -470803,5 +470803,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fab117f0-cc86-11f1-ac41-00000a1acebf",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Small group of national security officials advises representatives from 10 states and both parties who fear Trump election meddling",
+            "ios": {
+                "alert": {
+                    "body": "Small group of national security officials advises representatives from 10 states and both parties who fear Trump election meddling",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/20/us-officials-quietly-advise-states-fearing-trump-election-meddling/",
+                        "datetime": "2026-10-20T13:05:52.567000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad767303de8ac3700000026",
+                        "targetTopic": "breaking-news",
+                        "text": "The group includes about 10 current and former officials with experience in the Defense Department, some of whom have previously focused on countering authoritarianism abroad.\n\nTheir efforts are motivated not by political bias, they say, but a growing sense of alarm that President Donald Trump will harm American democracy by undermining the integrity of the vote to keep the Republican Party in power."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "670d7090-cc75-11f1-b47f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Patriot missiles. Election meddling. Voting maps. ICE custody death. Ann Hornaday. Face scan. Elizabeth Holmes. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Patriot missiles. Election meddling. Voting maps. ICE custody death. Ann Hornaday. Face scan. Elizabeth Holmes. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/20/7-things-know-tuesday-october-20/?noredirect=1",
+                        "datetime": "2026-10-20T11:00:03.290000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6ad749b3e7c2763700000043",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cbc689b0-cc8c-11f1-b003-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "From Ohio\u2019s cornfields and factories comes a warning for Republicans",
+            "ios": {
+                "alert": {
+                    "body": "From Ohio\u2019s cornfields and factories comes a warning for Republicans",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/15/trump-helped-remake-ohio-can-republicans-hold-midterms/",
+                        "datetime": "2026-10-20T13:47:30.797000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad770f23de8ac3700000027",
+                        "targetTopic": "opinions",
+                        "text": "The working class is preparing to send a midterms message."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

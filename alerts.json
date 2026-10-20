@@ -470899,5 +470899,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cbc689b0-cc8c-11f1-b003-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "From Ohio\u2019s cornfields and factories comes a warning for Republicans",
+            "ios": {
+                "alert": {
+                    "body": "From Ohio\u2019s cornfields and factories comes a warning for Republicans",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/15/trump-helped-remake-ohio-can-republicans-hold-midterms/",
+                        "datetime": "2026-10-20T13:47:30.797000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad770f23de8ac3700000027",
+                        "targetTopic": "opinions",
+                        "text": "The working class is preparing to send a midterms message."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
