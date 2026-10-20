@@ -470947,5 +470947,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1973b9f0-cca9-11f1-adca-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Texas redistricting may backfire \u2014 and take out some rising Latino GOP stars",
+            "ios": {
+                "alert": {
+                    "body": "Texas redistricting may backfire \u2014 and take out some rising Latino GOP stars",
+                    "title": "House Seats in Flux"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/20/texas-redistricting-may-backfire-take-out-some-rising-gop-latino-stars/",
+                        "datetime": "2026-10-20T17:10:07.061000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad7a06f4ea3c2370000003a",
+                        "targetTopic": "politics",
+                        "text": "After the president pushed the state to redraw its congressional districts, the decisions made in South Texas are haunting Republicans."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "391874d0-cc9a-11f1-bc8b-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Maryland woman\u2019s husband died in ICE custody. She wants answers.",
+            "ios": {
+                "alert": {
+                    "body": "A Maryland woman\u2019s husband died in ICE custody. She wants answers.",
+                    "title": "Seeking Justice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/20/maryland-woman-husband-died-suddenly-ice-custody-she-wants-answers/",
+                        "datetime": "2026-10-20T15:23:37.674000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad78779e7c2763700000044",
+                        "targetTopic": "us",
+                        "text": "More than two weeks after the death, agency officials have yet to provide the family with a detailed account of what happened, Veronica Ramirez said. She knew her husband, Julian Curo Churata, as a healthy 47-year-old with no history of health issues."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e2546f51-cc8f-11f1-b003-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "You may be frugal, but here are the few years when you should spend away, columnist Michelle Singletary writes",
+            "ios": {
+                "alert": {
+                    "body": "You may be frugal, but here are the few years when you should spend away, columnist Michelle Singletary writes",
+                    "title": "Enjoying Retirement"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/20/spent-decades-saving-retirement-stop-feeling-guilty-spend-it/",
+                        "datetime": "2026-10-20T14:09:37.150000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad776214ea3c23700000039",
+                        "targetTopic": "editors_picks",
+                        "text": "When you spend decades in saving mode, flipping a switch to spending mode can be very uncomfortable, our columnist writes. If you\u2019re struggling to give yourself permission to spend in retirement, follow these steps."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
