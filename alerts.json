@@ -471091,5 +471091,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "885ebdd0-ccc5-11f1-b159-00000a1ace88",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s an idea: Don\u2019t build a 250-foot obstacle near a risky airport",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s an idea: Don\u2019t build a 250-foot obstacle near a risky airport",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/20/250-foot-arch-along-flight-path-is-last-thing-dca-needs/",
+                        "datetime": "2026-10-20T20:33:39.036000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad7d023e7c2763700000045",
+                        "targetTopic": "opinions",
+                        "text": "Compounding risk is how disasters happen."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "36d65f21-ccbd-11f1-a8f4-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Commanders star receiver Terry McLaurin out for rest of season with torn patellar tendon",
+            "ios": {
+                "alert": {
+                    "body": "Commanders star receiver Terry McLaurin out for rest of season with torn patellar tendon",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/10/20/washington-commanders-terry-mclaurin-undergo-season-ending-knee-surgery/",
+                        "datetime": "2026-10-20T19:34:06.306000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad7c22e4ea3c2370000003b",
+                        "targetTopic": "local",
+                        "text": "McLaurin injured his left knee during the team\u2019s Monday night loss to the 49ers. Coach Dan Quinn said Tuesday that he will need surgery."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
