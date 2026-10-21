@@ -471235,5 +471235,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "641e8ac1-cd35-11f1-b159-00000a1ace88",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russia releases U.S. citizen Stephen Hubbard as envoy Steve Witkoff meets Vladimir Putin in St Petersburg",
+            "ios": {
+                "alert": {
+                    "body": "Russia releases U.S. citizen Stephen Hubbard as envoy Steve Witkoff meets Vladimir Putin in St Petersburg",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/21/russia-frees-us-citizen-stephen-hubbard-state-media-reports/",
+                        "datetime": "2026-10-21T09:54:21.786000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad88bcd3de8ac3700000028",
+                        "targetTopic": "breaking-news",
+                        "text": "Hubbard was captured by Russian soldiers in eastern Ukraine in 2022, and later transferred to Russia. On Tuesday, President Donald Trump said he had been speaking to the Russian leader about his release."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
