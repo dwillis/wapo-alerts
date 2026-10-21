@@ -471619,5 +471619,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "792d0b70-cd7c-11f1-bf2f-0000a1ace772",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Meta ordered to pay $25 billion in New Mexico for misleading users on privacy",
+            "ios": {
+                "alert": {
+                    "body": "Meta ordered to pay $25 billion in New Mexico for misleading users on privacy",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/10/21/meta-ordered-pay-25b-new-mexico-misleading-users-privacy/",
+                        "datetime": "2026-10-21T18:23:11.416000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad9030f3de8ac370000002a",
+                        "targetTopic": "breaking-news",
+                        "text": "The judgment is one of the largest of its kind, according to the state\u2019s attorney general, and exceeds an $18 billion child safety settlement Meta agreed to in August."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
