@@ -471475,5 +471475,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "467dfc28-cd77-11f1-b034-0000a1acec01",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cops who left the force kept covertly tracking people via a powerful camera network",
+            "ios": {
+                "alert": {
+                    "body": "Cops who left the force kept covertly tracking people via a powerful camera network",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/10/21/their-police-jobs-ended-they-kept-using-flocks-vast-surveillance-network/",
+                        "datetime": "2026-10-21T17:45:58.900000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad8fa56e7c2763700000048",
+                        "targetTopic": "breaking-news",
+                        "text": "Incidents of unauthorized access tallied by The Post reveal how easily users could gain or retain access to data from Flock\u2019s vast network of roadside cameras."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1d319a50-cd6f-11f1-92e3-00000a1ace94",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. gets its first new national park in six years",
+            "ios": {
+                "alert": {
+                    "body": "U.S. gets its first new national park in six years",
+                    "title": "\u2018Wonderland of Rocks\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/10/21/us-gets-its-first-new-national-park-six-years/",
+                        "datetime": "2026-10-21T16:47:33.677000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad8eca54ea3c2370000003c",
+                        "targetTopic": "breaking-news",
+                        "text": "Arizona\u2019s Chiricahua became the 64th national park late Tuesday when President Trump signed the Chiricahua National Park Act."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "df65ffe0-cd69-11f1-b538-0000a1acefbb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court allows gender transition care for federal prisoners for now",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court allows gender transition care for federal prisoners for now",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/21/supreme-court-allows-gender-transition-care-federal-prisoners-now/",
+                        "datetime": "2026-10-21T16:10:02.297000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad8e3dae7c2763700000047",
+                        "targetTopic": "breaking-news",
+                        "text": "The justices denied the government\u2019s request to freeze a lower-court order that found the administration\u2019s decision to end such care for prisoners was not backed by sufficient evidence. The lower court had ordered the treatment to continue."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
