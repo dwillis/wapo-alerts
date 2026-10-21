@@ -471379,5 +471379,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "716a94b0-cd64-11f1-b0aa-0000a1ace58b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats sue Trump, Justice Dept. over effort to remove voters from state rolls ahead of midterms",
+            "ios": {
+                "alert": {
+                    "body": "Democrats sue Trump, Justice Dept. over effort to remove voters from state rolls ahead of midterms",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/21/democrats-sue-trump-doj-over-effort-remove-voters-state-rolls/",
+                        "datetime": "2026-10-21T15:31:10.444000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad8dabe2f9549370000003c",
+                        "targetTopic": "politics",
+                        "text": "The complaint alleges that Trump administration officials have directed threats and intimidation at state and local election officials."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8660fd50-cd5a-11f1-b34a-0000a1acef56",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. is pushing for Ukraine peace talks. Is Putin interested?",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. is pushing for Ukraine peace talks. Is Putin interested?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/21/are-ukraine-peace-talks-real-that-depends-putin/",
+                        "datetime": "2026-10-21T14:20:10.696000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad8ca1a3de8ac3700000029",
+                        "targetTopic": "opinions",
+                        "text": "Steve Witkoff carries a peace plan to Russia, and the world will soon know who\u2019s stalling."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

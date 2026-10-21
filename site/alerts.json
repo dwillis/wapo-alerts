@@ -471283,5 +471283,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cdb8c740-cd51-11f1-a635-00000a1ace70",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A GOP attack ad featuring Democrat Amy Acton\u2019s estranged mother has Ohio governor\u2019s race in an uproar",
+            "ios": {
+                "alert": {
+                    "body": "A GOP attack ad featuring Democrat Amy Acton\u2019s estranged mother has Ohio governor\u2019s race in an uproar",
+                    "title": "Bitter Race Gets Uglier"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/20/ohio-governors-race-uproar-over-video-featuring-democrats-estranged-mother/",
+                        "datetime": "2026-10-21T13:17:44.930000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad8bb782f9549370000003b",
+                        "targetTopic": "breaking-news",
+                        "text": "Vivek Ramaswamy\u2019s campaign said it would spend $4 million to air the ad, which shows Acton\u2019s mother calling her daughter \u201ca liar.\u201d Acton was removed from her mother\u2019s home when she was 12 after her stepfather was indicted on a charge of raping her."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8f3de260-cd3e-11f1-b0c8-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Russia and Ukraine. Ballroom donors. Attack ad. Flock misuse. AI poll. Sober October. Marathon man. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Russia and Ukraine. Ballroom donors. Attack ad. Flock misuse. AI poll. Sober October. Marathon man. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/21/7-things-know-wednesday-october-21/?noredirect=1",
+                        "datetime": "2026-10-21T10:59:59.485000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6ad89b2f2f9549370000003a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "716a94b0-cd64-11f1-b0aa-0000a1ace58b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats sue Trump, Justice Dept. over effort to remove voters from state rolls ahead of midterms",
+            "ios": {
+                "alert": {
+                    "body": "Democrats sue Trump, Justice Dept. over effort to remove voters from state rolls ahead of midterms",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/21/democrats-sue-trump-doj-over-effort-remove-voters-state-rolls/",
+                        "datetime": "2026-10-21T15:31:10.444000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad8dabe2f9549370000003c",
+                        "targetTopic": "politics",
+                        "text": "The complaint alleges that Trump administration officials have directed threats and intimidation at state and local election officials."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "8660fd50-cd5a-11f1-b34a-0000a1acef56",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. is pushing for Ukraine peace talks. Is Putin interested?",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. is pushing for Ukraine peace talks. Is Putin interested?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/21/are-ukraine-peace-talks-real-that-depends-putin/",
+                        "datetime": "2026-10-21T14:20:10.696000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad8ca1a3de8ac3700000029",
+                        "targetTopic": "opinions",
+                        "text": "Steve Witkoff carries a peace plan to Russia, and the world will soon know who\u2019s stalling."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
