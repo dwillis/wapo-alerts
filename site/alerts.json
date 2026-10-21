@@ -471187,5 +471187,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "baa4f502-ccd1-11f1-aaa8-00000a1acec1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How a photo of a patient\u2019s face could predict whether they\u2019ll survive cancer",
+            "ios": {
+                "alert": {
+                    "body": "How a photo of a patient\u2019s face could predict whether they\u2019ll survive cancer",
+                    "title": "AI Facial Assessments"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/20/how-photo-patients-face-could-predict-whether-theyll-survive-cancer/",
+                        "datetime": "2026-10-20T22:00:57.336000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad7e499e7c2763700000046",
+                        "targetTopic": "editors_picks",
+                        "text": "Researchers say they\u2019ve developed an AI model trained on more than 40 million photographs that can help predict mortality risk."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
