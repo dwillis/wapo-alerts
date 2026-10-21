@@ -471859,5 +471859,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6f4ee960-cda0-11f1-abe9-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here\u2019s what to expect if you\u2019re taking a month off from drinking",
+            "ios": {
+                "alert": {
+                    "body": "Here\u2019s what to expect if you\u2019re taking a month off from drinking",
+                    "title": "Taking a Break"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/21/heres-what-happens-your-body-when-you-quit-drinking-month/",
+                        "datetime": "2026-10-21T22:40:36.782000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ad93f642f9549370000003d",
+                        "targetTopic": "editors_picks",
+                        "text": "Pausing alcohol consumption, even for just a few weeks, can have noticeable benefits. Experts explain what Sober October or Dry January can and can\u2019t do for your health."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
