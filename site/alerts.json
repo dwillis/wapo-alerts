@@ -471907,5 +471907,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bd8d4a90-ce13-11f1-a5d7-0000a1ace598",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "El-Sayed, Rogers clash in Michigan\u2019s final Senate debate, lacing policy answers with personal jabs. See our takeaways.",
+            "ios": {
+                "alert": {
+                    "body": "El-Sayed, Rogers clash in Michigan\u2019s final Senate debate, lacing policy answers with personal jabs. See our takeaways.",
+                    "title": "Tight Race for Key Seat"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/21/takeaways-michigans-second-final-senate-debate/",
+                        "datetime": "2026-10-22T12:25:59.736000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ada00d72f9549370000003e",
+                        "targetTopic": "politics",
+                        "text": "Democrat Abdul El-Sayed and Republican Mike Rogers are locked in a close race for the pivotal seat."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bf4c0800-ce07-11f1-be08-0000a1ace61b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Vivek Ramaswamy. Senate debates. Trump projects. Broken globe. AI giveaway. Toxic air. New national park. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Vivek Ramaswamy. Senate debates. Trump projects. Broken globe. AI giveaway. Toxic air. New national park. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/22/7-things-know-thursday-october-22/?noredirect=1",
+                        "datetime": "2026-10-22T11:00:09.153000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6ad9ecb93de8ac370000002d",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
