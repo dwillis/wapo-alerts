@@ -472339,5 +472339,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1ea29922-ce64-11f1-a15e-0000a1ace62b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A new $724 million museum is a visually stunning train wreck, columnist Philip Kennicott writes",
+            "ios": {
+                "alert": {
+                    "body": "A new $724 million museum is a visually stunning train wreck, columnist Philip Kennicott writes",
+                    "title": "New Look at LACMA"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/2026/10/22/lacmas-david-geffen-galleries-is-visually-stunning-train-wreck/",
+                        "datetime": "2026-10-22T22:01:22.679000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ada87b24ea3c2370000003d",
+                        "targetTopic": "editors_picks",
+                        "text": "Decontextualization at the Los Angeles County Museum of Art has made a mess of one of this country\u2019s great collections."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
