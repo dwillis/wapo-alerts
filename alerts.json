@@ -472387,5 +472387,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "35cd6160-ce6f-11f1-9294-000a1acef23f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Department looks into whether Corey Lewandowski illegally profited from role as DHS adviser",
+            "ios": {
+                "alert": {
+                    "body": "Justice Department looks into whether Corey Lewandowski illegally profited from role as DHS adviser",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/22/doj-reviewing-accusations-contracting-misconduct-involving-corey-lewandowski/",
+                        "datetime": "2026-10-22T23:20:46.135000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ada9a4e4ea3c2370000003e",
+                        "targetTopic": "breaking-news",
+                        "text": "A lawyer for the former top adviser to ex-Homeland Security Secretary Kristi L. Noem has denied any wrongdoing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b6ff5990-ce66-11f1-aae2-000a1ace6652",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why replacing Susan Collins would be so costly for Maine",
+            "ios": {
+                "alert": {
+                    "body": "Why replacing Susan Collins would be so costly for Maine",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/22/why-replacing-susan-collins-would-be-costly-maine/",
+                        "datetime": "2026-10-22T22:19:57.399000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ada8c0d3de8ac3700000032",
+                        "targetTopic": "opinions",
+                        "text": "Why replacing Susan Collins would be so costly for Maine"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
