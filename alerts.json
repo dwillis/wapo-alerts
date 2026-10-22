@@ -472003,5 +472003,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d22fa952-ce15-11f1-bab1-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Netanyahu says U.S. and Israel must topple Iranian regime",
+            "ios": {
+                "alert": {
+                    "body": "Netanyahu says U.S. and Israel must topple Iranian regime",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/22/netanyahu-says-us-israel-must-topple-iranian-regime/",
+                        "datetime": "2026-10-22T12:40:53.790000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ada04553de8ac370000002e",
+                        "targetTopic": "world",
+                        "text": "Israeli Prime Minister Benjamin Netanyahu said Iran posed an \u201cexistential threat\u201d and that President Donald Trump had said he was \u201cready to finish the job.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
