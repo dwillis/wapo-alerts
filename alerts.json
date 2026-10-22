@@ -472243,5 +472243,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7c1210a0-ce45-11f1-a795-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A remarkable picture is emerging of how the air around us could harm the brain",
+            "ios": {
+                "alert": {
+                    "body": "A remarkable picture is emerging of how the air around us could harm the brain",
+                    "title": "Pollution and Memories"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/22/remarkable-new-picture-is-emerging-how-air-around-us-could-alter-brain/",
+                        "datetime": "2026-10-22T18:22:05.168000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ada544de7c276370000004c",
+                        "targetTopic": "editors_picks",
+                        "text": "Pollution has long been indirectly linked with dementia. Now scientists wonder whether it could be physically reshaping the brain."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
