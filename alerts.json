@@ -472291,5 +472291,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "26c05772-ce49-11f1-8458-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Calley Means, an ally of Health Secretary Robert F. Kennedy Jr., quits amid White House delays on food policies",
+            "ios": {
+                "alert": {
+                    "body": "Calley Means, an ally of Health Secretary Robert F. Kennedy Jr., quits amid White House delays on food policies",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/22/rfk-jr-ally-calley-means-quits-trump-administration-amid-food-agenda-delays/",
+                        "datetime": "2026-10-22T18:48:19.930000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ada5a733de8ac3700000031",
+                        "targetTopic": "politics",
+                        "text": "Means, who resigned from the Trump administration, has been a key player in Kennedy\u2019s food agenda and the Make America Healthy Again movement."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
