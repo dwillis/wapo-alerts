@@ -472579,5 +472579,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e5f19410-ced0-11f1-9666-0000a1ace1b4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Ramaswamy ad. Elon Musk. Trump rallies. Zuckerberg clash. Melanoma vaccine. Biometrics. Netflix experiment. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Ramaswamy ad. Elon Musk. Trump rallies. Zuckerberg clash. Melanoma vaccine. Biometrics. Netflix experiment. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/23/7-things-know-friday-october-23/?noredirect=1",
+                        "datetime": "2026-10-23T11:00:02.829000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6adb3e32e7c276370000004e",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
