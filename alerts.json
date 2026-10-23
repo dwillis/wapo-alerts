@@ -472915,5 +472915,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b0b3add1-cf1e-11f1-bd3d-00000a1ace72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "As Republicans brace for election losses, Elon Musk prepares for war \u2014 against congressional investigations",
+            "ios": {
+                "alert": {
+                    "body": "As Republicans brace for election losses, Elon Musk prepares for war \u2014 against congressional investigations",
+                    "title": "Democrats Lie in Wait"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/10/23/musk-says-he-will-fight-back-if-congressional-democrats-investigate-doge/",
+                        "datetime": "2026-10-23T20:16:54.226000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adbc0b6e7c2763700000053",
+                        "targetTopic": "breaking-news",
+                        "text": "A host of Democrats have said they are eager to wield the power of their office to investigate the tech titan and his ventures should they win either chamber in the midterms."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b408c2b0-cf12-11f1-9ed6-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dad who killed school shooter in Oregon is haunted by those he couldn\u2019t save, he says in public radio interview",
+            "ios": {
+                "alert": {
+                    "body": "Dad who killed school shooter in Oregon is haunted by those he couldn\u2019t save, he says in public radio interview",
+                    "title": "Hailed as a Hero"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/23/dad-who-killed-school-shooter-oregon-is-haunted-by-those-he-couldnt-save/",
+                        "datetime": "2026-10-23T18:51:05.883000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adbac99e7c2763700000052",
+                        "targetTopic": "us",
+                        "text": "In his first interview, Kaylub Giamanco, a 36-year-old carpenter and father of two, told Oregon Public Broadcasting that he thinks of the children who died. \u201cI want to apologize for not saving their babies,\u201d he said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
