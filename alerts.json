@@ -472483,5 +472483,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff300310-ce78-11f1-833c-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Breakthrough vaccine for the deadliest skin cancer cut the risk of death or recurrence of melanoma by almost half",
+            "ios": {
+                "alert": {
+                    "body": "Breakthrough vaccine for the deadliest skin cancer cut the risk of death or recurrence of melanoma by almost half",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/22/breakthrough-vaccine-deadliest-skin-cancer-cut-risk-by-almost-half/",
+                        "datetime": "2026-10-23T00:30:49.323000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adaaab92f95493700000040",
+                        "targetTopic": "breaking-news",
+                        "text": "The vaccine is based on mRNA technology that helped end the coronavirus pandemic, Moderna and Merck announced Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
