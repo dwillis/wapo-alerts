@@ -473011,5 +473011,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "968ccb80-cf32-11f1-a8ff-00000a1acecb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hegseth\u2019s staff tried to block military\u2019s ceremonial participation in the NFL\u2019s first-ever game in Paris",
+            "ios": {
+                "alert": {
+                    "body": "Hegseth\u2019s staff tried to block military\u2019s ceremonial participation in the NFL\u2019s first-ever game in Paris",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/23/hegseths-staff-tried-block-troops-participation-paris-nfl-game/",
+                        "datetime": "2026-10-23T22:39:20.272000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adbe218e7c2763700000054",
+                        "targetTopic": "breaking-news",
+                        "text": "After the State Department intervened, a limited number of personnel will take part in a pregame ceremony for Sunday\u2019s contest between the New Orleans Saints and the Pittsburgh Steelers, officials said. The Trump administration has seized on recent unrest in the French capital to criticize the country\u2019s immigration policies, which prompted the defense secretary\u2019s office to initially cancel all U.S. troop involvement before certain elements of the military\u2019s participation were restored."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "dfd895e0-cf2c-11f1-9ed6-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A landmark 1971 prison experiment was horrifying, yet Netflix is now performing it again, writes columnist Monica Hesse",
+            "ios": {
+                "alert": {
+                    "body": "A landmark 1971 prison experiment was horrifying, yet Netflix is now performing it again, writes columnist Monica Hesse",
+                    "title": "Dubious Entertainment"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/10/23/this-landmark-experiment-was-horrifying-why-is-netflix-performing-it-again/",
+                        "datetime": "2026-10-23T21:58:26.311000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adbd8822f95493700000044",
+                        "targetTopic": "editors_picks",
+                        "text": "The notorious Stanford Prison Experiment has been spun up anew \u2014 this time for viewers\u2019 purported pleasure."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6ba83a50-cf26-11f1-b96d-0000a1aceb26",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Iran war fever is rising again. The battlespace has changed.",
+            "ios": {
+                "alert": {
+                    "body": "Iran war fever is rising again. The battlespace has changed.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/23/iran-war-fever-is-rising-again-battlespace-has-changed/",
+                        "datetime": "2026-10-23T21:12:02.198000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adbcda22f95493700000043",
+                        "targetTopic": "opinions",
+                        "text": "What would another round with Iran accomplish, and how should the U.S. fight it? David Ignatius weighs in."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
