@@ -472483,5 +472483,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ff300310-ce78-11f1-833c-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Breakthrough vaccine for the deadliest skin cancer cut the risk of death or recurrence of melanoma by almost half",
+            "ios": {
+                "alert": {
+                    "body": "Breakthrough vaccine for the deadliest skin cancer cut the risk of death or recurrence of melanoma by almost half",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/22/breakthrough-vaccine-deadliest-skin-cancer-cut-risk-by-almost-half/",
+                        "datetime": "2026-10-23T00:30:49.323000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adaaab92f95493700000040",
+                        "targetTopic": "breaking-news",
+                        "text": "The vaccine is based on mRNA technology that helped end the coronavirus pandemic, Moderna and Merck announced Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "52ce2cf0-ce82-11f1-ba56-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Zuckerberg went to war with Meta's board of directors over pay and power, document shows",
+            "ios": {
+                "alert": {
+                    "body": "Zuckerberg went to war with Meta's board of directors over pay and power, document shows",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/10/22/meta-filing-reveals-dispute-between-ceo-mark-zuckerberg-its-board/",
+                        "datetime": "2026-10-23T01:37:34.728000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adaba5ee7c276370000004d",
+                        "targetTopic": "breaking-news",
+                        "text": "The tech billionaire wanted to lock in his absolute power over Meta even if he sold off stock, but directors at the the $1.7 trillion company said no, according to a filing released by Meta. The episode was triggered by the immense spending required for the company to compete in artificial intelligence."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
