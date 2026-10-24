@@ -473155,5 +473155,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "58eaa840-cfc0-11f1-b7db-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jon Ossoff\u2019s films exposed corruption. Then his colleague was murdered.",
+            "ios": {
+                "alert": {
+                    "body": "Jon Ossoff\u2019s films exposed corruption. Then his colleague was murdered.",
+                    "title": "Devastating Lessons"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/24/how-jon-ossoffs-documentary-career-shaped-his-anti-trump-message/",
+                        "datetime": "2026-10-24T15:34:05.420000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adccfed3de8ac3700000035",
+                        "targetTopic": "editors_picks",
+                        "text": "What the Georgia Democrat and potential presidential candidate learned about politics and going viral from his time making documentaries."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a180a310-cfad-11f1-b7eb-0000a1ace092",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Doctors\u2019 offices are charging patients 10 times more by claiming to be hospitals",
+            "ios": {
+                "alert": {
+                    "body": "Doctors\u2019 offices are charging patients 10 times more by claiming to be hospitals",
+                    "title": "A Steep Cost"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/24/doctors-offices-are-charging-patients-10-times-more-by-claiming-be-hospitals/",
+                        "datetime": "2026-10-24T13:20:06.783000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adcb0863de8ac3700000034",
+                        "targetTopic": "breaking-news",
+                        "text": "Even when patients never step into a hospital, they may be charged hospital \u201cfacility fees,\u201d and their care may be billed at higher rates."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
