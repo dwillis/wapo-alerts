@@ -473251,5 +473251,150 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2206b920-cfcc-11f1-b895-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump and Musk are destroying a priceless American asset",
+            "ios": {
+                "alert": {
+                    "body": "Trump and Musk are destroying a priceless American asset",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/23/musk-trump-are-destroying-priceless-american-asset/",
+                        "datetime": "2026-10-24T16:58:27.224000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adce3b33de8ac3700000036",
+                        "targetTopic": "opinions",
+                        "text": "For decades, global trust in Washington kept nuclear weapons in check. Now that restraint is fading, Fareed Zakaria writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6c2e9431-cfdd-11f1-a6a5-000a1aced45b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In remote Alaska, a family making $155K struggles to uphold traditional lifestyle",
+            "ios": {
+                "alert": {
+                    "body": "In remote Alaska, a family making $155K struggles to uphold traditional lifestyle",
+                    "title": "Affordability in America"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/24/remote-alaska-family-making-155k-struggles-uphold-traditional-lifestyle/",
+                        "datetime": "2026-10-24T19:02:13.166000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6add00b5e7c2763700000056",
+                        "targetTopic": "editors_picks",
+                        "text": "Apay\u2019uq Moore, 42, has favored some Republicans in the past. This year, she\u2019s supporting a Democrat because of the issue of affordability."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1c233ff0-cfd2-11f1-90b5-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The 5 things that scare me most about money right now",
+            "ios": {
+                "alert": {
+                    "body": "The 5 things that scare me most about money right now",
+                    "title": "Spooky Season"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/24/how-inflation-is-making-halloween-scarier-this-year/",
+                        "datetime": "2026-10-24T17:41:14.383000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adcedbae7c2763700000055",
+                        "targetTopic": "business",
+                        "text": "From candy to car prices, it\u2019s spooky season for finances, too."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
