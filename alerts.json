@@ -473251,5 +473251,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2206b920-cfcc-11f1-b895-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump and Musk are destroying a priceless American asset",
+            "ios": {
+                "alert": {
+                    "body": "Trump and Musk are destroying a priceless American asset",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/23/musk-trump-are-destroying-priceless-american-asset/",
+                        "datetime": "2026-10-24T16:58:27.224000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adce3b33de8ac3700000036",
+                        "targetTopic": "opinions",
+                        "text": "For decades, global trust in Washington kept nuclear weapons in check. Now that restraint is fading, Fareed Zakaria writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
