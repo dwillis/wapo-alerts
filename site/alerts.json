@@ -473396,5 +473396,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "71ce83a0-cff6-11f1-b40d-0000a1acedc5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What a photographer saw while road-tripping historic Route 66",
+            "ios": {
+                "alert": {
+                    "body": "What a photographer saw while road-tripping historic Route 66",
+                    "title": "A Nostalgic Destination"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/interactive/2026/10/24/route-66-turns-100-we-road-tripped-through-all-its-kitsch-glory/",
+                        "datetime": "2026-10-24T22:01:19.980000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6add2aaf4ea3c2370000003f",
+                        "targetTopic": "editors_picks",
+                        "text": "With the highway from Chicago to Santa Monica marking its 100th anniversary next month, a photographer captured its shifting landscapes, rural charms and retro attractions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c0efc800-cfeb-11f1-b895-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Health insurance through work is flailing. Time to go \u2018full Shark Tank\u2019?",
+            "ios": {
+                "alert": {
+                    "body": "Health insurance through work is flailing. Time to go \u2018full Shark Tank\u2019?",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/22/rising-premiums-push-employers-rethink-health-benefits/",
+                        "datetime": "2026-10-24T20:44:48.307000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6add18c0e7c2763700000057",
+                        "targetTopic": "opinions",
+                        "text": "Employers are struggling with rising premiums. Some are looking for a different model."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c37154b0-cfe9-11f1-a8ff-00000a1acecb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Woman in ad who said a Democrat endangers kids pleaded guilty to endangering kids",
+            "ios": {
+                "alert": {
+                    "body": "Woman in ad who said a Democrat endangers kids pleaded guilty to endangering kids",
+                    "title": "Campaign Commercial"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/24/shellie-flockhart-who-said-democrat-endangers-kids-pleads-guilty-endangering-kids/",
+                        "datetime": "2026-10-24T20:30:33.536000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6add15693de8ac3700000037",
+                        "targetTopic": "politics",
+                        "text": "Shellie Flockhart, who called Iowa Democratic House candidate Sarah Trone Garriott \u201cdangerous\u201d for kids, pleaded guilty after authorities said she drove drunk with her children in the car in 2017."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
