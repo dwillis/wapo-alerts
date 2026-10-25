@@ -473732,5 +473732,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c87315d0-d0a6-11f1-ab8e-00000a1ace8d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "For Turnstile, a Washington Monument show was a moment, and a homecoming: \u2018This is a scene that raised us\u2019",
+            "ios": {
+                "alert": {
+                    "body": "For Turnstile, a Washington Monument show was a moment, and a homecoming: \u2018This is a scene that raised us\u2019",
+                    "title": "Punk on the Mall"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/24/turnstile-washington-monument-show-was-moment-homecoming/",
+                        "datetime": "2026-10-25T19:03:36.792000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade52883de8ac3700000039",
+                        "targetTopic": "local",
+                        "text": "Turnstile is, in 2026, the world\u2019s biggest hardcore punk band by almost any measure \u2014 most streams, most awards, most genre-expansive sound. Its performance Saturday on the National Mall drew about 60,000 people, according to organizers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ecf9f390-d09e-11f1-b80d-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A $500 bill shows a Southwestern suburb\u2019s dilemma as the Colorado River dwindles",
+            "ios": {
+                "alert": {
+                    "body": "A $500 bill shows a Southwestern suburb\u2019s dilemma as the Colorado River dwindles",
+                    "title": "\u2018Cheap Water Is Over\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/25/fast-growing-arizona-suburb-fights-over-price-water/",
+                        "datetime": "2026-10-25T18:07:22.073000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade455a2f95493700000046",
+                        "targetTopic": "editors_picks",
+                        "text": "City leaders in Arizona\u2019s Queen Creek say water fee hikes are necessary to secure their water supply for the next 100 years as the Colorado River continues to shrink."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
