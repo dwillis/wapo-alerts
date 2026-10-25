@@ -473540,5 +473540,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6db450f0-d079-11f1-b20d-0000a1ace1db",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s Justice Department told a judge how to rule. Then it pulled her from court.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s Justice Department told a judge how to rule. Then it pulled her from court.",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/25/how-respected-us-immigration-judge-lost-her-job-under-trump/",
+                        "datetime": "2026-10-25T13:38:57.129000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade0671e7c2763700000058",
+                        "targetTopic": "breaking-news",
+                        "text": "In the first year of President Donald Trump\u2019s second term, the Justice Department fired some 100 of the country\u2019s roughly 700 immigration judges and began to replace them with what the administration called \u201cdeportation judges.\u201d Karen Donoso Stevens offers a rare firsthand look at the administration\u2019s campaign to transform the immigration court system."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
