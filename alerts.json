@@ -473828,5 +473828,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "63dce6d0-d0b7-11f1-90b5-00000a1ace50",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Mexico City taco stand won a Michelin star. It split the joint in two.",
+            "ios": {
+                "alert": {
+                    "body": "A Mexico City taco stand won a Michelin star. It split the joint in two.",
+                    "title": "Drama at a Taquer\u00eda"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/25/mexico-city-taco-stand-won-michelin-star-it-split-joint-two/",
+                        "datetime": "2026-10-25T21:02:29.212000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade6e652f95493700000047",
+                        "targetTopic": "world",
+                        "text": "Months after the 2024 honor, chef Arturo Rivera walked out. He now runs his own taquer\u00eda."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3330b3c0-d0af-11f1-b80d-00000a1ace4c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why inheriting a home can be more costly than anybody imagines",
+            "ios": {
+                "alert": {
+                    "body": "Why inheriting a home can be more costly than anybody imagines",
+                    "title": "Hidden Costs"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/24/why-inheriting-home-can-be-more-costly-than-anybody-imagines/",
+                        "datetime": "2026-10-25T20:03:51.719000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade60a7e7c2763700000059",
+                        "targetTopic": "editors_picks",
+                        "text": "Younger generations are set to inherit record home wealth. That property could come with unexpected financial and emotional challenges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
