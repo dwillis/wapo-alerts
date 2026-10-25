@@ -473588,5 +473588,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "eedc8551-d095-11f1-a6a5-000a1aced45b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What is a good death? Here\u2019s what I learned from photographing the dying.",
+            "ios": {
+                "alert": {
+                    "body": "What is a good death? Here\u2019s what I learned from photographing the dying.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/25/what-photographing-end-of-life-doulas-dying-people-death-showed-me/",
+                        "datetime": "2026-10-25T17:02:59.723000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade36432f95493700000045",
+                        "targetTopic": "opinions",
+                        "text": "Photographer Oliver Farshi observed three fundamental components to a good death: ritual, facilitation and remembering."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f9316591-d093-11f1-9017-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mar\u00eda Corina Machado, opposition leader and Nobel Peace Prize laureate, returns to Venezuela",
+            "ios": {
+                "alert": {
+                    "body": "Mar\u00eda Corina Machado, opposition leader and Nobel Peace Prize laureate, returns to Venezuela",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/25/maria-corina-machado-opposition-leader-nobel-laureate-returns-venezuela/",
+                        "datetime": "2026-10-25T16:48:57.933000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade32f94ea3c23700000040",
+                        "targetTopic": "world",
+                        "text": "Banned from leaving Venezuela by the Maduro government since 2014, Machado escaped the country late last year. The Venezuelan opposition movement said Sunday that she returned after more than 10 months in exile."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1f4269f0-d085-11f1-a8ff-00000a1acecb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These Trump voters changed their minds \u2014 and are key to the election",
+            "ios": {
+                "alert": {
+                    "body": "These Trump voters changed their minds \u2014 and are key to the election",
+                    "title": "Midterm Deciders"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/25/about-one-five-trump-voters-no-longer-back-him-they-key-midterms/",
+                        "datetime": "2026-10-25T15:02:39.198000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade1a0f3de8ac3700000038",
+                        "targetTopic": "breaking-news",
+                        "text": "Here\u2019s what they say about how they\u2019ll vote \u2014 decisions that will strongly shape the GOP\u2019s fortunes this year."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
