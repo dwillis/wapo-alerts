@@ -474356,5 +474356,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7fe16b40-d17e-11f1-bd70-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Aged perfectly\u2019: Six TV shows that defined a generation",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Aged perfectly\u2019: Six TV shows that defined a generation",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/22/lena-dunhams-girls-defined-generation-so-did-these-five-shows/",
+                        "datetime": "2026-10-26T20:47:46.366000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adfbc722f95493700000049",
+                        "targetTopic": "opinions",
+                        "text": "\u2018Aged perfectly\u2019: Six TV shows that defined a generation"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fa61ba40-d17a-11f1-8b3f-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A wild winter is brewing. Here\u2019s what meteorologists want you to know.",
+            "ios": {
+                "alert": {
+                    "body": "A wild winter is brewing. Here\u2019s what meteorologists want you to know.",
+                    "title": "Forecasters Offer Warning"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/10/26/el-nino-could-lead-doozy-winter-united-states/",
+                        "datetime": "2026-10-26T20:22:33.893000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adfb6894ea3c23700000045",
+                        "targetTopic": "editors_picks",
+                        "text": "A record El Ni\u00f1o is raising expectations that one of the stormiest seasons in history could grip regions across the country."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ca4f1a00-d170-11f1-bcf9-00000a1ace76",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Killing at D.C. jail marks at least the third stabbing there this month",
+            "ios": {
+                "alert": {
+                    "body": "Killing at D.C. jail marks at least the third stabbing there this month",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/26/killing-dc-jail-marks-least-third-stabbing-there-this-month/",
+                        "datetime": "2026-10-26T19:09:38.222000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adfa572e7c276370000005d",
+                        "targetTopic": "local",
+                        "text": "The assault comes a week after the Justice Department announced a federal investigation into whether conditions in the jail violate the Constitution. The Washington Post wrote this month about inmates who filed a class-action lawsuit against the city."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "60711bc0-d16a-11f1-acde-0000a1aced96",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "entertainment"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Walter Koenig, who played the Russian navigator Chekov on the original \u2018Star Trek\u2019 series, dies at 90",
+            "ios": {
+                "alert": {
+                    "body": "Walter Koenig, who played the Russian navigator Chekov on the original \u2018Star Trek\u2019 series, dies at 90",
+                    "title": "Entertainment Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:entertainment",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/26/walter-koenig-russian-navigator-chekov-star-trek-dies-90/",
+                        "datetime": "2026-10-26T18:23:43.548000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adf9aaf4ea3c23700000044",
+                        "targetTopic": "entertainment",
+                        "text": "The American actor with a skill for accents played the ensign and starship navigator in the TV series and several subsequent films."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
