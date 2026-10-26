@@ -473972,5 +473972,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "25e20030-d0cc-11f1-a8ff-00000a1acecb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The clocks change soon. Here\u2019s how to prep your body.",
+            "ios": {
+                "alert": {
+                    "body": "The clocks change soon. Here\u2019s how to prep your body.",
+                    "title": "Falling Back"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/24/clocks-change-soon-heres-how-prep-your-body/",
+                        "datetime": "2026-10-25T23:31:04.922000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade9138e7c276370000005a",
+                        "targetTopic": "editors_picks",
+                        "text": "The extra hour makes the fall time change easier than spring\u2019s, but some of us may still need help adjusting."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "98df3d81-d0d3-11f1-ab08-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Brazilian President Luiz In\u00e1cio Lula da Silva wins reelection, halting Latin America\u2019s shift to the right",
+            "ios": {
+                "alert": {
+                    "body": "Brazilian President Luiz In\u00e1cio Lula da Silva wins reelection, halting Latin America\u2019s shift to the right",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/25/lula-wins-reelection-brazil-halting-latin-americas-rightward-shift-now/",
+                        "datetime": "2026-10-26T00:24:24.185000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ade9db8e7c276370000005b",
+                        "targetTopic": "breaking-news",
+                        "text": "Lula defeated Sen. Fl\u00e1vio Bolsonaro, the 45-year-old son of imprisoned former president Jair Bolsonaro. With more than 99 percent of ballots counted, Lula had captured 51.75 percent of the vote, electoral authorities reported. He is Brazil\u2019s first presidential candidate to finish second in the first round and win the runoff, and the first elected four times."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
