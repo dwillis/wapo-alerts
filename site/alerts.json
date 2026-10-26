@@ -474068,5 +474068,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "64feea72-d12c-11f1-9942-00000a1ace05",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Brazil election. Trump vs. El-Sayed. Mar-a-Lago. AI vulnerabilities. Wild winter. Microplastics. Bob Woodward. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Brazil election. Trump vs. El-Sayed. Mar-a-Lago. AI vulnerabilities. Wild winter. Microplastics. Bob Woodward. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/26/7-things-know-monday-october-26/?noredirect=1",
+                        "datetime": "2026-10-26T11:00:02.399000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6adf32b2e7c276370000005c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
