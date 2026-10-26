@@ -474308,5 +474308,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0ea26ca1-d15f-11f1-a241-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Department unlawfully fired Maurene Comey, daughter of former FBI director, judge rules",
+            "ios": {
+                "alert": {
+                    "body": "Justice Department unlawfully fired Maurene Comey, daughter of former FBI director, judge rules",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/26/doj-unlawfully-fired-maurene-comey-daughter-former-fbi-director-judge-rules/",
+                        "datetime": "2026-10-26T17:02:41.977000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adf87b12f95493700000048",
+                        "targetTopic": "politics",
+                        "text": "The judge wrote that the Trump administration\u2019s defense of Comey\u2019s firing \u201cflies in the face of nearly two centuries of Supreme Court precedent.\u201d Comey had argued in her federal lawsuit that she was terminated because of her father, James B. Comey, whom President Donald Trump fired as head of the FBI during his first term, and because of her perceived political beliefs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

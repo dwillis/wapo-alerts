@@ -474116,5 +474116,245 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "6f1c3160-d155-11f1-b468-0000a1ace27c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What really delays home construction in America",
+            "ios": {
+                "alert": {
+                    "body": "What really delays home construction in America",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/26/cities-where-it-takes-longer-get-permit-than-build-house/",
+                        "datetime": "2026-10-26T15:53:48.863000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adf778c3de8ac370000003b",
+                        "targetTopic": "opinions",
+                        "text": "See how many housing permits your metro area authorized this year and how that pace compares with previous years."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "01cbb6c0-d151-11f1-8fdf-00000a1acec8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House faces new lawsuit over media bans as press freedom groups seek broader injunction",
+            "ios": {
+                "alert": {
+                    "body": "White House faces new lawsuit over media bans as press freedom groups seek broader injunction",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/26/white-house-is-sued-again-over-media-bans-press-groups-seek-wider-injunction/",
+                        "datetime": "2026-10-26T15:22:07.454000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adf701f3de8ac370000003a",
+                        "targetTopic": "politics",
+                        "text": "The new lawsuit says that prohibitions on access like the ones aimed at CNN, MS NOW and Politico \u2014 which a judge has paused \u2014 violate the rights of ordinary citizens."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5b1214a0-d14b-11f1-83cb-000a1acec582",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Legendary reporter Bob Woodward spills his \u2018Secrets\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Legendary reporter Bob Woodward spills his \u2018Secrets\u2019",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/10/26/bob-woodward-spills-secrets-his-journalism-career-new-memoir/",
+                        "datetime": "2026-10-26T14:41:40.261000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adf66a44ea3c23700000043",
+                        "targetTopic": "breaking-news",
+                        "text": "In a memoir that will be published Nov. 24, the 83-year-old writer names a parade of confidential sources who enabled monumental scoops in The Washington Post and his blockbuster books."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "40706335-d142-11f1-b24b-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Anthropic discloses $80 billion loss and rapidly growing revenue as the artificial intelligence company prepares to go public",
+            "ios": {
+                "alert": {
+                    "body": "Anthropic discloses $80 billion loss and rapidly growing revenue as the artificial intelligence company prepares to go public",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/10/26/anthropic-discloses-80-billion-loss-company-prepares-go-public/",
+                        "datetime": "2026-10-26T13:36:30.013000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adf575e4ea3c23700000042",
+                        "targetTopic": "breaking-news",
+                        "text": "The maker of the Claude chatbot publicly disclosed its financials for the first time, revealing staggering losses and rapidly growing revenue as it seeks to list on the stock market in what could be the largest-ever initial public offering."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0ea26ca1-d15f-11f1-a241-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Justice Department unlawfully fired Maurene Comey, daughter of former FBI director, judge rules",
+            "ios": {
+                "alert": {
+                    "body": "Justice Department unlawfully fired Maurene Comey, daughter of former FBI director, judge rules",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/26/doj-unlawfully-fired-maurene-comey-daughter-former-fbi-director-judge-rules/",
+                        "datetime": "2026-10-26T17:02:41.977000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adf87b12f95493700000048",
+                        "targetTopic": "politics",
+                        "text": "The judge wrote that the Trump administration\u2019s defense of Comey\u2019s firing \u201cflies in the face of nearly two centuries of Supreme Court precedent.\u201d Comey had argued in her federal lawsuit that she was terminated because of her father, James B. Comey, whom President Donald Trump fired as head of the FBI during his first term, and because of her perceived political beliefs."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
