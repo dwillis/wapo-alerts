@@ -474885,5 +474885,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fef58d40-d209-11f1-b0b1-00000a1ace8c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s arch would cast a shadow on Arlington Cemetery for part of the year. See our 3D model.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s arch would cast a shadow on Arlington Cemetery for part of the year. See our 3D model.",
+                    "title": "Darkness Over Memorials"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2026/10/27/trumps-arch-would-cast-shadow-arlington-cemetery/",
+                        "datetime": "2026-10-27T13:26:19.565000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae0a67be7c276370000005f",
+                        "targetTopic": "breaking-news",
+                        "text": "The monument would darken the nation\u2019s premier military burial ground early in the morning on more than 280 days a year, a Post analysis finds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
