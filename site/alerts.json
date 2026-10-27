@@ -474741,5 +474741,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7576db21-d1b7-11f1-820a-00000a1aced3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "CDC\u2019s deputy director to leave Trump administration after six months on the job",
+            "ios": {
+                "alert": {
+                    "body": "CDC\u2019s deputy director to leave Trump administration after six months on the job",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/26/jennifer-shuford-cdc-top-medical-officer-leave-trump-administration/",
+                        "datetime": "2026-10-27T03:35:30.176000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae01c022f9549370000004b",
+                        "targetTopic": "politics",
+                        "text": "Jennifer Shuford, an infectious-disease physician who had served as Texas\u2019s health commissioner, was hired in April as part of a new four-person leadership team tapped to run the Centers for Disease Control and Prevention and restore confidence in the agency, Trump officials said at the time. She is expected to leave the agency after next week\u2019s midterm elections, according to two people who spoke on condition of anonymity to discuss a sensitive personnel matter."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "300ed210-d1a6-11f1-8b3f-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge halts tree removal at East Potomac Park, imposes new limits on Trump\u2019s golf project",
+            "ios": {
+                "alert": {
+                    "body": "Judge halts tree removal at East Potomac Park, imposes new limits on Trump\u2019s golf project",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/10/26/judge-halts-tree-removal-imposes-new-limits-trumps-golf-project/",
+                        "datetime": "2026-10-27T01:31:52.270000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6adfff083de8ac370000003d",
+                        "targetTopic": "breaking-news",
+                        "text": "After clashing with Justice Department lawyers, the judge ruled that the administration cannot cut down more trees or close the course without notice."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
