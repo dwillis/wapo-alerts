@@ -475125,5 +475125,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "3a60667c-d232-11f1-9c67-00000a1ace35",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fl\u00e1vio Bolsonaro fails to turn in passports as Brazilians question his whereabouts",
+            "ios": {
+                "alert": {
+                    "body": "Fl\u00e1vio Bolsonaro fails to turn in passports as Brazilians question his whereabouts",
+                    "title": "Location Unknown"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/27/flvio-bolsonaro-fails-turn-passports-brazilians-question-his-whereabouts/",
+                        "datetime": "2026-10-27T18:14:19.106000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae0e9fbe7c2763700000062",
+                        "targetTopic": "world",
+                        "text": "The always-online presidential aspirant has gone quiet after losing Brazil\u2019s election, fueling speculation as to where he is."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
