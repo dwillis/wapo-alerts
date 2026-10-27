@@ -474837,5 +474837,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "90379331-d1f5-11f1-a6a5-000a1aced45b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Election integrity. Cost of living. Trump\u2019s arch. AI bet. Food inspections. Brain health. Divorced boomers. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Election integrity. Cost of living. Trump\u2019s arch. AI bet. Food inspections. Brain health. Divorced boomers. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/27/7-things-know-tuesday-october-27/?noredirect=1",
+                        "datetime": "2026-10-27T11:00:03.782000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6ae084332f9549370000004c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
