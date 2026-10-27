@@ -474885,5 +474885,245 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fef58d40-d209-11f1-b0b1-00000a1ace8c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump\u2019s arch would cast a shadow on Arlington Cemetery for part of the year. See our 3D model.",
+            "ios": {
+                "alert": {
+                    "body": "Trump\u2019s arch would cast a shadow on Arlington Cemetery for part of the year. See our 3D model.",
+                    "title": "Darkness Over Memorials"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/interactive/2026/10/27/trumps-arch-would-cast-shadow-arlington-cemetery/",
+                        "datetime": "2026-10-27T13:26:19.565000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae0a67be7c276370000005f",
+                        "targetTopic": "breaking-news",
+                        "text": "The monument would darken the nation\u2019s premier military burial ground early in the morning on more than 280 days a year, a Post analysis finds."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "70633271-d228-11f1-a6a5-000a1aced45b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These drug-resistant superbugs pose the biggest threat to Americans, the CDC says",
+            "ios": {
+                "alert": {
+                    "body": "These drug-resistant superbugs pose the biggest threat to Americans, the CDC says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/27/these-superbugs-pose-biggest-threat-americans-cdc-says/",
+                        "datetime": "2026-10-27T17:04:12.128000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae0d98c2f9549370000004d",
+                        "targetTopic": "breaking-news",
+                        "text": "Seven years after federal health officials last assessed the nation\u2019s most dangerous germs, many of the biggest threats remain as new ones emerge, according to a comprehensive assessment released Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c4bb8cf0-d223-11f1-8df5-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court says Trump administration can block immigration judges from closing deportation cases",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court says Trump administration can block immigration judges from closing deportation cases",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/27/trump-administration-can-block-immigration-judges-closing-deportation-cases/",
+                        "datetime": "2026-10-27T16:30:48.791000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae0d1b84ea3c23700000047",
+                        "targetTopic": "breaking-news",
+                        "text": "The justices, in an unsigned opinion, cleared the way for the White House to restrict the Biden-era policy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "291e5a71-d214-11f1-8d8b-00000a1aceb1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Columnist Michael Coren went to Mexico to test-drive the futuristic cars Americans can\u2019t buy. Here's how they compare.",
+            "ios": {
+                "alert": {
+                    "body": "Columnist Michael Coren went to Mexico to test-drive the futuristic cars Americans can\u2019t buy. Here's how they compare.",
+                    "title": "Space-Age Autos"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
+                        "datetime": "2026-10-27T14:39:05.160000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae0b789e7c2763700000061",
+                        "targetTopic": "editors_picks",
+                        "text": "Mexico is a showroom for electric cars, with a growing fleet of sleek new vehicles from Chinese brands unavailable in the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a90e3c10-d213-11f1-9de4-0000a1ace9d6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why I\u2019m flying 6,000 miles to vote against Netanyahu",
+            "ios": {
+                "alert": {
+                    "body": "Why I\u2019m flying 6,000 miles to vote against Netanyahu",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/23/israel-election-im-flying-home-vote-against-netanyahu/",
+                        "datetime": "2026-10-27T14:35:30.261000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae0b6b2e7c2763700000060",
+                        "targetTopic": "opinions",
+                        "text": "Israeli expats might become the October surprise of this tight election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
