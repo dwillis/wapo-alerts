@@ -475317,5 +475317,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "33881f72-d258-11f1-a620-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fl\u00e1vio Bolsonaro is granted a visa to enter the U.S. after fleeing Brazil following his election loss",
+            "ios": {
+                "alert": {
+                    "body": "Fl\u00e1vio Bolsonaro is granted a visa to enter the U.S. after fleeing Brazil following his election loss",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/27/flvio-bolsonaro-fails-turn-passports-brazilians-question-his-whereabouts/",
+                        "datetime": "2026-10-27T22:46:08.555000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae129b02f95493700000050",
+                        "targetTopic": "breaking-news",
+                        "text": "The defeated presidential candidate left Brazil for the United States on Tuesday, according to three people with knowledge of the matter, in defiance of a judicial order to surrender his passport. He and members of his family have been granted U.S. visas, a senior State Department official said. Bolsonaro is under investigation for his over financial ties to a banker accused of financial misconduct and to a man suspected of money laundering tied to Brazil\u2019s betting industry."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bb5d3a80-d24d-11f1-92c9-000a1ace54f2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Grand jury declines to indict former White House aide Cassidy Hutchinson over Jan. 6 testimony",
+            "ios": {
+                "alert": {
+                    "body": "Grand jury declines to indict former White House aide Cassidy Hutchinson over Jan. 6 testimony",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/27/grand-jury-declines-indict-cassidy-hutchinson-over-jan-6-testimony/",
+                        "datetime": "2026-10-27T21:31:11.958000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae1181fe7c2763700000064",
+                        "targetTopic": "breaking-news",
+                        "text": "Hutchinson testified before lawmakers about President Donald Trump\u2019s actions during the Jan. 6, 2021, attack on the U.S. Capitol. The failure of the Justice Department to secure the indictment marks the latest rebuke of its efforts to prosecute one of the president\u2019s political enemies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6e813e20-d24b-11f1-a6a8-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "No clear winner in Israeli vote as Netanyahu loses majority, exit polls indicate",
+            "ios": {
+                "alert": {
+                    "body": "No clear winner in Israeli vote as Netanyahu loses majority, exit polls indicate",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/27/israel-votes-first-national-election-since-oct-7-2023-hamas-attack/",
+                        "datetime": "2026-10-27T21:14:44.012000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae11444e7c2763700000063",
+                        "targetTopic": "breaking-news",
+                        "text": "Israeli voters delivered Benjamin Netanyahu a sharp rebuke Tuesday in Israel\u2019s first national election since the Oct. 7, 2023, attacks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
