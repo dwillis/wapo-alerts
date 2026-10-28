@@ -475509,5 +475509,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "91bd0dc0-d2d1-11f1-8113-00000a1ace48",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Seven races that will decide control of the Senate",
+            "ios": {
+                "alert": {
+                    "body": "Seven races that will decide control of the Senate",
+                    "title": "Midterm Nail-Biters"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/28/these-seven-races-will-determine-which-party-controls-senate/",
+                        "datetime": "2026-10-28T13:14:55.710000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae1f54f4ea3c23700000048",
+                        "targetTopic": "breaking-news",
+                        "text": "Polls show tight contests in a handful of states, making it hard to tell whether Democrats or Republicans will win control of the chamber."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "102ee9a0-d2cb-11f1-b7fa-00000a1ace75",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least 30 people killed after trains collide on high-speed railway in Spain",
+            "ios": {
+                "alert": {
+                    "body": "At least 30 people killed after trains collide on high-speed railway in Spain",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/28/many-killed-high-speed-train-collision-spain/",
+                        "datetime": "2026-10-28T12:28:21.343000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae1ea653de8ac3700000041",
+                        "targetTopic": "world",
+                        "text": "The death toll is likely to rise, a regional official said. The incident follows another deadly train crash in the country this year; more than 40 people were killed in a collision in January."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "b986e280-d2be-11f1-b318-0000a1ace6d9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israel elections. Senate control. Noncitizen voting. Fl\u00e1vio Bolsonaro. Location data. Anxiety spirals. Hot or not. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Israel elections. Senate control. Noncitizen voting. Fl\u00e1vio Bolsonaro. Location data. Anxiety spirals. Hot or not. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/28/7-things-know-wednesday-october-28/?noredirect=1",
+                        "datetime": "2026-10-28T11:00:01.971000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CZTKZYRKDRHZLNWKNCHILEGQ3U.png&w=1440",
+                        "pushID": "6ae1d5b12f95493700000051",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
