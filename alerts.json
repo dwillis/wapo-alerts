@@ -475797,5 +475797,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "08278261-d2fa-11f1-95fb-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal Reserve holds interest rates steady",
+            "ios": {
+                "alert": {
+                    "body": "Federal Reserve holds interest rates steady",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/28/federal-reserve-held-interest-rates-steady/",
+                        "datetime": "2026-10-28T18:04:34.240000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae23932e7c2763700000066",
+                        "targetTopic": "breaking-news",
+                        "text": "The Fed's decision came even as inflation has heated up and spread beyond the gas pump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "a6a8a021-d2f7-11f1-a182-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Dolores Huerta, resolute champion of workers\u2019 rights, dies at 96",
+            "ios": {
+                "alert": {
+                    "body": "Dolores Huerta, resolute champion of workers\u2019 rights, dies at 96",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/10/28/dolores-huerta-co-founder-united-farm-workers-dies-96/",
+                        "datetime": "2026-10-28T17:47:31.647000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae235333de8ac3700000042",
+                        "targetTopic": "breaking-news",
+                        "text": "She co-founded the United Farm Workers with C\u00e9sar Ch\u00e1vez and coined the slogan \u201cS\u00ed se puede,\u201d yes we can."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
