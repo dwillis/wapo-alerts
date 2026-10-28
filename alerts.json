@@ -475653,5 +475653,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "732c32e0-d2eb-11f1-89db-00000a1aceb2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "When you\u2019ll know if the \u2018blue wave\u2019 is real",
+            "ios": {
+                "alert": {
+                    "body": "When you\u2019ll know if the \u2018blue wave\u2019 is real",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/28/how-watch-midterm-election-results-release-like-pro/",
+                        "datetime": "2026-10-28T16:20:11.201000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae220bb2f95493700000053",
+                        "targetTopic": "opinions",
+                        "text": "Election night will be stressful. Here\u2019s how to watch it like a pro."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "52c4ed51-d2e4-11f1-ab53-00000a1acec1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What is the Cook Political Report, and why is Washington so obsessed with it?",
+            "ios": {
+                "alert": {
+                    "body": "What is the Cook Political Report, and why is Washington so obsessed with it?",
+                    "title": "An Election Oracle"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/28/how-cook-political-report-became-washingtons-oracle/",
+                        "datetime": "2026-10-28T15:29:10.487000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae214c62f95493700000052",
+                        "targetTopic": "editors_picks",
+                        "text": "Inside D.C.\u2019s last bastion of bipartisan consensus."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "76606860-d2d6-11f1-95fb-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Fl\u00e1vio Bolsonaro lands in Miami after fleeing Brazil, where he is under investigation",
+            "ios": {
+                "alert": {
+                    "body": "Fl\u00e1vio Bolsonaro lands in Miami after fleeing Brazil, where he is under investigation",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/28/flvio-bolsonaro-lands-miami-after-fleeing-brazil-following-election-loss/",
+                        "datetime": "2026-10-28T13:49:57.284000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae1fd85e7c2763700000065",
+                        "targetTopic": "breaking-news",
+                        "text": "The defeated Brazilian presidential candidate flew from Ecuador after defying a judicial order to surrender his passports in connection with a corruption and money laundering investigation. A senior State Department official said Bolsonaro and his family had been granted visas allow them into the United States."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
