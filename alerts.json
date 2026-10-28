@@ -475942,5 +475942,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b4173821-d324-11f1-b625-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The U.S. is winning the AI race but missing an important strategy",
+            "ios": {
+                "alert": {
+                    "body": "The U.S. is winning the AI race but missing an important strategy",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/28/us-is-winning-ai-race-losing-ai-safety-race/",
+                        "datetime": "2026-10-28T23:10:01.501000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae280c94ea3c23700000049",
+                        "targetTopic": "opinions",
+                        "text": "The U.S. is winning the AI race but missing an important strategy"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
