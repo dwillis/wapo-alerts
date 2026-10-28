@@ -475893,5 +475893,54 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "70ee38b1-d30a-11f1-a8ff-00000a1acecb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How to stop a \u2018what if\u2019 anxiety spiral before it takes over",
+            "ios": {
+                "alert": {
+                    "body": "How to stop a \u2018what if\u2019 anxiety spiral before it takes over",
+                    "title": "Catastrophic Thinking"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/28/how-stop-what-if-anxiety-spiral-before-it-takes-over/",
+                        "datetime": "2026-10-28T20:02:01.996000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae254b92f95493700000054",
+                        "targetTopic": "health",
+                        "text": "A psychologist shares four ways to interrupt worst-case thinking and feel less overwhelmed."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
