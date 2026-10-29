@@ -476422,5 +476422,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "36f97c80-d3d9-11f1-bc53-000a1ace43c2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The terrifying catch in Melania Trump\u2019s Ukraine ceasefire",
+            "ios": {
+                "alert": {
+                    "body": "The terrifying catch in Melania Trump\u2019s Ukraine ceasefire",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/29/terrifying-catch-melania-trumps-ukraine-ceasefire/",
+                        "datetime": "2026-10-29T20:42:10.444000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae3afa2d99d8c2f00000002",
+                        "targetTopic": "opinions",
+                        "text": "The terrifying catch in Melania Trump\u2019s Ukraine ceasefire"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "439d07b1-d3d7-11f1-8b8c-0000a1ace45d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "General ousted by Hegseth referred for possible criminal prosecution in alleged leak case, officials say",
+            "ios": {
+                "alert": {
+                    "body": "General ousted by Hegseth referred for possible criminal prosecution in alleged leak case, officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/10/29/general-ousted-by-hegseth-referred-criminal-prosecution-officials-say/",
+                        "datetime": "2026-10-29T20:28:12.704000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae3ac5cd99d8c2f00000001",
+                        "targetTopic": "breaking-news",
+                        "text": "The Pentagon\u2019s case against Lt. Gen. Brett Sylvia has stunned his colleagues, some of whom have questioned the narrative being promoted by the defense secretary\u2019s team."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0c658b12-d3c7-11f1-a634-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Back in Venezuela, opposition leader Mar\u00eda Corina Machado endorses U.S. plan for elections in her country",
+            "ios": {
+                "alert": {
+                    "body": "Back in Venezuela, opposition leader Mar\u00eda Corina Machado endorses U.S. plan for elections in her country",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/10/29/back-venezuela-opposition-leader-endorses-us-plan-elections/",
+                        "datetime": "2026-10-29T18:32:08.201000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae39128bfad712e00000001",
+                        "targetTopic": "world",
+                        "text": "Machado, who recently returned from exile, called the country\u2019s transition to democracy \u201cirreversible.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
