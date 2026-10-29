@@ -476134,5 +476134,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b80ca050-d347-11f1-a113-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Milwaukee Brewers capture first World Series title in franchise history, defeating the Tampa Bay Rays in five games",
+            "ios": {
+                "alert": {
+                    "body": "Milwaukee Brewers capture first World Series title in franchise history, defeating the Tampa Bay Rays in five games",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/10/28/milwaukee-brewers-capture-first-world-series-title-franchise-history/",
+                        "datetime": "2026-10-29T03:20:40.610000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae2bb884ea3c2370000004b",
+                        "targetTopic": "breaking-news",
+                        "text": "With few stars and a low payroll, the Brewers scrapped their way to 103 regular season wins and the first championship in their 58-season history, beating the Rays 4-1 in Game 5."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
