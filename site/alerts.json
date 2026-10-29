@@ -475990,5 +475990,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d345fcb0-d336-11f1-8d9e-00000a1acef0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Identities of thousands of Homeland Security employees and contractors disclosed in massive data breach",
+            "ios": {
+                "alert": {
+                    "body": "Identities of thousands of Homeland Security employees and contractors disclosed in massive data breach",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/10/28/ice-cbp-other-dhs-officer-identities-posted-online-data-breach/",
+                        "datetime": "2026-10-29T01:19:44.810000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae29f30e7c2763700000068",
+                        "targetTopic": "breaking-news",
+                        "text": "An activist group published a searchable database, exposing the identities and contact information for immigration officers, border agents and undercover investigators, according to documents posted online. DHS said it was \u201caware of a potential breach\u201d and was \u201cworking to address the situation swiftly and effectively.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "fbbdc3b0-d32e-11f1-b7d0-00000a1ace5c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Cornell faculty senate moves ahead with no-confidence vote on administration",
+            "ios": {
+                "alert": {
+                    "body": "Cornell faculty senate moves ahead with no-confidence vote on administration",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/education/2026/10/28/cornell-faculty-senate-moves-ahead-with-no-confidence-vote-administration/",
+                        "datetime": "2026-10-29T00:23:36.720000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae29208e7c2763700000067",
+                        "targetTopic": "us",
+                        "text": "Cornell University\u2019s leaders have been under fire since last month, when a former student filed a civil lawsuit alleging that she was the victim of a gang rape at a fraternity house and the school had failed to enact adequate measures to prevent such an assault. An online vote will now take place starting Thursday, with results expected Nov. 6."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ce89e720-d329-11f1-b625-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump has a lot to say about men\u2019s looks. Take our quiz to guess whom he considers attractive.",
+            "ios": {
+                "alert": {
+                    "body": "Trump has a lot to say about men\u2019s looks. Take our quiz to guess whom he considers attractive.",
+                    "title": "Hot or Not?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2026/10/28/trump-has-lot-say-about-mens-looks-can-you-tell-whom-he-considers-attractive/",
+                        "datetime": "2026-10-28T23:46:33.404000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae289594ea3c2370000004a",
+                        "targetTopic": "editors_picks",
+                        "text": "President Donald Trump returned to the campaign trail this month to stump for Republicans in the midterms, holding rallies every day. And just about as often, he has made impromptu comments about the physical attractiveness of other men."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
