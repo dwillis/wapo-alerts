@@ -476182,5 +476182,245 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f46210b1-d3a8-11f1-8b7d-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says it\u2019s his money to control. The law forbids it.",
+            "ios": {
+                "alert": {
+                    "body": "Trump says it\u2019s his money to control. The law forbids it.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/29/maga-inc-trump-parade-campaign-finance-abuses/",
+                        "datetime": "2026-10-29T14:56:43.003000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae35eab4ea3c2370000004d",
+                        "targetTopic": "opinions",
+                        "text": "The president\u2019s hold over MAGA Inc. flies in the face of U.S. campaign-finance laws."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ad862b51-d3a2-11f1-b076-00000a1ace9f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump fired him. The \u2018DEI Watchlist\u2019 shamed him. Then came 500 job rejections.",
+            "ios": {
+                "alert": {
+                    "body": "Trump fired him. The \u2018DEI Watchlist\u2019 shamed him. Then came 500 job rejections.",
+                    "title": "\u2018This cost me my livelihood\u2019"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/10/29/fired-federal-worker-shamed-dei-watchlist-struggles-find-job/",
+                        "datetime": "2026-10-29T14:11:47.070000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae354234ea3c2370000004c",
+                        "targetTopic": "editors_picks",
+                        "text": "Efforts to purge the government of diversity, equity and inclusion programs have taken a major toll on Black workers who now struggle to find comparable jobs. Dia Harris is one of them."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "151af780-d396-11f1-8b7d-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. economy grew at a fast clip from July through September, thanks to consumer spending",
+            "ios": {
+                "alert": {
+                    "body": "U.S. economy grew at a fast clip from July through September, thanks to consumer spending",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/10/29/economy-grew-this-summer/",
+                        "datetime": "2026-10-29T12:41:37.455000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae33f012f95493700000055",
+                        "targetTopic": "breaking-news",
+                        "text": "The economy grew at an annual rate of 3.4 percent. The increase marked a big rebound from the previous quarter, delivering good news for Republicans hoping to maintain their congressional majorities in the Nov. 3 election."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ffecd050-d38f-11f1-a651-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alaska governor orders investigation into Democrat\u2019s Senate campaign",
+            "ios": {
+                "alert": {
+                    "body": "Alaska governor orders investigation into Democrat\u2019s Senate campaign",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/29/alaska-governor-orders-investigation-into-democrats-senate-campaign/",
+                        "datetime": "2026-10-29T11:58:04.960000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae334cce7c2763700000069",
+                        "targetTopic": "breaking-news",
+                        "text": "Alaska Governor Mike Dunleavy (R) said late Wednesday he was ordering an investigation into whether the campaign for Democratic candidate Mary Peltola should face criminal charges or civil action following accusations it helped recruit an outside contender for the Senate race."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e4298cd0-d387-11f1-a915-00000a1ace00",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Midterm campaign. Train crash. Pentagon purge. Data breach. ACA premiums. World Series. Doggy depression. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Midterm campaign. Train crash. Pentagon purge. Data breach. ACA premiums. World Series. Doggy depression. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/29/7-things-know-thursday-october-29/?noredirect=1",
+                        "datetime": "2026-10-29T11:00:02.388000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6ae327323de8ac3700000043",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
