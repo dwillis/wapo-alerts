@@ -476566,5 +476566,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8bbfec01-d3dd-11f1-a634-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Head of Vietnam Veterans of America says he was \u2018misled\u2019 before group endorsed Trump\u2019s arch",
+            "ios": {
+                "alert": {
+                    "body": "Head of Vietnam Veterans of America says he was \u2018misled\u2019 before group endorsed Trump\u2019s arch",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/29/head-veterans-group-that-backed-trump-arch-says-he-was-misled/",
+                        "datetime": "2026-10-29T21:13:10.721000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae3b6e64c07ed2f00000001",
+                        "targetTopic": "breaking-news",
+                        "text": "The White House has sought to rally support from veterans before a court showdown on Friday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "947edf70-d3da-11f1-af75-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration earmarks $1.2 million in national park fees to remove D.C. golf course trees, documents show",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration earmarks $1.2 million in national park fees to remove D.C. golf course trees, documents show",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/10/29/trump-administration-spend-12m-remove-dc-golf-course-trees-records-show/",
+                        "datetime": "2026-10-29T20:51:56.934000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae3b1ecd99d8c2f00000003",
+                        "targetTopic": "breaking-news",
+                        "text": "The National Park Service earlier this month cut down more than 400 trees at at East Potomac Golf Links before U.S. District Judge Ana C. Reyes issued an order to stop the work."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
