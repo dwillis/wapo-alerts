@@ -476758,5 +476758,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db04b9f0-d3fe-11f1-939d-00000a1aceb5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mother alleges that leak at a D.C. agency led to her teenage son\u2019s shooting death",
+            "ios": {
+                "alert": {
+                    "body": "Mother alleges that leak at a D.C. agency led to her teenage son\u2019s shooting death",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/29/md-teen-was-shot-dead-near-his-home-his-mom-blames-leak-dc-agency/",
+                        "datetime": "2026-10-30T01:11:37.132000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae3eec9208f282f00000002",
+                        "targetTopic": "local",
+                        "text": "Detectives searching the phone of a suspect in the killing of 18-year-old Kesean Pollard found a picture of Pollard\u2019s \u201cface sheet\u201d from the D.C. Department of Youth Rehabilitation Services, according to an arrest affidavit. Pollard\u2019s mother filed a lawsuit in D.C. Superior Court this month blaming the city for her son\u2019s October 2024 death because of the leaked private information that included their home address."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9bb9aea1-d3fd-11f1-9160-000a1acebb5d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The White House sees an Iranian hard-liner as the best hope for peace, David Ignatius writes",
+            "ios": {
+                "alert": {
+                    "body": "The White House sees an Iranian hard-liner as the best hope for peace, David Ignatius writes",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/29/white-house-sees-an-iranian-hard-liner-best-hope-peace/",
+                        "datetime": "2026-10-30T01:02:41.466000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae3ecb1bfad712e00000002",
+                        "targetTopic": "opinions",
+                        "text": "The White House sees an Iranian hard-liner as the best hope for peace, David Ignatius writes"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
