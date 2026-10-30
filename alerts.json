@@ -477286,5 +477286,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ac135930-d499-11f1-8f48-00000a1ace61",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "ICE agent charged with injuring migrant during enforcement effort in Houston",
+            "ios": {
+                "alert": {
+                    "body": "ICE agent charged with injuring migrant during enforcement effort in Houston",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/10/30/ice-agent-charged-houston-with-injuring-migrant-during-enforcement-effort/",
+                        "datetime": "2026-10-30T19:39:50.404000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae4f286208f282f00000008",
+                        "targetTopic": "us",
+                        "text": "Mario Alberto Morales is accused of running down an immigrant with his car, causing serious injuries. He is charged with aggravated assault with a weapon."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
