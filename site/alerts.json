@@ -476854,5 +476854,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cab2aea2-d461-11f1-bd4f-0000a1aceb6f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Massive crypto hack probably the largest theft of digital currencies in history, with $6.3 billion in user funds affected",
+            "ios": {
+                "alert": {
+                    "body": "Massive crypto hack probably the largest theft of digital currencies in history, with $6.3 billion in user funds affected",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/10/29/suspected-binance-hack-sets-off-scramble-lock-down-billions-crypto/",
+                        "datetime": "2026-10-30T12:59:49.964000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae494c5208f282f00000003",
+                        "targetTopic": "breaking-news",
+                        "text": "Binance has not yet said who it believes was responsible, but two cybersecurity threat analysis companies have attributed the incident to a North Korean-backed hacker group."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0d7b2610-d451-11f1-b32c-00000a1ace26",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump rallies. Ramaswamy ad. Fired general. Triumphal arch. Patrick Stewart. Chatbots. Cannabis and sleep. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump rallies. Ramaswamy ad. Fired general. Triumphal arch. Patrick Stewart. Chatbots. Cannabis and sleep. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/10/30/7-things-know-friday-october-30/?noredirect=1",
+                        "datetime": "2026-10-30T11:00:00.556000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6ae478b0d99d8c2f00000004",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
