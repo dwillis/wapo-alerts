@@ -477334,5 +477334,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7c986970-d4ad-11f1-9024-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A 35-year study challenges the belief that marijuana is good for sleep",
+            "ios": {
+                "alert": {
+                    "body": "A 35-year study challenges the belief that marijuana is good for sleep",
+                    "title": "Nighttime Disruptions"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/30/35-year-study-challenges-belief-that-marijuana-is-good-sleep/",
+                        "datetime": "2026-10-30T22:01:40.667000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae513c4bfad712e00000005",
+                        "targetTopic": "editors_picks",
+                        "text": "One researcher was \u201ctotally surprised\u201d by the findings."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4907b410-d4a5-11f1-81a0-00000a1ace7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal judge signals she may halt construction on Trump\u2019s planned triumphal arch",
+            "ios": {
+                "alert": {
+                    "body": "Federal judge signals she may halt construction on Trump\u2019s planned triumphal arch",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/30/dc-government-may-sue-block-trumps-arch-adding-legal-pressure/",
+                        "datetime": "2026-10-30T21:02:58.118000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae50602208f282f0000000a",
+                        "targetTopic": "breaking-news",
+                        "text": "Judge Tanya S. Chutkan was skeptical of the Justice Department\u2019s arguments, including on the project\u2019s urgency. \u201cWhat is the rush?\u201d she asked."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6ee7e370-d4a1-11f1-84e1-0000a1ace67f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Avoid whole-wheat bread? RFK Jr.\u2019s warning would be harmful \u2014 and costly.",
+            "ios": {
+                "alert": {
+                    "body": "Avoid whole-wheat bread? RFK Jr.\u2019s warning would be harmful \u2014 and costly.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/30/kennedy-wrongly-pushes-federal-definition-ultra-processed-foods/",
+                        "datetime": "2026-10-30T20:35:23.746000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae4ff8b208f282f00000009",
+                        "targetTopic": "opinions",
+                        "text": "Labeling \u201cultra-processed\u201d food is not how to make America healthier."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
