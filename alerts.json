@@ -477478,5 +477478,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "07a7b060-d531-11f1-bb24-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C., Virginia sue to stop Trump\u2019s 250-foot arch, calling it a \u2018flagrantly unlawful\u2019 project that would harm the region",
+            "ios": {
+                "alert": {
+                    "body": "D.C., Virginia sue to stop Trump\u2019s 250-foot arch, calling it a \u2018flagrantly unlawful\u2019 project that would harm the region",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/10/31/dc-virginia-sue-block-trumps-proposed-triumphal-arch/",
+                        "datetime": "2026-10-31T13:43:18.053000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae5f076bfad712e00000006",
+                        "targetTopic": "breaking-news",
+                        "text": "The lawsuit is the latest attempt to stop the proposed triumphal arch, which President Donald Trump hopes to build near Arlington National Cemetery and says will commemorate the nation\u2019s 250th birthday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
