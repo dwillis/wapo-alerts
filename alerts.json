@@ -477526,5 +477526,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "35bc8d66-d552-11f1-be55-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What Patrick Stewart\u2019s \u2018brief\u2019 dementia journey reveals about lifespans after diagnosis",
+            "ios": {
+                "alert": {
+                    "body": "What Patrick Stewart\u2019s \u2018brief\u2019 dementia journey reveals about lifespans after diagnosis",
+                    "title": "Rare Cases"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/10/31/patrick-stewart-died-after-brief-journey-with-dementia-is-that-common/",
+                        "datetime": "2026-10-31T17:40:48.683000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae628204c07ed2f00000004",
+                        "targetTopic": "editors_picks",
+                        "text": "In rare cases, the condition can progress rapidly, doctors say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7c439270-d54c-11f1-b50e-00000a1ace49",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "I explore the world\u2019s scariest lakes. Ghosts can never compare.",
+            "ios": {
+                "alert": {
+                    "body": "I explore the world\u2019s scariest lakes. Ghosts can never compare.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/29/halloween-ghouls-cant-out-creep-nature-underwater-horrors/",
+                        "datetime": "2026-10-31T16:59:50.107000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae61e86bfad712e00000008",
+                        "targetTopic": "opinions",
+                        "text": "I explore the world\u2019s scariest lakes. Ghosts can never compare."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "46eaadf0-d549-11f1-bf0d-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kennedy Center leaders threatened payroll to push Trump naming, lawmaker alleges in court brief",
+            "ios": {
+                "alert": {
+                    "body": "Kennedy Center leaders threatened payroll to push Trump naming, lawmaker alleges in court brief",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/10/31/kennedy-center-leaders-threatened-payroll-push-trump-naming-lawmaker-alleges/",
+                        "datetime": "2026-10-31T16:36:52.107000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae619244c07ed2f00000003",
+                        "targetTopic": "politics",
+                        "text": "Kennedy Center leaders jeopardized the institution\u2019s operations by tying millions of dollars in foundation funding to keeping President Donald Trump\u2019s name on its building, a Democratic congresswoman who serves on its board alleged in a court filing."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d896e330-d53b-11f1-aa55-0000a1ace4b5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What if the polls are wrong about a Democratic Senate? Mapping 4 scenarios.",
+            "ios": {
+                "alert": {
+                    "body": "What if the polls are wrong about a Democratic Senate? Mapping 4 scenarios.",
+                    "title": "Thin Margin of Error"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/10/31/4-ways-polls-could-be-wrong-or-right-about-who-will-win-senate/",
+                        "datetime": "2026-10-31T15:00:43.513000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae6029bbfad712e00000007",
+                        "targetTopic": "breaking-news",
+                        "text": "Democrats are favored to win Congress, but unusually uncertain polling leaves room for very different outcomes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
