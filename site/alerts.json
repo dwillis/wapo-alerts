@@ -477718,5 +477718,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c60a72b0-d566-11f1-b97e-00000a1ace84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Can frat guys save Republicans? They don\u2019t particularly want to.",
+            "ios": {
+                "alert": {
+                    "body": "Can frat guys save Republicans? They don\u2019t particularly want to.",
+                    "title": "Tailgating for Votes"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/10/31/can-frat-guys-save-republicans-they-dont-want/",
+                        "datetime": "2026-10-31T20:08:00.808000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae64aa0d99d8c2f00000007",
+                        "targetTopic": "politics",
+                        "text": "We spent an afternoon with a conservative PAC trying to get fraternity brothers to the polls. It\u2019s going to take more than free hats."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
