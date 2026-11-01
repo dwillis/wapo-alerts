@@ -478391,5 +478391,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "99e1c180-d646-11f1-a896-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Crash of business jet in Florida neighborhood kills all 9 on board, transportation secretary says",
+            "ios": {
+                "alert": {
+                    "body": "Crash of business jet in Florida neighborhood kills all 9 on board, transportation secretary says",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/11/01/business-jet-crashes-florida-killing-all-nine-board/",
+                        "datetime": "2026-11-01T22:50:13.897000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae7c225208f282f0000000d",
+                        "targetTopic": "us",
+                        "text": "The aircraft was en route from Texas to the Bahamas when it crashed in West Palm Beach. Transportation Secretary Sean P. Duffy called it a \u201chorrific tragedy.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
