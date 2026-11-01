@@ -477910,5 +477910,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "d3f34451-d602-11f1-a776-00000a1ace4b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Clocks just changed \u2014 but could return to daylight saving time in a few weeks if Trump gets his way",
+            "ios": {
+                "alert": {
+                    "body": "Clocks just changed \u2014 but could return to daylight saving time in a few weeks if Trump gets his way",
+                    "title": "Springing Forward Soon?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/01/trump-backed-daylight-saving-time-bill-could-create-midwinter-time-jump/",
+                        "datetime": "2026-11-01T14:45:05.549000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae750714c07ed2f00000007",
+                        "targetTopic": "politics",
+                        "text": "The president has continued to advocate for the Sunshine Protection Act, which he says would allow more Americans to enjoy daylight later in the day by permanently setting the clocks one hour forward. The bill could force an awkward clock change this winter."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
