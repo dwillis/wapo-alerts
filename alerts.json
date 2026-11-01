@@ -477766,5 +477766,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2dbaf5b0-d585-11f1-8f73-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The sad truth about your favorite Halloween candy",
+            "ios": {
+                "alert": {
+                    "body": "The sad truth about your favorite Halloween candy",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/10/30/your-halloween-candy-is-worse-here-why/",
+                        "datetime": "2026-10-31T23:45:39.650000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae67da34c07ed2f00000006",
+                        "targetTopic": "opinions",
+                        "text": "The sad truth about your favorite Halloween candy"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d6d45360-d582-11f1-8cb7-0000a1ace2c5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A town renamed itself Sleepy Hollow \u2014 and became a spooky mecca",
+            "ios": {
+                "alert": {
+                    "body": "A town renamed itself Sleepy Hollow \u2014 and became a spooky mecca",
+                    "title": "Take a Tour"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/interactive/2026/10/31/embrace-headless-horseman-this-new-york-town-renamed-itself-sleepy-hollow/",
+                        "datetime": "2026-10-31T23:28:54.885000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae679b6d99d8c2f00000008",
+                        "targetTopic": "editors_picks",
+                        "text": "The Washington Irving ghost story is a powerful draw in New York\u2019s Hudson Valley two centuries later."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "eb4fdc20-d577-11f1-8f73-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The link between alcohol and breast cancer risk is strong. Here\u2019s what to know.",
+            "ios": {
+                "alert": {
+                    "body": "The link between alcohol and breast cancer risk is strong. Here\u2019s what to know.",
+                    "title": "Evaluating The Risk"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/10/31/what-we-know-about-how-alcohol-contributes-breast-cancer-risk/",
+                        "datetime": "2026-10-31T22:10:44.748000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae667644c07ed2f00000005",
+                        "targetTopic": "editors_picks",
+                        "text": "Research consistently suggests there\u2019s no completely safe amount \u2014 but when, how and how much you drink can all affect the level of risk you\u2019re likely to sustain."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
