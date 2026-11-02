@@ -478871,5 +478871,102 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "431a2890-d6f7-11f1-b8ab-00000a1ace1d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Binance says it has covered 95% of crypto assets taken in record $6.3 billion hack",
+            "ios": {
+                "alert": {
+                    "body": "Binance says it has covered 95% of crypto assets taken in record $6.3 billion hack",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/02/binance-has-covered-95-crypto-assets-taken-record-63-billion-hack/",
+                        "datetime": "2026-11-02T19:54:49.275000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae8ea89bfad712e0000000d",
+                        "targetTopic": "business",
+                        "text": "Cryptocurrency exchanges have been a frequent target of hacks by North Koreans and have not always been able to repay users afterward."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "79020ad0-d6f3-11f1-998f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump touts Reflecting Pool renovations as he makes midterm closing arguments",
+            "ios": {
+                "alert": {
+                    "body": "Trump touts Reflecting Pool renovations as he makes midterm closing arguments",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/02/trump-make-midterm-closing-arguments-troubled-reflecting-pool-site/",
+                        "datetime": "2026-11-02T19:27:41.737000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae8e42dbfad712e0000000c",
+                        "targetTopic": "politics",
+                        "text": "The president spoke Monday at the historic pool in front of the Lincoln Memorial, about six months after he began rushed renovations that quickly went awry. The longtime real estate developer has insisted the project shows how he can fix Washington \u2014 and one of its signature monuments."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
