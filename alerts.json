@@ -478487,5 +478487,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0e5a1d61-d65f-11f1-bfdf-00000a1ace27",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JD Vance may announce a 2028 run. First, he has to get through the midterms.",
+            "ios": {
+                "alert": {
+                    "body": "JD Vance may announce a 2028 run. First, he has to get through the midterms.",
+                    "title": "Building His Brand"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/01/jd-vance-may-announce-2028-run-first-he-has-get-through-midterms/",
+                        "datetime": "2026-11-02T01:45:17.308000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae7eb2d208f282f0000000f",
+                        "targetTopic": "editors_picks",
+                        "text": "As Vance campaigns for Republicans facing midterm headwinds, he is also building a political brand beyond President Donald Trump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

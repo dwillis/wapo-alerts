@@ -478439,5 +478439,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e6699bb1-d64e-11f1-a1c1-000a1ace44c7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside the chaos before Haley Stevens\u2019s shocking Senate endorsement in Michigan",
+            "ios": {
+                "alert": {
+                    "body": "Inside the chaos before Haley Stevens\u2019s shocking Senate endorsement in Michigan",
+                    "title": "An About-Face"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/01/what-happened-before-haley-stevens-endorsed-mike-rogers-over-abdul-el-sayed/",
+                        "datetime": "2026-11-01T23:49:38.340000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae7d012208f282f0000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision by Rep. Haley Stevens to endorse Republican Mike Rogers in the Senate race is deeply personal \u2013 and highlights Democrats' fractures over Israel policy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0e5a1d61-d65f-11f1-bfdf-00000a1ace27",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JD Vance may announce a 2028 run. First, he has to get through the midterms.",
+            "ios": {
+                "alert": {
+                    "body": "JD Vance may announce a 2028 run. First, he has to get through the midterms.",
+                    "title": "Building His Brand"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/01/jd-vance-may-announce-2028-run-first-he-has-get-through-midterms/",
+                        "datetime": "2026-11-02T01:45:17.308000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae7eb2d208f282f0000000f",
+                        "targetTopic": "editors_picks",
+                        "text": "As Vance campaigns for Republicans facing midterm headwinds, he is also building a political brand beyond President Donald Trump."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
