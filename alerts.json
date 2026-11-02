@@ -478439,5 +478439,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e6699bb1-d64e-11f1-a1c1-000a1ace44c7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inside the chaos before Haley Stevens\u2019s shocking Senate endorsement in Michigan",
+            "ios": {
+                "alert": {
+                    "body": "Inside the chaos before Haley Stevens\u2019s shocking Senate endorsement in Michigan",
+                    "title": "An About-Face"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/01/what-happened-before-haley-stevens-endorsed-mike-rogers-over-abdul-el-sayed/",
+                        "datetime": "2026-11-01T23:49:38.340000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6ae7d012208f282f0000000e",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision by Rep. Haley Stevens to endorse Republican Mike Rogers in the Senate race is deeply personal \u2013 and highlights Democrats' fractures over Israel policy."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
