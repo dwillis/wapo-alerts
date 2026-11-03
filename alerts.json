@@ -479592,5 +479592,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fc1d5860-d7da-11f1-bae7-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Control of Congress is at stake in this election. Follow our live updates and the results of key Senate, House and governor races.",
+            "ios": {
+                "alert": {
+                    "body": "Control of Congress is at stake in this election. Follow our live updates and the results of key Senate, House and governor races.",
+                    "title": "Election 2026"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/03/elections-2026-live-updates-voters-head-polls-senate-house-governor-races/",
+                        "datetime": "2026-11-03T23:04:55.424000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aea6897bfad712e0000000f",
+                        "targetTopic": "breaking-news",
+                        "text": "The first polls have closed in Indiana and Kentucky. The open race to replace Rep. Andy Barr (R-Kentucky) could give the earliest indication of how the night is going for each party."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
