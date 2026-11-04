@@ -481128,5 +481128,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0df8aad0-d880-11f1-b3e9-00000a1ace99",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Voters rightly punished Trumpism. But please hold the giddiness, George F. Will writes.",
+            "ios": {
+                "alert": {
+                    "body": "Voters rightly punished Trumpism. But please hold the giddiness, George F. Will writes.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/04/trump-gop-punished-by-midterm-voters-please-hold-giddiness/",
+                        "datetime": "2026-11-04T18:46:32.304000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aeb7d88208f282f0000001f",
+                        "targetTopic": "opinions",
+                        "text": "Voters rightly punished Trumpism. But please hold the giddiness, George F. Will writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
