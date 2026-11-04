@@ -480072,5 +480072,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "db5606c3-d7fa-11f1-9e7a-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Tom Kean Jr. (R) of N.J. loses reelection, according to AP. His four-month House absence fueled intrigue and GOP concern.",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Tom Kean Jr. (R) of N.J. loses reelection, according to AP. His four-month House absence fueled intrigue and GOP concern.",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/03/elections-2026-live-updates-voters-head-polls-senate-house-governor-races/#link-YXACTKRBNBCIDJI4MWOWS4ILZQ",
+                        "datetime": "2026-11-04T02:53:04.383000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aea9e10d99d8c2f0000000f",
+                        "targetTopic": "politics",
+                        "text": "Kean lost to Navy veteran Rebecca Bennett (D) in one of the nation\u2019s most vulnerable Republican districts. Kean\u2019s prolonged absence drew national media attention and went unexplained until he disclosed in June that he had received treatment for depression."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
