@@ -481176,5 +481176,198 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "5412bc70-d8aa-11f1-ad83-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "How Republican missteps laid the groundwork for a historic midterm rebuke",
+            "ios": {
+                "alert": {
+                    "body": "How Republican missteps laid the groundwork for a historic midterm rebuke",
+                    "title": "Failed Strategy"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/04/republican-missteps-that-laid-groundwork-historic-midterm-rebuke/",
+                        "datetime": "2026-11-04T23:49:08.853000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aebc474bfad712e00000018",
+                        "targetTopic": "editors_picks",
+                        "text": "Republicans began the midterm election season with a favorable Senate map, aggressive plans to redraw House districts and access to enormous sums of money. But the president underestimated how angry voters had grown at his handling of the economy, tariffs and the war he launched in Iran this year, alienating key segments of the coalition he built in his historic 2024 win."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "53a4a110-d899-11f1-a122-00000a1acedd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stocks surged and oil prices fell as markets responded to the midterm rout",
+            "ios": {
+                "alert": {
+                    "body": "Stocks surged and oil prices fell as markets responded to the midterm rout",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/04/stocks-surged-oil-prices-fell-markets-responded-midterm-rout/",
+                        "datetime": "2026-11-04T21:47:26.596000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aeba7eed99d8c2f00000015",
+                        "targetTopic": "business",
+                        "text": "Voters in many states favored limits on AI, a key driver of the economy. But a split between Congress and the White House may signal something else to investors."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9b921e80-d894-11f1-a489-00000a1ace76",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018A lot of finger-pointing\u2019: Texas is in shock",
+            "ios": {
+                "alert": {
+                    "body": "\u2018A lot of finger-pointing\u2019: Texas is in shock",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/04/talarico-hinojosa-texas-democratic-wave-offer-lessons/",
+                        "datetime": "2026-11-04T21:13:39.879000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aeba003208f282f00000020",
+                        "targetTopic": "opinions",
+                        "text": "\u2018A lot of finger-pointing\u2019: Texas is in shock"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "196ea5f0-d893-11f1-9212-00000a1ace5b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump concedes that Iran war angered voters and triggered Democratic landslide",
+            "ios": {
+                "alert": {
+                    "body": "Trump concedes that Iran war angered voters and triggered Democratic landslide",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/04/republicans-wake-up-new-reality-brace-new-washington/",
+                        "datetime": "2026-11-04T21:02:51.914000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aeb9d7b4c07ed2f0000001b",
+                        "targetTopic": "breaking-news",
+                        "text": "After Vice President JD Vance and others in the GOP blamed the war for Tuesday\u2019s rout, President Donald Trump agreed \u2014 but said he would do it again."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
