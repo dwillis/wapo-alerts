@@ -481753,5 +481753,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b2c98981-d966-11f1-a984-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here are the four looming constitutional showdowns",
+            "ios": {
+                "alert": {
+                    "body": "Here are the four looming constitutional showdowns",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/05/democrats-house-senate-control-may-mean-constitutional-showdowns/",
+                        "datetime": "2026-11-05T22:17:33.145000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aed007d208f282f00000023",
+                        "targetTopic": "opinions",
+                        "text": "Here are the four looming constitutional showdowns"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c6897453-d964-11f1-8ed4-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Opponents of Trump\u2019s D.C. golf course overhaul ask judge to stop president from closing site",
+            "ios": {
+                "alert": {
+                    "body": "Opponents of Trump\u2019s D.C. golf course overhaul ask judge to stop president from closing site",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/11/05/opponents-ask-judge-stop-trump-closing-historic-dc-golf-course/",
+                        "datetime": "2026-11-05T22:03:47.278000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aecfd43d99d8c2f00000018",
+                        "targetTopic": "politics",
+                        "text": "The National Park Service has said East Potomac Park needs to close Nov. 15 because it is unsafe, but preservationists say the president just wants to start work on a new course."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "53110909-d95c-11f1-aaed-0000a1ace91b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Republicans lose four more House seats in North Carolina upsets as GOP wipeout spreads",
+            "ios": {
+                "alert": {
+                    "body": "Republicans lose four more House seats in North Carolina upsets as GOP wipeout spreads",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/05/republicans-north-carolina-lose-4-more-house-seats-gop-wipeout-spreads/",
+                        "datetime": "2026-11-05T21:03:17.558000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aecef154c07ed2f0000001f",
+                        "targetTopic": "politics",
+                        "text": "Democrats pulled off the wins Thursday in districts that President Donald Trump carried in 2024, following additional gains earlier. Other Republicans are still facing defeat in a state that is handing the GOP some of its biggest losses this cycle."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
