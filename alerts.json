@@ -481369,5 +481369,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "700d73f0-d910-11f1-ad83-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "GOP blame game. Democrats\u2019 plans. Trump ballroom. Supreme Court. Frats. Aging brains. Healthier bread. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "GOP blame game. Democrats\u2019 plans. Trump ballroom. Supreme Court. Frats. Aging brains. Healthier bread. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/11/05/7-things-know-thursday-november-5/?noredirect=1",
+                        "datetime": "2026-11-05T12:00:04.471000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6aec6fc44c07ed2f0000001c",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
