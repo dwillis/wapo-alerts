@@ -481417,5 +481417,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "0d3b6220-d92c-11f1-a984-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Knives out\u2019 at Pentagon: After unpopular Iran war dooms GOP in midterms, Hegseth is vulnerable, officials say",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Knives out\u2019 at Pentagon: After unpopular Iran war dooms GOP in midterms, Hegseth is vulnerable, officials say",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/11/04/knives-out-pentagon-after-unpopular-iran-war-dooms-gop-midterms/",
+                        "datetime": "2026-11-05T15:17:44.582000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aec9e18bfad712e00000019",
+                        "targetTopic": "breaking-news",
+                        "text": "Although President Donald Trump has continued to support Defense Secretary Pete Hegseth, questions have arisen about whether Trump will hold someone at the Pentagon accountable for Republicans\u2019 big electoral losses."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d3596880-d927-11f1-9911-00000a1ace7c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "JD Vance is test-driving a delusional new message",
+            "ios": {
+                "alert": {
+                    "body": "JD Vance is test-driving a delusional new message",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/05/vance-rubio-2028-race-needs-new-republicans/",
+                        "datetime": "2026-11-05T14:47:29.395000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aec97014c07ed2f0000001d",
+                        "targetTopic": "opinions",
+                        "text": "Trumpism Lite in 2028? Good luck, JD and Marco."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
