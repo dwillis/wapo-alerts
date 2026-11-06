@@ -482089,5 +482089,245 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2e646670-d9f6-11f1-b4bb-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Corporate America courted Trump. Now a blitz of Democratic investigations is coming.",
+            "ios": {
+                "alert": {
+                    "body": "Corporate America courted Trump. Now a blitz of Democratic investigations is coming.",
+                    "title": "Laying the Groundwork"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/06/after-courting-trump-corporate-america-faces-democratic-reckoning/",
+                        "datetime": "2026-11-06T15:24:38.507000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aedf136d99d8c2f0000001e",
+                        "targetTopic": "breaking-news",
+                        "text": "Democrats are preparing for congressional inquiries into some of the country\u2019s largest companies, according to people familiar with the plan, setting off a scramble among executives with close ties to President Donald Trump and his administration."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "62a883c2-d9f2-11f1-8635-00000a1ace1b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "President JD Vance? More slogging through a sewer of odious politics.",
+            "ios": {
+                "alert": {
+                    "body": "President JD Vance? More slogging through a sewer of odious politics.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/06/jd-vance-presidential-ambitions-must-be-stymied-by-temperate-americans/",
+                        "datetime": "2026-11-06T14:57:28.255000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aedead8d99d8c2f0000001d",
+                        "targetTopic": "opinions",
+                        "text": "Temperate Americans of all political stripes should unite to stymie the vice president\u2019s ambitions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4f4b8c6b-d9e7-11f1-87e1-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. economy added 165,000 jobs in October, showing surprising strength",
+            "ios": {
+                "alert": {
+                    "body": "U.S. economy added 165,000 jobs in October, showing surprising strength",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/06/us-economy-added-165000-job-october-strong-gain/",
+                        "datetime": "2026-11-06T13:38:11.285000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aedd8434c07ed2f00000021",
+                        "targetTopic": "breaking-news",
+                        "text": "The unemployment rate ticked down to 4.1 percent, near the same low levels over the past year, according to a Labor Department report."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "524807b1-d9e0-11f1-ba40-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jay Rockefeller, who served as West Virginia governor and a five-term U.S. senator, dies at 89",
+            "ios": {
+                "alert": {
+                    "body": "Jay Rockefeller, who served as West Virginia governor and a five-term U.S. senator, dies at 89",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/obituaries/2026/11/06/jay-rockefeller-senate-voice-health-care-security-dies-89/",
+                        "datetime": "2026-11-06T12:48:09.807000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aedcc89d99d8c2f0000001c",
+                        "targetTopic": "politics",
+                        "text": "John D. \u201cJay\u201d Rockefeller IV, an heir to a vast oil fortune and a liberal Democrat who became a leading voice on health care and national security died Friday at his home in Washington, D.C. His family did not provide a cause."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9929f370-d9d9-11f1-bef5-00000a1ace56",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pete Hegseth. Senate races. Trump\u2019s arch. Tumbling stocks. Death row. Heart risks. Calorific coffee. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Pete Hegseth. Senate races. Trump\u2019s arch. Tumbling stocks. Death row. Heart risks. Calorific coffee. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/11/06/7-things-know-friday-november-6/?noredirect=1",
+                        "datetime": "2026-11-06T12:00:02.249000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6aedc142208f282f00000024",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
