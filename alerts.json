@@ -482617,5 +482617,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "fb3eba31-da35-11f1-b404-00000a1ace82",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Columnist Monica Hesse has found the most perimenopausal show on television",
+            "ios": {
+                "alert": {
+                    "body": "Columnist Monica Hesse has found the most perimenopausal show on television",
+                    "title": "The Roaring 40s"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/11/06/the-gilded-age-is-television-most-perimenopausal-show/",
+                        "datetime": "2026-11-06T23:01:20.538000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aee5c40bfad712e0000001d",
+                        "targetTopic": "editors_picks",
+                        "text": "In the fourth season of the Julian Fellowes period drama \u201cThe Gilded Age,\u201d women of a certain age aren\u2019t fretting over hot flashes. Instead, these middle-aged baddies are scheming and wielding social power."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1dc35f50-da2e-11f1-99c4-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Florida Gov. Ron DeSantis planning another White House run",
+            "ios": {
+                "alert": {
+                    "body": "Florida Gov. Ron DeSantis planning another White House run",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/06/ron-desantis-plans-another-white-house-bid-after-failing-2024/",
+                        "datetime": "2026-11-06T22:05:02.467000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aee4f0ed99d8c2f0000001f",
+                        "targetTopic": "breaking-news",
+                        "text": "Florida\u2019s status as one of the few red states to mostly withstand the Democratic midterm sweep will be a core part of his argument, an adviser said."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
