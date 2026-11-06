@@ -481993,5 +481993,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "20623310-d99f-11f1-ad83-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge halts construction on Trump\u2019s planned arch shortly after a federal panel approved it to proceed",
+            "ios": {
+                "alert": {
+                    "body": "Judge halts construction on Trump\u2019s planned arch shortly after a federal panel approved it to proceed",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/05/trump-wants-his-arch-approved-thursday-and-immediately-start-work/",
+                        "datetime": "2026-11-06T05:01:28.737000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aed5f284c07ed2f00000020",
+                        "targetTopic": "breaking-news",
+                        "text": "U.S. District Judge Tanya S. Chutkan blocked the project, siding with military veterans and local government officials who had urged her to stop it. Opponents of the proposed arch say it is illegal and needs to be approved by the current Congress."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7bd8bb90-d992-11f1-877b-000a1acef2d2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal panel led by Trump allies approves 250-foot arch, clearing the way for construction as a judge weighs whether to halt it",
+            "ios": {
+                "alert": {
+                    "body": "Federal panel led by Trump allies approves 250-foot arch, clearing the way for construction as a judge weighs whether to halt it",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/05/trump-wants-his-arch-approved-thursday-and-immediately-start-work/",
+                        "datetime": "2026-11-06T03:30:58.719000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aed49f2d99d8c2f0000001b",
+                        "targetTopic": "breaking-news",
+                        "text": "The National Capital Planning Commission gave final authorization for the memorial after more than eight hours of public testimony and heated debate. Over 120 people, including architects, historians and military veterans, urged administration officials not to proceed, saying the project would wrongly overshadow nearby Arlington National Cemetery and irrevocably change the Washington landscape."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
