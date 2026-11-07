@@ -482905,5 +482905,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "acb2d392-dae6-11f1-8866-00000a1acefc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Israeli president taps ex-general Gadi Eisenkot, opponent of Netanyahu, to form government",
+            "ios": {
+                "alert": {
+                    "body": "Israeli president taps ex-general Gadi Eisenkot, opponent of Netanyahu, to form government",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/11/07/israeli-president-taps-ex-general-eisenkot-opponent-netanyahu-form-government/",
+                        "datetime": "2026-11-07T20:06:09.643000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aef84b1d99d8c2f00000022",
+                        "targetTopic": "breaking-news",
+                        "text": "The former military chief has 28 days to build a coalition, with a possible extension of up to 14 more. If he fails, Prime Minister Benjamin Netanyahu is likely to get his chance."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f8df8480-dae5-11f1-9164-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A landmark study was flawed. Now my mother is losing her memory.",
+            "ios": {
+                "alert": {
+                    "body": "A landmark study was flawed. Now my mother is losing her memory.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/03/hormone-replacement-dementia-did-my-mom-pay-price/",
+                        "datetime": "2026-11-07T20:01:07.965000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aef8383d99d8c2f00000021",
+                        "targetTopic": "opinions",
+                        "text": "My mom gave up her hormone-replacement therapy. I wonder if things could have been different."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "67a8fe02-daff-11f1-9385-0000a1ace7f4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The moment a Statue of Liberty tour guide stopped pretending everything was okay",
+            "ios": {
+                "alert": {
+                    "body": "The moment a Statue of Liberty tour guide stopped pretending everything was okay",
+                    "title": "Explaining America"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/11/07/her-statue-liberty-tour-was-supposed-be-upbeat-then-she-erupted/",
+                        "datetime": "2026-11-07T23:03:11.261000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aefae2f4c07ed2f00000024",
+                        "targetTopic": "editors_picks",
+                        "text": "Isabelle Garbani won rave reviews for telling visitors about America\u2019s immigration history. The problem was dealing with the present."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "72fd74f1-daf2-11f1-9164-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hair loss, confusion and constant fatigue signaled a life-threatening condition",
+            "ios": {
+                "alert": {
+                    "body": "Hair loss, confusion and constant fatigue signaled a life-threatening condition",
+                    "title": "Medical Mysteries"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/11/07/hair-loss-confusion-constant-fatigue-signaled-life-threatening-condition/",
+                        "datetime": "2026-11-07T21:30:26.756000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aef9872208f282f00000028",
+                        "targetTopic": "editors_picks",
+                        "text": "After waking up confused and barely able to speak, she was told by emergency room doctors to see a therapist for stress, but the problem was much more complex."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
