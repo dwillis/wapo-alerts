@@ -483097,5 +483097,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "08949170-db10-11f1-abdb-00000a1ace9b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A Trump-era debate reignites: Has MAGA face gone too far?",
+            "ios": {
+                "alert": {
+                    "body": "A Trump-era debate reignites: Has MAGA face gone too far?",
+                    "title": "Women Under Scrutiny"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/11/07/trumps-aesthetic-standards-have-sparked-bimbofication-debate-right/",
+                        "datetime": "2026-11-08T01:02:13.154000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aefca15bfad712e0000001f",
+                        "targetTopic": "editors_picks",
+                        "text": "The faces of women in the president\u2019s orbit have become political Rorschach tests."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
