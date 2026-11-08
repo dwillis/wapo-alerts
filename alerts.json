@@ -483193,5 +483193,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "057cded0-db8c-11f1-a62c-00000a1ace45",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrats won the midterms. Republicans may have won something bigger.",
+            "ios": {
+                "alert": {
+                    "body": "Democrats won the midterms. Republicans may have won something bigger.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/08/republicans-can-turn-midterm-defeat-democrats-into-opportunity/",
+                        "datetime": "2026-11-08T15:49:45.579000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af09a194c07ed2f00000025",
+                        "targetTopic": "opinions",
+                        "text": "Social Security and Medicare will force painful choices for the party in control."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
