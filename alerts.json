@@ -483145,5 +483145,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "139ca360-db82-11f1-a300-00000a1ace93",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Potential JD Vance challengers smell blood in the water after GOP losses",
+            "ios": {
+                "alert": {
+                    "body": "Potential JD Vance challengers smell blood in the water after GOP losses",
+                    "title": "Eyes on 2028"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/08/potential-vance-challengers-smell-blood-water-after-brutal-gop-losses/",
+                        "datetime": "2026-11-08T14:38:34.315000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af0896abfad712e00000020",
+                        "targetTopic": "breaking-news",
+                        "text": "The vice president has not made up his mind on running for president in 2028. His possible rivals, however, are wasting little time to prepare."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
