@@ -483626,5 +483626,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1c75bed1-dbdd-11f1-a4ca-0000a1acef4b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "\u2018Love Is Blind\u2019 is actually a documentary about toxic masculinity, our columnist writes",
+            "ios": {
+                "alert": {
+                    "body": "\u2018Love Is Blind\u2019 is actually a documentary about toxic masculinity, our columnist writes",
+                    "title": "Red Flags"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/11/08/love-is-blind-is-actually-documentary-about-toxic-masculinity/",
+                        "datetime": "2026-11-09T01:30:13.346000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af12225d99d8c2f00000024",
+                        "targetTopic": "editors_picks",
+                        "text": "Rarely have we stood so united in ick as we did this season, according to columnist Michael Andor Brodeur."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0ce6df11-dbd5-11f1-a714-000a1ace41db",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump says he was \u2018only kidding\u2019 about offering press secretary job to UFC\u2019s Dana White, ending a day of speculation",
+            "ios": {
+                "alert": {
+                    "body": "Trump says he was \u2018only kidding\u2019 about offering press secretary job to UFC\u2019s Dana White, ending a day of speculation",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/08/trump-says-he-was-only-kidding-about-offering-ufcs-dana-white-press-secretary-job/",
+                        "datetime": "2026-11-09T00:32:31.266000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af1149f208f282f0000002a",
+                        "targetTopic": "politics",
+                        "text": "The president\u2019s comments ended speculation that he had chosen his longtime friend and political ally to fill one of the most high-profile jobs in the White House, as he shakes up his administration following the midterm elections. Trump\u2019s previous pick, Katie Zacharia, left the role just five days into her tenure last month."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
