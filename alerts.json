@@ -483481,5 +483481,150 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "677159e1-dbc8-11f1-a05c-0000a1acec37",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The only town in the U.S. that said yes to data centers",
+            "ios": {
+                "alert": {
+                    "body": "The only town in the U.S. that said yes to data centers",
+                    "title": "Midterms Outlier"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/08/only-town-america-that-said-yes-data-centers/",
+                        "datetime": "2026-11-08T23:01:59.690000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af0ff67d99d8c2f00000023",
+                        "targetTopic": "business",
+                        "text": "On Election Day, much of the country turned against the massive projects that power AI. Here\u2019s why one place didn\u2019t."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2fa348f0-dbc0-11f1-9cce-00000a1ace29",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why you end up coughing for weeks after a cold \u2014 and what to do about it",
+            "ios": {
+                "alert": {
+                    "body": "Why you end up coughing for weeks after a cold \u2014 and what to do about it",
+                    "title": "Triggers and Remedies"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/11/08/why-you-keep-coughing-weeks-after-cold-how-help-soothe-it/",
+                        "datetime": "2026-11-08T22:03:10.138000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af0f19ebfad712e00000024",
+                        "targetTopic": "editors_picks",
+                        "text": "Experts share the habits and triggers to avoid, plus the remedies that could help alleviate a persistent hack following a respiratory infection."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "84ccd2f1-dbb7-11f1-8a87-0000a1acef4d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nvidia board to investigate CEO over relationship with suspected Chinese spy",
+            "ios": {
+                "alert": {
+                    "body": "Nvidia board to investigate CEO over relationship with suspected Chinese spy",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/08/nvidia-opens-investigation-into-ceo-over-relationship-with-suspected-chinese-spy/",
+                        "datetime": "2026-11-08T21:01:07.543000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af0e313208f282f00000029",
+                        "targetTopic": "breaking-news",
+                        "text": "Nvidia CEO Jensen Huang said Sunday he had been unfaithful to his wife, and he apologized to the company and its customers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
