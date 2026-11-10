@@ -484347,5 +484347,198 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "8b2d4a60-dd1c-11f1-9dc2-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least 19 ICE recruits named in DHS hack were hired despite red flags, including past criminal charges or misconduct allegations",
+            "ios": {
+                "alert": {
+                    "body": "At least 19 ICE recruits named in DHS hack were hired despite red flags, including past criminal charges or misconduct allegations",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/11/10/no-business-having-gun-some-ice-recruits-had-record-red-flags/",
+                        "datetime": "2026-11-10T15:36:48.424000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af33a10d99d8c2f00000029",
+                        "targetTopic": "breaking-news",
+                        "text": "The Trump administration has onboarded thousands of new officers in an accelerated recruitment effort that has bypassed traditional background checks. The Post performed background checks on about 300 of those new hires after activists in October hacked a DHS employee database and released information about thousands of workers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2987fcc0-dd0c-11f1-8fc5-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Inflation pace slowed in October, but prices remain high",
+            "ios": {
+                "alert": {
+                    "body": "Inflation pace slowed in October, but prices remain high",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/10/inflation-pace-slowed-october-prices-remain-high/",
+                        "datetime": "2026-11-10T13:39:32.802000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af31e94208f282f00000030",
+                        "targetTopic": "business",
+                        "text": "The pace of inflation eased on a monthly basis in October, as gas prices saw some relief from their steep climb this year. But food prices rose."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c5bbd9b6-dd0a-11f1-91e8-0000a1ace201",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hegseth defends his record, Iran war in fiery remarks as impeachment vote looms",
+            "ios": {
+                "alert": {
+                    "body": "Hegseth defends his record, Iran war in fiery remarks as impeachment vote looms",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/11/10/hegseth-defends-his-record-iran-war-impeachment-vote-looms/",
+                        "datetime": "2026-11-10T13:29:35.837000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af31c3f4c07ed2f0000002a",
+                        "targetTopic": "breaking-news",
+                        "text": "Defense Secretary Pete Hegseth called the effort to remove him from office \u201csabotage.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "42b13677-dcfe-11f1-9211-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pete Hegseth. Senate race. ICE recruits. Nvidia CEO. National Mall. Chatbot tricks. Extraordinary dog. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Pete Hegseth. Senate race. ICE recruits. Nvidia CEO. National Mall. Chatbot tricks. Extraordinary dog. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/11/10/7-things-know-tuesday-november-10/?noredirect=1",
+                        "datetime": "2026-11-10T12:00:01.950000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6af30741208f282f0000002f",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
