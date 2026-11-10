@@ -484540,5 +484540,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bea99091-dd28-11f1-945c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Appeals court says Voice of America director was fired illegally by former head Kari Lake",
+            "ios": {
+                "alert": {
+                    "body": "Appeals court says Voice of America director was fired illegally by former head Kari Lake",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/10/appeals-court-says-voa-director-was-fired-illegally-by-former-head-kari-lake/",
+                        "datetime": "2026-11-10T17:04:08.733000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af34e88208f282f00000032",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision marks the latest effort for the Trump administration to dismantle the international broadcaster."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5904af80-dd1f-11f1-9383-00000a1ace54",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Everything about life I learned from \u2018The Sound of Music\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Everything about life I learned from \u2018The Sound of Music\u2019",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/08/sound-music-offers-invaluable-lessons-ahead-broadway-revival/",
+                        "datetime": "2026-11-10T15:56:52.614000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af33ec4208f282f00000031",
+                        "targetTopic": "opinions",
+                        "text": "Performing in the musical more than 200 times as a child actress, I absorbed themes that I realize now are invaluable."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
