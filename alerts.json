@@ -484011,5 +484011,341 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b5c31401-dc93-11f1-9652-000a1ace43bc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "People are paying thousands for a home upgrade that\u2019s often unnecessary",
+            "ios": {
+                "alert": {
+                    "body": "People are paying thousands for a home upgrade that\u2019s often unnecessary",
+                    "title": "Electrification Obstacle"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/09/people-are-paying-thousands-home-upgrade-thats-often-unnecessary/",
+                        "datetime": "2026-11-09T23:17:18.944000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af2547ed99d8c2f00000028",
+                        "targetTopic": "editors_picks",
+                        "text": "Outdated practices and codes are resulting in costly recommendations for larger electrical panels to add appliances such as induction stoves, heat pumps or EV chargers. Yet such panel upgrades are rarely needed, some researchers say."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "7f20fcc0-dc87-11f1-93ff-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The strange, sordid case of Trump, China and the AI chips",
+            "ios": {
+                "alert": {
+                    "body": "The strange, sordid case of Trump, China and the AI chips",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/09/imagine-if-trump-nvidia-situation-with-china-were-reversed/",
+                        "datetime": "2026-11-09T21:49:53.293000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af24001bfad712e00000027",
+                        "targetTopic": "opinions",
+                        "text": "Democrats, you will soon be in charge of Congress. Rein in this national security mess, Jim Geraghty writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "96e192d0-dc86-11f1-bf37-00000a1ace1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Silicon Valley\u2019s Trump-era playbook is falling apart. A major shift is underway.",
+            "ios": {
+                "alert": {
+                    "body": "Silicon Valley\u2019s Trump-era playbook is falling apart. A major shift is underway.",
+                    "title": "Post-Election Strategy"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/09/trumps-tech-allies-face-revolt-within-their-own-industry/",
+                        "datetime": "2026-11-09T21:43:23.685000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af23e7b4c07ed2f00000029",
+                        "targetTopic": "editors_picks",
+                        "text": "As public anger over AI grows, some tech industry leaders are calling for a sharp break with the build-at-all-costs ethos that dominated President Donald Trump\u2019s Washington."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "72edc7f0-dc7b-11f1-8e8a-0000a1ace133",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Supreme Court allows construction to resume on border security project in Texas that cuts through parts of Big Bend National Park",
+            "ios": {
+                "alert": {
+                    "body": "Supreme Court allows construction to resume on border security project in Texas that cuts through parts of Big Bend National Park",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/09/supreme-court-allows-major-part-trumps-border-security-project-texas/",
+                        "datetime": "2026-11-09T20:23:38.927000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af22bca208f282f0000002e",
+                        "targetTopic": "breaking-news",
+                        "text": "The more than 500-mile stretch of road, cameras, vehicle barriers and sensors is planned in and around the park. It is one of the longest and most controversial sections."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "07d29951-dc76-11f1-9213-00000a1ace07",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Impeachment effort against Defense Secretary Pete Hegseth begins in House, focused on Iran war",
+            "ios": {
+                "alert": {
+                    "body": "Impeachment effort against Defense Secretary Pete Hegseth begins in House, focused on Iran war",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/11/09/hegseth-impeachment-effort-begins-house-focused-iran-war/",
+                        "datetime": "2026-11-09T19:44:51.711000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af222b3208f282f0000002d",
+                        "targetTopic": "breaking-news",
+                        "text": "Rep. Thomas Massie (R) alleges that Hegseth \u201cabused\u201d his powers and \u201cknowingly executed and implemented unlawful orders\u201d by carrying out strikes against Iran."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4a6f4800-dc74-11f1-8dcc-00000a1ace30",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This solution to obesity doesn\u2019t work. America still eats it up.",
+            "ios": {
+                "alert": {
+                    "body": "This solution to obesity doesn\u2019t work. America still eats it up.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/09/cooking-classes-kids-dont-lead-healthy-eating/",
+                        "datetime": "2026-11-09T19:32:24.498000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af21fc8208f282f0000002c",
+                        "targetTopic": "opinions",
+                        "text": "Eat better. Exercise. And learn to cook?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "085d3c31-dc6d-11f1-98e5-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mississippi ballot deadline looms in tight Senate race, as Democrat Colom\u2019s lead continues to inch upward",
+            "ios": {
+                "alert": {
+                    "body": "Mississippi ballot deadline looms in tight Senate race, as Democrat Colom\u2019s lead continues to inch upward",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/09/mississippi-senate-race-ballot-deadline-looms-scott-colom-lead-grows/",
+                        "datetime": "2026-11-09T18:40:27.169000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af2139b208f282f0000002b",
+                        "targetTopic": "politics",
+                        "text": "Scott Colom\u2019s margin over Sen. Cindy Hyde-Smith (R) grew to nearly 2,600 votes Monday, a day before the official cutoff to count provisional ballots and receive absentee ballots."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
