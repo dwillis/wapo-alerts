@@ -484540,5 +484540,293 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bea99091-dd28-11f1-945c-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Appeals court says Voice of America director was fired illegally by former head Kari Lake",
+            "ios": {
+                "alert": {
+                    "body": "Appeals court says Voice of America director was fired illegally by former head Kari Lake",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/10/appeals-court-says-voa-director-was-fired-illegally-by-former-head-kari-lake/",
+                        "datetime": "2026-11-10T17:04:08.733000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af34e88208f282f00000032",
+                        "targetTopic": "breaking-news",
+                        "text": "The decision marks the latest effort for the Trump administration to dismantle the international broadcaster."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5904af80-dd1f-11f1-9383-00000a1ace54",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Everything about life I learned from \u2018The Sound of Music\u2019",
+            "ios": {
+                "alert": {
+                    "body": "Everything about life I learned from \u2018The Sound of Music\u2019",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/08/sound-music-offers-invaluable-lessons-ahead-broadway-revival/",
+                        "datetime": "2026-11-10T15:56:52.614000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af33ec4208f282f00000031",
+                        "targetTopic": "opinions",
+                        "text": "Performing in the musical more than 200 times as a child actress, I absorbed themes that I realize now are invaluable."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "79ceb940-dd4c-11f1-950a-0000a1ace1b9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
+            "ios": {
+                "alert": {
+                    "body": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/11/10/us-army-officer-arrested-uk-suspicion-trying-steal-secrets-russia/",
+                        "datetime": "2026-11-10T21:19:55.277000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af38a7bd99d8c2f0000002b",
+                        "targetTopic": "breaking-news",
+                        "text": "The suspect, 41, who had been \u201centrusted with sensitive information,\u201d was arrested on suspicion of espionage, according to U.S. and British authorities."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1a286791-dd4a-11f1-bc2b-000a1ace797f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Senate Republicans elect John Thune to serve as minority leader next year",
+            "ios": {
+                "alert": {
+                    "body": "Senate Republicans elect John Thune to serve as minority leader next year",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/10/house-republicans-elect-jim-jordan-serve-minority-leader-next-year/",
+                        "datetime": "2026-11-10T21:02:55.814000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af3867f4c07ed2f0000002b",
+                        "targetTopic": "politics",
+                        "text": "Senate Republicans opted to stick with the South Dakota senator as the leader of the caucus."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "bb521010-dd47-11f1-ac3b-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The phantom life of Alice Huang, the alleged Chinese spy who had an affair with Nvidia\u2019s CEO",
+            "ios": {
+                "alert": {
+                    "body": "The phantom life of Alice Huang, the alleged Chinese spy who had an affair with Nvidia\u2019s CEO",
+                    "title": "Mystery of a History"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/11/10/phantom-life-alice-huang-alleged-chinese-spy-who-had-an-affair-with-nvidia-ceo/",
+                        "datetime": "2026-11-10T20:45:57.710000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af38285bfad712e00000028",
+                        "targetTopic": "editors_picks",
+                        "text": "Even basic details remain murky about the background of the Chinese executive, whose affair with Nvidia CEO Jensen Huang has rocked the global tech industry."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f2787480-dd3d-11f1-ac3b-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jim Jordan elected to serve as minority leader next year by House Republicans",
+            "ios": {
+                "alert": {
+                    "body": "Jim Jordan elected to serve as minority leader next year by House Republicans",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/10/house-republicans-elect-jim-jordan-serve-minority-leader-next-year/",
+                        "datetime": "2026-11-10T19:35:55.240000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af3721bd99d8c2f0000002a",
+                        "targetTopic": "breaking-news",
+                        "text": "The Ohio lawmaker defeated Rep. Steve Scalise (R-Louisiana), in a competitive race for the job. Both tried to become House speaker in 2023."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
