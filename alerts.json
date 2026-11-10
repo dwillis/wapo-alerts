@@ -484828,5 +484828,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "60d490c0-dd58-11f1-943a-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Nvidia spy scandal rocked the intelligence world. It\u2019s hardly the first.",
+            "ios": {
+                "alert": {
+                    "body": "The Nvidia spy scandal rocked the intelligence world. It\u2019s hardly the first.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/10/jensen-huang-nvidia-china-spy-scandal-was-hiding-plain-sight/",
+                        "datetime": "2026-11-10T22:45:07.344000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af39e73d99d8c2f0000002c",
+                        "targetTopic": "opinions",
+                        "text": "China\u2019s spy service bet on lust and arrogance, and Washington was slow to see the risk."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
