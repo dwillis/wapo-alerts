@@ -485644,5 +485644,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "52c1ef41-de99-11f1-9f59-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At least eight dead and at least 17 injured after Brooklyn building collapse",
+            "ios": {
+                "alert": {
+                    "body": "At least eight dead and at least 17 injured after Brooklyn building collapse",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/11/12/brooklyn-building-collapse-kills-two-injures-17-new-york-city-officials-say/",
+                        "datetime": "2026-11-12T13:02:32.045000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af5b8e8d99d8c2f00000032",
+                        "targetTopic": "breaking-news",
+                        "text": "Among those injured in the three-story building collapse in Brooklyn on Wednesday were three firefighters, New York Mayor Zohran Mamdani said Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9805cd51-de90-11f1-b6a4-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mississippi result. Trump probes. Hegseth scolded. Nvidia CEO. El Ni\u00f1o. Housing market. Mysterious meowing. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Mississippi result. Trump probes. Hegseth scolded. Nvidia CEO. El Ni\u00f1o. Housing market. Mysterious meowing. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/11/12/7-things-know-thursday-november-12/?noredirect=1",
+                        "datetime": "2026-11-12T12:00:02.936000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6af5aa42d99d8c2f00000031",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
