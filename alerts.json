@@ -486076,5 +486076,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a182a801-ded9-11f1-9d0f-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. says Europeans will join talks on ending Ukraine war, overcoming Putin\u2019s objections",
+            "ios": {
+                "alert": {
+                    "body": "U.S. says Europeans will join talks on ending Ukraine war, overcoming Putin\u2019s objections",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/11/12/after-meeting-putin-us-envoys-say-europe-join-talks-ending-ukraine-war/",
+                        "datetime": "2026-11-12T20:42:51.978000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af624cbd99d8c2f00000034",
+                        "targetTopic": "breaking-news",
+                        "text": "Russia has resisted a European role in the negotiations, and President Vladimir Putin on Thursday reiterated his opposition to European peacekeepers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "edac4550-ded0-11f1-a474-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Man who shot 5 in D.C. was a doctor who lived nearby, officials said, and had long-running dispute with condo building\u2019s management",
+            "ios": {
+                "alert": {
+                    "body": "Man who shot 5 in D.C. was a doctor who lived nearby, officials said, and had long-running dispute with condo building\u2019s management",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/11/12/multiple-victims-shooting-dcs-logan-circle/",
+                        "datetime": "2026-11-12T19:40:34.408000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af61632d99d8c2f00000033",
+                        "targetTopic": "breaking-news",
+                        "text": "The attacker who opened fire in the Logan Circle neighborhood Thursday morning, killing one person and wounding four others, has been identified as Matt Lambert, a 55-year-old doctor, according to two officials. Records show that Lambert had filed a lawsuit alleging that his building\u2019s condo association failed to act on his complaints about a mold problem and water damage inside his unit."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d0d053f2-deca-11f1-8141-000000a1ace0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hegseth awards a medal to soldier who admonished him and his team for talking loudly, laughing at Tomb of the Unknowns",
+            "ios": {
+                "alert": {
+                    "body": "Hegseth awards a medal to soldier who admonished him and his team for talking loudly, laughing at Tomb of the Unknowns",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/11/12/hegseth-awards-spec-thomas-iglesias-who-scolded-him-tomb-unknowns/",
+                        "datetime": "2026-11-12T18:56:48.951000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af60bf0208f282f00000038",
+                        "targetTopic": "breaking-news",
+                        "text": "A video of the incident, which followed a Veterans Day observance, elicited furious backlash from critics incredulous that a defense secretary would behave disrespectfully at one of the nation\u2019s most sacred memorials."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
