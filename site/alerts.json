@@ -485548,5 +485548,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "57082a40-de32-11f1-a5f0-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nvidia board will meet to weigh fate of CEO Jensen Huang after his affair with alleged spy",
+            "ios": {
+                "alert": {
+                    "body": "Nvidia board will meet to weigh fate of CEO Jensen Huang after his affair with alleged spy",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/11/nvidia-board-weighs-fate-jensen-huang-after-affair-with-alleged-spy/",
+                        "datetime": "2026-11-12T00:45:21.184000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af50c21bfad712e0000002c",
+                        "targetTopic": "breaking-news",
+                        "text": "Nvidia\u2019s board is expected to meet late Wednesday, according to two people familiar with the matter, days after Huang admitted to an affair with an alleged Chinese spy. Nvidia stock fell in after-hours trading following news reports of the board\u2019s meeting and a second alleged affair by Huang with an Nvidia executive who reported to him."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e9e30460-de38-11f1-9e32-000a1ace1042",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "He learned he has 35 siblings. Here\u2019s how he aired his family secret.",
+            "ios": {
+                "alert": {
+                    "body": "He learned he has 35 siblings. Here\u2019s how he aired his family secret.",
+                    "title": "A Very Public Reveal"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2026/11/11/he-learned-he-has-35-siblings-heres-how-he-aired-his-family-secret/",
+                        "datetime": "2026-11-12T01:32:24.466000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af517284c07ed2f0000002f",
+                        "targetTopic": "editors_picks",
+                        "text": "Noam Tomaschoff found out that the man who raised him was not his biological father. He dealt with it the best way he knew how."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
