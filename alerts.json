@@ -486220,5 +486220,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "f966f850-dee8-11f1-a1e3-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Just after he shot five people, D.C. gunman said he had \u2018to do something\u2019 to draw attention to his condo dispute",
+            "ios": {
+                "alert": {
+                    "body": "Just after he shot five people, D.C. gunman said he had \u2018to do something\u2019 to draw attention to his condo dispute",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/11/12/logan-circle-shooter-matt-lambert-appeared-frustrated-over-metropole-maintenance/",
+                        "datetime": "2026-11-12T22:32:41.977000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af63e894c07ed2f00000035",
+                        "targetTopic": "breaking-news",
+                        "text": "Matt Lambert told a building manager after he shot five people in Washington, D.C., that he was tired of the mold and water damage in his unit. In 2025, Lambert filed a lawsuit against the condo association and property management company."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "acac7ff0-dee1-11f1-a1e3-00000a1acecd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Police identify deceased victim in Logan Circle shooting as a manager at the condo building where the gunman lived",
+            "ios": {
+                "alert": {
+                    "body": "Police identify deceased victim in Logan Circle shooting as a manager at the condo building where the gunman lived",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/11/12/multiple-victims-shooting-dcs-logan-circle/",
+                        "datetime": "2026-11-12T21:40:26.770000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af6324abfad712e0000002f",
+                        "targetTopic": "local",
+                        "text": "Authorities said James Stuart, 46, was shot with a handgun at a Vida Fitness gym near 15th and P streets NW."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d07b0600-dee0-11f1-b792-000000a1aceb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Conservatives are warning Vance to skip 2028. That might not be necessary.",
+            "ios": {
+                "alert": {
+                    "body": "Conservatives are warning Vance to skip 2028. That might not be necessary.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/12/jd-vance-2028-waiting-makes-little-sense/",
+                        "datetime": "2026-11-12T21:34:17.389000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af630d9bfad712e0000002e",
+                        "targetTopic": "opinions",
+                        "text": "Conservatives are warning Vance to skip 2028. That might not be necessary."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
