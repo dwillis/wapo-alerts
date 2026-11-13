@@ -486796,5 +486796,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "584bf060-df9c-11f1-9634-0000a1aceb1b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Rep. Lauren Boebert (R) loses reelection to retired Navy Rear Adm. Eileen Laubacher (D), according to AP",
+            "ios": {
+                "alert": {
+                    "body": "Rep. Lauren Boebert (R) loses reelection to retired Navy Rear Adm. Eileen Laubacher (D), according to AP",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/13/lauren-boebert-loses-colorado-4th-district-election-eileen-laubacher/",
+                        "datetime": "2026-11-13T19:56:41.130000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af76b79d99d8c2f00000038",
+                        "targetTopic": "breaking-news",
+                        "text": "Boebert, who came to epitomize the most aggressive politics of the MAGA era, was seen as a lock to keep her Colorado seat just a year ago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "97143e80-df9a-11f1-aef1-00000a1acec5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Joe Biden defends his 2024 run and reckons with Trump in new memoir",
+            "ios": {
+                "alert": {
+                    "body": "Joe Biden defends his 2024 run and reckons with Trump in new memoir",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/13/biden-defends-his-2024-run-reckons-with-trump-new-memoir/",
+                        "datetime": "2026-11-13T19:44:07.440000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af768874c07ed2f00000039",
+                        "targetTopic": "politics",
+                        "text": "In \u201cPromise Me, America,\u201d Biden revisits the pandemic and the effort to rally allies behind Ukraine, while defending his decision to seek a second term. The Washington Post obtained a copy of the memoir in advance of its public release Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c61e29b1-df96-11f1-8406-0000a1acec84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Catahoula is not the same old take on New Orleans cuisine, writes dining critic Elazar Sontag",
+            "ios": {
+                "alert": {
+                    "body": "Catahoula is not the same old take on New Orleans cuisine, writes dining critic Elazar Sontag",
+                    "title": "Capital Cajun-Creole"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/11/12/catahoula-review-welcome-taste-new-orleans-dc/",
+                        "datetime": "2026-11-13T19:16:48.293000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af76220d99d8c2f00000037",
+                        "targetTopic": "local",
+                        "text": "The Navy Yard restaurant, which opened earlier this year, reflects the many layers of Louisiana cuisine."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
