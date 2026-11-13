@@ -486364,5 +486364,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "74e9e742-df06-11f1-aa7a-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sen. Chris Van Hollen challenges Sen. Chuck Schumer to lead Democratic majority in next Congress",
+            "ios": {
+                "alert": {
+                    "body": "Sen. Chris Van Hollen challenges Sen. Chuck Schumer to lead Democratic majority in next Congress",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/12/van-hollen-announces-challenge-schumer-lead-senate/",
+                        "datetime": "2026-11-13T02:03:44.636000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af67000208f282f00000039",
+                        "targetTopic": "breaking-news",
+                        "text": "Schumer (New York) has led Senate Democrats for the past decade and never before faced a challenger. If Van Hollen (Maryland) is successful in his uphill bid, he would preside over a majority of at least 55 members that could stymie President Donald Trump\u2019s agenda during his final two years in the White House. \u201cThe voters called for big change, and this is a time that we have to deliver for people across the country,\u201d Van Hollen said about his decision."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "4ef84d62-def7-11f1-aa7a-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Welcome to \u2018The Vow,\u2019 the dating show for budding tradwives. It\u2019s really something, columnist Monica Hesse writes.",
+            "ios": {
+                "alert": {
+                    "body": "Welcome to \u2018The Vow,\u2019 the dating show for budding tradwives. It\u2019s really something, columnist Monica Hesse writes.",
+                    "title": "Right-Coded Romance"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/11/12/vow-is-bachelor-tradwives-its-really-something/",
+                        "datetime": "2026-11-13T00:15:18.526000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af65696bfad712e00000030",
+                        "targetTopic": "editors_picks",
+                        "text": "Earlier this year, the nation was experiencing what appeared to be a deeply felt interest in returning us to the (18)50s. And then the midterms happened. So \u201cThe Vow\u201d \u2014 Fox Nation\u2019s new dating reality show for people seeking \u201ctraditional\u201d marriage \u2014 has arrived at an odd time."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
