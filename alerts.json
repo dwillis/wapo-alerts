@@ -486460,5 +486460,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "054ef710-df68-11f1-8e6a-000000a1ace4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Microsoft says services are improving in North America and Europe, even as international outages continue into second day",
+            "ios": {
+                "alert": {
+                    "body": "Microsoft says services are improving in North America and Europe, even as international outages continue into second day",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/13/microsoft-races-address-outage-affecting-users-around-world/",
+                        "datetime": "2026-11-13T13:42:08.017000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af713b04c07ed2f00000036",
+                        "targetTopic": "breaking-news",
+                        "text": "The technology giant said that some users appeared to regain access to services such as Outlook and Teams in North America and much of Europe. Governments and businesses in Asia also reported being affected by the outage."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c277f1c0-df59-11f1-9949-00000a1ace60",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "D.C. shooting. Vance\u2019s 2028 plans. Chris Van Hollen. Pete Hegseth. Building collapse. Inflation. Healthy chocolate. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "D.C. shooting. Vance\u2019s 2028 plans. Chris Van Hollen. Pete Hegseth. Building collapse. Inflation. Healthy chocolate. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/11/13/7-things-know-friday-november-13/?noredirect=1",
+                        "datetime": "2026-11-13T12:00:02.977000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SJL3D2ASBJBTTOLDR4YAIWCMHA.png&w=1440",
+                        "pushID": "6af6fbc2208f282f0000003a",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
