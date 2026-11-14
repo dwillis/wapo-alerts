@@ -487276,5 +487276,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1d93c550-e038-11f1-8850-00000a1acebb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Thousands of flights canceled today amid chaos caused by ground stop",
+            "ios": {
+                "alert": {
+                    "body": "Thousands of flights canceled today amid chaos caused by ground stop",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2026/11/14/ground-stop-aftermath-sees-thousands-flights-canceled-delayed-saturday/",
+                        "datetime": "2026-11-14T14:31:44.116000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af870d0d99d8c2f0000003a",
+                        "targetTopic": "breaking-news",
+                        "text": "Officials blamed Friday\u2019s nationwide outage on aging air-control systems. Transportation Secretary Sean Duffy said Saturday operations are \u201cslowly returning to normal\u201d but that passengers would continue to see delays and cancellations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
