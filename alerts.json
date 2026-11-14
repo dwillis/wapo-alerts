@@ -487228,5 +487228,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "251a8223-dfcd-11f1-a0de-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FAA ends ground stop after thousands of aircraft around the country were halted for more than four hours",
+            "ios": {
+                "alert": {
+                    "body": "FAA ends ground stop after thousands of aircraft around the country were halted for more than four hours",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/",
+                        "datetime": "2026-11-14T01:46:00.579000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af7bd58208f282f0000003b",
+                        "targetTopic": "breaking-news",
+                        "text": "The Federal Aviation Administration said the cause of the disruption was a \u201ctemporary telecommunications outage.\u201d An FAA spokesperson confirmed that the ground stop had been lifted."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
