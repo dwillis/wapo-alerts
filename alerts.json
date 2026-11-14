@@ -487180,5 +487180,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "89d3b362-dfc5-11f1-8538-0000a1aced8f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump to meet with Putin and Xi at summit in China next week, White House says, their first trilateral meeting",
+            "ios": {
+                "alert": {
+                    "body": "Trump to meet with Putin and Xi at summit in China next week, White House says, their first trilateral meeting",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/13/trump-meet-with-putin-xi-jinping/",
+                        "datetime": "2026-11-14T00:51:33.546000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af7b0954c07ed2f0000003d",
+                        "targetTopic": "breaking-news",
+                        "text": "The high-stakes gathering of three geopolitical superpowers in Shenzhen comes as the American president reels from election losses at home and an espionage scandal threatens to deepen tensions with China. An administration official said no separate bilateral meeting between Trump and Putin was planned."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
