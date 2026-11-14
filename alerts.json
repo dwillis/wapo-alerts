@@ -487468,5 +487468,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e740f700-e061-11f1-aaa7-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Virginia Gov. Abigail Spanberger reverses state\u2019s plan to participate in Trump\u2019s school vouchers",
+            "ios": {
+                "alert": {
+                    "body": "Virginia Gov. Abigail Spanberger reverses state\u2019s plan to participate in Trump\u2019s school vouchers",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/11/13/spanberger-reverse-decision-participate-trumps-school-vouchers/",
+                        "datetime": "2026-11-14T19:30:51.829000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af8b6ebd99d8c2f0000003c",
+                        "targetTopic": "local",
+                        "text": "A letter from the IRS said the state needs to complete the process begun by former governor Glenn Youngkin. Spanberger said she won\u2019t finish the enrollment."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c6da18e0-e055-11f1-bc59-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Stephen Miller dresses like a reasonable man. But listen to what he says, Robin Givhan writes.",
+            "ios": {
+                "alert": {
+                    "body": "Stephen Miller dresses like a reasonable man. But listen to what he says, Robin Givhan writes.",
+                    "title": "A Crafted Image"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/11/14/stephen-millers-suits-make-radical-look-reassuringly-routine/",
+                        "datetime": "2026-11-14T18:04:03.433000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af8a293bfad712e00000034",
+                        "targetTopic": "editors_picks",
+                        "text": "The new White House chief of staff understands how ordinary menswear can lend familiarity \u2014 and legitimacy \u2014 to an uncompromising worldview."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
