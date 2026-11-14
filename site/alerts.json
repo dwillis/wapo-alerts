@@ -487276,5 +487276,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1d93c550-e038-11f1-8850-00000a1acebb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Thousands of flights canceled today amid chaos caused by ground stop",
+            "ios": {
+                "alert": {
+                    "body": "Thousands of flights canceled today amid chaos caused by ground stop",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2026/11/14/ground-stop-aftermath-sees-thousands-flights-canceled-delayed-saturday/",
+                        "datetime": "2026-11-14T14:31:44.116000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af870d0d99d8c2f0000003a",
+                        "targetTopic": "breaking-news",
+                        "text": "Officials blamed Friday\u2019s nationwide outage on aging air-control systems. Transportation Secretary Sean Duffy said Saturday operations are \u201cslowly returning to normal\u201d but that passengers would continue to see delays and cancellations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "68cc45b0-e04c-11f1-bf73-0000a1acefc7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Work to replace old copper wiring led to ground stop, Transportation Secretary Sean P. Duffy says",
+            "ios": {
+                "alert": {
+                    "body": "Work to replace old copper wiring led to ground stop, Transportation Secretary Sean P. Duffy says",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2026/11/14/ground-stop-aftermath-sees-thousands-flights-canceled-delayed-saturday/",
+                        "datetime": "2026-11-14T16:57:00.223000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af892dc208f282f0000003d",
+                        "targetTopic": "breaking-news",
+                        "text": "Flight cancellations continue, but FAA Administrator Bryan Bedford said Saturday that \u201cthe worst is behind us\u201d and that flights around the country should be back on schedule by the end of the weekend, following Friday\u2019s nationwide ground stop."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0b61f6c2-e049-11f1-b5cf-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The internet won\u2019t necessarily go dark. It could simply stop working.",
+            "ios": {
+                "alert": {
+                    "body": "The internet won\u2019t necessarily go dark. It could simply stop working.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/12/ai-is-exposing-internets-cybersecurity-vulnerabilities/",
+                        "datetime": "2026-11-14T16:32:55.007000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af88d37d99d8c2f0000003b",
+                        "targetTopic": "opinions",
+                        "text": "AI is exposing decades of software shortcuts. They need fixing before hackers exploit the weaknesses, a Vanderbilt University professor writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5744ca40-e044-11f1-ae6f-000000a1ace3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A spy plane tied to covert attacks leads back to The Villages, Florida\u2019s retirement mega-community",
+            "ios": {
+                "alert": {
+                    "body": "A spy plane tied to covert attacks leads back to The Villages, Florida\u2019s retirement mega-community",
+                    "title": "A CIA Connection"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/11/14/spy-plane-tied-covert-attacks-leads-back-floridas-largest-senior-community/",
+                        "datetime": "2026-11-14T15:59:14.850000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af88552208f282f0000003c",
+                        "targetTopic": "breaking-news",
+                        "text": "The high-tech surveillance plane repeatedly flew in the vicinity of CIA-linked attacks on boats near the Gal\u00e1pagos Islands this year. A Post investigation reveals the role the Morse family \u2014 prominent GOP donors and billionaire owners of The Villages \u2014 had in the company that once owned the plane. It also reveals a web of contractors that suggests the plane itself has ties to the CIA."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
