@@ -487564,5 +487564,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a2c6d4c0-e06e-11f1-a397-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why the Nvidia scandal could be a problem for Trump",
+            "ios": {
+                "alert": {
+                    "body": "Why the Nvidia scandal could be a problem for Trump",
+                    "title": "Political Vulnerability"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/14/nvidia-scandal-hits-trumps-political-vulnerabilities-after-democratic-sweep/",
+                        "datetime": "2026-11-14T21:02:00.377000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af8cc48d99d8c2f0000003d",
+                        "targetTopic": "editors_picks",
+                        "text": "What makes ex-Nvidia CEO Jensen Huang\u2019s affair with a suspected Chinese spy an explosive political problem for the White House is that it brings together the very issues that propelled Democrats to victory in the midterms."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
