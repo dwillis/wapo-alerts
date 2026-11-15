@@ -487852,5 +487852,246 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b386a640-e12d-11f1-9bb1-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Their son died fighting a wildfire. They may never understand why he was even there.",
+            "ios": {
+                "alert": {
+                    "body": "Their son died fighting a wildfire. They may never understand why he was even there.",
+                    "title": "Deadly Decisions"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/weather/2026/11/15/firefighter-died-colorado-wilderness-his-parents-want-know-why-he-was-even-there/",
+                        "datetime": "2026-11-15T19:49:42.371000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afa0cd64c07ed2f0000003f",
+                        "targetTopic": "us",
+                        "text": "This has been the third-deadliest year for wildland firefighters since at least 2016, prompting questions about sending crews directly into remote, burning terrain."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "89a41792-e128-11f1-98ce-00000a1ace40",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "J.K. Rowling\u2019s agent is betting on the books that publishers won\u2019t touch",
+            "ios": {
+                "alert": {
+                    "body": "J.K. Rowling\u2019s agent is betting on the books that publishers won\u2019t touch",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/15/neil-blair-high-line-home-disfavored-books/",
+                        "datetime": "2026-11-15T19:12:44.595000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afa042c208f282f00000041",
+                        "targetTopic": "opinions",
+                        "text": "A conversation with Neil Blair about High Line, a new home for disfavored titles."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6bc5bf70-e124-11f1-94c6-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Transportation Secretary Sean Duffy blames Congress and prior administrations for air travel halt and ensuing chaos",
+            "ios": {
+                "alert": {
+                    "body": "Transportation Secretary Sean Duffy blames Congress and prior administrations for air travel halt and ensuing chaos",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2026/11/15/sean-duffy-blames-congress-prior-administrations-ground-stop-chaos/",
+                        "datetime": "2026-11-15T18:43:16.501000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af9fd44d99d8c2f0000003f",
+                        "targetTopic": "breaking-news",
+                        "text": "Duffy refused to apologize for failures that led to the nationwide ground stop, pointing to a lack of investment in air traffic modernization. President Donald Trump, in his first public comments on the situation, on Sunday specifically blamed the Biden administration."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0b5891c0-e116-11f1-ac7e-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Take back ex-wife for the sake of being \u2018one big happy family\u2019?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Take back ex-wife for the sake of being \u2018one big happy family\u2019?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/11/15/carolyn-hax-take-back-ex-wife-be-one-big-happy-family-again/",
+                        "datetime": "2026-11-15T17:00:21.768000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af9e525208f282f00000040",
+                        "targetTopic": "advice",
+                        "text": "He\u2019s not in love with her anymore but thinks a good dad would remarry his kids\u2019 mom after her health crisis."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "57e15eb1-e110-11f1-94c6-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "health",
+                                "health_and_science"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The link between microplastics and one of the deadliest cancers, and what to do",
+            "ios": {
+                "alert": {
+                    "body": "The link between microplastics and one of the deadliest cancers, and what to do",
+                    "title": "Reducing Your Exposure"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:health",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/11/15/new-evidence-links-microplastics-colon-cancer/",
+                        "datetime": "2026-11-15T16:19:33.194000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af9db95bfad712e00000036",
+                        "targetTopic": "health",
+                        "text": "New evidence points to how particles from Styrofoam cups and take-out containers can make people more vulnerable to colon cancer."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
