@@ -487708,5 +487708,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "2272d624-e09b-11f1-9312-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Federal judge blocks Trump administration from closing East Potomac Park, where the president wants to redevelop a golf course",
+            "ios": {
+                "alert": {
+                    "body": "Federal judge blocks Trump administration from closing East Potomac Park, where the president wants to redevelop a golf course",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/11/14/judge-blocks-trump-administration-closing-east-potomac-park/",
+                        "datetime": "2026-11-15T02:20:32.472000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af916f04c07ed2f0000003e",
+                        "targetTopic": "breaking-news",
+                        "text": "President Donald Trump wants to turn the park\u2019s three-course complex into a single championship course, but golfers and preservationists are suing to block him."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
