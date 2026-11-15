@@ -487756,5 +487756,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "173d05f0-e104-11f1-8735-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A university found him responsible for sexual assault. A law school admitted him anyway.",
+            "ios": {
+                "alert": {
+                    "body": "A university found him responsible for sexual assault. A law school admitted him anyway.",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/11/15/tulane-university-gave-tate-weston-diploma-while-investigating-him-rape/",
+                        "datetime": "2026-11-15T14:51:50.778000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af9c706208f282f0000003f",
+                        "targetTopic": "editors_picks",
+                        "text": "An accused student\u2019s path through three universities highlights what experts say are gaps in college disciplinary systems."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "750147a1-e0fa-11f1-80c8-00000a1ace2b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "FAA was warned for years about repair risks leading to nationwide ground stop",
+            "ios": {
+                "alert": {
+                    "body": "FAA was warned for years about repair risks leading to nationwide ground stop",
+                    "title": "Aviation Red Flags"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/transportation/2026/11/14/faa-was-warned-years-about-repair-risks-leading-nationwide-ground-stop/",
+                        "datetime": "2026-11-15T13:42:53.109000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6af9b6ddbfad712e00000035",
+                        "targetTopic": "breaking-news",
+                        "text": "Officials said installation of a new router was behind the cancellation of thousands of flights. A government watchdog report in September cautioned that the way old, legacy systems were being replaced could result in disruptions \u2014 including ground stops."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
