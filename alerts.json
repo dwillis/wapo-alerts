@@ -488093,5 +488093,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9f9acdd0-e14d-11f1-973b-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Don\u2019t assume Nvidia will rebound",
+            "ios": {
+                "alert": {
+                    "body": "Don\u2019t assume Nvidia will rebound",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/15/jensen-huangs-exit-nvidia-shows-risks-founder-led-companies/",
+                        "datetime": "2026-11-15T23:38:12.806000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afa4264208f282f00000043",
+                        "targetTopic": "opinions",
+                        "text": "The chipmaker\u2019s dependence on its co-founder has become a corporate liability, Megan McArdle writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "5d539650-e148-11f1-86e4-00000a1ace25",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "This joint implant and surgery give people with arthritis a new option",
+            "ios": {
+                "alert": {
+                    "body": "This joint implant and surgery give people with arthritis a new option",
+                    "title": "A Novel Procedure"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/11/15/new-thumb-implant-promises-improved-function-people-with-arthritis/",
+                        "datetime": "2026-11-15T23:00:34.077000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afa3992bfad712e00000037",
+                        "targetTopic": "breaking-news",
+                        "text": "Here\u2019s why it\u2019s such a big deal, according to the surgeons performing the thumb implant procedure."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "af646840-e137-11f1-94c6-00000a1ace3c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pentagon prepares its own prosecution of general accused of leaking",
+            "ios": {
+                "alert": {
+                    "body": "Pentagon prepares its own prosecution of general accused of leaking",
+                    "title": "Government Crackdown"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/11/15/pentagon-prepares-its-own-prosecution-lt-gen-brett-sylvia/",
+                        "datetime": "2026-11-15T21:01:10.377000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afa1d96208f282f00000042",
+                        "targetTopic": "politics",
+                        "text": "Lt. Gen. Brett Sylvia now faces legal jeopardy on two fronts after allegations by Defense Secretary Pete Hegseth\u2019s team were previously referred to the Justice Department."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
