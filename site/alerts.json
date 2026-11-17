@@ -488573,5 +488573,390 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1232b731-e1e5-11f1-bbdf-000a1acedc1c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "food"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Our top 5 recommendations for a juicy, flavorful centerpiece for your Thanksgiving meal",
+            "ios": {
+                "alert": {
+                    "body": "Our top 5 recommendations for a juicy, flavorful centerpiece for your Thanksgiving meal",
+                    "title": "Turkey Tips"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:food",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/11/16/our-top-5-tips-thanksgiving-turkey/",
+                        "datetime": "2026-11-16T17:42:19.092000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afb407b208f282f00000044",
+                        "targetTopic": "food",
+                        "text": "Our top 5 recommendations for a juicy, flavorful centerpiece for your Thanksgiving meal"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "0b081400-e217-11f1-bc1a-00000a1aceb7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "business",
+                                "business_and_tech"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lawyers for Saudi national accused of bugging OpenAI say there\u2019s no evidence he\u2019s a spy",
+            "ios": {
+                "alert": {
+                    "body": "Lawyers for Saudi national accused of bugging OpenAI say there\u2019s no evidence he\u2019s a spy",
+                    "title": "Business Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:business",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/16/saudi-man-accused-spying-openai-alleges-he-being-held-unfairly/",
+                        "datetime": "2026-11-16T23:40:01.907000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afb9451bfad712e0000003b",
+                        "targetTopic": "business",
+                        "text": "Abdulrahman Alfozan, who worked as an engineer at OpenAI, was arrested last month and charged with one count of violating the Wiretap Act for allegedly placing a recording device behind a TV in an executive conference room at the AI company. Prosecutors have not provided any evidence that Alfozan has ties to the Saudi government or was working at its behest, despite providing a set of documents and engaging in two meetings with defense lawyers, Alfozan\u2019s lawyers said in a filing Monday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "82c00622-e211-11f1-8d7a-0000a1acef18",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We have a new James Bond. But are we happy about it?",
+            "ios": {
+                "alert": {
+                    "body": "We have a new James Bond. But are we happy about it?",
+                    "title": "007 in Our Sights"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/interactive/2026/11/16/we-have-new-james-bond-are-we-happy-about-it/",
+                        "datetime": "2026-11-16T23:00:25.795000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afb8b09d99d8c2f00000044",
+                        "targetTopic": "editors_picks",
+                        "text": "What\u2019s in store for the next James Bond movie now that director Denis Villeneuve has ended years of rampant speculation and cast the idiosyncratic Robert Pattinson as 007? We have thoughts."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "56e0d660-e207-11f1-8beb-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Mr. President, you\u2019ve picked the wrong golf course",
+            "ios": {
+                "alert": {
+                    "body": "Mr. President, you\u2019ve picked the wrong golf course",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/16/east-potomac-park-is-not-dc-golf-course-trump-should-transform/",
+                        "datetime": "2026-11-16T21:47:37.226000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afb79f9bfad712e0000003a",
+                        "targetTopic": "opinions",
+                        "text": "Mr. President, you\u2019ve picked the wrong golf course"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "85693581-e203-11f1-b407-000000a1ace6",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "White House weighs next steps for FDA nominee who faces bipartisan pushback",
+            "ios": {
+                "alert": {
+                    "body": "White House weighs next steps for FDA nominee who faces bipartisan pushback",
+                    "title": "Trouble for Trump Pick"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/11/16/white-house-weighs-next-steps-fda-nominee-who-has-faced-maha-vaccine-doubts/",
+                        "datetime": "2026-11-16T21:20:17.276000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afb73914c07ed2f00000043",
+                        "targetTopic": "politics",
+                        "text": "Some Republicans, many Democrats and prominent Make America Health Again supporters have questioned or opposed Heidi Overton\u2019s candidacy. Overton serves as the deputy director of the White House\u2019s Domestic Policy Council."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3bc62ef0-e1ff-11f1-b6d0-000000a1ace7",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Student no longer enrolled at law school after The Post reported how he was expelled from college over 2021 sex assault",
+            "ios": {
+                "alert": {
+                    "body": "Student no longer enrolled at law school after The Post reported how he was expelled from college over 2021 sex assault",
+                    "title": "U.S. Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/investigations/2026/11/16/student-accepted-va-law-school-after-sex-assault-finding-is-no-longer-enrolled/",
+                        "datetime": "2026-11-16T20:49:35.752000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afb6c5fd99d8c2f00000043",
+                        "targetTopic": "us",
+                        "text": "The Post found that Tate Weston had gained admission to Washington and Lee University in Virginia after Tulane University determined he was responsible for assaulting a fellow student years ago."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "33d781a0-e1f3-11f1-bba8-00000a1ace63",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Colonial Williamsburg unveils $600 million upgrade for its 100th birthday",
+            "ios": {
+                "alert": {
+                    "body": "Colonial Williamsburg unveils $600 million upgrade for its 100th birthday",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/11/16/colonial-williamsburg-unveils-600-million-upgrade-foundations-100th-birthday/",
+                        "datetime": "2026-11-16T19:23:28.491000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afb5830208f282f00000045",
+                        "targetTopic": "local",
+                        "text": "The five-year plan will expand the Virginia outdoor history museum\u2019s scope, including a bigger focus on the Constitution and the Bill of Rights, and add new facilities."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "61d928c0-e1e8-11f1-9e5b-0000a1ace9bb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump administration proposes restrictions for employer-sponsored green cards",
+            "ios": {
+                "alert": {
+                    "body": "Trump administration proposes restrictions for employer-sponsored green cards",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/11/16/trump-administration-proposes-restrictions-employer-sponsored-green-cards/",
+                        "datetime": "2026-11-16T18:06:01.191000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afb46094c07ed2f00000042",
+                        "targetTopic": "politics",
+                        "text": "The Labor Department proposal would require employers looking to sponsor green cards to expand efforts to recruit American workers for those positions, according to a notice published in the Federal Register."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
