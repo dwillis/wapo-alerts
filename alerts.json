@@ -489294,5 +489294,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e8b79040-e2b8-11f1-9933-00000a1ace46",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "National Security Agency suffers outage of internal communications system used to exchange classified messages",
+            "ios": {
+                "alert": {
+                    "body": "National Security Agency suffers outage of internal communications system used to exchange classified messages",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/11/17/communications-system-top-secret-national-security-agency-goes-down/",
+                        "datetime": "2026-11-17T18:58:42.776000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afca3e2bfad712e0000003f",
+                        "targetTopic": "breaking-news",
+                        "text": "The reasons for the outage involving NSA Net were not immediately clear. But a former Pentagon official said it was significant enough to force the intelligence agency to delay employees\u2019 arrival times at its headquarters at Fort Meade, Maryland, and other locations."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
