@@ -490062,5 +490062,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "659b6621-e383-11f1-9480-0000a1ace527",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These are the Senate Democrats backing Van Hollen over Schumer for majority leader\n\nBLURB",
+            "ios": {
+                "alert": {
+                    "body": "These are the Senate Democrats backing Van Hollen over Schumer for majority leader\n\nBLURB",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/interactive/2026/11/18/these-are-senate-democrats-backing-schumer-van-hollen-majority-leader/",
+                        "datetime": "2026-11-18T19:08:10.684000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afdf79a208f282f0000004c",
+                        "targetTopic": "politics",
+                        "text": "Chris Van Hollen (Maryland) is challenging Chuck Schumer (New York) in the first contested election for Senate Democratic leader in more than three decades. The winner needs support from 28 senators."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
