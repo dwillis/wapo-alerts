@@ -489678,5 +489678,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "1defd1f0-e2ff-11f1-9bdb-00000a1ace51",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Alaska elects Mary Peltola over Sen. Dan Sullivan (R), AP reports, giving Democrats a 56-44 edge in the Senate",
+            "ios": {
+                "alert": {
+                    "body": "Alaska elects Mary Peltola over Sen. Dan Sullivan (R), AP reports, giving Democrats a 56-44 edge in the Senate",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/17/alaska-senate-election-live-results-mary-peltola-defeats-dan-sullivan/",
+                        "datetime": "2026-11-18T03:21:16.885000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afd19ac208f282f00000049",
+                        "targetTopic": "breaking-news",
+                        "text": "The race was the last to be called in the Senate, securing Democrats a historic sweep of nine new seats. Peltola, a former congresswoman, is one of two Indigenous women ever elected to the Senate."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
