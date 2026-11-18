@@ -489630,5 +489630,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "808678b0-e2f4-11f1-b7bb-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What we know about why everything seems to be breaking at once",
+            "ios": {
+                "alert": {
+                    "body": "What we know about why everything seems to be breaking at once",
+                    "title": "Wave of Outages"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/17/what-we-know-about-why-everything-seems-be-breaking-once/",
+                        "datetime": "2026-11-18T02:05:17.835000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afd07ddbfad712e00000040",
+                        "targetTopic": "editors_picks",
+                        "text": "Microsoft\u2019s Outlook emails, air traffic control, JPMorgan Chase and United Airlines were among the high-profile systems that had outages in the past week. Experts say the interruptions don\u2019t seem to be connected, but everyone wants answers."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
