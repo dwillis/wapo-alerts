@@ -490302,5 +490302,341 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "7dfec570-e43e-11f1-9bb3-0000a1aced84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Anthropic shares soar in debut; market value hits $2 trillion",
+            "ios": {
+                "alert": {
+                    "body": "Anthropic shares soar in debut; market value hits $2 trillion",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/19/anthropic-shares-set-trade-publicly-after-record-breaking-ipo/",
+                        "datetime": "2026-11-19T17:27:27.486000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aff317fd99d8c2f00000050",
+                        "targetTopic": "breaking-news",
+                        "text": "The artificial intelligence company\u2019s stock market IPO set a record, eclipsing the $75 billion raised by SpaceX when it went public in June, and catapulted the six-year-old company into the ranks of the world\u2019s largest corporations alongside Meta and Walmart."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "88b95ea0-e437-11f1-9bb3-0000a1aced84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The outages keep coming. Despite government reassurances, some Americans are preparing for doomsday.",
+            "ios": {
+                "alert": {
+                    "body": "The outages keep coming. Despite government reassurances, some Americans are preparing for doomsday.",
+                    "title": "Fearing the Worst"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/19/wave-outages-has-americans-preparing-doomsday/",
+                        "datetime": "2026-11-19T16:37:38.967000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aff25d2bfad712e00000044",
+                        "targetTopic": "breaking-news",
+                        "text": "With major systems failing and explanations scarce, some are stocking up and bracing for emergencies once considered unthinkable."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2aecf380-e429-11f1-9622-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Entrepreneur Mark Ein strikes deal to take over Rock Creek Tennis Center, the aging site of the DC Open",
+            "ios": {
+                "alert": {
+                    "body": "Entrepreneur Mark Ein strikes deal to take over Rock Creek Tennis Center, the aging site of the DC Open",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/sports/2026/11/19/dc-entrepreneur-mark-ein-strikes-deal-take-over-aging-site-dc-open/",
+                        "datetime": "2026-11-19T14:54:48.689000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aff0db8d99d8c2f0000004f",
+                        "targetTopic": "local",
+                        "text": "His Rollingwood Sports on Thursday announced a 60-year lease to operate the center and a commitment to invest at least $25 million."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "40b34031-e428-11f1-9622-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "At the border, Texans don\u2019t hide why they turned on Trump",
+            "ios": {
+                "alert": {
+                    "body": "At the border, Texans don\u2019t hide why they turned on Trump",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/19/trumps-latino-gains-south-texas-prove-fragile/",
+                        "datetime": "2026-11-19T14:48:15.634000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aff0c2fd99d8c2f0000004e",
+                        "targetTopic": "opinions",
+                        "text": "Immigration and economic anxiety obliterated the GOP\u2019s 2024 gains in South Texas."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "36260b80-e422-11f1-8385-000000a1ace8",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The best and worst of the CMAs: Ella Langley makes history, thanks to \u2018Choosin\u2019 Texas,\u2019 and Taylor Swift returns",
+            "ios": {
+                "alert": {
+                    "body": "The best and worst of the CMAs: Ella Langley makes history, thanks to \u2018Choosin\u2019 Texas,\u2019 and Taylor Swift returns",
+                    "title": "A Country Music Sweep"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/music/2026/11/19/cma-awards-2026-complete-list-winners-best-worst-moments/",
+                        "datetime": "2026-11-19T14:05:00.881000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aff020c4c07ed2f00000049",
+                        "targetTopic": "breaking-news",
+                        "text": "Langley scored a sweep, and Swift may have dropped a hint for fans with her wardrobe selection."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "830da1a0-e419-11f1-b7cc-00000a1ace66",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump, Putin and Xi met in a carefully choreographed summit that highlighted the complexity of the emerging global order",
+            "ios": {
+                "alert": {
+                    "body": "Trump, Putin and Xi met in a carefully choreographed summit that highlighted the complexity of the emerging global order",
+                    "title": "A Rare Moment"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/18/trump-xi-putin-meet-with-conflicting-agendas-sharp-divides/",
+                        "datetime": "2026-11-19T13:02:44.603000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afef374208f282f0000004d",
+                        "targetTopic": "breaking-news",
+                        "text": "The less-than-90-minute meeting produced no major breakthroughs on the issues that mattered most to President Donald Trump, Chinese leader Xi Jinping and Russian President Vladimir Putin."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c0c28823-e410-11f1-8a90-0000a1ace476",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump in China. Hakeem Jeffries. Musk regrets. Anthropic shares. Outage preppers. Smart kids. Hosting rules. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Trump in China. Hakeem Jeffries. Musk regrets. Anthropic shares. Outage preppers. Smart kids. Hosting rules. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/11/19/7-things-know-thursday-november-19/?noredirect=1",
+                        "datetime": "2026-11-19T12:00:02.668000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GCFB3ME6YRHF3JPDAVJBDD42WA.png&w=1440",
+                        "pushID": "6afee4c24c07ed2f00000048",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
