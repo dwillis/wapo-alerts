@@ -490638,5 +490638,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "92061fe0-e444-11f1-af56-0000a1ace108",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "U.S. labor secretary: What type of worker are you? The choice is clear again.",
+            "ios": {
+                "alert": {
+                    "body": "U.S. labor secretary: What type of worker are you? The choice is clear again.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/19/keith-sonderling-independent-contractors-deserve-freedoms-too/",
+                        "datetime": "2026-11-19T18:10:57.947000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6aff3bb14c07ed2f0000004a",
+                        "targetTopic": "opinions",
+                        "text": "Independent contractors deserve the freedom to be their own bosses."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
