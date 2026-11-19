@@ -490110,5 +490110,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "99069bb0-e397-11f1-ae3f-00000a1acec1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Why it matters that the U.S. lost its measles-elimination status",
+            "ios": {
+                "alert": {
+                    "body": "Why it matters that the U.S. lost its measles-elimination status",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/18/why-us-measles-elimination-status-loss-matters/",
+                        "datetime": "2026-11-18T21:32:46.799000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afe197ebfad712e00000043",
+                        "targetTopic": "opinions",
+                        "text": "Why it matters that the U.S. lost its measles-elimination status"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6a259210-e397-11f1-a18d-00000a1ace1b",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Lifting weights on a GLP-1 is critical \u2014 but not because it saves muscle",
+            "ios": {
+                "alert": {
+                    "body": "Lifting weights on a GLP-1 is critical \u2014 but not because it saves muscle",
+                    "title": "Worth the Effort"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/11/18/lifting-weights-glp-1-is-critical-not-because-it-saves-muscle/",
+                        "datetime": "2026-11-18T21:31:28.240000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afe19304c07ed2f00000047",
+                        "targetTopic": "editors_picks",
+                        "text": "Researchers have some of the first rigorous evidence that pumping iron is worth the effort, though perhaps not for the reason most people expect."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "60762fb1-e390-11f1-98cf-00000a1ace41",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "world"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hegseth makes surprise Venezuela visit, renews military partnership less than a year after U.S. capture of President Nicol\u00e1s Maduro",
+            "ios": {
+                "alert": {
+                    "body": "Hegseth makes surprise Venezuela visit, renews military partnership less than a year after U.S. capture of President Nicol\u00e1s Maduro",
+                    "title": "World Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:world",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/11/18/hegseth-makes-surprise-appearance-venezuela-renews-military-partnership/",
+                        "datetime": "2026-11-18T20:41:05.524000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afe0d61d99d8c2f0000004c",
+                        "targetTopic": "world",
+                        "text": "The announcement by Defense Secretary Pete Hegseth represents a major shift in the rapidly transforming U.S. relationship with Venezuela. The Venezuelan military has been under close U.S. scrutiny in recent years, and the U.S. has indicted high-ranking officers on narcotics charges."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
