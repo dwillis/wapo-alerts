@@ -490254,5 +490254,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "e07c58a0-e3b4-11f1-8782-000a1ace1b25",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "We\u2019re lonelier than ever. There\u2019s a science-backed way to counteract that, columnist Richard Sima writes.",
+            "ios": {
+                "alert": {
+                    "body": "We\u2019re lonelier than ever. There\u2019s a science-backed way to counteract that, columnist Richard Sima writes.",
+                    "title": "An Inability to Connect"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/11/18/connecting-with-people-is-hard-this-simple-step-may-make-it-easier/",
+                        "datetime": "2026-11-19T01:02:22.121000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6afe4a9ed99d8c2f0000004d",
+                        "targetTopic": "editors_picks",
+                        "text": "The inability to connect with others is a growing problem worldwide, but studies suggest there is a relatively simple solution."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
