@@ -491647,5 +491647,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "82814c30-e542-11f1-9e91-00000a1ace29",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The Oscar bait, the blockbusters, the genre oddities",
+            "ios": {
+                "alert": {
+                    "body": "The Oscar bait, the blockbusters, the genre oddities",
+                    "title": "Holiday Movie Preview"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/entertainment/movies/2026/11/19/packed-holiday-movie-slate-serves-up-all-manner-cinematic-delights/",
+                        "datetime": "2026-11-21T00:28:44.204000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b00e5bcbfad712e0000004d",
+                        "targetTopic": "editors_picks",
+                        "text": "What to expect from filmmakers\u2019 end-of-year lineup."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e813c340-e536-11f1-87db-00000a1ace01",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "In secret memo, Hegseth restricts U.S.-Canada defense relationship",
+            "ios": {
+                "alert": {
+                    "body": "In secret memo, Hegseth restricts U.S.-Canada defense relationship",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/11/20/secret-hegseth-memo-restricts-us-canada-defense-relationship/",
+                        "datetime": "2026-11-20T23:05:40.673000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b00d2444c07ed2f00000050",
+                        "targetTopic": "breaking-news",
+                        "text": "The classified directive is another provocation in the Trump administration\u2019s feud with Ottawa. One U.S. official said it\u2019s sure to be seen as a \u201cslap in the face.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "1bd2d641-e52c-11f1-b906-00000a1ace7f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Think America should ditch the electoral college? Think again.",
+            "ios": {
+                "alert": {
+                    "body": "Think America should ditch the electoral college? Think again.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/18/democrats-should-reform-electoral-college-not-bypass-it/",
+                        "datetime": "2026-11-20T21:48:23.017000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b00c0274c07ed2f0000004f",
+                        "targetTopic": "opinions",
+                        "text": "There\u2019s no need to skirt the Constitution to fix presidential elections."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
