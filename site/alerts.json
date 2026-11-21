@@ -491983,5 +491983,197 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "b3075630-e5e5-11f1-87a4-00000a1ace75",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "local"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Young child dies of measles in Virginia, health officials report, making it latest state where resurgent virus has turned deadly",
+            "ios": {
+                "alert": {
+                    "body": "Young child dies of measles in Virginia, health officials report, making it latest state where resurgent virus has turned deadly",
+                    "title": "D.C. Region"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:local",
+                        "contentURL": "https://www.washingtonpost.com/health/2026/11/21/virginia-reports-young-child-has-died-measles-first-since-1978/",
+                        "datetime": "2026-11-21T19:56:53.599000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b01f785d99d8c2f00000055",
+                        "targetTopic": "local",
+                        "text": "It is the state\u2019s first measles-associated death since 1978, said Brookie Crawford, a spokeswoman for the Virginia Department of Health."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "e7918f20-e5df-11f1-b6a4-00000a1acefb",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "GOP set to block Trump Pentagon picks as other military moves face headwinds",
+            "ios": {
+                "alert": {
+                    "body": "GOP set to block Trump Pentagon picks as other military moves face headwinds",
+                    "title": "Resistance in the Senate"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/national-security/2026/11/21/gop-set-block-trump-pentagon-picks-other-military-moves-face-headwinds/",
+                        "datetime": "2026-11-21T19:15:24.773000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b01edcc208f282f00000054",
+                        "targetTopic": "breaking-news",
+                        "text": "Senate Republicans won\u2019t advance two political nominees for key policy jobs. The administration\u2019s nominees to lead the Army and Navy also have encountered resistance, as has its ask for hundreds of billions of dollars in defense funding."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ffc68b80-e5d6-11f1-b5ec-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What an awkward encounter taught me about the No. 1 obstacle in dating",
+            "ios": {
+                "alert": {
+                    "body": "What an awkward encounter taught me about the No. 1 obstacle in dating",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/20/i-prayed-relationship-then-it-happened/",
+                        "datetime": "2026-11-21T18:11:39.864000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b01dedb208f282f00000053",
+                        "targetTopic": "opinions",
+                        "text": "Optimization isn\u2019t always the answer, P.G. Sittenfeld writes."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c13561f1-e5f7-11f1-9c34-00000a1ace96",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Entitled and out of touch, AI CEOs are heading for a fall, our chief economic correspondent writes",
+            "ios": {
+                "alert": {
+                    "body": "Entitled and out of touch, AI CEOs are heading for a fall, our chief economic correspondent writes",
+                    "title": "What History Tells Us"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/21/history-lesson-ai-ceos-alienate-americans-your-own-peril/",
+                        "datetime": "2026-11-21T22:06:08.273000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b0215d0d99d8c2f00000056",
+                        "targetTopic": "editors_picks",
+                        "text": "While Jensen Huang is an extreme example of the AI industry\u2019s image problem, public sentiment and investors have turned against Silicon Valley."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

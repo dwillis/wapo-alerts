@@ -492127,5 +492127,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c13561f1-e5f7-11f1-9c34-00000a1ace96",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Entitled and out of touch, AI CEOs are heading for a fall, our chief economic correspondent writes",
+            "ios": {
+                "alert": {
+                    "body": "Entitled and out of touch, AI CEOs are heading for a fall, our chief economic correspondent writes",
+                    "title": "What History Tells Us"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/21/history-lesson-ai-ceos-alienate-americans-your-own-peril/",
+                        "datetime": "2026-11-21T22:06:08.273000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b0215d0d99d8c2f00000056",
+                        "targetTopic": "editors_picks",
+                        "text": "While Jensen Huang is an extreme example of the AI industry\u2019s image problem, public sentiment and investors have turned against Silicon Valley."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
