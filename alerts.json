@@ -492704,5 +492704,149 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "23c5f861-e751-11f1-8174-00000a1ace95",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "What Trump\u2019s embarrassing trip to China tells the world",
+            "ios": {
+                "alert": {
+                    "body": "What Trump\u2019s embarrassing trip to China tells the world",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/23/trump-met-with-xi-putin-us-allies-watched-nervously/",
+                        "datetime": "2026-11-23T15:18:29.968000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b045945208f282f00000058",
+                        "targetTopic": "opinions",
+                        "text": "A tale of two conferences, but only one of them for strengthening democracies."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "66a00cf0-e749-11f1-90ac-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nvidia reinstates Jensen Huang as CEO, citing \u2018input from senior levels\u2019 of U.S. government",
+            "ios": {
+                "alert": {
+                    "body": "Nvidia reinstates Jensen Huang as CEO, citing \u2018input from senior levels\u2019 of U.S. government",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/23/nvidia-board-reinstates-jensen-huang-after-us-government-input/",
+                        "datetime": "2026-11-23T14:23:06.206000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b044c4ad99d8c2f0000005a",
+                        "targetTopic": "breaking-news",
+                        "text": "Huang had resigned from the computer chip giant earlier this month after admitting to an affair with a woman believed to be linked to Chinese intelligence services. President Donald Trump has consistently voiced his support for Huang."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "6a28d5a0-e735-11f1-aa04-0000a1ace4d2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House seats. Trump\u2019s clout. Crypto dinner. COP31 acrimony. Winter forecast. Herbicide warning. Diplomatic dogs. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "House seats. Trump\u2019s clout. Crypto dinner. COP31 acrimony. Winter forecast. Herbicide warning. Diplomatic dogs. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/11/23/7-things-know-monday-november-23/?noredirect=1",
+                        "datetime": "2026-11-23T12:00:02.069000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X7K3GSVEEFBEHLHFS4KPSV6LCA.png&w=1440",
+                        "pushID": "6b042ac2208f282f00000057",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
