@@ -492848,5 +492848,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "bba7a982-e760-11f1-8252-000a1ace3927",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: Wife \u2018overloaded\u2019 by texting that spouse sees as short and sweet",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: Wife \u2018overloaded\u2019 by texting that spouse sees as short and sweet",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/11/22/carolyn-hax-wife-overloaded-by-texts-that-spouse-calls-short-sweet/",
+                        "datetime": "2026-11-23T17:10:07.306000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b04736fd99d8c2f0000005b",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax: Wife \u2018overloaded\u2019 by texting that spouse sees as short and sweet"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "c4c47890-e756-11f1-9d44-000000a1acef",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "A dad who bluntly defended his gay daughter unseated a powerful Republican in North Carolina",
+            "ios": {
+                "alert": {
+                    "body": "A dad who bluntly defended his gay daughter unseated a powerful Republican in North Carolina",
+                    "title": "A Viral Moment"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/23/this-proud-dad-lesbian-just-defeated-powerful-gop-congresswoman/",
+                        "datetime": "2026-11-23T15:58:47.634000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b0462b7208f282f00000059",
+                        "targetTopic": "editors_picks",
+                        "text": "Chuck Hubbard prevailed in a deep-red district, and his folksy message of acceptance may provide a road map for Democrats in the South."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
