@@ -492608,5 +492608,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "a1cf3f21-e6e1-11f1-9365-00000a1aceb2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "These dogs have passports, embassy invites and a taste for diplomats\u2019 shoes",
+            "ios": {
+                "alert": {
+                    "body": "These dogs have passports, embassy invites and a taste for diplomats\u2019 shoes",
+                    "title": "Worldly Pooches of D.C."
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/lifestyle/2026/11/22/these-dogs-have-passports-embassy-invites-taste-diplomats-shoes/",
+                        "datetime": "2026-11-23T02:00:17.879000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b039e314c07ed2f00000056",
+                        "targetTopic": "editors_picks",
+                        "text": "A look inside the Washington homes and lives of seven dog-loving ambassadors and their canine companions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "38eed460-e6d3-11f1-8431-000000a1ace1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "us"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "The remarkable recovery of a National Guardsman shot near the White House",
+            "ios": {
+                "alert": {
+                    "body": "The remarkable recovery of a National Guardsman shot near the White House",
+                    "title": "Deadly Attack\u2019s Survivor"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:us",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/11/22/long-journey-remarkable-recovery-staff-sgt-andrew-wolfe/",
+                        "datetime": "2026-11-23T00:17:08.976000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b038604208f282f00000056",
+                        "targetTopic": "us",
+                        "text": "A year after Staff Sgt. Andrew Wolfe was shot in the head, his mind and body are healing. But his life was turned upside down."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
