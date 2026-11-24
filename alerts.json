@@ -493473,5 +493473,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "47721b90-e80f-11f1-8d0b-000000a1ace2",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Nixon had a tell when he lied. His lawyer told Bob Woodward all about it.",
+            "ios": {
+                "alert": {
+                    "body": "Nixon had a tell when he lied. His lawyer told Bob Woodward all about it.",
+                    "title": "The President\u2019s Secrets"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/books/2026/11/24/excerpt-bob-woodwards-secrets/",
+                        "datetime": "2026-11-24T13:59:34.290000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b059846d99d8c2f00000061",
+                        "targetTopic": "breaking-news",
+                        "text": "In his new book, the longtime Washington Post journalist looks back at the surprising sources who helped him expose the Watergate cover-up."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
