@@ -493425,5 +493425,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "99069190-e7fe-11f1-83b6-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "the7_briefs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Jensen Huang. Trump vs. Newsom. Democratic gains. Lead particles. Ukraine. Thanksgiving storm. Bob Woodward. Catch up now.",
+            "ios": {
+                "alert": {
+                    "body": "Jensen Huang. Trump vs. Newsom. Democratic gains. Lead particles. Ukraine. Thanksgiving storm. Bob Woodward. Catch up now.",
+                    "title": "The 7"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:the7_briefs",
+                        "contentURL": "https://www.washingtonpost.com/the-seven/2026/11/24/7-things-know-tuesday-november-24/?noredirect=1",
+                        "datetime": "2026-11-24T12:00:09.717000Z",
+                        "imageURL": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4QIAXUGCMJH6DLJZB27WLR72DM.png&w=1440",
+                        "pushID": "6b057c49208f282f0000005d",
+                        "targetTopic": "the7_briefs",
+                        "text": "Today\u2019s seven most important and interesting stories."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
