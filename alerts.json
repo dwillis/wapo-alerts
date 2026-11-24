@@ -493521,5 +493521,485 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "c436dcb0-e855-11f1-b2b8-000000a1acec",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Kilmar Abrego Garc\u00eda will leave U.S. voluntarily to avoid deportation, ending 20-month legal saga",
+            "ios": {
+                "alert": {
+                    "body": "Kilmar Abrego Garc\u00eda will leave U.S. voluntarily to avoid deportation, ending 20-month legal saga",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/11/24/kilmar-abrego-garcia/",
+                        "datetime": "2026-11-24T22:24:08.397000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b060e88bfad712e00000056",
+                        "targetTopic": "breaking-news",
+                        "text": "The Salvadoran migrant living in Maryland was illegally deported to his home country, then brought back to the U.S. and threatened with deportation to African countries."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d2950270-e84e-11f1-a474-00000a1ace84",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "My mom had a secret ingredient. I discovered it making stuffed artichokes.",
+            "ios": {
+                "alert": {
+                    "body": "My mom had a secret ingredient. I discovered it making stuffed artichokes.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/24/thanksgiving-dish-filled-with-memories-my-mother/",
+                        "datetime": "2026-11-24T21:34:26.020000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b0602e2bfad712e00000055",
+                        "targetTopic": "opinions",
+                        "text": "For Thanksgiving, I will serve this dish filled with memories and love."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ad7c1450-e84a-11f1-9092-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "House Democrat vows to investigate Trump\u2019s efforts to reshape Smithsonian after photos of apparent overhaul plan surfaced",
+            "ios": {
+                "alert": {
+                    "body": "House Democrat vows to investigate Trump\u2019s efforts to reshape Smithsonian after photos of apparent overhaul plan surfaced",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/11/24/smithsonian-head-responds-overhaul-plan-that-was-spied-train/",
+                        "datetime": "2026-11-24T21:04:45.788000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b05fbedbfad712e00000054",
+                        "targetTopic": "breaking-news",
+                        "text": "Rep. Chellie Pingree of Maine and the Smithsonian\u2019s outgoing secretary, Lonnie G. Bunch III, defended the institution\u2019s independence a day after news broke of purported plans that include firing more than a dozen employees."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2fa761a0-e837-11f1-8189-000a1ace4c7d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump awards the Presidential Medal of Freedom to Rudy Giuliani, a longtime friend and former personal lawyer",
+            "ios": {
+                "alert": {
+                    "body": "Trump awards the Presidential Medal of Freedom to Rudy Giuliani, a longtime friend and former personal lawyer",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/24/trump-award-rudy-giuliani-presidential-medal-freedom/",
+                        "datetime": "2026-11-24T18:45:14.239000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b05db3abfad712e00000053",
+                        "targetTopic": "politics",
+                        "text": "Giuliani, a former mayor of New York, became the face of President Donald Trump\u2019s unsuccessful efforts to overturn the results of his 2020 reelection loss. It\u2019s uncommon, although not unprecedented, for a president to give the award to a prominent political ally."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "de5df901-e834-11f1-8097-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Democrat flips a Tennessee House district, AP reports, adding to the record majority her party will have in January",
+            "ios": {
+                "alert": {
+                    "body": "Democrat flips a Tennessee House district, AP reports, adding to the record majority her party will have in January",
+                    "title": "Politics Alert"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/elections/2026/11/24/democrat-wins-tennessee-house-district-adding-partys-record-majority/",
+                        "datetime": "2026-11-24T18:28:38.831000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b05d756d99d8c2f00000064",
+                        "targetTopic": "politics",
+                        "text": "Victoria Broderick has won the U.S. House seat in Tennessee\u2019s 4th Congressional District, according to the Associated Press, giving Democrats 259 seats in the lower chamber \u2014 a modern record."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d4940cf0-e831-11f1-b5e7-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Army says it must detonate lead azide to avoid a \u2018worst-case scenario\u2019 and urges Iowa town\u2019s vulnerable residents to evacuate",
+            "ios": {
+                "alert": {
+                    "body": "Army says it must detonate lead azide to avoid a \u2018worst-case scenario\u2019 and urges Iowa town\u2019s vulnerable residents to evacuate",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/11/24/lead-azide-must-be-detonated-iowa-army-says-some-residents-urged-evacuate/",
+                        "datetime": "2026-11-24T18:06:53.940000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b05d23d208f282f0000005f",
+                        "targetTopic": "breaking-news",
+                        "text": "The controlled detonation of the highly sensitive explosive compound set for Wednesday at the Iowa Army Ammunition Plant in Middletown is needed, federal officials said, because the lead azide has become increasingly unstable and is at risk to explode on its own."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "45927ff2-e82c-11f1-b5e7-000000a1ace9",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax: New friends have her weighing the cost of maintaining college ties",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax: New friends have her weighing the cost of maintaining college ties",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/11/24/carolyn-hax-new-friends-highlight-cost-maintaining-college-ties/",
+                        "datetime": "2026-11-24T17:27:06.547000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b05c8eabfad712e00000052",
+                        "targetTopic": "advice",
+                        "text": "https://www.washingtonpost.com/advice/2026/11/24/carolyn-hax-new-friends-highlight-cost-maintaining-college-ties/"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "ef93fb11-e826-11f1-abf0-0000a1acec37",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Pope Francis\u2019s private diary reveals inner torment, visions of Devil",
+            "ios": {
+                "alert": {
+                    "body": "Pope Francis\u2019s private diary reveals inner torment, visions of Devil",
+                    "title": "Personal Demons"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/world/2026/11/24/pope-francis-private-diary-reveals-torment-visions-devil/",
+                        "datetime": "2026-11-24T16:48:54.758000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b05bff6208f282f0000005e",
+                        "targetTopic": "editors_picks",
+                        "text": "In an exclusive interview, the cardinal who curated Francis\u2019s notes said they were full of deeply personal experiences and fears, including a glimpse of \u201cthe entrance to hell.\u201d"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cd049040-e81d-11f1-a1ef-0000a1acef67",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "It\u2019s not just measles. RFK Jr.\u2019s vaccine policies could bring back another disease.",
+            "ios": {
+                "alert": {
+                    "body": "It\u2019s not just measles. RFK Jr.\u2019s vaccine policies could bring back another disease.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/24/how-kennedy-hepatitis-b-vaccine-policy-could-increase-liver-cancer/",
+                        "datetime": "2026-11-24T15:43:31.304000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b05b0a3d99d8c2f00000063",
+                        "targetTopic": "opinions",
+                        "text": "New research shows vaccine recommendation changes could leave millions more Americans vulnerable."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "2492d350-e817-11f1-8a85-00000a1acec3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "news_quiz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Make every letter count with Untangled, The Post\u2019s new word maze game",
+            "ios": {
+                "alert": {
+                    "body": "Make every letter count with Untangled, The Post\u2019s new word maze game",
+                    "title": "Ready for a New Game?"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:news_quiz",
+                        "contentURL": "https://www.washingtonpost.com/games/untangled/?itid=app-alert",
+                        "datetime": "2026-11-24T14:55:51.765000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b05a577d99d8c2f00000062",
+                        "targetTopic": "news_quiz",
+                        "text": "Make every letter count with Untangled, The Post\u2019s new word maze game"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
