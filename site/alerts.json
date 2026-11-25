@@ -494001,5 +494001,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "ed9ce100-e85d-11f1-a005-00000a1acecc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Signs of danger at Iowa ammunition plant emerged months before Army says it knew, emails show",
+            "ios": {
+                "alert": {
+                    "body": "Signs of danger at Iowa ammunition plant emerged months before Army says it knew, emails show",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/climate-environment/2026/11/24/warning-signs-iowa-plant-emerged-months-before-army-says-it-knew-emails-show/",
+                        "datetime": "2026-11-24T23:22:33.784000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b061c39bfad712e00000057",
+                        "targetTopic": "breaking-news",
+                        "text": "Contractors at the facility in Middletown, Iowa, where the government plans to detonate several tons of degrading lead explosives on Wednesday, sought to neutralize the hazardous material nearly six months before the Army says it became aware the munitions posed a risk, documents reviewed by The Washington Post show. Operators\u2019 request to a Georgia-based explosives disposal company on Sept. 24, 2025, asked for a plan to \u201cneutralize and dispose\u201d of 68 drums of lead azide at the plant."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "9113e900-e868-11f1-8313-00000a1aceb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Five things therapists wish you would stop saying to your adult children",
+            "ios": {
+                "alert": {
+                    "body": "Five things therapists wish you would stop saying to your adult children",
+                    "title": "Staying Connected"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/11/24/5-things-therapists-wish-youd-stop-saying-your-adult-kids/",
+                        "datetime": "2026-11-25T00:38:43.029000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b062e13bfad712e00000058",
+                        "targetTopic": "editors_picks",
+                        "text": "Even when you mean well, these common phrases can shut down a conversation and make it harder to feel close. Here\u2019s what to say instead."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]

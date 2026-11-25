@@ -494049,5 +494049,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "9113e900-e868-11f1-8313-00000a1aceb0",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Five things therapists wish you would stop saying to your adult children",
+            "ios": {
+                "alert": {
+                    "body": "Five things therapists wish you would stop saying to your adult children",
+                    "title": "Staying Connected"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/wellness/2026/11/24/5-things-therapists-wish-youd-stop-saying-your-adult-kids/",
+                        "datetime": "2026-11-25T00:38:43.029000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b062e13bfad712e00000058",
+                        "targetTopic": "editors_picks",
+                        "text": "Even when you mean well, these common phrases can shut down a conversation and make it harder to feel close. Here\u2019s what to say instead."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
