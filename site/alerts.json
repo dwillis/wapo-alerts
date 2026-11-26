@@ -494721,5 +494721,101 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "4f8e2de1-e941-11f1-8d62-000000a1aced",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Sean Hannity has outlasted Fox News rivals. He\u2019s turning his focus to the GOP\u2019s future.",
+            "ios": {
+                "alert": {
+                    "body": "Sean Hannity has outlasted Fox News rivals. He\u2019s turning his focus to the GOP\u2019s future.",
+                    "title": "A Conservative Kingmaker"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/style/2026/11/25/sean-hannity-has-outlasted-fox-rivals-now-hes-eyeing-gops-future/",
+                        "datetime": "2026-11-26T02:30:13.893000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b0799b54c07ed2f0000005a",
+                        "targetTopic": "editors_picks",
+                        "text": "After 30 years at the network, the conservative political commentator has weathered scandals and watched rivals come and go. Now, he is preparing to size up the Republicans who hope to succeed the president."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "f0f36021-e93b-11f1-91b7-000000a1ace5",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Judge halts FCC review of ABC licenses, saying it likely violates First Amendment",
+            "ios": {
+                "alert": {
+                    "body": "Judge halts FCC review of ABC licenses, saying it likely violates First Amendment",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/business/2026/11/25/judge-halts-fcc-review-abc-licenses-saying-it-probably-violates-first-amendment/",
+                        "datetime": "2026-11-26T01:51:47.634000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b0790b3208f282f00000064",
+                        "targetTopic": "breaking-news",
+                        "text": "ABC and its parent company, Disney, sued the FCC in August, accusing the agency of waging a \u201cretaliatory campaign\u201d because President Donald Trump\u2019s administration disapproves of their programming. The FCC, chaired by Trump appointee Brendan Carr, claimed that its decision to review all of ABC\u2019s licenses was because of a probe into the network\u2019s corporate diversity practices."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
