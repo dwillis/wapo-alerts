@@ -494289,5 +494289,437 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "cff641d0-e8f5-11f1-9f6c-0000a1aceb72",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Do I really need to brine the turkey? Ask us your Thanksgiving cooking questions.",
+            "ios": {
+                "alert": {
+                    "body": "Do I really need to brine the turkey? Ask us your Thanksgiving cooking questions.",
+                    "title": "Editors' Picks"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/food/2026/11/25/qa-ask-posts-becky-krystal-about-your-thanksgiving-recipes-kitchen-dilemmas/",
+                        "datetime": "2026-11-25T17:29:47.554000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b071b0bd99d8c2f00000068",
+                        "targetTopic": "editors_picks",
+                        "text": "In a special pre-Thanksgiving edition, recipes editor Becky Krystal and Food team colleagues answer your cooking questions."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "caced460-e8f5-11f1-b9eb-0000a1acedc3",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump voters stayed home. Here\u2019s the real lesson.",
+            "ios": {
+                "alert": {
+                    "body": "Trump voters stayed home. Here\u2019s the real lesson.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/25/missing-2026-gop-midterm-voters-are-not-whole-story/",
+                        "datetime": "2026-11-25T17:29:38.892000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b071b02d99d8c2f00000067",
+                        "targetTopic": "opinions",
+                        "text": "Firing up the MAGA base won\u2019t rebuild a coalition that depended on voters who were never MAGA."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "114bee62-e8f0-11f1-b416-0000a1acecf1",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "advice"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Carolyn Hax readers give advice: Without co-workers, husband has no social life but us. What can we do?",
+            "ios": {
+                "alert": {
+                    "body": "Carolyn Hax readers give advice: Without co-workers, husband has no social life but us. What can we do?",
+                    "title": "Advice"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:advice",
+                        "contentURL": "https://www.washingtonpost.com/advice/2026/11/25/new-job-husband-lost-all-social-contact-hax-readers-give-advice/",
+                        "datetime": "2026-11-25T16:48:40.177000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b071168d99d8c2f00000066",
+                        "targetTopic": "advice",
+                        "text": "Carolyn Hax readers give advice: Without co-workers, husband has no social life but us. What can we do?"
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "cd3a6ea0-e920-11f1-ae8c-00000a1acec4",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Hegseth, Pentagon officials floated using wartime law to pressure Nvidia into reappointing Jensen Huang as CEO",
+            "ios": {
+                "alert": {
+                    "body": "Hegseth, Pentagon officials floated using wartime law to pressure Nvidia into reappointing Jensen Huang as CEO",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/technology/2026/11/25/hegseth-pentagon-officials-floated-using-wartime-law-reappoint-nvidia-ceo/",
+                        "datetime": "2026-11-25T22:37:31.308000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b07632b208f282f00000063",
+                        "targetTopic": "breaking-news",
+                        "text": "The Cold War-era Defense Production Act gives presidents extraordinary power to intervene in the economy. Deploying it to restore Huang had been a popular idea in some Silicon Valley circles."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3501adc0-e91a-11f1-986f-0000000a1ace",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "opinions"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "America passed a national test of character. That\u2019s worth giving thanks.",
+            "ios": {
+                "alert": {
+                    "body": "America passed a national test of character. That\u2019s worth giving thanks.",
+                    "title": "Opinion"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:opinions",
+                        "contentURL": "https://www.washingtonpost.com/opinions/2026/11/25/midterm-elections-bring-thanksgiving-miracle-democracy/",
+                        "datetime": "2026-11-25T21:50:18.980000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b07581a4c07ed2f00000059",
+                        "targetTopic": "opinions",
+                        "text": "America passed a national test of character. That\u2019s worth giving thanks."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "d970b2b1-e916-11f1-b54e-0000a1ace92d",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Macy\u2019s Thanksgiving Day Parade postponed by storm, rescheduled for Saturday",
+            "ios": {
+                "alert": {
+                    "body": "Macy\u2019s Thanksgiving Day Parade postponed by storm, rescheduled for Saturday",
+                    "title": "Breaking News"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/nation/2026/11/25/macys-thanksgiving-day-parade-postponed-by-storm-rescheduled-saturday/",
+                        "datetime": "2026-11-25T21:26:16.849000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b075278208f282f00000062",
+                        "targetTopic": "breaking-news",
+                        "text": "A major storm is expected to impact the East Coast on Thursday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "06000b80-e914-11f1-b0ff-000a1acefd8c",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "politics"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Home sale by Rep. Elise Stefanik\u2019s family was deemed \u2018unusual,\u2019 D.C. records show",
+            "ios": {
+                "alert": {
+                    "body": "Home sale by Rep. Elise Stefanik\u2019s family was deemed \u2018unusual,\u2019 D.C. records show",
+                    "title": "Local"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:politics",
+                        "contentURL": "https://www.washingtonpost.com/dc-md-va/2026/11/25/sale-stefanik-familys-dc-home-deemed-unusual-city-records-show/",
+                        "datetime": "2026-11-25T21:06:03.116000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b074dbb4c07ed2f00000058",
+                        "targetTopic": "politics",
+                        "text": "A rowhome owned by the New York congresswoman was taken off the market after failing to sell for $1.99 million \u2014 and then sold in an off-market transaction for $910,000 more than the original price."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "27db6dc0-e90b-11f1-b57c-0000a1acec2f",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Here are the Black Friday travel deals actually worth your money in this season of offers",
+            "ios": {
+                "alert": {
+                    "body": "Here are the Black Friday travel deals actually worth your money in this season of offers",
+                    "title": "Hunting for Bargains"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/travel/2026/11/25/its-season-travel-deals-here-are-ones-worth-your-time/",
+                        "datetime": "2026-11-25T20:02:34.476000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b073edabfad712e0000005b",
+                        "targetTopic": "editors_picks",
+                        "text": "To winnow the crush of sales to something manageable, consider our top picks for the shopping spree that extends into Cyber Monday and Travel Tuesday."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
+    },
+    {
+        "airshipId": "3491afe0-e904-11f1-a110-00000a1acebc",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "editors_picks"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "DHS chief Mullin rebuked by White House insiders, but Trump backs him",
+            "ios": {
+                "alert": {
+                    "body": "DHS chief Mullin rebuked by White House insiders, but Trump backs him",
+                    "title": "On Unstable Ground"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:editors_picks",
+                        "contentURL": "https://www.washingtonpost.com/immigration/2026/11/25/homeland-security-secretary-faces-criticism-over-tech-breakdowns-immigration/",
+                        "datetime": "2026-11-25T19:12:49.299000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b073331bfad712e0000005a",
+                        "targetTopic": "editors_picks",
+                        "text": "Markwayne Mullin has faced criticism for his shaky public response to recent technology-related outages that grounded planes, shut off corporate email systems and disrupted banking networks. President Donald Trump has said he\u2019s doing a good job."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
