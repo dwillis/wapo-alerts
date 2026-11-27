@@ -495729,5 +495729,53 @@
                 "sound": "default"
             }
         }
+    },
+    {
+        "airshipId": "78570880-eaa1-11f1-9646-0000a1acebbd",
+        "audience": {
+            "AND": [
+                {
+                    "group": "ua_opt_in",
+                    "tag": "true"
+                },
+                {
+                    "OR": [
+                        {
+                            "tag": [
+                                "breaking-news"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "device_types": [
+            "android",
+            "ios",
+            "amazon"
+        ],
+        "notification": {
+            "alert": "Trump officials to speed president\u2019s projects with special meeting before new Congress",
+            "ios": {
+                "alert": {
+                    "body": "Trump officials to speed president\u2019s projects with special meeting before new Congress",
+                    "title": "Exclusive"
+                },
+                "category": "BREAKING_NEWS",
+                "extra": {
+                    "custom": {
+                        "analyticsTopic": "classic:ios:breaking-news",
+                        "contentURL": "https://www.washingtonpost.com/politics/2026/11/27/white-house-speed-trump-projects-with-special-meeting-ahead-new-congress/",
+                        "datetime": "2026-11-27T20:31:05.158000Z",
+                        "imageURL": "https://wp-stat.s3.us-east-1.amazonaws.com/default_revere.jpeg",
+                        "pushID": "6b09e889bec1773000000002",
+                        "targetTopic": "breaking-news",
+                        "text": "Mark Paoletta, a White House official who leads the National Capital Planning Commission, will hold a special Dec. 31 meeting to expedite several of President Donald Trump\u2019s construction projects, including a golf course in D.C, according to an email sent to commission members. The meeting would come just days before Democrats take control of Congress and gain seats on the panel."
+                    }
+                },
+                "mutable_content": true,
+                "sound": "default"
+            }
+        }
     }
 ]
